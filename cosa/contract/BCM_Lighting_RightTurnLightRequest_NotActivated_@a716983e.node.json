@@ -23,7 +23,7 @@
             ],
             "name": "BCM_Lighting_RightTurnLightRequest_NotActivated",
             "source": "remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_RIGHT; remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_SM; remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_HAZARD",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

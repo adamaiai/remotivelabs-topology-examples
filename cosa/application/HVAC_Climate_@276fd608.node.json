@@ -14,6 +14,34 @@
             ]
         },
         "aggregations": {
+            "HVAC_Climate_Climate_LeftTemperature_@ab88135d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "HVAC_Climate_Climate_RightTemperature_@8ac172de": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
             "HVAC_Climate_ComputeNeed_@7a7dbe5c": {
                 "stereotype": "ApplicationComputeResourceInterface",
                 "attributes": {
@@ -28,24 +56,6 @@
                     ]
                 }
             },
-            "HVAC_Climate_Climate_LeftTemperature_@ab88135d": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {}
-            },
-            "HVAC_Climate_Climate_RightTemperature_@8ac172de": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {}
-            },
             "HVAC_Climate_LeftTemperature_@ed6889f7": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -53,7 +63,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
+                    ]
+                }
             },
             "HVAC_Climate_RightTemperature_@0315a474": {
                 "stereotype": "External_Input",
@@ -62,7 +77,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -72,7 +92,7 @@
             ],
             "name": "HVAC_Climate",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

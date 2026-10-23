@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "PAM_ECU_Compute_@5139a91d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "PAM_Info_ComputeNeed is served by PAM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "PAM_Info runs on the PAM ECU."
             ],
             "name": "ComputeAllocation_PAM_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

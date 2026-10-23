@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "ABS_ECU_Compute_@4efd696e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "ABS_Info_ComputeNeed is served by ABS_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "ABS_Info runs on the ABS ECU."
             ],
             "name": "ComputeAllocation_ABS_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

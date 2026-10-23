@@ -30,6 +30,11 @@
                     "realizingIntegration": [
                         "ImplementedGWM_Climate_@282e2aa8"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder GWM is realized by ImplementedGWM_Climate, the realization of GWM_Climate."
+                    ]
                 }
             },
             "Chosen_ClimateActuation_HVAC_@d952f984": {
@@ -48,6 +53,11 @@
                     "realizingIntegration": [
                         "ImplementedHVAC_Climate_@1ff66b80"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder HVAC is realized by ImplementedHVAC_Climate, the realization of HVAC_Climate."
+                    ]
                 }
             },
             "IR_ClimateActuation_GWM_HVACService_LeftTemperature_@d59879cd": {
@@ -60,6 +70,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Climate_HVACService_LeftTemperature_@ed46c44a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_HVACService_LeftTemperature_Delegation of placeholder GWM is provided by GWM_Climate_HVACService_LeftTemperature of GWM_Climate."
                     ]
                 }
             },
@@ -74,6 +89,11 @@
                     "realizingInterface": [
                         "GWM_Climate_HVACService_RightTemperature_@9dab4d8c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_HVACService_RightTemperature_Delegation of placeholder GWM is provided by GWM_Climate_HVACService_RightTemperature of GWM_Climate."
+                    ]
                 }
             },
             "IR_ClimateActuation_GWM_LeftTemperature_@7ea466bb": {
@@ -86,6 +106,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "GWM_Climate_LeftTemperature_@e242f991"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_LeftTemperature_Assembly of placeholder GWM is provided by GWM_Climate_LeftTemperature of GWM_Climate."
                     ]
                 }
             },
@@ -100,6 +125,11 @@
                     "realizingInterface": [
                         "GWM_Climate_RightTemperature_@7c28a8e9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_RightTemperature_Assembly of placeholder GWM is provided by GWM_Climate_RightTemperature of GWM_Climate."
+                    ]
                 }
             },
             "IR_ClimateActuation_HVAC_Climate_LeftTemperature_@6678343a": {
@@ -112,6 +142,11 @@
                     ],
                     "realizingInterface": [
                         "HVAC_Climate_Climate_LeftTemperature_@ab88135d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_Climate_LeftTemperature_Delegation of placeholder HVAC is provided by HVAC_Climate_Climate_LeftTemperature of HVAC_Climate."
                     ]
                 }
             },
@@ -126,6 +161,11 @@
                     "realizingInterface": [
                         "HVAC_Climate_Climate_RightTemperature_@8ac172de"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_Climate_RightTemperature_Delegation of placeholder HVAC is provided by HVAC_Climate_Climate_RightTemperature of HVAC_Climate."
+                    ]
                 }
             },
             "IR_ClimateActuation_HVAC_LeftTemperature_@5f391f56": {
@@ -138,6 +178,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "HVAC_Climate_LeftTemperature_@ed6889f7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_LeftTemperature_Assembly of placeholder HVAC is provided by HVAC_Climate_LeftTemperature of HVAC_Climate."
                     ]
                 }
             },
@@ -152,16 +197,24 @@
                     "realizingInterface": [
                         "HVAC_Climate_RightTemperature_@0315a474"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateActuation_RightTemperature_Assembly of placeholder HVAC is provided by HVAC_Climate_RightTemperature of HVAC_Climate."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedClimateActuation_@84506107",
             "description": [
-                "Realizes ClimateActuation by its parts' realizations."
+                "Realizes ClimateActuation by its parts' realizations.",
+                "",
+                "- GWM \u2192 ImplementedGWM_Climate",
+                "- HVAC \u2192 ImplementedHVAC_Climate"
             ],
             "name": "ImplementedClimateActuation",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

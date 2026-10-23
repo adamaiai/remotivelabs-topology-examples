@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "HVAC_ECU_Compute_@9b654228"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "HVAC_Climate_ComputeNeed is served by HVAC_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "HVAC_Climate runs on the HVAC ECU."
             ],
             "name": "ComputeAllocation_HVAC_Climate",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

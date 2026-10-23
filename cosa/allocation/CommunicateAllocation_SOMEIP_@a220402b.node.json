@@ -40,6 +40,11 @@
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ClimateControlDesign_HVACService_LeftTemperature_Assembly is carried on SOMEIP_Bandwidth."
+                    ]
                 }
             },
             "CIR_ClimateControlDesign_HVACService_RightTemperature_Assembly_@d71c85dc": {
@@ -51,6 +56,11 @@
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ClimateControlDesign_HVACService_RightTemperature_Assembly is carried on SOMEIP_Bandwidth."
                     ]
                 }
             },
@@ -64,6 +74,11 @@
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverInformation_GearService_Gear_Assembly is carried on SOMEIP_Bandwidth."
+                    ]
                 }
             },
             "CIR_InformationDisplay_LocationService_Heading_Assembly_@64d3ba6e": {
@@ -75,6 +90,11 @@
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire InformationDisplay_LocationService_Heading_Assembly is carried on SOMEIP_Bandwidth."
                     ]
                 }
             },
@@ -88,6 +108,11 @@
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire InformationDisplay_LocationService_Latitude_Assembly is carried on SOMEIP_Bandwidth."
+                    ]
                 }
             },
             "CIR_InformationDisplay_LocationService_Longitude_Assembly_@8fcf7fba": {
@@ -99,6 +124,11 @@
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire InformationDisplay_LocationService_Longitude_Assembly is carried on SOMEIP_Bandwidth."
                     ]
                 }
             },
@@ -112,6 +142,11 @@
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire InformationDisplay_SpeedService_Speed_Assembly is carried on SOMEIP_Bandwidth."
+                    ]
                 }
             },
             "CIR_InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@fefa054b": {
@@ -123,6 +158,11 @@
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly is carried on SOMEIP_Bandwidth."
                     ]
                 }
             },
@@ -136,6 +176,11 @@
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly is carried on SOMEIP_Bandwidth."
+                    ]
                 }
             }
         },
@@ -146,7 +191,7 @@
             ],
             "name": "CommunicateAllocation_SOMEIP",
             "source": "remotive_car/platform/databases/someip.fibex.xml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

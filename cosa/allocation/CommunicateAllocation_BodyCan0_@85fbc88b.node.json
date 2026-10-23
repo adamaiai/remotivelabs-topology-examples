@@ -80,6 +80,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ClimateActuation_LeftTemperature_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ClimateActuation_RightTemperature_Assembly_@8403b3a3": {
@@ -91,6 +96,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ClimateActuation_RightTemperature_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -104,6 +114,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_DriverControlsDesign_GearLeverPosition_Assembly_@b5433a29": {
@@ -115,6 +130,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_GearLeverPosition_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -128,6 +148,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_SteeringWheelPosition_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@bcd4f191": {
@@ -139,6 +164,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_LeftBrakeLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -152,6 +182,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@f4343f91": {
@@ -163,6 +198,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -176,6 +216,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@e7677906": {
@@ -187,6 +232,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_LeftTurnLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -200,6 +250,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_RightBrakeLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@e0ce2109": {
@@ -211,6 +266,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -224,6 +284,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_RightHighBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@d54c2458": {
@@ -235,6 +300,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_RightLowBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -248,6 +318,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_RightTurnLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_RemotiveCar_LeftBrakeLightRequest_Assembly_@f4461d52": {
@@ -259,6 +334,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_LeftBrakeLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -272,6 +352,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_LeftDaylightRunningLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_RemotiveCar_LeftHighBeamLightRequest_Assembly_@8b68fc82": {
@@ -283,6 +368,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_LeftHighBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -296,6 +386,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_LeftLowBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_RemotiveCar_LeftTurnLightRequest_Assembly_@d25cbfee": {
@@ -307,6 +402,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_LeftTurnLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -320,6 +420,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_RightBrakeLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_RemotiveCar_RightDaylightRunningLightRequest_Assembly_@0aad9372": {
@@ -331,6 +436,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_RightDaylightRunningLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -344,6 +454,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_RightHighBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_RemotiveCar_RightLowBeamLightRequest_Assembly_@821a96ae": {
@@ -355,6 +470,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_RightLowBeamLightRequest_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -368,6 +488,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RemotiveCar_RightTurnLightRequest_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_VehicleInformationDesign_Heading_Assembly_@be9518c9": {
@@ -379,6 +504,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_Heading_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -392,6 +522,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_Latitude_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_VehicleInformationDesign_Longitude_Assembly_@912d21a1": {
@@ -403,6 +538,11 @@
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_Longitude_Assembly is carried on BodyCan0_Bandwidth."
                     ]
                 }
             },
@@ -416,6 +556,11 @@
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_ProximityDistance_Assembly is carried on BodyCan0_Bandwidth."
+                    ]
                 }
             }
         },
@@ -426,7 +571,7 @@
             ],
             "name": "CommunicateAllocation_BodyCan0",
             "source": "remotive_car/platform/databases/body_can.dbc",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

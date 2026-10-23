@@ -92,6 +92,28 @@
                     ]
                 }
             },
+            "InformationDisplay_BatteryCurrent_Delegation_@5a0a36f3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_BatteryCurrent_@a262b61b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input BatteryCurrent to DIM, GWM."
+                    ]
+                }
+            },
             "InformationDisplay_BatteryPower_@ba5167e4": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -103,6 +125,28 @@
                 "metadata": {
                     "description": [
                         "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "InformationDisplay_BatteryPower_Delegation_@2a70906f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_BatteryPower_@ba5167e4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input BatteryPower to DIM, GWM."
                     ]
                 }
             },
@@ -120,6 +164,28 @@
                     ]
                 }
             },
+            "InformationDisplay_BatteryVoltage_Delegation_@19b790ab": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_BatteryVoltage_@454bd6d9"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input BatteryVoltage to DIM, GWM."
+                    ]
+                }
+            },
             "InformationDisplay_Cluster_LeftTurnTelltale_@6cc16484": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -131,6 +197,27 @@
                 "metadata": {
                     "description": [
                         "Left turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "InformationDisplay_Cluster_LeftTurnTelltale_Delegation_@1455b80d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Cluster_LeftTurnTelltale_@6cc16484"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_LeftTurnTelltale from DIM to the InformationDisplay output."
                     ]
                 }
             },
@@ -148,6 +235,27 @@
                     ]
                 }
             },
+            "InformationDisplay_Cluster_ProximityDistance_Delegation_@5c85facd": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Cluster_ProximityDistance_@05fd8a96"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_ProximityDistance from DIM to the InformationDisplay output."
+                    ]
+                }
+            },
             "InformationDisplay_Cluster_RightTurnTelltale_@3ee31f79": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -162,6 +270,27 @@
                     ]
                 }
             },
+            "InformationDisplay_Cluster_RightTurnTelltale_Delegation_@4a9ac98d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Cluster_RightTurnTelltale_@3ee31f79"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_RightTurnTelltale from DIM to the InformationDisplay output."
+                    ]
+                }
+            },
             "InformationDisplay_Cluster_StateOfCharge_@04fe52fa": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -173,6 +302,27 @@
                 "metadata": {
                     "description": [
                         "Battery state of charge shown in the instrument cluster."
+                    ]
+                }
+            },
+            "InformationDisplay_Cluster_StateOfCharge_Delegation_@3b24a4ad": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Cluster_StateOfCharge_@04fe52fa"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_StateOfCharge from DIM to the InformationDisplay output."
                     ]
                 }
             },
@@ -210,6 +360,27 @@
                     ]
                 }
             },
+            "InformationDisplay_Heading_Delegation_@96b9b8b0": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Heading_@b7f69d64"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input Heading to GWM."
+                    ]
+                }
+            },
             "InformationDisplay_IHU_@154ce01b": {
                 "stereotype": "InternalPlaceholderComponent",
                 "attributes": {},
@@ -234,6 +405,27 @@
                     ]
                 }
             },
+            "InformationDisplay_Infotainment_LeftTurnIndicator_Delegation_@d5e1065f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_IHU_@154ce01b"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Infotainment_LeftTurnIndicator_@2d87201f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_LeftTurnIndicator from IHU to the InformationDisplay output."
+                    ]
+                }
+            },
             "InformationDisplay_Infotainment_RightTurnIndicator_@c025871c": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -245,6 +437,27 @@
                 "metadata": {
                     "description": [
                         "Right turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "InformationDisplay_Infotainment_RightTurnIndicator_Delegation_@d24bdb6c": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_IHU_@154ce01b"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Infotainment_RightTurnIndicator_@c025871c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_RightTurnIndicator from IHU to the InformationDisplay output."
                     ]
                 }
             },
@@ -262,6 +475,27 @@
                     ]
                 }
             },
+            "InformationDisplay_Infotainment_VehicleSpeed_Delegation_@1dd12d85": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_IHU_@154ce01b"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Infotainment_VehicleSpeed_@0e4135df"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_VehicleSpeed from IHU to the InformationDisplay output."
+                    ]
+                }
+            },
             "InformationDisplay_Latitude_@09b18c0b": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -273,6 +507,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ]
+                }
+            },
+            "InformationDisplay_Latitude_Delegation_@9c35fbf3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Latitude_@09b18c0b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input Latitude to GWM."
                     ]
                 }
             },
@@ -290,6 +545,28 @@
                     ]
                 }
             },
+            "InformationDisplay_LeftBrakeLightRequest_Delegation_@63653894": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_LeftBrakeLightRequest_@995ae6c5"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input LeftBrakeLightRequest to DIM, GWM."
+                    ]
+                }
+            },
             "InformationDisplay_LeftDaylightRunningLightRequest_@2b6efea1": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -301,6 +578,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "InformationDisplay_LeftDaylightRunningLightRequest_Delegation_@11808f8e": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_LeftDaylightRunningLightRequest_@2b6efea1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input LeftDaylightRunningLightRequest to DIM."
                     ]
                 }
             },
@@ -318,6 +616,27 @@
                     ]
                 }
             },
+            "InformationDisplay_LeftHighBeamLightRequest_Delegation_@d6fbd17f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_LeftHighBeamLightRequest_@def1018e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input LeftHighBeamLightRequest to DIM."
+                    ]
+                }
+            },
             "InformationDisplay_LeftLowBeamLightRequest_@12de3053": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -332,6 +651,27 @@
                     ]
                 }
             },
+            "InformationDisplay_LeftLowBeamLightRequest_Delegation_@3a02162a": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_LeftLowBeamLightRequest_@12de3053"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input LeftLowBeamLightRequest to DIM."
+                    ]
+                }
+            },
             "InformationDisplay_LeftTurnLightRequest_@effd63a6": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -343,6 +683,28 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "InformationDisplay_LeftTurnLightRequest_Delegation_@c9c65432": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_LeftTurnLightRequest_@effd63a6"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input LeftTurnLightRequest to DIM, GWM."
                     ]
                 }
             },
@@ -477,6 +839,27 @@
                     ]
                 }
             },
+            "InformationDisplay_Longitude_Delegation_@d8f427cd": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_Longitude_@0d4d0459"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input Longitude to GWM."
+                    ]
+                }
+            },
             "InformationDisplay_MotorSpeed_@b31ac7e7": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -488,6 +871,28 @@
                 "metadata": {
                     "description": [
                         "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
+            },
+            "InformationDisplay_MotorSpeed_Delegation_@00c62b3c": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_MotorSpeed_@b31ac7e7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input MotorSpeed to DIM, GWM."
                     ]
                 }
             },
@@ -505,6 +910,28 @@
                     ]
                 }
             },
+            "InformationDisplay_MotorTorque_Delegation_@1c3a3d7a": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_MotorTorque_@d001b7cf"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input MotorTorque to DIM, GWM."
+                    ]
+                }
+            },
             "InformationDisplay_ProximityDistance_@6fed436b": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -516,6 +943,28 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 ProximityInfo (id 109, 50 ms, raw 255 = NoObject). Sent by PAM, received by DIM, GWM."
+                    ]
+                }
+            },
+            "InformationDisplay_ProximityDistance_Delegation_@f4f05a7e": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_ProximityDistance_@6fed436b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input ProximityDistance to DIM, GWM."
                     ]
                 }
             },
@@ -533,6 +982,28 @@
                     ]
                 }
             },
+            "InformationDisplay_RightBrakeLightRequest_Delegation_@40c79538": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_RightBrakeLightRequest_@00712ae3"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input RightBrakeLightRequest to DIM, GWM."
+                    ]
+                }
+            },
             "InformationDisplay_RightDaylightRunningLightRequest_@f8e8e9e3": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -544,6 +1015,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "InformationDisplay_RightDaylightRunningLightRequest_Delegation_@d2d070b0": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_RightDaylightRunningLightRequest_@f8e8e9e3"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input RightDaylightRunningLightRequest to DIM."
                     ]
                 }
             },
@@ -561,6 +1053,27 @@
                     ]
                 }
             },
+            "InformationDisplay_RightHighBeamLightRequest_Delegation_@54f0e679": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_RightHighBeamLightRequest_@758c0f3c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input RightHighBeamLightRequest to DIM."
+                    ]
+                }
+            },
             "InformationDisplay_RightLowBeamLightRequest_@0913fda4": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -575,6 +1088,27 @@
                     ]
                 }
             },
+            "InformationDisplay_RightLowBeamLightRequest_Delegation_@ebf68981": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "outer": [
+                        "InformationDisplay_RightLowBeamLightRequest_@0913fda4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input RightLowBeamLightRequest to DIM."
+                    ]
+                }
+            },
             "InformationDisplay_RightTurnLightRequest_@a84b9ae5": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -586,6 +1120,28 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "InformationDisplay_RightTurnLightRequest_Delegation_@3202d5ba": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_RightTurnLightRequest_@a84b9ae5"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input RightTurnLightRequest to DIM, GWM."
                     ]
                 }
             },
@@ -639,6 +1195,28 @@
                 "metadata": {
                     "description": [
                         "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 1022 = Error, 1023 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "InformationDisplay_StateOfCharge_Delegation_@e133245c": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "inner": [
+                        "InformationDisplay_DIM_@7611ed20",
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "outer": [
+                        "InformationDisplay_StateOfCharge_@b2984f89"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input StateOfCharge to DIM, GWM."
                     ]
                 }
             },
@@ -734,449 +1312,6 @@
                     ]
                 }
             },
-            "InformationDisplay_BatteryCurrent_Delegation_@5a0a36f3": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "A"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_BatteryCurrent_@a262b61b"
-                    ]
-                }
-            },
-            "InformationDisplay_BatteryPower_Delegation_@2a70906f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "kW"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_BatteryPower_@ba5167e4"
-                    ]
-                }
-            },
-            "InformationDisplay_BatteryVoltage_Delegation_@19b790ab": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "V"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_BatteryVoltage_@454bd6d9"
-                    ]
-                }
-            },
-            "InformationDisplay_Cluster_LeftTurnTelltale_Delegation_@1455b80d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Cluster_LeftTurnTelltale_@6cc16484"
-                    ]
-                }
-            },
-            "InformationDisplay_Cluster_ProximityDistance_Delegation_@5c85facd": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Cluster_ProximityDistance_@05fd8a96"
-                    ]
-                }
-            },
-            "InformationDisplay_Cluster_RightTurnTelltale_Delegation_@4a9ac98d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Cluster_RightTurnTelltale_@3ee31f79"
-                    ]
-                }
-            },
-            "InformationDisplay_Cluster_StateOfCharge_Delegation_@3b24a4ad": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "percent"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Cluster_StateOfCharge_@04fe52fa"
-                    ]
-                }
-            },
-            "InformationDisplay_Heading_Delegation_@96b9b8b0": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Heading_@b7f69d64"
-                    ]
-                }
-            },
-            "InformationDisplay_Infotainment_LeftTurnIndicator_Delegation_@d5e1065f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_IHU_@154ce01b"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Infotainment_LeftTurnIndicator_@2d87201f"
-                    ]
-                }
-            },
-            "InformationDisplay_Infotainment_RightTurnIndicator_Delegation_@d24bdb6c": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_IHU_@154ce01b"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Infotainment_RightTurnIndicator_@c025871c"
-                    ]
-                }
-            },
-            "InformationDisplay_Infotainment_VehicleSpeed_Delegation_@1dd12d85": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m/s"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_IHU_@154ce01b"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Infotainment_VehicleSpeed_@0e4135df"
-                    ]
-                }
-            },
-            "InformationDisplay_Latitude_Delegation_@9c35fbf3": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Latitude_@09b18c0b"
-                    ]
-                }
-            },
-            "InformationDisplay_LeftBrakeLightRequest_Delegation_@63653894": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_LeftBrakeLightRequest_@995ae6c5"
-                    ]
-                }
-            },
-            "InformationDisplay_LeftDaylightRunningLightRequest_Delegation_@11808f8e": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_LeftDaylightRunningLightRequest_@2b6efea1"
-                    ]
-                }
-            },
-            "InformationDisplay_LeftHighBeamLightRequest_Delegation_@d6fbd17f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_LeftHighBeamLightRequest_@def1018e"
-                    ]
-                }
-            },
-            "InformationDisplay_LeftLowBeamLightRequest_Delegation_@3a02162a": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_LeftLowBeamLightRequest_@12de3053"
-                    ]
-                }
-            },
-            "InformationDisplay_LeftTurnLightRequest_Delegation_@c9c65432": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_LeftTurnLightRequest_@effd63a6"
-                    ]
-                }
-            },
-            "InformationDisplay_Longitude_Delegation_@d8f427cd": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_Longitude_@0d4d0459"
-                    ]
-                }
-            },
-            "InformationDisplay_MotorSpeed_Delegation_@00c62b3c": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "rpm"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_MotorSpeed_@b31ac7e7"
-                    ]
-                }
-            },
-            "InformationDisplay_MotorTorque_Delegation_@1c3a3d7a": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "Nm"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_MotorTorque_@d001b7cf"
-                    ]
-                }
-            },
-            "InformationDisplay_ProximityDistance_Delegation_@f4f05a7e": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_ProximityDistance_@6fed436b"
-                    ]
-                }
-            },
-            "InformationDisplay_RightBrakeLightRequest_Delegation_@40c79538": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_RightBrakeLightRequest_@00712ae3"
-                    ]
-                }
-            },
-            "InformationDisplay_RightDaylightRunningLightRequest_Delegation_@d2d070b0": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_RightDaylightRunningLightRequest_@f8e8e9e3"
-                    ]
-                }
-            },
-            "InformationDisplay_RightHighBeamLightRequest_Delegation_@54f0e679": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_RightHighBeamLightRequest_@758c0f3c"
-                    ]
-                }
-            },
-            "InformationDisplay_RightLowBeamLightRequest_Delegation_@ebf68981": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20"
-                    ],
-                    "outer": [
-                        "InformationDisplay_RightLowBeamLightRequest_@0913fda4"
-                    ]
-                }
-            },
-            "InformationDisplay_RightTurnLightRequest_Delegation_@3202d5ba": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_RightTurnLightRequest_@a84b9ae5"
-                    ]
-                }
-            },
-            "InformationDisplay_StateOfCharge_Delegation_@e133245c": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "percent"
-                },
-                "connections": {
-                    "inner": [
-                        "InformationDisplay_DIM_@7611ed20",
-                        "InformationDisplay_GWM_@f827b62e"
-                    ],
-                    "outer": [
-                        "InformationDisplay_StateOfCharge_@b2984f89"
-                    ]
-                }
-            },
             "InformationDisplay_uispeed_Delegation_@4b85a8c2": {
                 "stereotype": "InternalDelegation_Intf",
                 "attributes": {
@@ -1191,16 +1326,58 @@
                     "outer": [
                         "InformationDisplay_uispeed_@c6edcdf2"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the InformationDisplay input uispeed to GWM."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "InformationDisplay_@64ec7866",
             "description": [
-                "Technical design (TSC level). DIM shows information in the cluster; GWM forwards it to the infotainment unit over SOME/IP."
+                "Technical design (TSC level). DIM shows information in the cluster; GWM forwards it to the infotainment unit over SOME/IP.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  subgraph n_InformationDisplay[\"InformationDisplay\"]",
+                "    n_InformationDisplay_DIM__7611ed20[\"DIM<br/>(DIM_Info)\"]",
+                "    n_InformationDisplay_GWM__f827b62e[\"GWM<br/>(GWM_Info)\"]",
+                "    n_InformationDisplay_IHU__154ce01b[\"IHU<br/>(IHU_Info)\"]",
+                "  end",
+                "  n_port_in_LeftDaylightRunningLightRequest(\"LeftDaylightRunningLightRequest<br/>LeftHighBeamLightRequest<br/>LeftLowBeamLightRequest<br/>RightDaylightRunningLightRequest<br/>RightHighBeamLightRequest<br/>RightLowBeamLightRequest\")",
+                "  n_port_in_LeftTurnLightRequest(\"BatteryCurrent<br/>BatteryPower<br/>BatteryVoltage<br/>LeftBrakeLightRequest<br/>LeftTurnLightRequest<br/>MotorSpeed<br/>MotorTorque<br/>ProximityDistance<br/>RightBrakeLightRequest<br/>RightTurnLightRequest<br/>StateOfCharge\")",
+                "  n_port_in_Longitude([\"Longitude\"])",
+                "  n_port_in_Latitude([\"Latitude\"])",
+                "  n_port_in_Heading([\"Heading\"])",
+                "  n_port_in_uispeed([\"uispeed\"])",
+                "  n_port_out_Cluster_LeftTurnTelltale([\"Cluster_LeftTurnTelltale\"])",
+                "  n_port_out_Cluster_RightTurnTelltale([\"Cluster_RightTurnTelltale\"])",
+                "  n_port_out_Cluster_StateOfCharge([\"Cluster_StateOfCharge\"])",
+                "  n_port_out_Cluster_ProximityDistance([\"Cluster_ProximityDistance\"])",
+                "  n_port_out_Infotainment_VehicleSpeed([\"Infotainment_VehicleSpeed\"])",
+                "  n_port_out_Infotainment_LeftTurnIndicator([\"Infotainment_LeftTurnIndicator\"])",
+                "  n_port_out_Infotainment_RightTurnIndicator([\"Infotainment_RightTurnIndicator\"])",
+                "  n_InformationDisplay_DIM__7611ed20 --> n_port_out_Cluster_LeftTurnTelltale",
+                "  n_InformationDisplay_DIM__7611ed20 --> n_port_out_Cluster_ProximityDistance",
+                "  n_InformationDisplay_DIM__7611ed20 --> n_port_out_Cluster_RightTurnTelltale",
+                "  n_InformationDisplay_DIM__7611ed20 --> n_port_out_Cluster_StateOfCharge",
+                "  n_InformationDisplay_GWM__f827b62e -->|\"LocationService_Heading<br/>LocationService_Latitude<br/>LocationService_Longitude<br/>SpeedService_Speed<br/>TurnlightIndicator_LeftTurnlight<br/>TurnlightIndicator_RightTurnlight\"| n_InformationDisplay_IHU__154ce01b",
+                "  n_InformationDisplay_IHU__154ce01b --> n_port_out_Infotainment_LeftTurnIndicator",
+                "  n_InformationDisplay_IHU__154ce01b --> n_port_out_Infotainment_RightTurnIndicator",
+                "  n_InformationDisplay_IHU__154ce01b --> n_port_out_Infotainment_VehicleSpeed",
+                "  n_port_in_Heading --> n_InformationDisplay_GWM__f827b62e",
+                "  n_port_in_Latitude --> n_InformationDisplay_GWM__f827b62e",
+                "  n_port_in_LeftDaylightRunningLightRequest --> n_InformationDisplay_DIM__7611ed20",
+                "  n_port_in_LeftTurnLightRequest --> n_InformationDisplay_DIM__7611ed20",
+                "  n_port_in_LeftTurnLightRequest --> n_InformationDisplay_GWM__f827b62e",
+                "  n_port_in_Longitude --> n_InformationDisplay_GWM__f827b62e",
+                "  n_port_in_uispeed --> n_InformationDisplay_GWM__f827b62e",
+                "```"
             ],
             "name": "InformationDisplay",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

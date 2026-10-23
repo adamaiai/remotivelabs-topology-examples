@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "SCCM_ECU_@59d09083",
             "description": [
-                "Steering Column Control Module ECU hardware. Channels: DriverCan0."
+                "Steering Column Control Module ECU hardware. Channels: DriverCan0.",
+                "",
+                "Runs: SCCM_Lighting, SCCM_DriverControls."
             ],
             "name": "SCCM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

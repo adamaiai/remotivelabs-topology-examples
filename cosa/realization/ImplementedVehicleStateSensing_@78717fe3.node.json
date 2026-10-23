@@ -28,6 +28,11 @@
                     "realizingIntegration": [
                         "ImplementedABS_Info_@405692ec"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder ABS is realized by ImplementedABS_Info, the realization of ABS_Info."
+                    ]
                 }
             },
             "Chosen_VehicleStateSensing_BMS_@948c2342": {
@@ -48,6 +53,11 @@
                     "realizingIntegration": [
                         "ImplementedBMS_Info_@005f2bc5"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder BMS is realized by ImplementedBMS_Info, the realization of BMS_Info."
+                    ]
                 }
             },
             "Chosen_VehicleStateSensing_PCM_@317e86b8": {
@@ -66,6 +76,11 @@
                     "realizingIntegration": [
                         "ImplementedPCM_Info_@ca133cee"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder PCM is realized by ImplementedPCM_Info, the realization of PCM_Info."
+                    ]
                 }
             },
             "IR_VehicleStateSensing_ABS_uispeed_@2e28d7ad": {
@@ -78,6 +93,11 @@
                     ],
                     "realizingInterface": [
                         "ABS_Info_uispeed_@01c24500"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_uispeed_Delegation of placeholder ABS is provided by ABS_Info_uispeed of ABS_Info."
                     ]
                 }
             },
@@ -92,6 +112,11 @@
                     "realizingInterface": [
                         "BMS_Info_BatteryCurrent_@153b4b17"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_BatteryCurrent_Delegation of placeholder BMS is provided by BMS_Info_BatteryCurrent of BMS_Info."
+                    ]
                 }
             },
             "IR_VehicleStateSensing_BMS_BatteryPower_@e033f133": {
@@ -104,6 +129,11 @@
                     ],
                     "realizingInterface": [
                         "BMS_Info_BatteryPower_@028262ff"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_BatteryPower_Delegation of placeholder BMS is provided by BMS_Info_BatteryPower of BMS_Info."
                     ]
                 }
             },
@@ -118,6 +148,11 @@
                     "realizingInterface": [
                         "BMS_Info_BatteryVoltage_@713815f0"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_BatteryVoltage_Delegation of placeholder BMS is provided by BMS_Info_BatteryVoltage of BMS_Info."
+                    ]
                 }
             },
             "IR_VehicleStateSensing_BMS_MotorSpeed_@81d0c055": {
@@ -130,6 +165,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BMS_Info_MotorSpeed_@08906137"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_MotorSpeed_Assembly of placeholder BMS is provided by BMS_Info_MotorSpeed of BMS_Info."
                     ]
                 }
             },
@@ -144,6 +184,11 @@
                     "realizingInterface": [
                         "BMS_Info_MotorTorque_@59a4f236"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_MotorTorque_Assembly of placeholder BMS is provided by BMS_Info_MotorTorque of BMS_Info."
+                    ]
                 }
             },
             "IR_VehicleStateSensing_BMS_StateOfCharge_@115e5ab7": {
@@ -156,6 +201,11 @@
                     ],
                     "realizingInterface": [
                         "BMS_Info_StateOfCharge_@20c672bf"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_StateOfCharge_Delegation of placeholder BMS is provided by BMS_Info_StateOfCharge of BMS_Info."
                     ]
                 }
             },
@@ -170,6 +220,11 @@
                     "realizingInterface": [
                         "PCM_Info_MotorSpeed_@876eac26"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_MotorSpeed_Assembly of placeholder PCM is provided by PCM_Info_MotorSpeed of PCM_Info."
+                    ]
                 }
             },
             "IR_VehicleStateSensing_PCM_MotorSpeed_Delegation_@0ea6a56e": {
@@ -182,6 +237,11 @@
                     ],
                     "realizingInterface": [
                         "PCM_Info_MotorSpeed_@876eac26"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_MotorSpeed_Delegation of placeholder PCM is provided by PCM_Info_MotorSpeed of PCM_Info."
                     ]
                 }
             },
@@ -196,6 +256,11 @@
                     "realizingInterface": [
                         "PCM_Info_MotorTorque_@d7acb2d0"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_MotorTorque_Assembly of placeholder PCM is provided by PCM_Info_MotorTorque of PCM_Info."
+                    ]
                 }
             },
             "IR_VehicleStateSensing_PCM_MotorTorque_Delegation_@168219d1": {
@@ -209,16 +274,25 @@
                     "realizingInterface": [
                         "PCM_Info_MotorTorque_@d7acb2d0"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port VehicleStateSensing_MotorTorque_Delegation of placeholder PCM is provided by PCM_Info_MotorTorque of PCM_Info."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedVehicleStateSensing_@78717fe3",
             "description": [
-                "Realizes VehicleStateSensing by its parts' realizations."
+                "Realizes VehicleStateSensing by its parts' realizations.",
+                "",
+                "- ABS \u2192 ImplementedABS_Info",
+                "- BMS \u2192 ImplementedBMS_Info",
+                "- PCM \u2192 ImplementedPCM_Info"
             ],
             "name": "ImplementedVehicleStateSensing",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

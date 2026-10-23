@@ -17,7 +17,7 @@
                 "Derived, not in the specification: Inside the exterior lighting design, rear lighting lights the rear left turn lamp from LeftTurnLightRequest."
             ],
             "name": "ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

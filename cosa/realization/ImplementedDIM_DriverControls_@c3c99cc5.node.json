@@ -17,7 +17,7 @@
                 "Implementation: RemotiveTopology mock generated from the database (DIM also receives on chassis_can.dbc); the DIM implementation serves all of its software components."
             ],
             "name": "ImplementedDIM_DriverControls",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

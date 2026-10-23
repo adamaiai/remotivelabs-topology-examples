@@ -24,7 +24,12 @@
                     "hasBecome": "Off",
                     "shouldBe": "Left"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects left but Off is read: the left indicators do not light."
+                    ]
+                }
             },
             "CC_ExteriorLighting_Driver_TurnSignal_Left_as_Right_@f76d2c9b": {
                 "stereotype": "ConfusionCell",
@@ -32,7 +37,12 @@
                     "hasBecome": "Right",
                     "shouldBe": "Left"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects left but Right is read: the wrong side is indicated."
+                    ]
+                }
             },
             "CC_ExteriorLighting_Driver_TurnSignal_Off_as_Left_@2909dea5": {
                 "stereotype": "ConfusionCell",
@@ -40,7 +50,12 @@
                     "hasBecome": "Left",
                     "shouldBe": "Off"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects no turn but Left is read: the left indicators light without request."
+                    ]
+                }
             },
             "CC_ExteriorLighting_Driver_TurnSignal_Off_as_Right_@7b51c58c": {
                 "stereotype": "ConfusionCell",
@@ -48,7 +63,12 @@
                     "hasBecome": "Right",
                     "shouldBe": "Off"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects no turn but Right is read: the right indicators light without request."
+                    ]
+                }
             },
             "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Left_@d5be0b6a": {
                 "stereotype": "ConfusionCell",
@@ -56,7 +76,12 @@
                     "hasBecome": "Left",
                     "shouldBe": "Right"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects right but Left is read: the wrong side is indicated."
+                    ]
+                }
             },
             "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Off_@f2cf834d": {
                 "stereotype": "ConfusionCell",
@@ -64,7 +89,12 @@
                     "hasBecome": "Off",
                     "shouldBe": "Right"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects right but Off is read: the right indicators do not light."
+                    ]
+                }
             },
             "CM_ExteriorLighting_Driver_TurnSignal_@9d39f77f": {
                 "stereotype": "ConfusionMatrix",
@@ -78,6 +108,11 @@
                         "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Left_@d5be0b6a",
                         "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Off_@f2cf834d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Every mix-up between Left, Right and Off on the turn stalk is dangerous: it either hides a turn intention or indicates one the driver did not make."
+                    ]
                 }
             }
         },
@@ -87,7 +122,7 @@
                 "Critical: ExteriorLighting_Driver_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
             ],
             "name": "DC_ExteriorLighting_Driver_TurnSignal_Misread",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

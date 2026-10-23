@@ -19,7 +19,7 @@
                 "Derived, not in the specification: Rear light subsystem lights the rear right turn lamp as requested on BodyCan0 (refines COMP_REQ_RLCM_CONTROL to the subsystem boundary)."
             ],
             "name": "RearLight_Lamp_RearRightTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -31,6 +31,11 @@
                     "realizingIntegration": [
                         "ImplementedDIM_DriverControls_@c3c99cc5"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DIM is realized by ImplementedDIM_DriverControls, the realization of DIM_DriverControls."
+                    ]
                 }
             },
             "Chosen_DriverInformation_GWM_@8388bc84": {
@@ -49,6 +54,11 @@
                     "realizingIntegration": [
                         "ImplementedGWM_DriverControls_@2744bf5b"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder GWM is realized by ImplementedGWM_DriverControls, the realization of GWM_DriverControls."
+                    ]
                 }
             },
             "Chosen_DriverInformation_IHU_@aee05f77": {
@@ -65,6 +75,11 @@
                     "realizingIntegration": [
                         "ImplementedIHU_DriverControls_@f4b56faf"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder IHU is realized by ImplementedIHU_DriverControls, the realization of IHU_DriverControls."
+                    ]
                 }
             },
             "IR_DriverInformation_DIM_AcceleratorPedalPosition_BodyCan0_@b14dee9b": {
@@ -77,6 +92,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_DriverControls_AcceleratorPedalPosition_BodyCan0_@ddcda7fe"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_AcceleratorPedalPosition_BodyCan0_Delegation of placeholder DIM is provided by DIM_DriverControls_AcceleratorPedalPosition_BodyCan0 of DIM_DriverControls."
                     ]
                 }
             },
@@ -91,6 +111,11 @@
                     "realizingInterface": [
                         "DIM_DriverControls_Cluster_GearLeverPosition_@e568c8bb"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_Cluster_GearLeverPosition_Delegation of placeholder DIM is provided by DIM_DriverControls_Cluster_GearLeverPosition of DIM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverInformation_DIM_GearLeverPosition_@d8c5dd7a": {
@@ -103,6 +128,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_DriverControls_GearLeverPosition_@1d918e86"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_GearLeverPosition_Delegation of placeholder DIM is provided by DIM_DriverControls_GearLeverPosition of DIM_DriverControls."
                     ]
                 }
             },
@@ -117,6 +147,11 @@
                     "realizingInterface": [
                         "DIM_DriverControls_SteeringWheelPosition_@d813f7a8"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_SteeringWheelPosition_Delegation of placeholder DIM is provided by DIM_DriverControls_SteeringWheelPosition of DIM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverInformation_GWM_AcceleratorPedalPosition_BodyCan0_@ca909c52": {
@@ -129,6 +164,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_DriverControls_AcceleratorPedalPosition_BodyCan0_@c9b0e281"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_AcceleratorPedalPosition_BodyCan0_Delegation of placeholder GWM is provided by GWM_DriverControls_AcceleratorPedalPosition_BodyCan0 of GWM_DriverControls."
                     ]
                 }
             },
@@ -143,6 +183,11 @@
                     "realizingInterface": [
                         "GWM_DriverControls_GearLeverPosition_@520e5d7e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_GearLeverPosition_Delegation of placeholder GWM is provided by GWM_DriverControls_GearLeverPosition of GWM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverInformation_GWM_GearService_Gear_@f639067f": {
@@ -155,6 +200,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "GWM_DriverControls_GearService_Gear_@b8688f8f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_GearService_Gear_Assembly of placeholder GWM is provided by GWM_DriverControls_GearService_Gear of GWM_DriverControls."
                     ]
                 }
             },
@@ -169,6 +219,11 @@
                     "realizingInterface": [
                         "GWM_DriverControls_SteeringWheelPosition_@72edc7ef"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_SteeringWheelPosition_Delegation of placeholder GWM is provided by GWM_DriverControls_SteeringWheelPosition of GWM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverInformation_IHU_GearService_Gear_@a97ab870": {
@@ -181,6 +236,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "IHU_DriverControls_GearService_Gear_@aadbf914"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_GearService_Gear_Assembly of placeholder IHU is provided by IHU_DriverControls_GearService_Gear of IHU_DriverControls."
                     ]
                 }
             },
@@ -195,16 +255,25 @@
                     "realizingInterface": [
                         "IHU_DriverControls_Infotainment_Gear_@e4cdd7c9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverInformation_Infotainment_Gear_Delegation of placeholder IHU is provided by IHU_DriverControls_Infotainment_Gear of IHU_DriverControls."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedDriverInformation_@3fa97991",
             "description": [
-                "Realizes DriverInformation by its parts' realizations."
+                "Realizes DriverInformation by its parts' realizations.",
+                "",
+                "- DIM \u2192 ImplementedDIM_DriverControls",
+                "- GWM \u2192 ImplementedGWM_DriverControls",
+                "- IHU \u2192 ImplementedIHU_DriverControls"
             ],
             "name": "ImplementedDriverInformation",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

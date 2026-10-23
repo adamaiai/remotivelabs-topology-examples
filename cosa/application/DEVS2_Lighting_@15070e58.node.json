@@ -44,7 +44,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Rear left turn indicator lit."
+                    ]
+                }
             },
             "DEVS2_Lighting_Lamp_RearRightTurn_@c701f797": {
                 "stereotype": "External_Output",
@@ -53,7 +58,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Rear right turn indicator lit."
+                    ]
+                }
             },
             "DEVS2_Lighting_ReqLeft_@c76f03ce": {
                 "stereotype": "External_Input",
@@ -62,7 +72,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by DEVS2."
+                    ]
+                }
             },
             "DEVS2_Lighting_ReqRight_@d7c8b3c5": {
                 "stereotype": "External_Input",
@@ -71,7 +86,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by DEVS2."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2EndSgn1_@52bb78bb": {
                 "stereotype": "External_Output",
@@ -80,7 +100,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2EndSgn2_@5275980a": {
                 "stereotype": "External_Output",
@@ -89,7 +114,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2EndSgn3_@d7bb4ea2": {
                 "stereotype": "External_Output",
@@ -98,7 +128,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2Nr1_@9a8c1bf3": {
                 "stereotype": "External_Output",
@@ -107,7 +142,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2Nr2_@20487e54": {
                 "stereotype": "External_Output",
@@ -116,7 +156,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2Nr3_@a1561d1d": {
                 "stereotype": "External_Output",
@@ -125,7 +170,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomePartNrDEVS2Nr4_@b3ece72b": {
                 "stereotype": "External_Output",
@@ -134,7 +184,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ]
+                }
             },
             "DEVS2_Lighting_SomeReq2Type2_@82b93ec0": {
                 "stereotype": "External_Input",
@@ -143,7 +198,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by DEVS2."
+                    ]
+                }
             },
             "DEVS2_Lighting_counter_@021ec14f": {
                 "stereotype": "External_Input",
@@ -152,7 +212,12 @@
                     "subTypeEnum": "TypeReq2Enum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03; RL also reads it (rl behavioral model)). Sent by RLCM, received by DEVS2, RL."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -162,7 +227,7 @@
             ],
             "name": "DEVS2_Lighting",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

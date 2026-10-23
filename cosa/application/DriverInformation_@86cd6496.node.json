@@ -41,6 +41,28 @@
                     ]
                 }
             },
+            "DriverInformation_AcceleratorPedalPosition_BodyCan0_Delegation_@e6b74531": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "inner": [
+                        "DriverInformation_DIM_@a0024ff8",
+                        "DriverInformation_GWM_@c5b5cee2"
+                    ],
+                    "outer": [
+                        "DriverInformation_AcceleratorPedalPosition_BodyCan0_@0e74cbdf"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverInformation input AcceleratorPedalPosition_BodyCan0 to DIM, GWM."
+                    ]
+                }
+            },
             "DriverInformation_Cluster_GearLeverPosition_@fc704d0f": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -52,6 +74,27 @@
                 "metadata": {
                     "description": [
                         "Selected gear shown in the instrument cluster."
+                    ]
+                }
+            },
+            "DriverInformation_Cluster_GearLeverPosition_Delegation_@dfe4bf9c": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverInformation_DIM_@a0024ff8"
+                    ],
+                    "outer": [
+                        "DriverInformation_Cluster_GearLeverPosition_@fc704d0f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_GearLeverPosition from DIM to the DriverInformation output."
                     ]
                 }
             },
@@ -86,6 +129,28 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 GearInfo (id 108, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
+            },
+            "DriverInformation_GearLeverPosition_Delegation_@4c825f1f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverInformation_DIM_@a0024ff8",
+                        "DriverInformation_GWM_@c5b5cee2"
+                    ],
+                    "outer": [
+                        "DriverInformation_GearLeverPosition_@e256a179"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverInformation input GearLeverPosition to DIM, GWM."
                     ]
                 }
             },
@@ -152,70 +217,6 @@
                     ]
                 }
             },
-            "DriverInformation_SteeringWheelPosition_@b4d2fab6": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 SteeringWheelInfo (id 106, 50 ms). Sent by BCM, received by DIM, GWM."
-                    ]
-                }
-            },
-            "DriverInformation_AcceleratorPedalPosition_BodyCan0_Delegation_@e6b74531": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {
-                    "inner": [
-                        "DriverInformation_DIM_@a0024ff8",
-                        "DriverInformation_GWM_@c5b5cee2"
-                    ],
-                    "outer": [
-                        "DriverInformation_AcceleratorPedalPosition_BodyCan0_@0e74cbdf"
-                    ]
-                }
-            },
-            "DriverInformation_Cluster_GearLeverPosition_Delegation_@dfe4bf9c": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "GearLeverPositionEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "DriverInformation_DIM_@a0024ff8"
-                    ],
-                    "outer": [
-                        "DriverInformation_Cluster_GearLeverPosition_@fc704d0f"
-                    ]
-                }
-            },
-            "DriverInformation_GearLeverPosition_Delegation_@4c825f1f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "GearLeverPositionEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "DriverInformation_DIM_@a0024ff8",
-                        "DriverInformation_GWM_@c5b5cee2"
-                    ],
-                    "outer": [
-                        "DriverInformation_GearLeverPosition_@e256a179"
-                    ]
-                }
-            },
             "DriverInformation_Infotainment_Gear_Delegation_@cca0ce5d": {
                 "stereotype": "InternalDelegation_Intf",
                 "attributes": {
@@ -229,6 +230,25 @@
                     ],
                     "outer": [
                         "DriverInformation_Infotainment_Gear_@6aced9cd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_Gear from IHU to the DriverInformation output."
+                    ]
+                }
+            },
+            "DriverInformation_SteeringWheelPosition_@b4d2fab6": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 SteeringWheelInfo (id 106, 50 ms). Sent by BCM, received by DIM, GWM."
                     ]
                 }
             },
@@ -247,16 +267,44 @@
                     "outer": [
                         "DriverInformation_SteeringWheelPosition_@b4d2fab6"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverInformation input SteeringWheelPosition to DIM, GWM."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "DriverInformation_@86cd6496",
             "description": [
-                "Technical design (TSC level). DIM shows the driving state in the cluster; GWM forwards the gear to the infotainment unit over SOME/IP."
+                "Technical design (TSC level). DIM shows the driving state in the cluster; GWM forwards the gear to the infotainment unit over SOME/IP.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  subgraph n_DriverInformation[\"DriverInformation\"]",
+                "    n_DriverInformation_DIM__a0024ff8[\"DIM<br/>(DIM_DriverControls)\"]",
+                "    n_DriverInformation_GWM__c5b5cee2[\"GWM<br/>(GWM_DriverControls)\"]",
+                "    n_DriverInformation_IHU__8ab07280[\"IHU<br/>(IHU_DriverControls)\"]",
+                "  end",
+                "  n_port_in_SteeringWheelPosition([\"SteeringWheelPosition\"])",
+                "  n_port_in_AcceleratorPedalPosition_BodyCan0([\"AcceleratorPedalPosition_BodyCan0\"])",
+                "  n_port_in_GearLeverPosition([\"GearLeverPosition\"])",
+                "  n_port_out_Cluster_GearLeverPosition([\"Cluster_GearLeverPosition\"])",
+                "  n_port_out_Infotainment_Gear([\"Infotainment_Gear\"])",
+                "  n_DriverInformation_DIM__a0024ff8 --> n_port_out_Cluster_GearLeverPosition",
+                "  n_DriverInformation_GWM__c5b5cee2 -->|\"GearService_Gear\"| n_DriverInformation_IHU__8ab07280",
+                "  n_DriverInformation_IHU__8ab07280 --> n_port_out_Infotainment_Gear",
+                "  n_port_in_AcceleratorPedalPosition_BodyCan0 --> n_DriverInformation_DIM__a0024ff8",
+                "  n_port_in_AcceleratorPedalPosition_BodyCan0 --> n_DriverInformation_GWM__c5b5cee2",
+                "  n_port_in_GearLeverPosition --> n_DriverInformation_DIM__a0024ff8",
+                "  n_port_in_GearLeverPosition --> n_DriverInformation_GWM__c5b5cee2",
+                "  n_port_in_SteeringWheelPosition --> n_DriverInformation_DIM__a0024ff8",
+                "  n_port_in_SteeringWheelPosition --> n_DriverInformation_GWM__c5b5cee2",
+                "```"
             ],
             "name": "DriverInformation",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

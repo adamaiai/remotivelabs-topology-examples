@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "TCU_ECU_@fe8eaffa",
             "description": [
-                "Telematics Control Unit ECU hardware. Channels: BodyCan0."
+                "Telematics Control Unit ECU hardware. Channels: BodyCan0.",
+                "",
+                "Runs: TCU_Info."
             ],
             "name": "TCU_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -26,11 +26,37 @@
         "metadata": {
             "uuid": "RearLightLIN_@3bfdd247",
             "description": [
-                "LIN 2.1 bus, 19.2 kbit/s, master RLCM, slaves RL and DEVS2. Database rearlight.ldf."
+                "LIN 2.1 bus, 19.2 kbit/s, master RLCM, slaves RL and DEVS2. Database rearlight.ldf.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  n_RearLightLIN[[\"RearLightLIN\"]]",
+                "  n_RLCM[\"RLCM_ECU\"] --- n_RearLightLIN",
+                "  n_RL[\"RL_ECU\"] --- n_RearLightLIN",
+                "  n_DEVS2[\"DEVS2_ECU\"] --- n_RearLightLIN",
+                "```",
+                "",
+                "Schedule table DEVMLIN01Schedule01, one frame slot every 10 ms (70 ms cycle):",
+                "",
+                "```mermaid",
+                "sequenceDiagram",
+                "  participant RLCM as RLCM (master)",
+                "  participant RL",
+                "  participant DEVS2",
+                "  loop every 70 ms",
+                "    RLCM->>DEVS2: DEVMLIN01Fr01 (ReqLeft, ReqRight, counter, SomeReq2Type2, SomeReq1 to RL)",
+                "    RL->>RLCM: DEVS1LIN01Fr1 (counter_times_2, SomeQf, ErrRespDEVS1)",
+                "    RLCM->>DEVS2: DEVMLIN01Fr01",
+                "    RL->>RLCM: DEVS1LIN01Fr1",
+                "    RLCM->>DEVS2: DEVMLIN01Fr01",
+                "    RL->>RLCM: DEVS1LIN01Fr1",
+                "    DEVS2->>RLCM: DEVS2LIN01Fr04 (part number)",
+                "  end",
+                "```"
             ],
             "name": "RearLightLIN",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

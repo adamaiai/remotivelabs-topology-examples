@@ -48,6 +48,11 @@
                     "realizingIntegration": [
                         "ImplementedDIM_Info_@1ab967a6"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DIM is realized by ImplementedDIM_Info, the realization of DIM_Info."
+                    ]
                 }
             },
             "Chosen_InformationDisplay_GWM_@7ad9c350": {
@@ -83,6 +88,11 @@
                     "realizingIntegration": [
                         "ImplementedGWM_Info_@7c6ad9da"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder GWM is realized by ImplementedGWM_Info, the realization of GWM_Info."
+                    ]
                 }
             },
             "Chosen_InformationDisplay_IHU_@5e6d8c29": {
@@ -106,6 +116,11 @@
                     "realizingIntegration": [
                         "ImplementedIHU_Info_@43e101ea"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder IHU is realized by ImplementedIHU_Info, the realization of IHU_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_BatteryCurrent_@98d92586": {
@@ -118,6 +133,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_BatteryCurrent_@95402bdd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_BatteryCurrent_Delegation of placeholder DIM is provided by DIM_Info_BatteryCurrent of DIM_Info."
                     ]
                 }
             },
@@ -132,6 +152,11 @@
                     "realizingInterface": [
                         "DIM_Info_BatteryPower_@6aebd913"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_BatteryPower_Delegation of placeholder DIM is provided by DIM_Info_BatteryPower of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_BatteryVoltage_@0c808fdd": {
@@ -144,6 +169,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_BatteryVoltage_@af7f3ab2"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_BatteryVoltage_Delegation of placeholder DIM is provided by DIM_Info_BatteryVoltage of DIM_Info."
                     ]
                 }
             },
@@ -158,6 +188,11 @@
                     "realizingInterface": [
                         "DIM_Info_Cluster_LeftTurnTelltale_@0a36260e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Cluster_LeftTurnTelltale_Delegation of placeholder DIM is provided by DIM_Info_Cluster_LeftTurnTelltale of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_Cluster_ProximityDistance_@5c6401b0": {
@@ -170,6 +205,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_Cluster_ProximityDistance_@268edfd6"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Cluster_ProximityDistance_Delegation of placeholder DIM is provided by DIM_Info_Cluster_ProximityDistance of DIM_Info."
                     ]
                 }
             },
@@ -184,6 +224,11 @@
                     "realizingInterface": [
                         "DIM_Info_Cluster_RightTurnTelltale_@7a72a4bb"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Cluster_RightTurnTelltale_Delegation of placeholder DIM is provided by DIM_Info_Cluster_RightTurnTelltale of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_Cluster_StateOfCharge_@339ad2b9": {
@@ -196,6 +241,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_Cluster_StateOfCharge_@8aa3717b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Cluster_StateOfCharge_Delegation of placeholder DIM is provided by DIM_Info_Cluster_StateOfCharge of DIM_Info."
                     ]
                 }
             },
@@ -210,6 +260,11 @@
                     "realizingInterface": [
                         "DIM_Info_LeftBrakeLightRequest_@103a363d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftBrakeLightRequest_Delegation of placeholder DIM is provided by DIM_Info_LeftBrakeLightRequest of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_LeftDaylightRunningLightRequest_@9a531ca2": {
@@ -222,6 +277,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_LeftDaylightRunningLightRequest_@1192d155"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftDaylightRunningLightRequest_Delegation of placeholder DIM is provided by DIM_Info_LeftDaylightRunningLightRequest of DIM_Info."
                     ]
                 }
             },
@@ -236,6 +296,11 @@
                     "realizingInterface": [
                         "DIM_Info_LeftHighBeamLightRequest_@69a38389"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftHighBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Info_LeftHighBeamLightRequest of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_LeftLowBeamLightRequest_@4a267189": {
@@ -248,6 +313,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_LeftLowBeamLightRequest_@75d40224"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftLowBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Info_LeftLowBeamLightRequest of DIM_Info."
                     ]
                 }
             },
@@ -262,6 +332,11 @@
                     "realizingInterface": [
                         "DIM_Info_LeftTurnLightRequest_@21c53684"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftTurnLightRequest_Delegation of placeholder DIM is provided by DIM_Info_LeftTurnLightRequest of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_MotorSpeed_@e748b8ae": {
@@ -274,6 +349,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_MotorSpeed_@e0d10d9a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_MotorSpeed_Delegation of placeholder DIM is provided by DIM_Info_MotorSpeed of DIM_Info."
                     ]
                 }
             },
@@ -288,6 +368,11 @@
                     "realizingInterface": [
                         "DIM_Info_MotorTorque_@30b04253"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_MotorTorque_Delegation of placeholder DIM is provided by DIM_Info_MotorTorque of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_ProximityDistance_@d0825f30": {
@@ -300,6 +385,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_ProximityDistance_@14b78b56"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_ProximityDistance_Delegation of placeholder DIM is provided by DIM_Info_ProximityDistance of DIM_Info."
                     ]
                 }
             },
@@ -314,6 +404,11 @@
                     "realizingInterface": [
                         "DIM_Info_RightBrakeLightRequest_@8122de2a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightBrakeLightRequest_Delegation of placeholder DIM is provided by DIM_Info_RightBrakeLightRequest of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_RightDaylightRunningLightRequest_@f449caec": {
@@ -326,6 +421,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_RightDaylightRunningLightRequest_@c4a6b6d7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightDaylightRunningLightRequest_Delegation of placeholder DIM is provided by DIM_Info_RightDaylightRunningLightRequest of DIM_Info."
                     ]
                 }
             },
@@ -340,6 +440,11 @@
                     "realizingInterface": [
                         "DIM_Info_RightHighBeamLightRequest_@52877d7c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightHighBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Info_RightHighBeamLightRequest of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_RightLowBeamLightRequest_@a3969787": {
@@ -352,6 +457,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_RightLowBeamLightRequest_@6804fda2"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightLowBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Info_RightLowBeamLightRequest of DIM_Info."
                     ]
                 }
             },
@@ -366,6 +476,11 @@
                     "realizingInterface": [
                         "DIM_Info_RightTurnLightRequest_@acdb992e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightTurnLightRequest_Delegation of placeholder DIM is provided by DIM_Info_RightTurnLightRequest of DIM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_DIM_StateOfCharge_@ca63c87a": {
@@ -378,6 +493,11 @@
                     ],
                     "realizingInterface": [
                         "DIM_Info_StateOfCharge_@4c433a7b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_StateOfCharge_Delegation of placeholder DIM is provided by DIM_Info_StateOfCharge of DIM_Info."
                     ]
                 }
             },
@@ -392,6 +512,11 @@
                     "realizingInterface": [
                         "GWM_Info_BatteryCurrent_@463df0e0"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_BatteryCurrent_Delegation of placeholder GWM is provided by GWM_Info_BatteryCurrent of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_BatteryPower_@8e3d5f39": {
@@ -404,6 +529,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_BatteryPower_@d16f563d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_BatteryPower_Delegation of placeholder GWM is provided by GWM_Info_BatteryPower of GWM_Info."
                     ]
                 }
             },
@@ -418,6 +548,11 @@
                     "realizingInterface": [
                         "GWM_Info_BatteryVoltage_@641b224f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_BatteryVoltage_Delegation of placeholder GWM is provided by GWM_Info_BatteryVoltage of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_Heading_@6e8f3463": {
@@ -430,6 +565,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_Heading_@31cd29a7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Heading_Delegation of placeholder GWM is provided by GWM_Info_Heading of GWM_Info."
                     ]
                 }
             },
@@ -444,6 +584,11 @@
                     "realizingInterface": [
                         "GWM_Info_Latitude_@153a1f93"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Latitude_Delegation of placeholder GWM is provided by GWM_Info_Latitude of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_LeftBrakeLightRequest_@8546e5a9": {
@@ -456,6 +601,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_LeftBrakeLightRequest_@7f457a87"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftBrakeLightRequest_Delegation of placeholder GWM is provided by GWM_Info_LeftBrakeLightRequest of GWM_Info."
                     ]
                 }
             },
@@ -470,6 +620,11 @@
                     "realizingInterface": [
                         "GWM_Info_LeftTurnLightRequest_@6cee7285"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LeftTurnLightRequest_Delegation of placeholder GWM is provided by GWM_Info_LeftTurnLightRequest of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_LocationService_Heading_@5991c0b8": {
@@ -482,6 +637,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "GWM_Info_LocationService_Heading_@dcabe277"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LocationService_Heading_Assembly of placeholder GWM is provided by GWM_Info_LocationService_Heading of GWM_Info."
                     ]
                 }
             },
@@ -496,6 +656,11 @@
                     "realizingInterface": [
                         "GWM_Info_LocationService_Latitude_@b335ae86"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LocationService_Latitude_Assembly of placeholder GWM is provided by GWM_Info_LocationService_Latitude of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_LocationService_Longitude_@63e3a229": {
@@ -508,6 +673,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "GWM_Info_LocationService_Longitude_@8d41532a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LocationService_Longitude_Assembly of placeholder GWM is provided by GWM_Info_LocationService_Longitude of GWM_Info."
                     ]
                 }
             },
@@ -522,6 +692,11 @@
                     "realizingInterface": [
                         "GWM_Info_Longitude_@815047bb"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Longitude_Delegation of placeholder GWM is provided by GWM_Info_Longitude of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_MotorSpeed_@0d6d8221": {
@@ -534,6 +709,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_MotorSpeed_@826d618f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_MotorSpeed_Delegation of placeholder GWM is provided by GWM_Info_MotorSpeed of GWM_Info."
                     ]
                 }
             },
@@ -548,6 +728,11 @@
                     "realizingInterface": [
                         "GWM_Info_MotorTorque_@3728b952"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_MotorTorque_Delegation of placeholder GWM is provided by GWM_Info_MotorTorque of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_ProximityDistance_@a81c6323": {
@@ -560,6 +745,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_ProximityDistance_@d9faa2f2"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_ProximityDistance_Delegation of placeholder GWM is provided by GWM_Info_ProximityDistance of GWM_Info."
                     ]
                 }
             },
@@ -574,6 +764,11 @@
                     "realizingInterface": [
                         "GWM_Info_RightBrakeLightRequest_@e6120b0c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightBrakeLightRequest_Delegation of placeholder GWM is provided by GWM_Info_RightBrakeLightRequest of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_RightTurnLightRequest_@8058a6d2": {
@@ -586,6 +781,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_RightTurnLightRequest_@3b97972c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_RightTurnLightRequest_Delegation of placeholder GWM is provided by GWM_Info_RightTurnLightRequest of GWM_Info."
                     ]
                 }
             },
@@ -600,6 +800,11 @@
                     "realizingInterface": [
                         "GWM_Info_SpeedService_Speed_@f31b7d76"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_SpeedService_Speed_Assembly of placeholder GWM is provided by GWM_Info_SpeedService_Speed of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_StateOfCharge_@5b109b66": {
@@ -612,6 +817,11 @@
                     ],
                     "realizingInterface": [
                         "GWM_Info_StateOfCharge_@a06cd53a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_StateOfCharge_Delegation of placeholder GWM is provided by GWM_Info_StateOfCharge of GWM_Info."
                     ]
                 }
             },
@@ -626,6 +836,11 @@
                     "realizingInterface": [
                         "GWM_Info_TurnlightIndicator_LeftTurnlight_@3180f6d1"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly of placeholder GWM is provided by GWM_Info_TurnlightIndicator_LeftTurnlight of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_GWM_TurnlightIndicator_RightTurnlight_@d647f08b": {
@@ -638,6 +853,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "GWM_Info_TurnlightIndicator_RightTurnlight_@74cecd7d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly of placeholder GWM is provided by GWM_Info_TurnlightIndicator_RightTurnlight of GWM_Info."
                     ]
                 }
             },
@@ -652,6 +872,11 @@
                     "realizingInterface": [
                         "GWM_Info_uispeed_@5611f4bc"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_uispeed_Delegation of placeholder GWM is provided by GWM_Info_uispeed of GWM_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_IHU_Infotainment_LeftTurnIndicator_@decef359": {
@@ -664,6 +889,11 @@
                     ],
                     "realizingInterface": [
                         "IHU_Info_Infotainment_LeftTurnIndicator_@74fdd455"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Infotainment_LeftTurnIndicator_Delegation of placeholder IHU is provided by IHU_Info_Infotainment_LeftTurnIndicator of IHU_Info."
                     ]
                 }
             },
@@ -678,6 +908,11 @@
                     "realizingInterface": [
                         "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Infotainment_RightTurnIndicator_Delegation of placeholder IHU is provided by IHU_Info_Infotainment_RightTurnIndicator of IHU_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_IHU_Infotainment_VehicleSpeed_@3d6da48f": {
@@ -690,6 +925,11 @@
                     ],
                     "realizingInterface": [
                         "IHU_Info_Infotainment_VehicleSpeed_@2e1a2740"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_Infotainment_VehicleSpeed_Delegation of placeholder IHU is provided by IHU_Info_Infotainment_VehicleSpeed of IHU_Info."
                     ]
                 }
             },
@@ -704,6 +944,11 @@
                     "realizingInterface": [
                         "IHU_Info_LocationService_Heading_@c15bacb2"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LocationService_Heading_Assembly of placeholder IHU is provided by IHU_Info_LocationService_Heading of IHU_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_IHU_LocationService_Latitude_@bb4a044d": {
@@ -716,6 +961,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "IHU_Info_LocationService_Latitude_@67fd8006"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LocationService_Latitude_Assembly of placeholder IHU is provided by IHU_Info_LocationService_Latitude of IHU_Info."
                     ]
                 }
             },
@@ -730,6 +980,11 @@
                     "realizingInterface": [
                         "IHU_Info_LocationService_Longitude_@d7dcc9fc"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_LocationService_Longitude_Assembly of placeholder IHU is provided by IHU_Info_LocationService_Longitude of IHU_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_IHU_SpeedService_Speed_@918976fd": {
@@ -742,6 +997,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "IHU_Info_SpeedService_Speed_@6603cf7f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_SpeedService_Speed_Assembly of placeholder IHU is provided by IHU_Info_SpeedService_Speed of IHU_Info."
                     ]
                 }
             },
@@ -756,6 +1016,11 @@
                     "realizingInterface": [
                         "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly of placeholder IHU is provided by IHU_Info_TurnlightIndicator_LeftTurnlight of IHU_Info."
+                    ]
                 }
             },
             "IR_InformationDisplay_IHU_TurnlightIndicator_RightTurnlight_@1cdc3d73": {
@@ -769,16 +1034,25 @@
                     "realizingInterface": [
                         "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly of placeholder IHU is provided by IHU_Info_TurnlightIndicator_RightTurnlight of IHU_Info."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedInformationDisplay_@7975ad29",
             "description": [
-                "Realizes InformationDisplay by its parts' realizations."
+                "Realizes InformationDisplay by its parts' realizations.",
+                "",
+                "- DIM \u2192 ImplementedDIM_Info",
+                "- GWM \u2192 ImplementedGWM_Info",
+                "- IHU \u2192 ImplementedIHU_Info"
             ],
             "name": "ImplementedInformationDisplay",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

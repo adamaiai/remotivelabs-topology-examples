@@ -23,7 +23,7 @@
             ],
             "name": "TC_FLCM",
             "source": "remotive_car/docs/verification/test_cases.rst#TC_FLCM",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

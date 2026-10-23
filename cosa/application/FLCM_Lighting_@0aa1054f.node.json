@@ -47,7 +47,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front left daylight running lamp lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontLeftHighBeam_@1ee766f7": {
                 "stereotype": "External_Output",
@@ -56,7 +61,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front left high beam lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontLeftLowBeam_@874e7d83": {
                 "stereotype": "External_Output",
@@ -65,7 +75,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front left low beam lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontLeftTurn_@005d1c8d": {
                 "stereotype": "External_Output",
@@ -74,7 +89,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front left turn indicator lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontRightDaylightRunning_@57bd57e4": {
                 "stereotype": "External_Output",
@@ -83,7 +103,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front right daylight running lamp lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontRightHighBeam_@4d80b303": {
                 "stereotype": "External_Output",
@@ -92,7 +117,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front right high beam lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontRightLowBeam_@02ce5638": {
                 "stereotype": "External_Output",
@@ -101,7 +131,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front right low beam lit."
+                    ]
+                }
             },
             "FLCM_Lighting_Lamp_FrontRightTurn_@83299115": {
                 "stereotype": "External_Output",
@@ -110,7 +145,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Front right turn indicator lit."
+                    ]
+                }
             },
             "FLCM_Lighting_LeftDaylightRunningLightRequest_@5aa0ae3b": {
                 "stereotype": "External_Input",
@@ -119,7 +159,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "FLCM_Lighting_LeftHighBeamLightRequest_@43d9fc99": {
                 "stereotype": "External_Input",
@@ -128,7 +173,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
             },
             "FLCM_Lighting_LeftLowBeamLightRequest_@5363f995": {
                 "stereotype": "External_Input",
@@ -137,7 +187,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "FLCM_Lighting_LeftTurnLightRequest_@0ec06099": {
                 "stereotype": "External_Input",
@@ -146,7 +201,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
             },
             "FLCM_Lighting_RightDaylightRunningLightRequest_@b1817318": {
                 "stereotype": "External_Input",
@@ -155,7 +215,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "FLCM_Lighting_RightHighBeamLightRequest_@8796e2bf": {
                 "stereotype": "External_Input",
@@ -164,7 +229,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
             },
             "FLCM_Lighting_RightLowBeamLightRequest_@5d8ecbf3": {
                 "stereotype": "External_Input",
@@ -173,7 +243,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "FLCM_Lighting_RightTurnLightRequest_@e13a9b7f": {
                 "stereotype": "External_Input",
@@ -182,7 +257,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -192,7 +272,7 @@
             ],
             "name": "FLCM_Lighting",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

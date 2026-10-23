@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "BCM_ECU_Compute_@1bf9dec2"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "BCM_DriverControls_ComputeNeed is served by BCM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "BCM_DriverControls runs on the BCM ECU."
             ],
             "name": "ComputeAllocation_BCM_DriverControls",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

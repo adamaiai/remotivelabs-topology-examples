@@ -25,6 +25,20 @@
             ]
         },
         "aggregations": {
+            "BCM_Lighting_BrakePedalPosition_@9a9d7490": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 BrakePedalPositionSensor (id 104, 50 ms, E2E protected). Sent by SCCM, received by BCM."
+                    ]
+                }
+            },
             "BCM_Lighting_ComputeNeed_@6ab3e995": {
                 "stereotype": "ApplicationComputeResourceInterface",
                 "attributes": {
@@ -39,15 +53,6 @@
                     ]
                 }
             },
-            "BCM_Lighting_BrakePedalPosition_@9a9d7490": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {}
-            },
             "BCM_Lighting_HazardLightButton_@0a2fe71a": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -55,7 +60,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 HazardLightButton (id 100, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "BCM_Lighting_HighBeam_@cd6cb983": {
                 "stereotype": "External_Input",
@@ -64,7 +74,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 LightStalk (id 103, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7": {
                 "stereotype": "External_Output",
@@ -73,7 +88,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
             },
             "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709": {
                 "stereotype": "External_Output",
@@ -82,7 +102,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e": {
                 "stereotype": "External_Output",
@@ -91,7 +116,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
             },
             "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59": {
                 "stereotype": "External_Output",
@@ -100,7 +130,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "BCM_Lighting_LeftTurnLightRequest_@564219ca": {
                 "stereotype": "External_Output",
@@ -109,7 +144,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
             },
             "BCM_Lighting_LightMode_@a2d211b9": {
                 "stereotype": "External_Input",
@@ -118,7 +158,12 @@
                     "subTypeEnum": "LightModeEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 LightStalk (id 103, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "BCM_Lighting_RightBrakeLightRequest_@98c2cd58": {
                 "stereotype": "External_Output",
@@ -127,7 +172,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
             },
             "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774": {
                 "stereotype": "External_Output",
@@ -136,7 +186,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3": {
                 "stereotype": "External_Output",
@@ -145,7 +200,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
             },
             "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8": {
                 "stereotype": "External_Output",
@@ -154,7 +214,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
             },
             "BCM_Lighting_RightTurnLightRequest_@0dbba29d": {
                 "stereotype": "External_Output",
@@ -163,7 +228,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
             },
             "BCM_Lighting_TurnSignal_@86604253": {
                 "stereotype": "External_Input",
@@ -172,17 +242,65 @@
                     "subTypeEnum": "TurnSignalEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 TurnStalk (id 101, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             }
         },
         "metadata": {
             "uuid": "BCM_Lighting_@7d7ffa2c",
             "description": [
-                "ExteriorLighting software on the Body Control Module (BCM). Controls vehicle body electronics (lights, locks, etc.)."
+                "ExteriorLighting software on the Body Control Module (BCM). Controls vehicle body electronics (lights, locks, etc.).",
+                "",
+                "Turn signal state machine (state_machines/turn_signals.py). Each blink tick toggles on/off every 1.0 s (blink_interval_in_sec default), i.e. 0.5 Hz, below the 1.0 to 2.0 Hz of COMP_REQ_BCM_TURN_BLINK:",
+                "",
+                "```mermaid",
+                "stateDiagram-v2",
+                "  [*] --> Off",
+                "  Off --> Left: turn_left",
+                "  Off --> Right: turn_right",
+                "  Left --> Right: turn_right",
+                "  Right --> Left: turn_left",
+                "  Left --> Off: turn_off",
+                "  Right --> Off: turn_off",
+                "  Off --> Hazard: hazard_pressed",
+                "  Left --> Hazard: hazard_pressed",
+                "  Right --> Hazard: hazard_pressed",
+                "  Hazard --> Left: hazard_pressed [stalk left]",
+                "  Hazard --> Right: hazard_pressed [stalk right]",
+                "  Hazard --> Off: hazard_pressed [stalk off]",
+                "  state Left {",
+                "    LeftOn --> LeftDark: blink",
+                "    LeftDark --> LeftOn: blink",
+                "  }",
+                "  state Right {",
+                "    RightOn --> RightDark: blink",
+                "    RightDark --> RightOn: blink",
+                "  }",
+                "  state Hazard {",
+                "    HazardOn --> HazardDark: blink",
+                "    HazardDark --> HazardOn: blink",
+                "  }",
+                "```",
+                "",
+                "Beam state machine (state_machines/beams.py):",
+                "",
+                "```mermaid",
+                "stateDiagram-v2",
+                "  [*] --> Off",
+                "  Off --> DRL: drl",
+                "  DRL --> Low: low",
+                "  Low --> DRL: drl",
+                "  DRL --> Off: off",
+                "  Low --> Off: off",
+                "```"
             ],
             "name": "BCM_Lighting",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

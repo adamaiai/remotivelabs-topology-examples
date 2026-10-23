@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "FLCM_ECU_Compute_@5a4d0313"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "FLCM_Lighting_ComputeNeed is served by FLCM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "FLCM_Lighting runs on the FLCM ECU."
             ],
             "name": "ComputeAllocation_FLCM_Lighting",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

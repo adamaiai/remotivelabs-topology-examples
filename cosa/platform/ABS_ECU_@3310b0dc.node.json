@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "ABS_ECU_@3310b0dc",
             "description": [
-                "Anti-lock Braking System ECU hardware. Channels: ChassisCan0."
+                "Anti-lock Braking System ECU hardware. Channels: ChassisCan0.",
+                "",
+                "Runs: ABS_Info."
             ],
             "name": "ABS_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

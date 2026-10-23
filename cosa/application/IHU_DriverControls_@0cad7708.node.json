@@ -33,7 +33,12 @@
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP GearService.GearEvent (service 104, event 1004, event group 325). Sent by GWM, received by IHU."
+                    ]
+                }
             },
             "IHU_DriverControls_Infotainment_Gear_@e4cdd7c9": {
                 "stereotype": "External_Output",
@@ -42,7 +47,12 @@
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the infotainment unit."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -52,7 +62,7 @@
             ],
             "name": "IHU_DriverControls",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

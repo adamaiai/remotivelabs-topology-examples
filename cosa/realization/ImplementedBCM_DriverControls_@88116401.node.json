@@ -17,7 +17,7 @@
                 "Implementation: Python behavioral model; the BCM implementation serves all of its software components."
             ],
             "name": "ImplementedBCM_DriverControls",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

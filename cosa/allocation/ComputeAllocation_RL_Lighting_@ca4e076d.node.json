@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "RL_ECU_Compute_@2da956b3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "RL_Lighting_ComputeNeed is served by RL_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "RL_Lighting runs on the RL ECU."
             ],
             "name": "ComputeAllocation_RL_Lighting",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

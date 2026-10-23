@@ -38,6 +38,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Driver_BrakePedalPosition_@7b0c9774"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Driver_BrakePedalPosition is provided by the design's boundary interface ExteriorLightingDesign_Driver_BrakePedalPosition."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Driver_HazardLightButton_@792e383f": {
@@ -49,6 +54,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Driver_HazardLightButton_@0e45a209"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Driver_HazardLightButton is provided by the design's boundary interface ExteriorLightingDesign_Driver_HazardLightButton."
                     ]
                 }
             },
@@ -62,6 +72,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Driver_HighBeam_@e254bc33"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Driver_HighBeam is provided by the design's boundary interface ExteriorLightingDesign_Driver_HighBeam."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Driver_LightMode_@a8b944a5": {
@@ -73,6 +88,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Driver_LightMode_@07173606"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Driver_LightMode is provided by the design's boundary interface ExteriorLightingDesign_Driver_LightMode."
                     ]
                 }
             },
@@ -86,6 +106,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Driver_TurnSignal_@57ed074a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Driver_TurnSignal is provided by the design's boundary interface ExteriorLightingDesign_Driver_TurnSignal."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Lamp_FrontLeftDaylightRunning_@759839ef": {
@@ -97,6 +122,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_@dd464c81"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontLeftDaylightRunning is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning."
                     ]
                 }
             },
@@ -110,6 +140,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_@d8127a67"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontLeftHighBeam is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontLeftHighBeam."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Lamp_FrontLeftLowBeam_@3e19ff02": {
@@ -121,6 +156,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_@f762e172"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontLeftLowBeam is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontLeftLowBeam."
                     ]
                 }
             },
@@ -134,6 +174,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontLeftTurn_@7c639c49"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontLeftTurn is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontLeftTurn."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Lamp_FrontRightDaylightRunning_@6bd2dcfb": {
@@ -145,6 +190,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontRightDaylightRunning_@29d4642c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontRightDaylightRunning is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontRightDaylightRunning."
                     ]
                 }
             },
@@ -158,6 +208,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontRightHighBeam_@b193cd96"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontRightHighBeam is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontRightHighBeam."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Lamp_FrontRightLowBeam_@4cbd594b": {
@@ -169,6 +224,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontRightLowBeam_@af796aae"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontRightLowBeam is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontRightLowBeam."
                     ]
                 }
             },
@@ -182,6 +242,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_FrontRightTurn_@f8ef29c1"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_FrontRightTurn is provided by the design's boundary interface ExteriorLightingDesign_Lamp_FrontRightTurn."
+                    ]
                 }
             },
             "CFIR_ExteriorLighting_Lamp_RearLeftTurn_@c3c0e39d": {
@@ -193,6 +258,11 @@
                     ],
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_RearLeftTurn_@e8b44d4c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_RearLeftTurn is provided by the design's boundary interface ExteriorLightingDesign_Lamp_RearLeftTurn."
                     ]
                 }
             },
@@ -206,6 +276,11 @@
                     "realizingExternalIF": [
                         "ExteriorLightingDesign_Lamp_RearRightTurn_@aea9f317"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Lamp_RearRightTurn is provided by the design's boundary interface ExteriorLightingDesign_Lamp_RearRightTurn."
+                    ]
                 }
             }
         },
@@ -215,7 +290,7 @@
                 "ExteriorLightingDesign realizes ExteriorLighting."
             ],
             "name": "ExteriorLighting_Realization",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

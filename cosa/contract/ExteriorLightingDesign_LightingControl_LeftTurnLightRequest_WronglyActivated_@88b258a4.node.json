@@ -18,7 +18,7 @@
                 "Derived, not in the specification: Inside the exterior lighting design, lighting control drives LeftTurnLightRequest from the hazard button and the turn stalk."
             ],
             "name": "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_WronglyActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

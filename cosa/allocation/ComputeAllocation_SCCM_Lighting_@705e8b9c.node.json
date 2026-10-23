@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "SCCM_ECU_Compute_@65692407"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "SCCM_Lighting_ComputeNeed is served by SCCM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "SCCM_Lighting runs on the SCCM ECU."
             ],
             "name": "ComputeAllocation_SCCM_Lighting",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

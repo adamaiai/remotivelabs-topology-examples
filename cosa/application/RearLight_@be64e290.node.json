@@ -114,6 +114,27 @@
                     ]
                 }
             },
+            "RearLight_Lamp_RearLeftTurn_Delegation_@166f6fbd": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "outer": [
+                        "RearLight_Lamp_RearLeftTurn_@08944bb4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Lamp_RearLeftTurn from DEVS2 to the RearLight output."
+                    ]
+                }
+            },
             "RearLight_Lamp_RearRightTurn_@3fe88586": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -125,6 +146,27 @@
                 "metadata": {
                     "description": [
                         "Rear right turn indicator lit."
+                    ]
+                }
+            },
+            "RearLight_Lamp_RearRightTurn_Delegation_@9fa51ead": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "outer": [
+                        "RearLight_Lamp_RearRightTurn_@3fe88586"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Lamp_RearRightTurn from DEVS2 to the RearLight output."
                     ]
                 }
             },
@@ -142,6 +184,27 @@
                     ]
                 }
             },
+            "RearLight_LeftBrakeLightRequest_Delegation_@b963c180": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftBrakeLightRequest_@f1a73c7f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input LeftBrakeLightRequest to RLCM."
+                    ]
+                }
+            },
             "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -153,6 +216,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "RearLight_LeftDaylightRunningLightRequest_Delegation_@a617b78e": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input LeftDaylightRunningLightRequest to RLCM."
                     ]
                 }
             },
@@ -170,6 +254,27 @@
                     ]
                 }
             },
+            "RearLight_LeftLowBeamLightRequest_Delegation_@d806f973": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftLowBeamLightRequest_@3ddde5b2"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input LeftLowBeamLightRequest to RLCM."
+                    ]
+                }
+            },
             "RearLight_LeftTurnLightRequest_@a0da91cd": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -181,6 +286,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "RearLight_LeftTurnLightRequest_Delegation_@83fb9b70": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftTurnLightRequest_@a0da91cd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input LeftTurnLightRequest to RLCM."
                     ]
                 }
             },
@@ -296,6 +422,27 @@
                     ]
                 }
             },
+            "RearLight_RightBrakeLightRequest_Delegation_@666aeafa": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightBrakeLightRequest_@5a47d610"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input RightBrakeLightRequest to RLCM."
+                    ]
+                }
+            },
             "RearLight_RightDaylightRunningLightRequest_@6c064b7f": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -307,6 +454,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "RearLight_RightDaylightRunningLightRequest_Delegation_@92e74e2f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightDaylightRunningLightRequest_@6c064b7f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input RightDaylightRunningLightRequest to RLCM."
                     ]
                 }
             },
@@ -324,6 +492,27 @@
                     ]
                 }
             },
+            "RearLight_RightLowBeamLightRequest_Delegation_@74c38467": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightLowBeamLightRequest_@936ab4ab"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input RightLowBeamLightRequest to RLCM."
+                    ]
+                }
+            },
             "RearLight_RightTurnLightRequest_@c084efef": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -335,6 +524,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "RearLight_RightTurnLightRequest_Delegation_@86a185ab": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightTurnLightRequest_@c084efef"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the RearLight input RightTurnLightRequest to RLCM."
                     ]
                 }
             },
@@ -806,175 +1016,34 @@
                         "Bandwidth counter_times_2 needs on RearLightLIN."
                     ]
                 }
-            },
-            "RearLight_Lamp_RearLeftTurn_Delegation_@166f6fbd": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_DEVS2_@aa8e188d"
-                    ],
-                    "outer": [
-                        "RearLight_Lamp_RearLeftTurn_@08944bb4"
-                    ]
-                }
-            },
-            "RearLight_Lamp_RearRightTurn_Delegation_@9fa51ead": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_DEVS2_@aa8e188d"
-                    ],
-                    "outer": [
-                        "RearLight_Lamp_RearRightTurn_@3fe88586"
-                    ]
-                }
-            },
-            "RearLight_LeftBrakeLightRequest_Delegation_@b963c180": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_LeftBrakeLightRequest_@f1a73c7f"
-                    ]
-                }
-            },
-            "RearLight_LeftDaylightRunningLightRequest_Delegation_@a617b78e": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9"
-                    ]
-                }
-            },
-            "RearLight_LeftLowBeamLightRequest_Delegation_@d806f973": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_LeftLowBeamLightRequest_@3ddde5b2"
-                    ]
-                }
-            },
-            "RearLight_LeftTurnLightRequest_Delegation_@83fb9b70": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_LeftTurnLightRequest_@a0da91cd"
-                    ]
-                }
-            },
-            "RearLight_RightBrakeLightRequest_Delegation_@666aeafa": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_RightBrakeLightRequest_@5a47d610"
-                    ]
-                }
-            },
-            "RearLight_RightDaylightRunningLightRequest_Delegation_@92e74e2f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_RightDaylightRunningLightRequest_@6c064b7f"
-                    ]
-                }
-            },
-            "RearLight_RightLowBeamLightRequest_Delegation_@74c38467": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_RightLowBeamLightRequest_@936ab4ab"
-                    ]
-                }
-            },
-            "RearLight_RightTurnLightRequest_Delegation_@86a185ab": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "RearLight_RLCM_@a2749aba"
-                    ],
-                    "outer": [
-                        "RearLight_RightTurnLightRequest_@c084efef"
-                    ]
-                }
             }
         },
         "metadata": {
             "uuid": "RearLight_@be64e290",
             "description": [
-                "Technical design (TSC level). Rear light subsystem: RLCM is the LIN master bridging BodyCan0 to the rear light LIN devices RL and DEVS2."
+                "Technical design (TSC level). Rear light subsystem: RLCM is the LIN master bridging BodyCan0 to the rear light LIN devices RL and DEVS2.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  subgraph n_RearLight[\"RearLight\"]",
+                "    n_RearLight_RLCM__a2749aba[\"RLCM<br/>(RLCM_Lighting)\"]",
+                "    n_RearLight_RL__1b51fede[\"RL<br/>(RL_Lighting)\"]",
+                "    n_RearLight_DEVS2__aa8e188d[\"DEVS2<br/>(DEVS2_Lighting)\"]",
+                "  end",
+                "  n_port_in_LeftDaylightRunningLightRequest(\"LeftBrakeLightRequest<br/>LeftDaylightRunningLightRequest<br/>LeftLowBeamLightRequest<br/>LeftTurnLightRequest<br/>RightBrakeLightRequest<br/>RightDaylightRunningLightRequest<br/>RightLowBeamLightRequest<br/>RightTurnLightRequest\")",
+                "  n_port_out_Lamp_RearLeftTurn([\"Lamp_RearLeftTurn\"])",
+                "  n_port_out_Lamp_RearRightTurn([\"Lamp_RearRightTurn\"])",
+                "  n_RearLight_DEVS2__aa8e188d -->|\"SomePartNrDEVS2EndSgn1<br/>SomePartNrDEVS2EndSgn2<br/>SomePartNrDEVS2EndSgn3<br/>SomePartNrDEVS2Nr1<br/>SomePartNrDEVS2Nr2<br/>+2 more\"| n_RearLight_RLCM__a2749aba",
+                "  n_RearLight_DEVS2__aa8e188d --> n_port_out_Lamp_RearLeftTurn",
+                "  n_RearLight_DEVS2__aa8e188d --> n_port_out_Lamp_RearRightTurn",
+                "  n_RearLight_RLCM__a2749aba -->|\"ReqLeft<br/>ReqRight<br/>SomeReq2Type2<br/>counter\"| n_RearLight_DEVS2__aa8e188d",
+                "  n_RearLight_RLCM__a2749aba -->|\"SomeReq1<br/>counter\"| n_RearLight_RL__1b51fede",
+                "  n_RearLight_RL__1b51fede -->|\"ErrRespDEVS1<br/>SomeQf<br/>counter_times_2\"| n_RearLight_RLCM__a2749aba",
+                "  n_port_in_LeftDaylightRunningLightRequest --> n_RearLight_RLCM__a2749aba",
+                "```"
             ],
             "name": "RearLight",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

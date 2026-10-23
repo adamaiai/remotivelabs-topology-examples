@@ -17,7 +17,7 @@
                 "Implementation: Python behavioral model; the IHU implementation serves all of its software components."
             ],
             "name": "ImplementedIHU_Climate",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

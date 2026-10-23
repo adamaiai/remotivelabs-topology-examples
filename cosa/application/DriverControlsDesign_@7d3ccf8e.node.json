@@ -127,6 +127,27 @@
                     ]
                 }
             },
+            "DriverControlsDesign_Cluster_GearLeverPosition_Delegation_@a884f925": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_GearLeverPosition from DriverInformation to the DriverControlsDesign output."
+                    ]
+                }
+            },
             "DriverControlsDesign_DriveStateProcessing_@55d23be7": {
                 "stereotype": "InternalPlaceholderComponent",
                 "attributes": {},
@@ -171,6 +192,27 @@
                     ]
                 }
             },
+            "DriverControlsDesign_Driver_AcceleratorPedalPosition_Delegation_@7dadddd6": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverControlsDesign input Driver_AcceleratorPedalPosition to DriverInputSensing."
+                    ]
+                }
+            },
             "DriverControlsDesign_Driver_GearShiftDown_@beddfa34": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -182,6 +224,27 @@
                 "metadata": {
                     "description": [
                         "Driver pulls the gear shift down paddle."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_GearShiftDown_Delegation_@f92f55f5": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverControlsDesign input Driver_GearShiftDown to DriverInputSensing."
                     ]
                 }
             },
@@ -199,6 +262,27 @@
                     ]
                 }
             },
+            "DriverControlsDesign_Driver_GearShiftUp_Delegation_@ef6b7d8d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverControlsDesign input Driver_GearShiftUp to DriverInputSensing."
+                    ]
+                }
+            },
             "DriverControlsDesign_Driver_SteeringAngle_@802e5917": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -210,6 +294,27 @@
                 "metadata": {
                     "description": [
                         "Driver turns the steering wheel."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_SteeringAngle_Delegation_@8eb9e560": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the DriverControlsDesign input Driver_SteeringAngle to DriverInputSensing."
                     ]
                 }
             },
@@ -344,6 +449,27 @@
                     ]
                 }
             },
+            "DriverControlsDesign_Infotainment_Gear_Delegation_@1735ad12": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_Gear from DriverInformation to the DriverControlsDesign output."
+                    ]
+                }
+            },
             "DriverControlsDesign_SteeringAngle_Assembly_@b9e154a8": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -421,111 +547,38 @@
                         "Bandwidth SteeringWheelPosition needs on BodyCan0."
                     ]
                 }
-            },
-            "DriverControlsDesign_Cluster_GearLeverPosition_Delegation_@a884f925": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "GearLeverPositionEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "DriverControlsDesign_DriverInformation_@b4a96bac"
-                    ],
-                    "outer": [
-                        "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
-                    ]
-                }
-            },
-            "DriverControlsDesign_Driver_AcceleratorPedalPosition_Delegation_@7dadddd6": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {
-                    "inner": [
-                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
-                    ],
-                    "outer": [
-                        "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
-                    ]
-                }
-            },
-            "DriverControlsDesign_Driver_GearShiftDown_Delegation_@f92f55f5": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
-                    ],
-                    "outer": [
-                        "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
-                    ]
-                }
-            },
-            "DriverControlsDesign_Driver_GearShiftUp_Delegation_@ef6b7d8d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
-                    ],
-                    "outer": [
-                        "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
-                    ]
-                }
-            },
-            "DriverControlsDesign_Driver_SteeringAngle_Delegation_@8eb9e560": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "inner": [
-                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
-                    ],
-                    "outer": [
-                        "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
-                    ]
-                }
-            },
-            "DriverControlsDesign_Infotainment_Gear_Delegation_@1735ad12": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "GearLeverPositionEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "DriverControlsDesign_DriverInformation_@b4a96bac"
-                    ],
-                    "outer": [
-                        "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
-                    ]
-                }
             }
         },
         "metadata": {
             "uuid": "DriverControlsDesign_@7d3ccf8e",
             "description": [
-                "Functional design (FSC level). Functional design of driver controls: sense steering, pedal and gear inputs, process the driving state, inform the driver."
+                "Functional design (FSC level). Functional design of driver controls: sense steering, pedal and gear inputs, process the driving state, inform the driver.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  subgraph n_DriverControlsDesign[\"DriverControlsDesign\"]",
+                "    n_DriverControlsDesign_DriverInputSensing__1dc246dc[\"DriverInputSensing<br/>(SCCM_DriverControls)\"]",
+                "    n_DriverControlsDesign_DriveStateProcessing__55d23be7[\"DriveStateProcessing<br/>(BCM_DriverControls)\"]",
+                "    n_DriverControlsDesign_DriverInformation__b4a96bac[\"DriverInformation\"]",
+                "  end",
+                "  n_port_in_Driver_SteeringAngle([\"Driver_SteeringAngle\"])",
+                "  n_port_in_Driver_AcceleratorPedalPosition([\"Driver_AcceleratorPedalPosition\"])",
+                "  n_port_in_Driver_GearShiftUp([\"Driver_GearShiftUp\"])",
+                "  n_port_in_Driver_GearShiftDown([\"Driver_GearShiftDown\"])",
+                "  n_port_out_Cluster_GearLeverPosition([\"Cluster_GearLeverPosition\"])",
+                "  n_port_out_Infotainment_Gear([\"Infotainment_Gear\"])",
+                "  n_DriverControlsDesign_DriveStateProcessing__55d23be7 -->|\"AcceleratorPedalPosition_BodyCan0<br/>GearLeverPosition<br/>SteeringWheelPosition\"| n_DriverControlsDesign_DriverInformation__b4a96bac",
+                "  n_DriverControlsDesign_DriverInformation__b4a96bac --> n_port_out_Cluster_GearLeverPosition",
+                "  n_DriverControlsDesign_DriverInformation__b4a96bac --> n_port_out_Infotainment_Gear",
+                "  n_DriverControlsDesign_DriverInputSensing__1dc246dc -->|\"AcceleratorPedalPosition_DriverCan0<br/>GearShiftDown<br/>GearShiftUp<br/>SteeringAngle\"| n_DriverControlsDesign_DriveStateProcessing__55d23be7",
+                "  n_port_in_Driver_AcceleratorPedalPosition --> n_DriverControlsDesign_DriverInputSensing__1dc246dc",
+                "  n_port_in_Driver_GearShiftDown --> n_DriverControlsDesign_DriverInputSensing__1dc246dc",
+                "  n_port_in_Driver_GearShiftUp --> n_DriverControlsDesign_DriverInputSensing__1dc246dc",
+                "  n_port_in_Driver_SteeringAngle --> n_DriverControlsDesign_DriverInputSensing__1dc246dc",
+                "```"
             ],
             "name": "DriverControlsDesign",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

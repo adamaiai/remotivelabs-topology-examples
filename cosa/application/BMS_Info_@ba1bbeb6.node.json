@@ -16,6 +16,48 @@
             ]
         },
         "aggregations": {
+            "BMS_Info_BatteryCurrent_@153b4b17": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "BMS_Info_BatteryPower_@028262ff": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "BMS_Info_BatteryVoltage_@713815f0": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
             "BMS_Info_ComputeNeed_@1b0c17a6": {
                 "stereotype": "ApplicationComputeResourceInterface",
                 "attributes": {
@@ -30,33 +72,6 @@
                     ]
                 }
             },
-            "BMS_Info_BatteryCurrent_@153b4b17": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "A"
-                },
-                "connections": {}
-            },
-            "BMS_Info_BatteryPower_@028262ff": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "kW"
-                },
-                "connections": {}
-            },
-            "BMS_Info_BatteryVoltage_@713815f0": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "V"
-                },
-                "connections": {}
-            },
             "BMS_Info_MotorSpeed_@08906137": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -64,7 +79,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "rpm"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
             },
             "BMS_Info_MotorTorque_@59a4f236": {
                 "stereotype": "External_Input",
@@ -73,7 +93,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "Nm"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
             },
             "BMS_Info_StateOfCharge_@20c672bf": {
                 "stereotype": "External_Output",
@@ -82,7 +107,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "percent"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 1022 = Error, 1023 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -92,7 +122,7 @@
             ],
             "name": "BMS_Info",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

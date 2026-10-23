@@ -193,6 +193,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation_@1cccf4d3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_LeftTurnTelltale from InformationDisplay to the VehicleInformationDesign output."
+                    ]
+                }
+            },
             "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -204,6 +225,27 @@
                 "metadata": {
                     "description": [
                         "Parking proximity distance shown in the instrument cluster."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_ProximityDistance_Delegation_@2cd7ae4d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_ProximityDistance from InformationDisplay to the VehicleInformationDesign output."
                     ]
                 }
             },
@@ -221,6 +263,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation_@66d102e5": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_RightTurnTelltale from InformationDisplay to the VehicleInformationDesign output."
+                    ]
+                }
+            },
             "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -232,6 +295,27 @@
                 "metadata": {
                     "description": [
                         "Battery state of charge shown in the instrument cluster."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_StateOfCharge_Delegation_@adc9668f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_StateOfCharge from InformationDisplay to the VehicleInformationDesign output."
                     ]
                 }
             },
@@ -298,6 +382,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation_@afda08d0": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_LeftTurnIndicator from InformationDisplay to the VehicleInformationDesign output."
+                    ]
+                }
+            },
             "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -312,6 +417,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation_@4d274d05": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_RightTurnIndicator from InformationDisplay to the VehicleInformationDesign output."
+                    ]
+                }
+            },
             "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -323,6 +449,27 @@
                 "metadata": {
                     "description": [
                         "Vehicle speed shown in the infotainment unit."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_VehicleSpeed_Delegation_@a461e2d3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_VehicleSpeed from InformationDisplay to the VehicleInformationDesign output."
                     ]
                 }
             },
@@ -379,6 +526,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_LeftBrakeLightRequest_Delegation_@25aac606": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input LeftBrakeLightRequest to InformationDisplay."
+                    ]
+                }
+            },
             "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -390,6 +558,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation_@6cc2f12d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input LeftDaylightRunningLightRequest to InformationDisplay."
                     ]
                 }
             },
@@ -407,6 +596,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_LeftHighBeamLightRequest_Delegation_@ba8f4fee": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input LeftHighBeamLightRequest to InformationDisplay."
+                    ]
+                }
+            },
             "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -421,6 +631,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_LeftLowBeamLightRequest_Delegation_@6de4305d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input LeftLowBeamLightRequest to InformationDisplay."
+                    ]
+                }
+            },
             "VehicleInformationDesign_LeftTurnLightRequest_@10a72725": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -432,6 +663,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftTurnLightRequest_Delegation_@86377bfd": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftTurnLightRequest_@10a72725"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input LeftTurnLightRequest to InformationDisplay."
                     ]
                 }
             },
@@ -625,6 +877,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_RightBrakeLightRequest_Delegation_@205ae60b": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input RightBrakeLightRequest to InformationDisplay."
+                    ]
+                }
+            },
             "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -636,6 +909,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation_@d0976596": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input RightDaylightRunningLightRequest to InformationDisplay."
                     ]
                 }
             },
@@ -653,6 +947,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_RightHighBeamLightRequest_Delegation_@b6736d84": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input RightHighBeamLightRequest to InformationDisplay."
+                    ]
+                }
+            },
             "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -667,6 +982,27 @@
                     ]
                 }
             },
+            "VehicleInformationDesign_RightLowBeamLightRequest_Delegation_@55188eb3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input RightLowBeamLightRequest to InformationDisplay."
+                    ]
+                }
+            },
             "VehicleInformationDesign_RightTurnLightRequest_@f952c26a": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -678,6 +1014,27 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightTurnLightRequest_Delegation_@2e5565a7": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightTurnLightRequest_@f952c26a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the VehicleInformationDesign input RightTurnLightRequest to InformationDisplay."
                     ]
                 }
             },
@@ -768,287 +1125,32 @@
                         "Bandwidth uispeed needs on ChassisCan0."
                     ]
                 }
-            },
-            "VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation_@1cccf4d3": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_Cluster_ProximityDistance_Delegation_@2cd7ae4d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m"
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation_@66d102e5": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_Cluster_StateOfCharge_Delegation_@adc9668f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "percent"
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation_@afda08d0": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation_@4d274d05": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_Infotainment_VehicleSpeed_Delegation_@a461e2d3": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m/s"
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_LeftBrakeLightRequest_Delegation_@25aac606": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation_@6cc2f12d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_LeftHighBeamLightRequest_Delegation_@ba8f4fee": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_LeftLowBeamLightRequest_Delegation_@6de4305d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_LeftTurnLightRequest_Delegation_@86377bfd": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_LeftTurnLightRequest_@10a72725"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_RightBrakeLightRequest_Delegation_@205ae60b": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation_@d0976596": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_RightHighBeamLightRequest_Delegation_@b6736d84": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_RightLowBeamLightRequest_Delegation_@55188eb3": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1"
-                    ]
-                }
-            },
-            "VehicleInformationDesign_RightTurnLightRequest_Delegation_@2e5565a7": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
-                    ],
-                    "outer": [
-                        "VehicleInformationDesign_RightTurnLightRequest_@f952c26a"
-                    ]
-                }
             }
         },
         "metadata": {
             "uuid": "VehicleInformationDesign_@f14768c8",
             "description": [
-                "Functional design (FSC level). Functional design of vehicle information: sense vehicle state, position and proximity, display it to the driver."
+                "Functional design (FSC level). Functional design of vehicle information: sense vehicle state, position and proximity, display it to the driver.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  subgraph n_VehicleInformationDesign[\"VehicleInformationDesign\"]",
+                "    n_VehicleInformationDesign_VehicleStateSensing__c49a3226[\"VehicleStateSensing\"]",
+                "    n_VehicleInformationDesign_PositionSensing__e48e3fec[\"PositionSensing<br/>(TCU_Info)\"]",
+                "    n_VehicleInformationDesign_ParkingSensing__65f14e7d[\"ParkingSensing<br/>(PAM_Info)\"]",
+                "    n_VehicleInformationDesign_InformationDisplay__f411a8e9[\"InformationDisplay\"]",
+                "  end",
+                "  n_port_in_LeftDaylightRunningLightRequest(\"LeftBrakeLightRequest<br/>LeftDaylightRunningLightRequest<br/>LeftHighBeamLightRequest<br/>LeftLowBeamLightRequest<br/>LeftTurnLightRequest<br/>RightBrakeLightRequest<br/>RightDaylightRunningLightRequest<br/>RightHighBeamLightRequest<br/>RightLowBeamLightRequest<br/>RightTurnLightRequest\")",
+                "  n_port_out_Cluster_LeftTurnTelltale(\"Cluster_LeftTurnTelltale<br/>Cluster_ProximityDistance<br/>Cluster_RightTurnTelltale<br/>Cluster_StateOfCharge<br/>Infotainment_LeftTurnIndicator<br/>Infotainment_RightTurnIndicator<br/>Infotainment_VehicleSpeed\")",
+                "  n_VehicleInformationDesign_InformationDisplay__f411a8e9 --> n_port_out_Cluster_LeftTurnTelltale",
+                "  n_VehicleInformationDesign_ParkingSensing__65f14e7d -->|\"ProximityDistance\"| n_VehicleInformationDesign_InformationDisplay__f411a8e9",
+                "  n_VehicleInformationDesign_PositionSensing__e48e3fec -->|\"Heading<br/>Latitude<br/>Longitude\"| n_VehicleInformationDesign_InformationDisplay__f411a8e9",
+                "  n_VehicleInformationDesign_VehicleStateSensing__c49a3226 -->|\"BatteryCurrent<br/>BatteryPower<br/>BatteryVoltage<br/>MotorSpeed<br/>MotorTorque<br/>+2 more\"| n_VehicleInformationDesign_InformationDisplay__f411a8e9",
+                "  n_port_in_LeftDaylightRunningLightRequest --> n_VehicleInformationDesign_InformationDisplay__f411a8e9",
+                "```"
             ],
             "name": "VehicleInformationDesign",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -24,7 +24,12 @@
                     "hasBecome": "Off",
                     "shouldBe": "Left"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects left but Off is read: the left indicators do not light."
+                    ]
+                }
             },
             "CC_BCM_Lighting_TurnSignal_Left_as_Right_@6e94a663": {
                 "stereotype": "ConfusionCell",
@@ -32,7 +37,12 @@
                     "hasBecome": "Right",
                     "shouldBe": "Left"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects left but Right is read: the wrong side is indicated."
+                    ]
+                }
             },
             "CC_BCM_Lighting_TurnSignal_Off_as_Left_@38b04cc9": {
                 "stereotype": "ConfusionCell",
@@ -40,7 +50,12 @@
                     "hasBecome": "Left",
                     "shouldBe": "Off"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects no turn but Left is read: the left indicators light without request."
+                    ]
+                }
             },
             "CC_BCM_Lighting_TurnSignal_Off_as_Right_@789c66f4": {
                 "stereotype": "ConfusionCell",
@@ -48,7 +63,12 @@
                     "hasBecome": "Right",
                     "shouldBe": "Off"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects no turn but Right is read: the right indicators light without request."
+                    ]
+                }
             },
             "CC_BCM_Lighting_TurnSignal_Right_as_Left_@e5cf5e65": {
                 "stereotype": "ConfusionCell",
@@ -56,7 +76,12 @@
                     "hasBecome": "Left",
                     "shouldBe": "Right"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects right but Left is read: the wrong side is indicated."
+                    ]
+                }
             },
             "CC_BCM_Lighting_TurnSignal_Right_as_Off_@11f527fd": {
                 "stereotype": "ConfusionCell",
@@ -64,7 +89,12 @@
                     "hasBecome": "Off",
                     "shouldBe": "Right"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects right but Off is read: the right indicators do not light."
+                    ]
+                }
             },
             "CM_BCM_Lighting_TurnSignal_@fed4ca47": {
                 "stereotype": "ConfusionMatrix",
@@ -78,6 +108,11 @@
                         "CC_BCM_Lighting_TurnSignal_Right_as_Left_@e5cf5e65",
                         "CC_BCM_Lighting_TurnSignal_Right_as_Off_@11f527fd"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Every mix-up between Left, Right and Off on the turn stalk is dangerous: it either hides a turn intention or indicates one the driver did not make."
+                    ]
                 }
             }
         },
@@ -87,7 +122,7 @@
                 "Critical: BCM_Lighting_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
             ],
             "name": "DC_BCM_Lighting_TurnSignal_Misread",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

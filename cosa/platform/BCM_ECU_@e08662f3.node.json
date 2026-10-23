@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "BCM_ECU_@e08662f3",
             "description": [
-                "Body Control Module ECU hardware. Channels: DriverCan0, BodyCan0."
+                "Body Control Module ECU hardware. Channels: DriverCan0, BodyCan0.",
+                "",
+                "Runs: BCM_Lighting, BCM_DriverControls."
             ],
             "name": "BCM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

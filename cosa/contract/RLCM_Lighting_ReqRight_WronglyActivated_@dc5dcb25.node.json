@@ -20,7 +20,7 @@
             ],
             "name": "RLCM_Lighting_ReqRight_WronglyActivated",
             "source": "remotive_car/docs/requirements/lighting_requirements.rst#COMP_REQ_RLCM_CONTROL",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

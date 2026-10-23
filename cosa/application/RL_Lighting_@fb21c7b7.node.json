@@ -36,7 +36,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS1LIN01Fr1 (id 0x05, RL response_error). Sent by RL, received by RLCM."
+                    ]
+                }
             },
             "RL_Lighting_SomeQf_@8d5fdea1": {
                 "stereotype": "External_Output",
@@ -45,7 +50,12 @@
                     "subTypeEnum": "SomeQf1Enum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS1LIN01Fr1 (id 0x05). Sent by RL, received by RLCM."
+                    ]
+                }
             },
             "RL_Lighting_SomeReq1_@6cbe786c": {
                 "stereotype": "External_Input",
@@ -54,7 +64,12 @@
                     "subTypeEnum": "TypeReq1Enum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by RL."
+                    ]
+                }
             },
             "RL_Lighting_counter_@eba11447": {
                 "stereotype": "External_Input",
@@ -63,7 +78,12 @@
                     "subTypeEnum": "TypeReq2Enum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03; RL also reads it (rl behavioral model)). Sent by RLCM, received by DEVS2, RL."
+                    ]
+                }
             },
             "RL_Lighting_counter_times_2_@6ba578c7": {
                 "stereotype": "External_Output",
@@ -72,7 +92,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS1LIN01Fr1 (id 0x05). Sent by RL, received by RLCM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -82,7 +107,7 @@
             ],
             "name": "RL_Lighting",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

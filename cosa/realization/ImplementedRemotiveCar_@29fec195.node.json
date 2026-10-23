@@ -32,6 +32,11 @@
                     "realizingIntegration": [
                         "ImplementedClimateControlDesign_@5c2dbbad"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder ClimateControl is realized by ImplementedClimateControlDesign, the realization of ClimateControlDesign."
+                    ]
                 }
             },
             "Chosen_RemotiveCar_DriverControls_@a15b4518": {
@@ -51,6 +56,11 @@
                     ],
                     "realizingIntegration": [
                         "ImplementedDriverControlsDesign_@65808a2e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DriverControls is realized by ImplementedDriverControlsDesign, the realization of DriverControlsDesign."
                     ]
                 }
             },
@@ -91,6 +101,11 @@
                     "realizingIntegration": [
                         "ImplementedExteriorLightingDesign_@ed7de822"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder ExteriorLighting is realized by ImplementedExteriorLightingDesign, the realization of ExteriorLightingDesign."
+                    ]
                 }
             },
             "Chosen_RemotiveCar_VehicleInformation_@642ebbe1": {
@@ -122,6 +137,11 @@
                     "realizingIntegration": [
                         "ImplementedVehicleInformationDesign_@491c48ad"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder VehicleInformation is realized by ImplementedVehicleInformationDesign, the realization of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ClimateControl_Climate_LeftTemperature_@8e924bf7": {
@@ -134,6 +154,11 @@
                     ],
                     "realizingInterface": [
                         "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Climate_LeftTemperature_Delegation of placeholder ClimateControl is provided by ClimateControlDesign_Climate_LeftTemperature of ClimateControlDesign."
                     ]
                 }
             },
@@ -148,6 +173,11 @@
                     "realizingInterface": [
                         "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Climate_RightTemperature_Delegation of placeholder ClimateControl is provided by ClimateControlDesign_Climate_RightTemperature of ClimateControlDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ClimateControl_Occupant_LeftTemperatureSetpoint_@68ae6fdc": {
@@ -160,6 +190,11 @@
                     ],
                     "realizingInterface": [
                         "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Occupant_LeftTemperatureSetpoint_Delegation of placeholder ClimateControl is provided by ClimateControlDesign_Occupant_LeftTemperatureSetpoint of ClimateControlDesign."
                     ]
                 }
             },
@@ -174,6 +209,11 @@
                     "realizingInterface": [
                         "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Occupant_RightTemperatureSetpoint_Delegation of placeholder ClimateControl is provided by ClimateControlDesign_Occupant_RightTemperatureSetpoint of ClimateControlDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_DriverControls_Cluster_GearLeverPosition_@dbbb7757": {
@@ -186,6 +226,11 @@
                     ],
                     "realizingInterface": [
                         "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Cluster_GearLeverPosition_Delegation of placeholder DriverControls is provided by DriverControlsDesign_Cluster_GearLeverPosition of DriverControlsDesign."
                     ]
                 }
             },
@@ -200,6 +245,11 @@
                     "realizingInterface": [
                         "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_AcceleratorPedalPosition_Delegation of placeholder DriverControls is provided by DriverControlsDesign_Driver_AcceleratorPedalPosition of DriverControlsDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_DriverControls_Driver_GearShiftDown_@78d6683b": {
@@ -212,6 +262,11 @@
                     ],
                     "realizingInterface": [
                         "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_GearShiftDown_Delegation of placeholder DriverControls is provided by DriverControlsDesign_Driver_GearShiftDown of DriverControlsDesign."
                     ]
                 }
             },
@@ -226,6 +281,11 @@
                     "realizingInterface": [
                         "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_GearShiftUp_Delegation of placeholder DriverControls is provided by DriverControlsDesign_Driver_GearShiftUp of DriverControlsDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_DriverControls_Driver_SteeringAngle_@199874af": {
@@ -238,6 +298,11 @@
                     ],
                     "realizingInterface": [
                         "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_SteeringAngle_Delegation of placeholder DriverControls is provided by DriverControlsDesign_Driver_SteeringAngle of DriverControlsDesign."
                     ]
                 }
             },
@@ -252,6 +317,11 @@
                     "realizingInterface": [
                         "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Infotainment_Gear_Delegation of placeholder DriverControls is provided by DriverControlsDesign_Infotainment_Gear of DriverControlsDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Driver_BrakePedalPosition_@df4afae5": {
@@ -264,6 +334,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Driver_BrakePedalPosition_@7b0c9774"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_BrakePedalPosition_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Driver_BrakePedalPosition of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -278,6 +353,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Driver_HazardLightButton_@0e45a209"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_HazardLightButton_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Driver_HazardLightButton of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Driver_HighBeam_@cb330480": {
@@ -290,6 +370,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Driver_HighBeam_@e254bc33"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_HighBeam_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Driver_HighBeam of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -304,6 +389,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Driver_LightMode_@07173606"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_LightMode_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Driver_LightMode of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Driver_TurnSignal_@c15aa5bd": {
@@ -316,6 +406,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Driver_TurnSignal_@57ed074a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Driver_TurnSignal_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Driver_TurnSignal of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -330,6 +425,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_@dd464c81"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontLeftDaylightRunning_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftHighBeam_@3c199c57": {
@@ -342,6 +442,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_@d8127a67"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontLeftHighBeam_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontLeftHighBeam of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -356,6 +461,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_@f762e172"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontLeftLowBeam_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontLeftLowBeam of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftTurn_@8a520d2c": {
@@ -368,6 +478,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontLeftTurn_@7c639c49"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontLeftTurn_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontLeftTurn of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -382,6 +497,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontRightDaylightRunning_@29d4642c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontRightDaylightRunning_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontRightDaylightRunning of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightHighBeam_@205c09db": {
@@ -394,6 +514,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontRightHighBeam_@b193cd96"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontRightHighBeam_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontRightHighBeam of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -408,6 +533,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontRightLowBeam_@af796aae"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontRightLowBeam_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontRightLowBeam of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightTurn_@7ddfce23": {
@@ -420,6 +550,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_FrontRightTurn_@f8ef29c1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_FrontRightTurn_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_FrontRightTurn of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -434,6 +569,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_RearLeftTurn_@e8b44d4c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_RearLeftTurn_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_RearLeftTurn of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_Lamp_RearRightTurn_@a8275104": {
@@ -446,6 +586,11 @@
                     ],
                     "realizingInterface": [
                         "ExteriorLightingDesign_Lamp_RearRightTurn_@aea9f317"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Lamp_RearRightTurn_Delegation of placeholder ExteriorLighting is provided by ExteriorLightingDesign_Lamp_RearRightTurn of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -460,6 +605,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_LeftBrakeLightRequest_@359c63ea"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftBrakeLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_LeftBrakeLightRequest of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_LeftDaylightRunningLightRequest_@b37c5f7a": {
@@ -472,6 +622,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "ExteriorLightingDesign_LeftDaylightRunningLightRequest_@264621a3"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftDaylightRunningLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_LeftDaylightRunningLightRequest of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -486,6 +641,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_LeftHighBeamLightRequest_@4e16362c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftHighBeamLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_LeftHighBeamLightRequest of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_LeftLowBeamLightRequest_@ef748261": {
@@ -498,6 +658,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "ExteriorLightingDesign_LeftLowBeamLightRequest_@b94787ef"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftLowBeamLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_LeftLowBeamLightRequest of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -512,6 +677,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_LeftTurnLightRequest_@732687e6"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftTurnLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_LeftTurnLightRequest of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_RightBrakeLightRequest_@fdcde149": {
@@ -524,6 +694,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "ExteriorLightingDesign_RightBrakeLightRequest_@61b4fb5d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightBrakeLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_RightBrakeLightRequest of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -538,6 +713,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_RightDaylightRunningLightRequest_@f9b388ab"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightDaylightRunningLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_RightDaylightRunningLightRequest of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_RightHighBeamLightRequest_@16f8f83b": {
@@ -550,6 +730,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "ExteriorLightingDesign_RightHighBeamLightRequest_@c3016c73"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightHighBeamLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_RightHighBeamLightRequest of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -564,6 +749,11 @@
                     "realizingInterface": [
                         "ExteriorLightingDesign_RightLowBeamLightRequest_@0efbfc31"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightLowBeamLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_RightLowBeamLightRequest of ExteriorLightingDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_ExteriorLighting_RightTurnLightRequest_@0bad2494": {
@@ -576,6 +766,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "ExteriorLightingDesign_RightTurnLightRequest_@7710fd9a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightTurnLightRequest_Assembly of placeholder ExteriorLighting is provided by ExteriorLightingDesign_RightTurnLightRequest of ExteriorLightingDesign."
                     ]
                 }
             },
@@ -590,6 +785,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Cluster_LeftTurnTelltale_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Cluster_LeftTurnTelltale of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_Cluster_ProximityDistance_@ad7aff1b": {
@@ -602,6 +802,11 @@
                     ],
                     "realizingInterface": [
                         "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Cluster_ProximityDistance_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Cluster_ProximityDistance of VehicleInformationDesign."
                     ]
                 }
             },
@@ -616,6 +821,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Cluster_RightTurnTelltale_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Cluster_RightTurnTelltale of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_Cluster_StateOfCharge_@6ebf115c": {
@@ -628,6 +838,11 @@
                     ],
                     "realizingInterface": [
                         "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Cluster_StateOfCharge_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Cluster_StateOfCharge of VehicleInformationDesign."
                     ]
                 }
             },
@@ -642,6 +857,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Infotainment_LeftTurnIndicator_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Infotainment_LeftTurnIndicator of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_Infotainment_RightTurnIndicator_@99546fbd": {
@@ -654,6 +874,11 @@
                     ],
                     "realizingInterface": [
                         "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Infotainment_RightTurnIndicator_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Infotainment_RightTurnIndicator of VehicleInformationDesign."
                     ]
                 }
             },
@@ -668,6 +893,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port Infotainment_VehicleSpeed_Delegation of placeholder VehicleInformation is provided by VehicleInformationDesign_Infotainment_VehicleSpeed of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_LeftBrakeLightRequest_@2472e0a1": {
@@ -680,6 +910,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftBrakeLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_LeftBrakeLightRequest of VehicleInformationDesign."
                     ]
                 }
             },
@@ -694,6 +929,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftDaylightRunningLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_LeftDaylightRunningLightRequest of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_LeftHighBeamLightRequest_@e6fdbde7": {
@@ -706,6 +946,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftHighBeamLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_LeftHighBeamLightRequest of VehicleInformationDesign."
                     ]
                 }
             },
@@ -720,6 +965,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftLowBeamLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_LeftLowBeamLightRequest of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_LeftTurnLightRequest_@bd2cabec": {
@@ -732,6 +982,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "VehicleInformationDesign_LeftTurnLightRequest_@10a72725"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_LeftTurnLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_LeftTurnLightRequest of VehicleInformationDesign."
                     ]
                 }
             },
@@ -746,6 +1001,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightBrakeLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_RightBrakeLightRequest of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_RightDaylightRunningLightRequest_@76d5db62": {
@@ -758,6 +1018,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightDaylightRunningLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_RightDaylightRunningLightRequest of VehicleInformationDesign."
                     ]
                 }
             },
@@ -772,6 +1037,11 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightHighBeamLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_RightHighBeamLightRequest of VehicleInformationDesign."
+                    ]
                 }
             },
             "IR_RemotiveCar_VehicleInformation_RightLowBeamLightRequest_@85223b78": {
@@ -784,6 +1054,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightLowBeamLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_RightLowBeamLightRequest of VehicleInformationDesign."
                     ]
                 }
             },
@@ -798,16 +1073,26 @@
                     "realizingInterface": [
                         "VehicleInformationDesign_RightTurnLightRequest_@f952c26a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RemotiveCar_RightTurnLightRequest_Assembly of placeholder VehicleInformation is provided by VehicleInformationDesign_RightTurnLightRequest of VehicleInformationDesign."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedRemotiveCar_@29fec195",
             "description": [
-                "Realizes RemotiveCar by its parts' realizations."
+                "Realizes RemotiveCar by its parts' realizations.",
+                "",
+                "- ExteriorLighting \u2192 ImplementedExteriorLightingDesign",
+                "- ClimateControl \u2192 ImplementedClimateControlDesign",
+                "- DriverControls \u2192 ImplementedDriverControlsDesign",
+                "- VehicleInformation \u2192 ImplementedVehicleInformationDesign"
             ],
             "name": "ImplementedRemotiveCar",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -17,6 +17,34 @@
             ]
         },
         "aggregations": {
+            "BCM_DriverControls_AcceleratorPedalPosition_BodyCan0_@488279b7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 AcceleratorPedalInfo (id 107, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
+            },
+            "BCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@d2fea52f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 AcceleratorPedalPositionSensor (id 105, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
+            },
             "BCM_DriverControls_ComputeNeed_@9f14c996": {
                 "stereotype": "ApplicationComputeResourceInterface",
                 "attributes": {
@@ -31,24 +59,6 @@
                     ]
                 }
             },
-            "BCM_DriverControls_AcceleratorPedalPosition_BodyCan0_@488279b7": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {}
-            },
-            "BCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@d2fea52f": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {}
-            },
             "BCM_DriverControls_GearLeverPosition_@428c9d83": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -56,7 +66,12 @@
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 GearInfo (id 108, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
             },
             "BCM_DriverControls_GearShiftDown_@8dbf280a": {
                 "stereotype": "External_Input",
@@ -65,7 +80,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 GearShiftPaddles (id 106, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "BCM_DriverControls_GearShiftUp_@b65e48d4": {
                 "stereotype": "External_Input",
@@ -74,7 +94,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 GearShiftPaddles (id 106, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "BCM_DriverControls_SteeringAngle_@625a8884": {
                 "stereotype": "External_Input",
@@ -83,7 +108,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 SteeringAngle (id 102, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "BCM_DriverControls_SteeringWheelPosition_@7ff8da68": {
                 "stereotype": "External_Output",
@@ -92,17 +122,31 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 SteeringWheelInfo (id 106, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
             }
         },
         "metadata": {
             "uuid": "BCM_DriverControls_@5264efe8",
             "description": [
-                "DriverControls software on the Body Control Module (BCM). Controls vehicle body electronics (lights, locks, etc.)."
+                "DriverControls software on the Body Control Module (BCM). Controls vehicle body electronics (lights, locks, etc.).",
+                "",
+                "Gear state machine (state_machines/gears.py):",
+                "",
+                "```mermaid",
+                "stateDiagram-v2",
+                "  [*] --> Drive",
+                "  Drive --> Reverse: GearShiftDown",
+                "  Reverse --> Drive: GearShiftUp",
+                "```"
             ],
             "name": "BCM_DriverControls",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

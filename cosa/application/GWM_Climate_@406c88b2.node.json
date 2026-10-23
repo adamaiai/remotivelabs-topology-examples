@@ -35,7 +35,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ]
+                }
             },
             "GWM_Climate_HVACService_RightTemperature_@9dab4d8c": {
                 "stereotype": "External_Input",
@@ -44,7 +49,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ]
+                }
             },
             "GWM_Climate_LeftTemperature_@e242f991": {
                 "stereotype": "External_Output",
@@ -53,7 +63,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
+                    ]
+                }
             },
             "GWM_Climate_RightTemperature_@7c28a8e9": {
                 "stereotype": "External_Output",
@@ -62,7 +77,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -72,7 +92,7 @@
             ],
             "name": "GWM_Climate",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

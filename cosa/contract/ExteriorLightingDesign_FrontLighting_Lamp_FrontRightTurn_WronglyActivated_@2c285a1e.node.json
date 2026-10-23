@@ -17,7 +17,7 @@
                 "Derived, not in the specification: Inside the exterior lighting design, front lighting lights the front right turn lamp from RightTurnLightRequest."
             ],
             "name": "ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_WronglyActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

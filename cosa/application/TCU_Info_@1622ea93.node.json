@@ -34,7 +34,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ]
+                }
             },
             "TCU_Info_Latitude_@dc5fafc0": {
                 "stereotype": "External_Output",
@@ -43,7 +48,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ]
+                }
             },
             "TCU_Info_Longitude_@eed3d47f": {
                 "stereotype": "External_Output",
@@ -52,7 +62,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -62,7 +77,7 @@
             ],
             "name": "TCU_Info",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

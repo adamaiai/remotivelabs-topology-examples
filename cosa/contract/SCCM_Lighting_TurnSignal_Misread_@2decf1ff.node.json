@@ -19,7 +19,7 @@
                 "Derived, not in the specification: SCCM puts the turn stalk on DriverCan0; needed so the BCM's assumption on its TurnSignal input is guaranteed."
             ],
             "name": "SCCM_Lighting_TurnSignal_Misread",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

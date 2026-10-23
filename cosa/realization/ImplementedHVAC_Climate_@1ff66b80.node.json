@@ -17,7 +17,7 @@
                 "Implementation: RemotiveTopology mock generated from the database; the HVAC implementation serves all of its software components."
             ],
             "name": "ImplementedHVAC_Climate",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

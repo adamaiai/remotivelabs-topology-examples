@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "DEVS2_ECU_Compute_@e4d5c1de"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "DEVS2_Lighting_ComputeNeed is served by DEVS2_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "DEVS2_Lighting runs on the DEVS2 ECU."
             ],
             "name": "ComputeAllocation_DEVS2_Lighting",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

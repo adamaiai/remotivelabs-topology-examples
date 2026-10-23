@@ -21,7 +21,7 @@
                 "Critical: DEVS2_Lighting_ReqRight stays off for longer than 500 ms while it should be blinking."
             ],
             "name": "DC_DEVS2_Lighting_ReqRight_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

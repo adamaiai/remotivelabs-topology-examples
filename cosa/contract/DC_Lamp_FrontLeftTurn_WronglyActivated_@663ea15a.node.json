@@ -21,7 +21,7 @@
                 "Critical: Lamp_FrontLeftTurn is on for longer than 500 ms while it should be off."
             ],
             "name": "DC_Lamp_FrontLeftTurn_WronglyActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -40,6 +40,11 @@
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly is carried on DriverCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_DriverControlsDesign_GearShiftDown_Assembly_@d9503bb8": {
@@ -51,6 +56,11 @@
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_GearShiftDown_Assembly is carried on DriverCan0_Bandwidth."
                     ]
                 }
             },
@@ -64,6 +74,11 @@
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_GearShiftUp_Assembly is carried on DriverCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_DriverControlsDesign_SteeringAngle_Assembly_@255ea79a": {
@@ -75,6 +90,11 @@
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire DriverControlsDesign_SteeringAngle_Assembly is carried on DriverCan0_Bandwidth."
                     ]
                 }
             },
@@ -88,6 +108,11 @@
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_BrakePedalPosition_Assembly is carried on DriverCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_HazardLightButton_Assembly_@c58e0c92": {
@@ -99,6 +124,11 @@
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_HazardLightButton_Assembly is carried on DriverCan0_Bandwidth."
                     ]
                 }
             },
@@ -112,6 +142,11 @@
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_HighBeam_Assembly is carried on DriverCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_ExteriorLightingDesign_LightMode_Assembly_@94d7042f": {
@@ -123,6 +158,11 @@
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_LightMode_Assembly is carried on DriverCan0_Bandwidth."
                     ]
                 }
             },
@@ -136,6 +176,11 @@
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire ExteriorLightingDesign_TurnSignal_Assembly is carried on DriverCan0_Bandwidth."
+                    ]
                 }
             }
         },
@@ -146,7 +191,7 @@
             ],
             "name": "CommunicateAllocation_DriverCan0",
             "source": "remotive_car/platform/databases/driver_can.dbc",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

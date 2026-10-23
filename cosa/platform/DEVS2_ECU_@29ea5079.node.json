@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "DEVS2_ECU_@29ea5079",
             "description": [
-                "Rear light LIN device 2 ECU hardware. Channels: RearLightLIN."
+                "Rear light LIN device 2 ECU hardware. Channels: RearLightLIN.",
+                "",
+                "Runs: DEVS2_Lighting."
             ],
             "name": "DEVS2_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

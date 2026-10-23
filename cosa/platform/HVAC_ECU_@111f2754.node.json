@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "HVAC_ECU_@111f2754",
             "description": [
-                "Heating, Ventilation, and Air Conditioning ECU hardware. Channels: BodyCan0."
+                "Heating, Ventilation, and Air Conditioning ECU hardware. Channels: BodyCan0.",
+                "",
+                "Runs: HVAC_Climate."
             ],
             "name": "HVAC_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

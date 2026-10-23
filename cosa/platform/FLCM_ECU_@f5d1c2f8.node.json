@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "FLCM_ECU_@f5d1c2f8",
             "description": [
-                "Front Light Control Module ECU hardware. Channels: BodyCan0."
+                "Front Light Control Module ECU hardware. Channels: BodyCan0.",
+                "",
+                "Runs: FLCM_Lighting."
             ],
             "name": "FLCM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

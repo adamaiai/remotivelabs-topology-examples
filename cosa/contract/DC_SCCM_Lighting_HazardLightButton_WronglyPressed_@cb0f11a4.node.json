@@ -21,7 +21,7 @@
                 "Critical: SCCM_Lighting_HazardLightButton reads pressed for longer than 50 ms while the button is released."
             ],
             "name": "DC_SCCM_Lighting_HazardLightButton_WronglyPressed",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

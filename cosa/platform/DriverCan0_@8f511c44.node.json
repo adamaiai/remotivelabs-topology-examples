@@ -26,11 +26,18 @@
         "metadata": {
             "uuid": "DriverCan0_@8f511c44",
             "description": [
-                "CAN bus, 500 kbit/s, CAN FD data phase 8 Mbit/s. Database driver_can.dbc."
+                "CAN bus, 500 kbit/s, CAN FD data phase 8 Mbit/s. Database driver_can.dbc.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  n_DriverCan0[[\"DriverCan0\"]]",
+                "  n_SCCM[\"SCCM_ECU\"] --- n_DriverCan0",
+                "  n_BCM[\"BCM_ECU\"] --- n_DriverCan0",
+                "```"
             ],
             "name": "DriverCan0",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

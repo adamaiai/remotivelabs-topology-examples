@@ -17,7 +17,7 @@
                 "Derived, not in the specification: Inside the exterior lighting design, request sensing puts the hazard button on DriverCan0."
             ],
             "name": "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

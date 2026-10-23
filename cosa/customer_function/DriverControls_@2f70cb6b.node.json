@@ -20,7 +20,12 @@
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the instrument cluster."
+                    ]
+                }
             },
             "DriverControls_Driver_AcceleratorPedalPosition_@4fa62382": {
                 "stereotype": "FunctionalAspect",
@@ -29,7 +34,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver presses the accelerator pedal."
+                    ]
+                }
             },
             "DriverControls_Driver_GearShiftDown_@21ae1ac3": {
                 "stereotype": "FunctionalAspect",
@@ -38,7 +48,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver pulls the gear shift down paddle."
+                    ]
+                }
             },
             "DriverControls_Driver_GearShiftUp_@bbc25023": {
                 "stereotype": "FunctionalAspect",
@@ -47,7 +62,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver pulls the gear shift up paddle."
+                    ]
+                }
             },
             "DriverControls_Driver_SteeringAngle_@6ee5300f": {
                 "stereotype": "FunctionalAspect",
@@ -56,7 +76,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver turns the steering wheel."
+                    ]
+                }
             },
             "DriverControls_Infotainment_Gear_@cf0d5aef": {
                 "stereotype": "FunctionalAspect",
@@ -65,16 +90,38 @@
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the infotainment unit."
+                    ]
+                }
             }
         },
         "metadata": {
             "uuid": "DriverControls_@2f70cb6b",
             "description": [
-                "Driver steering, accelerator and gear shift inputs, with the selected gear shown in the cluster and the infotainment unit."
+                "Driver steering, accelerator and gear shift inputs, with the selected gear shown in the cluster and the infotainment unit.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  n_DriverControls{{\"DriverControls\"}}",
+                "  n_Driver_SteeringAngle([\"Driver_SteeringAngle\"])",
+                "  n_Driver_SteeringAngle --> n_DriverControls",
+                "  n_Driver_AcceleratorPedalPosition([\"Driver_AcceleratorPedalPosition\"])",
+                "  n_Driver_AcceleratorPedalPosition --> n_DriverControls",
+                "  n_Driver_GearShiftUp([\"Driver_GearShiftUp\"])",
+                "  n_Driver_GearShiftUp --> n_DriverControls",
+                "  n_Driver_GearShiftDown([\"Driver_GearShiftDown\"])",
+                "  n_Driver_GearShiftDown --> n_DriverControls",
+                "  n_Cluster_GearLeverPosition([\"Cluster_GearLeverPosition\"])",
+                "  n_DriverControls --> n_Cluster_GearLeverPosition",
+                "  n_Infotainment_Gear([\"Infotainment_Gear\"])",
+                "  n_DriverControls --> n_Infotainment_Gear",
+                "```"
             ],
             "name": "DriverControls",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

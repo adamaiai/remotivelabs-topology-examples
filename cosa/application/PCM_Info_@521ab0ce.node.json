@@ -33,7 +33,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "rpm"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
             },
             "PCM_Info_MotorTorque_@d7acb2d0": {
                 "stereotype": "External_Output",
@@ -42,7 +47,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "Nm"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -52,7 +62,7 @@
             ],
             "name": "PCM_Info",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

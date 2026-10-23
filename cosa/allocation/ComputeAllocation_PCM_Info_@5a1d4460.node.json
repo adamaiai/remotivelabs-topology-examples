@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "PCM_ECU_Compute_@375b1c8c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "PCM_Info_ComputeNeed is served by PCM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "PCM_Info runs on the PCM ECU."
             ],
             "name": "ComputeAllocation_PCM_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "DIM_ECU_@8654976d",
             "description": [
-                "Driver Information Module ECU hardware. Channels: BodyCan0, ChassisCan0."
+                "Driver Information Module ECU hardware. Channels: BodyCan0, ChassisCan0.",
+                "",
+                "Runs: DIM_DriverControls, DIM_Info."
             ],
             "name": "DIM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

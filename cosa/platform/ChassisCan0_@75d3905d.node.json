@@ -26,11 +26,21 @@
         "metadata": {
             "uuid": "ChassisCan0_@75d3905d",
             "description": [
-                "CAN bus. Database chassis_can.dbc."
+                "CAN bus. Database chassis_can.dbc.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  n_ChassisCan0[[\"ChassisCan0\"]]",
+                "  n_DIM[\"DIM_ECU\"] --- n_ChassisCan0",
+                "  n_GWM[\"GWM_ECU\"] --- n_ChassisCan0",
+                "  n_ABS[\"ABS_ECU\"] --- n_ChassisCan0",
+                "  n_BMS[\"BMS_ECU\"] --- n_ChassisCan0",
+                "  n_PCM[\"PCM_ECU\"] --- n_ChassisCan0",
+                "```"
             ],
             "name": "ChassisCan0",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

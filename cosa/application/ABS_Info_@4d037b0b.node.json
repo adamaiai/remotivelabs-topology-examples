@@ -32,7 +32,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "m/s"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 UISpeedFrame (id 123, 200 ms). Sent by ABS, received by GWM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -42,7 +47,7 @@
             ],
             "name": "ABS_Info",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

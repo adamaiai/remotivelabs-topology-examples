@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "RLCM_ECU_@2e9852c4",
             "description": [
-                "Rear Light Control Module ECU hardware. Channels: BodyCan0, RearLightLIN. LIN master, time base 5 ms, jitter 1 ms."
+                "Rear Light Control Module ECU hardware. Channels: BodyCan0, RearLightLIN. LIN master, time base 5 ms, jitter 1 ms.",
+                "",
+                "Runs: RLCM_Lighting."
             ],
             "name": "RLCM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

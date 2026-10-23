@@ -27,6 +27,11 @@
                     "realizingExternalIF": [
                         "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ClimateControl_Climate_LeftTemperature is provided by the design's boundary interface ClimateControlDesign_Climate_LeftTemperature."
+                    ]
                 }
             },
             "CFIR_ClimateControl_Climate_RightTemperature_@a3ff82bf": {
@@ -38,6 +43,11 @@
                     ],
                     "realizingExternalIF": [
                         "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ClimateControl_Climate_RightTemperature is provided by the design's boundary interface ClimateControlDesign_Climate_RightTemperature."
                     ]
                 }
             },
@@ -51,6 +61,11 @@
                     "realizingExternalIF": [
                         "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ClimateControl_Occupant_LeftTemperatureSetpoint is provided by the design's boundary interface ClimateControlDesign_Occupant_LeftTemperatureSetpoint."
+                    ]
                 }
             },
             "CFIR_ClimateControl_Occupant_RightTemperatureSetpoint_@6cbdd447": {
@@ -63,6 +78,11 @@
                     "realizingExternalIF": [
                         "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ClimateControl_Occupant_RightTemperatureSetpoint is provided by the design's boundary interface ClimateControlDesign_Occupant_RightTemperatureSetpoint."
+                    ]
                 }
             }
         },
@@ -72,7 +92,7 @@
                 "ClimateControlDesign realizes ClimateControl."
             ],
             "name": "ClimateControl_Realization",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

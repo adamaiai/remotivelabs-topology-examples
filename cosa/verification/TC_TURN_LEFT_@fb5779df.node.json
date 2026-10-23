@@ -21,7 +21,7 @@
             ],
             "name": "TC_TURN_LEFT",
             "source": "remotive_car/docs/verification/test_cases.rst#TC_TURN_LEFT",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

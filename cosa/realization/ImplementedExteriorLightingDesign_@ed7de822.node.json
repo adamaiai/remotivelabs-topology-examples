@@ -44,6 +44,11 @@
                     "realizingIntegration": [
                         "ImplementedFLCM_Lighting_@92d1fe4a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder FrontLighting is realized by ImplementedFLCM_Lighting, the realization of FLCM_Lighting."
+                    ]
                 }
             },
             "Chosen_ExteriorLightingDesign_LightingControl_@caba89e5": {
@@ -83,6 +88,11 @@
                     "realizingIntegration": [
                         "ImplementedBCM_Lighting_@1fe8ef8b"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder LightingControl is realized by ImplementedBCM_Lighting, the realization of BCM_Lighting."
+                    ]
                 }
             },
             "Chosen_ExteriorLightingDesign_LightingRequestSensing_@ae733c26": {
@@ -106,6 +116,11 @@
                     ],
                     "realizingIntegration": [
                         "ImplementedSCCM_Lighting_@5ba7df26"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder LightingRequestSensing is realized by ImplementedSCCM_Lighting, the realization of SCCM_Lighting."
                     ]
                 }
             },
@@ -131,6 +146,11 @@
                     "realizingIntegration": [
                         "ImplementedRearLight_@3b2f326e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder RearLighting is realized by ImplementedRearLight, the realization of RearLight."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftDaylightRunning_@82702578": {
@@ -143,6 +163,11 @@
                     ],
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontLeftDaylightRunning_@6ecdfb97"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontLeftDaylightRunning of FLCM_Lighting."
                     ]
                 }
             },
@@ -157,6 +182,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontLeftHighBeam_@1ee766f7"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontLeftHighBeam_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontLeftHighBeam of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftLowBeam_@0a52fbdd": {
@@ -169,6 +199,11 @@
                     ],
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontLeftLowBeam_@874e7d83"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontLeftLowBeam_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontLeftLowBeam of FLCM_Lighting."
                     ]
                 }
             },
@@ -183,6 +218,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontLeftTurn_@005d1c8d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontLeftTurn_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontLeftTurn of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightDaylightRunning_@ed804c28": {
@@ -195,6 +235,11 @@
                     ],
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontRightDaylightRunning_@57bd57e4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontRightDaylightRunning_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontRightDaylightRunning of FLCM_Lighting."
                     ]
                 }
             },
@@ -209,6 +254,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontRightHighBeam_@4d80b303"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontRightHighBeam_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontRightHighBeam of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightLowBeam_@bf15ff75": {
@@ -221,6 +271,11 @@
                     ],
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontRightLowBeam_@02ce5638"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontRightLowBeam_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontRightLowBeam of FLCM_Lighting."
                     ]
                 }
             },
@@ -235,6 +290,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_Lamp_FrontRightTurn_@83299115"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_FrontRightTurn_Delegation of placeholder FrontLighting is provided by FLCM_Lighting_Lamp_FrontRightTurn of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_LeftDaylightRunningLightRequest_@730b7aec": {
@@ -247,6 +307,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "FLCM_Lighting_LeftDaylightRunningLightRequest_@5aa0ae3b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_LeftDaylightRunningLightRequest of FLCM_Lighting."
                     ]
                 }
             },
@@ -261,6 +326,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_LeftHighBeamLightRequest_@43d9fc99"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_LeftHighBeamLightRequest of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_LeftLowBeamLightRequest_@732e6570": {
@@ -273,6 +343,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "FLCM_Lighting_LeftLowBeamLightRequest_@5363f995"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_LeftLowBeamLightRequest of FLCM_Lighting."
                     ]
                 }
             },
@@ -287,6 +362,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_LeftTurnLightRequest_@0ec06099"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftTurnLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_LeftTurnLightRequest of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_RightDaylightRunningLightRequest_@6890c084": {
@@ -299,6 +379,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "FLCM_Lighting_RightDaylightRunningLightRequest_@b1817318"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_RightDaylightRunningLightRequest of FLCM_Lighting."
                     ]
                 }
             },
@@ -313,6 +398,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_RightHighBeamLightRequest_@8796e2bf"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightHighBeamLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_RightHighBeamLightRequest of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_FrontLighting_RightLowBeamLightRequest_@1d9e5bdd": {
@@ -325,6 +415,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "FLCM_Lighting_RightLowBeamLightRequest_@5d8ecbf3"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightLowBeamLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_RightLowBeamLightRequest of FLCM_Lighting."
                     ]
                 }
             },
@@ -339,6 +434,11 @@
                     "realizingInterface": [
                         "FLCM_Lighting_RightTurnLightRequest_@e13a9b7f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightTurnLightRequest_Assembly of placeholder FrontLighting is provided by FLCM_Lighting_RightTurnLightRequest of FLCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_BrakePedalPosition_@89d242af": {
@@ -351,6 +451,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_BrakePedalPosition_@9a9d7490"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_BrakePedalPosition_Assembly of placeholder LightingControl is provided by BCM_Lighting_BrakePedalPosition of BCM_Lighting."
                     ]
                 }
             },
@@ -365,6 +470,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_HazardLightButton_@0a2fe71a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_HazardLightButton_Assembly of placeholder LightingControl is provided by BCM_Lighting_HazardLightButton of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_HighBeam_@8a3d30a8": {
@@ -377,6 +487,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_HighBeam_@cd6cb983"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_HighBeam_Assembly of placeholder LightingControl is provided by BCM_Lighting_HighBeam of BCM_Lighting."
                     ]
                 }
             },
@@ -391,6 +506,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftBrakeLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_LeftBrakeLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_LeftBrakeLightRequest_Delegation_@4e37824e": {
@@ -403,6 +523,11 @@
                     ],
                     "realizingInterface": [
                         "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftBrakeLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_LeftBrakeLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -417,6 +542,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_LeftDaylightRunningLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_LeftDaylightRunningLightRequest_Delegation_@edbe17de": {
@@ -429,6 +559,11 @@
                     ],
                     "realizingInterface": [
                         "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftDaylightRunningLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_LeftDaylightRunningLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -443,6 +578,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_LeftHighBeamLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_LeftHighBeamLightRequest_Delegation_@a642c850": {
@@ -455,6 +595,11 @@
                     ],
                     "realizingInterface": [
                         "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftHighBeamLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_LeftHighBeamLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -469,6 +614,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_LeftLowBeamLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_LeftLowBeamLightRequest_Delegation_@e8382b6c": {
@@ -481,6 +631,11 @@
                     ],
                     "realizingInterface": [
                         "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftLowBeamLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_LeftLowBeamLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -495,6 +650,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_LeftTurnLightRequest_@564219ca"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftTurnLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_LeftTurnLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_Delegation_@e2a0a703": {
@@ -507,6 +667,11 @@
                     ],
                     "realizingInterface": [
                         "BCM_Lighting_LeftTurnLightRequest_@564219ca"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftTurnLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_LeftTurnLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -521,6 +686,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_LightMode_@a2d211b9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LightMode_Assembly of placeholder LightingControl is provided by BCM_Lighting_LightMode of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_RightBrakeLightRequest_@e92cb942": {
@@ -533,6 +703,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_RightBrakeLightRequest_@98c2cd58"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightBrakeLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_RightBrakeLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -547,6 +722,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_RightBrakeLightRequest_@98c2cd58"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightBrakeLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_RightBrakeLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_RightDaylightRunningLightRequest_@f7775a32": {
@@ -559,6 +739,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_RightDaylightRunningLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -573,6 +758,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightDaylightRunningLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_RightDaylightRunningLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_RightHighBeamLightRequest_@d16599c3": {
@@ -585,6 +775,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightHighBeamLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_RightHighBeamLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -599,6 +794,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightHighBeamLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_RightHighBeamLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_RightLowBeamLightRequest_@81db3afb": {
@@ -611,6 +811,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightLowBeamLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_RightLowBeamLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -625,6 +830,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightLowBeamLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_RightLowBeamLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_@595de7b1": {
@@ -637,6 +847,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_RightTurnLightRequest_@0dbba29d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightTurnLightRequest_Assembly of placeholder LightingControl is provided by BCM_Lighting_RightTurnLightRequest of BCM_Lighting."
                     ]
                 }
             },
@@ -651,6 +866,11 @@
                     "realizingInterface": [
                         "BCM_Lighting_RightTurnLightRequest_@0dbba29d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightTurnLightRequest_Delegation of placeholder LightingControl is provided by BCM_Lighting_RightTurnLightRequest of BCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingControl_TurnSignal_@e82f273e": {
@@ -663,6 +883,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_Lighting_TurnSignal_@86604253"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_TurnSignal_Assembly of placeholder LightingControl is provided by BCM_Lighting_TurnSignal of BCM_Lighting."
                     ]
                 }
             },
@@ -677,6 +902,11 @@
                     "realizingInterface": [
                         "SCCM_Lighting_BrakePedalPosition_@fec1c5e9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_BrakePedalPosition_Assembly of placeholder LightingRequestSensing is provided by SCCM_Lighting_BrakePedalPosition of SCCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_BrakePedalPosition_@726dbacb": {
@@ -689,6 +919,11 @@
                     ],
                     "realizingInterface": [
                         "SCCM_Lighting_Driver_BrakePedalPosition_@597bce1e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Driver_BrakePedalPosition_Delegation of placeholder LightingRequestSensing is provided by SCCM_Lighting_Driver_BrakePedalPosition of SCCM_Lighting."
                     ]
                 }
             },
@@ -703,6 +938,11 @@
                     "realizingInterface": [
                         "SCCM_Lighting_Driver_HazardLightButton_@19ed3451"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Driver_HazardLightButton_Delegation of placeholder LightingRequestSensing is provided by SCCM_Lighting_Driver_HazardLightButton of SCCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_HighBeam_@a9b18eb9": {
@@ -715,6 +955,11 @@
                     ],
                     "realizingInterface": [
                         "SCCM_Lighting_Driver_HighBeam_@ba1cc0bd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Driver_HighBeam_Delegation of placeholder LightingRequestSensing is provided by SCCM_Lighting_Driver_HighBeam of SCCM_Lighting."
                     ]
                 }
             },
@@ -729,6 +974,11 @@
                     "realizingInterface": [
                         "SCCM_Lighting_Driver_LightMode_@d3d76ab9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Driver_LightMode_Delegation of placeholder LightingRequestSensing is provided by SCCM_Lighting_Driver_LightMode of SCCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_TurnSignal_@11116cd3": {
@@ -741,6 +991,11 @@
                     ],
                     "realizingInterface": [
                         "SCCM_Lighting_Driver_TurnSignal_@9f3a4d2b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Driver_TurnSignal_Delegation of placeholder LightingRequestSensing is provided by SCCM_Lighting_Driver_TurnSignal of SCCM_Lighting."
                     ]
                 }
             },
@@ -755,6 +1010,11 @@
                     "realizingInterface": [
                         "SCCM_Lighting_HazardLightButton_@c4d42502"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_HazardLightButton_Assembly of placeholder LightingRequestSensing is provided by SCCM_Lighting_HazardLightButton of SCCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingRequestSensing_HighBeam_@399b3399": {
@@ -767,6 +1027,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "SCCM_Lighting_HighBeam_@7eb63986"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_HighBeam_Assembly of placeholder LightingRequestSensing is provided by SCCM_Lighting_HighBeam of SCCM_Lighting."
                     ]
                 }
             },
@@ -781,6 +1046,11 @@
                     "realizingInterface": [
                         "SCCM_Lighting_LightMode_@192bf0b2"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LightMode_Assembly of placeholder LightingRequestSensing is provided by SCCM_Lighting_LightMode of SCCM_Lighting."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_LightingRequestSensing_TurnSignal_@c7514c1f": {
@@ -793,6 +1063,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "SCCM_Lighting_TurnSignal_@3909ddfe"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_TurnSignal_Assembly of placeholder LightingRequestSensing is provided by SCCM_Lighting_TurnSignal of SCCM_Lighting."
                     ]
                 }
             },
@@ -807,6 +1082,11 @@
                     "realizingInterface": [
                         "RearLight_Lamp_RearLeftTurn_@08944bb4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_RearLeftTurn_Delegation of placeholder RearLighting is provided by RearLight_Lamp_RearLeftTurn of RearLight."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_@bca6198e": {
@@ -819,6 +1099,11 @@
                     ],
                     "realizingInterface": [
                         "RearLight_Lamp_RearRightTurn_@3fe88586"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_Lamp_RearRightTurn_Delegation of placeholder RearLighting is provided by RearLight_Lamp_RearRightTurn of RearLight."
                     ]
                 }
             },
@@ -833,6 +1118,11 @@
                     "realizingInterface": [
                         "RearLight_LeftBrakeLightRequest_@f1a73c7f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftBrakeLightRequest_Assembly of placeholder RearLighting is provided by RearLight_LeftBrakeLightRequest of RearLight."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_RearLighting_LeftDaylightRunningLightRequest_@9a12db61": {
@@ -845,6 +1135,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly of placeholder RearLighting is provided by RearLight_LeftDaylightRunningLightRequest of RearLight."
                     ]
                 }
             },
@@ -859,6 +1154,11 @@
                     "realizingInterface": [
                         "RearLight_LeftLowBeamLightRequest_@3ddde5b2"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly of placeholder RearLighting is provided by RearLight_LeftLowBeamLightRequest of RearLight."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_RearLighting_LeftTurnLightRequest_@2151e4c2": {
@@ -871,6 +1171,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RearLight_LeftTurnLightRequest_@a0da91cd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_LeftTurnLightRequest_Assembly of placeholder RearLighting is provided by RearLight_LeftTurnLightRequest of RearLight."
                     ]
                 }
             },
@@ -885,6 +1190,11 @@
                     "realizingInterface": [
                         "RearLight_RightBrakeLightRequest_@5a47d610"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightBrakeLightRequest_Assembly of placeholder RearLighting is provided by RearLight_RightBrakeLightRequest of RearLight."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_RearLighting_RightDaylightRunningLightRequest_@aebecd8f": {
@@ -897,6 +1207,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RearLight_RightDaylightRunningLightRequest_@6c064b7f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly of placeholder RearLighting is provided by RearLight_RightDaylightRunningLightRequest of RearLight."
                     ]
                 }
             },
@@ -911,6 +1226,11 @@
                     "realizingInterface": [
                         "RearLight_RightLowBeamLightRequest_@936ab4ab"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightLowBeamLightRequest_Assembly of placeholder RearLighting is provided by RearLight_RightLowBeamLightRequest of RearLight."
+                    ]
                 }
             },
             "IR_ExteriorLightingDesign_RearLighting_RightTurnLightRequest_@174c8727": {
@@ -924,16 +1244,26 @@
                     "realizingInterface": [
                         "RearLight_RightTurnLightRequest_@c084efef"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ExteriorLightingDesign_RightTurnLightRequest_Assembly of placeholder RearLighting is provided by RearLight_RightTurnLightRequest of RearLight."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedExteriorLightingDesign_@ed7de822",
             "description": [
-                "Realizes ExteriorLightingDesign by its parts' realizations."
+                "Realizes ExteriorLightingDesign by its parts' realizations.",
+                "",
+                "- LightingRequestSensing \u2192 ImplementedSCCM_Lighting",
+                "- LightingControl \u2192 ImplementedBCM_Lighting",
+                "- FrontLighting \u2192 ImplementedFLCM_Lighting",
+                "- RearLighting \u2192 ImplementedRearLight"
             ],
             "name": "ImplementedExteriorLightingDesign",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

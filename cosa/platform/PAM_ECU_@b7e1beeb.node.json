@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "PAM_ECU_@b7e1beeb",
             "description": [
-                "Parking Assistant Module ECU hardware. Channels: BodyCan0."
+                "Parking Assistant Module ECU hardware. Channels: BodyCan0.",
+                "",
+                "Runs: PAM_Info."
             ],
             "name": "PAM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

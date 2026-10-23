@@ -17,10 +17,20 @@
         "metadata": {
             "uuid": "RemotiveCar_Lamp_FrontLeftTurn_NotActivated_@f73980ab",
             "description": [
-                "Derived, not in the specification: Vehicle-level view of SYSREQ_TURN_SIGNAL_SIGNALING, SYSREQ_HAZARD_LIGHT_SAFETY."
+                "Derived, not in the specification: Vehicle-level view of SYSREQ_TURN_SIGNAL_SIGNALING, SYSREQ_HAZARD_LIGHT_SAFETY.",
+                "",
+                "Signal path the guarantee rests on:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  drv([\"Driver_HazardLightButton<br/>Driver_TurnSignal\"]) --> sccm[\"SCCM_Lighting\"]",
+                "  sccm -->|\"HazardLightButton<br/>TurnSignal\"| bcm[\"BCM_Lighting\"]",
+                "  bcm -->|\"LeftTurnLightRequest\"| flcm[\"FLCM_Lighting\"]",
+                "  flcm --> lamp([\"Lamp_FrontLeftTurn\"])",
+                "```"
             ],
             "name": "RemotiveCar_Lamp_FrontLeftTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

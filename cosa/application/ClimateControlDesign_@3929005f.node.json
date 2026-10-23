@@ -59,6 +59,27 @@
                     ]
                 }
             },
+            "ClimateControlDesign_Climate_LeftTemperature_Delegation_@a409bd00": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "outer": [
+                        "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Climate_LeftTemperature from ClimateActuation to the ClimateControlDesign output."
+                    ]
+                }
+            },
             "ClimateControlDesign_Climate_RightTemperature_@35ef125a": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -70,6 +91,27 @@
                 "metadata": {
                     "description": [
                         "Right compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Climate_RightTemperature_Delegation_@b863fd9a": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "outer": [
+                        "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Climate_RightTemperature from ClimateActuation to the ClimateControlDesign output."
                     ]
                 }
             },
@@ -165,52 +207,6 @@
                     ]
                 }
             },
-            "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Occupant sets the right compartment temperature in the infotainment UI."
-                    ]
-                }
-            },
-            "ClimateControlDesign_Climate_LeftTemperature_Delegation_@a409bd00": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {
-                    "inner": [
-                        "ClimateControlDesign_ClimateActuation_@b3075767"
-                    ],
-                    "outer": [
-                        "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
-                    ]
-                }
-            },
-            "ClimateControlDesign_Climate_RightTemperature_Delegation_@b863fd9a": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {
-                    "inner": [
-                        "ClimateControlDesign_ClimateActuation_@b3075767"
-                    ],
-                    "outer": [
-                        "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
-                    ]
-                }
-            },
             "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_Delegation_@33268c4f": {
                 "stereotype": "InternalDelegation_Intf",
                 "attributes": {
@@ -224,6 +220,25 @@
                     ],
                     "outer": [
                         "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the ClimateControlDesign input Occupant_LeftTemperatureSetpoint to ClimateSetpointHMI."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the right compartment temperature in the infotainment UI."
                     ]
                 }
             },
@@ -241,16 +256,38 @@
                     "outer": [
                         "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates the ClimateControlDesign input Occupant_RightTemperatureSetpoint to ClimateSetpointHMI."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ClimateControlDesign_@3929005f",
             "description": [
-                "Functional design (FSC level). Functional design of climate control: take the occupant's setpoint, actuate the compartment climate."
+                "Functional design (FSC level). Functional design of climate control: take the occupant's setpoint, actuate the compartment climate.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  subgraph n_ClimateControlDesign[\"ClimateControlDesign\"]",
+                "    n_ClimateControlDesign_ClimateSetpointHMI__563017f6[\"ClimateSetpointHMI<br/>(IHU_Climate)\"]",
+                "    n_ClimateControlDesign_ClimateActuation__b3075767[\"ClimateActuation\"]",
+                "  end",
+                "  n_port_in_Occupant_LeftTemperatureSetpoint([\"Occupant_LeftTemperatureSetpoint\"])",
+                "  n_port_in_Occupant_RightTemperatureSetpoint([\"Occupant_RightTemperatureSetpoint\"])",
+                "  n_port_out_Climate_LeftTemperature([\"Climate_LeftTemperature\"])",
+                "  n_port_out_Climate_RightTemperature([\"Climate_RightTemperature\"])",
+                "  n_ClimateControlDesign_ClimateActuation__b3075767 --> n_port_out_Climate_LeftTemperature",
+                "  n_ClimateControlDesign_ClimateActuation__b3075767 --> n_port_out_Climate_RightTemperature",
+                "  n_ClimateControlDesign_ClimateSetpointHMI__563017f6 -->|\"HVACService_LeftTemperature<br/>HVACService_RightTemperature\"| n_ClimateControlDesign_ClimateActuation__b3075767",
+                "  n_port_in_Occupant_LeftTemperatureSetpoint --> n_ClimateControlDesign_ClimateSetpointHMI__563017f6",
+                "  n_port_in_Occupant_RightTemperatureSetpoint --> n_ClimateControlDesign_ClimateSetpointHMI__563017f6",
+                "```"
             ],
             "name": "ClimateControlDesign",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

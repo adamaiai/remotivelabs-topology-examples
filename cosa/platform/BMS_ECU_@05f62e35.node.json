@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "BMS_ECU_@05f62e35",
             "description": [
-                "Battery Management System ECU hardware. Channels: ChassisCan0."
+                "Battery Management System ECU hardware. Channels: ChassisCan0.",
+                "",
+                "Runs: BMS_Info."
             ],
             "name": "BMS_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -18,7 +18,7 @@
                 "Derived, not in the specification: Inside RemotiveCar, the exterior lighting design lights the turn lamps from the driver's inputs."
             ],
             "name": "RemotiveCar_ExteriorLighting_Lamp_RearLeftTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -24,7 +24,12 @@
                     "hasBecome": "Off",
                     "shouldBe": "Left"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects left but Off is read: the left indicators do not light."
+                    ]
+                }
             },
             "CC_ExteriorLightingDesign_Driver_TurnSignal_Left_as_Right_@f878eda5": {
                 "stereotype": "ConfusionCell",
@@ -32,7 +37,12 @@
                     "hasBecome": "Right",
                     "shouldBe": "Left"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects left but Right is read: the wrong side is indicated."
+                    ]
+                }
             },
             "CC_ExteriorLightingDesign_Driver_TurnSignal_Off_as_Left_@62b57f7c": {
                 "stereotype": "ConfusionCell",
@@ -40,7 +50,12 @@
                     "hasBecome": "Left",
                     "shouldBe": "Off"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects no turn but Left is read: the left indicators light without request."
+                    ]
+                }
             },
             "CC_ExteriorLightingDesign_Driver_TurnSignal_Off_as_Right_@0dde5954": {
                 "stereotype": "ConfusionCell",
@@ -48,7 +63,12 @@
                     "hasBecome": "Right",
                     "shouldBe": "Off"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects no turn but Right is read: the right indicators light without request."
+                    ]
+                }
             },
             "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Left_@f265b3bc": {
                 "stereotype": "ConfusionCell",
@@ -56,7 +76,12 @@
                     "hasBecome": "Left",
                     "shouldBe": "Right"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects right but Left is read: the wrong side is indicated."
+                    ]
+                }
             },
             "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Off_@d97705b8": {
                 "stereotype": "ConfusionCell",
@@ -64,7 +89,12 @@
                     "hasBecome": "Off",
                     "shouldBe": "Right"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "The driver selects right but Off is read: the right indicators do not light."
+                    ]
+                }
             },
             "CM_ExteriorLightingDesign_Driver_TurnSignal_@719a0a4d": {
                 "stereotype": "ConfusionMatrix",
@@ -78,6 +108,11 @@
                         "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Left_@f265b3bc",
                         "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Off_@d97705b8"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Every mix-up between Left, Right and Off on the turn stalk is dangerous: it either hides a turn intention or indicates one the driver did not make."
+                    ]
                 }
             }
         },
@@ -87,7 +122,7 @@
                 "Critical: ExteriorLightingDesign_Driver_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
             ],
             "name": "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

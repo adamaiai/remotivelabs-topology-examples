@@ -21,7 +21,7 @@
                 "Critical: ExteriorLightingDesign_HazardLightButton_Assembly reads released for longer than 50 ms while the button is pressed."
             ],
             "name": "DC_ExteriorLightingDesign_HazardLightButton_Assembly_NotPressed",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

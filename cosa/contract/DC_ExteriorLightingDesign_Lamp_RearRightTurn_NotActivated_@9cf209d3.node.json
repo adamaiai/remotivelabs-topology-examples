@@ -21,7 +21,7 @@
                 "Critical: ExteriorLightingDesign_Lamp_RearRightTurn stays off for longer than 500 ms while it should be blinking."
             ],
             "name": "DC_ExteriorLightingDesign_Lamp_RearRightTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

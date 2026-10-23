@@ -26,11 +26,24 @@
         "metadata": {
             "uuid": "BodyCan0_@752e91cf",
             "description": [
-                "CAN bus, 500 kbit/s, CAN FD data phase 8 Mbit/s. Database body_can.dbc."
+                "CAN bus, 500 kbit/s, CAN FD data phase 8 Mbit/s. Database body_can.dbc.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  n_BodyCan0[[\"BodyCan0\"]]",
+                "  n_BCM[\"BCM_ECU\"] --- n_BodyCan0",
+                "  n_DIM[\"DIM_ECU\"] --- n_BodyCan0",
+                "  n_FLCM[\"FLCM_ECU\"] --- n_BodyCan0",
+                "  n_RLCM[\"RLCM_ECU\"] --- n_BodyCan0",
+                "  n_GWM[\"GWM_ECU\"] --- n_BodyCan0",
+                "  n_PAM[\"PAM_ECU\"] --- n_BodyCan0",
+                "  n_TCU[\"TCU_ECU\"] --- n_BodyCan0",
+                "  n_HVAC[\"HVAC_ECU\"] --- n_BodyCan0",
+                "```"
             ],
             "name": "BodyCan0",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

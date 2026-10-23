@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "DIM_ECU_Compute_@5461856c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "DIM_Info_ComputeNeed is served by DIM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "DIM_Info runs on the DIM ECU."
             ],
             "name": "ComputeAllocation_DIM_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

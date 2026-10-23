@@ -17,7 +17,7 @@
                 "Implementation: RemotiveTopology mock generated from the database; the PCM implementation serves all of its software components."
             ],
             "name": "ImplementedPCM_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

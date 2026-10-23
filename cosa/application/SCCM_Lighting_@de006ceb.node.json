@@ -20,6 +20,20 @@
             ]
         },
         "aggregations": {
+            "SCCM_Lighting_BrakePedalPosition_@fec1c5e9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 BrakePedalPositionSensor (id 104, 50 ms, E2E protected). Sent by SCCM, received by BCM."
+                    ]
+                }
+            },
             "SCCM_Lighting_ComputeNeed_@cfa29bc4": {
                 "stereotype": "ApplicationComputeResourceInterface",
                 "attributes": {
@@ -34,15 +48,6 @@
                     ]
                 }
             },
-            "SCCM_Lighting_BrakePedalPosition_@fec1c5e9": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {}
-            },
             "SCCM_Lighting_Driver_BrakePedalPosition_@597bce1e": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -50,7 +55,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "dimensionless"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver presses the brake pedal."
+                    ]
+                }
             },
             "SCCM_Lighting_Driver_HazardLightButton_@19ed3451": {
                 "stereotype": "External_Input",
@@ -59,7 +69,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver presses the hazard light button."
+                    ]
+                }
             },
             "SCCM_Lighting_Driver_HighBeam_@ba1cc0bd": {
                 "stereotype": "External_Input",
@@ -68,7 +83,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver selects high beam on the light stalk."
+                    ]
+                }
             },
             "SCCM_Lighting_Driver_LightMode_@d3d76ab9": {
                 "stereotype": "External_Input",
@@ -77,7 +97,12 @@
                     "subTypeEnum": "LightModeEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver selects the light mode on the light stalk."
+                    ]
+                }
             },
             "SCCM_Lighting_Driver_TurnSignal_@9f3a4d2b": {
                 "stereotype": "External_Input",
@@ -86,7 +111,12 @@
                     "subTypeEnum": "TurnSignalEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver moves the turn stalk."
+                    ]
+                }
             },
             "SCCM_Lighting_HazardLightButton_@c4d42502": {
                 "stereotype": "External_Output",
@@ -95,7 +125,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 HazardLightButton (id 100, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "SCCM_Lighting_HighBeam_@7eb63986": {
                 "stereotype": "External_Output",
@@ -104,7 +139,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 LightStalk (id 103, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "SCCM_Lighting_LightMode_@192bf0b2": {
                 "stereotype": "External_Output",
@@ -113,7 +153,12 @@
                     "subTypeEnum": "LightModeEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 LightStalk (id 103, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             },
             "SCCM_Lighting_TurnSignal_@3909ddfe": {
                 "stereotype": "External_Output",
@@ -122,7 +167,12 @@
                     "subTypeEnum": "TurnSignalEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "DriverCan0 TurnStalk (id 101, 50 ms). Sent by SCCM, received by BCM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -132,7 +182,7 @@
             ],
             "name": "SCCM_Lighting",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

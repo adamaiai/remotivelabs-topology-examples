@@ -40,7 +40,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn indication shown in the infotainment unit."
+                    ]
+                }
             },
             "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3": {
                 "stereotype": "External_Output",
@@ -49,7 +54,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn indication shown in the infotainment unit."
+                    ]
+                }
             },
             "IHU_Info_Infotainment_VehicleSpeed_@2e1a2740": {
                 "stereotype": "External_Output",
@@ -58,7 +68,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "m/s"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Vehicle speed shown in the infotainment unit."
+                    ]
+                }
             },
             "IHU_Info_LocationService_Heading_@c15bacb2": {
                 "stereotype": "External_Input",
@@ -67,7 +82,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP LocationService.LocationEvent (service 101, event 1001, event group 322). Sent by GWM, received by IHU."
+                    ]
+                }
             },
             "IHU_Info_LocationService_Latitude_@67fd8006": {
                 "stereotype": "External_Input",
@@ -76,7 +96,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP LocationService.LocationEvent (service 101, event 1001, event group 322). Sent by GWM, received by IHU."
+                    ]
+                }
             },
             "IHU_Info_LocationService_Longitude_@d7dcc9fc": {
                 "stereotype": "External_Input",
@@ -85,7 +110,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP LocationService.LocationEvent (service 101, event 1001, event group 322). Sent by GWM, received by IHU."
+                    ]
+                }
             },
             "IHU_Info_SpeedService_Speed_@6603cf7f": {
                 "stereotype": "External_Input",
@@ -94,7 +124,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "m/s"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP SpeedService.SpeedEvent (service 102, event 1002, event group 323). Sent by GWM, received by IHU."
+                    ]
+                }
             },
             "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7": {
                 "stereotype": "External_Input",
@@ -103,7 +138,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
+                    ]
+                }
             },
             "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6": {
                 "stereotype": "External_Input",
@@ -112,7 +152,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -122,7 +167,7 @@
             ],
             "name": "IHU_Info",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

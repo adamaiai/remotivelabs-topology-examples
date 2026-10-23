@@ -17,7 +17,7 @@
                 "Implementation: RemotiveTopology mock generated from the database; the DEVS2 implementation serves all of its software components."
             ],
             "name": "ImplementedDEVS2_Lighting",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

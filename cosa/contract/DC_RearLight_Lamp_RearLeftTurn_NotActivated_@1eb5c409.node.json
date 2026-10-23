@@ -21,7 +21,7 @@
                 "Critical: RearLight_Lamp_RearLeftTurn stays off for longer than 500 ms while it should be blinking."
             ],
             "name": "DC_RearLight_Lamp_RearLeftTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

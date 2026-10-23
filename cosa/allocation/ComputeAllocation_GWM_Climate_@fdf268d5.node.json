@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "GWM_ECU_Compute_@05833099"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "GWM_Climate_ComputeNeed is served by GWM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "GWM_Climate runs on the GWM ECU."
             ],
             "name": "ComputeAllocation_GWM_Climate",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

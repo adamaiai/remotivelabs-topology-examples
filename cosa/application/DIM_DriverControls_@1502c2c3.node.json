@@ -14,6 +14,34 @@
             ]
         },
         "aggregations": {
+            "DIM_DriverControls_AcceleratorPedalPosition_BodyCan0_@ddcda7fe": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 AcceleratorPedalInfo (id 107, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
+            },
+            "DIM_DriverControls_Cluster_GearLeverPosition_@e568c8bb": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the instrument cluster."
+                    ]
+                }
+            },
             "DIM_DriverControls_ComputeNeed_@6fd34d8f": {
                 "stereotype": "ApplicationComputeResourceInterface",
                 "attributes": {
@@ -28,24 +56,6 @@
                     ]
                 }
             },
-            "DIM_DriverControls_AcceleratorPedalPosition_BodyCan0_@ddcda7fe": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {}
-            },
-            "DIM_DriverControls_Cluster_GearLeverPosition_@e568c8bb": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "GearLeverPositionEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {}
-            },
             "DIM_DriverControls_GearLeverPosition_@1d918e86": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -53,7 +63,12 @@
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 GearInfo (id 108, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
             },
             "DIM_DriverControls_SteeringWheelPosition_@d813f7a8": {
                 "stereotype": "External_Input",
@@ -62,7 +77,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "deg"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 SteeringWheelInfo (id 106, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -72,7 +92,7 @@
             ],
             "name": "DIM_DriverControls",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

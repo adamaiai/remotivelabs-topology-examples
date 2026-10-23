@@ -17,7 +17,7 @@
                 "Derived, not in the specification: Inside RearLight, RLCM forwards LeftTurnLightRequest to ReqLeft on RearLightLIN."
             ],
             "name": "RearLight_RLCM_ReqLeft_WronglyActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

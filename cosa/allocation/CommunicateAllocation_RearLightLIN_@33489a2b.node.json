@@ -52,6 +52,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_ErrRespDEVS1_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_ReqLeft_Assembly_@f433868a": {
@@ -63,6 +68,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_ReqLeft_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -76,6 +86,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_ReqRight_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_SomePartNrDEVS2EndSgn1_Assembly_@9587b4da": {
@@ -87,6 +102,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2EndSgn1_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -100,6 +120,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2EndSgn2_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_SomePartNrDEVS2EndSgn3_Assembly_@a3051723": {
@@ -111,6 +136,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2EndSgn3_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -124,6 +154,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2Nr1_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_SomePartNrDEVS2Nr2_Assembly_@0bffaee8": {
@@ -135,6 +170,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2Nr2_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -148,6 +188,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2Nr3_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_SomePartNrDEVS2Nr4_Assembly_@3f5cb35d": {
@@ -159,6 +204,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomePartNrDEVS2Nr4_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -172,6 +222,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomeQf_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_SomeReq1_Assembly_@cedc5b4c": {
@@ -183,6 +238,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomeReq1_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -196,6 +256,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_SomeReq2Type2_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             },
             "CIR_RearLight_counter_Assembly_@d22675d7": {
@@ -207,6 +272,11 @@
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_counter_Assembly is carried on RearLightLIN_Bandwidth."
                     ]
                 }
             },
@@ -220,6 +290,11 @@
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire RearLight_counter_times_2_Assembly is carried on RearLightLIN_Bandwidth."
+                    ]
                 }
             }
         },
@@ -230,7 +305,7 @@
             ],
             "name": "CommunicateAllocation_RearLightLIN",
             "source": "remotive_car/platform/databases/rearlight.ldf",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

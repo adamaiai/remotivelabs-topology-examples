@@ -40,6 +40,11 @@
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_BatteryCurrent_Assembly is carried on ChassisCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_VehicleInformationDesign_BatteryPower_Assembly_@82bb19e8": {
@@ -51,6 +56,11 @@
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_BatteryPower_Assembly is carried on ChassisCan0_Bandwidth."
                     ]
                 }
             },
@@ -64,6 +74,11 @@
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_BatteryVoltage_Assembly is carried on ChassisCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_VehicleInformationDesign_MotorSpeed_Assembly_@64efef62": {
@@ -75,6 +90,11 @@
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_MotorSpeed_Assembly is carried on ChassisCan0_Bandwidth."
                     ]
                 }
             },
@@ -88,6 +108,11 @@
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_MotorTorque_Assembly is carried on ChassisCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_VehicleInformationDesign_StateOfCharge_Assembly_@c38162d7": {
@@ -99,6 +124,11 @@
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_StateOfCharge_Assembly is carried on ChassisCan0_Bandwidth."
                     ]
                 }
             },
@@ -112,6 +142,11 @@
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleInformationDesign_uispeed_Assembly is carried on ChassisCan0_Bandwidth."
+                    ]
                 }
             },
             "CIR_VehicleStateSensing_MotorSpeed_Assembly_@73329fe9": {
@@ -123,6 +158,11 @@
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleStateSensing_MotorSpeed_Assembly is carried on ChassisCan0_Bandwidth."
                     ]
                 }
             },
@@ -136,6 +176,11 @@
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Wire VehicleStateSensing_MotorTorque_Assembly is carried on ChassisCan0_Bandwidth."
+                    ]
                 }
             }
         },
@@ -146,7 +191,7 @@
             ],
             "name": "CommunicateAllocation_ChassisCan0",
             "source": "remotive_car/platform/databases/chassis_can.dbc",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

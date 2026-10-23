@@ -19,7 +19,7 @@
                 "Derived, not in the specification: DEVS2 lights the rear right turn lamp as requested by ReqRight on RearLightLIN."
             ],
             "name": "DEVS2_Lighting_Lamp_RearRightTurn_NotActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

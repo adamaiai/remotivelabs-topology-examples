@@ -30,6 +30,11 @@
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Cluster_LeftTurnTelltale is provided by the design's boundary interface VehicleInformationDesign_Cluster_LeftTurnTelltale."
+                    ]
                 }
             },
             "CFIR_VehicleInformation_Cluster_ProximityDistance_@8e2dadbb": {
@@ -41,6 +46,11 @@
                     ],
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Cluster_ProximityDistance is provided by the design's boundary interface VehicleInformationDesign_Cluster_ProximityDistance."
                     ]
                 }
             },
@@ -54,6 +64,11 @@
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Cluster_RightTurnTelltale is provided by the design's boundary interface VehicleInformationDesign_Cluster_RightTurnTelltale."
+                    ]
                 }
             },
             "CFIR_VehicleInformation_Cluster_StateOfCharge_@454165f5": {
@@ -65,6 +80,11 @@
                     ],
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Cluster_StateOfCharge is provided by the design's boundary interface VehicleInformationDesign_Cluster_StateOfCharge."
                     ]
                 }
             },
@@ -78,6 +98,11 @@
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Infotainment_LeftTurnIndicator is provided by the design's boundary interface VehicleInformationDesign_Infotainment_LeftTurnIndicator."
+                    ]
                 }
             },
             "CFIR_VehicleInformation_Infotainment_RightTurnIndicator_@1c96892e": {
@@ -89,6 +114,11 @@
                     ],
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Infotainment_RightTurnIndicator is provided by the design's boundary interface VehicleInformationDesign_Infotainment_RightTurnIndicator."
                     ]
                 }
             },
@@ -102,6 +132,11 @@
                     "realizingExternalIF": [
                         "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect VehicleInformation_Infotainment_VehicleSpeed is provided by the design's boundary interface VehicleInformationDesign_Infotainment_VehicleSpeed."
+                    ]
                 }
             }
         },
@@ -111,7 +146,7 @@
                 "VehicleInformationDesign realizes VehicleInformation."
             ],
             "name": "VehicleInformation_Realization",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

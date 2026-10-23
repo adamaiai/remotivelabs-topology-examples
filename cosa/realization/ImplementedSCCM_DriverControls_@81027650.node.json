@@ -17,7 +17,7 @@
                 "Implementation: Python behavioral model; the SCCM implementation serves all of its software components."
             ],
             "name": "ImplementedSCCM_DriverControls",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

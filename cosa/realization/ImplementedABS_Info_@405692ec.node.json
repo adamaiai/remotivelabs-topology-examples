@@ -17,7 +17,7 @@
                 "Implementation: RemotiveTopology mock generated from the database; the ABS implementation serves all of its software components."
             ],
             "name": "ImplementedABS_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

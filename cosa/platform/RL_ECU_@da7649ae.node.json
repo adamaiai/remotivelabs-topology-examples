@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "RL_ECU_@da7649ae",
             "description": [
-                "Rear Light ECU hardware. Channels: RearLightLIN."
+                "Rear Light ECU hardware. Channels: RearLightLIN.",
+                "",
+                "Runs: RL_Lighting."
             ],
             "name": "RL_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

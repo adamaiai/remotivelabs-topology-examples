@@ -27,7 +27,7 @@
             ],
             "name": "TC_SYS_HAZARD_SAFETY",
             "source": "remotive_car/docs/verification/system_tests.rst#TC_SYS_HAZARD_SAFETY",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

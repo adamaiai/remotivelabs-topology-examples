@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "IHU_ECU_Compute_@e42df852"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "IHU_Info_ComputeNeed is served by IHU_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "IHU_Info runs on the IHU ECU."
             ],
             "name": "ComputeAllocation_IHU_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

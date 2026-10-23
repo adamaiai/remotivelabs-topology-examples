@@ -21,7 +21,7 @@
             ],
             "name": "BCM_Lighting_RightTurnLightRequest_Cadence",
             "source": "remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_BLINK",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

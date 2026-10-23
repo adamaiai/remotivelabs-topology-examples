@@ -40,6 +40,11 @@
                     "realizingIntegration": [
                         "ImplementedDEVS2_Lighting_@a00e84c3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DEVS2 is realized by ImplementedDEVS2_Lighting, the realization of DEVS2_Lighting."
+                    ]
                 }
             },
             "Chosen_RearLight_RLCM_@aab35ea0": {
@@ -77,6 +82,11 @@
                     "realizingIntegration": [
                         "ImplementedRLCM_Lighting_@ec68984f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder RLCM is realized by ImplementedRLCM_Lighting, the realization of RLCM_Lighting."
+                    ]
                 }
             },
             "Chosen_RearLight_RL_@291012ee": {
@@ -96,6 +106,11 @@
                     "realizingIntegration": [
                         "ImplementedRL_Lighting_@c54ee797"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder RL is realized by ImplementedRL_Lighting, the realization of RL_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_Lamp_RearLeftTurn_@5487e705": {
@@ -108,6 +123,11 @@
                     ],
                     "realizingInterface": [
                         "DEVS2_Lighting_Lamp_RearLeftTurn_@295cefde"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_Lamp_RearLeftTurn_Delegation of placeholder DEVS2 is provided by DEVS2_Lighting_Lamp_RearLeftTurn of DEVS2_Lighting."
                     ]
                 }
             },
@@ -122,6 +142,11 @@
                     "realizingInterface": [
                         "DEVS2_Lighting_Lamp_RearRightTurn_@c701f797"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_Lamp_RearRightTurn_Delegation of placeholder DEVS2 is provided by DEVS2_Lighting_Lamp_RearRightTurn of DEVS2_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_ReqLeft_@2257cfd4": {
@@ -134,6 +159,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "DEVS2_Lighting_ReqLeft_@c76f03ce"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_ReqLeft_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_ReqLeft of DEVS2_Lighting."
                     ]
                 }
             },
@@ -148,6 +178,11 @@
                     "realizingInterface": [
                         "DEVS2_Lighting_ReqRight_@d7c8b3c5"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_ReqRight_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_ReqRight of DEVS2_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn1_@101ef839": {
@@ -160,6 +195,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2EndSgn1_@52bb78bb"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2EndSgn1_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2EndSgn1 of DEVS2_Lighting."
                     ]
                 }
             },
@@ -174,6 +214,11 @@
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2EndSgn2_@5275980a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2EndSgn2_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2EndSgn2 of DEVS2_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn3_@5fe098b3": {
@@ -186,6 +231,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2EndSgn3_@d7bb4ea2"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2EndSgn3_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2EndSgn3 of DEVS2_Lighting."
                     ]
                 }
             },
@@ -200,6 +250,11 @@
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2Nr1_@9a8c1bf3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr1_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2Nr1 of DEVS2_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_SomePartNrDEVS2Nr2_@474ed7ff": {
@@ -212,6 +267,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2Nr2_@20487e54"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr2_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2Nr2 of DEVS2_Lighting."
                     ]
                 }
             },
@@ -226,6 +286,11 @@
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2Nr3_@a1561d1d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr3_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2Nr3 of DEVS2_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_SomePartNrDEVS2Nr4_@ba1a722e": {
@@ -238,6 +303,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "DEVS2_Lighting_SomePartNrDEVS2Nr4_@b3ece72b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr4_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomePartNrDEVS2Nr4 of DEVS2_Lighting."
                     ]
                 }
             },
@@ -252,6 +322,11 @@
                     "realizingInterface": [
                         "DEVS2_Lighting_SomeReq2Type2_@82b93ec0"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomeReq2Type2_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_SomeReq2Type2 of DEVS2_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_DEVS2_counter_@1547d930": {
@@ -264,6 +339,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "DEVS2_Lighting_counter_@021ec14f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_counter_Assembly of placeholder DEVS2 is provided by DEVS2_Lighting_counter of DEVS2_Lighting."
                     ]
                 }
             },
@@ -278,6 +358,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_ErrRespDEVS1_@86ff843f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_ErrRespDEVS1_Assembly of placeholder RLCM is provided by RLCM_Lighting_ErrRespDEVS1 of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_LeftBrakeLightRequest_@cf3ca0ed": {
@@ -290,6 +375,11 @@
                     ],
                     "realizingInterface": [
                         "RLCM_Lighting_LeftBrakeLightRequest_@4118d2b7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_LeftBrakeLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_LeftBrakeLightRequest of RLCM_Lighting."
                     ]
                 }
             },
@@ -304,6 +394,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_LeftDaylightRunningLightRequest_@a2ab3438"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_LeftDaylightRunningLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_LeftDaylightRunningLightRequest of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_LeftLowBeamLightRequest_@45d4ed14": {
@@ -316,6 +411,11 @@
                     ],
                     "realizingInterface": [
                         "RLCM_Lighting_LeftLowBeamLightRequest_@2eae0516"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_LeftLowBeamLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_LeftLowBeamLightRequest of RLCM_Lighting."
                     ]
                 }
             },
@@ -330,6 +430,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_LeftTurnLightRequest_@a4ab63e6"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_LeftTurnLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_LeftTurnLightRequest of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_ReqLeft_@7bd0a39c": {
@@ -342,6 +447,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_ReqLeft_@32e967a4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_ReqLeft_Assembly of placeholder RLCM is provided by RLCM_Lighting_ReqLeft of RLCM_Lighting."
                     ]
                 }
             },
@@ -356,6 +466,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_ReqRight_@149157d3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_ReqRight_Assembly of placeholder RLCM is provided by RLCM_Lighting_ReqRight of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_RightBrakeLightRequest_@09b7f112": {
@@ -368,6 +483,11 @@
                     ],
                     "realizingInterface": [
                         "RLCM_Lighting_RightBrakeLightRequest_@5f847503"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_RightBrakeLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_RightBrakeLightRequest of RLCM_Lighting."
                     ]
                 }
             },
@@ -382,6 +502,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_RightDaylightRunningLightRequest_@6672ff2d"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_RightDaylightRunningLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_RightDaylightRunningLightRequest of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_RightLowBeamLightRequest_@ea011772": {
@@ -394,6 +519,11 @@
                     ],
                     "realizingInterface": [
                         "RLCM_Lighting_RightLowBeamLightRequest_@01a8ad80"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_RightLowBeamLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_RightLowBeamLightRequest of RLCM_Lighting."
                     ]
                 }
             },
@@ -408,6 +538,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_RightTurnLightRequest_@048d9441"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_RightTurnLightRequest_Delegation of placeholder RLCM is provided by RLCM_Lighting_RightTurnLightRequest of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn1_@e28ea09d": {
@@ -420,6 +555,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2EndSgn1_@2ebbe0ef"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2EndSgn1_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2EndSgn1 of RLCM_Lighting."
                     ]
                 }
             },
@@ -434,6 +574,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2EndSgn2_@16183c9a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2EndSgn2_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2EndSgn2 of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn3_@d52b659c": {
@@ -446,6 +591,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2EndSgn3_@131351f5"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2EndSgn3_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2EndSgn3 of RLCM_Lighting."
                     ]
                 }
             },
@@ -460,6 +610,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2Nr1_@73373999"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr1_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2Nr1 of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_SomePartNrDEVS2Nr2_@875e4315": {
@@ -472,6 +627,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2Nr2_@6856834f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr2_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2Nr2 of RLCM_Lighting."
                     ]
                 }
             },
@@ -486,6 +646,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2Nr3_@181636af"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr3_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2Nr3 of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_SomePartNrDEVS2Nr4_@543a52a2": {
@@ -498,6 +663,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_SomePartNrDEVS2Nr4_@ba9e2350"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomePartNrDEVS2Nr4_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomePartNrDEVS2Nr4 of RLCM_Lighting."
                     ]
                 }
             },
@@ -512,6 +682,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_SomeQf_@5045f399"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomeQf_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomeQf of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_SomeReq1_@90317a79": {
@@ -524,6 +699,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_SomeReq1_@f9daad36"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomeReq1_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomeReq1 of RLCM_Lighting."
                     ]
                 }
             },
@@ -538,6 +718,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_SomeReq2Type2_@97fc3fdb"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomeReq2Type2_Assembly of placeholder RLCM is provided by RLCM_Lighting_SomeReq2Type2 of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RLCM_counter_@b31d8af0": {
@@ -550,6 +735,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RLCM_Lighting_counter_@56ef85d6"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_counter_Assembly of placeholder RLCM is provided by RLCM_Lighting_counter of RLCM_Lighting."
                     ]
                 }
             },
@@ -564,6 +754,11 @@
                     "realizingInterface": [
                         "RLCM_Lighting_counter_times_2_@803ce5f0"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_counter_times_2_Assembly of placeholder RLCM is provided by RLCM_Lighting_counter_times_2 of RLCM_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RL_ErrRespDEVS1_@d05e93bf": {
@@ -576,6 +771,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RL_Lighting_ErrRespDEVS1_@1a54b733"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_ErrRespDEVS1_Assembly of placeholder RL is provided by RL_Lighting_ErrRespDEVS1 of RL_Lighting."
                     ]
                 }
             },
@@ -590,6 +790,11 @@
                     "realizingInterface": [
                         "RL_Lighting_SomeQf_@8d5fdea1"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomeQf_Assembly of placeholder RL is provided by RL_Lighting_SomeQf of RL_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RL_SomeReq1_@15474102": {
@@ -602,6 +807,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "RL_Lighting_SomeReq1_@6cbe786c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_SomeReq1_Assembly of placeholder RL is provided by RL_Lighting_SomeReq1 of RL_Lighting."
                     ]
                 }
             },
@@ -616,6 +826,11 @@
                     "realizingInterface": [
                         "RL_Lighting_counter_@eba11447"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_counter_Assembly of placeholder RL is provided by RL_Lighting_counter of RL_Lighting."
+                    ]
                 }
             },
             "IR_RearLight_RL_counter_times_2_@116cd4e4": {
@@ -629,16 +844,25 @@
                     "realizingInterface": [
                         "RL_Lighting_counter_times_2_@6ba578c7"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port RearLight_counter_times_2_Assembly of placeholder RL is provided by RL_Lighting_counter_times_2 of RL_Lighting."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedRearLight_@3b2f326e",
             "description": [
-                "Realizes RearLight by its parts' realizations."
+                "Realizes RearLight by its parts' realizations.",
+                "",
+                "- RLCM \u2192 ImplementedRLCM_Lighting",
+                "- RL \u2192 ImplementedRL_Lighting",
+                "- DEVS2 \u2192 ImplementedDEVS2_Lighting"
             ],
             "name": "ImplementedRearLight",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -30,6 +30,11 @@
                     "realizingIntegration": [
                         "ImplementedClimateActuation_@84506107"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder ClimateActuation is realized by ImplementedClimateActuation, the realization of ClimateActuation."
+                    ]
                 }
             },
             "Chosen_ClimateControlDesign_ClimateSetpointHMI_@8a336c9b": {
@@ -48,6 +53,11 @@
                     "realizingIntegration": [
                         "ImplementedIHU_Climate_@37efb274"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder ClimateSetpointHMI is realized by ImplementedIHU_Climate, the realization of IHU_Climate."
+                    ]
                 }
             },
             "IR_ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_@5ec202b1": {
@@ -60,6 +70,11 @@
                     ],
                     "realizingInterface": [
                         "ClimateActuation_Climate_LeftTemperature_@0ed481df"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_Climate_LeftTemperature_Delegation of placeholder ClimateActuation is provided by ClimateActuation_Climate_LeftTemperature of ClimateActuation."
                     ]
                 }
             },
@@ -74,6 +89,11 @@
                     "realizingInterface": [
                         "ClimateActuation_Climate_RightTemperature_@df2d9ce3"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_Climate_RightTemperature_Delegation of placeholder ClimateActuation is provided by ClimateActuation_Climate_RightTemperature of ClimateActuation."
+                    ]
                 }
             },
             "IR_ClimateControlDesign_ClimateActuation_HVACService_LeftTemperature_@26c24f91": {
@@ -86,6 +106,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "ClimateActuation_HVACService_LeftTemperature_@4f476549"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_HVACService_LeftTemperature_Assembly of placeholder ClimateActuation is provided by ClimateActuation_HVACService_LeftTemperature of ClimateActuation."
                     ]
                 }
             },
@@ -100,6 +125,11 @@
                     "realizingInterface": [
                         "ClimateActuation_HVACService_RightTemperature_@790aca83"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_HVACService_RightTemperature_Assembly of placeholder ClimateActuation is provided by ClimateActuation_HVACService_RightTemperature of ClimateActuation."
+                    ]
                 }
             },
             "IR_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_@a80df86f": {
@@ -112,6 +142,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "IHU_Climate_HVACService_LeftTemperature_@60235048"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_HVACService_LeftTemperature_Assembly of placeholder ClimateSetpointHMI is provided by IHU_Climate_HVACService_LeftTemperature of IHU_Climate."
                     ]
                 }
             },
@@ -126,6 +161,11 @@
                     "realizingInterface": [
                         "IHU_Climate_HVACService_RightTemperature_@da40b9f5"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_HVACService_RightTemperature_Assembly of placeholder ClimateSetpointHMI is provided by IHU_Climate_HVACService_RightTemperature of IHU_Climate."
+                    ]
                 }
             },
             "IR_ClimateControlDesign_ClimateSetpointHMI_Occupant_LeftTemperatureSetpoint_@2d261587": {
@@ -138,6 +178,11 @@
                     ],
                     "realizingInterface": [
                         "IHU_Climate_Occupant_LeftTemperatureSetpoint_@ba9ee56a"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_Occupant_LeftTemperatureSetpoint_Delegation of placeholder ClimateSetpointHMI is provided by IHU_Climate_Occupant_LeftTemperatureSetpoint of IHU_Climate."
                     ]
                 }
             },
@@ -152,16 +197,24 @@
                     "realizingInterface": [
                         "IHU_Climate_Occupant_RightTemperatureSetpoint_@c0b7f827"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port ClimateControlDesign_Occupant_RightTemperatureSetpoint_Delegation of placeholder ClimateSetpointHMI is provided by IHU_Climate_Occupant_RightTemperatureSetpoint of IHU_Climate."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedClimateControlDesign_@5c2dbbad",
             "description": [
-                "Realizes ClimateControlDesign by its parts' realizations."
+                "Realizes ClimateControlDesign by its parts' realizations.",
+                "",
+                "- ClimateSetpointHMI \u2192 ImplementedIHU_Climate",
+                "- ClimateActuation \u2192 ImplementedClimateActuation"
             ],
             "name": "ImplementedClimateControlDesign",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "TCU_ECU_Compute_@05130160"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "TCU_Info_ComputeNeed is served by TCU_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "TCU_Info runs on the TCU ECU."
             ],
             "name": "ComputeAllocation_TCU_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

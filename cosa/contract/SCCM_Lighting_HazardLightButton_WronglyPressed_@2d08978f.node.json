@@ -19,7 +19,7 @@
                 "Derived, not in the specification: SCCM puts the hazard light button on DriverCan0; needed so the BCM's assumption on its HazardLightButton input is guaranteed."
             ],
             "name": "SCCM_Lighting_HazardLightButton_WronglyPressed",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

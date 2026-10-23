@@ -17,10 +17,21 @@
         "metadata": {
             "uuid": "RemotiveCar_Lamp_RearRightTurn_WronglyActivated_@3dc8ef4b",
             "description": [
-                "Derived, not in the specification: Vehicle-level view of SYSREQ_TURN_SIGNAL_SIGNALING."
+                "Derived, not in the specification: Vehicle-level view of SYSREQ_TURN_SIGNAL_SIGNALING.",
+                "",
+                "Signal path the guarantee rests on:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  drv([\"Driver_HazardLightButton<br/>Driver_TurnSignal\"]) --> sccm[\"SCCM_Lighting\"]",
+                "  sccm -->|\"HazardLightButton<br/>TurnSignal\"| bcm[\"BCM_Lighting\"]",
+                "  bcm -->|\"RightTurnLightRequest\"| rlcm[\"RLCM_Lighting\"]",
+                "  rlcm -->|\"ReqRight\"| devs2[\"DEVS2_Lighting\"]",
+                "  devs2 --> lamp([\"Lamp_RearRightTurn\"])",
+                "```"
             ],
             "name": "RemotiveCar_Lamp_RearRightTurn_WronglyActivated",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

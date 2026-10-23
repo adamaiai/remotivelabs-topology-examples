@@ -29,6 +29,11 @@
                     "realizingExternalIF": [
                         "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect DriverControls_Cluster_GearLeverPosition is provided by the design's boundary interface DriverControlsDesign_Cluster_GearLeverPosition."
+                    ]
                 }
             },
             "CFIR_DriverControls_Driver_AcceleratorPedalPosition_@b3d6435b": {
@@ -40,6 +45,11 @@
                     ],
                     "realizingExternalIF": [
                         "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect DriverControls_Driver_AcceleratorPedalPosition is provided by the design's boundary interface DriverControlsDesign_Driver_AcceleratorPedalPosition."
                     ]
                 }
             },
@@ -53,6 +63,11 @@
                     "realizingExternalIF": [
                         "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect DriverControls_Driver_GearShiftDown is provided by the design's boundary interface DriverControlsDesign_Driver_GearShiftDown."
+                    ]
                 }
             },
             "CFIR_DriverControls_Driver_GearShiftUp_@f97ec6d5": {
@@ -64,6 +79,11 @@
                     ],
                     "realizingExternalIF": [
                         "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect DriverControls_Driver_GearShiftUp is provided by the design's boundary interface DriverControlsDesign_Driver_GearShiftUp."
                     ]
                 }
             },
@@ -77,6 +97,11 @@
                     "realizingExternalIF": [
                         "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect DriverControls_Driver_SteeringAngle is provided by the design's boundary interface DriverControlsDesign_Driver_SteeringAngle."
+                    ]
                 }
             },
             "CFIR_DriverControls_Infotainment_Gear_@4b122f5c": {
@@ -89,6 +114,11 @@
                     "realizingExternalIF": [
                         "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect DriverControls_Infotainment_Gear is provided by the design's boundary interface DriverControlsDesign_Infotainment_Gear."
+                    ]
                 }
             }
         },
@@ -98,7 +128,7 @@
                 "DriverControlsDesign realizes DriverControls."
             ],
             "name": "DriverControls_Realization",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

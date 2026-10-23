@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "RLCM_ECU_Compute_@dd2bb434"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "RLCM_Lighting_ComputeNeed is served by RLCM_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "RLCM_Lighting runs on the RLCM ECU."
             ],
             "name": "ComputeAllocation_RLCM_Lighting",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

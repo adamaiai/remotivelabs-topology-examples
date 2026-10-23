@@ -32,7 +32,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "m"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 ProximityInfo (id 109, 50 ms, raw 255 = NoObject). Sent by PAM, received by DIM, GWM."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -42,7 +47,7 @@
             ],
             "name": "PAM_Info",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

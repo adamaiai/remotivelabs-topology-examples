@@ -26,11 +26,13 @@
         "metadata": {
             "uuid": "IHU_ECU_@c5fd78f8",
             "description": [
-                "Infotainment Head Unit ECU hardware. Channels: SOMEIP. SOME/IP endpoint host_ihu 172.31.0.12, socket ihu_someip UDP 16000."
+                "Infotainment Head Unit ECU hardware. Channels: SOMEIP. SOME/IP endpoint host_ihu 172.31.0.12, socket ihu_someip UDP 16000.",
+                "",
+                "Runs: IHU_Climate, IHU_DriverControls, IHU_Info."
             ],
             "name": "IHU_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

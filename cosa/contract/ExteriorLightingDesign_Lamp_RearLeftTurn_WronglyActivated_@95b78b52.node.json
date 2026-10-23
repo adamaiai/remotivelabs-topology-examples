@@ -17,11 +17,22 @@
         "metadata": {
             "uuid": "ExteriorLightingDesign_Lamp_RearLeftTurn_WronglyActivated_@95b78b52",
             "description": [
-                "SYSREQ_TURN_SIGNAL_SIGNALING (Turn Signal Indication): When the driver asserts a left or right turn intention, the system shall illuminate only the front and rear turn indicator lamps on the side matching the active turn input."
+                "SYSREQ_TURN_SIGNAL_SIGNALING (Turn Signal Indication): When the driver asserts a left or right turn intention, the system shall illuminate only the front and rear turn indicator lamps on the side matching the active turn input.",
+                "",
+                "Signal path the guarantee rests on:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  drv([\"Driver_HazardLightButton<br/>Driver_TurnSignal\"]) --> sccm[\"SCCM_Lighting\"]",
+                "  sccm -->|\"HazardLightButton<br/>TurnSignal\"| bcm[\"BCM_Lighting\"]",
+                "  bcm -->|\"LeftTurnLightRequest\"| rlcm[\"RLCM_Lighting\"]",
+                "  rlcm -->|\"ReqLeft\"| devs2[\"DEVS2_Lighting\"]",
+                "  devs2 --> lamp([\"Lamp_RearLeftTurn\"])",
+                "```"
             ],
             "name": "ExteriorLightingDesign_Lamp_RearLeftTurn_WronglyActivated",
             "source": "remotive_car/docs/requirements/system_requirements.rst#SYSREQ_TURN_SIGNAL_SIGNALING",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

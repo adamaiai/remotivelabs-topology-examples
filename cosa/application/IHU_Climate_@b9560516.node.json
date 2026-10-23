@@ -35,7 +35,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ]
+                }
             },
             "IHU_Climate_HVACService_RightTemperature_@da40b9f5": {
                 "stereotype": "External_Output",
@@ -44,7 +49,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ]
+                }
             },
             "IHU_Climate_Occupant_LeftTemperatureSetpoint_@ba9ee56a": {
                 "stereotype": "External_Input",
@@ -53,7 +63,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the left compartment temperature in the infotainment UI."
+                    ]
+                }
             },
             "IHU_Climate_Occupant_RightTemperatureSetpoint_@c0b7f827": {
                 "stereotype": "External_Input",
@@ -62,7 +77,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the right compartment temperature in the infotainment UI."
+                    ]
+                }
             }
         },
         "metadata": {
@@ -72,7 +92,7 @@
             ],
             "name": "IHU_Climate",
             "source": "remotive_car/platform/remotive-car.platform.yaml",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -24,6 +24,11 @@
                     "allocatedOnPlatformResource": [
                         "BMS_ECU_Compute_@ce9ba207"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "BMS_Info_ComputeNeed is served by BMS_ECU_Compute."
+                    ]
                 }
             }
         },
@@ -33,7 +38,7 @@
                 "BMS_Info runs on the BMS ECU."
             ],
             "name": "ComputeAllocation_BMS_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

@@ -17,7 +17,7 @@
                 "Implementation: RemotiveTopology mock generated from the database; the PAM implementation serves all of its software components."
             ],
             "name": "ImplementedPAM_Info",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

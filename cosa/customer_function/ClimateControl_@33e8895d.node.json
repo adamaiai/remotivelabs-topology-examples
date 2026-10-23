@@ -18,7 +18,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left compartment climate actuated to the requested temperature."
+                    ]
+                }
             },
             "ClimateControl_Climate_RightTemperature_@4b6952a9": {
                 "stereotype": "FunctionalAspect",
@@ -27,7 +32,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right compartment climate actuated to the requested temperature."
+                    ]
+                }
             },
             "ClimateControl_Occupant_LeftTemperatureSetpoint_@c55a5821": {
                 "stereotype": "FunctionalAspect",
@@ -36,7 +46,12 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the left compartment temperature in the infotainment UI."
+                    ]
+                }
             },
             "ClimateControl_Occupant_RightTemperatureSetpoint_@f4c40aa5": {
                 "stereotype": "FunctionalAspect",
@@ -45,16 +60,34 @@
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": "degC"
                 },
-                "connections": {}
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the right compartment temperature in the infotainment UI."
+                    ]
+                }
             }
         },
         "metadata": {
             "uuid": "ClimateControl_@33e8895d",
             "description": [
-                "Occupant sets the left and right compartment temperatures from the infotainment unit."
+                "Occupant sets the left and right compartment temperatures from the infotainment unit.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  n_ClimateControl{{\"ClimateControl\"}}",
+                "  n_Occupant_LeftTemperatureSetpoint([\"Occupant_LeftTemperatureSetpoint\"])",
+                "  n_Occupant_LeftTemperatureSetpoint --> n_ClimateControl",
+                "  n_Occupant_RightTemperatureSetpoint([\"Occupant_RightTemperatureSetpoint\"])",
+                "  n_Occupant_RightTemperatureSetpoint --> n_ClimateControl",
+                "  n_Climate_LeftTemperature([\"Climate_LeftTemperature\"])",
+                "  n_ClimateControl --> n_Climate_LeftTemperature",
+                "  n_Climate_RightTemperature([\"Climate_RightTemperature\"])",
+                "  n_ClimateControl --> n_Climate_RightTemperature",
+                "```"
             ],
             "name": "ClimateControl",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }

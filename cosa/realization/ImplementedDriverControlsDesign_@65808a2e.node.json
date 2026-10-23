@@ -34,6 +34,11 @@
                     "realizingIntegration": [
                         "ImplementedBCM_DriverControls_@88116401"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DriveStateProcessing is realized by ImplementedBCM_DriverControls, the realization of BCM_DriverControls."
+                    ]
                 }
             },
             "Chosen_DriverControlsDesign_DriverInformation_@91664402": {
@@ -52,6 +57,11 @@
                     ],
                     "realizingIntegration": [
                         "ImplementedDriverInformation_@3fa97991"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DriverInformation is realized by ImplementedDriverInformation, the realization of DriverInformation."
                     ]
                 }
             },
@@ -75,6 +85,11 @@
                     "realizingIntegration": [
                         "ImplementedSCCM_DriverControls_@81027650"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DriverInputSensing is realized by ImplementedSCCM_DriverControls, the realization of SCCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriveStateProcessing_AcceleratorPedalPosition_BodyCan0_@0c191a63": {
@@ -87,6 +102,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_DriverControls_AcceleratorPedalPosition_BodyCan0_@488279b7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_AcceleratorPedalPosition_BodyCan0 of BCM_DriverControls."
                     ]
                 }
             },
@@ -101,6 +121,11 @@
                     "realizingInterface": [
                         "BCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@d2fea52f"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_AcceleratorPedalPosition_DriverCan0 of BCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriveStateProcessing_GearLeverPosition_@ffeac31c": {
@@ -113,6 +138,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_DriverControls_GearLeverPosition_@428c9d83"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_GearLeverPosition_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_GearLeverPosition of BCM_DriverControls."
                     ]
                 }
             },
@@ -127,6 +157,11 @@
                     "realizingInterface": [
                         "BCM_DriverControls_GearShiftDown_@8dbf280a"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_GearShiftDown_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_GearShiftDown of BCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriveStateProcessing_GearShiftUp_@896b590d": {
@@ -139,6 +174,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_DriverControls_GearShiftUp_@b65e48d4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_GearShiftUp_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_GearShiftUp of BCM_DriverControls."
                     ]
                 }
             },
@@ -153,6 +193,11 @@
                     "realizingInterface": [
                         "BCM_DriverControls_SteeringAngle_@625a8884"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_SteeringAngle_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_SteeringAngle of BCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriveStateProcessing_SteeringWheelPosition_@1dd501d2": {
@@ -165,6 +210,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "BCM_DriverControls_SteeringWheelPosition_@7ff8da68"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_SteeringWheelPosition_Assembly of placeholder DriveStateProcessing is provided by BCM_DriverControls_SteeringWheelPosition of BCM_DriverControls."
                     ]
                 }
             },
@@ -179,6 +229,11 @@
                     "realizingInterface": [
                         "DriverInformation_AcceleratorPedalPosition_BodyCan0_@0e74cbdf"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly of placeholder DriverInformation is provided by DriverInformation_AcceleratorPedalPosition_BodyCan0 of DriverInformation."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriverInformation_Cluster_GearLeverPosition_@90355841": {
@@ -191,6 +246,11 @@
                     ],
                     "realizingInterface": [
                         "DriverInformation_Cluster_GearLeverPosition_@fc704d0f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_Cluster_GearLeverPosition_Delegation of placeholder DriverInformation is provided by DriverInformation_Cluster_GearLeverPosition of DriverInformation."
                     ]
                 }
             },
@@ -205,6 +265,11 @@
                     "realizingInterface": [
                         "DriverInformation_GearLeverPosition_@e256a179"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_GearLeverPosition_Assembly of placeholder DriverInformation is provided by DriverInformation_GearLeverPosition of DriverInformation."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriverInformation_Infotainment_Gear_@c5710420": {
@@ -217,6 +282,11 @@
                     ],
                     "realizingInterface": [
                         "DriverInformation_Infotainment_Gear_@6aced9cd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_Infotainment_Gear_Delegation of placeholder DriverInformation is provided by DriverInformation_Infotainment_Gear of DriverInformation."
                     ]
                 }
             },
@@ -231,6 +301,11 @@
                     "realizingInterface": [
                         "DriverInformation_SteeringWheelPosition_@b4d2fab6"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_SteeringWheelPosition_Assembly of placeholder DriverInformation is provided by DriverInformation_SteeringWheelPosition of DriverInformation."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriverInputSensing_AcceleratorPedalPosition_DriverCan0_@7e0da476": {
@@ -243,6 +318,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "SCCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@e7028a0d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly of placeholder DriverInputSensing is provided by SCCM_DriverControls_AcceleratorPedalPosition_DriverCan0 of SCCM_DriverControls."
                     ]
                 }
             },
@@ -257,6 +337,11 @@
                     "realizingInterface": [
                         "SCCM_DriverControls_Driver_AcceleratorPedalPosition_@63f9fcf1"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_Driver_AcceleratorPedalPosition_Delegation of placeholder DriverInputSensing is provided by SCCM_DriverControls_Driver_AcceleratorPedalPosition of SCCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriverInputSensing_Driver_GearShiftDown_@497f4093": {
@@ -269,6 +354,11 @@
                     ],
                     "realizingInterface": [
                         "SCCM_DriverControls_Driver_GearShiftDown_@3485f24c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_Driver_GearShiftDown_Delegation of placeholder DriverInputSensing is provided by SCCM_DriverControls_Driver_GearShiftDown of SCCM_DriverControls."
                     ]
                 }
             },
@@ -283,6 +373,11 @@
                     "realizingInterface": [
                         "SCCM_DriverControls_Driver_GearShiftUp_@05157d51"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_Driver_GearShiftUp_Delegation of placeholder DriverInputSensing is provided by SCCM_DriverControls_Driver_GearShiftUp of SCCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriverInputSensing_Driver_SteeringAngle_@2047fe38": {
@@ -295,6 +390,11 @@
                     ],
                     "realizingInterface": [
                         "SCCM_DriverControls_Driver_SteeringAngle_@2ef29011"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_Driver_SteeringAngle_Delegation of placeholder DriverInputSensing is provided by SCCM_DriverControls_Driver_SteeringAngle of SCCM_DriverControls."
                     ]
                 }
             },
@@ -309,6 +409,11 @@
                     "realizingInterface": [
                         "SCCM_DriverControls_GearShiftDown_@0af927d4"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_GearShiftDown_Assembly of placeholder DriverInputSensing is provided by SCCM_DriverControls_GearShiftDown of SCCM_DriverControls."
+                    ]
                 }
             },
             "IR_DriverControlsDesign_DriverInputSensing_GearShiftUp_@2dcb6b34": {
@@ -321,6 +426,11 @@
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
                         "SCCM_DriverControls_GearShiftUp_@348a87fd"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_GearShiftUp_Assembly of placeholder DriverInputSensing is provided by SCCM_DriverControls_GearShiftUp of SCCM_DriverControls."
                     ]
                 }
             },
@@ -335,16 +445,25 @@
                     "realizingInterface": [
                         "SCCM_DriverControls_SteeringAngle_@be3e8822"
                     ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port DriverControlsDesign_SteeringAngle_Assembly of placeholder DriverInputSensing is provided by SCCM_DriverControls_SteeringAngle of SCCM_DriverControls."
+                    ]
                 }
             }
         },
         "metadata": {
             "uuid": "ImplementedDriverControlsDesign_@65808a2e",
             "description": [
-                "Realizes DriverControlsDesign by its parts' realizations."
+                "Realizes DriverControlsDesign by its parts' realizations.",
+                "",
+                "- DriverInputSensing \u2192 ImplementedSCCM_DriverControls",
+                "- DriveStateProcessing \u2192 ImplementedBCM_DriverControls",
+                "- DriverInformation \u2192 ImplementedDriverInformation"
             ],
             "name": "ImplementedDriverControlsDesign",
-            "version_schema": "4.6.1"
+            "version_schema": "4.6.2"
         }
     }
 }
