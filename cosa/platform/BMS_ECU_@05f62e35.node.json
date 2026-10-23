@@ -1,0 +1,36 @@
+{
+    "BMS_ECU_@05f62e35": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "BMS_ECU_Compute_@ce9ba207"
+            ]
+        },
+        "aggregations": {
+            "BMS_ECU_Compute_@ce9ba207": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the BMS ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "BMS_ECU_@05f62e35",
+            "description": [
+                "Battery Management System ECU hardware. Channels: ChassisCan0."
+            ],
+            "name": "BMS_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

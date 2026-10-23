@@ -1,0 +1,36 @@
+{
+    "HVAC_ECU_@111f2754": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "HVAC_ECU_Compute_@9b654228"
+            ]
+        },
+        "aggregations": {
+            "HVAC_ECU_Compute_@9b654228": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the HVAC ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "HVAC_ECU_@111f2754",
+            "description": [
+                "Heating, Ventilation, and Air Conditioning ECU hardware. Channels: BodyCan0."
+            ],
+            "name": "HVAC_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

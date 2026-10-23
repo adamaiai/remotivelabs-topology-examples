@@ -1,0 +1,36 @@
+{
+    "BCM_ECU_@e08662f3": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "BCM_ECU_Compute_@1bf9dec2"
+            ]
+        },
+        "aggregations": {
+            "BCM_ECU_Compute_@1bf9dec2": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the BCM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "BCM_ECU_@e08662f3",
+            "description": [
+                "Body Control Module ECU hardware. Channels: DriverCan0, BodyCan0."
+            ],
+            "name": "BCM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

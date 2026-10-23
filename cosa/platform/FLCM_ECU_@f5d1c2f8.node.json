@@ -1,0 +1,36 @@
+{
+    "FLCM_ECU_@f5d1c2f8": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "FLCM_ECU_Compute_@5a4d0313"
+            ]
+        },
+        "aggregations": {
+            "FLCM_ECU_Compute_@5a4d0313": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the FLCM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "FLCM_ECU_@f5d1c2f8",
+            "description": [
+                "Front Light Control Module ECU hardware. Channels: BodyCan0."
+            ],
+            "name": "FLCM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

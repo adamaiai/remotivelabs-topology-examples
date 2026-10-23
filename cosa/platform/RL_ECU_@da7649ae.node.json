@@ -1,0 +1,36 @@
+{
+    "RL_ECU_@da7649ae": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "RL_ECU_Compute_@2da956b3"
+            ]
+        },
+        "aggregations": {
+            "RL_ECU_Compute_@2da956b3": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the RL ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "RL_ECU_@da7649ae",
+            "description": [
+                "Rear Light ECU hardware. Channels: RearLightLIN."
+            ],
+            "name": "RL_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "PCM_ECU_@f63e6b55": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "PCM_ECU_Compute_@375b1c8c"
+            ]
+        },
+        "aggregations": {
+            "PCM_ECU_Compute_@375b1c8c": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the PCM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "PCM_ECU_@f63e6b55",
+            "description": [
+                "Powertrain Control Module ECU hardware. Channels: ChassisCan0."
+            ],
+            "name": "PCM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

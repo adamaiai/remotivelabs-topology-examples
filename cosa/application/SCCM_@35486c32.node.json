@@ -1,0 +1,218 @@
+{
+    "SCCM_@35486c32": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "SCCM_ComputeNeed_@f9ee488f"
+            ],
+            "externalInterface": [
+                "SCCM_AcceleratorPedalPosition_DriverCan0_@fe1baf1c",
+                "SCCM_BrakePedalPosition_@97266ee6",
+                "SCCM_Driver_AcceleratorPedalPosition_@2b31826f",
+                "SCCM_Driver_BrakePedalPosition_@43ea6cee",
+                "SCCM_Driver_GearShiftDown_@9f8ec591",
+                "SCCM_Driver_GearShiftUp_@6e7941f8",
+                "SCCM_Driver_HazardLightButton_@ae295585",
+                "SCCM_Driver_HighBeam_@744d02c7",
+                "SCCM_Driver_LightMode_@6f2d6908",
+                "SCCM_Driver_SteeringAngle_@87c904af",
+                "SCCM_Driver_TurnSignal_@eec6e217",
+                "SCCM_GearShiftDown_@3ee3be12",
+                "SCCM_GearShiftUp_@8a1e59db",
+                "SCCM_HazardLightButton_@d9bafc42",
+                "SCCM_HighBeam_@204ce41a",
+                "SCCM_LightMode_@c081ed9a",
+                "SCCM_SteeringAngle_@d386c9c5",
+                "SCCM_TurnSignal_@85d8edfe"
+            ]
+        },
+        "aggregations": {
+            "SCCM_ComputeNeed_@f9ee488f": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource SCCM needs from its ECU."
+                    ]
+                }
+            },
+            "SCCM_AcceleratorPedalPosition_DriverCan0_@fe1baf1c": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_BrakePedalPosition_@97266ee6": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_AcceleratorPedalPosition_@2b31826f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_BrakePedalPosition_@43ea6cee": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_GearShiftDown_@9f8ec591": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_GearShiftUp_@6e7941f8": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_HazardLightButton_@ae295585": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_HighBeam_@744d02c7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_LightMode_@6f2d6908": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "LightModeEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_SteeringAngle_@87c904af": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "SCCM_Driver_TurnSignal_@eec6e217": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TurnSignalEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_GearShiftDown_@3ee3be12": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_GearShiftUp_@8a1e59db": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_HazardLightButton_@d9bafc42": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_HighBeam_@204ce41a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_LightMode_@c081ed9a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "LightModeEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_SteeringAngle_@d386c9c5": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "SCCM_TurnSignal_@85d8edfe": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TurnSignalEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "SCCM_@35486c32",
+            "description": [
+                "Steering Column Control Module. Receives input from steering wheel, pedals and buttons."
+            ],
+            "name": "SCCM",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

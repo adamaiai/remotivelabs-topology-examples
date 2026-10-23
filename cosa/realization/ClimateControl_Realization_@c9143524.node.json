@@ -1,0 +1,78 @@
+{
+    "ClimateControl_Realization_@c9143524": {
+        "stereotype": "CustomerFunctionAbstractionRealization",
+        "attributes": {},
+        "connections": {
+            "customerFunctionInterfaceRealization": [
+                "CFIR_ClimateControl_Climate_LeftTemperature_@103235fb",
+                "CFIR_ClimateControl_Climate_RightTemperature_@a3ff82bf",
+                "CFIR_ClimateControl_Occupant_LeftTemperatureSetpoint_@9534e5b3",
+                "CFIR_ClimateControl_Occupant_RightTemperatureSetpoint_@6cbdd447"
+            ],
+            "realizedCustomerFunction": [
+                "ClimateControl_@33e8895d"
+            ],
+            "realizingApplicationModel": [
+                "RemotiveCar_@1edd6b7f"
+            ]
+        },
+        "aggregations": {
+            "CFIR_ClimateControl_Climate_LeftTemperature_@103235fb": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ClimateControl_Climate_LeftTemperature_@8a4634df"
+                    ],
+                    "realizingExternalIF": [
+                        "Climate_LeftTemperature_@f0794383"
+                    ]
+                }
+            },
+            "CFIR_ClimateControl_Climate_RightTemperature_@a3ff82bf": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ClimateControl_Climate_RightTemperature_@4b6952a9"
+                    ],
+                    "realizingExternalIF": [
+                        "Climate_RightTemperature_@01438e4e"
+                    ]
+                }
+            },
+            "CFIR_ClimateControl_Occupant_LeftTemperatureSetpoint_@9534e5b3": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ClimateControl_Occupant_LeftTemperatureSetpoint_@c55a5821"
+                    ],
+                    "realizingExternalIF": [
+                        "Occupant_LeftTemperatureSetpoint_@defa7980"
+                    ]
+                }
+            },
+            "CFIR_ClimateControl_Occupant_RightTemperatureSetpoint_@6cbdd447": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ClimateControl_Occupant_RightTemperatureSetpoint_@f4c40aa5"
+                    ],
+                    "realizingExternalIF": [
+                        "Occupant_RightTemperatureSetpoint_@4163b2fc"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ClimateControl_Realization_@c9143524",
+            "description": [
+                "RemotiveCar realizes ClimateControl."
+            ],
+            "name": "ClimateControl_Realization",
+            "version_schema": "4.6.1"
+        }
+    }
+}

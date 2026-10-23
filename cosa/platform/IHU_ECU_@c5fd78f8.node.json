@@ -1,0 +1,36 @@
+{
+    "IHU_ECU_@c5fd78f8": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "IHU_ECU_Compute_@e42df852"
+            ]
+        },
+        "aggregations": {
+            "IHU_ECU_Compute_@e42df852": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the IHU ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "IHU_ECU_@c5fd78f8",
+            "description": [
+                "Infotainment Head Unit ECU hardware. Channels: SOMEIP. SOME/IP endpoint host_ihu 172.31.0.12, socket ihu_someip UDP 16000."
+            ],
+            "name": "IHU_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,644 @@
+{
+    "ImplementedRearLight_@3b2f326e": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_RearLight_DEVS2_@eaa4ddf1",
+                "Chosen_RearLight_RLCM_@aab35ea0",
+                "Chosen_RearLight_RL_@291012ee"
+            ],
+            "realizedComposition": [
+                "RearLight_@be64e290"
+            ]
+        },
+        "aggregations": {
+            "Chosen_RearLight_DEVS2_@eaa4ddf1": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_RearLight_DEVS2_Lamp_RearLeftTurn_@5487e705",
+                        "IR_RearLight_DEVS2_Lamp_RearRightTurn_@a1d58c50",
+                        "IR_RearLight_DEVS2_ReqLeft_@2257cfd4",
+                        "IR_RearLight_DEVS2_ReqRight_@c774babd",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn1_@101ef839",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn2_@09f3d83e",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn3_@5fe098b3",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2Nr1_@049c6168",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2Nr2_@474ed7ff",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2Nr3_@13e5240d",
+                        "IR_RearLight_DEVS2_SomePartNrDEVS2Nr4_@ba1a722e",
+                        "IR_RearLight_DEVS2_SomeReq2Type2_@455c663c",
+                        "IR_RearLight_DEVS2_counter_@1547d930"
+                    ],
+                    "realizedPlaceholder": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedDEVS2_@fa523b72"
+                    ]
+                }
+            },
+            "Chosen_RearLight_RLCM_@aab35ea0": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_RearLight_RLCM_ErrRespDEVS1_@71a41689",
+                        "IR_RearLight_RLCM_LeftBrakeLightRequest_@cf3ca0ed",
+                        "IR_RearLight_RLCM_LeftDaylightRunningLightRequest_@d6a25689",
+                        "IR_RearLight_RLCM_LeftLowBeamLightRequest_@45d4ed14",
+                        "IR_RearLight_RLCM_LeftTurnLightRequest_@9c8c91bf",
+                        "IR_RearLight_RLCM_ReqLeft_@7bd0a39c",
+                        "IR_RearLight_RLCM_ReqRight_@c03f105c",
+                        "IR_RearLight_RLCM_RightBrakeLightRequest_@09b7f112",
+                        "IR_RearLight_RLCM_RightDaylightRunningLightRequest_@088d46f1",
+                        "IR_RearLight_RLCM_RightLowBeamLightRequest_@ea011772",
+                        "IR_RearLight_RLCM_RightTurnLightRequest_@2f3aaf2b",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn1_@e28ea09d",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn2_@89c80ab3",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn3_@d52b659c",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2Nr1_@6eea1b8d",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2Nr2_@875e4315",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2Nr3_@ecd5940c",
+                        "IR_RearLight_RLCM_SomePartNrDEVS2Nr4_@543a52a2",
+                        "IR_RearLight_RLCM_SomeQf_@046c507c",
+                        "IR_RearLight_RLCM_SomeReq1_@90317a79",
+                        "IR_RearLight_RLCM_SomeReq2Type2_@c81ca80f",
+                        "IR_RearLight_RLCM_counter_@b31d8af0",
+                        "IR_RearLight_RLCM_counter_times_2_@82fcce9a"
+                    ],
+                    "realizedPlaceholder": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedRLCM_@ec45cd8f"
+                    ]
+                }
+            },
+            "Chosen_RearLight_RL_@291012ee": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_RearLight_RL_ErrRespDEVS1_@d05e93bf",
+                        "IR_RearLight_RL_SomeQf_@fc77897d",
+                        "IR_RearLight_RL_SomeReq1_@15474102",
+                        "IR_RearLight_RL_counter_@18732535",
+                        "IR_RearLight_RL_counter_times_2_@116cd4e4"
+                    ],
+                    "realizedPlaceholder": [
+                        "RearLight_RL_@1b51fede"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedRL_@8bf93357"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_Lamp_RearLeftTurn_@5487e705": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_Lamp_RearLeftTurn_Delegation_@166f6fbd"
+                    ],
+                    "realizingInterface": [
+                        "DEVS2_Lamp_RearLeftTurn_@4084c021"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_Lamp_RearRightTurn_@a1d58c50": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_Lamp_RearRightTurn_Delegation_@9fa51ead"
+                    ],
+                    "realizingInterface": [
+                        "DEVS2_Lamp_RearRightTurn_@8d358071"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_ReqLeft_@2257cfd4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ReqLeft_@6d87a065"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_ReqLeft_@b2783a1a"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_ReqRight_@c774babd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ReqRight_@426b4696"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_ReqRight_@6359dcaa"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn1_@101ef839": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2EndSgn1_@b6abcfbc"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2EndSgn1_@f9c0d13e"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn2_@09f3d83e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2EndSgn2_@05602ddc"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2EndSgn2_@87ef8ad7"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2EndSgn3_@5fe098b3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2EndSgn3_@519704e5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2EndSgn3_@7931d7ec"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2Nr1_@049c6168": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr1_@29451da1"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2Nr1_@1192566f"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2Nr2_@474ed7ff": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr2_@422e96a8"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2Nr2_@8cfa5dde"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2Nr3_@13e5240d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr3_@e648cef2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2Nr3_@e132eb0a"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomePartNrDEVS2Nr4_@ba1a722e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr4_@764e6ff5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomePartNrDEVS2Nr4_@4b86f472"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_SomeReq2Type2_@455c663c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomeReq2Type2_@690851d4"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_SomeReq2Type2_@512e79b3"
+                    ]
+                }
+            },
+            "IR_RearLight_DEVS2_counter_@1547d930": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "counter_@0d37480d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DEVS2_counter_@4c57025a"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_ErrRespDEVS1_@71a41689": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ErrRespDEVS1_@9482e814"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_ErrRespDEVS1_@f20ab4a8"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_LeftBrakeLightRequest_@cf3ca0ed": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_LeftBrakeLightRequest_Delegation_@b963c180"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_LeftBrakeLightRequest_@80ee419a"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_LeftDaylightRunningLightRequest_@d6a25689": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_LeftDaylightRunningLightRequest_Delegation_@a617b78e"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_LeftDaylightRunningLightRequest_@a7b161fb"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_LeftLowBeamLightRequest_@45d4ed14": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_LeftLowBeamLightRequest_Delegation_@d806f973"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_LeftLowBeamLightRequest_@7c759872"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_LeftTurnLightRequest_@9c8c91bf": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_LeftTurnLightRequest_Delegation_@83fb9b70"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_LeftTurnLightRequest_@e7256227"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_ReqLeft_@7bd0a39c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ReqLeft_@6d87a065"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_ReqLeft_@30bd5a61"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_ReqRight_@c03f105c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ReqRight_@426b4696"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_ReqRight_@cd975b2b"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_RightBrakeLightRequest_@09b7f112": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_RightBrakeLightRequest_Delegation_@666aeafa"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_RightBrakeLightRequest_@1c212675"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_RightDaylightRunningLightRequest_@088d46f1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_RightDaylightRunningLightRequest_Delegation_@92e74e2f"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_RightDaylightRunningLightRequest_@e4d6da6f"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_RightLowBeamLightRequest_@ea011772": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_RightLowBeamLightRequest_Delegation_@74c38467"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_RightLowBeamLightRequest_@a64abd6c"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_RightTurnLightRequest_@2f3aaf2b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "RearLight_RightTurnLightRequest_Delegation_@86a185ab"
+                    ],
+                    "realizingInterface": [
+                        "RLCM_RightTurnLightRequest_@e9c711fc"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn1_@e28ea09d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2EndSgn1_@b6abcfbc"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2EndSgn1_@b7da60c7"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn2_@89c80ab3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2EndSgn2_@05602ddc"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2EndSgn2_@53509363"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2EndSgn3_@d52b659c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2EndSgn3_@519704e5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2EndSgn3_@cd8d47a4"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2Nr1_@6eea1b8d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr1_@29451da1"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2Nr1_@65dea99f"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2Nr2_@875e4315": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr2_@422e96a8"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2Nr2_@22ef06e0"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2Nr3_@ecd5940c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr3_@e648cef2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2Nr3_@139dccc8"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomePartNrDEVS2Nr4_@543a52a2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomePartNrDEVS2Nr4_@764e6ff5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomePartNrDEVS2Nr4_@6ff7f2ad"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomeQf_@046c507c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomeQf_@87c2eb82"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomeQf_@e8491657"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomeReq1_@90317a79": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomeReq1_@714b64c3"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomeReq1_@acd4a8d4"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_SomeReq2Type2_@c81ca80f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomeReq2Type2_@690851d4"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_SomeReq2Type2_@a4dec447"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_counter_@b31d8af0": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "counter_@0d37480d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_counter_@fe3089ba"
+                    ]
+                }
+            },
+            "IR_RearLight_RLCM_counter_times_2_@82fcce9a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "counter_times_2_@33756765"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RLCM_counter_times_2_@bf18bc6d"
+                    ]
+                }
+            },
+            "IR_RearLight_RL_ErrRespDEVS1_@d05e93bf": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ErrRespDEVS1_@9482e814"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RL_ErrRespDEVS1_@95c7bf87"
+                    ]
+                }
+            },
+            "IR_RearLight_RL_SomeQf_@fc77897d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomeQf_@87c2eb82"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RL_SomeQf_@7345a968"
+                    ]
+                }
+            },
+            "IR_RearLight_RL_SomeReq1_@15474102": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "SomeReq1_@714b64c3"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RL_SomeReq1_@b789f2bd"
+                    ]
+                }
+            },
+            "IR_RearLight_RL_counter_@18732535": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "counter_@0d37480d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RL_counter_@79abe95e"
+                    ]
+                }
+            },
+            "IR_RearLight_RL_counter_times_2_@116cd4e4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "counter_times_2_@33756765"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RL_counter_times_2_@c7d6853b"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedRearLight_@3b2f326e",
+            "description": [
+                "Realizes RearLight by its parts' realizations."
+            ],
+            "name": "ImplementedRearLight",
+            "version_schema": "4.6.1"
+        }
+    }
+}

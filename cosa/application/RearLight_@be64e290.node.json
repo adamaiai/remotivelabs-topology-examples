@@ -1,0 +1,980 @@
+{
+    "RearLight_@be64e290": {
+        "stereotype": "ComposedApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "assemblyInterface": [
+                "ErrRespDEVS1_@9482e814",
+                "ReqLeft_@6d87a065",
+                "ReqRight_@426b4696",
+                "SomePartNrDEVS2EndSgn1_@b6abcfbc",
+                "SomePartNrDEVS2EndSgn2_@05602ddc",
+                "SomePartNrDEVS2EndSgn3_@519704e5",
+                "SomePartNrDEVS2Nr1_@29451da1",
+                "SomePartNrDEVS2Nr2_@422e96a8",
+                "SomePartNrDEVS2Nr3_@e648cef2",
+                "SomePartNrDEVS2Nr4_@764e6ff5",
+                "SomeQf_@87c2eb82",
+                "SomeReq1_@714b64c3",
+                "SomeReq2Type2_@690851d4",
+                "counter_@0d37480d",
+                "counter_times_2_@33756765"
+            ],
+            "buildingBlock": [
+                "RearLight_DEVS2_@aa8e188d",
+                "RearLight_RLCM_@a2749aba",
+                "RearLight_RL_@1b51fede"
+            ],
+            "delegationInterface": [
+                "RearLight_Lamp_RearLeftTurn_Delegation_@166f6fbd",
+                "RearLight_Lamp_RearRightTurn_Delegation_@9fa51ead",
+                "RearLight_LeftBrakeLightRequest_Delegation_@b963c180",
+                "RearLight_LeftDaylightRunningLightRequest_Delegation_@a617b78e",
+                "RearLight_LeftLowBeamLightRequest_Delegation_@d806f973",
+                "RearLight_LeftTurnLightRequest_Delegation_@83fb9b70",
+                "RearLight_RightBrakeLightRequest_Delegation_@666aeafa",
+                "RearLight_RightDaylightRunningLightRequest_Delegation_@92e74e2f",
+                "RearLight_RightLowBeamLightRequest_Delegation_@74c38467",
+                "RearLight_RightTurnLightRequest_Delegation_@86a185ab"
+            ],
+            "externalInterface": [
+                "RearLight_Lamp_RearLeftTurn_@08944bb4",
+                "RearLight_Lamp_RearRightTurn_@3fe88586",
+                "RearLight_LeftBrakeLightRequest_@f1a73c7f",
+                "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9",
+                "RearLight_LeftLowBeamLightRequest_@3ddde5b2",
+                "RearLight_LeftTurnLightRequest_@a0da91cd",
+                "RearLight_RightBrakeLightRequest_@5a47d610",
+                "RearLight_RightDaylightRunningLightRequest_@6c064b7f",
+                "RearLight_RightLowBeamLightRequest_@936ab4ab",
+                "RearLight_RightTurnLightRequest_@c084efef"
+            ]
+        },
+        "aggregations": {
+            "ErrRespDEVS1_@9482e814": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ErrRespDEVS1_CommNeed_@e727c1d9"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_RL_@1b51fede"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS1LIN01Fr1 (id 0x05, RL response_error). Sent by RL, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "ErrRespDEVS1_CommNeed_@e727c1d9": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth ErrRespDEVS1 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "RearLight_DEVS2_@aa8e188d": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for DEVS2 in RearLight."
+                    ]
+                }
+            },
+            "RearLight_Lamp_RearLeftTurn_@08944bb4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Rear left turn indicator lit."
+                    ]
+                }
+            },
+            "RearLight_Lamp_RearRightTurn_@3fe88586": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Rear right turn indicator lit."
+                    ]
+                }
+            },
+            "RearLight_LeftBrakeLightRequest_@f1a73c7f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_LeftLowBeamLightRequest_@3ddde5b2": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_LeftTurnLightRequest_@a0da91cd": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_RLCM_@a2749aba": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for RLCM in RearLight."
+                    ]
+                }
+            },
+            "RearLight_RL_@1b51fede": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for RL in RearLight."
+                    ]
+                }
+            },
+            "RearLight_RightBrakeLightRequest_@5a47d610": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_RightDaylightRunningLightRequest_@6c064b7f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_RightLowBeamLightRequest_@936ab4ab": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "RearLight_RightTurnLightRequest_@c084efef": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl received by the rear light subsystem."
+                    ]
+                }
+            },
+            "ReqLeft_@6d87a065": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ReqLeft_CommNeed_@53c1100a"
+                    ],
+                    "consumedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "providedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by DEVS2."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "ReqLeft_CommNeed_@53c1100a": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth ReqLeft needs on RearLightLIN."
+                    ]
+                }
+            },
+            "ReqRight_@426b4696": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ReqRight_CommNeed_@87db5323"
+                    ],
+                    "consumedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "providedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by DEVS2."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "ReqRight_CommNeed_@87db5323": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth ReqRight needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2EndSgn1_@b6abcfbc": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2EndSgn1_CommNeed_@2adb538d"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2EndSgn1_CommNeed_@2adb538d": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2EndSgn1 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2EndSgn2_@05602ddc": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2EndSgn2_CommNeed_@c098c734"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2EndSgn2_CommNeed_@c098c734": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2EndSgn2 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2EndSgn3_@519704e5": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2EndSgn3_CommNeed_@d7cfe2eb"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2EndSgn3_CommNeed_@d7cfe2eb": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2EndSgn3 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2Nr1_@29451da1": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2Nr1_CommNeed_@c07336c6"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2Nr1_CommNeed_@c07336c6": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2Nr1 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2Nr2_@422e96a8": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2Nr2_CommNeed_@313886ef"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2Nr2_CommNeed_@313886ef": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2Nr2 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2Nr3_@e648cef2": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2Nr3_CommNeed_@70eb6cbc"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2Nr3_CommNeed_@70eb6cbc": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2Nr3 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomePartNrDEVS2Nr4_@764e6ff5": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomePartNrDEVS2Nr4_CommNeed_@42af3e48"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS2LIN01Fr04 (id 0x10). Sent by DEVS2, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomePartNrDEVS2Nr4_CommNeed_@42af3e48": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomePartNrDEVS2Nr4 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomeQf_@87c2eb82": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "SomeQf1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomeQf_CommNeed_@79dc4f7e"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_RL_@1b51fede"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS1LIN01Fr1 (id 0x05). Sent by RL, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomeQf_CommNeed_@79dc4f7e": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomeQf needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomeReq1_@714b64c3": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomeReq1_CommNeed_@7c4fb508"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RL_@1b51fede"
+                    ],
+                    "providedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by RL."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomeReq1_CommNeed_@7c4fb508": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomeReq1 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "SomeReq2Type2_@690851d4": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "SomeReq2Type2_CommNeed_@b8159f00"
+                    ],
+                    "consumedBy": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "providedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03). Sent by RLCM, received by DEVS2."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "SomeReq2Type2_CommNeed_@b8159f00": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SomeReq2Type2 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "counter_@0d37480d": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq2Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "counter_CommNeed_@58e9dba9"
+                    ],
+                    "consumedBy": [
+                        "RearLight_DEVS2_@aa8e188d",
+                        "RearLight_RL_@1b51fede"
+                    ],
+                    "providedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVMLIN01Fr01 (id 0x03; RL also reads it (rl behavioral model)). Sent by RLCM, received by DEVS2, RL."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "counter_CommNeed_@58e9dba9": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth counter needs on RearLightLIN."
+                    ]
+                }
+            },
+            "counter_times_2_@33756765": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "counter_times_2_CommNeed_@0ffe80e9"
+                    ],
+                    "consumedBy": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "providedBy": [
+                        "RearLight_RL_@1b51fede"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "RearLightLIN DEVS1LIN01Fr1 (id 0x05). Sent by RL, received by RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/rearlight.ldf"
+                }
+            },
+            "counter_times_2_CommNeed_@0ffe80e9": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth counter_times_2 needs on RearLightLIN."
+                    ]
+                }
+            },
+            "RearLight_Lamp_RearLeftTurn_Delegation_@166f6fbd": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "outer": [
+                        "RearLight_Lamp_RearLeftTurn_@08944bb4"
+                    ]
+                }
+            },
+            "RearLight_Lamp_RearRightTurn_Delegation_@9fa51ead": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_DEVS2_@aa8e188d"
+                    ],
+                    "outer": [
+                        "RearLight_Lamp_RearRightTurn_@3fe88586"
+                    ]
+                }
+            },
+            "RearLight_LeftBrakeLightRequest_Delegation_@b963c180": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftBrakeLightRequest_@f1a73c7f"
+                    ]
+                }
+            },
+            "RearLight_LeftDaylightRunningLightRequest_Delegation_@a617b78e": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9"
+                    ]
+                }
+            },
+            "RearLight_LeftLowBeamLightRequest_Delegation_@d806f973": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftLowBeamLightRequest_@3ddde5b2"
+                    ]
+                }
+            },
+            "RearLight_LeftTurnLightRequest_Delegation_@83fb9b70": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_LeftTurnLightRequest_@a0da91cd"
+                    ]
+                }
+            },
+            "RearLight_RightBrakeLightRequest_Delegation_@666aeafa": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightBrakeLightRequest_@5a47d610"
+                    ]
+                }
+            },
+            "RearLight_RightDaylightRunningLightRequest_Delegation_@92e74e2f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightDaylightRunningLightRequest_@6c064b7f"
+                    ]
+                }
+            },
+            "RearLight_RightLowBeamLightRequest_Delegation_@74c38467": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightLowBeamLightRequest_@936ab4ab"
+                    ]
+                }
+            },
+            "RearLight_RightTurnLightRequest_Delegation_@86a185ab": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RearLight_RLCM_@a2749aba"
+                    ],
+                    "outer": [
+                        "RearLight_RightTurnLightRequest_@c084efef"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "RearLight_@be64e290",
+            "description": [
+                "Rear light subsystem: RLCM is the LIN master bridging BodyCan0 to the rear light LIN devices RL and DEVS2."
+            ],
+            "name": "RearLight",
+            "version_schema": "4.6.1"
+        }
+    }
+}

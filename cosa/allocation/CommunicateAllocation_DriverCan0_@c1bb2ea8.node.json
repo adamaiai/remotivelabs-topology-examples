@@ -1,0 +1,152 @@
+{
+    "CommunicateAllocation_DriverCan0_@c1bb2ea8": {
+        "stereotype": "CommunicateAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationCommunication": [
+                "AcceleratorPedalPosition_DriverCan0_@5220b705",
+                "BrakePedalPosition_@4c6d0a5c",
+                "GearShiftDown_@cd81edc2",
+                "GearShiftUp_@d61e5fac",
+                "HazardLightButton_@1012733a",
+                "HighBeam_@2daa4d39",
+                "LightMode_@ac62221b",
+                "SteeringAngle_@b04033bc",
+                "TurnSignal_@e1a35069"
+            ],
+            "allocatedOnCommunicationPlatform": [
+                "DriverCan0_@8f511c44"
+            ],
+            "communicateInterfaceRealization": [
+                "CIR_AcceleratorPedalPosition_DriverCan0_@885de193",
+                "CIR_BrakePedalPosition_@7e694c28",
+                "CIR_GearShiftDown_@0e561c95",
+                "CIR_GearShiftUp_@17570053",
+                "CIR_HazardLightButton_@9e5cc0f1",
+                "CIR_HighBeam_@da7d995b",
+                "CIR_LightMode_@ac555403",
+                "CIR_SteeringAngle_@0faca10f",
+                "CIR_TurnSignal_@a226e127"
+            ]
+        },
+        "aggregations": {
+            "CIR_AcceleratorPedalPosition_DriverCan0_@885de193": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "AcceleratorPedalPosition_DriverCan0_CommNeed_@9f653c3b"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_BrakePedalPosition_@7e694c28": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "BrakePedalPosition_CommNeed_@3037de5a"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_GearShiftDown_@0e561c95": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "GearShiftDown_CommNeed_@914bf8bb"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_GearShiftUp_@17570053": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "GearShiftUp_CommNeed_@59cc2b26"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_HazardLightButton_@9e5cc0f1": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "HazardLightButton_CommNeed_@e23f6344"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_HighBeam_@da7d995b": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "HighBeam_CommNeed_@a93b5423"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_LightMode_@ac555403": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "LightMode_CommNeed_@c5a3f451"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_SteeringAngle_@0faca10f": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SteeringAngle_CommNeed_@a4a3478d"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            },
+            "CIR_TurnSignal_@a226e127": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "TurnSignal_CommNeed_@e01b7d1f"
+                    ],
+                    "platformCommunicationResource": [
+                        "DriverCan0_Bandwidth_@1d45be5a"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "CommunicateAllocation_DriverCan0_@c1bb2ea8",
+            "description": [
+                "Signals carried by DriverCan0."
+            ],
+            "name": "CommunicateAllocation_DriverCan0",
+            "source": "remotive_car/platform/databases/driver_can.dbc",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "DriverCan0_@8f511c44": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "DriverCan0_Bandwidth_@1d45be5a"
+            ]
+        },
+        "aggregations": {
+            "DriverCan0_Bandwidth_@1d45be5a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Communication bandwidth offered by DriverCan0."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DriverCan0_@8f511c44",
+            "description": [
+                "CAN bus, 500 kbit/s, CAN FD data phase 8 Mbit/s. Database driver_can.dbc."
+            ],
+            "name": "DriverCan0",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

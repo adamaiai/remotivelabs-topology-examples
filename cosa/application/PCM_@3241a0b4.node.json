@@ -1,0 +1,58 @@
+{
+    "PCM_@3241a0b4": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "PCM_ComputeNeed_@49bda04e"
+            ],
+            "externalInterface": [
+                "PCM_MotorSpeed_@995fd522",
+                "PCM_MotorTorque_@a3e552ee"
+            ]
+        },
+        "aggregations": {
+            "PCM_ComputeNeed_@49bda04e": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource PCM needs from its ECU."
+                    ]
+                }
+            },
+            "PCM_MotorSpeed_@995fd522": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {}
+            },
+            "PCM_MotorTorque_@a3e552ee": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "PCM_@3241a0b4",
+            "description": [
+                "Powertrain Control Module. Provides motor speed and torque."
+            ],
+            "name": "PCM",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

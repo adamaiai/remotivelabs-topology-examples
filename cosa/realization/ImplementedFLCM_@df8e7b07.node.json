@@ -1,0 +1,23 @@
+{
+    "ImplementedFLCM_@df8e7b07": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "6687712c7a906d468ec209653461135778f70be25f045507da257ea2a8095873",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/body_can.dbc"
+        },
+        "connections": {
+            "realizedModel": [
+                "FLCM_@140110a9"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedFLCM_@df8e7b07",
+            "description": [
+                "Implementation: RemotiveTopology mock generated from the database."
+            ],
+            "name": "ImplementedFLCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

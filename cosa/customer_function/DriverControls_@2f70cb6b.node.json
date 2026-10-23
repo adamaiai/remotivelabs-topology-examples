@@ -1,0 +1,60 @@
+{
+    "DriverControls_@2f70cb6b": {
+        "stereotype": "CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "functionalAspect": [
+                "DriverControls_Driver_AcceleratorPedalPosition_@4fa62382",
+                "DriverControls_Driver_GearShiftDown_@21ae1ac3",
+                "DriverControls_Driver_GearShiftUp_@bbc25023",
+                "DriverControls_Driver_SteeringAngle_@6ee5300f"
+            ]
+        },
+        "aggregations": {
+            "DriverControls_Driver_AcceleratorPedalPosition_@4fa62382": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DriverControls_Driver_GearShiftDown_@21ae1ac3": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DriverControls_Driver_GearShiftUp_@bbc25023": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DriverControls_Driver_SteeringAngle_@6ee5300f": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "DriverControls_@2f70cb6b",
+            "description": [
+                "Driver steering, accelerator and gear shift inputs, reported to the instrument cluster and infotainment."
+            ],
+            "name": "DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

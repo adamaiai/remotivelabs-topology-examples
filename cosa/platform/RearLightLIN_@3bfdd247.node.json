@@ -1,0 +1,36 @@
+{
+    "RearLightLIN_@3bfdd247": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "RearLightLIN_Bandwidth_@d7cb520c"
+            ]
+        },
+        "aggregations": {
+            "RearLightLIN_Bandwidth_@d7cb520c": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Communication bandwidth offered by RearLightLIN."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "RearLightLIN_@3bfdd247",
+            "description": [
+                "LIN 2.1 bus, 19.2 kbit/s, master RLCM, slaves RL and DEVS2. Database rearlight.ldf."
+            ],
+            "name": "RearLightLIN",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

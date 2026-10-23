@@ -1,0 +1,36 @@
+{
+    "PAM_ECU_@b7e1beeb": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "PAM_ECU_Compute_@5139a91d"
+            ]
+        },
+        "aggregations": {
+            "PAM_ECU_Compute_@5139a91d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the PAM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "PAM_ECU_@b7e1beeb",
+            "description": [
+                "Parking Assistant Module ECU hardware. Channels: BodyCan0."
+            ],
+            "name": "PAM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

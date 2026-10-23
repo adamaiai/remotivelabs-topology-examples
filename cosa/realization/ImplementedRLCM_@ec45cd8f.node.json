@@ -1,0 +1,23 @@
+{
+    "ImplementedRLCM_@ec45cd8f": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "66ad11b9099a5695734eb76c5ca5ac77b3f642a4",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/rlcm/python/rlcm"
+        },
+        "connections": {
+            "realizedModel": [
+                "RLCM_@73fedcaa"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedRLCM_@ec45cd8f",
+            "description": [
+                "Implementation: Python behavioral model."
+            ],
+            "name": "ImplementedRLCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

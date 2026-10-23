@@ -1,0 +1,328 @@
+{
+    "GWM_@98c295fe": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "GWM_ComputeNeed_@37ae01cd"
+            ],
+            "externalInterface": [
+                "GWM_AcceleratorPedalPosition_BodyCan0_@e2e25c8d",
+                "GWM_BatteryCurrent_@77d0e511",
+                "GWM_BatteryPower_@859bb940",
+                "GWM_BatteryVoltage_@81c89032",
+                "GWM_GearLeverPosition_@d3db0911",
+                "GWM_GearService_Gear_@6f1385d9",
+                "GWM_HVACService_LeftTemperature_@5a51c17e",
+                "GWM_HVACService_RightTemperature_@c64a2f4d",
+                "GWM_Heading_@8c75a69c",
+                "GWM_Latitude_@2d0562a6",
+                "GWM_LeftBrakeLightRequest_@fb24fb4a",
+                "GWM_LeftTemperature_@522c4f01",
+                "GWM_LeftTurnLightRequest_@6ea98900",
+                "GWM_LocationService_Heading_@857155df",
+                "GWM_LocationService_Latitude_@df16f6f0",
+                "GWM_LocationService_Longitude_@92786f4b",
+                "GWM_Longitude_@9ebbbca9",
+                "GWM_MotorSpeed_@a1a8dfe1",
+                "GWM_MotorTorque_@1c891178",
+                "GWM_ProximityDistance_@261c6c2b",
+                "GWM_RightBrakeLightRequest_@a881e5a4",
+                "GWM_RightTemperature_@27d5c240",
+                "GWM_RightTurnLightRequest_@f142858d",
+                "GWM_SpeedService_Speed_@7db50e95",
+                "GWM_StateOfCharge_@5e3a3208",
+                "GWM_SteeringWheelPosition_@87f761a7",
+                "GWM_TurnlightIndicator_LeftTurnlight_@f2652724",
+                "GWM_TurnlightIndicator_RightTurnlight_@58c2a696",
+                "GWM_uispeed_@20f23b24"
+            ]
+        },
+        "aggregations": {
+            "GWM_ComputeNeed_@37ae01cd": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource GWM needs from its ECU."
+                    ]
+                }
+            },
+            "GWM_AcceleratorPedalPosition_BodyCan0_@e2e25c8d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "GWM_BatteryCurrent_@77d0e511": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {}
+            },
+            "GWM_BatteryPower_@859bb940": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {}
+            },
+            "GWM_BatteryVoltage_@81c89032": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {}
+            },
+            "GWM_GearLeverPosition_@d3db0911": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_GearService_Gear_@6f1385d9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_HVACService_LeftTemperature_@5a51c17e": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_HVACService_RightTemperature_@c64a2f4d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_Heading_@8c75a69c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Latitude_@2d0562a6": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_LeftBrakeLightRequest_@fb24fb4a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_LeftTemperature_@522c4f01": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_LeftTurnLightRequest_@6ea98900": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_LocationService_Heading_@857155df": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_LocationService_Latitude_@df16f6f0": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_LocationService_Longitude_@92786f4b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Longitude_@9ebbbca9": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_MotorSpeed_@a1a8dfe1": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {}
+            },
+            "GWM_MotorTorque_@1c891178": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {}
+            },
+            "GWM_ProximityDistance_@261c6c2b": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {}
+            },
+            "GWM_RightBrakeLightRequest_@a881e5a4": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_RightTemperature_@27d5c240": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_RightTurnLightRequest_@f142858d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_SpeedService_Speed_@7db50e95": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            },
+            "GWM_StateOfCharge_@5e3a3208": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {}
+            },
+            "GWM_SteeringWheelPosition_@87f761a7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_TurnlightIndicator_LeftTurnlight_@f2652724": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_TurnlightIndicator_RightTurnlight_@58c2a696": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_uispeed_@20f23b24": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "GWM_@98c295fe",
+            "description": [
+                "Gateway Module. Routes communication between different vehicle networks (BodyCan0, ChassisCan0, SOME/IP)."
+            ],
+            "name": "GWM",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

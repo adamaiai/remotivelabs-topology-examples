@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_BCM_@63bf2487": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "BCM_@9a27a010"
+            ],
+            "allocatedOnComputePlatform": [
+                "BCM_ECU_@e08662f3"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_BCM_@a78a44b2"
+            ]
+        },
+        "aggregations": {
+            "CRIR_BCM_@a78a44b2": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "BCM_ComputeNeed_@4e4723d9"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "BCM_ECU_Compute_@1bf9dec2"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_BCM_@63bf2487",
+            "description": [
+                "BCM runs on the BCM ECU."
+            ],
+            "name": "ComputeAllocation_BCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

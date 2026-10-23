@@ -1,0 +1,36 @@
+{
+    "DEVS2_ECU_@29ea5079": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "DEVS2_ECU_Compute_@e4d5c1de"
+            ]
+        },
+        "aggregations": {
+            "DEVS2_ECU_Compute_@e4d5c1de": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the DEVS2 ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DEVS2_ECU_@29ea5079",
+            "description": [
+                "Rear light LIN device 2 ECU hardware. Channels: RearLightLIN."
+            ],
+            "name": "DEVS2_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

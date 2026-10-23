@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_SCCM_@480ac89e": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "SCCM_@35486c32"
+            ],
+            "allocatedOnComputePlatform": [
+                "SCCM_ECU_@59d09083"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_SCCM_@4f3cfacd"
+            ]
+        },
+        "aggregations": {
+            "CRIR_SCCM_@4f3cfacd": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "SCCM_ComputeNeed_@f9ee488f"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "SCCM_ECU_Compute_@65692407"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_SCCM_@480ac89e",
+            "description": [
+                "SCCM runs on the SCCM ECU."
+            ],
+            "name": "ComputeAllocation_SCCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

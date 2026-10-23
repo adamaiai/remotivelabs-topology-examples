@@ -1,0 +1,236 @@
+{
+    "CommunicateAllocation_RearLightLIN_@33489a2b": {
+        "stereotype": "CommunicateAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationCommunication": [
+                "ErrRespDEVS1_@9482e814",
+                "ReqLeft_@6d87a065",
+                "ReqRight_@426b4696",
+                "SomePartNrDEVS2EndSgn1_@b6abcfbc",
+                "SomePartNrDEVS2EndSgn2_@05602ddc",
+                "SomePartNrDEVS2EndSgn3_@519704e5",
+                "SomePartNrDEVS2Nr1_@29451da1",
+                "SomePartNrDEVS2Nr2_@422e96a8",
+                "SomePartNrDEVS2Nr3_@e648cef2",
+                "SomePartNrDEVS2Nr4_@764e6ff5",
+                "SomeQf_@87c2eb82",
+                "SomeReq1_@714b64c3",
+                "SomeReq2Type2_@690851d4",
+                "counter_@0d37480d",
+                "counter_times_2_@33756765"
+            ],
+            "allocatedOnCommunicationPlatform": [
+                "RearLightLIN_@3bfdd247"
+            ],
+            "communicateInterfaceRealization": [
+                "CIR_ErrRespDEVS1_@84734802",
+                "CIR_ReqLeft_@7d422343",
+                "CIR_ReqRight_@c7a595b8",
+                "CIR_SomePartNrDEVS2EndSgn1_@3a69b8ed",
+                "CIR_SomePartNrDEVS2EndSgn2_@c0d3d6bf",
+                "CIR_SomePartNrDEVS2EndSgn3_@b12a44a6",
+                "CIR_SomePartNrDEVS2Nr1_@e9be25db",
+                "CIR_SomePartNrDEVS2Nr2_@230f461b",
+                "CIR_SomePartNrDEVS2Nr3_@e386b6ea",
+                "CIR_SomePartNrDEVS2Nr4_@c00f0fd2",
+                "CIR_SomeQf_@5e0d582d",
+                "CIR_SomeReq1_@48ce015b",
+                "CIR_SomeReq2Type2_@bccb1906",
+                "CIR_counter_@727a3b40",
+                "CIR_counter_times_2_@4c5a33a3"
+            ]
+        },
+        "aggregations": {
+            "CIR_ErrRespDEVS1_@84734802": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "ErrRespDEVS1_CommNeed_@e727c1d9"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_ReqLeft_@7d422343": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "ReqLeft_CommNeed_@53c1100a"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_ReqRight_@c7a595b8": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "ReqRight_CommNeed_@87db5323"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2EndSgn1_@3a69b8ed": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2EndSgn1_CommNeed_@2adb538d"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2EndSgn2_@c0d3d6bf": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2EndSgn2_CommNeed_@c098c734"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2EndSgn3_@b12a44a6": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2EndSgn3_CommNeed_@d7cfe2eb"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2Nr1_@e9be25db": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2Nr1_CommNeed_@c07336c6"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2Nr2_@230f461b": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2Nr2_CommNeed_@313886ef"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2Nr3_@e386b6ea": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2Nr3_CommNeed_@70eb6cbc"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomePartNrDEVS2Nr4_@c00f0fd2": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomePartNrDEVS2Nr4_CommNeed_@42af3e48"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomeQf_@5e0d582d": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomeQf_CommNeed_@79dc4f7e"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomeReq1_@48ce015b": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomeReq1_CommNeed_@7c4fb508"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_SomeReq2Type2_@bccb1906": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SomeReq2Type2_CommNeed_@b8159f00"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_counter_@727a3b40": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "counter_CommNeed_@58e9dba9"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            },
+            "CIR_counter_times_2_@4c5a33a3": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "counter_times_2_CommNeed_@0ffe80e9"
+                    ],
+                    "platformCommunicationResource": [
+                        "RearLightLIN_Bandwidth_@d7cb520c"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "CommunicateAllocation_RearLightLIN_@33489a2b",
+            "description": [
+                "Signals carried by RearLightLIN."
+            ],
+            "name": "CommunicateAllocation_RearLightLIN",
+            "source": "remotive_car/platform/databases/rearlight.ldf",
+            "version_schema": "4.6.1"
+        }
+    }
+}

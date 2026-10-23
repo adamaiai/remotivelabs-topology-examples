@@ -1,0 +1,221 @@
+{
+    "ExteriorLighting_Realization_@3bbc7d06": {
+        "stereotype": "CustomerFunctionAbstractionRealization",
+        "attributes": {},
+        "connections": {
+            "customerFunctionInterfaceRealization": [
+                "CFIR_ExteriorLighting_Driver_BrakePedalPosition_@ef76a746",
+                "CFIR_ExteriorLighting_Driver_HazardLightButton_@792e383f",
+                "CFIR_ExteriorLighting_Driver_HighBeam_@9e49891e",
+                "CFIR_ExteriorLighting_Driver_LightMode_@a8b944a5",
+                "CFIR_ExteriorLighting_Driver_TurnSignal_@4523590b",
+                "CFIR_ExteriorLighting_Lamp_FrontLeftDaylightRunning_@759839ef",
+                "CFIR_ExteriorLighting_Lamp_FrontLeftHighBeam_@aac17160",
+                "CFIR_ExteriorLighting_Lamp_FrontLeftLowBeam_@3e19ff02",
+                "CFIR_ExteriorLighting_Lamp_FrontLeftTurn_@e908fb74",
+                "CFIR_ExteriorLighting_Lamp_FrontRightDaylightRunning_@6bd2dcfb",
+                "CFIR_ExteriorLighting_Lamp_FrontRightHighBeam_@b1d93d26",
+                "CFIR_ExteriorLighting_Lamp_FrontRightLowBeam_@4cbd594b",
+                "CFIR_ExteriorLighting_Lamp_FrontRightTurn_@b73837cb",
+                "CFIR_ExteriorLighting_Lamp_RearLeftTurn_@c3c0e39d",
+                "CFIR_ExteriorLighting_Lamp_RearRightTurn_@3ef46376"
+            ],
+            "realizedCustomerFunction": [
+                "ExteriorLighting_@bbb6ce8a"
+            ],
+            "realizingApplicationModel": [
+                "RemotiveCar_@1edd6b7f"
+            ]
+        },
+        "aggregations": {
+            "CFIR_ExteriorLighting_Driver_BrakePedalPosition_@ef76a746": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Driver_BrakePedalPosition_@98e9b633"
+                    ],
+                    "realizingExternalIF": [
+                        "Driver_BrakePedalPosition_@e8688df6"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Driver_HazardLightButton_@792e383f": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Driver_HazardLightButton_@3b1bf564"
+                    ],
+                    "realizingExternalIF": [
+                        "Driver_HazardLightButton_@310838e0"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Driver_HighBeam_@9e49891e": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Driver_HighBeam_@869e8d88"
+                    ],
+                    "realizingExternalIF": [
+                        "Driver_HighBeam_@f7dff3bd"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Driver_LightMode_@a8b944a5": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Driver_LightMode_@8fa13576"
+                    ],
+                    "realizingExternalIF": [
+                        "Driver_LightMode_@8c87721f"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Driver_TurnSignal_@4523590b": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Driver_TurnSignal_@32ae3e57"
+                    ],
+                    "realizingExternalIF": [
+                        "Driver_TurnSignal_@fefdcfb7"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontLeftDaylightRunning_@759839ef": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontLeftDaylightRunning_@90aa503c"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontLeftDaylightRunning_@2de4ab90"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontLeftHighBeam_@aac17160": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontLeftHighBeam_@7e3ec5fe"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontLeftHighBeam_@aa15284b"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontLeftLowBeam_@3e19ff02": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontLeftLowBeam_@babf45ff"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontLeftLowBeam_@e033c4cd"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontLeftTurn_@e908fb74": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontLeftTurn_@1a2004fe"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontLeftTurn_@4efb9824"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontRightDaylightRunning_@6bd2dcfb": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontRightDaylightRunning_@8e58aca8"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontRightDaylightRunning_@bfa81be6"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontRightHighBeam_@b1d93d26": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontRightHighBeam_@2d230af8"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontRightHighBeam_@9c7f0acc"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontRightLowBeam_@4cbd594b": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontRightLowBeam_@c20a0d94"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontRightLowBeam_@231c2a7c"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_FrontRightTurn_@b73837cb": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_FrontRightTurn_@a2d39955"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_FrontRightTurn_@66e2f5d1"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_RearLeftTurn_@c3c0e39d": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_RearLeftTurn_@996f0f15"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_RearLeftTurn_@139b5dd4"
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Lamp_RearRightTurn_@3ef46376": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Lamp_RearRightTurn_@889198f6"
+                    ],
+                    "realizingExternalIF": [
+                        "Lamp_RearRightTurn_@593b10bf"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ExteriorLighting_Realization_@3bbc7d06",
+            "description": [
+                "RemotiveCar realizes ExteriorLighting."
+            ],
+            "name": "ExteriorLighting_Realization",
+            "version_schema": "4.6.1"
+        }
+    }
+}

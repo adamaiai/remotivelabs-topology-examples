@@ -1,0 +1,88 @@
+{
+    "RL_@f6308398": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "RL_ComputeNeed_@0c850872"
+            ],
+            "externalInterface": [
+                "RL_ErrRespDEVS1_@95c7bf87",
+                "RL_SomeQf_@7345a968",
+                "RL_SomeReq1_@b789f2bd",
+                "RL_counter_@79abe95e",
+                "RL_counter_times_2_@c7d6853b"
+            ]
+        },
+        "aggregations": {
+            "RL_ComputeNeed_@0c850872": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource RL needs from its ECU."
+                    ]
+                }
+            },
+            "RL_ErrRespDEVS1_@95c7bf87": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_SomeQf_@7345a968": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "SomeQf1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_SomeReq1_@b789f2bd": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_counter_@79abe95e": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq2Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_counter_times_2_@c7d6853b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "RL_@f6308398",
+            "description": [
+                "Rear Light. Provides access to the rear light. LIN slave (NAD 0x86)."
+            ],
+            "name": "RL",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

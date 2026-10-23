@@ -1,0 +1,98 @@
+{
+    "BMS_@9cac817f": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "BMS_ComputeNeed_@90ac3116"
+            ],
+            "externalInterface": [
+                "BMS_BatteryCurrent_@da477c78",
+                "BMS_BatteryPower_@21c1493e",
+                "BMS_BatteryVoltage_@8290211c",
+                "BMS_MotorSpeed_@18879993",
+                "BMS_MotorTorque_@8d53870a",
+                "BMS_StateOfCharge_@79060eb4"
+            ]
+        },
+        "aggregations": {
+            "BMS_ComputeNeed_@90ac3116": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource BMS needs from its ECU."
+                    ]
+                }
+            },
+            "BMS_BatteryCurrent_@da477c78": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {}
+            },
+            "BMS_BatteryPower_@21c1493e": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {}
+            },
+            "BMS_BatteryVoltage_@8290211c": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {}
+            },
+            "BMS_MotorSpeed_@18879993": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {}
+            },
+            "BMS_MotorTorque_@8d53870a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {}
+            },
+            "BMS_StateOfCharge_@79060eb4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "BMS_@9cac817f",
+            "description": [
+                "Battery Management System. Provides battery state of charge and pack current."
+            ],
+            "name": "BMS",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

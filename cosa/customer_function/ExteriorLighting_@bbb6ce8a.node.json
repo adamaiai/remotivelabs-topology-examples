@@ -1,0 +1,170 @@
+{
+    "ExteriorLighting_@bbb6ce8a": {
+        "stereotype": "CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "functionalAspect": [
+                "ExteriorLighting_Driver_BrakePedalPosition_@98e9b633",
+                "ExteriorLighting_Driver_HazardLightButton_@3b1bf564",
+                "ExteriorLighting_Driver_HighBeam_@869e8d88",
+                "ExteriorLighting_Driver_LightMode_@8fa13576",
+                "ExteriorLighting_Driver_TurnSignal_@32ae3e57",
+                "ExteriorLighting_Lamp_FrontLeftDaylightRunning_@90aa503c",
+                "ExteriorLighting_Lamp_FrontLeftHighBeam_@7e3ec5fe",
+                "ExteriorLighting_Lamp_FrontLeftLowBeam_@babf45ff",
+                "ExteriorLighting_Lamp_FrontLeftTurn_@1a2004fe",
+                "ExteriorLighting_Lamp_FrontRightDaylightRunning_@8e58aca8",
+                "ExteriorLighting_Lamp_FrontRightHighBeam_@2d230af8",
+                "ExteriorLighting_Lamp_FrontRightLowBeam_@c20a0d94",
+                "ExteriorLighting_Lamp_FrontRightTurn_@a2d39955",
+                "ExteriorLighting_Lamp_RearLeftTurn_@996f0f15",
+                "ExteriorLighting_Lamp_RearRightTurn_@889198f6"
+            ]
+        },
+        "aggregations": {
+            "ExteriorLighting_Driver_BrakePedalPosition_@98e9b633": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Driver_HazardLightButton_@3b1bf564": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Driver_HighBeam_@869e8d88": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Driver_LightMode_@8fa13576": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "LightModeEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Driver_TurnSignal_@32ae3e57": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TurnSignalEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontLeftDaylightRunning_@90aa503c": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontLeftHighBeam_@7e3ec5fe": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontLeftLowBeam_@babf45ff": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontLeftTurn_@1a2004fe": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontRightDaylightRunning_@8e58aca8": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontRightHighBeam_@2d230af8": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontRightLowBeam_@c20a0d94": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_FrontRightTurn_@a2d39955": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_RearLeftTurn_@996f0f15": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "ExteriorLighting_Lamp_RearRightTurn_@889198f6": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "ExteriorLighting_@bbb6ce8a",
+            "description": [
+                "Driver controls the exterior lights: light mode, high beam, turn indicators, hazard lights and brake lights."
+            ],
+            "name": "ExteriorLighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

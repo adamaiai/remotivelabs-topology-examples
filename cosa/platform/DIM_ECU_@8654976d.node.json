@@ -1,0 +1,36 @@
+{
+    "DIM_ECU_@8654976d": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "DIM_ECU_Compute_@5461856c"
+            ]
+        },
+        "aggregations": {
+            "DIM_ECU_Compute_@5461856c": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the DIM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DIM_ECU_@8654976d",
+            "description": [
+                "Driver Information Module ECU hardware. Channels: BodyCan0, ChassisCan0."
+            ],
+            "name": "DIM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

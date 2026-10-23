@@ -1,0 +1,168 @@
+{
+    "DEVS2_@e3e79a2c": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "DEVS2_ComputeNeed_@63886c45"
+            ],
+            "externalInterface": [
+                "DEVS2_Lamp_RearLeftTurn_@4084c021",
+                "DEVS2_Lamp_RearRightTurn_@8d358071",
+                "DEVS2_ReqLeft_@b2783a1a",
+                "DEVS2_ReqRight_@6359dcaa",
+                "DEVS2_SomePartNrDEVS2EndSgn1_@f9c0d13e",
+                "DEVS2_SomePartNrDEVS2EndSgn2_@87ef8ad7",
+                "DEVS2_SomePartNrDEVS2EndSgn3_@7931d7ec",
+                "DEVS2_SomePartNrDEVS2Nr1_@1192566f",
+                "DEVS2_SomePartNrDEVS2Nr2_@8cfa5dde",
+                "DEVS2_SomePartNrDEVS2Nr3_@e132eb0a",
+                "DEVS2_SomePartNrDEVS2Nr4_@4b86f472",
+                "DEVS2_SomeReq2Type2_@512e79b3",
+                "DEVS2_counter_@4c57025a"
+            ]
+        },
+        "aggregations": {
+            "DEVS2_ComputeNeed_@63886c45": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource DEVS2 needs from its ECU."
+                    ]
+                }
+            },
+            "DEVS2_Lamp_RearLeftTurn_@4084c021": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_Lamp_RearRightTurn_@8d358071": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_ReqLeft_@b2783a1a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_ReqRight_@6359dcaa": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2EndSgn1_@f9c0d13e": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2EndSgn2_@87ef8ad7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2EndSgn3_@7931d7ec": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2Nr1_@1192566f": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2Nr2_@8cfa5dde": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2Nr3_@e132eb0a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomePartNrDEVS2Nr4_@4b86f472": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_SomeReq2Type2_@512e79b3": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "DEVS2_counter_@4c57025a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq2Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "DEVS2_@e3e79a2c",
+            "description": [
+                "Rear light LIN device 2. LIN slave on RearLightLIN (NAD 0x81); receives the left/right rear light requests."
+            ],
+            "name": "DEVS2",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

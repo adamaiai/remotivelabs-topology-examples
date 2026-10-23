@@ -1,0 +1,36 @@
+{
+    "ChassisCan0_@75d3905d": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "ChassisCan0_Bandwidth_@3200018c"
+            ]
+        },
+        "aggregations": {
+            "ChassisCan0_Bandwidth_@3200018c": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Communication bandwidth offered by ChassisCan0."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ChassisCan0_@75d3905d",
+            "description": [
+                "CAN bus. Database chassis_can.dbc."
+            ],
+            "name": "ChassisCan0",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

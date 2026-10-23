@@ -1,0 +1,36 @@
+{
+    "SCCM_ECU_@59d09083": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "SCCM_ECU_Compute_@65692407"
+            ]
+        },
+        "aggregations": {
+            "SCCM_ECU_Compute_@65692407": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the SCCM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "SCCM_ECU_@59d09083",
+            "description": [
+                "Steering Column Control Module ECU hardware. Channels: DriverCan0."
+            ],
+            "name": "SCCM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

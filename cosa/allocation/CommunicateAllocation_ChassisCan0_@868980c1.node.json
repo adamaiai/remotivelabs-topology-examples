@@ -1,0 +1,124 @@
+{
+    "CommunicateAllocation_ChassisCan0_@868980c1": {
+        "stereotype": "CommunicateAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationCommunication": [
+                "BatteryCurrent_@5049529a",
+                "BatteryPower_@3b43ac1a",
+                "BatteryVoltage_@73e56790",
+                "MotorSpeed_@e9793e67",
+                "MotorTorque_@98364527",
+                "StateOfCharge_@2eea2586",
+                "uispeed_@eaa504df"
+            ],
+            "allocatedOnCommunicationPlatform": [
+                "ChassisCan0_@75d3905d"
+            ],
+            "communicateInterfaceRealization": [
+                "CIR_BatteryCurrent_@cfb110c7",
+                "CIR_BatteryPower_@fb251d4a",
+                "CIR_BatteryVoltage_@59dba948",
+                "CIR_MotorSpeed_@83e0dc30",
+                "CIR_MotorTorque_@097a3460",
+                "CIR_StateOfCharge_@99b5ced5",
+                "CIR_uispeed_@db601acd"
+            ]
+        },
+        "aggregations": {
+            "CIR_BatteryCurrent_@cfb110c7": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "BatteryCurrent_CommNeed_@5a08fd9b"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_BatteryPower_@fb251d4a": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "BatteryPower_CommNeed_@f3ea3633"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_BatteryVoltage_@59dba948": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "BatteryVoltage_CommNeed_@827a8df3"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_MotorSpeed_@83e0dc30": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "MotorSpeed_CommNeed_@74971a0c"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_MotorTorque_@097a3460": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "MotorTorque_CommNeed_@e0efc8db"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_StateOfCharge_@99b5ced5": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "StateOfCharge_CommNeed_@6e6774be"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_uispeed_@db601acd": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "uispeed_CommNeed_@02ba05b1"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "CommunicateAllocation_ChassisCan0_@868980c1",
+            "description": [
+                "Signals carried by ChassisCan0."
+            ],
+            "name": "CommunicateAllocation_ChassisCan0",
+            "source": "remotive_car/platform/databases/chassis_can.dbc",
+            "version_schema": "4.6.1"
+        }
+    }
+}

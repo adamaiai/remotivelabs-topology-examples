@@ -1,0 +1,23 @@
+{
+    "ImplementedSCCM_@7af32a57": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "5e3c95f25288b9c01d73e474dd410fb0d0fe1ec8",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/sccm/python/sccm"
+        },
+        "connections": {
+            "realizedModel": [
+                "SCCM_@35486c32"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedSCCM_@7af32a57",
+            "description": [
+                "Implementation: Python behavioral model."
+            ],
+            "name": "ImplementedSCCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

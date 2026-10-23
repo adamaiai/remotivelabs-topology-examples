@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_DIM_@2baebba1": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "DIM_@bf3d1d15"
+            ],
+            "allocatedOnComputePlatform": [
+                "DIM_ECU_@8654976d"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_DIM_@a4245828"
+            ]
+        },
+        "aggregations": {
+            "CRIR_DIM_@a4245828": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "DIM_ComputeNeed_@928d6cec"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "DIM_ECU_Compute_@5461856c"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_DIM_@2baebba1",
+            "description": [
+                "DIM runs on the DIM ECU."
+            ],
+            "name": "ComputeAllocation_DIM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

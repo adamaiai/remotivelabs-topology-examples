@@ -1,0 +1,46 @@
+{
+    "ExteriorLighting_DeliveryScope_@82d7c8b7": {
+        "stereotype": "DeliveryScope",
+        "attributes": {
+            "isDeploymentCandidate": false
+        },
+        "connections": {
+            "application2PlatformAllocation": [
+                "CommunicateAllocation_BodyCan0_@85fbc88b",
+                "CommunicateAllocation_ChassisCan0_@868980c1",
+                "CommunicateAllocation_DriverCan0_@c1bb2ea8",
+                "CommunicateAllocation_RearLightLIN_@33489a2b",
+                "CommunicateAllocation_SOMEIP_@a220402b",
+                "ComputeAllocation_ABS_@e18f674b",
+                "ComputeAllocation_BCM_@63bf2487",
+                "ComputeAllocation_BMS_@85dd8604",
+                "ComputeAllocation_DEVS2_@8c320eef",
+                "ComputeAllocation_DIM_@2baebba1",
+                "ComputeAllocation_FLCM_@8dd448c3",
+                "ComputeAllocation_GWM_@7f45af9d",
+                "ComputeAllocation_HVAC_@b9e23ed6",
+                "ComputeAllocation_IHU_@eec0ed50",
+                "ComputeAllocation_PAM_@bf785918",
+                "ComputeAllocation_PCM_@9d2ae0d9",
+                "ComputeAllocation_RLCM_@fa145c46",
+                "ComputeAllocation_RL_@11c2ed37",
+                "ComputeAllocation_SCCM_@480ac89e",
+                "ComputeAllocation_TCU_@2b886141"
+            ],
+            "realizationInScope": [
+                "ExteriorLighting_Realization_@3bbc7d06"
+            ],
+            "topAggregation": [
+                "ImplementedRemotiveCar_@29fec195"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLighting_DeliveryScope_@82d7c8b7",
+            "description": [
+                "Delivery of ExteriorLighting by ImplementedRemotiveCar with all compute and communication allocations."
+            ],
+            "name": "ExteriorLighting_DeliveryScope",
+            "version_schema": "4.6.1"
+        }
+    }
+}

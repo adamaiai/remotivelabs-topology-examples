@@ -1,0 +1,36 @@
+{
+    "BodyCan0_@752e91cf": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "BodyCan0_Bandwidth_@f9ca22c4"
+            ]
+        },
+        "aggregations": {
+            "BodyCan0_Bandwidth_@f9ca22c4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Communication bandwidth offered by BodyCan0."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "BodyCan0_@752e91cf",
+            "description": [
+                "CAN bus, 500 kbit/s, CAN FD data phase 8 Mbit/s. Database body_can.dbc."
+            ],
+            "name": "BodyCan0",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

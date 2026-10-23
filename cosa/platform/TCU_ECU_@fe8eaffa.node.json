@@ -1,0 +1,36 @@
+{
+    "TCU_ECU_@fe8eaffa": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "TCU_ECU_Compute_@05130160"
+            ]
+        },
+        "aggregations": {
+            "TCU_ECU_Compute_@05130160": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the TCU ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "TCU_ECU_@fe8eaffa",
+            "description": [
+                "Telematics Control Unit ECU hardware. Channels: BodyCan0."
+            ],
+            "name": "TCU_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

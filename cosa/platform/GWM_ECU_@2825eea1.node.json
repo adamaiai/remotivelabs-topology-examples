@@ -1,0 +1,36 @@
+{
+    "GWM_ECU_@2825eea1": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "GWM_ECU_Compute_@05833099"
+            ]
+        },
+        "aggregations": {
+            "GWM_ECU_Compute_@05833099": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the GWM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "GWM_ECU_@2825eea1",
+            "description": [
+                "Gateway Module ECU hardware. Channels: BodyCan0, ChassisCan0, SOMEIP. SOME/IP endpoint host_gwm 172.31.0.18, socket gwm_someip UDP 16000."
+            ],
+            "name": "GWM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "ClimateControl_@33e8895d": {
+        "stereotype": "CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "functionalAspect": [
+                "ClimateControl_Climate_LeftTemperature_@8a4634df",
+                "ClimateControl_Climate_RightTemperature_@4b6952a9",
+                "ClimateControl_Occupant_LeftTemperatureSetpoint_@c55a5821",
+                "ClimateControl_Occupant_RightTemperatureSetpoint_@f4c40aa5"
+            ]
+        },
+        "aggregations": {
+            "ClimateControl_Climate_LeftTemperature_@8a4634df": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "ClimateControl_Climate_RightTemperature_@4b6952a9": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "ClimateControl_Occupant_LeftTemperatureSetpoint_@c55a5821": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "ClimateControl_Occupant_RightTemperatureSetpoint_@f4c40aa5": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "ClimateControl_@33e8895d",
+            "description": [
+                "Occupant sets the left and right compartment temperatures from the infotainment unit."
+            ],
+            "name": "ClimateControl",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "TCU_@5d498448": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "TCU_ComputeNeed_@b3d18d9b"
+            ],
+            "externalInterface": [
+                "TCU_Heading_@5acc5468",
+                "TCU_Latitude_@411dbb61",
+                "TCU_Longitude_@b6cda0e6"
+            ]
+        },
+        "aggregations": {
+            "TCU_ComputeNeed_@b3d18d9b": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource TCU needs from its ECU."
+                    ]
+                }
+            },
+            "TCU_Heading_@5acc5468": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "TCU_Latitude_@411dbb61": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "TCU_Longitude_@b6cda0e6": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "TCU_@5d498448",
+            "description": [
+                "Telematics Control Unit. Provides GNSS location."
+            ],
+            "name": "TCU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "SOMEIP_@43d8d435": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "SOMEIP_Bandwidth_@e1d7374e"
+            ]
+        },
+        "aggregations": {
+            "SOMEIP_Bandwidth_@e1d7374e": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Communication bandwidth offered by SOMEIP."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "SOMEIP_@43d8d435",
+            "description": [
+                "Ethernet SOME/IP network, cluster corenetwork, subnet 172.31.0.0/24, VLAN 123. Endpoints host_gwm 172.31.0.18 and host_ihu 172.31.0.12, UDP port 16000. Database someip.fibex.xml."
+            ],
+            "name": "SOMEIP",
+            "source": "remotive_car/platform/someip.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

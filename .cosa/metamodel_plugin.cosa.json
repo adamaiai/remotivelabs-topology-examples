@@ -1,0 +1,55 @@
+{
+  "cosa_metamodel_plugin": "1.0",
+  "description": "remotive_car extensions",
+  "add_enums": {
+    "TurnSignalEnum": {
+      "type": "string",
+      "enum": ["Off", "Left", "Right"]
+    },
+    "LightModeEnum": {
+      "type": "string",
+      "enum": ["Off", "DaylightRunningLight", "LowBeam"]
+    },
+    "GearLeverPositionEnum": {
+      "type": "string",
+      "enum": ["Reverse", "Drive"]
+    },
+    "TypeReq1Enum": {
+      "type": "string",
+      "enum": ["TypeReq1_mode0", "TypeReq1_mode1", "TypeReq1_mode2", "TypeReq1_mode3"]
+    },
+    "TypeReq2Enum": {
+      "type": "string",
+      "enum": ["TypeReq2_mode0", "TypeReq2_mode1", "TypeReq2_mode2", "TypeReq2_mode3"]
+    },
+    "SomeQf1Enum": {
+      "type": "string",
+      "enum": ["SomeQf1_0", "SomeQf1_1", "SomeQf1_2", "SomeQf1_3"]
+    }
+  },
+  "replace_enum": {
+    "BaseUnitEnum": [
+      "dimensionless",
+      "deg",
+      "m",
+      "m/s",
+      "V",
+      "A",
+      "percent",
+      "kW",
+      "rpm",
+      "Nm",
+      "degC",
+      "MFLOPS",
+      "bit/s"
+    ],
+    "ListOfInterfaceEnumsEnum": [
+      "TurnSignalEnum",
+      "LightModeEnum",
+      "GearLeverPositionEnum",
+      "TypeReq1Enum",
+      "TypeReq2Enum",
+      "SomeQf1Enum"
+    ]
+  }
+}

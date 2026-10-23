@@ -1,0 +1,152 @@
+{
+    "CommunicateAllocation_SOMEIP_@a220402b": {
+        "stereotype": "CommunicateAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationCommunication": [
+                "GearService_Gear_@f1984807",
+                "HVACService_LeftTemperature_@801aef78",
+                "HVACService_RightTemperature_@c1139434",
+                "LocationService_Heading_@e1c4ac9d",
+                "LocationService_Latitude_@036938ea",
+                "LocationService_Longitude_@6dd8d80b",
+                "SpeedService_Speed_@ee8f13af",
+                "TurnlightIndicator_LeftTurnlight_@c40870c6",
+                "TurnlightIndicator_RightTurnlight_@6862089a"
+            ],
+            "allocatedOnCommunicationPlatform": [
+                "SOMEIP_@43d8d435"
+            ],
+            "communicateInterfaceRealization": [
+                "CIR_GearService_Gear_@99708f75",
+                "CIR_HVACService_LeftTemperature_@e12d25e4",
+                "CIR_HVACService_RightTemperature_@5bde14e2",
+                "CIR_LocationService_Heading_@f85a0245",
+                "CIR_LocationService_Latitude_@04496476",
+                "CIR_LocationService_Longitude_@83943923",
+                "CIR_SpeedService_Speed_@5f61b1c8",
+                "CIR_TurnlightIndicator_LeftTurnlight_@3f551097",
+                "CIR_TurnlightIndicator_RightTurnlight_@ad8c7284"
+            ]
+        },
+        "aggregations": {
+            "CIR_GearService_Gear_@99708f75": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "GearService_Gear_CommNeed_@ea03feff"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_HVACService_LeftTemperature_@e12d25e4": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "HVACService_LeftTemperature_CommNeed_@75045ca5"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_HVACService_RightTemperature_@5bde14e2": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "HVACService_RightTemperature_CommNeed_@8909a7f6"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_LocationService_Heading_@f85a0245": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "LocationService_Heading_CommNeed_@cb945046"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_LocationService_Latitude_@04496476": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "LocationService_Latitude_CommNeed_@ee222b86"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_LocationService_Longitude_@83943923": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "LocationService_Longitude_CommNeed_@8b31d1ab"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_SpeedService_Speed_@5f61b1c8": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "SpeedService_Speed_CommNeed_@3834e20a"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_TurnlightIndicator_LeftTurnlight_@3f551097": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "TurnlightIndicator_LeftTurnlight_CommNeed_@07b00dc2"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            },
+            "CIR_TurnlightIndicator_RightTurnlight_@ad8c7284": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "TurnlightIndicator_RightTurnlight_CommNeed_@6154f6a3"
+                    ],
+                    "platformCommunicationResource": [
+                        "SOMEIP_Bandwidth_@e1d7374e"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "CommunicateAllocation_SOMEIP_@a220402b",
+            "description": [
+                "Signals carried by SOMEIP."
+            ],
+            "name": "CommunicateAllocation_SOMEIP",
+            "source": "remotive_car/platform/databases/someip.fibex.xml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

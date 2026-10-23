@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_HVAC_@b9e23ed6": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "HVAC_@59f7eefc"
+            ],
+            "allocatedOnComputePlatform": [
+                "HVAC_ECU_@111f2754"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_HVAC_@ce3ad4ef"
+            ]
+        },
+        "aggregations": {
+            "CRIR_HVAC_@ce3ad4ef": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "HVAC_ComputeNeed_@1236e00f"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "HVAC_ECU_Compute_@9b654228"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_HVAC_@b9e23ed6",
+            "description": [
+                "HVAC runs on the HVAC ECU."
+            ],
+            "name": "ComputeAllocation_HVAC",
+            "version_schema": "4.6.1"
+        }
+    }
+}

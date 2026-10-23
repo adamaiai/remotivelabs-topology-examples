@@ -1,0 +1,36 @@
+{
+    "RLCM_ECU_@2e9852c4": {
+        "stereotype": "AtomicPlatformComponent",
+        "attributes": {},
+        "connections": {
+            "externalInterface": [
+                "RLCM_ECU_Compute_@dd2bb434"
+            ]
+        },
+        "aggregations": {
+            "RLCM_ECU_Compute_@dd2bb434": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource offered by the RLCM ECU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "RLCM_ECU_@2e9852c4",
+            "description": [
+                "Rear Light Control Module ECU hardware. Channels: BodyCan0, RearLightLIN. LIN master, time base 5 ms, jitter 1 ms."
+            ],
+            "name": "RLCM_ECU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

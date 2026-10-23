@@ -1,0 +1,148 @@
+{
+    "IHU_@e7247ea9": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "IHU_ComputeNeed_@0b741815"
+            ],
+            "externalInterface": [
+                "IHU_GearService_Gear_@2c238124",
+                "IHU_HVACService_LeftTemperature_@5382b1eb",
+                "IHU_HVACService_RightTemperature_@bccb0758",
+                "IHU_LocationService_Heading_@17750e39",
+                "IHU_LocationService_Latitude_@db67278d",
+                "IHU_LocationService_Longitude_@43f2f390",
+                "IHU_Occupant_LeftTemperatureSetpoint_@5ba4abe8",
+                "IHU_Occupant_RightTemperatureSetpoint_@9ee305fb",
+                "IHU_SpeedService_Speed_@b55d48ec",
+                "IHU_TurnlightIndicator_LeftTurnlight_@80764c42",
+                "IHU_TurnlightIndicator_RightTurnlight_@9f90cd91"
+            ]
+        },
+        "aggregations": {
+            "IHU_ComputeNeed_@0b741815": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource IHU needs from its ECU."
+                    ]
+                }
+            },
+            "IHU_GearService_Gear_@2c238124": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "IHU_HVACService_LeftTemperature_@5382b1eb": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_HVACService_RightTemperature_@bccb0758": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_LocationService_Heading_@17750e39": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "IHU_LocationService_Latitude_@db67278d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "IHU_LocationService_Longitude_@43f2f390": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "IHU_Occupant_LeftTemperatureSetpoint_@5ba4abe8": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_Occupant_RightTemperatureSetpoint_@9ee305fb": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_SpeedService_Speed_@b55d48ec": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            },
+            "IHU_TurnlightIndicator_LeftTurnlight_@80764c42": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "IHU_TurnlightIndicator_RightTurnlight_@9f90cd91": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "IHU_@e7247ea9",
+            "description": [
+                "Infotainment Head Unit. Manages infotainment and user interface systems."
+            ],
+            "name": "IHU",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}
