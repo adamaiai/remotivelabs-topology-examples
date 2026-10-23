@@ -1,0 +1,23 @@
+{
+    "ImplementedGWM_Info_@7c6ad9da": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "00c4a26cda82b0f6572acbc96ed3fb131124bb2f",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/gwm/python/gwm"
+        },
+        "connections": {
+            "realizedModel": [
+                "GWM_Info_@78db77d5"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedGWM_Info_@7c6ad9da",
+            "description": [
+                "Implementation: Python behavioral model; the GWM implementation serves all of its software components."
+            ],
+            "name": "ImplementedGWM_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

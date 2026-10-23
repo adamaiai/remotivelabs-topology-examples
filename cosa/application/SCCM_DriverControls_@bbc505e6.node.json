@@ -1,0 +1,118 @@
+{
+    "SCCM_DriverControls_@bbc505e6": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "SCCM_DriverControls_ComputeNeed_@c682e423"
+            ],
+            "externalInterface": [
+                "SCCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@e7028a0d",
+                "SCCM_DriverControls_Driver_AcceleratorPedalPosition_@63f9fcf1",
+                "SCCM_DriverControls_Driver_GearShiftDown_@3485f24c",
+                "SCCM_DriverControls_Driver_GearShiftUp_@05157d51",
+                "SCCM_DriverControls_Driver_SteeringAngle_@2ef29011",
+                "SCCM_DriverControls_GearShiftDown_@0af927d4",
+                "SCCM_DriverControls_GearShiftUp_@348a87fd",
+                "SCCM_DriverControls_SteeringAngle_@be3e8822"
+            ]
+        },
+        "aggregations": {
+            "SCCM_DriverControls_ComputeNeed_@c682e423": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource SCCM_DriverControls needs from the SCCM ECU."
+                    ]
+                }
+            },
+            "SCCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@e7028a0d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_Driver_AcceleratorPedalPosition_@63f9fcf1": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_Driver_GearShiftDown_@3485f24c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_Driver_GearShiftUp_@05157d51": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_Driver_SteeringAngle_@2ef29011": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_GearShiftDown_@0af927d4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_GearShiftUp_@348a87fd": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_DriverControls_SteeringAngle_@be3e8822": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "SCCM_DriverControls_@bbc505e6",
+            "description": [
+                "DriverControls software on the Steering Column Control Module (SCCM). Receives input from steering wheel, pedals and buttons."
+            ],
+            "name": "SCCM_DriverControls",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

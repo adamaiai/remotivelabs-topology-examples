@@ -1,0 +1,138 @@
+{
+    "SCCM_Lighting_@de006ceb": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "SCCM_Lighting_ComputeNeed_@cfa29bc4"
+            ],
+            "externalInterface": [
+                "SCCM_Lighting_BrakePedalPosition_@fec1c5e9",
+                "SCCM_Lighting_Driver_BrakePedalPosition_@597bce1e",
+                "SCCM_Lighting_Driver_HazardLightButton_@19ed3451",
+                "SCCM_Lighting_Driver_HighBeam_@ba1cc0bd",
+                "SCCM_Lighting_Driver_LightMode_@d3d76ab9",
+                "SCCM_Lighting_Driver_TurnSignal_@9f3a4d2b",
+                "SCCM_Lighting_HazardLightButton_@c4d42502",
+                "SCCM_Lighting_HighBeam_@7eb63986",
+                "SCCM_Lighting_LightMode_@192bf0b2",
+                "SCCM_Lighting_TurnSignal_@3909ddfe"
+            ]
+        },
+        "aggregations": {
+            "SCCM_Lighting_ComputeNeed_@cfa29bc4": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource SCCM_Lighting needs from the SCCM ECU."
+                    ]
+                }
+            },
+            "SCCM_Lighting_BrakePedalPosition_@fec1c5e9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_Driver_BrakePedalPosition_@597bce1e": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_Driver_HazardLightButton_@19ed3451": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_Driver_HighBeam_@ba1cc0bd": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_Driver_LightMode_@d3d76ab9": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "LightModeEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_Driver_TurnSignal_@9f3a4d2b": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TurnSignalEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_HazardLightButton_@c4d42502": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_HighBeam_@7eb63986": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_LightMode_@192bf0b2": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "LightModeEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "SCCM_Lighting_TurnSignal_@3909ddfe": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TurnSignalEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "SCCM_Lighting_@de006ceb",
+            "description": [
+                "ExteriorLighting software on the Steering Column Control Module (SCCM). Receives input from steering wheel, pedals and buttons."
+            ],
+            "name": "SCCM_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

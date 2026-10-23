@@ -24,7 +24,7 @@
                 "ExteriorLighting_@bbb6ce8a"
             ],
             "realizingApplicationModel": [
-                "RemotiveCar_@1edd6b7f"
+                "ExteriorLightingDesign_@b093b118"
             ]
         },
         "aggregations": {
@@ -36,7 +36,7 @@
                         "ExteriorLighting_Driver_BrakePedalPosition_@98e9b633"
                     ],
                     "realizingExternalIF": [
-                        "Driver_BrakePedalPosition_@e8688df6"
+                        "ExteriorLightingDesign_Driver_BrakePedalPosition_@7b0c9774"
                     ]
                 }
             },
@@ -48,7 +48,7 @@
                         "ExteriorLighting_Driver_HazardLightButton_@3b1bf564"
                     ],
                     "realizingExternalIF": [
-                        "Driver_HazardLightButton_@310838e0"
+                        "ExteriorLightingDesign_Driver_HazardLightButton_@0e45a209"
                     ]
                 }
             },
@@ -60,7 +60,7 @@
                         "ExteriorLighting_Driver_HighBeam_@869e8d88"
                     ],
                     "realizingExternalIF": [
-                        "Driver_HighBeam_@f7dff3bd"
+                        "ExteriorLightingDesign_Driver_HighBeam_@e254bc33"
                     ]
                 }
             },
@@ -72,7 +72,7 @@
                         "ExteriorLighting_Driver_LightMode_@8fa13576"
                     ],
                     "realizingExternalIF": [
-                        "Driver_LightMode_@8c87721f"
+                        "ExteriorLightingDesign_Driver_LightMode_@07173606"
                     ]
                 }
             },
@@ -84,7 +84,7 @@
                         "ExteriorLighting_Driver_TurnSignal_@32ae3e57"
                     ],
                     "realizingExternalIF": [
-                        "Driver_TurnSignal_@fefdcfb7"
+                        "ExteriorLightingDesign_Driver_TurnSignal_@57ed074a"
                     ]
                 }
             },
@@ -96,7 +96,7 @@
                         "ExteriorLighting_Lamp_FrontLeftDaylightRunning_@90aa503c"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontLeftDaylightRunning_@2de4ab90"
+                        "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_@dd464c81"
                     ]
                 }
             },
@@ -108,7 +108,7 @@
                         "ExteriorLighting_Lamp_FrontLeftHighBeam_@7e3ec5fe"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontLeftHighBeam_@aa15284b"
+                        "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_@d8127a67"
                     ]
                 }
             },
@@ -120,7 +120,7 @@
                         "ExteriorLighting_Lamp_FrontLeftLowBeam_@babf45ff"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontLeftLowBeam_@e033c4cd"
+                        "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_@f762e172"
                     ]
                 }
             },
@@ -132,7 +132,7 @@
                         "ExteriorLighting_Lamp_FrontLeftTurn_@1a2004fe"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontLeftTurn_@4efb9824"
+                        "ExteriorLightingDesign_Lamp_FrontLeftTurn_@7c639c49"
                     ]
                 }
             },
@@ -144,7 +144,7 @@
                         "ExteriorLighting_Lamp_FrontRightDaylightRunning_@8e58aca8"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontRightDaylightRunning_@bfa81be6"
+                        "ExteriorLightingDesign_Lamp_FrontRightDaylightRunning_@29d4642c"
                     ]
                 }
             },
@@ -156,7 +156,7 @@
                         "ExteriorLighting_Lamp_FrontRightHighBeam_@2d230af8"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontRightHighBeam_@9c7f0acc"
+                        "ExteriorLightingDesign_Lamp_FrontRightHighBeam_@b193cd96"
                     ]
                 }
             },
@@ -168,7 +168,7 @@
                         "ExteriorLighting_Lamp_FrontRightLowBeam_@c20a0d94"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontRightLowBeam_@231c2a7c"
+                        "ExteriorLightingDesign_Lamp_FrontRightLowBeam_@af796aae"
                     ]
                 }
             },
@@ -180,7 +180,7 @@
                         "ExteriorLighting_Lamp_FrontRightTurn_@a2d39955"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_FrontRightTurn_@66e2f5d1"
+                        "ExteriorLightingDesign_Lamp_FrontRightTurn_@f8ef29c1"
                     ]
                 }
             },
@@ -192,7 +192,7 @@
                         "ExteriorLighting_Lamp_RearLeftTurn_@996f0f15"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_RearLeftTurn_@139b5dd4"
+                        "ExteriorLightingDesign_Lamp_RearLeftTurn_@e8b44d4c"
                     ]
                 }
             },
@@ -204,7 +204,7 @@
                         "ExteriorLighting_Lamp_RearRightTurn_@889198f6"
                     ],
                     "realizingExternalIF": [
-                        "Lamp_RearRightTurn_@593b10bf"
+                        "ExteriorLightingDesign_Lamp_RearRightTurn_@aea9f317"
                     ]
                 }
             }
@@ -212,7 +212,7 @@
         "metadata": {
             "uuid": "ExteriorLighting_Realization_@3bbc7d06",
             "description": [
-                "RemotiveCar realizes ExteriorLighting."
+                "ExteriorLightingDesign realizes ExteriorLighting."
             ],
             "name": "ExteriorLighting_Realization",
             "version_schema": "4.6.1"

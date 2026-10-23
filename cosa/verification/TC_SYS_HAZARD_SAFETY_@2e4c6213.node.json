@@ -10,10 +10,10 @@
         },
         "connections": {
             "contractInScope": [
-                "RemotiveCar_Lamp_FrontLeftTurn_NotActivated_@f73980ab",
-                "RemotiveCar_Lamp_FrontRightTurn_NotActivated_@12bcd57f",
-                "RemotiveCar_Lamp_RearLeftTurn_NotActivated_@76049308",
-                "RemotiveCar_Lamp_RearRightTurn_NotActivated_@52d90566",
+                "ExteriorLightingDesign_Lamp_FrontLeftTurn_NotActivated_@30f73f1b",
+                "ExteriorLightingDesign_Lamp_FrontRightTurn_NotActivated_@2766508a",
+                "ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated_@58cc0208",
+                "ExteriorLightingDesign_Lamp_RearRightTurn_NotActivated_@4d6fb876",
                 "SG_FrontLeftTurn_NotActivated_@b4b74d02",
                 "SG_FrontRightTurn_NotActivated_@4f2b3c5c",
                 "SG_RearLeftTurn_NotActivated_@5f9338ae",

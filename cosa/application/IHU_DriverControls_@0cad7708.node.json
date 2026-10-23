@@ -1,0 +1,58 @@
+{
+    "IHU_DriverControls_@0cad7708": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "IHU_DriverControls_ComputeNeed_@b6582630"
+            ],
+            "externalInterface": [
+                "IHU_DriverControls_GearService_Gear_@aadbf914",
+                "IHU_DriverControls_Infotainment_Gear_@e4cdd7c9"
+            ]
+        },
+        "aggregations": {
+            "IHU_DriverControls_ComputeNeed_@b6582630": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource IHU_DriverControls needs from the IHU ECU."
+                    ]
+                }
+            },
+            "IHU_DriverControls_GearService_Gear_@aadbf914": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "IHU_DriverControls_Infotainment_Gear_@e4cdd7c9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "IHU_DriverControls_@0cad7708",
+            "description": [
+                "DriverControls software on the Infotainment Head Unit (IHU). Manages infotainment and user interface systems."
+            ],
+            "name": "IHU_DriverControls",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_BCM_DriverControls_@ffe49964": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "BCM_DriverControls_@5264efe8"
+            ],
+            "allocatedOnComputePlatform": [
+                "BCM_ECU_@e08662f3"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_BCM_DriverControls_@9e027049"
+            ]
+        },
+        "aggregations": {
+            "CRIR_BCM_DriverControls_@9e027049": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "BCM_DriverControls_ComputeNeed_@9f14c996"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "BCM_ECU_Compute_@1bf9dec2"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_BCM_DriverControls_@ffe49964",
+            "description": [
+                "BCM_DriverControls runs on the BCM ECU."
+            ],
+            "name": "ComputeAllocation_BCM_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

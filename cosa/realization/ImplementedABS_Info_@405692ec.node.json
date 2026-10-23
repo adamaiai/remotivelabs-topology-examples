@@ -1,0 +1,23 @@
+{
+    "ImplementedABS_Info_@405692ec": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "d8ef1a4cccdec547da7b012dc0516a43e33183ec618c218f19b3b0dc833a95f7",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/chassis_can.dbc"
+        },
+        "connections": {
+            "realizedModel": [
+                "ABS_Info_@4d037b0b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedABS_Info_@405692ec",
+            "description": [
+                "Implementation: RemotiveTopology mock generated from the database; the ABS implementation serves all of its software components."
+            ],
+            "name": "ImplementedABS_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

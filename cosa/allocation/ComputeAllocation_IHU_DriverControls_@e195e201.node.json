@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_IHU_DriverControls_@e195e201": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "IHU_DriverControls_@0cad7708"
+            ],
+            "allocatedOnComputePlatform": [
+                "IHU_ECU_@c5fd78f8"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_IHU_DriverControls_@1a24db2d"
+            ]
+        },
+        "aggregations": {
+            "CRIR_IHU_DriverControls_@1a24db2d": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "IHU_DriverControls_ComputeNeed_@b6582630"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "IHU_ECU_Compute_@e42df852"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_IHU_DriverControls_@e195e201",
+            "description": [
+                "IHU_DriverControls runs on the IHU ECU."
+            ],
+            "name": "ComputeAllocation_IHU_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

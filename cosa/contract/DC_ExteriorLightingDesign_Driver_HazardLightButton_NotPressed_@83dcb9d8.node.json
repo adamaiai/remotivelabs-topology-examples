@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_Driver_HazardLightButton_NotPressed_@83dcb9d8": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "GroundTruth",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_Driver_HazardLightButton_@0e45a209"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_Driver_HazardLightButton_NotPressed_@83dcb9d8",
+            "description": [
+                "Critical: ExteriorLightingDesign_Driver_HazardLightButton reads released for longer than 50 ms while the button is pressed."
+            ],
+            "name": "DC_ExteriorLightingDesign_Driver_HazardLightButton_NotPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

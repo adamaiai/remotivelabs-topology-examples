@@ -1,0 +1,256 @@
+{
+    "ClimateActuation_@1db552fa": {
+        "stereotype": "ComposedApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "assemblyInterface": [
+                "ClimateActuation_LeftTemperature_Assembly_@3aa8a80b",
+                "ClimateActuation_RightTemperature_Assembly_@8d77c986"
+            ],
+            "buildingBlock": [
+                "ClimateActuation_GWM_@8722707f",
+                "ClimateActuation_HVAC_@f28b8a25"
+            ],
+            "delegationInterface": [
+                "ClimateActuation_Climate_LeftTemperature_Delegation_@4e81a60d",
+                "ClimateActuation_Climate_RightTemperature_Delegation_@be1bd56c",
+                "ClimateActuation_HVACService_LeftTemperature_Delegation_@8b49f84e",
+                "ClimateActuation_HVACService_RightTemperature_Delegation_@a50809b0"
+            ],
+            "externalInterface": [
+                "ClimateActuation_Climate_LeftTemperature_@0ed481df",
+                "ClimateActuation_Climate_RightTemperature_@df2d9ce3",
+                "ClimateActuation_HVACService_LeftTemperature_@4f476549",
+                "ClimateActuation_HVACService_RightTemperature_@790aca83"
+            ]
+        },
+        "aggregations": {
+            "ClimateActuation_Climate_LeftTemperature_@0ed481df": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "ClimateActuation_Climate_RightTemperature_@df2d9ce3": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "ClimateActuation_GWM_@8722707f": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for GWM_Climate."
+                    ]
+                }
+            },
+            "ClimateActuation_HVACService_LeftTemperature_@4f476549": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ]
+                }
+            },
+            "ClimateActuation_HVACService_RightTemperature_@790aca83": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ]
+                }
+            },
+            "ClimateActuation_HVAC_@f28b8a25": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for HVAC_Climate."
+                    ]
+                }
+            },
+            "ClimateActuation_LeftTemperature_Assembly_@3aa8a80b": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ClimateActuation_LeftTemperature_Assembly_CommNeed_@4ffbf1be"
+                    ],
+                    "consumedBy": [
+                        "ClimateActuation_HVAC_@f28b8a25"
+                    ],
+                    "providedBy": [
+                        "ClimateActuation_GWM_@8722707f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "ClimateActuation_LeftTemperature_Assembly_CommNeed_@4ffbf1be": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth LeftTemperature needs on BodyCan0."
+                    ]
+                }
+            },
+            "ClimateActuation_RightTemperature_Assembly_@8d77c986": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ClimateActuation_RightTemperature_Assembly_CommNeed_@b4bef0ac"
+                    ],
+                    "consumedBy": [
+                        "ClimateActuation_HVAC_@f28b8a25"
+                    ],
+                    "providedBy": [
+                        "ClimateActuation_GWM_@8722707f"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "ClimateActuation_RightTemperature_Assembly_CommNeed_@b4bef0ac": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth RightTemperature needs on BodyCan0."
+                    ]
+                }
+            },
+            "ClimateActuation_Climate_LeftTemperature_Delegation_@4e81a60d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateActuation_HVAC_@f28b8a25"
+                    ],
+                    "outer": [
+                        "ClimateActuation_Climate_LeftTemperature_@0ed481df"
+                    ]
+                }
+            },
+            "ClimateActuation_Climate_RightTemperature_Delegation_@be1bd56c": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateActuation_HVAC_@f28b8a25"
+                    ],
+                    "outer": [
+                        "ClimateActuation_Climate_RightTemperature_@df2d9ce3"
+                    ]
+                }
+            },
+            "ClimateActuation_HVACService_LeftTemperature_Delegation_@8b49f84e": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateActuation_GWM_@8722707f"
+                    ],
+                    "outer": [
+                        "ClimateActuation_HVACService_LeftTemperature_@4f476549"
+                    ]
+                }
+            },
+            "ClimateActuation_HVACService_RightTemperature_Delegation_@a50809b0": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateActuation_GWM_@8722707f"
+                    ],
+                    "outer": [
+                        "ClimateActuation_HVACService_RightTemperature_@790aca83"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ClimateActuation_@1db552fa",
+            "description": [
+                "Technical design (TSC level). GWM routes the infotainment temperature request from SOME/IP to the HVAC on BodyCan0."
+            ],
+            "name": "ClimateActuation",
+            "version_schema": "4.6.1"
+        }
+    }
+}

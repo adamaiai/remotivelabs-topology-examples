@@ -1,0 +1,23 @@
+{
+    "ImplementedGWM_Climate_@282e2aa8": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "00c4a26cda82b0f6572acbc96ed3fb131124bb2f",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/gwm/python/gwm"
+        },
+        "connections": {
+            "realizedModel": [
+                "GWM_Climate_@406c88b2"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedGWM_Climate_@282e2aa8",
+            "description": [
+                "Implementation: Python behavioral model; the GWM implementation serves all of its software components."
+            ],
+            "name": "ImplementedGWM_Climate",
+            "version_schema": "4.6.1"
+        }
+    }
+}

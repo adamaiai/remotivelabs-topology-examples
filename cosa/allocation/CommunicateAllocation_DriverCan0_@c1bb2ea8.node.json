@@ -4,134 +4,134 @@
         "attributes": {},
         "connections": {
             "allocatedApplicationCommunication": [
-                "AcceleratorPedalPosition_DriverCan0_@5220b705",
-                "BrakePedalPosition_@4c6d0a5c",
-                "GearShiftDown_@cd81edc2",
-                "GearShiftUp_@d61e5fac",
-                "HazardLightButton_@1012733a",
-                "HighBeam_@2daa4d39",
-                "LightMode_@ac62221b",
-                "SteeringAngle_@b04033bc",
-                "TurnSignal_@e1a35069"
+                "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@1792ac31",
+                "DriverControlsDesign_GearShiftDown_Assembly_@b760e779",
+                "DriverControlsDesign_GearShiftUp_Assembly_@516c15c7",
+                "DriverControlsDesign_SteeringAngle_Assembly_@b9e154a8",
+                "ExteriorLightingDesign_BrakePedalPosition_Assembly_@19d597d4",
+                "ExteriorLightingDesign_HazardLightButton_Assembly_@3a1cbdd0",
+                "ExteriorLightingDesign_HighBeam_Assembly_@5940fe72",
+                "ExteriorLightingDesign_LightMode_Assembly_@ac1945a4",
+                "ExteriorLightingDesign_TurnSignal_Assembly_@0c168c3a"
             ],
             "allocatedOnCommunicationPlatform": [
                 "DriverCan0_@8f511c44"
             ],
             "communicateInterfaceRealization": [
-                "CIR_AcceleratorPedalPosition_DriverCan0_@885de193",
-                "CIR_BrakePedalPosition_@7e694c28",
-                "CIR_GearShiftDown_@0e561c95",
-                "CIR_GearShiftUp_@17570053",
-                "CIR_HazardLightButton_@9e5cc0f1",
-                "CIR_HighBeam_@da7d995b",
-                "CIR_LightMode_@ac555403",
-                "CIR_SteeringAngle_@0faca10f",
-                "CIR_TurnSignal_@a226e127"
+                "CIR_DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@26612589",
+                "CIR_DriverControlsDesign_GearShiftDown_Assembly_@d9503bb8",
+                "CIR_DriverControlsDesign_GearShiftUp_Assembly_@8ef72f5e",
+                "CIR_DriverControlsDesign_SteeringAngle_Assembly_@255ea79a",
+                "CIR_ExteriorLightingDesign_BrakePedalPosition_Assembly_@a723cc12",
+                "CIR_ExteriorLightingDesign_HazardLightButton_Assembly_@c58e0c92",
+                "CIR_ExteriorLightingDesign_HighBeam_Assembly_@d4000f3a",
+                "CIR_ExteriorLightingDesign_LightMode_Assembly_@94d7042f",
+                "CIR_ExteriorLightingDesign_TurnSignal_Assembly_@4f4c1a91"
             ]
         },
         "aggregations": {
-            "CIR_AcceleratorPedalPosition_DriverCan0_@885de193": {
+            "CIR_DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@26612589": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "AcceleratorPedalPosition_DriverCan0_CommNeed_@9f653c3b"
+                        "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_CommNeed_@ea85da29"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_BrakePedalPosition_@7e694c28": {
+            "CIR_DriverControlsDesign_GearShiftDown_Assembly_@d9503bb8": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "BrakePedalPosition_CommNeed_@3037de5a"
+                        "DriverControlsDesign_GearShiftDown_Assembly_CommNeed_@7ee0ce59"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_GearShiftDown_@0e561c95": {
+            "CIR_DriverControlsDesign_GearShiftUp_Assembly_@8ef72f5e": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "GearShiftDown_CommNeed_@914bf8bb"
+                        "DriverControlsDesign_GearShiftUp_Assembly_CommNeed_@8d826b4f"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_GearShiftUp_@17570053": {
+            "CIR_DriverControlsDesign_SteeringAngle_Assembly_@255ea79a": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "GearShiftUp_CommNeed_@59cc2b26"
+                        "DriverControlsDesign_SteeringAngle_Assembly_CommNeed_@50e1286c"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_HazardLightButton_@9e5cc0f1": {
+            "CIR_ExteriorLightingDesign_BrakePedalPosition_Assembly_@a723cc12": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "HazardLightButton_CommNeed_@e23f6344"
+                        "ExteriorLightingDesign_BrakePedalPosition_Assembly_CommNeed_@84af5fef"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_HighBeam_@da7d995b": {
+            "CIR_ExteriorLightingDesign_HazardLightButton_Assembly_@c58e0c92": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "HighBeam_CommNeed_@a93b5423"
+                        "ExteriorLightingDesign_HazardLightButton_Assembly_CommNeed_@aef3e28a"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_LightMode_@ac555403": {
+            "CIR_ExteriorLightingDesign_HighBeam_Assembly_@d4000f3a": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LightMode_CommNeed_@c5a3f451"
+                        "ExteriorLightingDesign_HighBeam_Assembly_CommNeed_@6454edef"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_SteeringAngle_@0faca10f": {
+            "CIR_ExteriorLightingDesign_LightMode_Assembly_@94d7042f": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SteeringAngle_CommNeed_@a4a3478d"
+                        "ExteriorLightingDesign_LightMode_Assembly_CommNeed_@9bef6edf"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"
                     ]
                 }
             },
-            "CIR_TurnSignal_@a226e127": {
+            "CIR_ExteriorLightingDesign_TurnSignal_Assembly_@4f4c1a91": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "TurnSignal_CommNeed_@e01b7d1f"
+                        "ExteriorLightingDesign_TurnSignal_Assembly_CommNeed_@9f1363dd"
                     ],
                     "platformCommunicationResource": [
                         "DriverCan0_Bandwidth_@1d45be5a"

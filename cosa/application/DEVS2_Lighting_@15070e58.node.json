@@ -1,0 +1,168 @@
+{
+    "DEVS2_Lighting_@15070e58": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "DEVS2_Lighting_ComputeNeed_@2dc979cd"
+            ],
+            "externalInterface": [
+                "DEVS2_Lighting_Lamp_RearLeftTurn_@295cefde",
+                "DEVS2_Lighting_Lamp_RearRightTurn_@c701f797",
+                "DEVS2_Lighting_ReqLeft_@c76f03ce",
+                "DEVS2_Lighting_ReqRight_@d7c8b3c5",
+                "DEVS2_Lighting_SomePartNrDEVS2EndSgn1_@52bb78bb",
+                "DEVS2_Lighting_SomePartNrDEVS2EndSgn2_@5275980a",
+                "DEVS2_Lighting_SomePartNrDEVS2EndSgn3_@d7bb4ea2",
+                "DEVS2_Lighting_SomePartNrDEVS2Nr1_@9a8c1bf3",
+                "DEVS2_Lighting_SomePartNrDEVS2Nr2_@20487e54",
+                "DEVS2_Lighting_SomePartNrDEVS2Nr3_@a1561d1d",
+                "DEVS2_Lighting_SomePartNrDEVS2Nr4_@b3ece72b",
+                "DEVS2_Lighting_SomeReq2Type2_@82b93ec0",
+                "DEVS2_Lighting_counter_@021ec14f"
+            ]
+        },
+        "aggregations": {
+            "DEVS2_Lighting_ComputeNeed_@2dc979cd": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource DEVS2_Lighting needs from the DEVS2 ECU."
+                    ]
+                }
+            },
+            "DEVS2_Lighting_Lamp_RearLeftTurn_@295cefde": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_Lamp_RearRightTurn_@c701f797": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_ReqLeft_@c76f03ce": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_ReqRight_@d7c8b3c5": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2EndSgn1_@52bb78bb": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2EndSgn2_@5275980a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2EndSgn3_@d7bb4ea2": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2Nr1_@9a8c1bf3": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2Nr2_@20487e54": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2Nr3_@a1561d1d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomePartNrDEVS2Nr4_@b3ece72b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_SomeReq2Type2_@82b93ec0": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "DEVS2_Lighting_counter_@021ec14f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq2Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "DEVS2_Lighting_@15070e58",
+            "description": [
+                "ExteriorLighting software on the Rear light LIN device 2 (DEVS2). LIN slave on RearLightLIN (NAD 0x81); receives the left/right rear light requests."
+            ],
+            "name": "DEVS2_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

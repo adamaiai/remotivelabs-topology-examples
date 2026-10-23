@@ -1,0 +1,198 @@
+{
+    "FLCM_Lighting_@0aa1054f": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "FLCM_Lighting_ComputeNeed_@352c1dd9"
+            ],
+            "externalInterface": [
+                "FLCM_Lighting_Lamp_FrontLeftDaylightRunning_@6ecdfb97",
+                "FLCM_Lighting_Lamp_FrontLeftHighBeam_@1ee766f7",
+                "FLCM_Lighting_Lamp_FrontLeftLowBeam_@874e7d83",
+                "FLCM_Lighting_Lamp_FrontLeftTurn_@005d1c8d",
+                "FLCM_Lighting_Lamp_FrontRightDaylightRunning_@57bd57e4",
+                "FLCM_Lighting_Lamp_FrontRightHighBeam_@4d80b303",
+                "FLCM_Lighting_Lamp_FrontRightLowBeam_@02ce5638",
+                "FLCM_Lighting_Lamp_FrontRightTurn_@83299115",
+                "FLCM_Lighting_LeftDaylightRunningLightRequest_@5aa0ae3b",
+                "FLCM_Lighting_LeftHighBeamLightRequest_@43d9fc99",
+                "FLCM_Lighting_LeftLowBeamLightRequest_@5363f995",
+                "FLCM_Lighting_LeftTurnLightRequest_@0ec06099",
+                "FLCM_Lighting_RightDaylightRunningLightRequest_@b1817318",
+                "FLCM_Lighting_RightHighBeamLightRequest_@8796e2bf",
+                "FLCM_Lighting_RightLowBeamLightRequest_@5d8ecbf3",
+                "FLCM_Lighting_RightTurnLightRequest_@e13a9b7f"
+            ]
+        },
+        "aggregations": {
+            "FLCM_Lighting_ComputeNeed_@352c1dd9": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource FLCM_Lighting needs from the FLCM ECU."
+                    ]
+                }
+            },
+            "FLCM_Lighting_Lamp_FrontLeftDaylightRunning_@6ecdfb97": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontLeftHighBeam_@1ee766f7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontLeftLowBeam_@874e7d83": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontLeftTurn_@005d1c8d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontRightDaylightRunning_@57bd57e4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontRightHighBeam_@4d80b303": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontRightLowBeam_@02ce5638": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_Lamp_FrontRightTurn_@83299115": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_LeftDaylightRunningLightRequest_@5aa0ae3b": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_LeftHighBeamLightRequest_@43d9fc99": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_LeftLowBeamLightRequest_@5363f995": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_LeftTurnLightRequest_@0ec06099": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_RightDaylightRunningLightRequest_@b1817318": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_RightHighBeamLightRequest_@8796e2bf": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_RightLowBeamLightRequest_@5d8ecbf3": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "FLCM_Lighting_RightTurnLightRequest_@e13a9b7f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "FLCM_Lighting_@0aa1054f",
+            "description": [
+                "ExteriorLighting software on the Front Light Control Module (FLCM). Controls front lighting system."
+            ],
+            "name": "FLCM_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

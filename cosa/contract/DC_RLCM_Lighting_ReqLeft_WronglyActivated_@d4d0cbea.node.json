@@ -1,0 +1,27 @@
+{
+    "DC_RLCM_Lighting_ReqLeft_WronglyActivated_@d4d0cbea": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RLCM_Lighting_ReqLeft_@32e967a4"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RLCM_Lighting_ReqLeft_WronglyActivated_@d4d0cbea",
+            "description": [
+                "Critical: RLCM_Lighting_ReqLeft is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_RLCM_Lighting_ReqLeft_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

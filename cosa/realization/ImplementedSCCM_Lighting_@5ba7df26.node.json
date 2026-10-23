@@ -1,0 +1,23 @@
+{
+    "ImplementedSCCM_Lighting_@5ba7df26": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "5e3c95f25288b9c01d73e474dd410fb0d0fe1ec8",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/sccm/python/sccm"
+        },
+        "connections": {
+            "realizedModel": [
+                "SCCM_Lighting_@de006ceb"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedSCCM_Lighting_@5ba7df26",
+            "description": [
+                "Implementation: Python behavioral model; the SCCM implementation serves all of its software components."
+            ],
+            "name": "ImplementedSCCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

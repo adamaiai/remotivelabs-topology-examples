@@ -13,7 +13,7 @@
                 "ClimateControl_@33e8895d"
             ],
             "realizingApplicationModel": [
-                "RemotiveCar_@1edd6b7f"
+                "ClimateControlDesign_@3929005f"
             ]
         },
         "aggregations": {
@@ -25,7 +25,7 @@
                         "ClimateControl_Climate_LeftTemperature_@8a4634df"
                     ],
                     "realizingExternalIF": [
-                        "Climate_LeftTemperature_@f0794383"
+                        "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
                     ]
                 }
             },
@@ -37,7 +37,7 @@
                         "ClimateControl_Climate_RightTemperature_@4b6952a9"
                     ],
                     "realizingExternalIF": [
-                        "Climate_RightTemperature_@01438e4e"
+                        "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
                     ]
                 }
             },
@@ -49,7 +49,7 @@
                         "ClimateControl_Occupant_LeftTemperatureSetpoint_@c55a5821"
                     ],
                     "realizingExternalIF": [
-                        "Occupant_LeftTemperatureSetpoint_@defa7980"
+                        "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d"
                     ]
                 }
             },
@@ -61,7 +61,7 @@
                         "ClimateControl_Occupant_RightTemperatureSetpoint_@f4c40aa5"
                     ],
                     "realizingExternalIF": [
-                        "Occupant_RightTemperatureSetpoint_@4163b2fc"
+                        "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
                     ]
                 }
             }
@@ -69,7 +69,7 @@
         "metadata": {
             "uuid": "ClimateControl_Realization_@c9143524",
             "description": [
-                "RemotiveCar realizes ClimateControl."
+                "ClimateControlDesign realizes ClimateControl."
             ],
             "name": "ClimateControl_Realization",
             "version_schema": "4.6.1"

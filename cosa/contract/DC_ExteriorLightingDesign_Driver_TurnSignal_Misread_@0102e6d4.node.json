@@ -1,0 +1,93 @@
+{
+    "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread_@0102e6d4": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "GroundTruth",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [
+                "CM_ExteriorLightingDesign_Driver_TurnSignal_@719a0a4d"
+            ],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_Driver_TurnSignal_@57ed074a"
+            ]
+        },
+        "aggregations": {
+            "CC_ExteriorLightingDesign_Driver_TurnSignal_Left_as_Off_@621855e3": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLightingDesign_Driver_TurnSignal_Left_as_Right_@f878eda5": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLightingDesign_Driver_TurnSignal_Off_as_Left_@62b57f7c": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLightingDesign_Driver_TurnSignal_Off_as_Right_@0dde5954": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Left_@f265b3bc": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Off_@d97705b8": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CM_ExteriorLightingDesign_Driver_TurnSignal_@719a0a4d": {
+                "stereotype": "ConfusionMatrix",
+                "attributes": {},
+                "connections": {
+                    "confusionCell": [
+                        "CC_ExteriorLightingDesign_Driver_TurnSignal_Left_as_Off_@621855e3",
+                        "CC_ExteriorLightingDesign_Driver_TurnSignal_Left_as_Right_@f878eda5",
+                        "CC_ExteriorLightingDesign_Driver_TurnSignal_Off_as_Left_@62b57f7c",
+                        "CC_ExteriorLightingDesign_Driver_TurnSignal_Off_as_Right_@0dde5954",
+                        "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Left_@f265b3bc",
+                        "CC_ExteriorLightingDesign_Driver_TurnSignal_Right_as_Off_@d97705b8"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread_@0102e6d4",
+            "description": [
+                "Critical: ExteriorLightingDesign_Driver_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
+            ],
+            "name": "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

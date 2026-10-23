@@ -1,0 +1,24 @@
+{
+    "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_WronglyActivated_@88b258a4": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ExteriorLightingDesign_HazardLightButton_Assembly_WronglyPressed_@c6c2bfc2",
+                "DC_ExteriorLightingDesign_TurnSignal_Assembly_Misread_@527618a3"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_WronglyActivated_@5383a564"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_WronglyActivated_@88b258a4",
+            "description": [
+                "Derived, not in the specification: Inside the exterior lighting design, lighting control drives LeftTurnLightRequest from the hazard button and the turn stalk."
+            ],
+            "name": "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

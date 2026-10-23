@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_Lamp_FrontLeftTurn_WronglyActivated_@6984ec19": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_Lamp_FrontLeftTurn_@7c639c49"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_Lamp_FrontLeftTurn_WronglyActivated_@6984ec19",
+            "description": [
+                "Critical: ExteriorLightingDesign_Lamp_FrontLeftTurn is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_ExteriorLightingDesign_Lamp_FrontLeftTurn_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

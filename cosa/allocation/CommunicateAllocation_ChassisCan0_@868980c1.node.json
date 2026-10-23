@@ -4,106 +4,134 @@
         "attributes": {},
         "connections": {
             "allocatedApplicationCommunication": [
-                "BatteryCurrent_@5049529a",
-                "BatteryPower_@3b43ac1a",
-                "BatteryVoltage_@73e56790",
-                "MotorSpeed_@e9793e67",
-                "MotorTorque_@98364527",
-                "StateOfCharge_@2eea2586",
-                "uispeed_@eaa504df"
+                "VehicleInformationDesign_BatteryCurrent_Assembly_@5b06c755",
+                "VehicleInformationDesign_BatteryPower_Assembly_@b8fde13b",
+                "VehicleInformationDesign_BatteryVoltage_Assembly_@ba523764",
+                "VehicleInformationDesign_MotorSpeed_Assembly_@2046dbc0",
+                "VehicleInformationDesign_MotorTorque_Assembly_@3811a94e",
+                "VehicleInformationDesign_StateOfCharge_Assembly_@54c6dfc2",
+                "VehicleInformationDesign_uispeed_Assembly_@ceeecd1d",
+                "VehicleStateSensing_MotorSpeed_Assembly_@74dbebfb",
+                "VehicleStateSensing_MotorTorque_Assembly_@c84d3461"
             ],
             "allocatedOnCommunicationPlatform": [
                 "ChassisCan0_@75d3905d"
             ],
             "communicateInterfaceRealization": [
-                "CIR_BatteryCurrent_@cfb110c7",
-                "CIR_BatteryPower_@fb251d4a",
-                "CIR_BatteryVoltage_@59dba948",
-                "CIR_MotorSpeed_@83e0dc30",
-                "CIR_MotorTorque_@097a3460",
-                "CIR_StateOfCharge_@99b5ced5",
-                "CIR_uispeed_@db601acd"
+                "CIR_VehicleInformationDesign_BatteryCurrent_Assembly_@926c30d4",
+                "CIR_VehicleInformationDesign_BatteryPower_Assembly_@82bb19e8",
+                "CIR_VehicleInformationDesign_BatteryVoltage_Assembly_@81d1c85e",
+                "CIR_VehicleInformationDesign_MotorSpeed_Assembly_@64efef62",
+                "CIR_VehicleInformationDesign_MotorTorque_Assembly_@45e8c2b0",
+                "CIR_VehicleInformationDesign_StateOfCharge_Assembly_@c38162d7",
+                "CIR_VehicleInformationDesign_uispeed_Assembly_@f4852172",
+                "CIR_VehicleStateSensing_MotorSpeed_Assembly_@73329fe9",
+                "CIR_VehicleStateSensing_MotorTorque_Assembly_@72b3ce95"
             ]
         },
         "aggregations": {
-            "CIR_BatteryCurrent_@cfb110c7": {
+            "CIR_VehicleInformationDesign_BatteryCurrent_Assembly_@926c30d4": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "BatteryCurrent_CommNeed_@5a08fd9b"
+                        "VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed_@719d30d9"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
                 }
             },
-            "CIR_BatteryPower_@fb251d4a": {
+            "CIR_VehicleInformationDesign_BatteryPower_Assembly_@82bb19e8": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "BatteryPower_CommNeed_@f3ea3633"
+                        "VehicleInformationDesign_BatteryPower_Assembly_CommNeed_@a1f4b63b"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
                 }
             },
-            "CIR_BatteryVoltage_@59dba948": {
+            "CIR_VehicleInformationDesign_BatteryVoltage_Assembly_@81d1c85e": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "BatteryVoltage_CommNeed_@827a8df3"
+                        "VehicleInformationDesign_BatteryVoltage_Assembly_CommNeed_@72b55e92"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
                 }
             },
-            "CIR_MotorSpeed_@83e0dc30": {
+            "CIR_VehicleInformationDesign_MotorSpeed_Assembly_@64efef62": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "MotorSpeed_CommNeed_@74971a0c"
+                        "VehicleInformationDesign_MotorSpeed_Assembly_CommNeed_@72c66bb7"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
                 }
             },
-            "CIR_MotorTorque_@097a3460": {
+            "CIR_VehicleInformationDesign_MotorTorque_Assembly_@45e8c2b0": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "MotorTorque_CommNeed_@e0efc8db"
+                        "VehicleInformationDesign_MotorTorque_Assembly_CommNeed_@37a78146"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
                 }
             },
-            "CIR_StateOfCharge_@99b5ced5": {
+            "CIR_VehicleInformationDesign_StateOfCharge_Assembly_@c38162d7": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "StateOfCharge_CommNeed_@6e6774be"
+                        "VehicleInformationDesign_StateOfCharge_Assembly_CommNeed_@23c3b7ea"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"
                     ]
                 }
             },
-            "CIR_uispeed_@db601acd": {
+            "CIR_VehicleInformationDesign_uispeed_Assembly_@f4852172": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "uispeed_CommNeed_@02ba05b1"
+                        "VehicleInformationDesign_uispeed_Assembly_CommNeed_@cb6669a9"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_VehicleStateSensing_MotorSpeed_Assembly_@73329fe9": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "VehicleStateSensing_MotorSpeed_Assembly_CommNeed_@b84acce3"
+                    ],
+                    "platformCommunicationResource": [
+                        "ChassisCan0_Bandwidth_@3200018c"
+                    ]
+                }
+            },
+            "CIR_VehicleStateSensing_MotorTorque_Assembly_@72b3ce95": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "VehicleStateSensing_MotorTorque_Assembly_CommNeed_@538ae837"
                     ],
                     "platformCommunicationResource": [
                         "ChassisCan0_Bandwidth_@3200018c"

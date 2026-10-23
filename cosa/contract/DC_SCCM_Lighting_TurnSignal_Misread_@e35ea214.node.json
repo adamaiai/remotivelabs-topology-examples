@@ -1,0 +1,93 @@
+{
+    "DC_SCCM_Lighting_TurnSignal_Misread_@e35ea214": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [
+                "CM_SCCM_Lighting_TurnSignal_@9d0f536f"
+            ],
+            "constrainedDataElement": [
+                "SCCM_Lighting_TurnSignal_@3909ddfe"
+            ]
+        },
+        "aggregations": {
+            "CC_SCCM_Lighting_TurnSignal_Left_as_Off_@67645d3c": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Lighting_TurnSignal_Left_as_Right_@0641a832": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Lighting_TurnSignal_Off_as_Left_@3f151a71": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Lighting_TurnSignal_Off_as_Right_@3ebbb59d": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Lighting_TurnSignal_Right_as_Left_@1c68da04": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Lighting_TurnSignal_Right_as_Off_@022ab913": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CM_SCCM_Lighting_TurnSignal_@9d0f536f": {
+                "stereotype": "ConfusionMatrix",
+                "attributes": {},
+                "connections": {
+                    "confusionCell": [
+                        "CC_SCCM_Lighting_TurnSignal_Left_as_Off_@67645d3c",
+                        "CC_SCCM_Lighting_TurnSignal_Left_as_Right_@0641a832",
+                        "CC_SCCM_Lighting_TurnSignal_Off_as_Left_@3f151a71",
+                        "CC_SCCM_Lighting_TurnSignal_Off_as_Right_@3ebbb59d",
+                        "CC_SCCM_Lighting_TurnSignal_Right_as_Left_@1c68da04",
+                        "CC_SCCM_Lighting_TurnSignal_Right_as_Off_@022ab913"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DC_SCCM_Lighting_TurnSignal_Misread_@e35ea214",
+            "description": [
+                "Critical: SCCM_Lighting_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
+            ],
+            "name": "DC_SCCM_Lighting_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

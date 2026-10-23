@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_RightTurnLightRequest_Assembly_NotActivated_@002cfb9e": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_RightTurnLightRequest_Assembly_@9c018b99"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_RightTurnLightRequest_Assembly_NotActivated_@002cfb9e",
+            "description": [
+                "Critical: ExteriorLightingDesign_RightTurnLightRequest_Assembly stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_ExteriorLightingDesign_RightTurnLightRequest_Assembly_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

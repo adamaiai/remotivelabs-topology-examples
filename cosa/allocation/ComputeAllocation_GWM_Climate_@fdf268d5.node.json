@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_GWM_Climate_@fdf268d5": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "GWM_Climate_@406c88b2"
+            ],
+            "allocatedOnComputePlatform": [
+                "GWM_ECU_@2825eea1"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_GWM_Climate_@ba0276b2"
+            ]
+        },
+        "aggregations": {
+            "CRIR_GWM_Climate_@ba0276b2": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "GWM_Climate_ComputeNeed_@08899a83"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "GWM_ECU_Compute_@05833099"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_GWM_Climate_@fdf268d5",
+            "description": [
+                "GWM_Climate runs on the GWM ECU."
+            ],
+            "name": "ComputeAllocation_GWM_Climate",
+            "version_schema": "4.6.1"
+        }
+    }
+}

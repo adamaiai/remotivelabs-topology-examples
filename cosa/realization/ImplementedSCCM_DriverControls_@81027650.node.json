@@ -1,0 +1,23 @@
+{
+    "ImplementedSCCM_DriverControls_@81027650": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "5e3c95f25288b9c01d73e474dd410fb0d0fe1ec8",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/sccm/python/sccm"
+        },
+        "connections": {
+            "realizedModel": [
+                "SCCM_DriverControls_@bbc505e6"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedSCCM_DriverControls_@81027650",
+            "description": [
+                "Implementation: Python behavioral model; the SCCM implementation serves all of its software components."
+            ],
+            "name": "ImplementedSCCM_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

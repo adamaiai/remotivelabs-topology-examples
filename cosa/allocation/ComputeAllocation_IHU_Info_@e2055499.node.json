@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_IHU_Info_@e2055499": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "IHU_Info_@684ff570"
+            ],
+            "allocatedOnComputePlatform": [
+                "IHU_ECU_@c5fd78f8"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_IHU_Info_@536ae051"
+            ]
+        },
+        "aggregations": {
+            "CRIR_IHU_Info_@536ae051": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "IHU_Info_ComputeNeed_@baee27c3"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "IHU_ECU_Compute_@e42df852"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_IHU_Info_@e2055499",
+            "description": [
+                "IHU_Info runs on the IHU ECU."
+            ],
+            "name": "ComputeAllocation_IHU_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

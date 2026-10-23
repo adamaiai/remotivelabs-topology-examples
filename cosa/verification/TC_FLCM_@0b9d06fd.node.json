@@ -10,10 +10,10 @@
         },
         "connections": {
             "contractInScope": [
-                "FLCM_Lamp_FrontLeftTurn_NotActivated_@29bb691d",
-                "FLCM_Lamp_FrontLeftTurn_WronglyActivated_@018c8ed7",
-                "FLCM_Lamp_FrontRightTurn_NotActivated_@0fd90f04",
-                "FLCM_Lamp_FrontRightTurn_WronglyActivated_@579537f6"
+                "FLCM_Lighting_Lamp_FrontLeftTurn_NotActivated_@171afb2a",
+                "FLCM_Lighting_Lamp_FrontLeftTurn_WronglyActivated_@f0b2c69b",
+                "FLCM_Lighting_Lamp_FrontRightTurn_NotActivated_@c7412746",
+                "FLCM_Lighting_Lamp_FrontRightTurn_WronglyActivated_@793b97eb"
             ]
         },
         "metadata": {

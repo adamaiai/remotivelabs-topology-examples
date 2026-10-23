@@ -1,0 +1,23 @@
+{
+    "ImplementedHVAC_Climate_@1ff66b80": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "6687712c7a906d468ec209653461135778f70be25f045507da257ea2a8095873",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/body_can.dbc"
+        },
+        "connections": {
+            "realizedModel": [
+                "HVAC_Climate_@276fd608"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedHVAC_Climate_@1ff66b80",
+            "description": [
+                "Implementation: RemotiveTopology mock generated from the database; the HVAC implementation serves all of its software components."
+            ],
+            "name": "ImplementedHVAC_Climate",
+            "version_schema": "4.6.1"
+        }
+    }
+}

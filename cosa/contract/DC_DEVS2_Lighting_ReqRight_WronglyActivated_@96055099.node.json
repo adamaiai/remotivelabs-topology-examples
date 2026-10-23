@@ -1,0 +1,27 @@
+{
+    "DC_DEVS2_Lighting_ReqRight_WronglyActivated_@96055099": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "DEVS2_Lighting_ReqRight_@d7c8b3c5"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DEVS2_Lighting_ReqRight_WronglyActivated_@96055099",
+            "description": [
+                "Critical: DEVS2_Lighting_ReqRight is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_DEVS2_Lighting_ReqRight_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_GWM_DriverControls_@1528ac86": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "GWM_DriverControls_@8de6eb95"
+            ],
+            "allocatedOnComputePlatform": [
+                "GWM_ECU_@2825eea1"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_GWM_DriverControls_@272bbc48"
+            ]
+        },
+        "aggregations": {
+            "CRIR_GWM_DriverControls_@272bbc48": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "GWM_DriverControls_ComputeNeed_@28c25cbd"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "GWM_ECU_Compute_@05833099"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_GWM_DriverControls_@1528ac86",
+            "description": [
+                "GWM_DriverControls runs on the GWM ECU."
+            ],
+            "name": "ComputeAllocation_GWM_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

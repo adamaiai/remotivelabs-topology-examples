@@ -6,1573 +6,125 @@
         },
         "connections": {
             "aggregationRealization": [
-                "Chosen_RemotiveCar_ABS_@52c4e59b",
-                "Chosen_RemotiveCar_BCM_@39b0b1ea",
-                "Chosen_RemotiveCar_BMS_@302de218",
-                "Chosen_RemotiveCar_DIM_@b67a0cf6",
-                "Chosen_RemotiveCar_FLCM_@2040e86c",
-                "Chosen_RemotiveCar_GWM_@eef82a7c",
-                "Chosen_RemotiveCar_HVAC_@28e77389",
-                "Chosen_RemotiveCar_IHU_@f0aeb0b6",
-                "Chosen_RemotiveCar_PAM_@c0cde722",
-                "Chosen_RemotiveCar_PCM_@56da4058",
-                "Chosen_RemotiveCar_RearLight_@d65de484",
-                "Chosen_RemotiveCar_SCCM_@65bf4a55",
-                "Chosen_RemotiveCar_TCU_@db7561aa"
+                "Chosen_RemotiveCar_ClimateControl_@66c76442",
+                "Chosen_RemotiveCar_DriverControls_@a15b4518",
+                "Chosen_RemotiveCar_ExteriorLighting_@4e769ee7",
+                "Chosen_RemotiveCar_VehicleInformation_@642ebbe1"
             ],
             "realizedComposition": [
                 "RemotiveCar_@1edd6b7f"
             ]
         },
         "aggregations": {
-            "Chosen_RemotiveCar_ABS_@52c4e59b": {
+            "Chosen_RemotiveCar_ClimateControl_@66c76442": {
                 "stereotype": "AggregationRealization",
                 "attributes": {},
                 "connections": {
                     "intf_realization": [
-                        "IR_RemotiveCar_ABS_uispeed_@9610d3fc"
+                        "IR_RemotiveCar_ClimateControl_Climate_LeftTemperature_@8e924bf7",
+                        "IR_RemotiveCar_ClimateControl_Climate_RightTemperature_@6e86caa4",
+                        "IR_RemotiveCar_ClimateControl_Occupant_LeftTemperatureSetpoint_@68ae6fdc",
+                        "IR_RemotiveCar_ClimateControl_Occupant_RightTemperatureSetpoint_@30cbf98c"
                     ],
                     "realizedPlaceholder": [
-                        "RemotiveCar_ABS_@85f8bb10"
+                        "RemotiveCar_ClimateControl_@b63f3305"
                     ],
                     "realizingIntegration": [
-                        "ImplementedABS_@0cae2baa"
+                        "ImplementedClimateControlDesign_@5c2dbbad"
                     ]
                 }
             },
-            "Chosen_RemotiveCar_BCM_@39b0b1ea": {
+            "Chosen_RemotiveCar_DriverControls_@a15b4518": {
                 "stereotype": "AggregationRealization",
                 "attributes": {},
                 "connections": {
                     "intf_realization": [
-                        "IR_RemotiveCar_BCM_AcceleratorPedalPosition_BodyCan0_@80363c42",
-                        "IR_RemotiveCar_BCM_AcceleratorPedalPosition_DriverCan0_@03eb5510",
-                        "IR_RemotiveCar_BCM_BrakePedalPosition_@4f45d499",
-                        "IR_RemotiveCar_BCM_GearLeverPosition_@0cf5ac0c",
-                        "IR_RemotiveCar_BCM_GearShiftDown_@d5321387",
-                        "IR_RemotiveCar_BCM_GearShiftUp_@619201d2",
-                        "IR_RemotiveCar_BCM_HazardLightButton_@e543fcdd",
-                        "IR_RemotiveCar_BCM_HighBeam_@2c850e13",
-                        "IR_RemotiveCar_BCM_LeftBrakeLightRequest_@347b8bb7",
-                        "IR_RemotiveCar_BCM_LeftDaylightRunningLightRequest_@abf6cbfa",
-                        "IR_RemotiveCar_BCM_LeftHighBeamLightRequest_@e9fc559e",
-                        "IR_RemotiveCar_BCM_LeftLowBeamLightRequest_@e5640834",
-                        "IR_RemotiveCar_BCM_LeftTurnLightRequest_@6f77dd60",
-                        "IR_RemotiveCar_BCM_LightMode_@d97a82fa",
-                        "IR_RemotiveCar_BCM_RightBrakeLightRequest_@16bc8827",
-                        "IR_RemotiveCar_BCM_RightDaylightRunningLightRequest_@13ce931b",
-                        "IR_RemotiveCar_BCM_RightHighBeamLightRequest_@8f0af75e",
-                        "IR_RemotiveCar_BCM_RightLowBeamLightRequest_@63a9ab55",
-                        "IR_RemotiveCar_BCM_RightTurnLightRequest_@22f86599",
-                        "IR_RemotiveCar_BCM_SteeringAngle_@18533cd4",
-                        "IR_RemotiveCar_BCM_SteeringWheelPosition_@635e986a",
-                        "IR_RemotiveCar_BCM_TurnSignal_@6e8dccd0"
+                        "IR_RemotiveCar_DriverControls_Cluster_GearLeverPosition_@dbbb7757",
+                        "IR_RemotiveCar_DriverControls_Driver_AcceleratorPedalPosition_@d0a92879",
+                        "IR_RemotiveCar_DriverControls_Driver_GearShiftDown_@78d6683b",
+                        "IR_RemotiveCar_DriverControls_Driver_GearShiftUp_@f1ac444b",
+                        "IR_RemotiveCar_DriverControls_Driver_SteeringAngle_@199874af",
+                        "IR_RemotiveCar_DriverControls_Infotainment_Gear_@107ddab8"
                     ],
                     "realizedPlaceholder": [
-                        "RemotiveCar_BCM_@f14441bb"
+                        "RemotiveCar_DriverControls_@7fd705f5"
                     ],
                     "realizingIntegration": [
-                        "ImplementedBCM_@eadcbacf"
+                        "ImplementedDriverControlsDesign_@65808a2e"
                     ]
                 }
             },
-            "Chosen_RemotiveCar_BMS_@302de218": {
+            "Chosen_RemotiveCar_ExteriorLighting_@4e769ee7": {
                 "stereotype": "AggregationRealization",
                 "attributes": {},
                 "connections": {
                     "intf_realization": [
-                        "IR_RemotiveCar_BMS_BatteryCurrent_@506c8c4e",
-                        "IR_RemotiveCar_BMS_BatteryPower_@bc9ab2a0",
-                        "IR_RemotiveCar_BMS_BatteryVoltage_@cb3f2157",
-                        "IR_RemotiveCar_BMS_MotorSpeed_@7a1eb54b",
-                        "IR_RemotiveCar_BMS_MotorTorque_@c2b09198",
-                        "IR_RemotiveCar_BMS_StateOfCharge_@8c1717a4"
+                        "IR_RemotiveCar_ExteriorLighting_Driver_BrakePedalPosition_@df4afae5",
+                        "IR_RemotiveCar_ExteriorLighting_Driver_HazardLightButton_@cc67f73d",
+                        "IR_RemotiveCar_ExteriorLighting_Driver_HighBeam_@cb330480",
+                        "IR_RemotiveCar_ExteriorLighting_Driver_LightMode_@df994098",
+                        "IR_RemotiveCar_ExteriorLighting_Driver_TurnSignal_@c15aa5bd",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftDaylightRunning_@dab3287e",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftHighBeam_@3c199c57",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftLowBeam_@954e4b04",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftTurn_@8a520d2c",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightDaylightRunning_@cf55c097",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightHighBeam_@205c09db",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightLowBeam_@1ba19baf",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightTurn_@7ddfce23",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_RearLeftTurn_@1fd0c4d4",
+                        "IR_RemotiveCar_ExteriorLighting_Lamp_RearRightTurn_@a8275104",
+                        "IR_RemotiveCar_ExteriorLighting_LeftBrakeLightRequest_@2c0f449a",
+                        "IR_RemotiveCar_ExteriorLighting_LeftDaylightRunningLightRequest_@b37c5f7a",
+                        "IR_RemotiveCar_ExteriorLighting_LeftHighBeamLightRequest_@25c25202",
+                        "IR_RemotiveCar_ExteriorLighting_LeftLowBeamLightRequest_@ef748261",
+                        "IR_RemotiveCar_ExteriorLighting_LeftTurnLightRequest_@856e0f82",
+                        "IR_RemotiveCar_ExteriorLighting_RightBrakeLightRequest_@fdcde149",
+                        "IR_RemotiveCar_ExteriorLighting_RightDaylightRunningLightRequest_@572c67c6",
+                        "IR_RemotiveCar_ExteriorLighting_RightHighBeamLightRequest_@16f8f83b",
+                        "IR_RemotiveCar_ExteriorLighting_RightLowBeamLightRequest_@4700df66",
+                        "IR_RemotiveCar_ExteriorLighting_RightTurnLightRequest_@0bad2494"
                     ],
                     "realizedPlaceholder": [
-                        "RemotiveCar_BMS_@f01577b7"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "realizingIntegration": [
-                        "ImplementedBMS_@b1a07d46"
+                        "ImplementedExteriorLightingDesign_@ed7de822"
                     ]
                 }
             },
-            "Chosen_RemotiveCar_DIM_@b67a0cf6": {
+            "Chosen_RemotiveCar_VehicleInformation_@642ebbe1": {
                 "stereotype": "AggregationRealization",
                 "attributes": {},
                 "connections": {
                     "intf_realization": [
-                        "IR_RemotiveCar_DIM_AcceleratorPedalPosition_BodyCan0_@366481e8",
-                        "IR_RemotiveCar_DIM_BatteryCurrent_@d44179fc",
-                        "IR_RemotiveCar_DIM_BatteryPower_@c23ab2a3",
-                        "IR_RemotiveCar_DIM_BatteryVoltage_@6fbbb968",
-                        "IR_RemotiveCar_DIM_GearLeverPosition_@22415a88",
-                        "IR_RemotiveCar_DIM_LeftBrakeLightRequest_@a808640c",
-                        "IR_RemotiveCar_DIM_LeftDaylightRunningLightRequest_@4c3bafc8",
-                        "IR_RemotiveCar_DIM_LeftHighBeamLightRequest_@e19776cd",
-                        "IR_RemotiveCar_DIM_LeftLowBeamLightRequest_@26510ab2",
-                        "IR_RemotiveCar_DIM_LeftTurnLightRequest_@d2d65e56",
-                        "IR_RemotiveCar_DIM_MotorSpeed_@8cca0895",
-                        "IR_RemotiveCar_DIM_MotorTorque_@44d272aa",
-                        "IR_RemotiveCar_DIM_ProximityDistance_@9bc1840b",
-                        "IR_RemotiveCar_DIM_RightBrakeLightRequest_@104663bb",
-                        "IR_RemotiveCar_DIM_RightDaylightRunningLightRequest_@24e3d63d",
-                        "IR_RemotiveCar_DIM_RightHighBeamLightRequest_@5d18697b",
-                        "IR_RemotiveCar_DIM_RightLowBeamLightRequest_@17e3be72",
-                        "IR_RemotiveCar_DIM_RightTurnLightRequest_@0dee17ba",
-                        "IR_RemotiveCar_DIM_StateOfCharge_@5fd1a647",
-                        "IR_RemotiveCar_DIM_SteeringWheelPosition_@5fec429f"
+                        "IR_RemotiveCar_VehicleInformation_Cluster_LeftTurnTelltale_@e415462d",
+                        "IR_RemotiveCar_VehicleInformation_Cluster_ProximityDistance_@ad7aff1b",
+                        "IR_RemotiveCar_VehicleInformation_Cluster_RightTurnTelltale_@23436e69",
+                        "IR_RemotiveCar_VehicleInformation_Cluster_StateOfCharge_@6ebf115c",
+                        "IR_RemotiveCar_VehicleInformation_Infotainment_LeftTurnIndicator_@45ebe0f4",
+                        "IR_RemotiveCar_VehicleInformation_Infotainment_RightTurnIndicator_@99546fbd",
+                        "IR_RemotiveCar_VehicleInformation_Infotainment_VehicleSpeed_@12f99eef",
+                        "IR_RemotiveCar_VehicleInformation_LeftBrakeLightRequest_@2472e0a1",
+                        "IR_RemotiveCar_VehicleInformation_LeftDaylightRunningLightRequest_@0e4ecdcf",
+                        "IR_RemotiveCar_VehicleInformation_LeftHighBeamLightRequest_@e6fdbde7",
+                        "IR_RemotiveCar_VehicleInformation_LeftLowBeamLightRequest_@a1b9f273",
+                        "IR_RemotiveCar_VehicleInformation_LeftTurnLightRequest_@bd2cabec",
+                        "IR_RemotiveCar_VehicleInformation_RightBrakeLightRequest_@a7f7c6dd",
+                        "IR_RemotiveCar_VehicleInformation_RightDaylightRunningLightRequest_@76d5db62",
+                        "IR_RemotiveCar_VehicleInformation_RightHighBeamLightRequest_@6a10256c",
+                        "IR_RemotiveCar_VehicleInformation_RightLowBeamLightRequest_@85223b78",
+                        "IR_RemotiveCar_VehicleInformation_RightTurnLightRequest_@2df6f66b"
                     ],
                     "realizedPlaceholder": [
-                        "RemotiveCar_DIM_@7dfbea58"
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
                     ],
                     "realizingIntegration": [
-                        "ImplementedDIM_@4fc19cfb"
+                        "ImplementedVehicleInformationDesign_@491c48ad"
                     ]
                 }
             },
-            "Chosen_RemotiveCar_FLCM_@2040e86c": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_FLCM_Lamp_FrontLeftDaylightRunning_@1647f3e8",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontLeftHighBeam_@9b3cb60b",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontLeftLowBeam_@ed97a476",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontLeftTurn_@661e701d",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontRightDaylightRunning_@e2747464",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontRightHighBeam_@b3f6fb8d",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontRightLowBeam_@ddec5e6b",
-                        "IR_RemotiveCar_FLCM_Lamp_FrontRightTurn_@99087e13",
-                        "IR_RemotiveCar_FLCM_LeftDaylightRunningLightRequest_@dc4041e3",
-                        "IR_RemotiveCar_FLCM_LeftHighBeamLightRequest_@890b55f5",
-                        "IR_RemotiveCar_FLCM_LeftLowBeamLightRequest_@b923850b",
-                        "IR_RemotiveCar_FLCM_LeftTurnLightRequest_@766cc192",
-                        "IR_RemotiveCar_FLCM_RightDaylightRunningLightRequest_@7ddd6b7c",
-                        "IR_RemotiveCar_FLCM_RightHighBeamLightRequest_@a7bf2eea",
-                        "IR_RemotiveCar_FLCM_RightLowBeamLightRequest_@93e6bcaf",
-                        "IR_RemotiveCar_FLCM_RightTurnLightRequest_@4e221576"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_FLCM_@2b7321be"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedFLCM_@df8e7b07"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_GWM_@eef82a7c": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_GWM_AcceleratorPedalPosition_BodyCan0_@2a9a6916",
-                        "IR_RemotiveCar_GWM_BatteryCurrent_@ebb2c106",
-                        "IR_RemotiveCar_GWM_BatteryPower_@f46000de",
-                        "IR_RemotiveCar_GWM_BatteryVoltage_@2dbee6d0",
-                        "IR_RemotiveCar_GWM_GearLeverPosition_@933b23b4",
-                        "IR_RemotiveCar_GWM_GearService_Gear_@751c043c",
-                        "IR_RemotiveCar_GWM_HVACService_LeftTemperature_@5f96de74",
-                        "IR_RemotiveCar_GWM_HVACService_RightTemperature_@29d3bd62",
-                        "IR_RemotiveCar_GWM_Heading_@5477967c",
-                        "IR_RemotiveCar_GWM_Latitude_@1392d932",
-                        "IR_RemotiveCar_GWM_LeftBrakeLightRequest_@dc3ab7af",
-                        "IR_RemotiveCar_GWM_LeftTemperature_@c12bcef2",
-                        "IR_RemotiveCar_GWM_LeftTurnLightRequest_@f51b20f9",
-                        "IR_RemotiveCar_GWM_LocationService_Heading_@cbaa4a64",
-                        "IR_RemotiveCar_GWM_LocationService_Latitude_@6cc4e354",
-                        "IR_RemotiveCar_GWM_LocationService_Longitude_@883ddd2e",
-                        "IR_RemotiveCar_GWM_Longitude_@005d6f5f",
-                        "IR_RemotiveCar_GWM_MotorSpeed_@fb0c2e63",
-                        "IR_RemotiveCar_GWM_MotorTorque_@2f00c39c",
-                        "IR_RemotiveCar_GWM_ProximityDistance_@c90eda5f",
-                        "IR_RemotiveCar_GWM_RightBrakeLightRequest_@a79d908a",
-                        "IR_RemotiveCar_GWM_RightTemperature_@235ea960",
-                        "IR_RemotiveCar_GWM_RightTurnLightRequest_@c2bdad23",
-                        "IR_RemotiveCar_GWM_SpeedService_Speed_@df37442a",
-                        "IR_RemotiveCar_GWM_StateOfCharge_@dc5a62ff",
-                        "IR_RemotiveCar_GWM_SteeringWheelPosition_@d62dfbb5",
-                        "IR_RemotiveCar_GWM_TurnlightIndicator_LeftTurnlight_@bfe4fc56",
-                        "IR_RemotiveCar_GWM_TurnlightIndicator_RightTurnlight_@dbc7995c",
-                        "IR_RemotiveCar_GWM_uispeed_@dab2b7a9"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedGWM_@003c64f6"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_HVAC_@28e77389": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_HVAC_Climate_LeftTemperature_@e943dcbe",
-                        "IR_RemotiveCar_HVAC_Climate_RightTemperature_@ab6a8aac",
-                        "IR_RemotiveCar_HVAC_LeftTemperature_@f4b5beae",
-                        "IR_RemotiveCar_HVAC_RightTemperature_@b4132edf"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_HVAC_@3df8b5a6"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedHVAC_@f2157d8c"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_IHU_@f0aeb0b6": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_IHU_GearService_Gear_@fb14937a",
-                        "IR_RemotiveCar_IHU_HVACService_LeftTemperature_@ba8645d6",
-                        "IR_RemotiveCar_IHU_HVACService_RightTemperature_@87fe4efd",
-                        "IR_RemotiveCar_IHU_LocationService_Heading_@52b825d1",
-                        "IR_RemotiveCar_IHU_LocationService_Latitude_@3b97af92",
-                        "IR_RemotiveCar_IHU_LocationService_Longitude_@a3596db8",
-                        "IR_RemotiveCar_IHU_Occupant_LeftTemperatureSetpoint_@7e91b599",
-                        "IR_RemotiveCar_IHU_Occupant_RightTemperatureSetpoint_@9b34c9d6",
-                        "IR_RemotiveCar_IHU_SpeedService_Speed_@f8886e7e",
-                        "IR_RemotiveCar_IHU_TurnlightIndicator_LeftTurnlight_@1ace6c62",
-                        "IR_RemotiveCar_IHU_TurnlightIndicator_RightTurnlight_@1e1696c8"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedIHU_@dbceb68f"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_PAM_@c0cde722": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_PAM_ProximityDistance_@3900cf7c"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_PAM_@f43434c7"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedPAM_@2143c3b3"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_PCM_@56da4058": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_PCM_MotorSpeed_@e3de58af",
-                        "IR_RemotiveCar_PCM_MotorTorque_@c5ed2550"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_PCM_@e1058956"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedPCM_@b81195e0"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_RearLight_@d65de484": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_RearLight_Lamp_RearLeftTurn_@ada01ed7",
-                        "IR_RemotiveCar_RearLight_Lamp_RearRightTurn_@c442328c",
-                        "IR_RemotiveCar_RearLight_LeftBrakeLightRequest_@b255f060",
-                        "IR_RemotiveCar_RearLight_LeftDaylightRunningLightRequest_@44953b23",
-                        "IR_RemotiveCar_RearLight_LeftLowBeamLightRequest_@bb3e76fb",
-                        "IR_RemotiveCar_RearLight_LeftTurnLightRequest_@45255387",
-                        "IR_RemotiveCar_RearLight_RightBrakeLightRequest_@8ef7add7",
-                        "IR_RemotiveCar_RearLight_RightDaylightRunningLightRequest_@ddd04d94",
-                        "IR_RemotiveCar_RearLight_RightLowBeamLightRequest_@d836a9d8",
-                        "IR_RemotiveCar_RearLight_RightTurnLightRequest_@c94961e3"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_RearLight_@f4be26c1"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedRearLight_@3b2f326e"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_SCCM_@65bf4a55": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_SCCM_AcceleratorPedalPosition_DriverCan0_@d3825f81",
-                        "IR_RemotiveCar_SCCM_BrakePedalPosition_@d8587008",
-                        "IR_RemotiveCar_SCCM_Driver_AcceleratorPedalPosition_@3c716569",
-                        "IR_RemotiveCar_SCCM_Driver_BrakePedalPosition_@de2aeeac",
-                        "IR_RemotiveCar_SCCM_Driver_GearShiftDown_@227f450e",
-                        "IR_RemotiveCar_SCCM_Driver_GearShiftUp_@67da410c",
-                        "IR_RemotiveCar_SCCM_Driver_HazardLightButton_@3e22ed33",
-                        "IR_RemotiveCar_SCCM_Driver_HighBeam_@d7a8658f",
-                        "IR_RemotiveCar_SCCM_Driver_LightMode_@234a6b84",
-                        "IR_RemotiveCar_SCCM_Driver_SteeringAngle_@36dfab48",
-                        "IR_RemotiveCar_SCCM_Driver_TurnSignal_@eae5c527",
-                        "IR_RemotiveCar_SCCM_GearShiftDown_@5c73c86a",
-                        "IR_RemotiveCar_SCCM_GearShiftUp_@3ef1d1df",
-                        "IR_RemotiveCar_SCCM_HazardLightButton_@433c0b91",
-                        "IR_RemotiveCar_SCCM_HighBeam_@7e00db49",
-                        "IR_RemotiveCar_SCCM_LightMode_@09fbc078",
-                        "IR_RemotiveCar_SCCM_SteeringAngle_@a833fe9f",
-                        "IR_RemotiveCar_SCCM_TurnSignal_@5cb7e6e1"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedSCCM_@7af32a57"
-                    ]
-                }
-            },
-            "Chosen_RemotiveCar_TCU_@db7561aa": {
-                "stereotype": "AggregationRealization",
-                "attributes": {},
-                "connections": {
-                    "intf_realization": [
-                        "IR_RemotiveCar_TCU_Heading_@5c4722ec",
-                        "IR_RemotiveCar_TCU_Latitude_@d0d7df77",
-                        "IR_RemotiveCar_TCU_Longitude_@dc24ce26"
-                    ],
-                    "realizedPlaceholder": [
-                        "RemotiveCar_TCU_@4ecdc2d7"
-                    ],
-                    "realizingIntegration": [
-                        "ImplementedTCU_@6eb04dfc"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_ABS_uispeed_@9610d3fc": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "uispeed_@eaa504df"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "ABS_uispeed_@87e4fb46"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_AcceleratorPedalPosition_BodyCan0_@80363c42": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "AcceleratorPedalPosition_BodyCan0_@49e1ce90"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_AcceleratorPedalPosition_BodyCan0_@b8aa95a6"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_AcceleratorPedalPosition_DriverCan0_@03eb5510": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "AcceleratorPedalPosition_DriverCan0_@5220b705"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_AcceleratorPedalPosition_DriverCan0_@d513f064"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_BrakePedalPosition_@4f45d499": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BrakePedalPosition_@4c6d0a5c"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_BrakePedalPosition_@735654a3"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_GearLeverPosition_@0cf5ac0c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearLeverPosition_@cb3afbf6"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_GearLeverPosition_@efa78fbe"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_GearShiftDown_@d5321387": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearShiftDown_@cd81edc2"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_GearShiftDown_@a3248ffc"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_GearShiftUp_@619201d2": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearShiftUp_@d61e5fac"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_GearShiftUp_@1753ad8a"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_HazardLightButton_@e543fcdd": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "HazardLightButton_@1012733a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_HazardLightButton_@91a6abc7"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_HighBeam_@2c850e13": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "HighBeam_@2daa4d39"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_HighBeam_@54b208a9"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_LeftBrakeLightRequest_@347b8bb7": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftBrakeLightRequest_@6553aa43"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_LeftBrakeLightRequest_@e20151e8"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_LeftDaylightRunningLightRequest_@abf6cbfa": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftDaylightRunningLightRequest_@770c7fbd"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_LeftDaylightRunningLightRequest_@ea7cb848"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_LeftHighBeamLightRequest_@e9fc559e": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftHighBeamLightRequest_@aa2b64de"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_LeftHighBeamLightRequest_@10557305"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_LeftLowBeamLightRequest_@e5640834": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftLowBeamLightRequest_@ba611459"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_LeftLowBeamLightRequest_@8ac47ade"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_LeftTurnLightRequest_@6f77dd60": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTurnLightRequest_@182bd50e"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_LeftTurnLightRequest_@49b1b8ec"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_LightMode_@d97a82fa": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LightMode_@ac62221b"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_LightMode_@19063a5e"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_RightBrakeLightRequest_@16bc8827": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightBrakeLightRequest_@398ba989"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_RightBrakeLightRequest_@7bdfa6ab"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_RightDaylightRunningLightRequest_@13ce931b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightDaylightRunningLightRequest_@83e5c5a4"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_RightDaylightRunningLightRequest_@47c8a8b3"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_RightHighBeamLightRequest_@8f0af75e": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightHighBeamLightRequest_@7876efe8"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_RightHighBeamLightRequest_@6d79f105"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_RightLowBeamLightRequest_@63a9ab55": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightLowBeamLightRequest_@9e2cee30"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_RightLowBeamLightRequest_@a50a6708"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_RightTurnLightRequest_@22f86599": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTurnLightRequest_@76f14077"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_RightTurnLightRequest_@eef418a2"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_SteeringAngle_@18533cd4": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "SteeringAngle_@b04033bc"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_SteeringAngle_@20d87944"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_SteeringWheelPosition_@635e986a": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "SteeringWheelPosition_@97728936"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_SteeringWheelPosition_@3164e7e7"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BCM_TurnSignal_@6e8dccd0": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "TurnSignal_@e1a35069"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BCM_TurnSignal_@38cf2bdc"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BMS_BatteryCurrent_@506c8c4e": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryCurrent_@5049529a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BMS_BatteryCurrent_@da477c78"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BMS_BatteryPower_@bc9ab2a0": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryPower_@3b43ac1a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BMS_BatteryPower_@21c1493e"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BMS_BatteryVoltage_@cb3f2157": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryVoltage_@73e56790"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BMS_BatteryVoltage_@8290211c"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BMS_MotorSpeed_@7a1eb54b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorSpeed_@e9793e67"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BMS_MotorSpeed_@18879993"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BMS_MotorTorque_@c2b09198": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorTorque_@98364527"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BMS_MotorTorque_@8d53870a"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_BMS_StateOfCharge_@8c1717a4": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "StateOfCharge_@2eea2586"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "BMS_StateOfCharge_@79060eb4"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_AcceleratorPedalPosition_BodyCan0_@366481e8": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "AcceleratorPedalPosition_BodyCan0_@49e1ce90"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_AcceleratorPedalPosition_BodyCan0_@e9f5e01a"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_BatteryCurrent_@d44179fc": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryCurrent_@5049529a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_BatteryCurrent_@6dea5da4"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_BatteryPower_@c23ab2a3": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryPower_@3b43ac1a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_BatteryPower_@49224b02"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_BatteryVoltage_@6fbbb968": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryVoltage_@73e56790"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_BatteryVoltage_@548f8cec"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_GearLeverPosition_@22415a88": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearLeverPosition_@cb3afbf6"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_GearLeverPosition_@470b2c25"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_LeftBrakeLightRequest_@a808640c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftBrakeLightRequest_@6553aa43"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_LeftBrakeLightRequest_@bc5974b2"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_LeftDaylightRunningLightRequest_@4c3bafc8": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftDaylightRunningLightRequest_@770c7fbd"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_LeftDaylightRunningLightRequest_@086eec58"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_LeftHighBeamLightRequest_@e19776cd": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftHighBeamLightRequest_@aa2b64de"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_LeftHighBeamLightRequest_@8c0b8b4e"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_LeftLowBeamLightRequest_@26510ab2": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftLowBeamLightRequest_@ba611459"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_LeftLowBeamLightRequest_@6fdd12c6"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_LeftTurnLightRequest_@d2d65e56": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTurnLightRequest_@182bd50e"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_LeftTurnLightRequest_@44e0e975"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_MotorSpeed_@8cca0895": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorSpeed_@e9793e67"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_MotorSpeed_@a63ed7c2"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_MotorTorque_@44d272aa": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorTorque_@98364527"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_MotorTorque_@2f1a2643"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_ProximityDistance_@9bc1840b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "ProximityDistance_@758b58b3"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_ProximityDistance_@23c01663"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_RightBrakeLightRequest_@104663bb": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightBrakeLightRequest_@398ba989"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_RightBrakeLightRequest_@9644d44d"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_RightDaylightRunningLightRequest_@24e3d63d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightDaylightRunningLightRequest_@83e5c5a4"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_RightDaylightRunningLightRequest_@fa5bcfb2"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_RightHighBeamLightRequest_@5d18697b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightHighBeamLightRequest_@7876efe8"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_RightHighBeamLightRequest_@52e6ffed"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_RightLowBeamLightRequest_@17e3be72": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightLowBeamLightRequest_@9e2cee30"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_RightLowBeamLightRequest_@652c4766"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_RightTurnLightRequest_@0dee17ba": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTurnLightRequest_@76f14077"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_RightTurnLightRequest_@578475b9"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_StateOfCharge_@5fd1a647": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "StateOfCharge_@2eea2586"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_StateOfCharge_@30f5b8cc"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_DIM_SteeringWheelPosition_@5fec429f": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "SteeringWheelPosition_@97728936"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "DIM_SteeringWheelPosition_@eff8e2d9"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontLeftDaylightRunning_@1647f3e8": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontLeftDaylightRunning_Delegation_@f378125e"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontLeftDaylightRunning_@fb426aeb"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontLeftHighBeam_@9b3cb60b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontLeftHighBeam_Delegation_@9dbd8079"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontLeftHighBeam_@9b210ea7"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontLeftLowBeam_@ed97a476": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontLeftLowBeam_Delegation_@d8dd280b"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontLeftLowBeam_@46bb36b6"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontLeftTurn_@661e701d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontLeftTurn_Delegation_@96c1d265"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontLeftTurn_@98048f25"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontRightDaylightRunning_@e2747464": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontRightDaylightRunning_Delegation_@4f723cad"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontRightDaylightRunning_@3da348bd"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontRightHighBeam_@b3f6fb8d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontRightHighBeam_Delegation_@01843a42"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontRightHighBeam_@764f8a29"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontRightLowBeam_@ddec5e6b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontRightLowBeam_Delegation_@31017f91"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontRightLowBeam_@0b78878a"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_Lamp_FrontRightTurn_@99087e13": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_FrontRightTurn_Delegation_@2a5f92b9"
-                    ],
-                    "realizingInterface": [
-                        "FLCM_Lamp_FrontRightTurn_@985fb768"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_LeftDaylightRunningLightRequest_@dc4041e3": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftDaylightRunningLightRequest_@770c7fbd"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_LeftDaylightRunningLightRequest_@296d5759"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_LeftHighBeamLightRequest_@890b55f5": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftHighBeamLightRequest_@aa2b64de"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_LeftHighBeamLightRequest_@13723da5"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_LeftLowBeamLightRequest_@b923850b": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftLowBeamLightRequest_@ba611459"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_LeftLowBeamLightRequest_@2c0f1ec5"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_LeftTurnLightRequest_@766cc192": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTurnLightRequest_@182bd50e"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_LeftTurnLightRequest_@f7c00f98"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_RightDaylightRunningLightRequest_@7ddd6b7c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightDaylightRunningLightRequest_@83e5c5a4"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_RightDaylightRunningLightRequest_@cab8f839"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_RightHighBeamLightRequest_@a7bf2eea": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightHighBeamLightRequest_@7876efe8"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_RightHighBeamLightRequest_@594e0d1f"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_RightLowBeamLightRequest_@93e6bcaf": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightLowBeamLightRequest_@9e2cee30"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_RightLowBeamLightRequest_@81936989"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_FLCM_RightTurnLightRequest_@4e221576": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTurnLightRequest_@76f14077"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "FLCM_RightTurnLightRequest_@6f600057"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_AcceleratorPedalPosition_BodyCan0_@2a9a6916": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "AcceleratorPedalPosition_BodyCan0_@49e1ce90"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_AcceleratorPedalPosition_BodyCan0_@e2e25c8d"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_BatteryCurrent_@ebb2c106": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryCurrent_@5049529a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_BatteryCurrent_@77d0e511"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_BatteryPower_@f46000de": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryPower_@3b43ac1a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_BatteryPower_@859bb940"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_BatteryVoltage_@2dbee6d0": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BatteryVoltage_@73e56790"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_BatteryVoltage_@81c89032"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_GearLeverPosition_@933b23b4": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearLeverPosition_@cb3afbf6"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_GearLeverPosition_@d3db0911"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_GearService_Gear_@751c043c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearService_Gear_@f1984807"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_GearService_Gear_@6f1385d9"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_HVACService_LeftTemperature_@5f96de74": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "HVACService_LeftTemperature_@801aef78"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_HVACService_LeftTemperature_@5a51c17e"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_HVACService_RightTemperature_@29d3bd62": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "HVACService_RightTemperature_@c1139434"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_HVACService_RightTemperature_@c64a2f4d"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_Heading_@5477967c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "Heading_@43d51efd"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_Heading_@8c75a69c"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_Latitude_@1392d932": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "Latitude_@af8a79fb"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_Latitude_@2d0562a6"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_LeftBrakeLightRequest_@dc3ab7af": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftBrakeLightRequest_@6553aa43"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_LeftBrakeLightRequest_@fb24fb4a"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_LeftTemperature_@c12bcef2": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTemperature_@a5c08ee5"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_LeftTemperature_@522c4f01"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_LeftTurnLightRequest_@f51b20f9": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTurnLightRequest_@182bd50e"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_LeftTurnLightRequest_@6ea98900"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_LocationService_Heading_@cbaa4a64": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LocationService_Heading_@e1c4ac9d"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_LocationService_Heading_@857155df"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_LocationService_Latitude_@6cc4e354": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LocationService_Latitude_@036938ea"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_LocationService_Latitude_@df16f6f0"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_LocationService_Longitude_@883ddd2e": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LocationService_Longitude_@6dd8d80b"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_LocationService_Longitude_@92786f4b"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_Longitude_@005d6f5f": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "Longitude_@7225df5c"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_Longitude_@9ebbbca9"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_MotorSpeed_@fb0c2e63": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorSpeed_@e9793e67"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_MotorSpeed_@a1a8dfe1"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_MotorTorque_@2f00c39c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorTorque_@98364527"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_MotorTorque_@1c891178"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_ProximityDistance_@c90eda5f": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "ProximityDistance_@758b58b3"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_ProximityDistance_@261c6c2b"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_RightBrakeLightRequest_@a79d908a": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightBrakeLightRequest_@398ba989"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_RightBrakeLightRequest_@a881e5a4"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_RightTemperature_@235ea960": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTemperature_@1308bf0f"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_RightTemperature_@27d5c240"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_RightTurnLightRequest_@c2bdad23": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTurnLightRequest_@76f14077"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_RightTurnLightRequest_@f142858d"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_SpeedService_Speed_@df37442a": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "SpeedService_Speed_@ee8f13af"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_SpeedService_Speed_@7db50e95"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_StateOfCharge_@dc5a62ff": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "StateOfCharge_@2eea2586"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_StateOfCharge_@5e3a3208"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_SteeringWheelPosition_@d62dfbb5": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "SteeringWheelPosition_@97728936"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_SteeringWheelPosition_@87f761a7"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_TurnlightIndicator_LeftTurnlight_@bfe4fc56": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "TurnlightIndicator_LeftTurnlight_@c40870c6"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_TurnlightIndicator_LeftTurnlight_@f2652724"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_TurnlightIndicator_RightTurnlight_@dbc7995c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "TurnlightIndicator_RightTurnlight_@6862089a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_TurnlightIndicator_RightTurnlight_@58c2a696"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_GWM_uispeed_@dab2b7a9": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "uispeed_@eaa504df"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "GWM_uispeed_@20f23b24"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_HVAC_Climate_LeftTemperature_@e943dcbe": {
+            "IR_RemotiveCar_ClimateControl_Climate_LeftTemperature_@8e924bf7": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -1581,11 +133,11 @@
                         "Climate_LeftTemperature_Delegation_@e3bc7fa2"
                     ],
                     "realizingInterface": [
-                        "HVAC_Climate_LeftTemperature_@ed6889f7"
+                        "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
                     ]
                 }
             },
-            "IR_RemotiveCar_HVAC_Climate_RightTemperature_@ab6a8aac": {
+            "IR_RemotiveCar_ClimateControl_Climate_RightTemperature_@6e86caa4": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -1594,115 +146,11 @@
                         "Climate_RightTemperature_Delegation_@e65a5606"
                     ],
                     "realizingInterface": [
-                        "HVAC_Climate_RightTemperature_@0315a474"
+                        "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
                     ]
                 }
             },
-            "IR_RemotiveCar_HVAC_LeftTemperature_@f4b5beae": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTemperature_@a5c08ee5"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "HVAC_LeftTemperature_@f84d665e"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_HVAC_RightTemperature_@b4132edf": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTemperature_@1308bf0f"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "HVAC_RightTemperature_@8fb5e3dd"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_GearService_Gear_@fb14937a": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "GearService_Gear_@f1984807"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_GearService_Gear_@2c238124"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_HVACService_LeftTemperature_@ba8645d6": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "HVACService_LeftTemperature_@801aef78"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_HVACService_LeftTemperature_@5382b1eb"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_HVACService_RightTemperature_@87fe4efd": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "HVACService_RightTemperature_@c1139434"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_HVACService_RightTemperature_@bccb0758"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_LocationService_Heading_@52b825d1": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LocationService_Heading_@e1c4ac9d"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_LocationService_Heading_@17750e39"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_LocationService_Latitude_@3b97af92": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LocationService_Latitude_@036938ea"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_LocationService_Latitude_@db67278d"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_LocationService_Longitude_@a3596db8": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LocationService_Longitude_@6dd8d80b"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_LocationService_Longitude_@43f2f390"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_Occupant_LeftTemperatureSetpoint_@7e91b599": {
+            "IR_RemotiveCar_ClimateControl_Occupant_LeftTemperatureSetpoint_@68ae6fdc": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -1711,11 +159,11 @@
                         "Occupant_LeftTemperatureSetpoint_Delegation_@c4256d98"
                     ],
                     "realizingInterface": [
-                        "IHU_Occupant_LeftTemperatureSetpoint_@5ba4abe8"
+                        "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d"
                     ]
                 }
             },
-            "IR_RemotiveCar_IHU_Occupant_RightTemperatureSetpoint_@9b34c9d6": {
+            "IR_RemotiveCar_ClimateControl_Occupant_RightTemperatureSetpoint_@30cbf98c": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -1724,245 +172,24 @@
                         "Occupant_RightTemperatureSetpoint_Delegation_@3a79963d"
                     ],
                     "realizingInterface": [
-                        "IHU_Occupant_RightTemperatureSetpoint_@9ee305fb"
+                        "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
                     ]
                 }
             },
-            "IR_RemotiveCar_IHU_SpeedService_Speed_@f8886e7e": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "SpeedService_Speed_@ee8f13af"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_SpeedService_Speed_@b55d48ec"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_TurnlightIndicator_LeftTurnlight_@1ace6c62": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "TurnlightIndicator_LeftTurnlight_@c40870c6"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_TurnlightIndicator_LeftTurnlight_@80764c42"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_IHU_TurnlightIndicator_RightTurnlight_@1e1696c8": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "TurnlightIndicator_RightTurnlight_@6862089a"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "IHU_TurnlightIndicator_RightTurnlight_@9f90cd91"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_PAM_ProximityDistance_@3900cf7c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "ProximityDistance_@758b58b3"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "PAM_ProximityDistance_@650790f0"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_PCM_MotorSpeed_@e3de58af": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorSpeed_@e9793e67"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "PCM_MotorSpeed_@995fd522"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_PCM_MotorTorque_@c5ed2550": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "MotorTorque_@98364527"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "PCM_MotorTorque_@a3e552ee"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_Lamp_RearLeftTurn_@ada01ed7": {
+            "IR_RemotiveCar_DriverControls_Cluster_GearLeverPosition_@dbbb7757": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [],
                     "realized_intf_Delegation": [
-                        "Lamp_RearLeftTurn_Delegation_@54debd77"
+                        "Cluster_GearLeverPosition_Delegation_@947e9fc6"
                     ],
                     "realizingInterface": [
-                        "RearLight_Lamp_RearLeftTurn_@08944bb4"
+                        "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
                     ]
                 }
             },
-            "IR_RemotiveCar_RearLight_Lamp_RearRightTurn_@c442328c": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Lamp_RearRightTurn_Delegation_@75affd63"
-                    ],
-                    "realizingInterface": [
-                        "RearLight_Lamp_RearRightTurn_@3fe88586"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_LeftBrakeLightRequest_@b255f060": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftBrakeLightRequest_@6553aa43"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_LeftBrakeLightRequest_@f1a73c7f"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_LeftDaylightRunningLightRequest_@44953b23": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftDaylightRunningLightRequest_@770c7fbd"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_LeftLowBeamLightRequest_@bb3e76fb": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftLowBeamLightRequest_@ba611459"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_LeftLowBeamLightRequest_@3ddde5b2"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_LeftTurnLightRequest_@45255387": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "LeftTurnLightRequest_@182bd50e"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_LeftTurnLightRequest_@a0da91cd"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_RightBrakeLightRequest_@8ef7add7": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightBrakeLightRequest_@398ba989"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_RightBrakeLightRequest_@5a47d610"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_RightDaylightRunningLightRequest_@ddd04d94": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightDaylightRunningLightRequest_@83e5c5a4"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_RightDaylightRunningLightRequest_@6c064b7f"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_RightLowBeamLightRequest_@d836a9d8": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightLowBeamLightRequest_@9e2cee30"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_RightLowBeamLightRequest_@936ab4ab"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_RearLight_RightTurnLightRequest_@c94961e3": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "RightTurnLightRequest_@76f14077"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "RearLight_RightTurnLightRequest_@c084efef"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_AcceleratorPedalPosition_DriverCan0_@d3825f81": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "AcceleratorPedalPosition_DriverCan0_@5220b705"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "SCCM_AcceleratorPedalPosition_DriverCan0_@fe1baf1c"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_BrakePedalPosition_@d8587008": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [
-                        "BrakePedalPosition_@4c6d0a5c"
-                    ],
-                    "realized_intf_Delegation": [],
-                    "realizingInterface": [
-                        "SCCM_BrakePedalPosition_@97266ee6"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_Driver_AcceleratorPedalPosition_@3c716569": {
+            "IR_RemotiveCar_DriverControls_Driver_AcceleratorPedalPosition_@d0a92879": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -1971,24 +198,11 @@
                         "Driver_AcceleratorPedalPosition_Delegation_@135af118"
                     ],
                     "realizingInterface": [
-                        "SCCM_Driver_AcceleratorPedalPosition_@2b31826f"
+                        "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_Driver_BrakePedalPosition_@de2aeeac": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Driver_BrakePedalPosition_Delegation_@b1788944"
-                    ],
-                    "realizingInterface": [
-                        "SCCM_Driver_BrakePedalPosition_@43ea6cee"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_Driver_GearShiftDown_@227f450e": {
+            "IR_RemotiveCar_DriverControls_Driver_GearShiftDown_@78d6683b": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -1997,11 +211,11 @@
                         "Driver_GearShiftDown_Delegation_@bc088534"
                     ],
                     "realizingInterface": [
-                        "SCCM_Driver_GearShiftDown_@9f8ec591"
+                        "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_Driver_GearShiftUp_@67da410c": {
+            "IR_RemotiveCar_DriverControls_Driver_GearShiftUp_@f1ac444b": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -2010,50 +224,11 @@
                         "Driver_GearShiftUp_Delegation_@835b0bf3"
                     ],
                     "realizingInterface": [
-                        "SCCM_Driver_GearShiftUp_@6e7941f8"
+                        "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_Driver_HazardLightButton_@3e22ed33": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Driver_HazardLightButton_Delegation_@63507fe0"
-                    ],
-                    "realizingInterface": [
-                        "SCCM_Driver_HazardLightButton_@ae295585"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_Driver_HighBeam_@d7a8658f": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Driver_HighBeam_Delegation_@55b5e64f"
-                    ],
-                    "realizingInterface": [
-                        "SCCM_Driver_HighBeam_@744d02c7"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_Driver_LightMode_@234a6b84": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "Driver_LightMode_Delegation_@df71157c"
-                    ],
-                    "realizingInterface": [
-                        "SCCM_Driver_LightMode_@6f2d6908"
-                    ]
-                }
-            },
-            "IR_RemotiveCar_SCCM_Driver_SteeringAngle_@36dfab48": {
+            "IR_RemotiveCar_DriverControls_Driver_SteeringAngle_@199874af": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -2062,11 +237,76 @@
                         "Driver_SteeringAngle_Delegation_@d37639e2"
                     ],
                     "realizingInterface": [
-                        "SCCM_Driver_SteeringAngle_@87c904af"
+                        "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_Driver_TurnSignal_@eae5c527": {
+            "IR_RemotiveCar_DriverControls_Infotainment_Gear_@107ddab8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Infotainment_Gear_Delegation_@d6cf0b9e"
+                    ],
+                    "realizingInterface": [
+                        "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Driver_BrakePedalPosition_@df4afae5": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Driver_BrakePedalPosition_Delegation_@b1788944"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Driver_BrakePedalPosition_@7b0c9774"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Driver_HazardLightButton_@cc67f73d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Driver_HazardLightButton_Delegation_@63507fe0"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Driver_HazardLightButton_@0e45a209"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Driver_HighBeam_@cb330480": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Driver_HighBeam_Delegation_@55b5e64f"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Driver_HighBeam_@e254bc33"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Driver_LightMode_@df994098": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Driver_LightMode_Delegation_@df71157c"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Driver_LightMode_@07173606"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Driver_TurnSignal_@c15aa5bd": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
@@ -2075,137 +315,488 @@
                         "Driver_TurnSignal_Delegation_@735b03cb"
                     ],
                     "realizingInterface": [
-                        "SCCM_Driver_TurnSignal_@eec6e217"
+                        "ExteriorLightingDesign_Driver_TurnSignal_@57ed074a"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_GearShiftDown_@5c73c86a": {
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftDaylightRunning_@dab3287e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontLeftDaylightRunning_Delegation_@f378125e"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_@dd464c81"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftHighBeam_@3c199c57": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontLeftHighBeam_Delegation_@9dbd8079"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_@d8127a67"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftLowBeam_@954e4b04": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontLeftLowBeam_Delegation_@d8dd280b"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_@f762e172"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontLeftTurn_@8a520d2c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontLeftTurn_Delegation_@96c1d265"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftTurn_@7c639c49"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightDaylightRunning_@cf55c097": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontRightDaylightRunning_Delegation_@4f723cad"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontRightDaylightRunning_@29d4642c"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightHighBeam_@205c09db": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontRightHighBeam_Delegation_@01843a42"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontRightHighBeam_@b193cd96"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightLowBeam_@1ba19baf": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontRightLowBeam_Delegation_@31017f91"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontRightLowBeam_@af796aae"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_FrontRightTurn_@7ddfce23": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_FrontRightTurn_Delegation_@2a5f92b9"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_FrontRightTurn_@f8ef29c1"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_RearLeftTurn_@1fd0c4d4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_RearLeftTurn_Delegation_@54debd77"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_RearLeftTurn_@e8b44d4c"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_Lamp_RearRightTurn_@a8275104": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Lamp_RearRightTurn_Delegation_@75affd63"
+                    ],
+                    "realizingInterface": [
+                        "ExteriorLightingDesign_Lamp_RearRightTurn_@aea9f317"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_ExteriorLighting_LeftBrakeLightRequest_@2c0f449a": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "GearShiftDown_@cd81edc2"
+                        "RemotiveCar_LeftBrakeLightRequest_Assembly_@b77543c0"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_GearShiftDown_@3ee3be12"
+                        "ExteriorLightingDesign_LeftBrakeLightRequest_@359c63ea"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_GearShiftUp_@3ef1d1df": {
+            "IR_RemotiveCar_ExteriorLighting_LeftDaylightRunningLightRequest_@b37c5f7a": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "GearShiftUp_@d61e5fac"
+                        "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@52777700"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_GearShiftUp_@8a1e59db"
+                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_@264621a3"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_HazardLightButton_@433c0b91": {
+            "IR_RemotiveCar_ExteriorLighting_LeftHighBeamLightRequest_@25c25202": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "HazardLightButton_@1012733a"
+                        "RemotiveCar_LeftHighBeamLightRequest_Assembly_@a4f4e9d7"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_HazardLightButton_@d9bafc42"
+                        "ExteriorLightingDesign_LeftHighBeamLightRequest_@4e16362c"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_HighBeam_@7e00db49": {
+            "IR_RemotiveCar_ExteriorLighting_LeftLowBeamLightRequest_@ef748261": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "HighBeam_@2daa4d39"
+                        "RemotiveCar_LeftLowBeamLightRequest_Assembly_@9f3cf949"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_HighBeam_@204ce41a"
+                        "ExteriorLightingDesign_LeftLowBeamLightRequest_@b94787ef"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_LightMode_@09fbc078": {
+            "IR_RemotiveCar_ExteriorLighting_LeftTurnLightRequest_@856e0f82": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "LightMode_@ac62221b"
+                        "RemotiveCar_LeftTurnLightRequest_Assembly_@259ed8c5"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_LightMode_@c081ed9a"
+                        "ExteriorLightingDesign_LeftTurnLightRequest_@732687e6"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_SteeringAngle_@a833fe9f": {
+            "IR_RemotiveCar_ExteriorLighting_RightBrakeLightRequest_@fdcde149": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "SteeringAngle_@b04033bc"
+                        "RemotiveCar_RightBrakeLightRequest_Assembly_@b02a91fd"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_SteeringAngle_@d386c9c5"
+                        "ExteriorLightingDesign_RightBrakeLightRequest_@61b4fb5d"
                     ]
                 }
             },
-            "IR_RemotiveCar_SCCM_TurnSignal_@5cb7e6e1": {
+            "IR_RemotiveCar_ExteriorLighting_RightDaylightRunningLightRequest_@572c67c6": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "TurnSignal_@e1a35069"
+                        "RemotiveCar_RightDaylightRunningLightRequest_Assembly_@6f88e21c"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "SCCM_TurnSignal_@85d8edfe"
+                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_@f9b388ab"
                     ]
                 }
             },
-            "IR_RemotiveCar_TCU_Heading_@5c4722ec": {
+            "IR_RemotiveCar_ExteriorLighting_RightHighBeamLightRequest_@16f8f83b": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "Heading_@43d51efd"
+                        "RemotiveCar_RightHighBeamLightRequest_Assembly_@2025c576"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "TCU_Heading_@5acc5468"
+                        "ExteriorLightingDesign_RightHighBeamLightRequest_@c3016c73"
                     ]
                 }
             },
-            "IR_RemotiveCar_TCU_Latitude_@d0d7df77": {
+            "IR_RemotiveCar_ExteriorLighting_RightLowBeamLightRequest_@4700df66": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "Latitude_@af8a79fb"
+                        "RemotiveCar_RightLowBeamLightRequest_Assembly_@7ae9661c"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "TCU_Latitude_@411dbb61"
+                        "ExteriorLightingDesign_RightLowBeamLightRequest_@0efbfc31"
                     ]
                 }
             },
-            "IR_RemotiveCar_TCU_Longitude_@dc24ce26": {
+            "IR_RemotiveCar_ExteriorLighting_RightTurnLightRequest_@0bad2494": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
                 "connections": {
                     "realized_intf_Assembly": [
-                        "Longitude_@7225df5c"
+                        "RemotiveCar_RightTurnLightRequest_Assembly_@26183d5e"
                     ],
                     "realized_intf_Delegation": [],
                     "realizingInterface": [
-                        "TCU_Longitude_@b6cda0e6"
+                        "ExteriorLightingDesign_RightTurnLightRequest_@7710fd9a"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Cluster_LeftTurnTelltale_@e415462d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Cluster_LeftTurnTelltale_Delegation_@b2da985f"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Cluster_ProximityDistance_@ad7aff1b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Cluster_ProximityDistance_Delegation_@3b47da58"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Cluster_RightTurnTelltale_@23436e69": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Cluster_RightTurnTelltale_Delegation_@5d2172e5"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Cluster_StateOfCharge_@6ebf115c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Cluster_StateOfCharge_Delegation_@db35b2b8"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Infotainment_LeftTurnIndicator_@45ebe0f4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Infotainment_LeftTurnIndicator_Delegation_@686610dc"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Infotainment_RightTurnIndicator_@99546fbd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Infotainment_RightTurnIndicator_Delegation_@6571ea8d"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_Infotainment_VehicleSpeed_@12f99eef": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "Infotainment_VehicleSpeed_Delegation_@af950842"
+                    ],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_LeftBrakeLightRequest_@2472e0a1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_LeftBrakeLightRequest_Assembly_@b77543c0"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_LeftDaylightRunningLightRequest_@0e4ecdcf": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@52777700"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_LeftHighBeamLightRequest_@e6fdbde7": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_LeftHighBeamLightRequest_Assembly_@a4f4e9d7"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_LeftLowBeamLightRequest_@a1b9f273": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_LeftLowBeamLightRequest_Assembly_@9f3cf949"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_LeftTurnLightRequest_@bd2cabec": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_LeftTurnLightRequest_Assembly_@259ed8c5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_LeftTurnLightRequest_@10a72725"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_RightBrakeLightRequest_@a7f7c6dd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_RightBrakeLightRequest_Assembly_@b02a91fd"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_RightDaylightRunningLightRequest_@76d5db62": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_RightDaylightRunningLightRequest_Assembly_@6f88e21c"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_RightHighBeamLightRequest_@6a10256c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_RightHighBeamLightRequest_Assembly_@2025c576"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_RightLowBeamLightRequest_@85223b78": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_RightLowBeamLightRequest_Assembly_@7ae9661c"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1"
+                    ]
+                }
+            },
+            "IR_RemotiveCar_VehicleInformation_RightTurnLightRequest_@2df6f66b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "RemotiveCar_RightTurnLightRequest_Assembly_@26183d5e"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleInformationDesign_RightTurnLightRequest_@f952c26a"
                     ]
                 }
             }

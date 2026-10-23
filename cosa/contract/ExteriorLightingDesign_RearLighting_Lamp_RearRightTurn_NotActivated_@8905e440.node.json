@@ -1,0 +1,23 @@
+{
+    "ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_NotActivated_@8905e440": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ExteriorLightingDesign_RightTurnLightRequest_Assembly_NotActivated_@002cfb9e"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ExteriorLightingDesign_Lamp_RearRightTurn_NotActivated_@9cf209d3"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_NotActivated_@8905e440",
+            "description": [
+                "Derived, not in the specification: Inside the exterior lighting design, rear lighting lights the rear right turn lamp from RightTurnLightRequest."
+            ],
+            "name": "ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

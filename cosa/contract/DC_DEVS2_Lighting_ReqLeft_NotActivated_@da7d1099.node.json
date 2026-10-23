@@ -1,0 +1,27 @@
+{
+    "DC_DEVS2_Lighting_ReqLeft_NotActivated_@da7d1099": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "DEVS2_Lighting_ReqLeft_@c76f03ce"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DEVS2_Lighting_ReqLeft_NotActivated_@da7d1099",
+            "description": [
+                "Critical: DEVS2_Lighting_ReqLeft stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_DEVS2_Lighting_ReqLeft_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

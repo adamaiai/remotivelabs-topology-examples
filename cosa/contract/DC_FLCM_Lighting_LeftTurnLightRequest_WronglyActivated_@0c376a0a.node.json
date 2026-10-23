@@ -1,0 +1,27 @@
+{
+    "DC_FLCM_Lighting_LeftTurnLightRequest_WronglyActivated_@0c376a0a": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "FLCM_Lighting_LeftTurnLightRequest_@0ec06099"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_FLCM_Lighting_LeftTurnLightRequest_WronglyActivated_@0c376a0a",
+            "description": [
+                "Critical: FLCM_Lighting_LeftTurnLightRequest is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_FLCM_Lighting_LeftTurnLightRequest_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

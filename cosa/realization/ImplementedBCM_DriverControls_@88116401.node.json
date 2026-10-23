@@ -1,0 +1,23 @@
+{
+    "ImplementedBCM_DriverControls_@88116401": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "38dcb1f3baa8e201fe0ef6d7d527cac6aca2fc38",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/bcm/python/bcm"
+        },
+        "connections": {
+            "realizedModel": [
+                "BCM_DriverControls_@5264efe8"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedBCM_DriverControls_@88116401",
+            "description": [
+                "Implementation: Python behavioral model; the BCM implementation serves all of its software components."
+            ],
+            "name": "ImplementedBCM_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

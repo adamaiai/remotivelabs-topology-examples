@@ -4,69 +4,31 @@
         "attributes": {},
         "connections": {
             "assemblyInterface": [
-                "AcceleratorPedalPosition_BodyCan0_@49e1ce90",
-                "AcceleratorPedalPosition_DriverCan0_@5220b705",
-                "BatteryCurrent_@5049529a",
-                "BatteryPower_@3b43ac1a",
-                "BatteryVoltage_@73e56790",
-                "BrakePedalPosition_@4c6d0a5c",
-                "GearLeverPosition_@cb3afbf6",
-                "GearService_Gear_@f1984807",
-                "GearShiftDown_@cd81edc2",
-                "GearShiftUp_@d61e5fac",
-                "HVACService_LeftTemperature_@801aef78",
-                "HVACService_RightTemperature_@c1139434",
-                "HazardLightButton_@1012733a",
-                "Heading_@43d51efd",
-                "HighBeam_@2daa4d39",
-                "Latitude_@af8a79fb",
-                "LeftBrakeLightRequest_@6553aa43",
-                "LeftDaylightRunningLightRequest_@770c7fbd",
-                "LeftHighBeamLightRequest_@aa2b64de",
-                "LeftLowBeamLightRequest_@ba611459",
-                "LeftTemperature_@a5c08ee5",
-                "LeftTurnLightRequest_@182bd50e",
-                "LightMode_@ac62221b",
-                "LocationService_Heading_@e1c4ac9d",
-                "LocationService_Latitude_@036938ea",
-                "LocationService_Longitude_@6dd8d80b",
-                "Longitude_@7225df5c",
-                "MotorSpeed_@e9793e67",
-                "MotorTorque_@98364527",
-                "ProximityDistance_@758b58b3",
-                "RightBrakeLightRequest_@398ba989",
-                "RightDaylightRunningLightRequest_@83e5c5a4",
-                "RightHighBeamLightRequest_@7876efe8",
-                "RightLowBeamLightRequest_@9e2cee30",
-                "RightTemperature_@1308bf0f",
-                "RightTurnLightRequest_@76f14077",
-                "SpeedService_Speed_@ee8f13af",
-                "StateOfCharge_@2eea2586",
-                "SteeringAngle_@b04033bc",
-                "SteeringWheelPosition_@97728936",
-                "TurnSignal_@e1a35069",
-                "TurnlightIndicator_LeftTurnlight_@c40870c6",
-                "TurnlightIndicator_RightTurnlight_@6862089a",
-                "uispeed_@eaa504df"
+                "RemotiveCar_LeftBrakeLightRequest_Assembly_@b77543c0",
+                "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@52777700",
+                "RemotiveCar_LeftHighBeamLightRequest_Assembly_@a4f4e9d7",
+                "RemotiveCar_LeftLowBeamLightRequest_Assembly_@9f3cf949",
+                "RemotiveCar_LeftTurnLightRequest_Assembly_@259ed8c5",
+                "RemotiveCar_RightBrakeLightRequest_Assembly_@b02a91fd",
+                "RemotiveCar_RightDaylightRunningLightRequest_Assembly_@6f88e21c",
+                "RemotiveCar_RightHighBeamLightRequest_Assembly_@2025c576",
+                "RemotiveCar_RightLowBeamLightRequest_Assembly_@7ae9661c",
+                "RemotiveCar_RightTurnLightRequest_Assembly_@26183d5e"
             ],
             "buildingBlock": [
-                "RemotiveCar_ABS_@85f8bb10",
-                "RemotiveCar_BCM_@f14441bb",
-                "RemotiveCar_BMS_@f01577b7",
-                "RemotiveCar_DIM_@7dfbea58",
-                "RemotiveCar_FLCM_@2b7321be",
-                "RemotiveCar_GWM_@cdaa90d3",
-                "RemotiveCar_HVAC_@3df8b5a6",
-                "RemotiveCar_IHU_@7692ea93",
-                "RemotiveCar_PAM_@f43434c7",
-                "RemotiveCar_PCM_@e1058956",
-                "RemotiveCar_RearLight_@f4be26c1",
-                "RemotiveCar_SCCM_@29a4be82",
-                "RemotiveCar_TCU_@4ecdc2d7"
+                "RemotiveCar_ClimateControl_@b63f3305",
+                "RemotiveCar_DriverControls_@7fd705f5",
+                "RemotiveCar_ExteriorLighting_@b2cfef09",
+                "RemotiveCar_VehicleInformation_@6832e3fc"
             ],
             "delegationInterface": [
                 "Climate_LeftTemperature_Delegation_@e3bc7fa2",
                 "Climate_RightTemperature_Delegation_@e65a5606",
+                "Cluster_GearLeverPosition_Delegation_@947e9fc6",
+                "Cluster_LeftTurnTelltale_Delegation_@b2da985f",
+                "Cluster_ProximityDistance_Delegation_@3b47da58",
+                "Cluster_RightTurnTelltale_Delegation_@5d2172e5",
+                "Cluster_StateOfCharge_Delegation_@db35b2b8",
                 "Driver_AcceleratorPedalPosition_Delegation_@135af118",
                 "Driver_BrakePedalPosition_Delegation_@b1788944",
                 "Driver_GearShiftDown_Delegation_@bc088534",
@@ -76,6 +38,10 @@
                 "Driver_LightMode_Delegation_@df71157c",
                 "Driver_SteeringAngle_Delegation_@d37639e2",
                 "Driver_TurnSignal_Delegation_@735b03cb",
+                "Infotainment_Gear_Delegation_@d6cf0b9e",
+                "Infotainment_LeftTurnIndicator_Delegation_@686610dc",
+                "Infotainment_RightTurnIndicator_Delegation_@6571ea8d",
+                "Infotainment_VehicleSpeed_Delegation_@af950842",
                 "Lamp_FrontLeftDaylightRunning_Delegation_@f378125e",
                 "Lamp_FrontLeftHighBeam_Delegation_@9dbd8079",
                 "Lamp_FrontLeftLowBeam_Delegation_@d8dd280b",
@@ -92,6 +58,11 @@
             "externalInterface": [
                 "Climate_LeftTemperature_@f0794383",
                 "Climate_RightTemperature_@01438e4e",
+                "Cluster_GearLeverPosition_@e2922e50",
+                "Cluster_LeftTurnTelltale_@ffb88a10",
+                "Cluster_ProximityDistance_@6021b4cd",
+                "Cluster_RightTurnTelltale_@ed543a1b",
+                "Cluster_StateOfCharge_@c5d997a4",
                 "Driver_AcceleratorPedalPosition_@7ea19638",
                 "Driver_BrakePedalPosition_@e8688df6",
                 "Driver_GearShiftDown_@6e10a4b7",
@@ -101,6 +72,10 @@
                 "Driver_LightMode_@8c87721f",
                 "Driver_SteeringAngle_@4c1587d3",
                 "Driver_TurnSignal_@fefdcfb7",
+                "Infotainment_Gear_@cb924990",
+                "Infotainment_LeftTurnIndicator_@700d321a",
+                "Infotainment_RightTurnIndicator_@d6b38ca8",
+                "Infotainment_VehicleSpeed_@87ace52f",
                 "Lamp_FrontLeftDaylightRunning_@2de4ab90",
                 "Lamp_FrontLeftHighBeam_@aa15284b",
                 "Lamp_FrontLeftLowBeam_@e033c4cd",
@@ -116,244 +91,6 @@
             ]
         },
         "aggregations": {
-            "AcceleratorPedalPosition_BodyCan0_@49e1ce90": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "AcceleratorPedalPosition_BodyCan0_CommNeed_@0c032baf"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 AcceleratorPedalInfo (id 107, 50 ms). Sent by BCM, received by DIM, GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "AcceleratorPedalPosition_BodyCan0_CommNeed_@0c032baf": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth AcceleratorPedalPosition_BodyCan0 needs on BodyCan0."
-                    ]
-                }
-            },
-            "AcceleratorPedalPosition_DriverCan0_@5220b705": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "AcceleratorPedalPosition_DriverCan0_CommNeed_@9f653c3b"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 AcceleratorPedalPositionSensor (id 105, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "AcceleratorPedalPosition_DriverCan0_CommNeed_@9f653c3b": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth AcceleratorPedalPosition_DriverCan0 needs on DriverCan0."
-                    ]
-                }
-            },
-            "BatteryCurrent_@5049529a": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "A"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "BatteryCurrent_CommNeed_@5a08fd9b"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BMS_@f01577b7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "BatteryCurrent_CommNeed_@5a08fd9b": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth BatteryCurrent needs on ChassisCan0."
-                    ]
-                }
-            },
-            "BatteryPower_@3b43ac1a": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "kW"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "BatteryPower_CommNeed_@f3ea3633"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BMS_@f01577b7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "BatteryPower_CommNeed_@f3ea3633": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth BatteryPower needs on ChassisCan0."
-                    ]
-                }
-            },
-            "BatteryVoltage_@73e56790": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "V"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "BatteryVoltage_CommNeed_@827a8df3"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BMS_@f01577b7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "BatteryVoltage_CommNeed_@827a8df3": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth BatteryVoltage needs on ChassisCan0."
-                    ]
-                }
-            },
-            "BrakePedalPosition_@4c6d0a5c": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "dimensionless"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "BrakePedalPosition_CommNeed_@3037de5a"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 BrakePedalPositionSensor (id 104, 50 ms, E2E protected). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "BrakePedalPosition_CommNeed_@3037de5a": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth BrakePedalPosition needs on DriverCan0."
-                    ]
-                }
-            },
             "Climate_LeftTemperature_@f0794383": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -379,6 +116,76 @@
                 "metadata": {
                     "description": [
                         "Right compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "Cluster_GearLeverPosition_@e2922e50": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the instrument cluster."
+                    ]
+                }
+            },
+            "Cluster_LeftTurnTelltale_@ffb88a10": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "Cluster_ProximityDistance_@6021b4cd": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Parking proximity distance shown in the instrument cluster."
+                    ]
+                }
+            },
+            "Cluster_RightTurnTelltale_@ed543a1b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "Cluster_StateOfCharge_@c5d997a4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Battery state of charge shown in the instrument cluster."
                     ]
                 }
             },
@@ -508,355 +315,59 @@
                     ]
                 }
             },
-            "GearLeverPosition_@cb3afbf6": {
-                "stereotype": "Application_InternalAssembly_Intf",
+            "Infotainment_Gear_@cb924990": {
+                "stereotype": "External_Output",
                 "attributes": {
                     "dataTypeCategory": "Enum",
                     "subTypeEnum": "GearLeverPositionEnum",
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "GearLeverPosition_CommNeed_@7400b1c6"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 GearInfo (id 108, 50 ms). Sent by BCM, received by DIM, GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "GearLeverPosition_CommNeed_@7400b1c6": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Bandwidth GearLeverPosition needs on BodyCan0."
+                        "Selected gear shown in the infotainment unit."
                     ]
                 }
             },
-            "GearService_Gear_@f1984807": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "GearLeverPositionEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "GearService_Gear_CommNeed_@ea03feff"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP GearService.GearEvent (service 104, event 1004, event group 325). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "GearService_Gear_CommNeed_@ea03feff": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth GearService_Gear needs on SOMEIP."
-                    ]
-                }
-            },
-            "GearShiftDown_@cd81edc2": {
-                "stereotype": "Application_InternalAssembly_Intf",
+            "Infotainment_LeftTurnIndicator_@700d321a": {
+                "stereotype": "External_Output",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "GearShiftDown_CommNeed_@914bf8bb"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 GearShiftPaddles (id 106, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "GearShiftDown_CommNeed_@914bf8bb": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Bandwidth GearShiftDown needs on DriverCan0."
+                        "Left turn indication shown in the infotainment unit."
                     ]
                 }
             },
-            "GearShiftUp_@d61e5fac": {
-                "stereotype": "Application_InternalAssembly_Intf",
+            "Infotainment_RightTurnIndicator_@d6b38ca8": {
+                "stereotype": "External_Output",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
                     "subTypeEnum": null,
                     "subTypeUnitOfMeasure": null
                 },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "GearShiftUp_CommNeed_@59cc2b26"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
+                "connections": {},
                 "metadata": {
                     "description": [
-                        "DriverCan0 GearShiftPaddles (id 106, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
+                        "Right turn indication shown in the infotainment unit."
+                    ]
                 }
             },
-            "GearShiftUp_CommNeed_@59cc2b26": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
+            "Infotainment_VehicleSpeed_@87ace52f": {
+                "stereotype": "External_Output",
                 "attributes": {
                     "dataTypeCategory": "Number",
                     "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
+                    "subTypeUnitOfMeasure": "m/s"
                 },
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Bandwidth GearShiftUp needs on DriverCan0."
-                    ]
-                }
-            },
-            "HVACService_LeftTemperature_@801aef78": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "HVACService_LeftTemperature_CommNeed_@75045ca5"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "HVACService_LeftTemperature_CommNeed_@75045ca5": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth HVACService_LeftTemperature needs on SOMEIP."
-                    ]
-                }
-            },
-            "HVACService_RightTemperature_@c1139434": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "HVACService_RightTemperature_CommNeed_@8909a7f6"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "HVACService_RightTemperature_CommNeed_@8909a7f6": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth HVACService_RightTemperature needs on SOMEIP."
-                    ]
-                }
-            },
-            "HazardLightButton_@1012733a": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "HazardLightButton_CommNeed_@e23f6344"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 HazardLightButton (id 100, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "HazardLightButton_CommNeed_@e23f6344": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth HazardLightButton needs on DriverCan0."
-                    ]
-                }
-            },
-            "Heading_@43d51efd": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "Heading_CommNeed_@cf9ed76e"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_TCU_@4ecdc2d7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "Heading_CommNeed_@cf9ed76e": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth Heading needs on BodyCan0."
-                    ]
-                }
-            },
-            "HighBeam_@2daa4d39": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "HighBeam_CommNeed_@a93b5423"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 LightStalk (id 103, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "HighBeam_CommNeed_@a93b5423": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth HighBeam needs on DriverCan0."
+                        "Vehicle speed shown in the infotainment unit."
                     ]
                 }
             },
@@ -1000,566 +511,6 @@
                     ]
                 }
             },
-            "Latitude_@af8a79fb": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "Latitude_CommNeed_@380ba34a"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_TCU_@4ecdc2d7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "Latitude_CommNeed_@380ba34a": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth Latitude needs on BodyCan0."
-                    ]
-                }
-            },
-            "LeftBrakeLightRequest_@6553aa43": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LeftBrakeLightRequest_CommNeed_@5fff57a5"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3",
-                        "RemotiveCar_RearLight_@f4be26c1"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "LeftBrakeLightRequest_CommNeed_@5fff57a5": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LeftBrakeLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "LeftDaylightRunningLightRequest_@770c7fbd": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LeftDaylightRunningLightRequest_CommNeed_@c4c520c4"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be",
-                        "RemotiveCar_RearLight_@f4be26c1"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "LeftDaylightRunningLightRequest_CommNeed_@c4c520c4": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LeftDaylightRunningLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "LeftHighBeamLightRequest_@aa2b64de": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LeftHighBeamLightRequest_CommNeed_@10094874"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "LeftHighBeamLightRequest_CommNeed_@10094874": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LeftHighBeamLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "LeftLowBeamLightRequest_@ba611459": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LeftLowBeamLightRequest_CommNeed_@e47640da"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be",
-                        "RemotiveCar_RearLight_@f4be26c1"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "LeftLowBeamLightRequest_CommNeed_@e47640da": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LeftLowBeamLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "LeftTemperature_@a5c08ee5": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LeftTemperature_CommNeed_@524ca857"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_HVAC_@3df8b5a6"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "LeftTemperature_CommNeed_@524ca857": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LeftTemperature needs on BodyCan0."
-                    ]
-                }
-            },
-            "LeftTurnLightRequest_@182bd50e": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LeftTurnLightRequest_CommNeed_@0b81d77f"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be",
-                        "RemotiveCar_GWM_@cdaa90d3",
-                        "RemotiveCar_RearLight_@f4be26c1"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "LeftTurnLightRequest_CommNeed_@0b81d77f": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LeftTurnLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "LightMode_@ac62221b": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "LightModeEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LightMode_CommNeed_@c5a3f451"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 LightStalk (id 103, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "LightMode_CommNeed_@c5a3f451": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LightMode needs on DriverCan0."
-                    ]
-                }
-            },
-            "LocationService_Heading_@e1c4ac9d": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LocationService_Heading_CommNeed_@cb945046"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP LocationService.LocationEvent (service 101, event 1001, event group 322). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "LocationService_Heading_CommNeed_@cb945046": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LocationService_Heading needs on SOMEIP."
-                    ]
-                }
-            },
-            "LocationService_Latitude_@036938ea": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LocationService_Latitude_CommNeed_@ee222b86"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP LocationService.LocationEvent (service 101, event 1001, event group 322). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "LocationService_Latitude_CommNeed_@ee222b86": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LocationService_Latitude needs on SOMEIP."
-                    ]
-                }
-            },
-            "LocationService_Longitude_@6dd8d80b": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "LocationService_Longitude_CommNeed_@8b31d1ab"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP LocationService.LocationEvent (service 101, event 1001, event group 322). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "LocationService_Longitude_CommNeed_@8b31d1ab": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth LocationService_Longitude needs on SOMEIP."
-                    ]
-                }
-            },
-            "Longitude_@7225df5c": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "Longitude_CommNeed_@ab42d14e"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_TCU_@4ecdc2d7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "Longitude_CommNeed_@ab42d14e": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth Longitude needs on BodyCan0."
-                    ]
-                }
-            },
-            "MotorSpeed_@e9793e67": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "rpm"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "MotorSpeed_CommNeed_@74971a0c"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BMS_@f01577b7",
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_PCM_@e1058956"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "MotorSpeed_CommNeed_@74971a0c": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth MotorSpeed needs on ChassisCan0."
-                    ]
-                }
-            },
-            "MotorTorque_@98364527": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "Nm"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "MotorTorque_CommNeed_@e0efc8db"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BMS_@f01577b7",
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_PCM_@e1058956"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "MotorTorque_CommNeed_@e0efc8db": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth MotorTorque needs on ChassisCan0."
-                    ]
-                }
-            },
             "Occupant_LeftTemperatureSetpoint_@defa7980": {
                 "stereotype": "External_Input",
                 "attributes": {
@@ -1588,177 +539,37 @@
                     ]
                 }
             },
-            "ProximityDistance_@758b58b3": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "ProximityDistance_CommNeed_@2f6bba69"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_PAM_@f43434c7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 ProximityInfo (id 109, 50 ms, raw 255 = NoObject). Sent by PAM, received by DIM, GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "ProximityDistance_CommNeed_@2f6bba69": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth ProximityDistance needs on BodyCan0."
-                    ]
-                }
-            },
-            "RemotiveCar_ABS_@85f8bb10": {
+            "RemotiveCar_ClimateControl_@b63f3305": {
                 "stereotype": "InternalPlaceholderComponent",
                 "attributes": {},
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Placeholder for ABS in RemotiveCar."
+                        "Placeholder for ClimateControlDesign."
                     ]
                 }
             },
-            "RemotiveCar_BCM_@f14441bb": {
+            "RemotiveCar_DriverControls_@7fd705f5": {
                 "stereotype": "InternalPlaceholderComponent",
                 "attributes": {},
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Placeholder for BCM in RemotiveCar."
+                        "Placeholder for DriverControlsDesign."
                     ]
                 }
             },
-            "RemotiveCar_BMS_@f01577b7": {
+            "RemotiveCar_ExteriorLighting_@b2cfef09": {
                 "stereotype": "InternalPlaceholderComponent",
                 "attributes": {},
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Placeholder for BMS in RemotiveCar."
+                        "Placeholder for ExteriorLightingDesign."
                     ]
                 }
             },
-            "RemotiveCar_DIM_@7dfbea58": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for DIM in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_FLCM_@2b7321be": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for FLCM in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_GWM_@cdaa90d3": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for GWM in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_HVAC_@3df8b5a6": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for HVAC in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_IHU_@7692ea93": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for IHU in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_PAM_@f43434c7": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for PAM in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_PCM_@e1058956": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for PCM in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_RearLight_@f4be26c1": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for RearLight in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_SCCM_@29a4be82": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for SCCM in RemotiveCar."
-                    ]
-                }
-            },
-            "RemotiveCar_TCU_@4ecdc2d7": {
-                "stereotype": "InternalPlaceholderComponent",
-                "attributes": {},
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Placeholder for TCU in RemotiveCar."
-                    ]
-                }
-            },
-            "RightBrakeLightRequest_@398ba989": {
+            "RemotiveCar_LeftBrakeLightRequest_Assembly_@b77543c0": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
@@ -1767,15 +578,13 @@
                 },
                 "connections": {
                     "communicateResourceInterface": [
-                        "RightBrakeLightRequest_CommNeed_@8f71c8eb"
+                        "RemotiveCar_LeftBrakeLightRequest_Assembly_CommNeed_@1661adc1"
                     ],
                     "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3",
-                        "RemotiveCar_RearLight_@f4be26c1"
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
                     ],
                     "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ]
                 },
                 "metadata": {
@@ -1785,7 +594,202 @@
                     "source": "remotive_car/platform/databases/body_can.dbc"
                 }
             },
-            "RightBrakeLightRequest_CommNeed_@8f71c8eb": {
+            "RemotiveCar_LeftBrakeLightRequest_Assembly_CommNeed_@1661adc1": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth LeftBrakeLightRequest needs on BodyCan0."
+                    ]
+                }
+            },
+            "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@52777700": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_CommNeed_@37cb03f4"
+                    ],
+                    "consumedBy": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "providedBy": [
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_CommNeed_@37cb03f4": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth LeftDaylightRunningLightRequest needs on BodyCan0."
+                    ]
+                }
+            },
+            "RemotiveCar_LeftHighBeamLightRequest_Assembly_@a4f4e9d7": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "RemotiveCar_LeftHighBeamLightRequest_Assembly_CommNeed_@d3ec36ae"
+                    ],
+                    "consumedBy": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "providedBy": [
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "RemotiveCar_LeftHighBeamLightRequest_Assembly_CommNeed_@d3ec36ae": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth LeftHighBeamLightRequest needs on BodyCan0."
+                    ]
+                }
+            },
+            "RemotiveCar_LeftLowBeamLightRequest_Assembly_@9f3cf949": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "RemotiveCar_LeftLowBeamLightRequest_Assembly_CommNeed_@e9de51f0"
+                    ],
+                    "consumedBy": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "providedBy": [
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "RemotiveCar_LeftLowBeamLightRequest_Assembly_CommNeed_@e9de51f0": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth LeftLowBeamLightRequest needs on BodyCan0."
+                    ]
+                }
+            },
+            "RemotiveCar_LeftTurnLightRequest_Assembly_@259ed8c5": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "RemotiveCar_LeftTurnLightRequest_Assembly_CommNeed_@c53baac9"
+                    ],
+                    "consumedBy": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "providedBy": [
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "RemotiveCar_LeftTurnLightRequest_Assembly_CommNeed_@c53baac9": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth LeftTurnLightRequest needs on BodyCan0."
+                    ]
+                }
+            },
+            "RemotiveCar_RightBrakeLightRequest_Assembly_@b02a91fd": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "RemotiveCar_RightBrakeLightRequest_Assembly_CommNeed_@ccbe40a3"
+                    ],
+                    "consumedBy": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "providedBy": [
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "RemotiveCar_RightBrakeLightRequest_Assembly_CommNeed_@ccbe40a3": {
                 "stereotype": "ApplicationCommunicateResourceInterface",
                 "attributes": {
                     "dataTypeCategory": "Number",
@@ -1799,7 +803,7 @@
                     ]
                 }
             },
-            "RightDaylightRunningLightRequest_@83e5c5a4": {
+            "RemotiveCar_RightDaylightRunningLightRequest_Assembly_@6f88e21c": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
@@ -1808,15 +812,13 @@
                 },
                 "connections": {
                     "communicateResourceInterface": [
-                        "RightDaylightRunningLightRequest_CommNeed_@5c93b50b"
+                        "RemotiveCar_RightDaylightRunningLightRequest_Assembly_CommNeed_@c53b54a1"
                     ],
                     "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be",
-                        "RemotiveCar_RearLight_@f4be26c1"
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
                     ],
                     "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ]
                 },
                 "metadata": {
@@ -1826,7 +828,7 @@
                     "source": "remotive_car/platform/databases/body_can.dbc"
                 }
             },
-            "RightDaylightRunningLightRequest_CommNeed_@5c93b50b": {
+            "RemotiveCar_RightDaylightRunningLightRequest_Assembly_CommNeed_@c53b54a1": {
                 "stereotype": "ApplicationCommunicateResourceInterface",
                 "attributes": {
                     "dataTypeCategory": "Number",
@@ -1840,7 +842,7 @@
                     ]
                 }
             },
-            "RightHighBeamLightRequest_@7876efe8": {
+            "RemotiveCar_RightHighBeamLightRequest_Assembly_@2025c576": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
@@ -1849,14 +851,13 @@
                 },
                 "connections": {
                     "communicateResourceInterface": [
-                        "RightHighBeamLightRequest_CommNeed_@b9f8974f"
+                        "RemotiveCar_RightHighBeamLightRequest_Assembly_CommNeed_@34493a94"
                     ],
                     "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
                     ],
                     "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ]
                 },
                 "metadata": {
@@ -1866,7 +867,7 @@
                     "source": "remotive_car/platform/databases/body_can.dbc"
                 }
             },
-            "RightHighBeamLightRequest_CommNeed_@b9f8974f": {
+            "RemotiveCar_RightHighBeamLightRequest_Assembly_CommNeed_@34493a94": {
                 "stereotype": "ApplicationCommunicateResourceInterface",
                 "attributes": {
                     "dataTypeCategory": "Number",
@@ -1880,7 +881,7 @@
                     ]
                 }
             },
-            "RightLowBeamLightRequest_@9e2cee30": {
+            "RemotiveCar_RightLowBeamLightRequest_Assembly_@7ae9661c": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
@@ -1889,15 +890,13 @@
                 },
                 "connections": {
                     "communicateResourceInterface": [
-                        "RightLowBeamLightRequest_CommNeed_@4678dcdd"
+                        "RemotiveCar_RightLowBeamLightRequest_Assembly_CommNeed_@78350b6b"
                     ],
                     "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be",
-                        "RemotiveCar_RearLight_@f4be26c1"
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
                     ],
                     "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ]
                 },
                 "metadata": {
@@ -1907,7 +906,7 @@
                     "source": "remotive_car/platform/databases/body_can.dbc"
                 }
             },
-            "RightLowBeamLightRequest_CommNeed_@4678dcdd": {
+            "RemotiveCar_RightLowBeamLightRequest_Assembly_CommNeed_@78350b6b": {
                 "stereotype": "ApplicationCommunicateResourceInterface",
                 "attributes": {
                     "dataTypeCategory": "Number",
@@ -1921,46 +920,7 @@
                     ]
                 }
             },
-            "RightTemperature_@1308bf0f": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "degC"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "RightTemperature_CommNeed_@0f52d38e"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_HVAC_@3df8b5a6"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 HVACControl (id 300, 500 ms). Sent by GWM, received by HVAC."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "RightTemperature_CommNeed_@0f52d38e": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth RightTemperature needs on BodyCan0."
-                    ]
-                }
-            },
-            "RightTurnLightRequest_@76f14077": {
+            "RemotiveCar_RightTurnLightRequest_Assembly_@26183d5e": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
                     "dataTypeCategory": "Boolean",
@@ -1969,16 +929,13 @@
                 },
                 "connections": {
                     "communicateResourceInterface": [
-                        "RightTurnLightRequest_CommNeed_@2f2b1e2c"
+                        "RemotiveCar_RightTurnLightRequest_Assembly_CommNeed_@ac0453ed"
                     ],
                     "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_FLCM_@2b7321be",
-                        "RemotiveCar_GWM_@cdaa90d3",
-                        "RemotiveCar_RearLight_@f4be26c1"
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
                     ],
                     "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ]
                 },
                 "metadata": {
@@ -1988,7 +945,7 @@
                     "source": "remotive_car/platform/databases/body_can.dbc"
                 }
             },
-            "RightTurnLightRequest_CommNeed_@2f2b1e2c": {
+            "RemotiveCar_RightTurnLightRequest_Assembly_CommNeed_@ac0453ed": {
                 "stereotype": "ApplicationCommunicateResourceInterface",
                 "attributes": {
                     "dataTypeCategory": "Number",
@@ -2002,317 +959,13 @@
                     ]
                 }
             },
-            "SpeedService_Speed_@ee8f13af": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m/s"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "SpeedService_Speed_CommNeed_@3834e20a"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP SpeedService.SpeedEvent (service 102, event 1002, event group 323). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "SpeedService_Speed_CommNeed_@3834e20a": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
+            "RemotiveCar_VehicleInformation_@6832e3fc": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
                 "connections": {},
                 "metadata": {
                     "description": [
-                        "Bandwidth SpeedService_Speed needs on SOMEIP."
-                    ]
-                }
-            },
-            "StateOfCharge_@2eea2586": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "percent"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "StateOfCharge_CommNeed_@6e6774be"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BMS_@f01577b7"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 1022 = Error, 1023 = SNA). Sent by BMS, received by GWM, DIM."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "StateOfCharge_CommNeed_@6e6774be": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth StateOfCharge needs on ChassisCan0."
-                    ]
-                }
-            },
-            "SteeringAngle_@b04033bc": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "SteeringAngle_CommNeed_@a4a3478d"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 SteeringAngle (id 102, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "SteeringAngle_CommNeed_@a4a3478d": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth SteeringAngle needs on DriverCan0."
-                    ]
-                }
-            },
-            "SteeringWheelPosition_@97728936": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "deg"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "SteeringWheelPosition_CommNeed_@89956c04"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_DIM_@7dfbea58",
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "BodyCan0 SteeringWheelInfo (id 106, 50 ms). Sent by BCM, received by DIM, GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/body_can.dbc"
-                }
-            },
-            "SteeringWheelPosition_CommNeed_@89956c04": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth SteeringWheelPosition needs on BodyCan0."
-                    ]
-                }
-            },
-            "TurnSignal_@e1a35069": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Enum",
-                    "subTypeEnum": "TurnSignalEnum",
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "TurnSignal_CommNeed_@e01b7d1f"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_BCM_@f14441bb"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_SCCM_@29a4be82"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "DriverCan0 TurnStalk (id 101, 50 ms). Sent by SCCM, received by BCM."
-                    ],
-                    "source": "remotive_car/platform/databases/driver_can.dbc"
-                }
-            },
-            "TurnSignal_CommNeed_@e01b7d1f": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth TurnSignal needs on DriverCan0."
-                    ]
-                }
-            },
-            "TurnlightIndicator_LeftTurnlight_@c40870c6": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "TurnlightIndicator_LeftTurnlight_CommNeed_@07b00dc2"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "TurnlightIndicator_LeftTurnlight_CommNeed_@07b00dc2": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth TurnlightIndicator_LeftTurnlight needs on SOMEIP."
-                    ]
-                }
-            },
-            "TurnlightIndicator_RightTurnlight_@6862089a": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "TurnlightIndicator_RightTurnlight_CommNeed_@6154f6a3"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_IHU_@7692ea93"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
-                    ],
-                    "source": "remotive_car/platform/databases/someip.fibex.xml"
-                }
-            },
-            "TurnlightIndicator_RightTurnlight_CommNeed_@6154f6a3": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth TurnlightIndicator_RightTurnlight needs on SOMEIP."
-                    ]
-                }
-            },
-            "uispeed_@eaa504df": {
-                "stereotype": "Application_InternalAssembly_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "m/s"
-                },
-                "connections": {
-                    "communicateResourceInterface": [
-                        "uispeed_CommNeed_@02ba05b1"
-                    ],
-                    "consumedBy": [
-                        "RemotiveCar_GWM_@cdaa90d3"
-                    ],
-                    "providedBy": [
-                        "RemotiveCar_ABS_@85f8bb10"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "ChassisCan0 UISpeedFrame (id 123, 200 ms). Sent by ABS, received by GWM."
-                    ],
-                    "source": "remotive_car/platform/databases/chassis_can.dbc"
-                }
-            },
-            "uispeed_CommNeed_@02ba05b1": {
-                "stereotype": "ApplicationCommunicateResourceInterface",
-                "attributes": {
-                    "dataTypeCategory": "Number",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": "bit/s"
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Bandwidth uispeed needs on ChassisCan0."
+                        "Placeholder for VehicleInformationDesign."
                     ]
                 }
             },
@@ -2325,7 +978,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_HVAC_@3df8b5a6"
+                        "RemotiveCar_ClimateControl_@b63f3305"
                     ],
                     "outer": [
                         "Climate_LeftTemperature_@f0794383"
@@ -2341,10 +994,90 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_HVAC_@3df8b5a6"
+                        "RemotiveCar_ClimateControl_@b63f3305"
                     ],
                     "outer": [
                         "Climate_RightTemperature_@01438e4e"
+                    ]
+                }
+            },
+            "Cluster_GearLeverPosition_Delegation_@947e9fc6": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_DriverControls_@7fd705f5"
+                    ],
+                    "outer": [
+                        "Cluster_GearLeverPosition_@e2922e50"
+                    ]
+                }
+            },
+            "Cluster_LeftTurnTelltale_Delegation_@b2da985f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Cluster_LeftTurnTelltale_@ffb88a10"
+                    ]
+                }
+            },
+            "Cluster_ProximityDistance_Delegation_@3b47da58": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Cluster_ProximityDistance_@6021b4cd"
+                    ]
+                }
+            },
+            "Cluster_RightTurnTelltale_Delegation_@5d2172e5": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Cluster_RightTurnTelltale_@ed543a1b"
+                    ]
+                }
+            },
+            "Cluster_StateOfCharge_Delegation_@db35b2b8": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Cluster_StateOfCharge_@c5d997a4"
                     ]
                 }
             },
@@ -2357,7 +1090,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_DriverControls_@7fd705f5"
                     ],
                     "outer": [
                         "Driver_AcceleratorPedalPosition_@7ea19638"
@@ -2373,7 +1106,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Driver_BrakePedalPosition_@e8688df6"
@@ -2389,7 +1122,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_DriverControls_@7fd705f5"
                     ],
                     "outer": [
                         "Driver_GearShiftDown_@6e10a4b7"
@@ -2405,7 +1138,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_DriverControls_@7fd705f5"
                     ],
                     "outer": [
                         "Driver_GearShiftUp_@5dea5672"
@@ -2421,7 +1154,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Driver_HazardLightButton_@310838e0"
@@ -2437,7 +1170,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Driver_HighBeam_@f7dff3bd"
@@ -2453,7 +1186,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Driver_LightMode_@8c87721f"
@@ -2469,7 +1202,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_DriverControls_@7fd705f5"
                     ],
                     "outer": [
                         "Driver_SteeringAngle_@4c1587d3"
@@ -2485,10 +1218,74 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_SCCM_@29a4be82"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Driver_TurnSignal_@fefdcfb7"
+                    ]
+                }
+            },
+            "Infotainment_Gear_Delegation_@d6cf0b9e": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_DriverControls_@7fd705f5"
+                    ],
+                    "outer": [
+                        "Infotainment_Gear_@cb924990"
+                    ]
+                }
+            },
+            "Infotainment_LeftTurnIndicator_Delegation_@686610dc": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Infotainment_LeftTurnIndicator_@700d321a"
+                    ]
+                }
+            },
+            "Infotainment_RightTurnIndicator_Delegation_@6571ea8d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Infotainment_RightTurnIndicator_@d6b38ca8"
+                    ]
+                }
+            },
+            "Infotainment_VehicleSpeed_Delegation_@af950842": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {
+                    "inner": [
+                        "RemotiveCar_VehicleInformation_@6832e3fc"
+                    ],
+                    "outer": [
+                        "Infotainment_VehicleSpeed_@87ace52f"
                     ]
                 }
             },
@@ -2501,7 +1298,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontLeftDaylightRunning_@2de4ab90"
@@ -2517,7 +1314,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontLeftHighBeam_@aa15284b"
@@ -2533,7 +1330,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontLeftLowBeam_@e033c4cd"
@@ -2549,7 +1346,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontLeftTurn_@4efb9824"
@@ -2565,7 +1362,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontRightDaylightRunning_@bfa81be6"
@@ -2581,7 +1378,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontRightHighBeam_@9c7f0acc"
@@ -2597,7 +1394,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontRightLowBeam_@231c2a7c"
@@ -2613,7 +1410,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_FLCM_@2b7321be"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_FrontRightTurn_@66e2f5d1"
@@ -2629,7 +1426,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_RearLight_@f4be26c1"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_RearLeftTurn_@139b5dd4"
@@ -2645,7 +1442,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_RearLight_@f4be26c1"
+                        "RemotiveCar_ExteriorLighting_@b2cfef09"
                     ],
                     "outer": [
                         "Lamp_RearRightTurn_@593b10bf"
@@ -2661,7 +1458,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_IHU_@7692ea93"
+                        "RemotiveCar_ClimateControl_@b63f3305"
                     ],
                     "outer": [
                         "Occupant_LeftTemperatureSetpoint_@defa7980"
@@ -2677,7 +1474,7 @@
                 },
                 "connections": {
                     "inner": [
-                        "RemotiveCar_IHU_@7692ea93"
+                        "RemotiveCar_ClimateControl_@b63f3305"
                     ],
                     "outer": [
                         "Occupant_RightTemperatureSetpoint_@4163b2fc"
@@ -2688,7 +1485,7 @@
         "metadata": {
             "uuid": "RemotiveCar_@1edd6b7f",
             "description": [
-                "The RemotiveCar vehicle: 15 ECUs communicating over DriverCan0, BodyCan0, ChassisCan0, the RearLightLIN bus and a SOME/IP network."
+                "The RemotiveCar vehicle: one functional design per customer function."
             ],
             "name": "RemotiveCar",
             "version_schema": "4.6.1"

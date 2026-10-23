@@ -1,0 +1,27 @@
+{
+    "DC_DEVS2_Lighting_Lamp_RearRightTurn_NotActivated_@51050496": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "DEVS2_Lighting_Lamp_RearRightTurn_@c701f797"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DEVS2_Lighting_Lamp_RearRightTurn_NotActivated_@51050496",
+            "description": [
+                "Critical: DEVS2_Lighting_Lamp_RearRightTurn stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_DEVS2_Lighting_Lamp_RearRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

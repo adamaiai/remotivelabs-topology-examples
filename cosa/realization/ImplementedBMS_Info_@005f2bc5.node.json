@@ -1,0 +1,23 @@
+{
+    "ImplementedBMS_Info_@005f2bc5": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "87a53146e7d43de76d3aed0fc097e992f69f84a8",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/bms/python/bms"
+        },
+        "connections": {
+            "realizedModel": [
+                "BMS_Info_@ba1bbeb6"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedBMS_Info_@005f2bc5",
+            "description": [
+                "Implementation: Python behavioral model; the BMS implementation serves all of its software components."
+            ],
+            "name": "ImplementedBMS_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

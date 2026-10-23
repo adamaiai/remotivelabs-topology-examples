@@ -1,0 +1,25 @@
+{
+    "SCCM_Lighting_HazardLightButton_WronglyPressed_@2d08978f": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_SCCM_Lighting_Driver_HazardLightButton_WronglyPressed_@93a50b8e"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SCCM_Lighting_HazardLightButton_WronglyPressed_@cb0f11a4"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_Lighting_HazardLightButton_WronglyPressed_@2d08978f",
+            "description": [
+                "Derived, not in the specification: SCCM puts the hazard light button on DriverCan0; needed so the BCM's assumption on its HazardLightButton input is guaranteed."
+            ],
+            "name": "SCCM_Lighting_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

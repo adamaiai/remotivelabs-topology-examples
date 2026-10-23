@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_FLCM_Lighting_@410dde5a": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "FLCM_Lighting_@0aa1054f"
+            ],
+            "allocatedOnComputePlatform": [
+                "FLCM_ECU_@f5d1c2f8"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_FLCM_Lighting_@34a9792d"
+            ]
+        },
+        "aggregations": {
+            "CRIR_FLCM_Lighting_@34a9792d": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "FLCM_Lighting_ComputeNeed_@352c1dd9"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "FLCM_ECU_Compute_@5a4d0313"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_FLCM_Lighting_@410dde5a",
+            "description": [
+                "FLCM_Lighting runs on the FLCM ECU."
+            ],
+            "name": "ComputeAllocation_FLCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

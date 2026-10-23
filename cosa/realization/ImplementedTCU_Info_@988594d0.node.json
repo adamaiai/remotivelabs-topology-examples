@@ -1,0 +1,23 @@
+{
+    "ImplementedTCU_Info_@988594d0": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "6687712c7a906d468ec209653461135778f70be25f045507da257ea2a8095873",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/body_can.dbc"
+        },
+        "connections": {
+            "realizedModel": [
+                "TCU_Info_@1622ea93"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedTCU_Info_@988594d0",
+            "description": [
+                "Implementation: RemotiveTopology mock generated from the database; the TCU implementation serves all of its software components."
+            ],
+            "name": "ImplementedTCU_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated_@d37257c7": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_Lamp_RearLeftTurn_@e8b44d4c"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated_@d37257c7",
+            "description": [
+                "Critical: ExteriorLightingDesign_Lamp_RearLeftTurn stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

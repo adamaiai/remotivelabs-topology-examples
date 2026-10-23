@@ -1,0 +1,128 @@
+{
+    "IHU_Info_@684ff570": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "IHU_Info_ComputeNeed_@baee27c3"
+            ],
+            "externalInterface": [
+                "IHU_Info_Infotainment_LeftTurnIndicator_@74fdd455",
+                "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3",
+                "IHU_Info_Infotainment_VehicleSpeed_@2e1a2740",
+                "IHU_Info_LocationService_Heading_@c15bacb2",
+                "IHU_Info_LocationService_Latitude_@67fd8006",
+                "IHU_Info_LocationService_Longitude_@d7dcc9fc",
+                "IHU_Info_SpeedService_Speed_@6603cf7f",
+                "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7",
+                "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6"
+            ]
+        },
+        "aggregations": {
+            "IHU_Info_ComputeNeed_@baee27c3": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource IHU_Info needs from the IHU ECU."
+                    ]
+                }
+            },
+            "IHU_Info_Infotainment_LeftTurnIndicator_@74fdd455": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "IHU_Info_Infotainment_VehicleSpeed_@2e1a2740": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            },
+            "IHU_Info_LocationService_Heading_@c15bacb2": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "IHU_Info_LocationService_Latitude_@67fd8006": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "IHU_Info_LocationService_Longitude_@d7dcc9fc": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "IHU_Info_SpeedService_Speed_@6603cf7f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            },
+            "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "IHU_Info_@684ff570",
+            "description": [
+                "VehicleInformation software on the Infotainment Head Unit (IHU). Manages infotainment and user interface systems."
+            ],
+            "name": "IHU_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

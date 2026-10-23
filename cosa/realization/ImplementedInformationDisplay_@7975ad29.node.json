@@ -1,0 +1,784 @@
+{
+    "ImplementedInformationDisplay_@7975ad29": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_InformationDisplay_DIM_@44ecdcae",
+                "Chosen_InformationDisplay_GWM_@7ad9c350",
+                "Chosen_InformationDisplay_IHU_@5e6d8c29"
+            ],
+            "realizedComposition": [
+                "InformationDisplay_@64ec7866"
+            ]
+        },
+        "aggregations": {
+            "Chosen_InformationDisplay_DIM_@44ecdcae": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_InformationDisplay_DIM_BatteryCurrent_@98d92586",
+                        "IR_InformationDisplay_DIM_BatteryPower_@1e8397a8",
+                        "IR_InformationDisplay_DIM_BatteryVoltage_@0c808fdd",
+                        "IR_InformationDisplay_DIM_Cluster_LeftTurnTelltale_@dcaebb5a",
+                        "IR_InformationDisplay_DIM_Cluster_ProximityDistance_@5c6401b0",
+                        "IR_InformationDisplay_DIM_Cluster_RightTurnTelltale_@faf44d39",
+                        "IR_InformationDisplay_DIM_Cluster_StateOfCharge_@339ad2b9",
+                        "IR_InformationDisplay_DIM_LeftBrakeLightRequest_@dd2d65e0",
+                        "IR_InformationDisplay_DIM_LeftDaylightRunningLightRequest_@9a531ca2",
+                        "IR_InformationDisplay_DIM_LeftHighBeamLightRequest_@00a9cb59",
+                        "IR_InformationDisplay_DIM_LeftLowBeamLightRequest_@4a267189",
+                        "IR_InformationDisplay_DIM_LeftTurnLightRequest_@c2206a8b",
+                        "IR_InformationDisplay_DIM_MotorSpeed_@e748b8ae",
+                        "IR_InformationDisplay_DIM_MotorTorque_@9bfd9d6c",
+                        "IR_InformationDisplay_DIM_ProximityDistance_@d0825f30",
+                        "IR_InformationDisplay_DIM_RightBrakeLightRequest_@6d67f1d7",
+                        "IR_InformationDisplay_DIM_RightDaylightRunningLightRequest_@f449caec",
+                        "IR_InformationDisplay_DIM_RightHighBeamLightRequest_@d99c60f8",
+                        "IR_InformationDisplay_DIM_RightLowBeamLightRequest_@a3969787",
+                        "IR_InformationDisplay_DIM_RightTurnLightRequest_@a9a81c96",
+                        "IR_InformationDisplay_DIM_StateOfCharge_@ca63c87a"
+                    ],
+                    "realizedPlaceholder": [
+                        "InformationDisplay_DIM_@7611ed20"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedDIM_Info_@1ab967a6"
+                    ]
+                }
+            },
+            "Chosen_InformationDisplay_GWM_@7ad9c350": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_InformationDisplay_GWM_BatteryCurrent_@cd47b10f",
+                        "IR_InformationDisplay_GWM_BatteryPower_@8e3d5f39",
+                        "IR_InformationDisplay_GWM_BatteryVoltage_@2750b3b8",
+                        "IR_InformationDisplay_GWM_Heading_@6e8f3463",
+                        "IR_InformationDisplay_GWM_Latitude_@3022ec9b",
+                        "IR_InformationDisplay_GWM_LeftBrakeLightRequest_@8546e5a9",
+                        "IR_InformationDisplay_GWM_LeftTurnLightRequest_@772677b3",
+                        "IR_InformationDisplay_GWM_LocationService_Heading_@5991c0b8",
+                        "IR_InformationDisplay_GWM_LocationService_Latitude_@537f1054",
+                        "IR_InformationDisplay_GWM_LocationService_Longitude_@63e3a229",
+                        "IR_InformationDisplay_GWM_Longitude_@5d5cf136",
+                        "IR_InformationDisplay_GWM_MotorSpeed_@0d6d8221",
+                        "IR_InformationDisplay_GWM_MotorTorque_@97e4e087",
+                        "IR_InformationDisplay_GWM_ProximityDistance_@a81c6323",
+                        "IR_InformationDisplay_GWM_RightBrakeLightRequest_@d8999e38",
+                        "IR_InformationDisplay_GWM_RightTurnLightRequest_@8058a6d2",
+                        "IR_InformationDisplay_GWM_SpeedService_Speed_@6bc966f4",
+                        "IR_InformationDisplay_GWM_StateOfCharge_@5b109b66",
+                        "IR_InformationDisplay_GWM_TurnlightIndicator_LeftTurnlight_@1b4ef2e7",
+                        "IR_InformationDisplay_GWM_TurnlightIndicator_RightTurnlight_@d647f08b",
+                        "IR_InformationDisplay_GWM_uispeed_@44e48329"
+                    ],
+                    "realizedPlaceholder": [
+                        "InformationDisplay_GWM_@f827b62e"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedGWM_Info_@7c6ad9da"
+                    ]
+                }
+            },
+            "Chosen_InformationDisplay_IHU_@5e6d8c29": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_InformationDisplay_IHU_Infotainment_LeftTurnIndicator_@decef359",
+                        "IR_InformationDisplay_IHU_Infotainment_RightTurnIndicator_@eb847085",
+                        "IR_InformationDisplay_IHU_Infotainment_VehicleSpeed_@3d6da48f",
+                        "IR_InformationDisplay_IHU_LocationService_Heading_@db748369",
+                        "IR_InformationDisplay_IHU_LocationService_Latitude_@bb4a044d",
+                        "IR_InformationDisplay_IHU_LocationService_Longitude_@8cf18916",
+                        "IR_InformationDisplay_IHU_SpeedService_Speed_@918976fd",
+                        "IR_InformationDisplay_IHU_TurnlightIndicator_LeftTurnlight_@53c495a5",
+                        "IR_InformationDisplay_IHU_TurnlightIndicator_RightTurnlight_@1cdc3d73"
+                    ],
+                    "realizedPlaceholder": [
+                        "InformationDisplay_IHU_@154ce01b"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedIHU_Info_@43e101ea"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_BatteryCurrent_@98d92586": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_BatteryCurrent_Delegation_@5a0a36f3"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_BatteryCurrent_@95402bdd"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_BatteryPower_@1e8397a8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_BatteryPower_Delegation_@2a70906f"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_BatteryPower_@6aebd913"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_BatteryVoltage_@0c808fdd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_BatteryVoltage_Delegation_@19b790ab"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_BatteryVoltage_@af7f3ab2"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_Cluster_LeftTurnTelltale_@dcaebb5a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Cluster_LeftTurnTelltale_Delegation_@1455b80d"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_Cluster_LeftTurnTelltale_@0a36260e"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_Cluster_ProximityDistance_@5c6401b0": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Cluster_ProximityDistance_Delegation_@5c85facd"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_Cluster_ProximityDistance_@268edfd6"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_Cluster_RightTurnTelltale_@faf44d39": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Cluster_RightTurnTelltale_Delegation_@4a9ac98d"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_Cluster_RightTurnTelltale_@7a72a4bb"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_Cluster_StateOfCharge_@339ad2b9": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Cluster_StateOfCharge_Delegation_@3b24a4ad"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_Cluster_StateOfCharge_@8aa3717b"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_LeftBrakeLightRequest_@dd2d65e0": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftBrakeLightRequest_Delegation_@63653894"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_LeftBrakeLightRequest_@103a363d"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_LeftDaylightRunningLightRequest_@9a531ca2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftDaylightRunningLightRequest_Delegation_@11808f8e"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_LeftDaylightRunningLightRequest_@1192d155"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_LeftHighBeamLightRequest_@00a9cb59": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftHighBeamLightRequest_Delegation_@d6fbd17f"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_LeftHighBeamLightRequest_@69a38389"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_LeftLowBeamLightRequest_@4a267189": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftLowBeamLightRequest_Delegation_@3a02162a"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_LeftLowBeamLightRequest_@75d40224"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_LeftTurnLightRequest_@c2206a8b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftTurnLightRequest_Delegation_@c9c65432"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_LeftTurnLightRequest_@21c53684"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_MotorSpeed_@e748b8ae": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_MotorSpeed_Delegation_@00c62b3c"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_MotorSpeed_@e0d10d9a"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_MotorTorque_@9bfd9d6c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_MotorTorque_Delegation_@1c3a3d7a"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_MotorTorque_@30b04253"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_ProximityDistance_@d0825f30": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_ProximityDistance_Delegation_@f4f05a7e"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_ProximityDistance_@14b78b56"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_RightBrakeLightRequest_@6d67f1d7": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightBrakeLightRequest_Delegation_@40c79538"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_RightBrakeLightRequest_@8122de2a"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_RightDaylightRunningLightRequest_@f449caec": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightDaylightRunningLightRequest_Delegation_@d2d070b0"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_RightDaylightRunningLightRequest_@c4a6b6d7"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_RightHighBeamLightRequest_@d99c60f8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightHighBeamLightRequest_Delegation_@54f0e679"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_RightHighBeamLightRequest_@52877d7c"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_RightLowBeamLightRequest_@a3969787": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightLowBeamLightRequest_Delegation_@ebf68981"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_RightLowBeamLightRequest_@6804fda2"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_RightTurnLightRequest_@a9a81c96": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightTurnLightRequest_Delegation_@3202d5ba"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_RightTurnLightRequest_@acdb992e"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_DIM_StateOfCharge_@ca63c87a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_StateOfCharge_Delegation_@e133245c"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Info_StateOfCharge_@4c433a7b"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_BatteryCurrent_@cd47b10f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_BatteryCurrent_Delegation_@5a0a36f3"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_BatteryCurrent_@463df0e0"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_BatteryPower_@8e3d5f39": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_BatteryPower_Delegation_@2a70906f"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_BatteryPower_@d16f563d"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_BatteryVoltage_@2750b3b8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_BatteryVoltage_Delegation_@19b790ab"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_BatteryVoltage_@641b224f"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_Heading_@6e8f3463": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Heading_Delegation_@96b9b8b0"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_Heading_@31cd29a7"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_Latitude_@3022ec9b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Latitude_Delegation_@9c35fbf3"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_Latitude_@153a1f93"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_LeftBrakeLightRequest_@8546e5a9": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftBrakeLightRequest_Delegation_@63653894"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_LeftBrakeLightRequest_@7f457a87"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_LeftTurnLightRequest_@772677b3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_LeftTurnLightRequest_Delegation_@c9c65432"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_LeftTurnLightRequest_@6cee7285"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_LocationService_Heading_@5991c0b8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_LocationService_Heading_Assembly_@dc315251"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Info_LocationService_Heading_@dcabe277"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_LocationService_Latitude_@537f1054": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_LocationService_Latitude_Assembly_@d1fabbeb"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Info_LocationService_Latitude_@b335ae86"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_LocationService_Longitude_@63e3a229": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_LocationService_Longitude_Assembly_@49c045f5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Info_LocationService_Longitude_@8d41532a"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_Longitude_@5d5cf136": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Longitude_Delegation_@d8f427cd"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_Longitude_@815047bb"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_MotorSpeed_@0d6d8221": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_MotorSpeed_Delegation_@00c62b3c"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_MotorSpeed_@826d618f"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_MotorTorque_@97e4e087": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_MotorTorque_Delegation_@1c3a3d7a"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_MotorTorque_@3728b952"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_ProximityDistance_@a81c6323": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_ProximityDistance_Delegation_@f4f05a7e"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_ProximityDistance_@d9faa2f2"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_RightBrakeLightRequest_@d8999e38": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightBrakeLightRequest_Delegation_@40c79538"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_RightBrakeLightRequest_@e6120b0c"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_RightTurnLightRequest_@8058a6d2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_RightTurnLightRequest_Delegation_@3202d5ba"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_RightTurnLightRequest_@3b97972c"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_SpeedService_Speed_@6bc966f4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_SpeedService_Speed_Assembly_@9b334f72"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Info_SpeedService_Speed_@f31b7d76"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_StateOfCharge_@5b109b66": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_StateOfCharge_Delegation_@e133245c"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_StateOfCharge_@a06cd53a"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_TurnlightIndicator_LeftTurnlight_@1b4ef2e7": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@bc5a408b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Info_TurnlightIndicator_LeftTurnlight_@3180f6d1"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_TurnlightIndicator_RightTurnlight_@d647f08b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@b312d18d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Info_TurnlightIndicator_RightTurnlight_@74cecd7d"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_GWM_uispeed_@44e48329": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_uispeed_Delegation_@4b85a8c2"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Info_uispeed_@5611f4bc"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_Infotainment_LeftTurnIndicator_@decef359": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Infotainment_LeftTurnIndicator_Delegation_@d5e1065f"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Info_Infotainment_LeftTurnIndicator_@74fdd455"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_Infotainment_RightTurnIndicator_@eb847085": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Infotainment_RightTurnIndicator_Delegation_@d24bdb6c"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_Infotainment_VehicleSpeed_@3d6da48f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "InformationDisplay_Infotainment_VehicleSpeed_Delegation_@1dd12d85"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Info_Infotainment_VehicleSpeed_@2e1a2740"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_LocationService_Heading_@db748369": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_LocationService_Heading_Assembly_@dc315251"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Info_LocationService_Heading_@c15bacb2"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_LocationService_Latitude_@bb4a044d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_LocationService_Latitude_Assembly_@d1fabbeb"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Info_LocationService_Latitude_@67fd8006"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_LocationService_Longitude_@8cf18916": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_LocationService_Longitude_Assembly_@49c045f5"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Info_LocationService_Longitude_@d7dcc9fc"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_SpeedService_Speed_@918976fd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_SpeedService_Speed_Assembly_@9b334f72"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Info_SpeedService_Speed_@6603cf7f"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_TurnlightIndicator_LeftTurnlight_@53c495a5": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@bc5a408b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7"
+                    ]
+                }
+            },
+            "IR_InformationDisplay_IHU_TurnlightIndicator_RightTurnlight_@1cdc3d73": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@b312d18d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedInformationDisplay_@7975ad29",
+            "description": [
+                "Realizes InformationDisplay by its parts' realizations."
+            ],
+            "name": "ImplementedInformationDisplay",
+            "version_schema": "4.6.1"
+        }
+    }
+}

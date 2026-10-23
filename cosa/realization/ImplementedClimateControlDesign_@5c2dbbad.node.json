@@ -1,0 +1,167 @@
+{
+    "ImplementedClimateControlDesign_@5c2dbbad": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_ClimateControlDesign_ClimateActuation_@1f6344d7",
+                "Chosen_ClimateControlDesign_ClimateSetpointHMI_@8a336c9b"
+            ],
+            "realizedComposition": [
+                "ClimateControlDesign_@3929005f"
+            ]
+        },
+        "aggregations": {
+            "Chosen_ClimateControlDesign_ClimateActuation_@1f6344d7": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_@5ec202b1",
+                        "IR_ClimateControlDesign_ClimateActuation_Climate_RightTemperature_@948fab79",
+                        "IR_ClimateControlDesign_ClimateActuation_HVACService_LeftTemperature_@26c24f91",
+                        "IR_ClimateControlDesign_ClimateActuation_HVACService_RightTemperature_@ba4f318f"
+                    ],
+                    "realizedPlaceholder": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedClimateActuation_@84506107"
+                    ]
+                }
+            },
+            "Chosen_ClimateControlDesign_ClimateSetpointHMI_@8a336c9b": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_@a80df86f",
+                        "IR_ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_@b1ea4a6c",
+                        "IR_ClimateControlDesign_ClimateSetpointHMI_Occupant_LeftTemperatureSetpoint_@2d261587",
+                        "IR_ClimateControlDesign_ClimateSetpointHMI_Occupant_RightTemperatureSetpoint_@5434fe59"
+                    ],
+                    "realizedPlaceholder": [
+                        "ClimateControlDesign_ClimateSetpointHMI_@563017f6"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedIHU_Climate_@37efb274"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_@5ec202b1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateControlDesign_Climate_LeftTemperature_Delegation_@a409bd00"
+                    ],
+                    "realizingInterface": [
+                        "ClimateActuation_Climate_LeftTemperature_@0ed481df"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateActuation_Climate_RightTemperature_@948fab79": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateControlDesign_Climate_RightTemperature_Delegation_@b863fd9a"
+                    ],
+                    "realizingInterface": [
+                        "ClimateActuation_Climate_RightTemperature_@df2d9ce3"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateActuation_HVACService_LeftTemperature_@26c24f91": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateControlDesign_HVACService_LeftTemperature_Assembly_@c44b2627"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "ClimateActuation_HVACService_LeftTemperature_@4f476549"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateActuation_HVACService_RightTemperature_@ba4f318f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateControlDesign_HVACService_RightTemperature_Assembly_@6703be8d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "ClimateActuation_HVACService_RightTemperature_@790aca83"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_@a80df86f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateControlDesign_HVACService_LeftTemperature_Assembly_@c44b2627"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Climate_HVACService_LeftTemperature_@60235048"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_@b1ea4a6c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateControlDesign_HVACService_RightTemperature_Assembly_@6703be8d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Climate_HVACService_RightTemperature_@da40b9f5"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateSetpointHMI_Occupant_LeftTemperatureSetpoint_@2d261587": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_Delegation_@33268c4f"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Climate_Occupant_LeftTemperatureSetpoint_@ba9ee56a"
+                    ]
+                }
+            },
+            "IR_ClimateControlDesign_ClimateSetpointHMI_Occupant_RightTemperatureSetpoint_@5434fe59": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateControlDesign_Occupant_RightTemperatureSetpoint_Delegation_@24cb8f2a"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Climate_Occupant_RightTemperatureSetpoint_@c0b7f827"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedClimateControlDesign_@5c2dbbad",
+            "description": [
+                "Realizes ClimateControlDesign by its parts' realizations."
+            ],
+            "name": "ImplementedClimateControlDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

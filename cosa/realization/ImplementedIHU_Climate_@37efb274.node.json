@@ -1,0 +1,23 @@
+{
+    "ImplementedIHU_Climate_@37efb274": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "171f2d058c8f9007cffb38af7fa33c2f6035351a",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/ihu/python/ihu"
+        },
+        "connections": {
+            "realizedModel": [
+                "IHU_Climate_@b9560516"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedIHU_Climate_@37efb274",
+            "description": [
+                "Implementation: Python behavioral model; the IHU implementation serves all of its software components."
+            ],
+            "name": "ImplementedIHU_Climate",
+            "version_schema": "4.6.1"
+        }
+    }
+}

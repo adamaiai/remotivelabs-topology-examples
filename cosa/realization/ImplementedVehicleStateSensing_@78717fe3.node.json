@@ -1,0 +1,224 @@
+{
+    "ImplementedVehicleStateSensing_@78717fe3": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_VehicleStateSensing_ABS_@3b324913",
+                "Chosen_VehicleStateSensing_BMS_@948c2342",
+                "Chosen_VehicleStateSensing_PCM_@317e86b8"
+            ],
+            "realizedComposition": [
+                "VehicleStateSensing_@8f098cb0"
+            ]
+        },
+        "aggregations": {
+            "Chosen_VehicleStateSensing_ABS_@3b324913": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleStateSensing_ABS_uispeed_@2e28d7ad"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleStateSensing_ABS_@ec41e2c7"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedABS_Info_@405692ec"
+                    ]
+                }
+            },
+            "Chosen_VehicleStateSensing_BMS_@948c2342": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleStateSensing_BMS_BatteryCurrent_@4f531f62",
+                        "IR_VehicleStateSensing_BMS_BatteryPower_@e033f133",
+                        "IR_VehicleStateSensing_BMS_BatteryVoltage_@40e712c4",
+                        "IR_VehicleStateSensing_BMS_MotorSpeed_@81d0c055",
+                        "IR_VehicleStateSensing_BMS_MotorTorque_@bd3d1289",
+                        "IR_VehicleStateSensing_BMS_StateOfCharge_@115e5ab7"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedBMS_Info_@005f2bc5"
+                    ]
+                }
+            },
+            "Chosen_VehicleStateSensing_PCM_@317e86b8": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleStateSensing_PCM_MotorSpeed_@2e30c084",
+                        "IR_VehicleStateSensing_PCM_MotorSpeed_Delegation_@0ea6a56e",
+                        "IR_VehicleStateSensing_PCM_MotorTorque_@7a97a17c",
+                        "IR_VehicleStateSensing_PCM_MotorTorque_Delegation_@168219d1"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleStateSensing_PCM_@e2eac4ca"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedPCM_Info_@ca133cee"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_ABS_uispeed_@2e28d7ad": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_uispeed_Delegation_@b5e75cfb"
+                    ],
+                    "realizingInterface": [
+                        "ABS_Info_uispeed_@01c24500"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_BMS_BatteryCurrent_@4f531f62": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_BatteryCurrent_Delegation_@f1806e58"
+                    ],
+                    "realizingInterface": [
+                        "BMS_Info_BatteryCurrent_@153b4b17"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_BMS_BatteryPower_@e033f133": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_BatteryPower_Delegation_@0d21aaf0"
+                    ],
+                    "realizingInterface": [
+                        "BMS_Info_BatteryPower_@028262ff"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_BMS_BatteryVoltage_@40e712c4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_BatteryVoltage_Delegation_@8d6f7baa"
+                    ],
+                    "realizingInterface": [
+                        "BMS_Info_BatteryVoltage_@713815f0"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_BMS_MotorSpeed_@81d0c055": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleStateSensing_MotorSpeed_Assembly_@74dbebfb"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BMS_Info_MotorSpeed_@08906137"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_BMS_MotorTorque_@bd3d1289": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleStateSensing_MotorTorque_Assembly_@c84d3461"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BMS_Info_MotorTorque_@59a4f236"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_BMS_StateOfCharge_@115e5ab7": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_StateOfCharge_Delegation_@c4105e00"
+                    ],
+                    "realizingInterface": [
+                        "BMS_Info_StateOfCharge_@20c672bf"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_PCM_MotorSpeed_@2e30c084": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleStateSensing_MotorSpeed_Assembly_@74dbebfb"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "PCM_Info_MotorSpeed_@876eac26"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_PCM_MotorSpeed_Delegation_@0ea6a56e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_MotorSpeed_Delegation_@bb7cd0fb"
+                    ],
+                    "realizingInterface": [
+                        "PCM_Info_MotorSpeed_@876eac26"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_PCM_MotorTorque_@7a97a17c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleStateSensing_MotorTorque_Assembly_@c84d3461"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "PCM_Info_MotorTorque_@d7acb2d0"
+                    ]
+                }
+            },
+            "IR_VehicleStateSensing_PCM_MotorTorque_Delegation_@168219d1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleStateSensing_MotorTorque_Delegation_@3b8b2fd1"
+                    ],
+                    "realizingInterface": [
+                        "PCM_Info_MotorTorque_@d7acb2d0"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedVehicleStateSensing_@78717fe3",
+            "description": [
+                "Realizes VehicleStateSensing by its parts' realizations."
+            ],
+            "name": "ImplementedVehicleStateSensing",
+            "version_schema": "4.6.1"
+        }
+    }
+}

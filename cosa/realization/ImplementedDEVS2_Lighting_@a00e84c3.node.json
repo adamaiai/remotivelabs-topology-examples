@@ -1,0 +1,23 @@
+{
+    "ImplementedDEVS2_Lighting_@a00e84c3": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "374752fe5b9130ec9870f0850f596f05a97c1e3e66ee6361f1528c329748ffcc",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/rearlight.ldf"
+        },
+        "connections": {
+            "realizedModel": [
+                "DEVS2_Lighting_@15070e58"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedDEVS2_Lighting_@a00e84c3",
+            "description": [
+                "Implementation: RemotiveTopology mock generated from the database; the DEVS2 implementation serves all of its software components."
+            ],
+            "name": "ImplementedDEVS2_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

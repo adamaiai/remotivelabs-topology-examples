@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_BMS_Info_@20b46115": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "BMS_Info_@ba1bbeb6"
+            ],
+            "allocatedOnComputePlatform": [
+                "BMS_ECU_@05f62e35"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_BMS_Info_@25921a42"
+            ]
+        },
+        "aggregations": {
+            "CRIR_BMS_Info_@25921a42": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "BMS_Info_ComputeNeed_@1b0c17a6"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "BMS_ECU_Compute_@ce9ba207"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_BMS_Info_@20b46115",
+            "description": [
+                "BMS_Info runs on the BMS ECU."
+            ],
+            "name": "ComputeAllocation_BMS_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

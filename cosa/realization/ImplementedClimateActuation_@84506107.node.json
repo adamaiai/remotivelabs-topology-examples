@@ -1,0 +1,167 @@
+{
+    "ImplementedClimateActuation_@84506107": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_ClimateActuation_GWM_@c115231f",
+                "Chosen_ClimateActuation_HVAC_@d952f984"
+            ],
+            "realizedComposition": [
+                "ClimateActuation_@1db552fa"
+            ]
+        },
+        "aggregations": {
+            "Chosen_ClimateActuation_GWM_@c115231f": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ClimateActuation_GWM_HVACService_LeftTemperature_@d59879cd",
+                        "IR_ClimateActuation_GWM_HVACService_RightTemperature_@12bca905",
+                        "IR_ClimateActuation_GWM_LeftTemperature_@7ea466bb",
+                        "IR_ClimateActuation_GWM_RightTemperature_@8fe55ac3"
+                    ],
+                    "realizedPlaceholder": [
+                        "ClimateActuation_GWM_@8722707f"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedGWM_Climate_@282e2aa8"
+                    ]
+                }
+            },
+            "Chosen_ClimateActuation_HVAC_@d952f984": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ClimateActuation_HVAC_Climate_LeftTemperature_@6678343a",
+                        "IR_ClimateActuation_HVAC_Climate_RightTemperature_@8e32f28f",
+                        "IR_ClimateActuation_HVAC_LeftTemperature_@5f391f56",
+                        "IR_ClimateActuation_HVAC_RightTemperature_@3b973613"
+                    ],
+                    "realizedPlaceholder": [
+                        "ClimateActuation_HVAC_@f28b8a25"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedHVAC_Climate_@1ff66b80"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_GWM_HVACService_LeftTemperature_@d59879cd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateActuation_HVACService_LeftTemperature_Delegation_@8b49f84e"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Climate_HVACService_LeftTemperature_@ed46c44a"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_GWM_HVACService_RightTemperature_@12bca905": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateActuation_HVACService_RightTemperature_Delegation_@a50809b0"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Climate_HVACService_RightTemperature_@9dab4d8c"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_GWM_LeftTemperature_@7ea466bb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateActuation_LeftTemperature_Assembly_@3aa8a80b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Climate_LeftTemperature_@e242f991"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_GWM_RightTemperature_@8fe55ac3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateActuation_RightTemperature_Assembly_@8d77c986"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Climate_RightTemperature_@7c28a8e9"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_HVAC_Climate_LeftTemperature_@6678343a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateActuation_Climate_LeftTemperature_Delegation_@4e81a60d"
+                    ],
+                    "realizingInterface": [
+                        "HVAC_Climate_Climate_LeftTemperature_@ab88135d"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_HVAC_Climate_RightTemperature_@8e32f28f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ClimateActuation_Climate_RightTemperature_Delegation_@be1bd56c"
+                    ],
+                    "realizingInterface": [
+                        "HVAC_Climate_Climate_RightTemperature_@8ac172de"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_HVAC_LeftTemperature_@5f391f56": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateActuation_LeftTemperature_Assembly_@3aa8a80b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "HVAC_Climate_LeftTemperature_@ed6889f7"
+                    ]
+                }
+            },
+            "IR_ClimateActuation_HVAC_RightTemperature_@3b973613": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ClimateActuation_RightTemperature_Assembly_@8d77c986"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "HVAC_Climate_RightTemperature_@0315a474"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedClimateActuation_@84506107",
+            "description": [
+                "Realizes ClimateActuation by its parts' realizations."
+            ],
+            "name": "ImplementedClimateActuation",
+            "version_schema": "4.6.1"
+        }
+    }
+}

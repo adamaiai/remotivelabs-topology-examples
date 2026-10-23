@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_NotActivated_@fce7d1c2": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@08847b99"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_NotActivated_@fce7d1c2",
+            "description": [
+                "Critical: ExteriorLightingDesign_LeftTurnLightRequest_Assembly stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed_@2af213b2": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ExteriorLightingDesign_Driver_HazardLightButton_WronglyPressed_@a4c4d8b9"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ExteriorLightingDesign_HazardLightButton_Assembly_WronglyPressed_@c6c2bfc2"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed_@2af213b2",
+            "description": [
+                "Derived, not in the specification: Inside the exterior lighting design, request sensing puts the hazard button on DriverCan0."
+            ],
+            "name": "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

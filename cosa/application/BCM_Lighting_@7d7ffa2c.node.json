@@ -1,0 +1,188 @@
+{
+    "BCM_Lighting_@7d7ffa2c": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "BCM_Lighting_ComputeNeed_@6ab3e995"
+            ],
+            "externalInterface": [
+                "BCM_Lighting_BrakePedalPosition_@9a9d7490",
+                "BCM_Lighting_HazardLightButton_@0a2fe71a",
+                "BCM_Lighting_HighBeam_@cd6cb983",
+                "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7",
+                "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709",
+                "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e",
+                "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59",
+                "BCM_Lighting_LeftTurnLightRequest_@564219ca",
+                "BCM_Lighting_LightMode_@a2d211b9",
+                "BCM_Lighting_RightBrakeLightRequest_@98c2cd58",
+                "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774",
+                "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3",
+                "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8",
+                "BCM_Lighting_RightTurnLightRequest_@0dbba29d",
+                "BCM_Lighting_TurnSignal_@86604253"
+            ]
+        },
+        "aggregations": {
+            "BCM_Lighting_ComputeNeed_@6ab3e995": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource BCM_Lighting needs from the BCM ECU."
+                    ]
+                }
+            },
+            "BCM_Lighting_BrakePedalPosition_@9a9d7490": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_HazardLightButton_@0a2fe71a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_HighBeam_@cd6cb983": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_LeftTurnLightRequest_@564219ca": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_LightMode_@a2d211b9": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "LightModeEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_RightBrakeLightRequest_@98c2cd58": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_RightTurnLightRequest_@0dbba29d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_Lighting_TurnSignal_@86604253": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TurnSignalEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "BCM_Lighting_@7d7ffa2c",
+            "description": [
+                "ExteriorLighting software on the Body Control Module (BCM). Controls vehicle body electronics (lights, locks, etc.)."
+            ],
+            "name": "BCM_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

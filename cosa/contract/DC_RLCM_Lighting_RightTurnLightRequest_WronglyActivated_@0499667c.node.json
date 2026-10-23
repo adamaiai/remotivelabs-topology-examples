@@ -1,0 +1,27 @@
+{
+    "DC_RLCM_Lighting_RightTurnLightRequest_WronglyActivated_@0499667c": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RLCM_Lighting_RightTurnLightRequest_@048d9441"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RLCM_Lighting_RightTurnLightRequest_WronglyActivated_@0499667c",
+            "description": [
+                "Critical: RLCM_Lighting_RightTurnLightRequest is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_RLCM_Lighting_RightTurnLightRequest_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

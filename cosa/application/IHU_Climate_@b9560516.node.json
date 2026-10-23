@@ -1,0 +1,78 @@
+{
+    "IHU_Climate_@b9560516": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "IHU_Climate_ComputeNeed_@ab846c81"
+            ],
+            "externalInterface": [
+                "IHU_Climate_HVACService_LeftTemperature_@60235048",
+                "IHU_Climate_HVACService_RightTemperature_@da40b9f5",
+                "IHU_Climate_Occupant_LeftTemperatureSetpoint_@ba9ee56a",
+                "IHU_Climate_Occupant_RightTemperatureSetpoint_@c0b7f827"
+            ]
+        },
+        "aggregations": {
+            "IHU_Climate_ComputeNeed_@ab846c81": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource IHU_Climate needs from the IHU ECU."
+                    ]
+                }
+            },
+            "IHU_Climate_HVACService_LeftTemperature_@60235048": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_Climate_HVACService_RightTemperature_@da40b9f5": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_Climate_Occupant_LeftTemperatureSetpoint_@ba9ee56a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "IHU_Climate_Occupant_RightTemperatureSetpoint_@c0b7f827": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "IHU_Climate_@b9560516",
+            "description": [
+                "ClimateControl software on the Infotainment Head Unit (IHU). Manages infotainment and user interface systems."
+            ],
+            "name": "IHU_Climate",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

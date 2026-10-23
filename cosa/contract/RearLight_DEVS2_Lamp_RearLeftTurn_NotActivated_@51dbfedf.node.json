@@ -4,7 +4,7 @@
         "attributes": {},
         "connections": {
             "assume": [
-                "DC_ReqLeft_NotActivated_@18dcf349"
+                "DC_RearLight_ReqLeft_Assembly_NotActivated_@6e4c2c33"
             ],
             "assume_safetyContract": [],
             "guarantee": [
@@ -14,7 +14,7 @@
         "metadata": {
             "uuid": "RearLight_DEVS2_Lamp_RearLeftTurn_NotActivated_@51dbfedf",
             "description": [
-                "Derived, not in the specification: Inside RearLight, the DEVS2 placeholder lights the rear left turn lamp from ReqLeft."
+                "Derived, not in the specification: Inside RearLight, DEVS2 lights the rear left turn lamp from ReqLeft."
             ],
             "name": "RearLight_DEVS2_Lamp_RearLeftTurn_NotActivated",
             "version_schema": "4.6.1"

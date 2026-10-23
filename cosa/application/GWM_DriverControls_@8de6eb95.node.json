@@ -1,0 +1,78 @@
+{
+    "GWM_DriverControls_@8de6eb95": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "GWM_DriverControls_ComputeNeed_@28c25cbd"
+            ],
+            "externalInterface": [
+                "GWM_DriverControls_AcceleratorPedalPosition_BodyCan0_@c9b0e281",
+                "GWM_DriverControls_GearLeverPosition_@520e5d7e",
+                "GWM_DriverControls_GearService_Gear_@b8688f8f",
+                "GWM_DriverControls_SteeringWheelPosition_@72edc7ef"
+            ]
+        },
+        "aggregations": {
+            "GWM_DriverControls_ComputeNeed_@28c25cbd": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource GWM_DriverControls needs from the GWM ECU."
+                    ]
+                }
+            },
+            "GWM_DriverControls_AcceleratorPedalPosition_BodyCan0_@c9b0e281": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "GWM_DriverControls_GearLeverPosition_@520e5d7e": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_DriverControls_GearService_Gear_@b8688f8f": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_DriverControls_SteeringWheelPosition_@72edc7ef": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "GWM_DriverControls_@8de6eb95",
+            "description": [
+                "DriverControls software on the Gateway Module (GWM). Routes communication between different vehicle networks (BodyCan0, ChassisCan0, SOME/IP)."
+            ],
+            "name": "GWM_DriverControls",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

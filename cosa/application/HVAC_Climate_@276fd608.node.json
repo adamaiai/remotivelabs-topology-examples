@@ -1,0 +1,78 @@
+{
+    "HVAC_Climate_@276fd608": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "HVAC_Climate_ComputeNeed_@7a7dbe5c"
+            ],
+            "externalInterface": [
+                "HVAC_Climate_Climate_LeftTemperature_@ab88135d",
+                "HVAC_Climate_Climate_RightTemperature_@8ac172de",
+                "HVAC_Climate_LeftTemperature_@ed6889f7",
+                "HVAC_Climate_RightTemperature_@0315a474"
+            ]
+        },
+        "aggregations": {
+            "HVAC_Climate_ComputeNeed_@7a7dbe5c": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource HVAC_Climate needs from the HVAC ECU."
+                    ]
+                }
+            },
+            "HVAC_Climate_Climate_LeftTemperature_@ab88135d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "HVAC_Climate_Climate_RightTemperature_@8ac172de": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "HVAC_Climate_LeftTemperature_@ed6889f7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "HVAC_Climate_RightTemperature_@0315a474": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "HVAC_Climate_@276fd608",
+            "description": [
+                "ClimateControl software on the Heating, Ventilation, and Air Conditioning (HVAC). Receives temperature control from Android infotainment."
+            ],
+            "name": "HVAC_Climate",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

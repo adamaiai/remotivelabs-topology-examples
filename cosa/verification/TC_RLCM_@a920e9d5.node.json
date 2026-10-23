@@ -10,10 +10,10 @@
         },
         "connections": {
             "contractInScope": [
-                "RLCM_ReqLeft_NotActivated_@c5c5b56b",
-                "RLCM_ReqLeft_WronglyActivated_@8ad82a92",
-                "RLCM_ReqRight_NotActivated_@e6b1400c",
-                "RLCM_ReqRight_WronglyActivated_@872643ff"
+                "RLCM_Lighting_ReqLeft_NotActivated_@8e673bcd",
+                "RLCM_Lighting_ReqLeft_WronglyActivated_@4f9f9812",
+                "RLCM_Lighting_ReqRight_NotActivated_@43d84b08",
+                "RLCM_Lighting_ReqRight_WronglyActivated_@dc5dcb25"
             ]
         },
         "metadata": {

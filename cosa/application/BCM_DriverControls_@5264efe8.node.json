@@ -1,0 +1,108 @@
+{
+    "BCM_DriverControls_@5264efe8": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "BCM_DriverControls_ComputeNeed_@9f14c996"
+            ],
+            "externalInterface": [
+                "BCM_DriverControls_AcceleratorPedalPosition_BodyCan0_@488279b7",
+                "BCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@d2fea52f",
+                "BCM_DriverControls_GearLeverPosition_@428c9d83",
+                "BCM_DriverControls_GearShiftDown_@8dbf280a",
+                "BCM_DriverControls_GearShiftUp_@b65e48d4",
+                "BCM_DriverControls_SteeringAngle_@625a8884",
+                "BCM_DriverControls_SteeringWheelPosition_@7ff8da68"
+            ]
+        },
+        "aggregations": {
+            "BCM_DriverControls_ComputeNeed_@9f14c996": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource BCM_DriverControls needs from the BCM ECU."
+                    ]
+                }
+            },
+            "BCM_DriverControls_AcceleratorPedalPosition_BodyCan0_@488279b7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "BCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@d2fea52f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "BCM_DriverControls_GearLeverPosition_@428c9d83": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_DriverControls_GearShiftDown_@8dbf280a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_DriverControls_GearShiftUp_@b65e48d4": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "BCM_DriverControls_SteeringAngle_@625a8884": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "BCM_DriverControls_SteeringWheelPosition_@7ff8da68": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "BCM_DriverControls_@5264efe8",
+            "description": [
+                "DriverControls software on the Body Control Module (BCM). Controls vehicle body electronics (lights, locks, etc.)."
+            ],
+            "name": "BCM_DriverControls",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,363 @@
+{
+    "VehicleStateSensing_@8f098cb0": {
+        "stereotype": "ComposedApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "assemblyInterface": [
+                "VehicleStateSensing_MotorSpeed_Assembly_@74dbebfb",
+                "VehicleStateSensing_MotorTorque_Assembly_@c84d3461"
+            ],
+            "buildingBlock": [
+                "VehicleStateSensing_ABS_@ec41e2c7",
+                "VehicleStateSensing_BMS_@46f532fa",
+                "VehicleStateSensing_PCM_@e2eac4ca"
+            ],
+            "delegationInterface": [
+                "VehicleStateSensing_BatteryCurrent_Delegation_@f1806e58",
+                "VehicleStateSensing_BatteryPower_Delegation_@0d21aaf0",
+                "VehicleStateSensing_BatteryVoltage_Delegation_@8d6f7baa",
+                "VehicleStateSensing_MotorSpeed_Delegation_@bb7cd0fb",
+                "VehicleStateSensing_MotorTorque_Delegation_@3b8b2fd1",
+                "VehicleStateSensing_StateOfCharge_Delegation_@c4105e00",
+                "VehicleStateSensing_uispeed_Delegation_@b5e75cfb"
+            ],
+            "externalInterface": [
+                "VehicleStateSensing_BatteryCurrent_@9eb5396f",
+                "VehicleStateSensing_BatteryPower_@a1428868",
+                "VehicleStateSensing_BatteryVoltage_@1afeda7a",
+                "VehicleStateSensing_MotorSpeed_@9ed8fcf8",
+                "VehicleStateSensing_MotorTorque_@fc440db9",
+                "VehicleStateSensing_StateOfCharge_@cb3f03fa",
+                "VehicleStateSensing_uispeed_@621ce06b"
+            ]
+        },
+        "aggregations": {
+            "VehicleStateSensing_ABS_@ec41e2c7": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for ABS_Info."
+                    ]
+                }
+            },
+            "VehicleStateSensing_BMS_@46f532fa": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for BMS_Info."
+                    ]
+                }
+            },
+            "VehicleStateSensing_BatteryCurrent_@9eb5396f": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "VehicleStateSensing_BatteryPower_@a1428868": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "VehicleStateSensing_BatteryVoltage_@1afeda7a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "VehicleStateSensing_MotorSpeed_@9ed8fcf8": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
+            },
+            "VehicleStateSensing_MotorSpeed_Assembly_@74dbebfb": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleStateSensing_MotorSpeed_Assembly_CommNeed_@b84acce3"
+                    ],
+                    "consumedBy": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "providedBy": [
+                        "VehicleStateSensing_PCM_@e2eac4ca"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleStateSensing_MotorSpeed_Assembly_CommNeed_@b84acce3": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth MotorSpeed needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleStateSensing_MotorTorque_@fc440db9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ]
+                }
+            },
+            "VehicleStateSensing_MotorTorque_Assembly_@c84d3461": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleStateSensing_MotorTorque_Assembly_CommNeed_@538ae837"
+                    ],
+                    "consumedBy": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "providedBy": [
+                        "VehicleStateSensing_PCM_@e2eac4ca"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleStateSensing_MotorTorque_Assembly_CommNeed_@538ae837": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth MotorTorque needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleStateSensing_PCM_@e2eac4ca": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for PCM_Info."
+                    ]
+                }
+            },
+            "VehicleStateSensing_StateOfCharge_@cb3f03fa": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 1022 = Error, 1023 = SNA). Sent by BMS, received by GWM, DIM."
+                    ]
+                }
+            },
+            "VehicleStateSensing_uispeed_@621ce06b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 UISpeedFrame (id 123, 200 ms). Sent by ABS, received by GWM."
+                    ]
+                }
+            },
+            "VehicleStateSensing_BatteryCurrent_Delegation_@f1806e58": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_BatteryCurrent_@9eb5396f"
+                    ]
+                }
+            },
+            "VehicleStateSensing_BatteryPower_Delegation_@0d21aaf0": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_BatteryPower_@a1428868"
+                    ]
+                }
+            },
+            "VehicleStateSensing_BatteryVoltage_Delegation_@8d6f7baa": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_BatteryVoltage_@1afeda7a"
+                    ]
+                }
+            },
+            "VehicleStateSensing_MotorSpeed_Delegation_@bb7cd0fb": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_PCM_@e2eac4ca"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_MotorSpeed_@9ed8fcf8"
+                    ]
+                }
+            },
+            "VehicleStateSensing_MotorTorque_Delegation_@3b8b2fd1": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_PCM_@e2eac4ca"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_MotorTorque_@fc440db9"
+                    ]
+                }
+            },
+            "VehicleStateSensing_StateOfCharge_Delegation_@c4105e00": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_BMS_@46f532fa"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_StateOfCharge_@cb3f03fa"
+                    ]
+                }
+            },
+            "VehicleStateSensing_uispeed_Delegation_@b5e75cfb": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleStateSensing_ABS_@ec41e2c7"
+                    ],
+                    "outer": [
+                        "VehicleStateSensing_uispeed_@621ce06b"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "VehicleStateSensing_@8f098cb0",
+            "description": [
+                "Technical design (TSC level). ABS, BMS and PCM report speed, battery and motor state on ChassisCan0."
+            ],
+            "name": "VehicleStateSensing",
+            "version_schema": "4.6.1"
+        }
+    }
+}

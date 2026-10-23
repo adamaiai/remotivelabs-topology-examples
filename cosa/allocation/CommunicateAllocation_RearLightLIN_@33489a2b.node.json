@@ -4,218 +4,218 @@
         "attributes": {},
         "connections": {
             "allocatedApplicationCommunication": [
-                "ErrRespDEVS1_@9482e814",
-                "ReqLeft_@6d87a065",
-                "ReqRight_@426b4696",
-                "SomePartNrDEVS2EndSgn1_@b6abcfbc",
-                "SomePartNrDEVS2EndSgn2_@05602ddc",
-                "SomePartNrDEVS2EndSgn3_@519704e5",
-                "SomePartNrDEVS2Nr1_@29451da1",
-                "SomePartNrDEVS2Nr2_@422e96a8",
-                "SomePartNrDEVS2Nr3_@e648cef2",
-                "SomePartNrDEVS2Nr4_@764e6ff5",
-                "SomeQf_@87c2eb82",
-                "SomeReq1_@714b64c3",
-                "SomeReq2Type2_@690851d4",
-                "counter_@0d37480d",
-                "counter_times_2_@33756765"
+                "RearLight_ErrRespDEVS1_Assembly_@3de1c057",
+                "RearLight_ReqLeft_Assembly_@d3811b47",
+                "RearLight_ReqRight_Assembly_@f380d161",
+                "RearLight_SomePartNrDEVS2EndSgn1_Assembly_@9b055bc3",
+                "RearLight_SomePartNrDEVS2EndSgn2_Assembly_@135ba412",
+                "RearLight_SomePartNrDEVS2EndSgn3_Assembly_@bc58a23e",
+                "RearLight_SomePartNrDEVS2Nr1_Assembly_@9aad0988",
+                "RearLight_SomePartNrDEVS2Nr2_Assembly_@4c0004e7",
+                "RearLight_SomePartNrDEVS2Nr3_Assembly_@6d9db387",
+                "RearLight_SomePartNrDEVS2Nr4_Assembly_@302c0134",
+                "RearLight_SomeQf_Assembly_@aaf61ebd",
+                "RearLight_SomeReq1_Assembly_@d514ddcf",
+                "RearLight_SomeReq2Type2_Assembly_@36cf8c25",
+                "RearLight_counter_Assembly_@7240d966",
+                "RearLight_counter_times_2_Assembly_@e930744b"
             ],
             "allocatedOnCommunicationPlatform": [
                 "RearLightLIN_@3bfdd247"
             ],
             "communicateInterfaceRealization": [
-                "CIR_ErrRespDEVS1_@84734802",
-                "CIR_ReqLeft_@7d422343",
-                "CIR_ReqRight_@c7a595b8",
-                "CIR_SomePartNrDEVS2EndSgn1_@3a69b8ed",
-                "CIR_SomePartNrDEVS2EndSgn2_@c0d3d6bf",
-                "CIR_SomePartNrDEVS2EndSgn3_@b12a44a6",
-                "CIR_SomePartNrDEVS2Nr1_@e9be25db",
-                "CIR_SomePartNrDEVS2Nr2_@230f461b",
-                "CIR_SomePartNrDEVS2Nr3_@e386b6ea",
-                "CIR_SomePartNrDEVS2Nr4_@c00f0fd2",
-                "CIR_SomeQf_@5e0d582d",
-                "CIR_SomeReq1_@48ce015b",
-                "CIR_SomeReq2Type2_@bccb1906",
-                "CIR_counter_@727a3b40",
-                "CIR_counter_times_2_@4c5a33a3"
+                "CIR_RearLight_ErrRespDEVS1_Assembly_@72074376",
+                "CIR_RearLight_ReqLeft_Assembly_@f433868a",
+                "CIR_RearLight_ReqRight_Assembly_@1a41821c",
+                "CIR_RearLight_SomePartNrDEVS2EndSgn1_Assembly_@9587b4da",
+                "CIR_RearLight_SomePartNrDEVS2EndSgn2_Assembly_@b0b1fe32",
+                "CIR_RearLight_SomePartNrDEVS2EndSgn3_Assembly_@a3051723",
+                "CIR_RearLight_SomePartNrDEVS2Nr1_Assembly_@a657bfb0",
+                "CIR_RearLight_SomePartNrDEVS2Nr2_Assembly_@0bffaee8",
+                "CIR_RearLight_SomePartNrDEVS2Nr3_Assembly_@4a195488",
+                "CIR_RearLight_SomePartNrDEVS2Nr4_Assembly_@3f5cb35d",
+                "CIR_RearLight_SomeQf_Assembly_@c41502c0",
+                "CIR_RearLight_SomeReq1_Assembly_@cedc5b4c",
+                "CIR_RearLight_SomeReq2Type2_Assembly_@195f6888",
+                "CIR_RearLight_counter_Assembly_@d22675d7",
+                "CIR_RearLight_counter_times_2_Assembly_@ce0d5f5a"
             ]
         },
         "aggregations": {
-            "CIR_ErrRespDEVS1_@84734802": {
+            "CIR_RearLight_ErrRespDEVS1_Assembly_@72074376": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "ErrRespDEVS1_CommNeed_@e727c1d9"
+                        "RearLight_ErrRespDEVS1_Assembly_CommNeed_@7b88b2c1"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_ReqLeft_@7d422343": {
+            "CIR_RearLight_ReqLeft_Assembly_@f433868a": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "ReqLeft_CommNeed_@53c1100a"
+                        "RearLight_ReqLeft_Assembly_CommNeed_@392859a6"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_ReqRight_@c7a595b8": {
+            "CIR_RearLight_ReqRight_Assembly_@1a41821c": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "ReqRight_CommNeed_@87db5323"
+                        "RearLight_ReqRight_Assembly_CommNeed_@6a6af83b"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2EndSgn1_@3a69b8ed": {
+            "CIR_RearLight_SomePartNrDEVS2EndSgn1_Assembly_@9587b4da": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2EndSgn1_CommNeed_@2adb538d"
+                        "RearLight_SomePartNrDEVS2EndSgn1_Assembly_CommNeed_@3389e1da"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2EndSgn2_@c0d3d6bf": {
+            "CIR_RearLight_SomePartNrDEVS2EndSgn2_Assembly_@b0b1fe32": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2EndSgn2_CommNeed_@c098c734"
+                        "RearLight_SomePartNrDEVS2EndSgn2_Assembly_CommNeed_@56c03981"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2EndSgn3_@b12a44a6": {
+            "CIR_RearLight_SomePartNrDEVS2EndSgn3_Assembly_@a3051723": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2EndSgn3_CommNeed_@d7cfe2eb"
+                        "RearLight_SomePartNrDEVS2EndSgn3_Assembly_CommNeed_@4504871b"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2Nr1_@e9be25db": {
+            "CIR_RearLight_SomePartNrDEVS2Nr1_Assembly_@a657bfb0": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2Nr1_CommNeed_@c07336c6"
+                        "RearLight_SomePartNrDEVS2Nr1_Assembly_CommNeed_@ae245f6e"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2Nr2_@230f461b": {
+            "CIR_RearLight_SomePartNrDEVS2Nr2_Assembly_@0bffaee8": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2Nr2_CommNeed_@313886ef"
+                        "RearLight_SomePartNrDEVS2Nr2_Assembly_CommNeed_@aba7f333"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2Nr3_@e386b6ea": {
+            "CIR_RearLight_SomePartNrDEVS2Nr3_Assembly_@4a195488": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2Nr3_CommNeed_@70eb6cbc"
+                        "RearLight_SomePartNrDEVS2Nr3_Assembly_CommNeed_@50ce2c23"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomePartNrDEVS2Nr4_@c00f0fd2": {
+            "CIR_RearLight_SomePartNrDEVS2Nr4_Assembly_@3f5cb35d": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomePartNrDEVS2Nr4_CommNeed_@42af3e48"
+                        "RearLight_SomePartNrDEVS2Nr4_Assembly_CommNeed_@699ecb21"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomeQf_@5e0d582d": {
+            "CIR_RearLight_SomeQf_Assembly_@c41502c0": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomeQf_CommNeed_@79dc4f7e"
+                        "RearLight_SomeQf_Assembly_CommNeed_@a9833f85"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomeReq1_@48ce015b": {
+            "CIR_RearLight_SomeReq1_Assembly_@cedc5b4c": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomeReq1_CommNeed_@7c4fb508"
+                        "RearLight_SomeReq1_Assembly_CommNeed_@5ec3cf80"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_SomeReq2Type2_@bccb1906": {
+            "CIR_RearLight_SomeReq2Type2_Assembly_@195f6888": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SomeReq2Type2_CommNeed_@b8159f00"
+                        "RearLight_SomeReq2Type2_Assembly_CommNeed_@03a44d38"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_counter_@727a3b40": {
+            "CIR_RearLight_counter_Assembly_@d22675d7": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "counter_CommNeed_@58e9dba9"
+                        "RearLight_counter_Assembly_CommNeed_@dbed88a8"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"
                     ]
                 }
             },
-            "CIR_counter_times_2_@4c5a33a3": {
+            "CIR_RearLight_counter_times_2_Assembly_@ce0d5f5a": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "counter_times_2_CommNeed_@0ffe80e9"
+                        "RearLight_counter_times_2_Assembly_CommNeed_@99c0a690"
                     ],
                     "platformCommunicationResource": [
                         "RearLightLIN_Bandwidth_@d7cb520c"

@@ -1,0 +1,48 @@
+{
+    "ABS_Info_@4d037b0b": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "ABS_Info_ComputeNeed_@9dcd788f"
+            ],
+            "externalInterface": [
+                "ABS_Info_uispeed_@01c24500"
+            ]
+        },
+        "aggregations": {
+            "ABS_Info_ComputeNeed_@9dcd788f": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource ABS_Info needs from the ABS ECU."
+                    ]
+                }
+            },
+            "ABS_Info_uispeed_@01c24500": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "ABS_Info_@4d037b0b",
+            "description": [
+                "VehicleInformation software on the Anti-lock Braking System (ABS). Provides speed."
+            ],
+            "name": "ABS_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

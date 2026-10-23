@@ -17,10 +17,9 @@
         "metadata": {
             "uuid": "RemotiveCar_Lamp_FrontLeftTurn_WronglyActivated_@bb6c61fb",
             "description": [
-                "SYSREQ_TURN_SIGNAL_SIGNALING (Turn Signal Indication): When the driver asserts a left or right turn intention, the system shall illuminate only the front and rear turn indicator lamps on the side matching the active turn input."
+                "Derived, not in the specification: Vehicle-level view of SYSREQ_TURN_SIGNAL_SIGNALING."
             ],
             "name": "RemotiveCar_Lamp_FrontLeftTurn_WronglyActivated",
-            "source": "remotive_car/docs/requirements/system_requirements.rst#SYSREQ_TURN_SIGNAL_SIGNALING",
             "version_schema": "4.6.1"
         }
     }

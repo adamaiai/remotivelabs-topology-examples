@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_HazardLightButton_Assembly_WronglyPressed_@c6c2bfc2": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ExteriorLightingDesign_HazardLightButton_Assembly_@3a1cbdd0"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_HazardLightButton_Assembly_WronglyPressed_@c6c2bfc2",
+            "description": [
+                "Critical: ExteriorLightingDesign_HazardLightButton_Assembly reads pressed for longer than 50 ms while the button is released."
+            ],
+            "name": "DC_ExteriorLightingDesign_HazardLightButton_Assembly_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

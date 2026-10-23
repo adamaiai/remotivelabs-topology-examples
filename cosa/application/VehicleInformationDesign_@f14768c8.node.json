@@ -1,0 +1,1054 @@
+{
+    "VehicleInformationDesign_@f14768c8": {
+        "stereotype": "ComposedApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "assemblyInterface": [
+                "VehicleInformationDesign_BatteryCurrent_Assembly_@5b06c755",
+                "VehicleInformationDesign_BatteryPower_Assembly_@b8fde13b",
+                "VehicleInformationDesign_BatteryVoltage_Assembly_@ba523764",
+                "VehicleInformationDesign_Heading_Assembly_@f243ee67",
+                "VehicleInformationDesign_Latitude_Assembly_@293b356c",
+                "VehicleInformationDesign_Longitude_Assembly_@d457908b",
+                "VehicleInformationDesign_MotorSpeed_Assembly_@2046dbc0",
+                "VehicleInformationDesign_MotorTorque_Assembly_@3811a94e",
+                "VehicleInformationDesign_ProximityDistance_Assembly_@57becf40",
+                "VehicleInformationDesign_StateOfCharge_Assembly_@54c6dfc2",
+                "VehicleInformationDesign_uispeed_Assembly_@ceeecd1d"
+            ],
+            "buildingBlock": [
+                "VehicleInformationDesign_InformationDisplay_@f411a8e9",
+                "VehicleInformationDesign_ParkingSensing_@65f14e7d",
+                "VehicleInformationDesign_PositionSensing_@e48e3fec",
+                "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+            ],
+            "delegationInterface": [
+                "VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation_@1cccf4d3",
+                "VehicleInformationDesign_Cluster_ProximityDistance_Delegation_@2cd7ae4d",
+                "VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation_@66d102e5",
+                "VehicleInformationDesign_Cluster_StateOfCharge_Delegation_@adc9668f",
+                "VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation_@afda08d0",
+                "VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation_@4d274d05",
+                "VehicleInformationDesign_Infotainment_VehicleSpeed_Delegation_@a461e2d3",
+                "VehicleInformationDesign_LeftBrakeLightRequest_Delegation_@25aac606",
+                "VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation_@6cc2f12d",
+                "VehicleInformationDesign_LeftHighBeamLightRequest_Delegation_@ba8f4fee",
+                "VehicleInformationDesign_LeftLowBeamLightRequest_Delegation_@6de4305d",
+                "VehicleInformationDesign_LeftTurnLightRequest_Delegation_@86377bfd",
+                "VehicleInformationDesign_RightBrakeLightRequest_Delegation_@205ae60b",
+                "VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation_@d0976596",
+                "VehicleInformationDesign_RightHighBeamLightRequest_Delegation_@b6736d84",
+                "VehicleInformationDesign_RightLowBeamLightRequest_Delegation_@55188eb3",
+                "VehicleInformationDesign_RightTurnLightRequest_Delegation_@2e5565a7"
+            ],
+            "externalInterface": [
+                "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f",
+                "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29",
+                "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35",
+                "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc",
+                "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9",
+                "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0",
+                "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa",
+                "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a",
+                "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f",
+                "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc",
+                "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26",
+                "VehicleInformationDesign_LeftTurnLightRequest_@10a72725",
+                "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91",
+                "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f",
+                "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403",
+                "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1",
+                "VehicleInformationDesign_RightTurnLightRequest_@f952c26a"
+            ]
+        },
+        "aggregations": {
+            "VehicleInformationDesign_BatteryCurrent_Assembly_@5b06c755": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed_@719d30d9"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed_@719d30d9": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth BatteryCurrent needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_BatteryPower_Assembly_@b8fde13b": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_BatteryPower_Assembly_CommNeed_@a1f4b63b"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_BatteryPower_Assembly_CommNeed_@a1f4b63b": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth BatteryPower needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_BatteryVoltage_Assembly_@ba523764": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_BatteryVoltage_Assembly_CommNeed_@72b55e92"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryMeasurement (id 140, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by BMS, received by GWM, DIM."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_BatteryVoltage_Assembly_CommNeed_@72b55e92": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth BatteryVoltage needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Parking proximity distance shown in the instrument cluster."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Battery state of charge shown in the instrument cluster."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Heading_Assembly_@f243ee67": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_Heading_Assembly_CommNeed_@72b980b1"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_PositionSensing_@e48e3fec"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_Heading_Assembly_CommNeed_@72b980b1": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth Heading needs on BodyCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_InformationDisplay_@f411a8e9": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for InformationDisplay."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Vehicle speed shown in the infotainment unit."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Latitude_Assembly_@293b356c": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_Latitude_Assembly_CommNeed_@c635dec4"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_PositionSensing_@e48e3fec"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_Latitude_Assembly_CommNeed_@c635dec4": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth Latitude needs on BodyCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftTurnLightRequest_@10a72725": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Longitude_Assembly_@d457908b": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_Longitude_Assembly_CommNeed_@c870197f"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_PositionSensing_@e48e3fec"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_Longitude_Assembly_CommNeed_@c870197f": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth Longitude needs on BodyCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_MotorSpeed_Assembly_@2046dbc0": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_MotorSpeed_Assembly_CommNeed_@72c66bb7"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_MotorSpeed_Assembly_CommNeed_@72c66bb7": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth MotorSpeed needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_MotorTorque_Assembly_@3811a94e": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_MotorTorque_Assembly_CommNeed_@37a78146"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 MotorInfo (id 150, 20 ms, raw 65534 = Error, 65535 = SNA). Sent by PCM, received by GWM, DIM, BMS."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_MotorTorque_Assembly_CommNeed_@37a78146": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth MotorTorque needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_ParkingSensing_@65f14e7d": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for PAM_Info."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_PositionSensing_@e48e3fec": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for TCU_Info."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_ProximityDistance_Assembly_@57becf40": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_ProximityDistance_Assembly_CommNeed_@f4a8ca47"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_ParkingSensing_@65f14e7d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 ProximityInfo (id 109, 50 ms, raw 255 = NoObject). Sent by PAM, received by DIM, GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_ProximityDistance_Assembly_CommNeed_@f4a8ca47": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth ProximityDistance needs on BodyCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightTurnLightRequest_@f952c26a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_StateOfCharge_Assembly_@54c6dfc2": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_StateOfCharge_Assembly_CommNeed_@23c3b7ea"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 1022 = Error, 1023 = SNA). Sent by BMS, received by GWM, DIM."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_StateOfCharge_Assembly_CommNeed_@23c3b7ea": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth StateOfCharge needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_VehicleStateSensing_@c49a3226": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for VehicleStateSensing."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_uispeed_Assembly_@ceeecd1d": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "VehicleInformationDesign_uispeed_Assembly_CommNeed_@cb6669a9"
+                    ],
+                    "consumedBy": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "providedBy": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "ChassisCan0 UISpeedFrame (id 123, 200 ms). Sent by ABS, received by GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/chassis_can.dbc"
+                }
+            },
+            "VehicleInformationDesign_uispeed_Assembly_CommNeed_@cb6669a9": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth uispeed needs on ChassisCan0."
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation_@1cccf4d3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_ProximityDistance_Delegation_@2cd7ae4d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_ProximityDistance_@fd8d7c29"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation_@66d102e5": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Cluster_StateOfCharge_Delegation_@adc9668f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Cluster_StateOfCharge_@f8be3bbc"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation_@afda08d0": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation_@4d274d05": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_Infotainment_VehicleSpeed_Delegation_@a461e2d3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_Infotainment_VehicleSpeed_@fb9c87aa"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftBrakeLightRequest_Delegation_@25aac606": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftBrakeLightRequest_@e2d2b59a"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation_@6cc2f12d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftDaylightRunningLightRequest_@4dfad17f"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftHighBeamLightRequest_Delegation_@ba8f4fee": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftHighBeamLightRequest_@9844f0fc"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftLowBeamLightRequest_Delegation_@6de4305d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftLowBeamLightRequest_@a39c7b26"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_LeftTurnLightRequest_Delegation_@86377bfd": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_LeftTurnLightRequest_@10a72725"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightBrakeLightRequest_Delegation_@205ae60b": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightBrakeLightRequest_@19b12c91"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation_@d0976596": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightDaylightRunningLightRequest_@1c46269f"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightHighBeamLightRequest_Delegation_@b6736d84": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightHighBeamLightRequest_@1fd16403"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightLowBeamLightRequest_Delegation_@55188eb3": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightLowBeamLightRequest_@939f3ee1"
+                    ]
+                }
+            },
+            "VehicleInformationDesign_RightTurnLightRequest_Delegation_@2e5565a7": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "outer": [
+                        "VehicleInformationDesign_RightTurnLightRequest_@f952c26a"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "VehicleInformationDesign_@f14768c8",
+            "description": [
+                "Functional design (FSC level). Functional design of vehicle information: sense vehicle state, position and proximity, display it to the driver."
+            ],
+            "name": "VehicleInformationDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "GWM_Climate_@406c88b2": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "GWM_Climate_ComputeNeed_@08899a83"
+            ],
+            "externalInterface": [
+                "GWM_Climate_HVACService_LeftTemperature_@ed46c44a",
+                "GWM_Climate_HVACService_RightTemperature_@9dab4d8c",
+                "GWM_Climate_LeftTemperature_@e242f991",
+                "GWM_Climate_RightTemperature_@7c28a8e9"
+            ]
+        },
+        "aggregations": {
+            "GWM_Climate_ComputeNeed_@08899a83": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource GWM_Climate needs from the GWM ECU."
+                    ]
+                }
+            },
+            "GWM_Climate_HVACService_LeftTemperature_@ed46c44a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_Climate_HVACService_RightTemperature_@9dab4d8c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_Climate_LeftTemperature_@e242f991": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "GWM_Climate_RightTemperature_@7c28a8e9": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "GWM_Climate_@406c88b2",
+            "description": [
+                "ClimateControl software on the Gateway Module (GWM). Routes communication between different vehicle networks (BodyCan0, ChassisCan0, SOME/IP)."
+            ],
+            "name": "GWM_Climate",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

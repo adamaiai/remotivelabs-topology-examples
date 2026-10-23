@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_SCCM_DriverControls_@b7dbfba4": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "SCCM_DriverControls_@bbc505e6"
+            ],
+            "allocatedOnComputePlatform": [
+                "SCCM_ECU_@59d09083"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_SCCM_DriverControls_@73089d3d"
+            ]
+        },
+        "aggregations": {
+            "CRIR_SCCM_DriverControls_@73089d3d": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "SCCM_DriverControls_ComputeNeed_@c682e423"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "SCCM_ECU_Compute_@65692407"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_SCCM_DriverControls_@b7dbfba4",
+            "description": [
+                "SCCM_DriverControls runs on the SCCM ECU."
+            ],
+            "name": "ComputeAllocation_SCCM_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

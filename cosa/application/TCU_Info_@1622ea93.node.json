@@ -1,0 +1,68 @@
+{
+    "TCU_Info_@1622ea93": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "TCU_Info_ComputeNeed_@713ecfdd"
+            ],
+            "externalInterface": [
+                "TCU_Info_Heading_@ad4bd68a",
+                "TCU_Info_Latitude_@dc5fafc0",
+                "TCU_Info_Longitude_@eed3d47f"
+            ]
+        },
+        "aggregations": {
+            "TCU_Info_ComputeNeed_@713ecfdd": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource TCU_Info needs from the TCU ECU."
+                    ]
+                }
+            },
+            "TCU_Info_Heading_@ad4bd68a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "TCU_Info_Latitude_@dc5fafc0": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "TCU_Info_Longitude_@eed3d47f": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "TCU_Info_@1622ea93",
+            "description": [
+                "VehicleInformation software on the Telematics Control Unit (TCU). Provides GNSS location."
+            ],
+            "name": "TCU_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

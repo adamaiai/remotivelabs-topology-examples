@@ -1,0 +1,28 @@
+{
+    "ExteriorLightingDesign_Lamp_FrontRightTurn_NotActivated_@2766508a": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_ExteriorLightingDesign_Driver_HazardLightButton_NotPressed_@83dcb9d8",
+                "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread_@0102e6d4"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ExteriorLightingDesign_Lamp_FrontRightTurn_NotActivated_@3988d11b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_Lamp_FrontRightTurn_NotActivated_@2766508a",
+            "description": [
+                "SYSREQ_TURN_SIGNAL_SIGNALING (Turn Signal Indication): When the driver asserts a left or right turn intention, the system shall illuminate only the front and rear turn indicator lamps on the side matching the active turn input.",
+                "SYSREQ_HAZARD_LIGHT_SAFETY (Hazard Light Safety): When the hazard light button is activated, the Body Control Module shall command simultaneous left and right turn indicator activation within one signal processing cycle."
+            ],
+            "name": "ExteriorLightingDesign_Lamp_FrontRightTurn_NotActivated",
+            "source": "remotive_car/docs/requirements/system_requirements.rst#SYSREQ_TURN_SIGNAL_SIGNALING; remotive_car/docs/requirements/system_requirements.rst#SYSREQ_HAZARD_LIGHT_SAFETY",
+            "version_schema": "4.6.1"
+        }
+    }
+}

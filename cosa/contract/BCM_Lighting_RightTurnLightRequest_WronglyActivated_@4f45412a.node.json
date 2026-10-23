@@ -1,0 +1,28 @@
+{
+    "BCM_Lighting_RightTurnLightRequest_WronglyActivated_@4f45412a": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_BCM_Lighting_HazardLightButton_WronglyPressed_@637485ae",
+                "DC_BCM_Lighting_TurnSignal_Misread_@3c8b773f"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_BCM_Lighting_RightTurnLightRequest_WronglyActivated_@d6ee21aa"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_Lighting_RightTurnLightRequest_WronglyActivated_@4f45412a",
+            "description": [
+                "COMP_REQ_BCM_TURN_RIGHT (Turn Signal Right Activation): The Body Control Module shall maintain the RightTurnLight output on BodyCan0 in the active state within one signal-processing cycle when and only when the TurnSignalRight input on DriverCan0 is asserted.",
+                "COMP_REQ_BCM_TURN_SM (Turn Signal Hazard Priority): The Body Control Module shall command the turn indicator outputs such that when the hazard state is active both indicator outputs are commanded irrespective of the directional inputs, and when the hazard state is inactive only the indicator on the side of the active directional input is commanded."
+            ],
+            "name": "BCM_Lighting_RightTurnLightRequest_WronglyActivated",
+            "source": "remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_RIGHT; remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_SM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

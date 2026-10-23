@@ -1,0 +1,248 @@
+{
+    "GWM_Info_@78db77d5": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "GWM_Info_ComputeNeed_@f3fdaa80"
+            ],
+            "externalInterface": [
+                "GWM_Info_BatteryCurrent_@463df0e0",
+                "GWM_Info_BatteryPower_@d16f563d",
+                "GWM_Info_BatteryVoltage_@641b224f",
+                "GWM_Info_Heading_@31cd29a7",
+                "GWM_Info_Latitude_@153a1f93",
+                "GWM_Info_LeftBrakeLightRequest_@7f457a87",
+                "GWM_Info_LeftTurnLightRequest_@6cee7285",
+                "GWM_Info_LocationService_Heading_@dcabe277",
+                "GWM_Info_LocationService_Latitude_@b335ae86",
+                "GWM_Info_LocationService_Longitude_@8d41532a",
+                "GWM_Info_Longitude_@815047bb",
+                "GWM_Info_MotorSpeed_@826d618f",
+                "GWM_Info_MotorTorque_@3728b952",
+                "GWM_Info_ProximityDistance_@d9faa2f2",
+                "GWM_Info_RightBrakeLightRequest_@e6120b0c",
+                "GWM_Info_RightTurnLightRequest_@3b97972c",
+                "GWM_Info_SpeedService_Speed_@f31b7d76",
+                "GWM_Info_StateOfCharge_@a06cd53a",
+                "GWM_Info_TurnlightIndicator_LeftTurnlight_@3180f6d1",
+                "GWM_Info_TurnlightIndicator_RightTurnlight_@74cecd7d",
+                "GWM_Info_uispeed_@5611f4bc"
+            ]
+        },
+        "aggregations": {
+            "GWM_Info_ComputeNeed_@f3fdaa80": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource GWM_Info needs from the GWM ECU."
+                    ]
+                }
+            },
+            "GWM_Info_BatteryCurrent_@463df0e0": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {}
+            },
+            "GWM_Info_BatteryPower_@d16f563d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {}
+            },
+            "GWM_Info_BatteryVoltage_@641b224f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {}
+            },
+            "GWM_Info_Heading_@31cd29a7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Info_Latitude_@153a1f93": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Info_LeftBrakeLightRequest_@7f457a87": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_Info_LeftTurnLightRequest_@6cee7285": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_Info_LocationService_Heading_@dcabe277": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Info_LocationService_Latitude_@b335ae86": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Info_LocationService_Longitude_@8d41532a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Info_Longitude_@815047bb": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {}
+            },
+            "GWM_Info_MotorSpeed_@826d618f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {}
+            },
+            "GWM_Info_MotorTorque_@3728b952": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {}
+            },
+            "GWM_Info_ProximityDistance_@d9faa2f2": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {}
+            },
+            "GWM_Info_RightBrakeLightRequest_@e6120b0c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_Info_RightTurnLightRequest_@3b97972c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_Info_SpeedService_Speed_@f31b7d76": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            },
+            "GWM_Info_StateOfCharge_@a06cd53a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {}
+            },
+            "GWM_Info_TurnlightIndicator_LeftTurnlight_@3180f6d1": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_Info_TurnlightIndicator_RightTurnlight_@74cecd7d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "GWM_Info_uispeed_@5611f4bc": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m/s"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "GWM_Info_@78db77d5",
+            "description": [
+                "VehicleInformation software on the Gateway Module (GWM). Routes communication between different vehicle networks (BodyCan0, ChassisCan0, SOME/IP)."
+            ],
+            "name": "GWM_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

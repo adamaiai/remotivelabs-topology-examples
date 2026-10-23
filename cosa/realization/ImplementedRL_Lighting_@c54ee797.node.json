@@ -1,0 +1,23 @@
+{
+    "ImplementedRL_Lighting_@c54ee797": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "8bc5780974f683e830056483960faf4919e52903",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/rl/python/rl"
+        },
+        "connections": {
+            "realizedModel": [
+                "RL_Lighting_@fb21c7b7"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedRL_Lighting_@c54ee797",
+            "description": [
+                "Implementation: Python behavioral model; the RL implementation serves all of its software components."
+            ],
+            "name": "ImplementedRL_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

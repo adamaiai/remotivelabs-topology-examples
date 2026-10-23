@@ -1,0 +1,29 @@
+{
+    "BCM_Lighting_LeftTurnLightRequest_NotActivated_@27d349ff": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_BCM_Lighting_HazardLightButton_NotPressed_@b356dec2",
+                "DC_BCM_Lighting_TurnSignal_Misread_@3c8b773f"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_BCM_Lighting_LeftTurnLightRequest_NotActivated_@27a3fe5c"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_Lighting_LeftTurnLightRequest_NotActivated_@27d349ff",
+            "description": [
+                "COMP_REQ_BCM_TURN_LEFT (Turn Signal Left Activation): The Body Control Module shall maintain the LeftTurnLight output on BodyCan0 in the active state within one signal-processing cycle when and only when the TurnSignalLeft input on DriverCan0 is asserted.",
+                "COMP_REQ_BCM_TURN_SM (Turn Signal Hazard Priority): The Body Control Module shall command the turn indicator outputs such that when the hazard state is active both indicator outputs are commanded irrespective of the directional inputs, and when the hazard state is inactive only the indicator on the side of the active directional input is commanded.",
+                "COMP_REQ_BCM_HAZARD (Hazard Light Signal Processing): The Body Control Module shall activate both left and right turn light requests on BodyCan0 when the HazardLightButton signal transitions to the active state on DriverCan0."
+            ],
+            "name": "BCM_Lighting_LeftTurnLightRequest_NotActivated",
+            "source": "remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_LEFT; remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_SM; remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_HAZARD",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,248 @@
+{
+    "DIM_Info_@ba99a202": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "DIM_Info_ComputeNeed_@83b09d13"
+            ],
+            "externalInterface": [
+                "DIM_Info_BatteryCurrent_@95402bdd",
+                "DIM_Info_BatteryPower_@6aebd913",
+                "DIM_Info_BatteryVoltage_@af7f3ab2",
+                "DIM_Info_Cluster_LeftTurnTelltale_@0a36260e",
+                "DIM_Info_Cluster_ProximityDistance_@268edfd6",
+                "DIM_Info_Cluster_RightTurnTelltale_@7a72a4bb",
+                "DIM_Info_Cluster_StateOfCharge_@8aa3717b",
+                "DIM_Info_LeftBrakeLightRequest_@103a363d",
+                "DIM_Info_LeftDaylightRunningLightRequest_@1192d155",
+                "DIM_Info_LeftHighBeamLightRequest_@69a38389",
+                "DIM_Info_LeftLowBeamLightRequest_@75d40224",
+                "DIM_Info_LeftTurnLightRequest_@21c53684",
+                "DIM_Info_MotorSpeed_@e0d10d9a",
+                "DIM_Info_MotorTorque_@30b04253",
+                "DIM_Info_ProximityDistance_@14b78b56",
+                "DIM_Info_RightBrakeLightRequest_@8122de2a",
+                "DIM_Info_RightDaylightRunningLightRequest_@c4a6b6d7",
+                "DIM_Info_RightHighBeamLightRequest_@52877d7c",
+                "DIM_Info_RightLowBeamLightRequest_@6804fda2",
+                "DIM_Info_RightTurnLightRequest_@acdb992e",
+                "DIM_Info_StateOfCharge_@4c433a7b"
+            ]
+        },
+        "aggregations": {
+            "DIM_Info_ComputeNeed_@83b09d13": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource DIM_Info needs from the DIM ECU."
+                    ]
+                }
+            },
+            "DIM_Info_BatteryCurrent_@95402bdd": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "A"
+                },
+                "connections": {}
+            },
+            "DIM_Info_BatteryPower_@6aebd913": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "kW"
+                },
+                "connections": {}
+            },
+            "DIM_Info_BatteryVoltage_@af7f3ab2": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "V"
+                },
+                "connections": {}
+            },
+            "DIM_Info_Cluster_LeftTurnTelltale_@0a36260e": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_Cluster_ProximityDistance_@268edfd6": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {}
+            },
+            "DIM_Info_Cluster_RightTurnTelltale_@7a72a4bb": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_Cluster_StateOfCharge_@8aa3717b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {}
+            },
+            "DIM_Info_LeftBrakeLightRequest_@103a363d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_LeftDaylightRunningLightRequest_@1192d155": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_LeftHighBeamLightRequest_@69a38389": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_LeftLowBeamLightRequest_@75d40224": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_LeftTurnLightRequest_@21c53684": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_MotorSpeed_@e0d10d9a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {}
+            },
+            "DIM_Info_MotorTorque_@30b04253": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {}
+            },
+            "DIM_Info_ProximityDistance_@14b78b56": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {}
+            },
+            "DIM_Info_RightBrakeLightRequest_@8122de2a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_RightDaylightRunningLightRequest_@c4a6b6d7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_RightHighBeamLightRequest_@52877d7c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_RightLowBeamLightRequest_@6804fda2": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_RightTurnLightRequest_@acdb992e": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "DIM_Info_StateOfCharge_@4c433a7b": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "percent"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "DIM_Info_@ba99a202",
+            "description": [
+                "VehicleInformation software on the Driver Information Module (DIM). Manages instrument cluster and driver displays."
+            ],
+            "name": "DIM_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

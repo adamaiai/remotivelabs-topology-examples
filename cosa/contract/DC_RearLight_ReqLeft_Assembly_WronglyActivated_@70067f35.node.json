@@ -1,0 +1,27 @@
+{
+    "DC_RearLight_ReqLeft_Assembly_WronglyActivated_@70067f35": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RearLight_ReqLeft_Assembly_@d3811b47"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RearLight_ReqLeft_Assembly_WronglyActivated_@70067f35",
+            "description": [
+                "Critical: RearLight_ReqLeft_Assembly is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_RearLight_ReqLeft_Assembly_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

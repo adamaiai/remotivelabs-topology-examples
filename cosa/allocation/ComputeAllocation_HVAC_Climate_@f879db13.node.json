@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_HVAC_Climate_@f879db13": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "HVAC_Climate_@276fd608"
+            ],
+            "allocatedOnComputePlatform": [
+                "HVAC_ECU_@111f2754"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_HVAC_Climate_@bf69223e"
+            ]
+        },
+        "aggregations": {
+            "CRIR_HVAC_Climate_@bf69223e": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "HVAC_Climate_ComputeNeed_@7a7dbe5c"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "HVAC_ECU_Compute_@9b654228"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_HVAC_Climate_@f879db13",
+            "description": [
+                "HVAC_Climate runs on the HVAC ECU."
+            ],
+            "name": "ComputeAllocation_HVAC_Climate",
+            "version_schema": "4.6.1"
+        }
+    }
+}

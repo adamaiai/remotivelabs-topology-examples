@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_ABS_Info_@3dff0add": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "ABS_Info_@4d037b0b"
+            ],
+            "allocatedOnComputePlatform": [
+                "ABS_ECU_@3310b0dc"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_ABS_Info_@595bd2d5"
+            ]
+        },
+        "aggregations": {
+            "CRIR_ABS_Info_@595bd2d5": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "ABS_Info_ComputeNeed_@9dcd788f"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "ABS_ECU_Compute_@4efd696e"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_ABS_Info_@3dff0add",
+            "description": [
+                "ABS_Info runs on the ABS ECU."
+            ],
+            "name": "ComputeAllocation_ABS_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

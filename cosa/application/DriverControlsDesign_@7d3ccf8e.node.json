@@ -1,0 +1,531 @@
+{
+    "DriverControlsDesign_@7d3ccf8e": {
+        "stereotype": "ComposedApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "assemblyInterface": [
+                "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@8238fb9f",
+                "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@1792ac31",
+                "DriverControlsDesign_GearLeverPosition_Assembly_@e60f0e74",
+                "DriverControlsDesign_GearShiftDown_Assembly_@b760e779",
+                "DriverControlsDesign_GearShiftUp_Assembly_@516c15c7",
+                "DriverControlsDesign_SteeringAngle_Assembly_@b9e154a8",
+                "DriverControlsDesign_SteeringWheelPosition_Assembly_@963dc33f"
+            ],
+            "buildingBlock": [
+                "DriverControlsDesign_DriveStateProcessing_@55d23be7",
+                "DriverControlsDesign_DriverInformation_@b4a96bac",
+                "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+            ],
+            "delegationInterface": [
+                "DriverControlsDesign_Cluster_GearLeverPosition_Delegation_@a884f925",
+                "DriverControlsDesign_Driver_AcceleratorPedalPosition_Delegation_@7dadddd6",
+                "DriverControlsDesign_Driver_GearShiftDown_Delegation_@f92f55f5",
+                "DriverControlsDesign_Driver_GearShiftUp_Delegation_@ef6b7d8d",
+                "DriverControlsDesign_Driver_SteeringAngle_Delegation_@8eb9e560",
+                "DriverControlsDesign_Infotainment_Gear_Delegation_@1735ad12"
+            ],
+            "externalInterface": [
+                "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888",
+                "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787",
+                "DriverControlsDesign_Driver_GearShiftDown_@beddfa34",
+                "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5",
+                "DriverControlsDesign_Driver_SteeringAngle_@802e5917",
+                "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
+            ]
+        },
+        "aggregations": {
+            "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@8238fb9f": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed_@5e1ff695"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 AcceleratorPedalInfo (id 107, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed_@5e1ff695": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth AcceleratorPedalPosition_BodyCan0 needs on BodyCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@1792ac31": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_CommNeed_@ea85da29"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "DriverCan0 AcceleratorPedalPositionSensor (id 105, 50 ms). Sent by SCCM, received by BCM."
+                    ],
+                    "source": "remotive_car/platform/databases/driver_can.dbc"
+                }
+            },
+            "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_CommNeed_@ea85da29": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth AcceleratorPedalPosition_DriverCan0 needs on DriverCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the instrument cluster."
+                    ]
+                }
+            },
+            "DriverControlsDesign_DriveStateProcessing_@55d23be7": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for BCM_DriverControls."
+                    ]
+                }
+            },
+            "DriverControlsDesign_DriverInformation_@b4a96bac": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for DriverInformation."
+                    ]
+                }
+            },
+            "DriverControlsDesign_DriverInputSensing_@1dc246dc": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for SCCM_DriverControls."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver presses the accelerator pedal."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_GearShiftDown_@beddfa34": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver pulls the gear shift down paddle."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver pulls the gear shift up paddle."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_SteeringAngle_@802e5917": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Driver turns the steering wheel."
+                    ]
+                }
+            },
+            "DriverControlsDesign_GearLeverPosition_Assembly_@e60f0e74": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_GearLeverPosition_Assembly_CommNeed_@825262ee"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 GearInfo (id 108, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "DriverControlsDesign_GearLeverPosition_Assembly_CommNeed_@825262ee": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth GearLeverPosition needs on BodyCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_GearShiftDown_Assembly_@b760e779": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_GearShiftDown_Assembly_CommNeed_@7ee0ce59"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "DriverCan0 GearShiftPaddles (id 106, 50 ms). Sent by SCCM, received by BCM."
+                    ],
+                    "source": "remotive_car/platform/databases/driver_can.dbc"
+                }
+            },
+            "DriverControlsDesign_GearShiftDown_Assembly_CommNeed_@7ee0ce59": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth GearShiftDown needs on DriverCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_GearShiftUp_Assembly_@516c15c7": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_GearShiftUp_Assembly_CommNeed_@8d826b4f"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "DriverCan0 GearShiftPaddles (id 106, 50 ms). Sent by SCCM, received by BCM."
+                    ],
+                    "source": "remotive_car/platform/databases/driver_can.dbc"
+                }
+            },
+            "DriverControlsDesign_GearShiftUp_Assembly_CommNeed_@8d826b4f": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth GearShiftUp needs on DriverCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Infotainment_Gear_@ca2ef186": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Selected gear shown in the infotainment unit."
+                    ]
+                }
+            },
+            "DriverControlsDesign_SteeringAngle_Assembly_@b9e154a8": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_SteeringAngle_Assembly_CommNeed_@50e1286c"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "DriverCan0 SteeringAngle (id 102, 50 ms). Sent by SCCM, received by BCM."
+                    ],
+                    "source": "remotive_car/platform/databases/driver_can.dbc"
+                }
+            },
+            "DriverControlsDesign_SteeringAngle_Assembly_CommNeed_@50e1286c": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SteeringAngle needs on DriverCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_SteeringWheelPosition_Assembly_@963dc33f": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed_@058d1390"
+                    ],
+                    "consumedBy": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "providedBy": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "BodyCan0 SteeringWheelInfo (id 106, 50 ms). Sent by BCM, received by DIM, GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/body_can.dbc"
+                }
+            },
+            "DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed_@058d1390": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth SteeringWheelPosition needs on BodyCan0."
+                    ]
+                }
+            },
+            "DriverControlsDesign_Cluster_GearLeverPosition_Delegation_@a884f925": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_AcceleratorPedalPosition_Delegation_@7dadddd6": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_GearShiftDown_Delegation_@f92f55f5": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_GearShiftUp_Delegation_@ef6b7d8d": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
+                    ]
+                }
+            },
+            "DriverControlsDesign_Driver_SteeringAngle_Delegation_@8eb9e560": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "deg"
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
+                    ]
+                }
+            },
+            "DriverControlsDesign_Infotainment_Gear_Delegation_@1735ad12": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "GearLeverPositionEnum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "outer": [
+                        "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DriverControlsDesign_@7d3ccf8e",
+            "description": [
+                "Functional design (FSC level). Functional design of driver controls: sense steering, pedal and gear inputs, process the driving state, inform the driver."
+            ],
+            "name": "DriverControlsDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

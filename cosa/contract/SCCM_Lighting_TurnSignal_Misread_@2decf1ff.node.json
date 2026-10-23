@@ -1,0 +1,25 @@
+{
+    "SCCM_Lighting_TurnSignal_Misread_@2decf1ff": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_SCCM_Lighting_Driver_TurnSignal_Misread_@79dc2f94"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SCCM_Lighting_TurnSignal_Misread_@e35ea214"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_Lighting_TurnSignal_Misread_@2decf1ff",
+            "description": [
+                "Derived, not in the specification: SCCM puts the turn stalk on DriverCan0; needed so the BCM's assumption on its TurnSignal input is guaranteed."
+            ],
+            "name": "SCCM_Lighting_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

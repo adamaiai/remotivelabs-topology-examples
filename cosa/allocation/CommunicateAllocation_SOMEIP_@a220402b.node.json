@@ -4,134 +4,134 @@
         "attributes": {},
         "connections": {
             "allocatedApplicationCommunication": [
-                "GearService_Gear_@f1984807",
-                "HVACService_LeftTemperature_@801aef78",
-                "HVACService_RightTemperature_@c1139434",
-                "LocationService_Heading_@e1c4ac9d",
-                "LocationService_Latitude_@036938ea",
-                "LocationService_Longitude_@6dd8d80b",
-                "SpeedService_Speed_@ee8f13af",
-                "TurnlightIndicator_LeftTurnlight_@c40870c6",
-                "TurnlightIndicator_RightTurnlight_@6862089a"
+                "ClimateControlDesign_HVACService_LeftTemperature_Assembly_@c44b2627",
+                "ClimateControlDesign_HVACService_RightTemperature_Assembly_@6703be8d",
+                "DriverInformation_GearService_Gear_Assembly_@8c82ff8c",
+                "InformationDisplay_LocationService_Heading_Assembly_@dc315251",
+                "InformationDisplay_LocationService_Latitude_Assembly_@d1fabbeb",
+                "InformationDisplay_LocationService_Longitude_Assembly_@49c045f5",
+                "InformationDisplay_SpeedService_Speed_Assembly_@9b334f72",
+                "InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@bc5a408b",
+                "InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@b312d18d"
             ],
             "allocatedOnCommunicationPlatform": [
                 "SOMEIP_@43d8d435"
             ],
             "communicateInterfaceRealization": [
-                "CIR_GearService_Gear_@99708f75",
-                "CIR_HVACService_LeftTemperature_@e12d25e4",
-                "CIR_HVACService_RightTemperature_@5bde14e2",
-                "CIR_LocationService_Heading_@f85a0245",
-                "CIR_LocationService_Latitude_@04496476",
-                "CIR_LocationService_Longitude_@83943923",
-                "CIR_SpeedService_Speed_@5f61b1c8",
-                "CIR_TurnlightIndicator_LeftTurnlight_@3f551097",
-                "CIR_TurnlightIndicator_RightTurnlight_@ad8c7284"
+                "CIR_ClimateControlDesign_HVACService_LeftTemperature_Assembly_@0cc76e4f",
+                "CIR_ClimateControlDesign_HVACService_RightTemperature_Assembly_@d71c85dc",
+                "CIR_DriverInformation_GearService_Gear_Assembly_@d46da5eb",
+                "CIR_InformationDisplay_LocationService_Heading_Assembly_@64d3ba6e",
+                "CIR_InformationDisplay_LocationService_Latitude_Assembly_@7859c9c0",
+                "CIR_InformationDisplay_LocationService_Longitude_Assembly_@8fcf7fba",
+                "CIR_InformationDisplay_SpeedService_Speed_Assembly_@58ef2fd5",
+                "CIR_InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@fefa054b",
+                "CIR_InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@461669c9"
             ]
         },
         "aggregations": {
-            "CIR_GearService_Gear_@99708f75": {
+            "CIR_ClimateControlDesign_HVACService_LeftTemperature_Assembly_@0cc76e4f": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "GearService_Gear_CommNeed_@ea03feff"
+                        "ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed_@ba58631c"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_HVACService_LeftTemperature_@e12d25e4": {
+            "CIR_ClimateControlDesign_HVACService_RightTemperature_Assembly_@d71c85dc": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "HVACService_LeftTemperature_CommNeed_@75045ca5"
+                        "ClimateControlDesign_HVACService_RightTemperature_Assembly_CommNeed_@6db69dcd"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_HVACService_RightTemperature_@5bde14e2": {
+            "CIR_DriverInformation_GearService_Gear_Assembly_@d46da5eb": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "HVACService_RightTemperature_CommNeed_@8909a7f6"
+                        "DriverInformation_GearService_Gear_Assembly_CommNeed_@1047d5a4"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_LocationService_Heading_@f85a0245": {
+            "CIR_InformationDisplay_LocationService_Heading_Assembly_@64d3ba6e": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LocationService_Heading_CommNeed_@cb945046"
+                        "InformationDisplay_LocationService_Heading_Assembly_CommNeed_@70de72f6"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_LocationService_Latitude_@04496476": {
+            "CIR_InformationDisplay_LocationService_Latitude_Assembly_@7859c9c0": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LocationService_Latitude_CommNeed_@ee222b86"
+                        "InformationDisplay_LocationService_Latitude_Assembly_CommNeed_@0e1e7d92"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_LocationService_Longitude_@83943923": {
+            "CIR_InformationDisplay_LocationService_Longitude_Assembly_@8fcf7fba": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LocationService_Longitude_CommNeed_@8b31d1ab"
+                        "InformationDisplay_LocationService_Longitude_Assembly_CommNeed_@40694aaa"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_SpeedService_Speed_@5f61b1c8": {
+            "CIR_InformationDisplay_SpeedService_Speed_Assembly_@58ef2fd5": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SpeedService_Speed_CommNeed_@3834e20a"
+                        "InformationDisplay_SpeedService_Speed_Assembly_CommNeed_@36763676"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_TurnlightIndicator_LeftTurnlight_@3f551097": {
+            "CIR_InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@fefa054b": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "TurnlightIndicator_LeftTurnlight_CommNeed_@07b00dc2"
+                        "InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed_@e22b0d76"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
                     ]
                 }
             },
-            "CIR_TurnlightIndicator_RightTurnlight_@ad8c7284": {
+            "CIR_InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@461669c9": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "TurnlightIndicator_RightTurnlight_CommNeed_@6154f6a3"
+                        "InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_CommNeed_@3e29910e"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"

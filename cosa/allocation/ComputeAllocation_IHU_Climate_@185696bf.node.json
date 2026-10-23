@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_IHU_Climate_@185696bf": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "IHU_Climate_@b9560516"
+            ],
+            "allocatedOnComputePlatform": [
+                "IHU_ECU_@c5fd78f8"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_IHU_Climate_@e1ec4243"
+            ]
+        },
+        "aggregations": {
+            "CRIR_IHU_Climate_@e1ec4243": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "IHU_Climate_ComputeNeed_@ab846c81"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "IHU_ECU_Compute_@e42df852"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_IHU_Climate_@185696bf",
+            "description": [
+                "IHU_Climate runs on the IHU ECU."
+            ],
+            "name": "ComputeAllocation_IHU_Climate",
+            "version_schema": "4.6.1"
+        }
+    }
+}

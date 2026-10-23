@@ -1,0 +1,58 @@
+{
+    "PCM_Info_@521ab0ce": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "PCM_Info_ComputeNeed_@b19089c5"
+            ],
+            "externalInterface": [
+                "PCM_Info_MotorSpeed_@876eac26",
+                "PCM_Info_MotorTorque_@d7acb2d0"
+            ]
+        },
+        "aggregations": {
+            "PCM_Info_ComputeNeed_@b19089c5": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource PCM_Info needs from the PCM ECU."
+                    ]
+                }
+            },
+            "PCM_Info_MotorSpeed_@876eac26": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "rpm"
+                },
+                "connections": {}
+            },
+            "PCM_Info_MotorTorque_@d7acb2d0": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "Nm"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "PCM_Info_@521ab0ce",
+            "description": [
+                "VehicleInformation software on the Powertrain Control Module (PCM). Provides motor speed and torque."
+            ],
+            "name": "PCM_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

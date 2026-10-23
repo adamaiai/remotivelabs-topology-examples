@@ -10,8 +10,8 @@
         },
         "connections": {
             "contractInScope": [
-                "BCM_LeftTurnLightRequest_NotActivated_@ae9ffb75",
-                "BCM_LeftTurnLightRequest_WronglyActivated_@8c671c6a"
+                "BCM_Lighting_LeftTurnLightRequest_NotActivated_@27d349ff",
+                "BCM_Lighting_LeftTurnLightRequest_WronglyActivated_@c0cfe702"
             ]
         },
         "metadata": {

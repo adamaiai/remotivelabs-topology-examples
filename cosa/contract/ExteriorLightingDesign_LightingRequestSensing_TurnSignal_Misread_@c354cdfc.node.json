@@ -1,0 +1,23 @@
+{
+    "ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread_@c354cdfc": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread_@0102e6d4"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ExteriorLightingDesign_TurnSignal_Assembly_Misread_@527618a3"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread_@c354cdfc",
+            "description": [
+                "Derived, not in the specification: Inside the exterior lighting design, request sensing puts the turn stalk on DriverCan0."
+            ],
+            "name": "ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

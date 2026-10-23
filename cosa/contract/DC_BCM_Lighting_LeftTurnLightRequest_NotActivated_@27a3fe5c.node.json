@@ -1,0 +1,27 @@
+{
+    "DC_BCM_Lighting_LeftTurnLightRequest_NotActivated_@27a3fe5c": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BCM_Lighting_LeftTurnLightRequest_@564219ca"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BCM_Lighting_LeftTurnLightRequest_NotActivated_@27a3fe5c",
+            "description": [
+                "Critical: BCM_Lighting_LeftTurnLightRequest stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_BCM_Lighting_LeftTurnLightRequest_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

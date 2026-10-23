@@ -1,0 +1,23 @@
+{
+    "ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_WronglyActivated_@2c285a1e": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ExteriorLightingDesign_RightTurnLightRequest_Assembly_WronglyActivated_@0531758f"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated_@9ab8bc2e"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_WronglyActivated_@2c285a1e",
+            "description": [
+                "Derived, not in the specification: Inside the exterior lighting design, front lighting lights the front right turn lamp from RightTurnLightRequest."
+            ],
+            "name": "ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

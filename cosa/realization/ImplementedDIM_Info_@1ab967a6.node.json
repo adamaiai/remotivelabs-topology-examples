@@ -1,0 +1,23 @@
+{
+    "ImplementedDIM_Info_@1ab967a6": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "6687712c7a906d468ec209653461135778f70be25f045507da257ea2a8095873",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/body_can.dbc"
+        },
+        "connections": {
+            "realizedModel": [
+                "DIM_Info_@ba99a202"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedDIM_Info_@1ab967a6",
+            "description": [
+                "Implementation: RemotiveTopology mock generated from the database (DIM also receives on chassis_can.dbc); the DIM implementation serves all of its software components."
+            ],
+            "name": "ImplementedDIM_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

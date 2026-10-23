@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_PAM_Info_@37e83509": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "PAM_Info_@74686c23"
+            ],
+            "allocatedOnComputePlatform": [
+                "PAM_ECU_@b7e1beeb"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_PAM_Info_@3a0a7d06"
+            ]
+        },
+        "aggregations": {
+            "CRIR_PAM_Info_@3a0a7d06": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "PAM_Info_ComputeNeed_@ca4347ac"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "PAM_ECU_Compute_@5139a91d"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_PAM_Info_@37e83509",
+            "description": [
+                "PAM_Info runs on the PAM ECU."
+            ],
+            "name": "ComputeAllocation_PAM_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

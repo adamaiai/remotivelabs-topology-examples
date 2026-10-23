@@ -1,0 +1,939 @@
+{
+    "ImplementedExteriorLightingDesign_@ed7de822": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_ExteriorLightingDesign_FrontLighting_@06a10e0a",
+                "Chosen_ExteriorLightingDesign_LightingControl_@caba89e5",
+                "Chosen_ExteriorLightingDesign_LightingRequestSensing_@ae733c26",
+                "Chosen_ExteriorLightingDesign_RearLighting_@ae7c9022"
+            ],
+            "realizedComposition": [
+                "ExteriorLightingDesign_@b093b118"
+            ]
+        },
+        "aggregations": {
+            "Chosen_ExteriorLightingDesign_FrontLighting_@06a10e0a": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftDaylightRunning_@82702578",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftHighBeam_@b8a2f6b1",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftLowBeam_@0a52fbdd",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_@788e94c1",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightDaylightRunning_@ed804c28",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightHighBeam_@8e8ada49",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightLowBeam_@bf15ff75",
+                        "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_@ee982183",
+                        "IR_ExteriorLightingDesign_FrontLighting_LeftDaylightRunningLightRequest_@730b7aec",
+                        "IR_ExteriorLightingDesign_FrontLighting_LeftHighBeamLightRequest_@6c173770",
+                        "IR_ExteriorLightingDesign_FrontLighting_LeftLowBeamLightRequest_@732e6570",
+                        "IR_ExteriorLightingDesign_FrontLighting_LeftTurnLightRequest_@4d1e0ead",
+                        "IR_ExteriorLightingDesign_FrontLighting_RightDaylightRunningLightRequest_@6890c084",
+                        "IR_ExteriorLightingDesign_FrontLighting_RightHighBeamLightRequest_@e1e9e340",
+                        "IR_ExteriorLightingDesign_FrontLighting_RightLowBeamLightRequest_@1d9e5bdd",
+                        "IR_ExteriorLightingDesign_FrontLighting_RightTurnLightRequest_@12189ade"
+                    ],
+                    "realizedPlaceholder": [
+                        "ExteriorLightingDesign_FrontLighting_@c714980c"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedFLCM_Lighting_@92d1fe4a"
+                    ]
+                }
+            },
+            "Chosen_ExteriorLightingDesign_LightingControl_@caba89e5": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ExteriorLightingDesign_LightingControl_BrakePedalPosition_@89d242af",
+                        "IR_ExteriorLightingDesign_LightingControl_HazardLightButton_@d00f01d4",
+                        "IR_ExteriorLightingDesign_LightingControl_HighBeam_@8a3d30a8",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftBrakeLightRequest_@4ee733c1",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftBrakeLightRequest_Delegation_@4e37824e",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftDaylightRunningLightRequest_@710fcfa9",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftDaylightRunningLightRequest_Delegation_@edbe17de",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftHighBeamLightRequest_@7e9ed6ee",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftHighBeamLightRequest_Delegation_@a642c850",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftLowBeamLightRequest_@91ffb566",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftLowBeamLightRequest_Delegation_@e8382b6c",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_@a7fcb697",
+                        "IR_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_Delegation_@e2a0a703",
+                        "IR_ExteriorLightingDesign_LightingControl_LightMode_@be498ce3",
+                        "IR_ExteriorLightingDesign_LightingControl_RightBrakeLightRequest_@e92cb942",
+                        "IR_ExteriorLightingDesign_LightingControl_RightBrakeLightRequest_Delegation_@bec364c7",
+                        "IR_ExteriorLightingDesign_LightingControl_RightDaylightRunningLightRequest_@f7775a32",
+                        "IR_ExteriorLightingDesign_LightingControl_RightDaylightRunningLightRequest_Delegation_@29376edb",
+                        "IR_ExteriorLightingDesign_LightingControl_RightHighBeamLightRequest_@d16599c3",
+                        "IR_ExteriorLightingDesign_LightingControl_RightHighBeamLightRequest_Delegation_@2aa87206",
+                        "IR_ExteriorLightingDesign_LightingControl_RightLowBeamLightRequest_@81db3afb",
+                        "IR_ExteriorLightingDesign_LightingControl_RightLowBeamLightRequest_Delegation_@b99d2fcb",
+                        "IR_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_@595de7b1",
+                        "IR_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_Delegation_@d09c6c73",
+                        "IR_ExteriorLightingDesign_LightingControl_TurnSignal_@e82f273e"
+                    ],
+                    "realizedPlaceholder": [
+                        "ExteriorLightingDesign_LightingControl_@aebff50b"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedBCM_Lighting_@1fe8ef8b"
+                    ]
+                }
+            },
+            "Chosen_ExteriorLightingDesign_LightingRequestSensing_@ae733c26": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_BrakePedalPosition_@fcfafe96",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_BrakePedalPosition_@726dbacb",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_HazardLightButton_@88f6de81",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_HighBeam_@a9b18eb9",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_LightMode_@ba30a080",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_TurnSignal_@11116cd3",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_@54b966ea",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_HighBeam_@399b3399",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_LightMode_@14d2d02e",
+                        "IR_ExteriorLightingDesign_LightingRequestSensing_TurnSignal_@c7514c1f"
+                    ],
+                    "realizedPlaceholder": [
+                        "ExteriorLightingDesign_LightingRequestSensing_@fd19bb51"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedSCCM_Lighting_@5ba7df26"
+                    ]
+                }
+            },
+            "Chosen_ExteriorLightingDesign_RearLighting_@ae7c9022": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_@184ed5a2",
+                        "IR_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_@bca6198e",
+                        "IR_ExteriorLightingDesign_RearLighting_LeftBrakeLightRequest_@95de0ded",
+                        "IR_ExteriorLightingDesign_RearLighting_LeftDaylightRunningLightRequest_@9a12db61",
+                        "IR_ExteriorLightingDesign_RearLighting_LeftLowBeamLightRequest_@b3e1742a",
+                        "IR_ExteriorLightingDesign_RearLighting_LeftTurnLightRequest_@2151e4c2",
+                        "IR_ExteriorLightingDesign_RearLighting_RightBrakeLightRequest_@fe931b58",
+                        "IR_ExteriorLightingDesign_RearLighting_RightDaylightRunningLightRequest_@aebecd8f",
+                        "IR_ExteriorLightingDesign_RearLighting_RightLowBeamLightRequest_@50c6fcea",
+                        "IR_ExteriorLightingDesign_RearLighting_RightTurnLightRequest_@174c8727"
+                    ],
+                    "realizedPlaceholder": [
+                        "ExteriorLightingDesign_RearLighting_@51bba31d"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedRearLight_@3b2f326e"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftDaylightRunning_@82702578": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_Delegation_@07a33f44"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontLeftDaylightRunning_@6ecdfb97"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftHighBeam_@b8a2f6b1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_Delegation_@ead94ee2"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontLeftHighBeam_@1ee766f7"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftLowBeam_@0a52fbdd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_Delegation_@29934ff4"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontLeftLowBeam_@874e7d83"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_@788e94c1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontLeftTurn_Delegation_@f2eb7c0f"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontLeftTurn_@005d1c8d"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightDaylightRunning_@ed804c28": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontRightDaylightRunning_Delegation_@69dc3f09"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontRightDaylightRunning_@57bd57e4"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightHighBeam_@8e8ada49": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontRightHighBeam_Delegation_@bac902a6"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontRightHighBeam_@4d80b303"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightLowBeam_@bf15ff75": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontRightLowBeam_Delegation_@ade13c5f"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontRightLowBeam_@02ce5638"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_@ee982183": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_FrontRightTurn_Delegation_@01f794a6"
+                    ],
+                    "realizingInterface": [
+                        "FLCM_Lighting_Lamp_FrontRightTurn_@83299115"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_LeftDaylightRunningLightRequest_@730b7aec": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@499a36f2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_LeftDaylightRunningLightRequest_@5aa0ae3b"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_LeftHighBeamLightRequest_@6c173770": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@012110dc"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_LeftHighBeamLightRequest_@43d9fc99"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_LeftLowBeamLightRequest_@732e6570": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@42908a5f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_LeftLowBeamLightRequest_@5363f995"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_LeftTurnLightRequest_@4d1e0ead": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@08847b99"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_LeftTurnLightRequest_@0ec06099"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_RightDaylightRunningLightRequest_@6890c084": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@43b07626"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_RightDaylightRunningLightRequest_@b1817318"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_RightHighBeamLightRequest_@e1e9e340": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_@4b01fb38"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_RightHighBeamLightRequest_@8796e2bf"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_RightLowBeamLightRequest_@1d9e5bdd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@5442467d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_RightLowBeamLightRequest_@5d8ecbf3"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_FrontLighting_RightTurnLightRequest_@12189ade": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightTurnLightRequest_Assembly_@9c018b99"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "FLCM_Lighting_RightTurnLightRequest_@e13a9b7f"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_BrakePedalPosition_@89d242af": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_BrakePedalPosition_Assembly_@19d597d4"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_BrakePedalPosition_@9a9d7490"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_HazardLightButton_@d00f01d4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_HazardLightButton_Assembly_@3a1cbdd0"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_HazardLightButton_@0a2fe71a"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_HighBeam_@8a3d30a8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_HighBeam_Assembly_@5940fe72"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_HighBeam_@cd6cb983"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftBrakeLightRequest_@4ee733c1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@125b5964"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftBrakeLightRequest_Delegation_@4e37824e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_LeftBrakeLightRequest_Delegation_@4a2cc4ae"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftBrakeLightRequest_@1f618cb7"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftDaylightRunningLightRequest_@710fcfa9": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@499a36f2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftDaylightRunningLightRequest_Delegation_@edbe17de": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Delegation_@c258b588"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftDaylightRunningLightRequest_@20dd0709"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftHighBeamLightRequest_@7e9ed6ee": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@012110dc"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftHighBeamLightRequest_Delegation_@a642c850": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_LeftHighBeamLightRequest_Delegation_@cfa59f5e"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftHighBeamLightRequest_@eeeeef3e"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftLowBeamLightRequest_@91ffb566": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@42908a5f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftLowBeamLightRequest_Delegation_@e8382b6c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_LeftLowBeamLightRequest_Delegation_@b15da876"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftLowBeamLightRequest_@9bcabf59"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_@a7fcb697": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@08847b99"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftTurnLightRequest_@564219ca"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_Delegation_@e2a0a703": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_LeftTurnLightRequest_Delegation_@1b669840"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_LeftTurnLightRequest_@564219ca"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_LightMode_@be498ce3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LightMode_Assembly_@ac1945a4"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_LightMode_@a2d211b9"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightBrakeLightRequest_@e92cb942": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightBrakeLightRequest_Assembly_@0e34702f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightBrakeLightRequest_@98c2cd58"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightBrakeLightRequest_Delegation_@bec364c7": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_RightBrakeLightRequest_Delegation_@4a9c3c1f"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightBrakeLightRequest_@98c2cd58"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightDaylightRunningLightRequest_@f7775a32": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@43b07626"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightDaylightRunningLightRequest_Delegation_@29376edb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_Delegation_@5141bbcf"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightDaylightRunningLightRequest_@e8258774"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightHighBeamLightRequest_@d16599c3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_@4b01fb38"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightHighBeamLightRequest_Delegation_@2aa87206": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_RightHighBeamLightRequest_Delegation_@eb74fe0d"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightHighBeamLightRequest_@f8dc60b3"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightLowBeamLightRequest_@81db3afb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@5442467d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightLowBeamLightRequest_Delegation_@b99d2fcb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_RightLowBeamLightRequest_Delegation_@c4b29371"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightLowBeamLightRequest_@aef0d8e8"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_@595de7b1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightTurnLightRequest_Assembly_@9c018b99"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightTurnLightRequest_@0dbba29d"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_Delegation_@d09c6c73": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_RightTurnLightRequest_Delegation_@ec478a98"
+                    ],
+                    "realizingInterface": [
+                        "BCM_Lighting_RightTurnLightRequest_@0dbba29d"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingControl_TurnSignal_@e82f273e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_TurnSignal_Assembly_@0c168c3a"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_Lighting_TurnSignal_@86604253"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_BrakePedalPosition_@fcfafe96": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_BrakePedalPosition_Assembly_@19d597d4"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_Lighting_BrakePedalPosition_@fec1c5e9"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_BrakePedalPosition_@726dbacb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Driver_BrakePedalPosition_Delegation_@3278d2d3"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_Lighting_Driver_BrakePedalPosition_@597bce1e"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_HazardLightButton_@88f6de81": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Driver_HazardLightButton_Delegation_@1bab876b"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_Lighting_Driver_HazardLightButton_@19ed3451"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_HighBeam_@a9b18eb9": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Driver_HighBeam_Delegation_@0530d122"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_Lighting_Driver_HighBeam_@ba1cc0bd"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_LightMode_@ba30a080": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Driver_LightMode_Delegation_@2c8374bc"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_Lighting_Driver_LightMode_@d3d76ab9"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_Driver_TurnSignal_@11116cd3": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Driver_TurnSignal_Delegation_@143d94e1"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_Lighting_Driver_TurnSignal_@9f3a4d2b"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_@54b966ea": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_HazardLightButton_Assembly_@3a1cbdd0"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_Lighting_HazardLightButton_@c4d42502"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_HighBeam_@399b3399": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_HighBeam_Assembly_@5940fe72"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_Lighting_HighBeam_@7eb63986"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_LightMode_@14d2d02e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LightMode_Assembly_@ac1945a4"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_Lighting_LightMode_@192bf0b2"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_LightingRequestSensing_TurnSignal_@c7514c1f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_TurnSignal_Assembly_@0c168c3a"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_Lighting_TurnSignal_@3909ddfe"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_@184ed5a2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_RearLeftTurn_Delegation_@0eab1cc9"
+                    ],
+                    "realizingInterface": [
+                        "RearLight_Lamp_RearLeftTurn_@08944bb4"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_@bca6198e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "ExteriorLightingDesign_Lamp_RearRightTurn_Delegation_@2d9debab"
+                    ],
+                    "realizingInterface": [
+                        "RearLight_Lamp_RearRightTurn_@3fe88586"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_LeftBrakeLightRequest_@95de0ded": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@125b5964"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_LeftBrakeLightRequest_@f1a73c7f"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_LeftDaylightRunningLightRequest_@9a12db61": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@499a36f2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_LeftDaylightRunningLightRequest_@c0bf4fb9"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_LeftLowBeamLightRequest_@b3e1742a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@42908a5f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_LeftLowBeamLightRequest_@3ddde5b2"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_LeftTurnLightRequest_@2151e4c2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@08847b99"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_LeftTurnLightRequest_@a0da91cd"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_RightBrakeLightRequest_@fe931b58": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightBrakeLightRequest_Assembly_@0e34702f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_RightBrakeLightRequest_@5a47d610"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_RightDaylightRunningLightRequest_@aebecd8f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@43b07626"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_RightDaylightRunningLightRequest_@6c064b7f"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_RightLowBeamLightRequest_@50c6fcea": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@5442467d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_RightLowBeamLightRequest_@936ab4ab"
+                    ]
+                }
+            },
+            "IR_ExteriorLightingDesign_RearLighting_RightTurnLightRequest_@174c8727": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "ExteriorLightingDesign_RightTurnLightRequest_Assembly_@9c018b99"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "RearLight_RightTurnLightRequest_@c084efef"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedExteriorLightingDesign_@ed7de822",
+            "description": [
+                "Realizes ExteriorLightingDesign by its parts' realizations."
+            ],
+            "name": "ImplementedExteriorLightingDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

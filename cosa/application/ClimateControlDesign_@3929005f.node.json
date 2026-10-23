@@ -1,0 +1,256 @@
+{
+    "ClimateControlDesign_@3929005f": {
+        "stereotype": "ComposedApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "assemblyInterface": [
+                "ClimateControlDesign_HVACService_LeftTemperature_Assembly_@c44b2627",
+                "ClimateControlDesign_HVACService_RightTemperature_Assembly_@6703be8d"
+            ],
+            "buildingBlock": [
+                "ClimateControlDesign_ClimateActuation_@b3075767",
+                "ClimateControlDesign_ClimateSetpointHMI_@563017f6"
+            ],
+            "delegationInterface": [
+                "ClimateControlDesign_Climate_LeftTemperature_Delegation_@a409bd00",
+                "ClimateControlDesign_Climate_RightTemperature_Delegation_@b863fd9a",
+                "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_Delegation_@33268c4f",
+                "ClimateControlDesign_Occupant_RightTemperatureSetpoint_Delegation_@24cb8f2a"
+            ],
+            "externalInterface": [
+                "ClimateControlDesign_Climate_LeftTemperature_@1e318124",
+                "ClimateControlDesign_Climate_RightTemperature_@35ef125a",
+                "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d",
+                "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
+            ]
+        },
+        "aggregations": {
+            "ClimateControlDesign_ClimateActuation_@b3075767": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for ClimateActuation."
+                    ]
+                }
+            },
+            "ClimateControlDesign_ClimateSetpointHMI_@563017f6": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for IHU_Climate."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Climate_LeftTemperature_@1e318124": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Climate_RightTemperature_@35ef125a": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right compartment climate actuated to the requested temperature."
+                    ]
+                }
+            },
+            "ClimateControlDesign_HVACService_LeftTemperature_Assembly_@c44b2627": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed_@ba58631c"
+                    ],
+                    "consumedBy": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "providedBy": [
+                        "ClimateControlDesign_ClimateSetpointHMI_@563017f6"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/someip.fibex.xml"
+                }
+            },
+            "ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed_@ba58631c": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth HVACService_LeftTemperature needs on SOMEIP."
+                    ]
+                }
+            },
+            "ClimateControlDesign_HVACService_RightTemperature_Assembly_@6703be8d": {
+                "stereotype": "Application_InternalAssembly_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "communicateResourceInterface": [
+                        "ClimateControlDesign_HVACService_RightTemperature_Assembly_CommNeed_@6db69dcd"
+                    ],
+                    "consumedBy": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "providedBy": [
+                        "ClimateControlDesign_ClimateSetpointHMI_@563017f6"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "SOMEIP HVACService.CompartmentControl (service 103, event 1003, event group 324). Sent by IHU, received by GWM."
+                    ],
+                    "source": "remotive_car/platform/databases/someip.fibex.xml"
+                }
+            },
+            "ClimateControlDesign_HVACService_RightTemperature_Assembly_CommNeed_@6db69dcd": {
+                "stereotype": "ApplicationCommunicateResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "bit/s"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Bandwidth HVACService_RightTemperature needs on SOMEIP."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the left compartment temperature in the infotainment UI."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Occupant sets the right compartment temperature in the infotainment UI."
+                    ]
+                }
+            },
+            "ClimateControlDesign_Climate_LeftTemperature_Delegation_@a409bd00": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "outer": [
+                        "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
+                    ]
+                }
+            },
+            "ClimateControlDesign_Climate_RightTemperature_Delegation_@b863fd9a": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateControlDesign_ClimateActuation_@b3075767"
+                    ],
+                    "outer": [
+                        "ClimateControlDesign_Climate_RightTemperature_@35ef125a"
+                    ]
+                }
+            },
+            "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_Delegation_@33268c4f": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateControlDesign_ClimateSetpointHMI_@563017f6"
+                    ],
+                    "outer": [
+                        "ClimateControlDesign_Occupant_LeftTemperatureSetpoint_@3539a50d"
+                    ]
+                }
+            },
+            "ClimateControlDesign_Occupant_RightTemperatureSetpoint_Delegation_@24cb8f2a": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {
+                    "inner": [
+                        "ClimateControlDesign_ClimateSetpointHMI_@563017f6"
+                    ],
+                    "outer": [
+                        "ClimateControlDesign_Occupant_RightTemperatureSetpoint_@9fd41b12"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ClimateControlDesign_@3929005f",
+            "description": [
+                "Functional design (FSC level). Functional design of climate control: take the occupant's setpoint, actuate the compartment climate."
+            ],
+            "name": "ClimateControlDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

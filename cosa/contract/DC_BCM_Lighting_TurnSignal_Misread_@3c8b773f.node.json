@@ -1,0 +1,93 @@
+{
+    "DC_BCM_Lighting_TurnSignal_Misread_@3c8b773f": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [
+                "CM_BCM_Lighting_TurnSignal_@fed4ca47"
+            ],
+            "constrainedDataElement": [
+                "BCM_Lighting_TurnSignal_@86604253"
+            ]
+        },
+        "aggregations": {
+            "CC_BCM_Lighting_TurnSignal_Left_as_Off_@88160d77": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_BCM_Lighting_TurnSignal_Left_as_Right_@6e94a663": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_BCM_Lighting_TurnSignal_Off_as_Left_@38b04cc9": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_BCM_Lighting_TurnSignal_Off_as_Right_@789c66f4": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_BCM_Lighting_TurnSignal_Right_as_Left_@e5cf5e65": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CC_BCM_Lighting_TurnSignal_Right_as_Off_@11f527fd": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CM_BCM_Lighting_TurnSignal_@fed4ca47": {
+                "stereotype": "ConfusionMatrix",
+                "attributes": {},
+                "connections": {
+                    "confusionCell": [
+                        "CC_BCM_Lighting_TurnSignal_Left_as_Off_@88160d77",
+                        "CC_BCM_Lighting_TurnSignal_Left_as_Right_@6e94a663",
+                        "CC_BCM_Lighting_TurnSignal_Off_as_Left_@38b04cc9",
+                        "CC_BCM_Lighting_TurnSignal_Off_as_Right_@789c66f4",
+                        "CC_BCM_Lighting_TurnSignal_Right_as_Left_@e5cf5e65",
+                        "CC_BCM_Lighting_TurnSignal_Right_as_Off_@11f527fd"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DC_BCM_Lighting_TurnSignal_Misread_@3c8b773f",
+            "description": [
+                "Critical: BCM_Lighting_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
+            ],
+            "name": "DC_BCM_Lighting_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

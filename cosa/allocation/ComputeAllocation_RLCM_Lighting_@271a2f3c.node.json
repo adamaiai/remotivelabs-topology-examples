@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_RLCM_Lighting_@271a2f3c": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "RLCM_Lighting_@211c4dea"
+            ],
+            "allocatedOnComputePlatform": [
+                "RLCM_ECU_@2e9852c4"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_RLCM_Lighting_@7a326314"
+            ]
+        },
+        "aggregations": {
+            "CRIR_RLCM_Lighting_@7a326314": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "RLCM_Lighting_ComputeNeed_@03a532ae"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "RLCM_ECU_Compute_@dd2bb434"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_RLCM_Lighting_@271a2f3c",
+            "description": [
+                "RLCM_Lighting runs on the RLCM ECU."
+            ],
+            "name": "ComputeAllocation_RLCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

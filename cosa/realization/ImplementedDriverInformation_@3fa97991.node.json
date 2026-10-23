@@ -1,0 +1,210 @@
+{
+    "ImplementedDriverInformation_@3fa97991": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_DriverInformation_DIM_@4f0dab63",
+                "Chosen_DriverInformation_GWM_@8388bc84",
+                "Chosen_DriverInformation_IHU_@aee05f77"
+            ],
+            "realizedComposition": [
+                "DriverInformation_@86cd6496"
+            ]
+        },
+        "aggregations": {
+            "Chosen_DriverInformation_DIM_@4f0dab63": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_DriverInformation_DIM_AcceleratorPedalPosition_BodyCan0_@b14dee9b",
+                        "IR_DriverInformation_DIM_Cluster_GearLeverPosition_@8d178448",
+                        "IR_DriverInformation_DIM_GearLeverPosition_@d8c5dd7a",
+                        "IR_DriverInformation_DIM_SteeringWheelPosition_@c23e43fb"
+                    ],
+                    "realizedPlaceholder": [
+                        "DriverInformation_DIM_@a0024ff8"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedDIM_DriverControls_@c3c99cc5"
+                    ]
+                }
+            },
+            "Chosen_DriverInformation_GWM_@8388bc84": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_DriverInformation_GWM_AcceleratorPedalPosition_BodyCan0_@ca909c52",
+                        "IR_DriverInformation_GWM_GearLeverPosition_@2051f40c",
+                        "IR_DriverInformation_GWM_GearService_Gear_@f639067f",
+                        "IR_DriverInformation_GWM_SteeringWheelPosition_@f2b42271"
+                    ],
+                    "realizedPlaceholder": [
+                        "DriverInformation_GWM_@c5b5cee2"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedGWM_DriverControls_@2744bf5b"
+                    ]
+                }
+            },
+            "Chosen_DriverInformation_IHU_@aee05f77": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_DriverInformation_IHU_GearService_Gear_@a97ab870",
+                        "IR_DriverInformation_IHU_Infotainment_Gear_@dfd0021c"
+                    ],
+                    "realizedPlaceholder": [
+                        "DriverInformation_IHU_@8ab07280"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedIHU_DriverControls_@f4b56faf"
+                    ]
+                }
+            },
+            "IR_DriverInformation_DIM_AcceleratorPedalPosition_BodyCan0_@b14dee9b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_AcceleratorPedalPosition_BodyCan0_Delegation_@e6b74531"
+                    ],
+                    "realizingInterface": [
+                        "DIM_DriverControls_AcceleratorPedalPosition_BodyCan0_@ddcda7fe"
+                    ]
+                }
+            },
+            "IR_DriverInformation_DIM_Cluster_GearLeverPosition_@8d178448": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_Cluster_GearLeverPosition_Delegation_@dfe4bf9c"
+                    ],
+                    "realizingInterface": [
+                        "DIM_DriverControls_Cluster_GearLeverPosition_@e568c8bb"
+                    ]
+                }
+            },
+            "IR_DriverInformation_DIM_GearLeverPosition_@d8c5dd7a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_GearLeverPosition_Delegation_@4c825f1f"
+                    ],
+                    "realizingInterface": [
+                        "DIM_DriverControls_GearLeverPosition_@1d918e86"
+                    ]
+                }
+            },
+            "IR_DriverInformation_DIM_SteeringWheelPosition_@c23e43fb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_SteeringWheelPosition_Delegation_@2b74c3d3"
+                    ],
+                    "realizingInterface": [
+                        "DIM_DriverControls_SteeringWheelPosition_@d813f7a8"
+                    ]
+                }
+            },
+            "IR_DriverInformation_GWM_AcceleratorPedalPosition_BodyCan0_@ca909c52": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_AcceleratorPedalPosition_BodyCan0_Delegation_@e6b74531"
+                    ],
+                    "realizingInterface": [
+                        "GWM_DriverControls_AcceleratorPedalPosition_BodyCan0_@c9b0e281"
+                    ]
+                }
+            },
+            "IR_DriverInformation_GWM_GearLeverPosition_@2051f40c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_GearLeverPosition_Delegation_@4c825f1f"
+                    ],
+                    "realizingInterface": [
+                        "GWM_DriverControls_GearLeverPosition_@520e5d7e"
+                    ]
+                }
+            },
+            "IR_DriverInformation_GWM_GearService_Gear_@f639067f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverInformation_GearService_Gear_Assembly_@8c82ff8c"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_DriverControls_GearService_Gear_@b8688f8f"
+                    ]
+                }
+            },
+            "IR_DriverInformation_GWM_SteeringWheelPosition_@f2b42271": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_SteeringWheelPosition_Delegation_@2b74c3d3"
+                    ],
+                    "realizingInterface": [
+                        "GWM_DriverControls_SteeringWheelPosition_@72edc7ef"
+                    ]
+                }
+            },
+            "IR_DriverInformation_IHU_GearService_Gear_@a97ab870": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverInformation_GearService_Gear_Assembly_@8c82ff8c"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_DriverControls_GearService_Gear_@aadbf914"
+                    ]
+                }
+            },
+            "IR_DriverInformation_IHU_Infotainment_Gear_@dfd0021c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverInformation_Infotainment_Gear_Delegation_@cca0ce5d"
+                    ],
+                    "realizingInterface": [
+                        "IHU_DriverControls_Infotainment_Gear_@e4cdd7c9"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedDriverInformation_@3fa97991",
+            "description": [
+                "Realizes DriverInformation by its parts' realizations."
+            ],
+            "name": "ImplementedDriverInformation",
+            "version_schema": "4.6.1"
+        }
+    }
+}

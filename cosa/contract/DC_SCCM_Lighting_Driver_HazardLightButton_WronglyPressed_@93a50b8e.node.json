@@ -1,0 +1,27 @@
+{
+    "DC_SCCM_Lighting_Driver_HazardLightButton_WronglyPressed_@93a50b8e": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "GroundTruth",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "SCCM_Lighting_Driver_HazardLightButton_@19ed3451"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_SCCM_Lighting_Driver_HazardLightButton_WronglyPressed_@93a50b8e",
+            "description": [
+                "Critical: SCCM_Lighting_Driver_HazardLightButton reads pressed for longer than 50 ms while the button is released."
+            ],
+            "name": "DC_SCCM_Lighting_Driver_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_BCM_Lighting_@981592cf": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "BCM_Lighting_@7d7ffa2c"
+            ],
+            "allocatedOnComputePlatform": [
+                "BCM_ECU_@e08662f3"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_BCM_Lighting_@2f14d88c"
+            ]
+        },
+        "aggregations": {
+            "CRIR_BCM_Lighting_@2f14d88c": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "BCM_Lighting_ComputeNeed_@6ab3e995"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "BCM_ECU_Compute_@1bf9dec2"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_BCM_Lighting_@981592cf",
+            "description": [
+                "BCM_Lighting runs on the BCM ECU."
+            ],
+            "name": "ComputeAllocation_BCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

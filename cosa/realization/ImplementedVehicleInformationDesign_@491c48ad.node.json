@@ -1,0 +1,631 @@
+{
+    "ImplementedVehicleInformationDesign_@491c48ad": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_VehicleInformationDesign_InformationDisplay_@aa7ed784",
+                "Chosen_VehicleInformationDesign_ParkingSensing_@3c19b232",
+                "Chosen_VehicleInformationDesign_PositionSensing_@264c8c9e",
+                "Chosen_VehicleInformationDesign_VehicleStateSensing_@e3e25854"
+            ],
+            "realizedComposition": [
+                "VehicleInformationDesign_@f14768c8"
+            ]
+        },
+        "aggregations": {
+            "Chosen_VehicleInformationDesign_InformationDisplay_@aa7ed784": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleInformationDesign_InformationDisplay_BatteryCurrent_@0caeb151",
+                        "IR_VehicleInformationDesign_InformationDisplay_BatteryPower_@39a3d204",
+                        "IR_VehicleInformationDesign_InformationDisplay_BatteryVoltage_@27e4cfb8",
+                        "IR_VehicleInformationDesign_InformationDisplay_Cluster_LeftTurnTelltale_@f19cec5d",
+                        "IR_VehicleInformationDesign_InformationDisplay_Cluster_ProximityDistance_@de3681e6",
+                        "IR_VehicleInformationDesign_InformationDisplay_Cluster_RightTurnTelltale_@89b176ae",
+                        "IR_VehicleInformationDesign_InformationDisplay_Cluster_StateOfCharge_@4b93d73d",
+                        "IR_VehicleInformationDesign_InformationDisplay_Heading_@532bf33e",
+                        "IR_VehicleInformationDesign_InformationDisplay_Infotainment_LeftTurnIndicator_@855deb7f",
+                        "IR_VehicleInformationDesign_InformationDisplay_Infotainment_RightTurnIndicator_@32218a7d",
+                        "IR_VehicleInformationDesign_InformationDisplay_Infotainment_VehicleSpeed_@5a52bc62",
+                        "IR_VehicleInformationDesign_InformationDisplay_Latitude_@aff81189",
+                        "IR_VehicleInformationDesign_InformationDisplay_LeftBrakeLightRequest_@42f4ff9e",
+                        "IR_VehicleInformationDesign_InformationDisplay_LeftDaylightRunningLightRequest_@7d67b6a1",
+                        "IR_VehicleInformationDesign_InformationDisplay_LeftHighBeamLightRequest_@1a94e0d7",
+                        "IR_VehicleInformationDesign_InformationDisplay_LeftLowBeamLightRequest_@cdd4bc5d",
+                        "IR_VehicleInformationDesign_InformationDisplay_LeftTurnLightRequest_@27361dad",
+                        "IR_VehicleInformationDesign_InformationDisplay_Longitude_@07b38a17",
+                        "IR_VehicleInformationDesign_InformationDisplay_MotorSpeed_@57acfac2",
+                        "IR_VehicleInformationDesign_InformationDisplay_MotorTorque_@19b14d2a",
+                        "IR_VehicleInformationDesign_InformationDisplay_ProximityDistance_@956f115d",
+                        "IR_VehicleInformationDesign_InformationDisplay_RightBrakeLightRequest_@e0b8d8e0",
+                        "IR_VehicleInformationDesign_InformationDisplay_RightDaylightRunningLightRequest_@593aaeca",
+                        "IR_VehicleInformationDesign_InformationDisplay_RightHighBeamLightRequest_@d7c19539",
+                        "IR_VehicleInformationDesign_InformationDisplay_RightLowBeamLightRequest_@18ab8379",
+                        "IR_VehicleInformationDesign_InformationDisplay_RightTurnLightRequest_@14a1ce9d",
+                        "IR_VehicleInformationDesign_InformationDisplay_StateOfCharge_@50ae37ab",
+                        "IR_VehicleInformationDesign_InformationDisplay_uispeed_@57255221"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleInformationDesign_InformationDisplay_@f411a8e9"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedInformationDisplay_@7975ad29"
+                    ]
+                }
+            },
+            "Chosen_VehicleInformationDesign_ParkingSensing_@3c19b232": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleInformationDesign_ParkingSensing_ProximityDistance_@3d51764f"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleInformationDesign_ParkingSensing_@65f14e7d"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedPAM_Info_@26e746e7"
+                    ]
+                }
+            },
+            "Chosen_VehicleInformationDesign_PositionSensing_@264c8c9e": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleInformationDesign_PositionSensing_Heading_@11b213cd",
+                        "IR_VehicleInformationDesign_PositionSensing_Latitude_@9209af2e",
+                        "IR_VehicleInformationDesign_PositionSensing_Longitude_@5575dd59"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleInformationDesign_PositionSensing_@e48e3fec"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedTCU_Info_@988594d0"
+                    ]
+                }
+            },
+            "Chosen_VehicleInformationDesign_VehicleStateSensing_@e3e25854": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_VehicleInformationDesign_VehicleStateSensing_BatteryCurrent_@e76d68f0",
+                        "IR_VehicleInformationDesign_VehicleStateSensing_BatteryPower_@9ea70bf9",
+                        "IR_VehicleInformationDesign_VehicleStateSensing_BatteryVoltage_@aafed838",
+                        "IR_VehicleInformationDesign_VehicleStateSensing_MotorSpeed_@95ea4a56",
+                        "IR_VehicleInformationDesign_VehicleStateSensing_MotorTorque_@4a428943",
+                        "IR_VehicleInformationDesign_VehicleStateSensing_StateOfCharge_@6ef5f5d4",
+                        "IR_VehicleInformationDesign_VehicleStateSensing_uispeed_@182534c5"
+                    ],
+                    "realizedPlaceholder": [
+                        "VehicleInformationDesign_VehicleStateSensing_@c49a3226"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedVehicleStateSensing_@78717fe3"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_BatteryCurrent_@0caeb151": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_BatteryCurrent_Assembly_@5b06c755"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_BatteryCurrent_@a262b61b"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_BatteryPower_@39a3d204": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_BatteryPower_Assembly_@b8fde13b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_BatteryPower_@ba5167e4"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_BatteryVoltage_@27e4cfb8": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_BatteryVoltage_Assembly_@ba523764"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_BatteryVoltage_@454bd6d9"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Cluster_LeftTurnTelltale_@f19cec5d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation_@1cccf4d3"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Cluster_LeftTurnTelltale_@6cc16484"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Cluster_ProximityDistance_@de3681e6": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Cluster_ProximityDistance_Delegation_@2cd7ae4d"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Cluster_ProximityDistance_@05fd8a96"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Cluster_RightTurnTelltale_@89b176ae": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation_@66d102e5"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Cluster_RightTurnTelltale_@3ee31f79"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Cluster_StateOfCharge_@4b93d73d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Cluster_StateOfCharge_Delegation_@adc9668f"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Cluster_StateOfCharge_@04fe52fa"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Heading_@532bf33e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_Heading_Assembly_@f243ee67"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_Heading_@b7f69d64"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Infotainment_LeftTurnIndicator_@855deb7f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation_@afda08d0"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Infotainment_LeftTurnIndicator_@2d87201f"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Infotainment_RightTurnIndicator_@32218a7d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation_@4d274d05"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Infotainment_RightTurnIndicator_@c025871c"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Infotainment_VehicleSpeed_@5a52bc62": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_Infotainment_VehicleSpeed_Delegation_@a461e2d3"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_Infotainment_VehicleSpeed_@0e4135df"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Latitude_@aff81189": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_Latitude_Assembly_@293b356c"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_Latitude_@09b18c0b"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_LeftBrakeLightRequest_@42f4ff9e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_LeftBrakeLightRequest_Delegation_@25aac606"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_LeftBrakeLightRequest_@995ae6c5"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_LeftDaylightRunningLightRequest_@7d67b6a1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation_@6cc2f12d"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_LeftDaylightRunningLightRequest_@2b6efea1"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_LeftHighBeamLightRequest_@1a94e0d7": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_LeftHighBeamLightRequest_Delegation_@ba8f4fee"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_LeftHighBeamLightRequest_@def1018e"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_LeftLowBeamLightRequest_@cdd4bc5d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_LeftLowBeamLightRequest_Delegation_@6de4305d"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_LeftLowBeamLightRequest_@12de3053"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_LeftTurnLightRequest_@27361dad": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_LeftTurnLightRequest_Delegation_@86377bfd"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_LeftTurnLightRequest_@effd63a6"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_Longitude_@07b38a17": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_Longitude_Assembly_@d457908b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_Longitude_@0d4d0459"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_MotorSpeed_@57acfac2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_MotorSpeed_Assembly_@2046dbc0"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_MotorSpeed_@b31ac7e7"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_MotorTorque_@19b14d2a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_MotorTorque_Assembly_@3811a94e"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_MotorTorque_@d001b7cf"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_ProximityDistance_@956f115d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_ProximityDistance_Assembly_@57becf40"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_ProximityDistance_@6fed436b"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_RightBrakeLightRequest_@e0b8d8e0": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_RightBrakeLightRequest_Delegation_@205ae60b"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_RightBrakeLightRequest_@00712ae3"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_RightDaylightRunningLightRequest_@593aaeca": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation_@d0976596"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_RightDaylightRunningLightRequest_@f8e8e9e3"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_RightHighBeamLightRequest_@d7c19539": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_RightHighBeamLightRequest_Delegation_@b6736d84"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_RightHighBeamLightRequest_@758c0f3c"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_RightLowBeamLightRequest_@18ab8379": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_RightLowBeamLightRequest_Delegation_@55188eb3"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_RightLowBeamLightRequest_@0913fda4"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_RightTurnLightRequest_@14a1ce9d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "VehicleInformationDesign_RightTurnLightRequest_Delegation_@2e5565a7"
+                    ],
+                    "realizingInterface": [
+                        "InformationDisplay_RightTurnLightRequest_@a84b9ae5"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_StateOfCharge_@50ae37ab": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_StateOfCharge_Assembly_@54c6dfc2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_StateOfCharge_@b2984f89"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_InformationDisplay_uispeed_@57255221": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_uispeed_Assembly_@ceeecd1d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "InformationDisplay_uispeed_@c6edcdf2"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_ParkingSensing_ProximityDistance_@3d51764f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_ProximityDistance_Assembly_@57becf40"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "PAM_Info_ProximityDistance_@c8647bae"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_PositionSensing_Heading_@11b213cd": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_Heading_Assembly_@f243ee67"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "TCU_Info_Heading_@ad4bd68a"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_PositionSensing_Latitude_@9209af2e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_Latitude_Assembly_@293b356c"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "TCU_Info_Latitude_@dc5fafc0"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_PositionSensing_Longitude_@5575dd59": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_Longitude_Assembly_@d457908b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "TCU_Info_Longitude_@eed3d47f"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_BatteryCurrent_@e76d68f0": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_BatteryCurrent_Assembly_@5b06c755"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_BatteryCurrent_@9eb5396f"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_BatteryPower_@9ea70bf9": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_BatteryPower_Assembly_@b8fde13b"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_BatteryPower_@a1428868"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_BatteryVoltage_@aafed838": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_BatteryVoltage_Assembly_@ba523764"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_BatteryVoltage_@1afeda7a"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_MotorSpeed_@95ea4a56": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_MotorSpeed_Assembly_@2046dbc0"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_MotorSpeed_@9ed8fcf8"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_MotorTorque_@4a428943": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_MotorTorque_Assembly_@3811a94e"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_MotorTorque_@fc440db9"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_StateOfCharge_@6ef5f5d4": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_StateOfCharge_Assembly_@54c6dfc2"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_StateOfCharge_@cb3f03fa"
+                    ]
+                }
+            },
+            "IR_VehicleInformationDesign_VehicleStateSensing_uispeed_@182534c5": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "VehicleInformationDesign_uispeed_Assembly_@ceeecd1d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "VehicleStateSensing_uispeed_@621ce06b"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedVehicleInformationDesign_@491c48ad",
+            "description": [
+                "Realizes VehicleInformationDesign by its parts' realizations."
+            ],
+            "name": "ImplementedVehicleInformationDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

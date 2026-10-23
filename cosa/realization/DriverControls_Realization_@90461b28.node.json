@@ -4,19 +4,33 @@
         "attributes": {},
         "connections": {
             "customerFunctionInterfaceRealization": [
+                "CFIR_DriverControls_Cluster_GearLeverPosition_@cccdc9af",
                 "CFIR_DriverControls_Driver_AcceleratorPedalPosition_@b3d6435b",
                 "CFIR_DriverControls_Driver_GearShiftDown_@5e07076a",
                 "CFIR_DriverControls_Driver_GearShiftUp_@f97ec6d5",
-                "CFIR_DriverControls_Driver_SteeringAngle_@56b1c89f"
+                "CFIR_DriverControls_Driver_SteeringAngle_@56b1c89f",
+                "CFIR_DriverControls_Infotainment_Gear_@4b122f5c"
             ],
             "realizedCustomerFunction": [
                 "DriverControls_@2f70cb6b"
             ],
             "realizingApplicationModel": [
-                "RemotiveCar_@1edd6b7f"
+                "DriverControlsDesign_@7d3ccf8e"
             ]
         },
         "aggregations": {
+            "CFIR_DriverControls_Cluster_GearLeverPosition_@cccdc9af": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "DriverControls_Cluster_GearLeverPosition_@09f4ebe7"
+                    ],
+                    "realizingExternalIF": [
+                        "DriverControlsDesign_Cluster_GearLeverPosition_@a07c8888"
+                    ]
+                }
+            },
             "CFIR_DriverControls_Driver_AcceleratorPedalPosition_@b3d6435b": {
                 "stereotype": "CustomerFunctionInterfaceRealization",
                 "attributes": {},
@@ -25,7 +39,7 @@
                         "DriverControls_Driver_AcceleratorPedalPosition_@4fa62382"
                     ],
                     "realizingExternalIF": [
-                        "Driver_AcceleratorPedalPosition_@7ea19638"
+                        "DriverControlsDesign_Driver_AcceleratorPedalPosition_@83278787"
                     ]
                 }
             },
@@ -37,7 +51,7 @@
                         "DriverControls_Driver_GearShiftDown_@21ae1ac3"
                     ],
                     "realizingExternalIF": [
-                        "Driver_GearShiftDown_@6e10a4b7"
+                        "DriverControlsDesign_Driver_GearShiftDown_@beddfa34"
                     ]
                 }
             },
@@ -49,7 +63,7 @@
                         "DriverControls_Driver_GearShiftUp_@bbc25023"
                     ],
                     "realizingExternalIF": [
-                        "Driver_GearShiftUp_@5dea5672"
+                        "DriverControlsDesign_Driver_GearShiftUp_@63b30eb5"
                     ]
                 }
             },
@@ -61,7 +75,19 @@
                         "DriverControls_Driver_SteeringAngle_@6ee5300f"
                     ],
                     "realizingExternalIF": [
-                        "Driver_SteeringAngle_@4c1587d3"
+                        "DriverControlsDesign_Driver_SteeringAngle_@802e5917"
+                    ]
+                }
+            },
+            "CFIR_DriverControls_Infotainment_Gear_@4b122f5c": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "DriverControls_Infotainment_Gear_@cf0d5aef"
+                    ],
+                    "realizingExternalIF": [
+                        "DriverControlsDesign_Infotainment_Gear_@ca2ef186"
                     ]
                 }
             }
@@ -69,7 +95,7 @@
         "metadata": {
             "uuid": "DriverControls_Realization_@90461b28",
             "description": [
-                "RemotiveCar realizes DriverControls."
+                "DriverControlsDesign realizes DriverControls."
             ],
             "name": "DriverControls_Realization",
             "version_schema": "4.6.1"

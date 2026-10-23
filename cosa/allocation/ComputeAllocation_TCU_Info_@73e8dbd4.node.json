@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_TCU_Info_@73e8dbd4": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "TCU_Info_@1622ea93"
+            ],
+            "allocatedOnComputePlatform": [
+                "TCU_ECU_@fe8eaffa"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_TCU_Info_@8601a6a6"
+            ]
+        },
+        "aggregations": {
+            "CRIR_TCU_Info_@8601a6a6": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "TCU_Info_ComputeNeed_@713ecfdd"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "TCU_ECU_Compute_@05130160"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_TCU_Info_@73e8dbd4",
+            "description": [
+                "TCU_Info runs on the TCU ECU."
+            ],
+            "name": "ComputeAllocation_TCU_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

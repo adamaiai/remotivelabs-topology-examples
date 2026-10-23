@@ -1,0 +1,27 @@
+{
+    "DC_BCM_Lighting_HazardLightButton_NotPressed_@b356dec2": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BCM_Lighting_HazardLightButton_@0a2fe71a"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BCM_Lighting_HazardLightButton_NotPressed_@b356dec2",
+            "description": [
+                "Critical: BCM_Lighting_HazardLightButton reads released for longer than 50 ms while the button is pressed."
+            ],
+            "name": "DC_BCM_Lighting_HazardLightButton_NotPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

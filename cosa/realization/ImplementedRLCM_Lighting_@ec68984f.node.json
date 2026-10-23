@@ -1,0 +1,23 @@
+{
+    "ImplementedRLCM_Lighting_@ec68984f": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "66ad11b9099a5695734eb76c5ca5ac77b3f642a4",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/rlcm/python/rlcm"
+        },
+        "connections": {
+            "realizedModel": [
+                "RLCM_Lighting_@211c4dea"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedRLCM_Lighting_@ec68984f",
+            "description": [
+                "Implementation: Python behavioral model; the RLCM implementation serves all of its software components."
+            ],
+            "name": "ImplementedRLCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

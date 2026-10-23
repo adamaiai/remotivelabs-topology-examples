@@ -1,0 +1,23 @@
+{
+    "ImplementedBCM_Lighting_@1fe8ef8b": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "38dcb1f3baa8e201fe0ef6d7d527cac6aca2fc38",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/bcm/python/bcm"
+        },
+        "connections": {
+            "realizedModel": [
+                "BCM_Lighting_@7d7ffa2c"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedBCM_Lighting_@1fe8ef8b",
+            "description": [
+                "Implementation: Python behavioral model; the BCM implementation serves all of its software components."
+            ],
+            "name": "ImplementedBCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

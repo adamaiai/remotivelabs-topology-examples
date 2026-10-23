@@ -11,35 +11,47 @@
                 "CommunicateAllocation_DriverCan0_@c1bb2ea8",
                 "CommunicateAllocation_RearLightLIN_@33489a2b",
                 "CommunicateAllocation_SOMEIP_@a220402b",
-                "ComputeAllocation_ABS_@e18f674b",
-                "ComputeAllocation_BCM_@63bf2487",
-                "ComputeAllocation_BMS_@85dd8604",
-                "ComputeAllocation_DEVS2_@8c320eef",
-                "ComputeAllocation_DIM_@2baebba1",
-                "ComputeAllocation_FLCM_@8dd448c3",
-                "ComputeAllocation_GWM_@7f45af9d",
-                "ComputeAllocation_HVAC_@b9e23ed6",
-                "ComputeAllocation_IHU_@eec0ed50",
-                "ComputeAllocation_PAM_@bf785918",
-                "ComputeAllocation_PCM_@9d2ae0d9",
-                "ComputeAllocation_RLCM_@fa145c46",
-                "ComputeAllocation_RL_@11c2ed37",
-                "ComputeAllocation_SCCM_@480ac89e",
-                "ComputeAllocation_TCU_@2b886141"
+                "ComputeAllocation_ABS_Info_@3dff0add",
+                "ComputeAllocation_BCM_DriverControls_@ffe49964",
+                "ComputeAllocation_BCM_Lighting_@981592cf",
+                "ComputeAllocation_BMS_Info_@20b46115",
+                "ComputeAllocation_DEVS2_Lighting_@2c3e3ce4",
+                "ComputeAllocation_DIM_DriverControls_@e422a635",
+                "ComputeAllocation_DIM_Info_@72fd5818",
+                "ComputeAllocation_FLCM_Lighting_@410dde5a",
+                "ComputeAllocation_GWM_Climate_@fdf268d5",
+                "ComputeAllocation_GWM_DriverControls_@1528ac86",
+                "ComputeAllocation_GWM_Info_@6005a5e1",
+                "ComputeAllocation_HVAC_Climate_@f879db13",
+                "ComputeAllocation_IHU_Climate_@185696bf",
+                "ComputeAllocation_IHU_DriverControls_@e195e201",
+                "ComputeAllocation_IHU_Info_@e2055499",
+                "ComputeAllocation_PAM_Info_@37e83509",
+                "ComputeAllocation_PCM_Info_@5a1d4460",
+                "ComputeAllocation_RLCM_Lighting_@271a2f3c",
+                "ComputeAllocation_RL_Lighting_@ca4e076d",
+                "ComputeAllocation_SCCM_DriverControls_@b7dbfba4",
+                "ComputeAllocation_SCCM_Lighting_@705e8b9c",
+                "ComputeAllocation_TCU_Info_@73e8dbd4"
             ],
             "realizationInScope": [
                 "ClimateControl_Realization_@c9143524",
                 "DriverControls_Realization_@90461b28",
-                "ExteriorLighting_Realization_@3bbc7d06"
+                "ExteriorLighting_Realization_@3bbc7d06",
+                "VehicleInformation_Realization_@07455e5d"
             ],
             "topAggregation": [
-                "ImplementedRemotiveCar_@29fec195"
+                "ImplementedClimateControlDesign_@5c2dbbad",
+                "ImplementedDriverControlsDesign_@65808a2e",
+                "ImplementedExteriorLightingDesign_@ed7de822",
+                "ImplementedRemotiveCar_@29fec195",
+                "ImplementedVehicleInformationDesign_@491c48ad"
             ]
         },
         "metadata": {
             "uuid": "RemotiveCar_DeliveryScope_@b333d412",
             "description": [
-                "Delivery of ImplementedRemotiveCar realizing ExteriorLighting, ClimateControl and DriverControls, with all compute and communication allocations.",
+                "Delivery of ImplementedRemotiveCar realizing all customer functions, with all compute and communication allocations.",
                 "realizationInScope holds several customer function realizations although the metamodel allows one (known metamodel bug, reported by S.1.2)."
             ],
             "name": "RemotiveCar_DeliveryScope",

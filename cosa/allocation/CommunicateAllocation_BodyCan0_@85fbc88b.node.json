@@ -4,274 +4,414 @@
         "attributes": {},
         "connections": {
             "allocatedApplicationCommunication": [
-                "AcceleratorPedalPosition_BodyCan0_@49e1ce90",
-                "GearLeverPosition_@cb3afbf6",
-                "Heading_@43d51efd",
-                "Latitude_@af8a79fb",
-                "LeftBrakeLightRequest_@6553aa43",
-                "LeftDaylightRunningLightRequest_@770c7fbd",
-                "LeftHighBeamLightRequest_@aa2b64de",
-                "LeftLowBeamLightRequest_@ba611459",
-                "LeftTemperature_@a5c08ee5",
-                "LeftTurnLightRequest_@182bd50e",
-                "Longitude_@7225df5c",
-                "ProximityDistance_@758b58b3",
-                "RightBrakeLightRequest_@398ba989",
-                "RightDaylightRunningLightRequest_@83e5c5a4",
-                "RightHighBeamLightRequest_@7876efe8",
-                "RightLowBeamLightRequest_@9e2cee30",
-                "RightTemperature_@1308bf0f",
-                "RightTurnLightRequest_@76f14077",
-                "SteeringWheelPosition_@97728936"
+                "ClimateActuation_LeftTemperature_Assembly_@3aa8a80b",
+                "ClimateActuation_RightTemperature_Assembly_@8d77c986",
+                "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@8238fb9f",
+                "DriverControlsDesign_GearLeverPosition_Assembly_@e60f0e74",
+                "DriverControlsDesign_SteeringWheelPosition_Assembly_@963dc33f",
+                "ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@125b5964",
+                "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@499a36f2",
+                "ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@012110dc",
+                "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@42908a5f",
+                "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@08847b99",
+                "ExteriorLightingDesign_RightBrakeLightRequest_Assembly_@0e34702f",
+                "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@43b07626",
+                "ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_@4b01fb38",
+                "ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@5442467d",
+                "ExteriorLightingDesign_RightTurnLightRequest_Assembly_@9c018b99",
+                "RemotiveCar_LeftBrakeLightRequest_Assembly_@b77543c0",
+                "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@52777700",
+                "RemotiveCar_LeftHighBeamLightRequest_Assembly_@a4f4e9d7",
+                "RemotiveCar_LeftLowBeamLightRequest_Assembly_@9f3cf949",
+                "RemotiveCar_LeftTurnLightRequest_Assembly_@259ed8c5",
+                "RemotiveCar_RightBrakeLightRequest_Assembly_@b02a91fd",
+                "RemotiveCar_RightDaylightRunningLightRequest_Assembly_@6f88e21c",
+                "RemotiveCar_RightHighBeamLightRequest_Assembly_@2025c576",
+                "RemotiveCar_RightLowBeamLightRequest_Assembly_@7ae9661c",
+                "RemotiveCar_RightTurnLightRequest_Assembly_@26183d5e",
+                "VehicleInformationDesign_Heading_Assembly_@f243ee67",
+                "VehicleInformationDesign_Latitude_Assembly_@293b356c",
+                "VehicleInformationDesign_Longitude_Assembly_@d457908b",
+                "VehicleInformationDesign_ProximityDistance_Assembly_@57becf40"
             ],
             "allocatedOnCommunicationPlatform": [
                 "BodyCan0_@752e91cf"
             ],
             "communicateInterfaceRealization": [
-                "CIR_AcceleratorPedalPosition_BodyCan0_@9b16d4cc",
-                "CIR_GearLeverPosition_@59dae2b1",
-                "CIR_Heading_@9cf1690b",
-                "CIR_Latitude_@e689723c",
-                "CIR_LeftBrakeLightRequest_@5548270c",
-                "CIR_LeftDaylightRunningLightRequest_@9b0486e8",
-                "CIR_LeftHighBeamLightRequest_@92204f0e",
-                "CIR_LeftLowBeamLightRequest_@a68a19dc",
-                "CIR_LeftTemperature_@e0011cb4",
-                "CIR_LeftTurnLightRequest_@cd4c95b3",
-                "CIR_Longitude_@db700dac",
-                "CIR_ProximityDistance_@08542c8d",
-                "CIR_RightBrakeLightRequest_@a4599ac4",
-                "CIR_RightDaylightRunningLightRequest_@4fe606e4",
-                "CIR_RightHighBeamLightRequest_@ca3da69b",
-                "CIR_RightLowBeamLightRequest_@17e0cd6c",
-                "CIR_RightTemperature_@b48c844a",
-                "CIR_RightTurnLightRequest_@f7315909",
-                "CIR_SteeringWheelPosition_@d2ff3b85"
+                "CIR_ClimateActuation_LeftTemperature_Assembly_@4c957650",
+                "CIR_ClimateActuation_RightTemperature_Assembly_@8403b3a3",
+                "CIR_DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@46638dbb",
+                "CIR_DriverControlsDesign_GearLeverPosition_Assembly_@b5433a29",
+                "CIR_DriverControlsDesign_SteeringWheelPosition_Assembly_@97239068",
+                "CIR_ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@bcd4f191",
+                "CIR_ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@72f493c7",
+                "CIR_ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@f4343f91",
+                "CIR_ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@1193c673",
+                "CIR_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@e7677906",
+                "CIR_ExteriorLightingDesign_RightBrakeLightRequest_Assembly_@4b877cd1",
+                "CIR_ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@e0ce2109",
+                "CIR_ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_@19bea1a2",
+                "CIR_ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@d54c2458",
+                "CIR_ExteriorLightingDesign_RightTurnLightRequest_Assembly_@b884dc5f",
+                "CIR_RemotiveCar_LeftBrakeLightRequest_Assembly_@f4461d52",
+                "CIR_RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@c6282e80",
+                "CIR_RemotiveCar_LeftHighBeamLightRequest_Assembly_@8b68fc82",
+                "CIR_RemotiveCar_LeftLowBeamLightRequest_Assembly_@78841ceb",
+                "CIR_RemotiveCar_LeftTurnLightRequest_Assembly_@d25cbfee",
+                "CIR_RemotiveCar_RightBrakeLightRequest_Assembly_@a2b89b8c",
+                "CIR_RemotiveCar_RightDaylightRunningLightRequest_Assembly_@0aad9372",
+                "CIR_RemotiveCar_RightHighBeamLightRequest_Assembly_@dbff8802",
+                "CIR_RemotiveCar_RightLowBeamLightRequest_Assembly_@821a96ae",
+                "CIR_RemotiveCar_RightTurnLightRequest_Assembly_@6738d1d2",
+                "CIR_VehicleInformationDesign_Heading_Assembly_@be9518c9",
+                "CIR_VehicleInformationDesign_Latitude_Assembly_@1dd1cc4c",
+                "CIR_VehicleInformationDesign_Longitude_Assembly_@912d21a1",
+                "CIR_VehicleInformationDesign_ProximityDistance_Assembly_@e057f8e9"
             ]
         },
         "aggregations": {
-            "CIR_AcceleratorPedalPosition_BodyCan0_@9b16d4cc": {
+            "CIR_ClimateActuation_LeftTemperature_Assembly_@4c957650": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "AcceleratorPedalPosition_BodyCan0_CommNeed_@0c032baf"
+                        "ClimateActuation_LeftTemperature_Assembly_CommNeed_@4ffbf1be"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_GearLeverPosition_@59dae2b1": {
+            "CIR_ClimateActuation_RightTemperature_Assembly_@8403b3a3": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "GearLeverPosition_CommNeed_@7400b1c6"
+                        "ClimateActuation_RightTemperature_Assembly_CommNeed_@b4bef0ac"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_Heading_@9cf1690b": {
+            "CIR_DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@46638dbb": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "Heading_CommNeed_@cf9ed76e"
+                        "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed_@5e1ff695"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_Latitude_@e689723c": {
+            "CIR_DriverControlsDesign_GearLeverPosition_Assembly_@b5433a29": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "Latitude_CommNeed_@380ba34a"
+                        "DriverControlsDesign_GearLeverPosition_Assembly_CommNeed_@825262ee"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_LeftBrakeLightRequest_@5548270c": {
+            "CIR_DriverControlsDesign_SteeringWheelPosition_Assembly_@97239068": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LeftBrakeLightRequest_CommNeed_@5fff57a5"
+                        "DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed_@058d1390"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_LeftDaylightRunningLightRequest_@9b0486e8": {
+            "CIR_ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@bcd4f191": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LeftDaylightRunningLightRequest_CommNeed_@c4c520c4"
+                        "ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_CommNeed_@73bb03d5"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_LeftHighBeamLightRequest_@92204f0e": {
+            "CIR_ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@72f493c7": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LeftHighBeamLightRequest_CommNeed_@10094874"
+                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_CommNeed_@a8be473e"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_LeftLowBeamLightRequest_@a68a19dc": {
+            "CIR_ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@f4343f91": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LeftLowBeamLightRequest_CommNeed_@e47640da"
+                        "ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_CommNeed_@36574ac9"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_LeftTemperature_@e0011cb4": {
+            "CIR_ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@1193c673": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LeftTemperature_CommNeed_@524ca857"
+                        "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_CommNeed_@3db4e9b9"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_LeftTurnLightRequest_@cd4c95b3": {
+            "CIR_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@e7677906": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "LeftTurnLightRequest_CommNeed_@0b81d77f"
+                        "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_CommNeed_@0e89663e"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_Longitude_@db700dac": {
+            "CIR_ExteriorLightingDesign_RightBrakeLightRequest_Assembly_@4b877cd1": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "Longitude_CommNeed_@ab42d14e"
+                        "ExteriorLightingDesign_RightBrakeLightRequest_Assembly_CommNeed_@f01bb67b"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_ProximityDistance_@08542c8d": {
+            "CIR_ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@e0ce2109": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "ProximityDistance_CommNeed_@2f6bba69"
+                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_CommNeed_@c113e7e9"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_RightBrakeLightRequest_@a4599ac4": {
+            "CIR_ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_@19bea1a2": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "RightBrakeLightRequest_CommNeed_@8f71c8eb"
+                        "ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_CommNeed_@b3227271"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_RightDaylightRunningLightRequest_@4fe606e4": {
+            "CIR_ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@d54c2458": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "RightDaylightRunningLightRequest_CommNeed_@5c93b50b"
+                        "ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_CommNeed_@08a40693"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_RightHighBeamLightRequest_@ca3da69b": {
+            "CIR_ExteriorLightingDesign_RightTurnLightRequest_Assembly_@b884dc5f": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "RightHighBeamLightRequest_CommNeed_@b9f8974f"
+                        "ExteriorLightingDesign_RightTurnLightRequest_Assembly_CommNeed_@94d4d0c1"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_RightLowBeamLightRequest_@17e0cd6c": {
+            "CIR_RemotiveCar_LeftBrakeLightRequest_Assembly_@f4461d52": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "RightLowBeamLightRequest_CommNeed_@4678dcdd"
+                        "RemotiveCar_LeftBrakeLightRequest_Assembly_CommNeed_@1661adc1"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_RightTemperature_@b48c844a": {
+            "CIR_RemotiveCar_LeftDaylightRunningLightRequest_Assembly_@c6282e80": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "RightTemperature_CommNeed_@0f52d38e"
+                        "RemotiveCar_LeftDaylightRunningLightRequest_Assembly_CommNeed_@37cb03f4"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_RightTurnLightRequest_@f7315909": {
+            "CIR_RemotiveCar_LeftHighBeamLightRequest_Assembly_@8b68fc82": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "RightTurnLightRequest_CommNeed_@2f2b1e2c"
+                        "RemotiveCar_LeftHighBeamLightRequest_Assembly_CommNeed_@d3ec36ae"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"
                     ]
                 }
             },
-            "CIR_SteeringWheelPosition_@d2ff3b85": {
+            "CIR_RemotiveCar_LeftLowBeamLightRequest_Assembly_@78841ceb": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "SteeringWheelPosition_CommNeed_@89956c04"
+                        "RemotiveCar_LeftLowBeamLightRequest_Assembly_CommNeed_@e9de51f0"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_RemotiveCar_LeftTurnLightRequest_Assembly_@d25cbfee": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "RemotiveCar_LeftTurnLightRequest_Assembly_CommNeed_@c53baac9"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_RemotiveCar_RightBrakeLightRequest_Assembly_@a2b89b8c": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "RemotiveCar_RightBrakeLightRequest_Assembly_CommNeed_@ccbe40a3"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_RemotiveCar_RightDaylightRunningLightRequest_Assembly_@0aad9372": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "RemotiveCar_RightDaylightRunningLightRequest_Assembly_CommNeed_@c53b54a1"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_RemotiveCar_RightHighBeamLightRequest_Assembly_@dbff8802": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "RemotiveCar_RightHighBeamLightRequest_Assembly_CommNeed_@34493a94"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_RemotiveCar_RightLowBeamLightRequest_Assembly_@821a96ae": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "RemotiveCar_RightLowBeamLightRequest_Assembly_CommNeed_@78350b6b"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_RemotiveCar_RightTurnLightRequest_Assembly_@6738d1d2": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "RemotiveCar_RightTurnLightRequest_Assembly_CommNeed_@ac0453ed"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_VehicleInformationDesign_Heading_Assembly_@be9518c9": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "VehicleInformationDesign_Heading_Assembly_CommNeed_@72b980b1"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_VehicleInformationDesign_Latitude_Assembly_@1dd1cc4c": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "VehicleInformationDesign_Latitude_Assembly_CommNeed_@c635dec4"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_VehicleInformationDesign_Longitude_Assembly_@912d21a1": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "VehicleInformationDesign_Longitude_Assembly_CommNeed_@c870197f"
+                    ],
+                    "platformCommunicationResource": [
+                        "BodyCan0_Bandwidth_@f9ca22c4"
+                    ]
+                }
+            },
+            "CIR_VehicleInformationDesign_ProximityDistance_Assembly_@e057f8e9": {
+                "stereotype": "CommunicateInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "applicationCommunicationResourceNeed": [
+                        "VehicleInformationDesign_ProximityDistance_Assembly_CommNeed_@f4a8ca47"
                     ],
                     "platformCommunicationResource": [
                         "BodyCan0_Bandwidth_@f9ca22c4"

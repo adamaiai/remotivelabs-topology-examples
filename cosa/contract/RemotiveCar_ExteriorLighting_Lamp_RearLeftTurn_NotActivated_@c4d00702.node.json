@@ -1,0 +1,24 @@
+{
+    "RemotiveCar_ExteriorLighting_Lamp_RearLeftTurn_NotActivated_@c4d00702": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_Driver_HazardLightButton_NotPressed_@611effa5",
+                "DC_Driver_TurnSignal_Misread_@1bd21e54"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_Lamp_RearLeftTurn_NotActivated_@3ef6fbf2"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_ExteriorLighting_Lamp_RearLeftTurn_NotActivated_@c4d00702",
+            "description": [
+                "Derived, not in the specification: Inside RemotiveCar, the exterior lighting design lights the turn lamps from the driver's inputs."
+            ],
+            "name": "RemotiveCar_ExteriorLighting_Lamp_RearLeftTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_DEVS2_Lighting_@2c3e3ce4": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "DEVS2_Lighting_@15070e58"
+            ],
+            "allocatedOnComputePlatform": [
+                "DEVS2_ECU_@29ea5079"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_DEVS2_Lighting_@79cc66dd"
+            ]
+        },
+        "aggregations": {
+            "CRIR_DEVS2_Lighting_@79cc66dd": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "DEVS2_Lighting_ComputeNeed_@2dc979cd"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "DEVS2_ECU_Compute_@e4d5c1de"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_DEVS2_Lighting_@2c3e3ce4",
+            "description": [
+                "DEVS2_Lighting runs on the DEVS2 ECU."
+            ],
+            "name": "ComputeAllocation_DEVS2_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

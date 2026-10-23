@@ -1,0 +1,26 @@
+{
+    "RLCM_Lighting_ReqRight_NotActivated_@43d84b08": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_RLCM_Lighting_RightTurnLightRequest_NotActivated_@6cde4426"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RLCM_Lighting_ReqRight_NotActivated_@62872773"
+            ]
+        },
+        "metadata": {
+            "uuid": "RLCM_Lighting_ReqRight_NotActivated_@43d84b08",
+            "description": [
+                "COMP_REQ_RLCM_CONTROL (Rear Turn Indicator Control): The Rear Light Control Module shall translate rear turn indicator commands received on BodyCan0 into corresponding LIN frames on RearLightLIN within one bus cycle so the rear light unit illuminates the indicator on the requested side."
+            ],
+            "name": "RLCM_Lighting_ReqRight_NotActivated",
+            "source": "remotive_car/docs/requirements/lighting_requirements.rst#COMP_REQ_RLCM_CONTROL",
+            "version_schema": "4.6.1"
+        }
+    }
+}

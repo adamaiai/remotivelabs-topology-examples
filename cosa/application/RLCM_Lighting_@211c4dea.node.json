@@ -1,0 +1,268 @@
+{
+    "RLCM_Lighting_@211c4dea": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "RLCM_Lighting_ComputeNeed_@03a532ae"
+            ],
+            "externalInterface": [
+                "RLCM_Lighting_ErrRespDEVS1_@86ff843f",
+                "RLCM_Lighting_LeftBrakeLightRequest_@4118d2b7",
+                "RLCM_Lighting_LeftDaylightRunningLightRequest_@a2ab3438",
+                "RLCM_Lighting_LeftLowBeamLightRequest_@2eae0516",
+                "RLCM_Lighting_LeftTurnLightRequest_@a4ab63e6",
+                "RLCM_Lighting_ReqLeft_@32e967a4",
+                "RLCM_Lighting_ReqRight_@149157d3",
+                "RLCM_Lighting_RightBrakeLightRequest_@5f847503",
+                "RLCM_Lighting_RightDaylightRunningLightRequest_@6672ff2d",
+                "RLCM_Lighting_RightLowBeamLightRequest_@01a8ad80",
+                "RLCM_Lighting_RightTurnLightRequest_@048d9441",
+                "RLCM_Lighting_SomePartNrDEVS2EndSgn1_@2ebbe0ef",
+                "RLCM_Lighting_SomePartNrDEVS2EndSgn2_@16183c9a",
+                "RLCM_Lighting_SomePartNrDEVS2EndSgn3_@131351f5",
+                "RLCM_Lighting_SomePartNrDEVS2Nr1_@73373999",
+                "RLCM_Lighting_SomePartNrDEVS2Nr2_@6856834f",
+                "RLCM_Lighting_SomePartNrDEVS2Nr3_@181636af",
+                "RLCM_Lighting_SomePartNrDEVS2Nr4_@ba9e2350",
+                "RLCM_Lighting_SomeQf_@5045f399",
+                "RLCM_Lighting_SomeReq1_@f9daad36",
+                "RLCM_Lighting_SomeReq2Type2_@97fc3fdb",
+                "RLCM_Lighting_counter_@56ef85d6",
+                "RLCM_Lighting_counter_times_2_@803ce5f0"
+            ]
+        },
+        "aggregations": {
+            "RLCM_Lighting_ComputeNeed_@03a532ae": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource RLCM_Lighting needs from the RLCM ECU."
+                    ]
+                }
+            },
+            "RLCM_Lighting_ErrRespDEVS1_@86ff843f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_LeftBrakeLightRequest_@4118d2b7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_LeftDaylightRunningLightRequest_@a2ab3438": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_LeftLowBeamLightRequest_@2eae0516": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_LeftTurnLightRequest_@a4ab63e6": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_ReqLeft_@32e967a4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_ReqRight_@149157d3": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_RightBrakeLightRequest_@5f847503": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_RightDaylightRunningLightRequest_@6672ff2d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_RightLowBeamLightRequest_@01a8ad80": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_RightTurnLightRequest_@048d9441": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2EndSgn1_@2ebbe0ef": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2EndSgn2_@16183c9a": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2EndSgn3_@131351f5": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2Nr1_@73373999": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2Nr2_@6856834f": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2Nr3_@181636af": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomePartNrDEVS2Nr4_@ba9e2350": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomeQf_@5045f399": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "SomeQf1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomeReq1_@f9daad36": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_SomeReq2Type2_@97fc3fdb": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "degC"
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_counter_@56ef85d6": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq2Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RLCM_Lighting_counter_times_2_@803ce5f0": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "RLCM_Lighting_@211c4dea",
+            "description": [
+                "ExteriorLighting software on the Rear Light Control Module (RLCM). Controls rear lighting system. Gateway between BodyCan0 and the RearLightLIN bus, where it is LIN master."
+            ],
+            "name": "RLCM_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

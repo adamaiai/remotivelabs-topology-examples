@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_SCCM_Lighting_@705e8b9c": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "SCCM_Lighting_@de006ceb"
+            ],
+            "allocatedOnComputePlatform": [
+                "SCCM_ECU_@59d09083"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_SCCM_Lighting_@938dd7f2"
+            ]
+        },
+        "aggregations": {
+            "CRIR_SCCM_Lighting_@938dd7f2": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "SCCM_Lighting_ComputeNeed_@cfa29bc4"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "SCCM_ECU_Compute_@65692407"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_SCCM_Lighting_@705e8b9c",
+            "description": [
+                "SCCM_Lighting runs on the SCCM ECU."
+            ],
+            "name": "ComputeAllocation_SCCM_Lighting",
+            "version_schema": "4.6.1"
+        }
+    }
+}

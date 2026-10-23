@@ -1,0 +1,23 @@
+{
+    "ImplementedIHU_DriverControls_@f4b56faf": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "171f2d058c8f9007cffb38af7fa33c2f6035351a",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/ihu/python/ihu"
+        },
+        "connections": {
+            "realizedModel": [
+                "IHU_DriverControls_@0cad7708"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedIHU_DriverControls_@f4b56faf",
+            "description": [
+                "Implementation: Python behavioral model; the IHU implementation serves all of its software components."
+            ],
+            "name": "ImplementedIHU_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

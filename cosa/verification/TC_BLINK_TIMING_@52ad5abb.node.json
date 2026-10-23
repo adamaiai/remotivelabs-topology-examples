@@ -10,8 +10,8 @@
         },
         "connections": {
             "contractInScope": [
-                "BCM_LeftTurnLightRequest_Cadence_@edfe7fc0",
-                "BCM_RightTurnLightRequest_Cadence_@5842a4ec"
+                "BCM_Lighting_LeftTurnLightRequest_Cadence_@ce3e6268",
+                "BCM_Lighting_RightTurnLightRequest_Cadence_@910ec443"
             ]
         },
         "metadata": {

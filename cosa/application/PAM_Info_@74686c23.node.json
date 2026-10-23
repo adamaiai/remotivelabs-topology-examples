@@ -1,0 +1,48 @@
+{
+    "PAM_Info_@74686c23": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "PAM_Info_ComputeNeed_@ca4347ac"
+            ],
+            "externalInterface": [
+                "PAM_Info_ProximityDistance_@c8647bae"
+            ]
+        },
+        "aggregations": {
+            "PAM_Info_ComputeNeed_@ca4347ac": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource PAM_Info needs from the PAM ECU."
+                    ]
+                }
+            },
+            "PAM_Info_ProximityDistance_@c8647bae": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "m"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "PAM_Info_@74686c23",
+            "description": [
+                "VehicleInformation software on the Parking Assistant Module (PAM). Provides access to proximity sensor values."
+            ],
+            "name": "PAM_Info",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}

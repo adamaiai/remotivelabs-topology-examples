@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_GWM_Info_@6005a5e1": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "GWM_Info_@78db77d5"
+            ],
+            "allocatedOnComputePlatform": [
+                "GWM_ECU_@2825eea1"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_GWM_Info_@c265832e"
+            ]
+        },
+        "aggregations": {
+            "CRIR_GWM_Info_@c265832e": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "GWM_Info_ComputeNeed_@f3fdaa80"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "GWM_ECU_Compute_@05833099"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_GWM_Info_@6005a5e1",
+            "description": [
+                "GWM_Info runs on the GWM ECU."
+            ],
+            "name": "ComputeAllocation_GWM_Info",
+            "version_schema": "4.6.1"
+        }
+    }
+}

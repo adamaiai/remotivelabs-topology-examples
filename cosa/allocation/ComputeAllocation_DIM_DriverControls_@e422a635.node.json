@@ -1,0 +1,39 @@
+{
+    "ComputeAllocation_DIM_DriverControls_@e422a635": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "DIM_DriverControls_@1502c2c3"
+            ],
+            "allocatedOnComputePlatform": [
+                "DIM_ECU_@8654976d"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_DIM_DriverControls_@c1be55bf"
+            ]
+        },
+        "aggregations": {
+            "CRIR_DIM_DriverControls_@c1be55bf": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "DIM_DriverControls_ComputeNeed_@6fd34d8f"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "DIM_ECU_Compute_@5461856c"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_DIM_DriverControls_@e422a635",
+            "description": [
+                "DIM_DriverControls runs on the DIM ECU."
+            ],
+            "name": "ComputeAllocation_DIM_DriverControls",
+            "version_schema": "4.6.1"
+        }
+    }
+}

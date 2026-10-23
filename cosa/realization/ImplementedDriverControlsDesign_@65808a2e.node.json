@@ -1,0 +1,350 @@
+{
+    "ImplementedDriverControlsDesign_@65808a2e": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_DriverControlsDesign_DriveStateProcessing_@1d00bf5f",
+                "Chosen_DriverControlsDesign_DriverInformation_@91664402",
+                "Chosen_DriverControlsDesign_DriverInputSensing_@82644d74"
+            ],
+            "realizedComposition": [
+                "DriverControlsDesign_@7d3ccf8e"
+            ]
+        },
+        "aggregations": {
+            "Chosen_DriverControlsDesign_DriveStateProcessing_@1d00bf5f": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_DriverControlsDesign_DriveStateProcessing_AcceleratorPedalPosition_BodyCan0_@0c191a63",
+                        "IR_DriverControlsDesign_DriveStateProcessing_AcceleratorPedalPosition_DriverCan0_@eb819499",
+                        "IR_DriverControlsDesign_DriveStateProcessing_GearLeverPosition_@ffeac31c",
+                        "IR_DriverControlsDesign_DriveStateProcessing_GearShiftDown_@49da0a82",
+                        "IR_DriverControlsDesign_DriveStateProcessing_GearShiftUp_@896b590d",
+                        "IR_DriverControlsDesign_DriveStateProcessing_SteeringAngle_@54bb1c73",
+                        "IR_DriverControlsDesign_DriveStateProcessing_SteeringWheelPosition_@1dd501d2"
+                    ],
+                    "realizedPlaceholder": [
+                        "DriverControlsDesign_DriveStateProcessing_@55d23be7"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedBCM_DriverControls_@88116401"
+                    ]
+                }
+            },
+            "Chosen_DriverControlsDesign_DriverInformation_@91664402": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_DriverControlsDesign_DriverInformation_AcceleratorPedalPosition_BodyCan0_@7c2c1579",
+                        "IR_DriverControlsDesign_DriverInformation_Cluster_GearLeverPosition_@90355841",
+                        "IR_DriverControlsDesign_DriverInformation_GearLeverPosition_@596b0c9e",
+                        "IR_DriverControlsDesign_DriverInformation_Infotainment_Gear_@c5710420",
+                        "IR_DriverControlsDesign_DriverInformation_SteeringWheelPosition_@3fd6385f"
+                    ],
+                    "realizedPlaceholder": [
+                        "DriverControlsDesign_DriverInformation_@b4a96bac"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedDriverInformation_@3fa97991"
+                    ]
+                }
+            },
+            "Chosen_DriverControlsDesign_DriverInputSensing_@82644d74": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_DriverControlsDesign_DriverInputSensing_AcceleratorPedalPosition_DriverCan0_@7e0da476",
+                        "IR_DriverControlsDesign_DriverInputSensing_Driver_AcceleratorPedalPosition_@33d71eb1",
+                        "IR_DriverControlsDesign_DriverInputSensing_Driver_GearShiftDown_@497f4093",
+                        "IR_DriverControlsDesign_DriverInputSensing_Driver_GearShiftUp_@4024f94f",
+                        "IR_DriverControlsDesign_DriverInputSensing_Driver_SteeringAngle_@2047fe38",
+                        "IR_DriverControlsDesign_DriverInputSensing_GearShiftDown_@fd4064ea",
+                        "IR_DriverControlsDesign_DriverInputSensing_GearShiftUp_@2dcb6b34",
+                        "IR_DriverControlsDesign_DriverInputSensing_SteeringAngle_@f5c5543a"
+                    ],
+                    "realizedPlaceholder": [
+                        "DriverControlsDesign_DriverInputSensing_@1dc246dc"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedSCCM_DriverControls_@81027650"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_AcceleratorPedalPosition_BodyCan0_@0c191a63": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@8238fb9f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_AcceleratorPedalPosition_BodyCan0_@488279b7"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_AcceleratorPedalPosition_DriverCan0_@eb819499": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@1792ac31"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@d2fea52f"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_GearLeverPosition_@ffeac31c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_GearLeverPosition_Assembly_@e60f0e74"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_GearLeverPosition_@428c9d83"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_GearShiftDown_@49da0a82": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_GearShiftDown_Assembly_@b760e779"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_GearShiftDown_@8dbf280a"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_GearShiftUp_@896b590d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_GearShiftUp_Assembly_@516c15c7"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_GearShiftUp_@b65e48d4"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_SteeringAngle_@54bb1c73": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_SteeringAngle_Assembly_@b9e154a8"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_SteeringAngle_@625a8884"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriveStateProcessing_SteeringWheelPosition_@1dd501d2": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_SteeringWheelPosition_Assembly_@963dc33f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "BCM_DriverControls_SteeringWheelPosition_@7ff8da68"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInformation_AcceleratorPedalPosition_BodyCan0_@7c2c1579": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_@8238fb9f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DriverInformation_AcceleratorPedalPosition_BodyCan0_@0e74cbdf"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInformation_Cluster_GearLeverPosition_@90355841": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverControlsDesign_Cluster_GearLeverPosition_Delegation_@a884f925"
+                    ],
+                    "realizingInterface": [
+                        "DriverInformation_Cluster_GearLeverPosition_@fc704d0f"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInformation_GearLeverPosition_@596b0c9e": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_GearLeverPosition_Assembly_@e60f0e74"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DriverInformation_GearLeverPosition_@e256a179"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInformation_Infotainment_Gear_@c5710420": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverControlsDesign_Infotainment_Gear_Delegation_@1735ad12"
+                    ],
+                    "realizingInterface": [
+                        "DriverInformation_Infotainment_Gear_@6aced9cd"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInformation_SteeringWheelPosition_@3fd6385f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_SteeringWheelPosition_Assembly_@963dc33f"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "DriverInformation_SteeringWheelPosition_@b4d2fab6"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_AcceleratorPedalPosition_DriverCan0_@7e0da476": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_AcceleratorPedalPosition_DriverCan0_Assembly_@1792ac31"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_AcceleratorPedalPosition_DriverCan0_@e7028a0d"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_Driver_AcceleratorPedalPosition_@33d71eb1": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverControlsDesign_Driver_AcceleratorPedalPosition_Delegation_@7dadddd6"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_Driver_AcceleratorPedalPosition_@63f9fcf1"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_Driver_GearShiftDown_@497f4093": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverControlsDesign_Driver_GearShiftDown_Delegation_@f92f55f5"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_Driver_GearShiftDown_@3485f24c"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_Driver_GearShiftUp_@4024f94f": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverControlsDesign_Driver_GearShiftUp_Delegation_@ef6b7d8d"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_Driver_GearShiftUp_@05157d51"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_Driver_SteeringAngle_@2047fe38": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "DriverControlsDesign_Driver_SteeringAngle_Delegation_@8eb9e560"
+                    ],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_Driver_SteeringAngle_@2ef29011"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_GearShiftDown_@fd4064ea": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_GearShiftDown_Assembly_@b760e779"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_GearShiftDown_@0af927d4"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_GearShiftUp_@2dcb6b34": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_GearShiftUp_Assembly_@516c15c7"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_GearShiftUp_@348a87fd"
+                    ]
+                }
+            },
+            "IR_DriverControlsDesign_DriverInputSensing_SteeringAngle_@f5c5543a": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "DriverControlsDesign_SteeringAngle_Assembly_@b9e154a8"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "SCCM_DriverControls_SteeringAngle_@be3e8822"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedDriverControlsDesign_@65808a2e",
+            "description": [
+                "Realizes DriverControlsDesign by its parts' realizations."
+            ],
+            "name": "ImplementedDriverControlsDesign",
+            "version_schema": "4.6.1"
+        }
+    }
+}

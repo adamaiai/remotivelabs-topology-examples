@@ -8,13 +8,13 @@
             ],
             "assume_safetyContract": [],
             "guarantee": [
-                "DC_ReqRight_NotActivated_@0c880451"
+                "DC_RearLight_ReqRight_Assembly_NotActivated_@2cd8040d"
             ]
         },
         "metadata": {
             "uuid": "RearLight_RLCM_ReqRight_NotActivated_@b4b2cdbe",
             "description": [
-                "Derived, not in the specification: Inside RearLight, the RLCM placeholder forwards RightTurnLightRequest to ReqRight on RearLightLIN."
+                "Derived, not in the specification: Inside RearLight, RLCM forwards RightTurnLightRequest to ReqRight on RearLightLIN."
             ],
             "name": "RearLight_RLCM_ReqRight_NotActivated",
             "version_schema": "4.6.1"

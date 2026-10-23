@@ -1,0 +1,27 @@
+{
+    "DC_SCCM_Lighting_HazardLightButton_NotPressed_@a4965dae": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "SCCM_Lighting_HazardLightButton_@c4d42502"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_SCCM_Lighting_HazardLightButton_NotPressed_@a4965dae",
+            "description": [
+                "Critical: SCCM_Lighting_HazardLightButton reads released for longer than 50 ms while the button is pressed."
+            ],
+            "name": "DC_SCCM_Lighting_HazardLightButton_NotPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

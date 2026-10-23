@@ -1,0 +1,88 @@
+{
+    "RL_Lighting_@fb21c7b7": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "RL_Lighting_ComputeNeed_@e0a92128"
+            ],
+            "externalInterface": [
+                "RL_Lighting_ErrRespDEVS1_@1a54b733",
+                "RL_Lighting_SomeQf_@8d5fdea1",
+                "RL_Lighting_SomeReq1_@6cbe786c",
+                "RL_Lighting_counter_@eba11447",
+                "RL_Lighting_counter_times_2_@6ba578c7"
+            ]
+        },
+        "aggregations": {
+            "RL_Lighting_ComputeNeed_@e0a92128": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource RL_Lighting needs from the RL ECU."
+                    ]
+                }
+            },
+            "RL_Lighting_ErrRespDEVS1_@1a54b733": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_Lighting_SomeQf_@8d5fdea1": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "SomeQf1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_Lighting_SomeReq1_@6cbe786c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq1Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_Lighting_counter_@eba11447": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Enum",
+                    "subTypeEnum": "TypeReq2Enum",
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {}
+            },
+            "RL_Lighting_counter_times_2_@6ba578c7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "dimensionless"
+                },
+                "connections": {}
+            }
+        },
+        "metadata": {
+            "uuid": "RL_Lighting_@fb21c7b7",
+            "description": [
+                "ExteriorLighting software on the Rear Light (RL). Provides access to the rear light. LIN slave (NAD 0x86)."
+            ],
+            "name": "RL_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.1"
+        }
+    }
+}
