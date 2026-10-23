@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_ClimateControlDesign_Climate_RightTemperature_Overheating_@f7723221": {
+        "stereotype": "RationaleClaim_Composition",
+        "attributes": {
+            "hasRefiningRedundancy": false
+        },
+        "connections": {
+            "evidence": [
+                "Evidence_FSC_ClimateControl_@c83fd8c1"
+            ],
+            "refinedContract": [
+                "ClimateControlDesign_Climate_RightTemperature_Overheating_@279c8475"
+            ],
+            "refiningContract": [
+                "ClimateControlDesign_ClimateActuation_Climate_RightTemperature_Overheating_@d77eb806",
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating_@802c8071"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateControlDesign_Climate_RightTemperature_Overheating_@f7723221",
+            "description": [
+                "The inner contracts of ClimateControlDesign together establish ClimateControlDesign_Climate_RightTemperature_Overheating."
+            ],
+            "name": "RationaleClaim_ClimateControlDesign_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

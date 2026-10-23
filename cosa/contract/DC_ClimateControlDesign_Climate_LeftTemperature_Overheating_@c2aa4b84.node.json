@@ -1,0 +1,27 @@
+{
+    "DC_ClimateControlDesign_Climate_LeftTemperature_Overheating_@c2aa4b84": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Larger_than_value",
+            "subTypeCriticalMarginValue": 30.0,
+            "toleranceMargin_Time_ms": 5000.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ClimateControlDesign_Climate_LeftTemperature_@1e318124"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ClimateControlDesign_Climate_LeftTemperature_Overheating_@c2aa4b84",
+            "description": [
+                "Critical: ClimateControlDesign_Climate_LeftTemperature is above 30 \u00b0C for longer than 5 s."
+            ],
+            "name": "DC_ClimateControlDesign_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

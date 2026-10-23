@@ -1,0 +1,21 @@
+{
+    "RemotiveCar_ClimateControl_Climate_RightTemperature_Overheating_@16db2928": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_Climate_RightTemperature_Overheating_@c13847ba"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_ClimateControl_Climate_RightTemperature_Overheating_@16db2928",
+            "description": [
+                "Derived, not in the specification: Inside RemotiveCar, the climate control design keeps the compartment below the limit."
+            ],
+            "name": "RemotiveCar_ClimateControl_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

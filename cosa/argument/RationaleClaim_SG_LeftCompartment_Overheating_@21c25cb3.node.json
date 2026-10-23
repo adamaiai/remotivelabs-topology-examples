@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_SG_LeftCompartment_Overheating_@21c25cb3": {
+        "stereotype": "RationaleClaim_TopRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_FSC_ClimateControl_@c83fd8c1"
+            ],
+            "refinedSafetyGoal": [
+                "SG_LeftCompartment_Overheating_@a4f0522e"
+            ],
+            "refiningContract": [
+                "ClimateControlDesign_Climate_LeftTemperature_Overheating_@c846cafb"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_SG_LeftCompartment_Overheating_@21c25cb3",
+            "description": [
+                "ClimateControlDesign_Climate_LeftTemperature_Overheating refines SG_LeftCompartment_Overheating."
+            ],
+            "name": "RationaleClaim_SG_LeftCompartment_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

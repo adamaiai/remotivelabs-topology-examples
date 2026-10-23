@@ -1,0 +1,23 @@
+{
+    "ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_Overheating_@c97fd8b4": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ClimateControlDesign_HVACService_LeftTemperature_Assembly_Overheating_@f4b0f3b2"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateControlDesign_Climate_LeftTemperature_Overheating_@c2aa4b84"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_Overheating_@c97fd8b4",
+            "description": [
+                "Derived, not in the specification: Inside the climate design, climate actuation follows the limited left request. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

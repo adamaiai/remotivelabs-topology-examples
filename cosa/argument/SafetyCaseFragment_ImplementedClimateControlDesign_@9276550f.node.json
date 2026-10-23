@@ -1,0 +1,38 @@
+{
+    "SafetyCaseFragment_ImplementedClimateControlDesign_@9276550f": {
+        "stereotype": "SafetyCaseFragment_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedClimateControlDesign_@ab5e6c65"
+            ],
+            "composedRealization": [
+                "ImplementedClimateControlDesign_@5c2dbbad"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedClimateControlDesign_@0c2ba75f"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedClimateControlDesign_@b5b16679"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_Overheating_@6242306d",
+                "RationaleClaim_ClimateControlDesign_ClimateActuation_Climate_RightTemperature_Overheating_@6df1bbb3",
+                "RationaleClaim_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@8af175e6",
+                "RationaleClaim_ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating_@7c891ad2"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedClimateControlDesign_VM_ClimateControlDesign_Analysis_@58854fca"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedClimateControlDesign_@9276550f",
+            "description": [
+                "Safety case fragment arguing ImplementedClimateControlDesign."
+            ],
+            "name": "SafetyCaseFragment_ImplementedClimateControlDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

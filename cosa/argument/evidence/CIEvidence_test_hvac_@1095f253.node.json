@@ -1,0 +1,23 @@
+{
+    "CIEvidence_test_hvac_@1095f253": {
+        "stereotype": "CIEvidenceReference",
+        "attributes": {
+            "ciArtifact": "reports/android/test_hvac.xml",
+            "ciJob": "android-hvac-tests",
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/ci/remotive-car-ci.yml",
+            "validUntil": "",
+            "version": "be57add3e277d5e3a6aded1507d3865d1c273793c7f68680d9555bba6a5d8169"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "CIEvidence_test_hvac_@1095f253",
+            "description": [
+                "Test report reports/android/test_hvac.xml of CI job android-hvac-tests, built from the commit under test. The report exists only as a CI artifact; location and version pin the pipeline that produces it."
+            ],
+            "name": "CIEvidence_test_hvac",
+            "version_schema": "4.6.2"
+        }
+    }
+}

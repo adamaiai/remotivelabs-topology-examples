@@ -1,0 +1,33 @@
+{
+    "SafetyCaseFragment_ClimateActuation_@cda179a3": {
+        "stereotype": "SafetyCaseFragment_ComposedComponent",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ClimateActuation_@b869f38c"
+            ],
+            "composedComponent": [
+                "ClimateActuation_@1db552fa"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ClimateActuation_@0f95d53e"
+            ],
+            "processClaim": [
+                "ProcessClaim_ClimateActuation_@7bc4e8c4"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ClimateActuation_Climate_LeftTemperature_Overheating_@8520b85d",
+                "RationaleClaim_ClimateActuation_Climate_RightTemperature_Overheating_@8e4b1fd0"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ClimateActuation_@cda179a3",
+            "description": [
+                "Safety case fragment arguing ClimateActuation."
+            ],
+            "name": "SafetyCaseFragment_ClimateActuation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

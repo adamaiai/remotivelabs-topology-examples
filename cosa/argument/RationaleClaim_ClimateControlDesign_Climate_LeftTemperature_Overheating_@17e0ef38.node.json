@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_ClimateControlDesign_Climate_LeftTemperature_Overheating_@17e0ef38": {
+        "stereotype": "RationaleClaim_Composition",
+        "attributes": {
+            "hasRefiningRedundancy": false
+        },
+        "connections": {
+            "evidence": [
+                "Evidence_FSC_ClimateControl_@c83fd8c1"
+            ],
+            "refinedContract": [
+                "ClimateControlDesign_Climate_LeftTemperature_Overheating_@c846cafb"
+            ],
+            "refiningContract": [
+                "ClimateControlDesign_ClimateActuation_Climate_LeftTemperature_Overheating_@c97fd8b4",
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@dedb8f22"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateControlDesign_Climate_LeftTemperature_Overheating_@17e0ef38",
+            "description": [
+                "The inner contracts of ClimateControlDesign together establish ClimateControlDesign_Climate_LeftTemperature_Overheating."
+            ],
+            "name": "RationaleClaim_ClimateControlDesign_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedHVAC_Climate_@b6154ae3": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedHVAC_Climate_@b6154ae3",
+            "description": "",
+            "name": "CultureClaim_ImplementedHVAC_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

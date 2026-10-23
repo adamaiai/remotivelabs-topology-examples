@@ -1,0 +1,21 @@
+{
+    "Evidence_IHU_Climate_Analysis_@7b7d0a77": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/IHU_Climate_Analysis.md",
+            "validUntil": "",
+            "version": "8de4055c6547c0c74e1a864b8b7b578361b2d4c63193dc2d79c3af8c4b59faa4"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_IHU_Climate_Analysis_@7b7d0a77",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_IHU_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

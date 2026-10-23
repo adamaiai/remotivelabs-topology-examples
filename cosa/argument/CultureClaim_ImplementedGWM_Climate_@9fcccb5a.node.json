@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedGWM_Climate_@9fcccb5a": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedGWM_Climate_@9fcccb5a",
+            "description": "",
+            "name": "CultureClaim_ImplementedGWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

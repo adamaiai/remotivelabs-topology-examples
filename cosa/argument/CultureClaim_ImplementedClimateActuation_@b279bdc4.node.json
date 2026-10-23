@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedClimateActuation_@b279bdc4": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedClimateActuation_@b279bdc4",
+            "description": "",
+            "name": "CultureClaim_ImplementedClimateActuation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

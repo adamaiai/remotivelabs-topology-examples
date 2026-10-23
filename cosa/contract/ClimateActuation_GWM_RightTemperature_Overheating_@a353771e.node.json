@@ -1,0 +1,23 @@
+{
+    "ClimateActuation_GWM_RightTemperature_Overheating_@a353771e": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ClimateActuation_HVACService_RightTemperature_Overheating_@7f343e1d"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateActuation_RightTemperature_Assembly_Overheating_@58c0c736"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateActuation_GWM_RightTemperature_Overheating_@a353771e",
+            "description": [
+                "Derived, not in the specification: Inside climate actuation, GWM forwards the right setpoint to the HVAC. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateActuation_GWM_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

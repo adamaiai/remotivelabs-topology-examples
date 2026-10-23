@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@8af175e6": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ClimateActuation_@5c8ad27a"
+            ],
+            "refinedContract": [
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@dedb8f22"
+            ],
+            "refiningContract": [
+                "IHU_Climate_HVACService_LeftTemperature_Overheating_@450267b9"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@8af175e6",
+            "description": [
+                "IHU_Climate_HVACService_LeftTemperature_Overheating of the realizing component covers ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating."
+            ],
+            "name": "RationaleClaim_ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

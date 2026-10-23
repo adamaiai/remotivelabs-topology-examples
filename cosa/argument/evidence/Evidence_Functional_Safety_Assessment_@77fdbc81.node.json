@@ -4,7 +4,7 @@
         "attributes": {
             "location": "git+project://remotivelabs-topology-examples#cosa/evidence/assessment/Functional_Safety_Assessment.md",
             "validUntil": "2027-10-23",
-            "version": "41fc80c5bf051a43a1535a72431eb639b5fa7e25f7e2965a0ad01cbf2bcca068"
+            "version": "efc6593e08bd0506f4932cefa7155c1c1da2765deb8b6d12def90b38cda190a1"
         },
         "connections": {
             "referencedArtifactElement": []

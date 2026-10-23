@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedGWM_Climate_TC_HVAC_LEFT_TEMPERATURE_@ba17eb8c": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_test_hvac_@1095f253"
+            ],
+            "satisfyingRealization": [
+                "ImplementedGWM_Climate_@282e2aa8"
+            ],
+            "verificationCriteria": [
+                "TC_HVAC_LEFT_TEMPERATURE_@52c1f9f3"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedGWM_Climate_TC_HVAC_LEFT_TEMPERATURE_@ba17eb8c",
+            "description": [
+                "ImplementedGWM_Climate satisfies the contracts verified by TC_HVAC_LEFT_TEMPERATURE."
+            ],
+            "name": "SatisfactionClaim_ImplementedGWM_Climate_TC_HVAC_LEFT_TEMPERATURE",
+            "version_schema": "4.6.2"
+        }
+    }
+}

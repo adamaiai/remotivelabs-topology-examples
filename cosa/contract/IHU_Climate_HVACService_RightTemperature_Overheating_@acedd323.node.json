@@ -1,0 +1,23 @@
+{
+    "IHU_Climate_HVACService_RightTemperature_Overheating_@acedd323": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_IHU_Climate_HVACService_RightTemperature_Overheating_@99f41203"
+            ]
+        },
+        "metadata": {
+            "uuid": "IHU_Climate_HVACService_RightTemperature_Overheating_@acedd323",
+            "description": [
+                "Derived, not in the specification: IHU only sends right setpoints within the HVAC range: the Android VHAL limits HVAC_TEMPERATURE_SET to its configured range. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "IHU_Climate_HVACService_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Evidence_HVAC_Climate_Analysis_@97031657": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/HVAC_Climate_Analysis.md",
+            "validUntil": "",
+            "version": "330d97ba5fcd469ecdd6f0233c4aabc05e34f277cf0542d00f0abca6fb00ab42"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_HVAC_Climate_Analysis_@97031657",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_HVAC_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

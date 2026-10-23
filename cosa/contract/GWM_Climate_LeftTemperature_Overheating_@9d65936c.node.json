@@ -1,0 +1,25 @@
+{
+    "GWM_Climate_LeftTemperature_Overheating_@9d65936c": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_GWM_Climate_HVACService_LeftTemperature_Overheating_@25e129a0"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_GWM_Climate_LeftTemperature_Overheating_@dbab0c4c"
+            ]
+        },
+        "metadata": {
+            "uuid": "GWM_Climate_LeftTemperature_Overheating_@9d65936c",
+            "description": [
+                "Derived, not in the specification: GWM forwards the left temperature from SOME/IP HVACService to HVACControl on BodyCan0 unchanged. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "GWM_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

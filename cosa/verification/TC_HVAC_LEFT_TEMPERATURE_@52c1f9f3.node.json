@@ -1,0 +1,25 @@
+{
+    "TC_HVAC_LEFT_TEMPERATURE_@52c1f9f3": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "fa28a95b526da14998db5d811e24a131e4b35fbaa7a73f33fcc7d8c97b297679",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/pytest/android/test_hvac.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "GWM_Climate_LeftTemperature_Overheating_@9d65936c"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_HVAC_LEFT_TEMPERATURE_@52c1f9f3",
+            "description": [
+                "test_update_hvac_left_temperature: lowering the left temperature in the Android HVAC UI by 0.5 \u00b0C reaches HVACControl.LeftTemperature on BodyCan0 as exactly that value, so GWM forwards the setpoint without raising it. Left side only; needs the Android emulator instance."
+            ],
+            "name": "TC_HVAC_LEFT_TEMPERATURE",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "HVAC_Climate_Climate_LeftTemperature_Overheating_@58320089": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_HVAC_Climate_LeftTemperature_Overheating_@b0227ac4"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_HVAC_Climate_Climate_LeftTemperature_Overheating_@8bb843cd"
+            ]
+        },
+        "metadata": {
+            "uuid": "HVAC_Climate_Climate_LeftTemperature_Overheating_@58320089",
+            "description": [
+                "Derived, not in the specification: HVAC heats the left compartment no higher than HVACControl.LeftTemperature requests. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "HVAC_Climate_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

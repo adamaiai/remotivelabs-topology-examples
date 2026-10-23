@@ -1,0 +1,33 @@
+{
+    "ClimateControlDesign_Climate_LeftTemperature_Overheating_@c846cafb": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateControlDesign_Climate_LeftTemperature_Overheating_@c2aa4b84"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateControlDesign_Climate_LeftTemperature_Overheating_@c846cafb",
+            "description": [
+                "Derived, not in the specification: System contract: the left compartment is never heated above 30 \u00b0C, whatever the occupant requests. Made up for the remotive_car example; the specification has no climate requirements.",
+                "",
+                "Signal path the guarantee rests on:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  occ([\"Occupant_LeftTemperatureSetpoint\"]) --> ihu[\"IHU_Climate<br/>caps at 28 \u00b0C\"]",
+                "  ihu -->|\"HVACService_LeftTemperature<br/>SOME/IP\"| gwm[\"GWM_Climate<br/>forwards unchanged\"]",
+                "  gwm -->|\"HVACControl.LeftTemperature<br/>BodyCan0, 500 ms\"| hvac[\"HVAC_Climate<br/>saturates at 30 \u00b0C\"]",
+                "  hvac --> cab([\"Climate_LeftTemperature<br/>critical: > 30 \u00b0C for 5 s\"])",
+                "```"
+            ],
+            "name": "ClimateControlDesign_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

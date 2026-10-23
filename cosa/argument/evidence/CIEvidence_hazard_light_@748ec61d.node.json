@@ -6,7 +6,7 @@
             "ciJob": "system-tests-behave",
             "location": "git+project://remotivelabs-topology-examples#cosa/evidence/ci/remotive-car-ci.yml",
             "validUntil": "",
-            "version": "4edc65fdae83aa7fb9d944dbc586a1c9019bc96c89f06a0287467c7aaaac89d8"
+            "version": "be57add3e277d5e3a6aded1507d3865d1c273793c7f68680d9555bba6a5d8169"
         },
         "connections": {
             "referencedArtifactElement": []

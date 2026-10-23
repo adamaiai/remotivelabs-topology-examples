@@ -1,0 +1,21 @@
+{
+    "Evidence_TSC_ClimateActuation_@5c8ad27a": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/TSC_ClimateActuation.md",
+            "validUntil": "",
+            "version": "aeb9fa6c77fd12ed15527d6fd995bce2f8128e580dae269242ca8195a7fe3f85"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_TSC_ClimateActuation_@5c8ad27a",
+            "description": [
+                "Technical safety concept: climate actuation."
+            ],
+            "name": "Evidence_TSC_ClimateActuation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

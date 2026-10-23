@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ImplementedClimateControlDesign_@b5b16679": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ImplementedClimateControlDesign_@b5b16679",
+            "description": "",
+            "name": "ProcessClaim_ImplementedClimateControlDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

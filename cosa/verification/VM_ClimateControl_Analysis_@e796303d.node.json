@@ -1,0 +1,26 @@
+{
+    "VM_ClimateControl_Analysis_@e796303d": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "ae87a285af1c9bd3493a7fec8663eeb829d4164d7dbb22ccc6da77104aa548ff",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ClimateControl_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "SG_LeftCompartment_Overheating_@a4f0522e",
+                "SG_RightCompartment_Overheating_@1a43752b"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_ClimateControl_Analysis_@e796303d",
+            "description": [
+                "With the climate design keeping both compartments below 30 \u00b0C (ClimateControlDesign analysis), no occupant input leads to an overheated cabin, so SG_LeftCompartment_Overheating and SG_RightCompartment_Overheating hold. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "VM_ClimateControl_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

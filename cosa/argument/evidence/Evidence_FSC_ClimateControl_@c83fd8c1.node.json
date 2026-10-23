@@ -1,0 +1,21 @@
+{
+    "Evidence_FSC_ClimateControl_@c83fd8c1": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/FSC_ClimateControl.md",
+            "validUntil": "",
+            "version": "7243492e195417a6a731cd71437f71a0568a33c4cca7239a47207d9885b3b29f"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_FSC_ClimateControl_@c83fd8c1",
+            "description": [
+                "Functional safety concept: climate control."
+            ],
+            "name": "Evidence_FSC_ClimateControl",
+            "version_schema": "4.6.2"
+        }
+    }
+}

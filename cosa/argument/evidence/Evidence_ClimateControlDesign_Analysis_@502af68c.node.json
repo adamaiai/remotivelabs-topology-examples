@@ -1,0 +1,21 @@
+{
+    "Evidence_ClimateControlDesign_Analysis_@502af68c": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ClimateControlDesign_Analysis.md",
+            "validUntil": "",
+            "version": "9b79323242f5f3a50e024af8a112a7064007ec8c84f85f50841d53e524be1f88"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_ClimateControlDesign_Analysis_@502af68c",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_ClimateControlDesign_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

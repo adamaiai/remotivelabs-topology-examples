@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_ClimateActuation_Climate_LeftTemperature_Overheating_@8520b85d": {
+        "stereotype": "RationaleClaim_Composition",
+        "attributes": {
+            "hasRefiningRedundancy": false
+        },
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ClimateActuation_@5c8ad27a"
+            ],
+            "refinedContract": [
+                "ClimateActuation_Climate_LeftTemperature_Overheating_@a95bfc7e"
+            ],
+            "refiningContract": [
+                "ClimateActuation_GWM_LeftTemperature_Overheating_@8600053f",
+                "ClimateActuation_HVAC_Climate_LeftTemperature_Overheating_@7d948125"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateActuation_Climate_LeftTemperature_Overheating_@8520b85d",
+            "description": [
+                "The inner contracts of ClimateActuation together establish ClimateActuation_Climate_LeftTemperature_Overheating."
+            ],
+            "name": "RationaleClaim_ClimateActuation_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

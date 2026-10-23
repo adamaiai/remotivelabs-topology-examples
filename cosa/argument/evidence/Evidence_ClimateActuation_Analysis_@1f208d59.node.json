@@ -1,0 +1,21 @@
+{
+    "Evidence_ClimateActuation_Analysis_@1f208d59": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ClimateActuation_Analysis.md",
+            "validUntil": "",
+            "version": "8f8fd7191624f2b16319d4942d14b25e146559bba3cb071a6cc00ed94d474f44"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_ClimateActuation_Analysis_@1f208d59",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_ClimateActuation_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "SafetyCaseFragment_ClimateControlDesign_@f3800c0f": {
+        "stereotype": "SafetyCaseFragment_ComposedComponent",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ClimateControlDesign_@25e079ba"
+            ],
+            "composedComponent": [
+                "ClimateControlDesign_@3929005f"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ClimateControlDesign_@0056c159"
+            ],
+            "processClaim": [
+                "ProcessClaim_ClimateControlDesign_@23825ae3"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ClimateControlDesign_Climate_LeftTemperature_Overheating_@17e0ef38",
+                "RationaleClaim_ClimateControlDesign_Climate_RightTemperature_Overheating_@f7723221"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ClimateControlDesign_@f3800c0f",
+            "description": [
+                "Safety case fragment arguing ClimateControlDesign."
+            ],
+            "name": "SafetyCaseFragment_ClimateControlDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

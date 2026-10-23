@@ -1,0 +1,25 @@
+{
+    "ClimateActuation_Climate_RightTemperature_Overheating_@f6ccb10c": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_ClimateActuation_HVACService_RightTemperature_Overheating_@7f343e1d"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateActuation_Climate_RightTemperature_Overheating_@ed73d217"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateActuation_Climate_RightTemperature_Overheating_@f6ccb10c",
+            "description": [
+                "Derived, not in the specification: Climate actuation heats the right compartment no higher than the requested setpoint. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateActuation_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

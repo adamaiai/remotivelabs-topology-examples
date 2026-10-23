@@ -16,7 +16,7 @@
         "metadata": {
             "uuid": "RationaleClaim_SG_FrontLeftTurn_NotActivated_@82c604d3",
             "description": [
-                "ExteriorLightingDesign refines SG_FrontLeftTurn_NotActivated with its system contract on Lamp_FrontLeftTurn."
+                "ExteriorLightingDesign_Lamp_FrontLeftTurn_NotActivated refines SG_FrontLeftTurn_NotActivated."
             ],
             "name": "RationaleClaim_SG_FrontLeftTurn_NotActivated",
             "version_schema": "4.6.2"

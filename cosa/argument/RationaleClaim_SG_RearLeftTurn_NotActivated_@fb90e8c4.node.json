@@ -16,7 +16,7 @@
         "metadata": {
             "uuid": "RationaleClaim_SG_RearLeftTurn_NotActivated_@fb90e8c4",
             "description": [
-                "ExteriorLightingDesign refines SG_RearLeftTurn_NotActivated with its system contract on Lamp_RearLeftTurn."
+                "ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated refines SG_RearLeftTurn_NotActivated."
             ],
             "name": "RationaleClaim_SG_RearLeftTurn_NotActivated",
             "version_schema": "4.6.2"

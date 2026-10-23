@@ -23,7 +23,7 @@
         "metadata": {
             "uuid": "RationaleClaim_ExteriorLighting_@a5dce40f",
             "description": [
-                "The hazard analysis derives the turn lamp safety goals from exterior lighting."
+                "The hazard analysis derives the safety goals of ExteriorLighting."
             ],
             "name": "RationaleClaim_ExteriorLighting",
             "version_schema": "4.6.2"

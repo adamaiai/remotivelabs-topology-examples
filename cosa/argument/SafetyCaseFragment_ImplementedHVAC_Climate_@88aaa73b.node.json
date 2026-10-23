@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ImplementedHVAC_Climate_@88aaa73b": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedHVAC_Climate_@a50c1d2b"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedHVAC_Climate_@b6154ae3"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedHVAC_Climate_@1ff66b80"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedHVAC_Climate_@31cb32f4"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedHVAC_Climate_VM_HVAC_Climate_Analysis_@1904098c"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedHVAC_Climate_@88aaa73b",
+            "description": [
+                "Safety case fragment arguing ImplementedHVAC_Climate."
+            ],
+            "name": "SafetyCaseFragment_ImplementedHVAC_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "ClimateActuation_HVAC_Climate_RightTemperature_Overheating_@5c38bf21": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ClimateActuation_RightTemperature_Assembly_Overheating_@58c0c736"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateActuation_Climate_RightTemperature_Overheating_@ed73d217"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateActuation_HVAC_Climate_RightTemperature_Overheating_@5c38bf21",
+            "description": [
+                "Derived, not in the specification: Inside climate actuation, the HVAC follows the forwarded right setpoint. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateActuation_HVAC_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

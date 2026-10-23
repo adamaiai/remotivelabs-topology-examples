@@ -1,0 +1,30 @@
+{
+    "SG_RightCompartment_Overheating_@1a43752b": {
+        "stereotype": "SafetyGoal",
+        "attributes": {},
+        "connections": {
+            "assumedPartOfHazard": [],
+            "guaranteedPartOfHazard": [
+                "DC_ClimateControl_Climate_RightTemperature_Overheating_@5e6db1f6"
+            ]
+        },
+        "metadata": {
+            "uuid": "SG_RightCompartment_Overheating_@1a43752b",
+            "description": [
+                "The right compartment shall not be heated above 30 \u00b0C for longer than 5 s (ASIL A): an overheated cabin causes heat stress and driver drowsiness. Made up for the remotive_car example; the specification has no climate requirements.",
+                "",
+                "Signal path the guarantee rests on:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  occ([\"Occupant_RightTemperatureSetpoint\"]) --> ihu[\"IHU_Climate<br/>caps at 28 \u00b0C\"]",
+                "  ihu -->|\"HVACService_RightTemperature<br/>SOME/IP\"| gwm[\"GWM_Climate<br/>forwards unchanged\"]",
+                "  gwm -->|\"HVACControl.RightTemperature<br/>BodyCan0, 500 ms\"| hvac[\"HVAC_Climate<br/>saturates at 30 \u00b0C\"]",
+                "  hvac --> cab([\"Climate_RightTemperature<br/>critical: > 30 \u00b0C for 5 s\"])",
+                "```"
+            ],
+            "name": "SG_RightCompartment_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

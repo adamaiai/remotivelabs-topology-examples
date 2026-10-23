@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_ImplementedClimateActuation_VM_ClimateActuation_Analysis_@ba79b1d6": {
+        "stereotype": "SatisfactionClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_ClimateActuation_Analysis_@1f208d59"
+            ],
+            "safeInputToIntegration": [
+                "ImplementedGWM_Climate_@282e2aa8",
+                "ImplementedHVAC_Climate_@1ff66b80"
+            ],
+            "satisfyingRealization": [
+                "ImplementedClimateActuation_@84506107"
+            ],
+            "verificationCriteria": [
+                "VM_ClimateActuation_Analysis_@2fb801bf"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedClimateActuation_VM_ClimateActuation_Analysis_@ba79b1d6",
+            "description": [
+                "ImplementedClimateActuation satisfies the contracts verified by VM_ClimateActuation_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedClimateActuation_VM_ClimateActuation_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "SafetyCaseFragment_ImplementedClimateActuation_@42aa94f5": {
+        "stereotype": "SafetyCaseFragment_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedClimateActuation_@335a192e"
+            ],
+            "composedRealization": [
+                "ImplementedClimateActuation_@84506107"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedClimateActuation_@b279bdc4"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedClimateActuation_@4bbf0a2d"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ClimateActuation_GWM_LeftTemperature_Overheating_@97cc6bc8",
+                "RationaleClaim_ClimateActuation_GWM_RightTemperature_Overheating_@66fb19dd",
+                "RationaleClaim_ClimateActuation_HVAC_Climate_LeftTemperature_Overheating_@60fc2e05",
+                "RationaleClaim_ClimateActuation_HVAC_Climate_RightTemperature_Overheating_@6eb36dd5"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedClimateActuation_VM_ClimateActuation_Analysis_@ba79b1d6"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedClimateActuation_@42aa94f5",
+            "description": [
+                "Safety case fragment arguing ImplementedClimateActuation."
+            ],
+            "name": "SafetyCaseFragment_ImplementedClimateActuation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ClimateControl_Realization_VM_ClimateControl_Analysis_@990d3dc2": {
+        "stereotype": "SatisfactionClaim_TopRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_ClimateControl_Analysis_@94b6724d"
+            ],
+            "satisfyingRealization": [
+                "ClimateControl_Realization_@c9143524"
+            ],
+            "verificationCriteria": [
+                "VM_ClimateControl_Analysis_@e796303d"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ClimateControl_Realization_VM_ClimateControl_Analysis_@990d3dc2",
+            "description": [
+                "ClimateControl_Realization satisfies the contracts verified by VM_ClimateControl_Analysis."
+            ],
+            "name": "SatisfactionClaim_ClimateControl_Realization_VM_ClimateControl_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

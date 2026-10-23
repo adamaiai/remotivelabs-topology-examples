@@ -1,0 +1,26 @@
+{
+    "VM_ClimateControlDesign_Analysis_@c015fbd8": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "9b79323242f5f3a50e024af8a112a7064007ec8c84f85f50841d53e524be1f88",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ClimateControlDesign_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "ClimateControlDesign_Climate_LeftTemperature_Overheating_@c846cafb",
+                "ClimateControlDesign_Climate_RightTemperature_Overheating_@279c8475"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_ClimateControlDesign_Analysis_@c015fbd8",
+            "description": [
+                "Derived, not in the specification: The setpoint HMI caps the request at 28 \u00b0C and climate actuation does not raise it, so the design output stays below 30 \u00b0C for any occupant input. Verified by analysis instead."
+            ],
+            "name": "VM_ClimateControlDesign_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

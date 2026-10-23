@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ClimateControl_Realization_@2d34f2be": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ClimateControl_Realization_@2d34f2be",
+            "description": "",
+            "name": "ProcessClaim_ClimateControl_Realization",
+            "version_schema": "4.6.2"
+        }
+    }
+}

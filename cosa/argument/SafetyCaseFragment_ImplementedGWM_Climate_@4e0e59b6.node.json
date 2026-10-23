@@ -1,0 +1,33 @@
+{
+    "SafetyCaseFragment_ImplementedGWM_Climate_@4e0e59b6": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedGWM_Climate_@f48aa4ac"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedGWM_Climate_@9fcccb5a"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedGWM_Climate_@282e2aa8"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedGWM_Climate_@861acb35"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedGWM_Climate_TC_HVAC_LEFT_TEMPERATURE_@ba17eb8c",
+                "SatisfactionClaim_ImplementedGWM_Climate_VM_GWM_Climate_Analysis_@1057a99f"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedGWM_Climate_@4e0e59b6",
+            "description": [
+                "Safety case fragment arguing ImplementedGWM_Climate."
+            ],
+            "name": "SafetyCaseFragment_ImplementedGWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

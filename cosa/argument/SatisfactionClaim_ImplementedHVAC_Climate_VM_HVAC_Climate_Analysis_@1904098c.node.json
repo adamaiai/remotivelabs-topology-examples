@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedHVAC_Climate_VM_HVAC_Climate_Analysis_@1904098c": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_HVAC_Climate_Analysis_@97031657"
+            ],
+            "satisfyingRealization": [
+                "ImplementedHVAC_Climate_@1ff66b80"
+            ],
+            "verificationCriteria": [
+                "VM_HVAC_Climate_Analysis_@139bf857"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedHVAC_Climate_VM_HVAC_Climate_Analysis_@1904098c",
+            "description": [
+                "ImplementedHVAC_Climate satisfies the contracts verified by VM_HVAC_Climate_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedHVAC_Climate_VM_HVAC_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

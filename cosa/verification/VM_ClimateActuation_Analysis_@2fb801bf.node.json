@@ -1,0 +1,26 @@
+{
+    "VM_ClimateActuation_Analysis_@2fb801bf": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "8f8fd7191624f2b16319d4942d14b25e146559bba3cb071a6cc00ed94d474f44",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ClimateActuation_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "ClimateActuation_Climate_LeftTemperature_Overheating_@a95bfc7e",
+                "ClimateActuation_Climate_RightTemperature_Overheating_@f6ccb10c"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_ClimateActuation_Analysis_@2fb801bf",
+            "description": [
+                "Derived, not in the specification: GWM forwards the setpoint unchanged (see GWM_Climate analysis) and the HVAC follows it (see HVAC_Climate analysis), so the compartment temperature of climate actuation never exceeds its HVACService input. Verified by analysis instead."
+            ],
+            "name": "VM_ClimateActuation_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

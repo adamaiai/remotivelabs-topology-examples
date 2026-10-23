@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ClimateActuation_HVAC_Climate_RightTemperature_Overheating_@6eb36dd5": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ClimateActuation_@5c8ad27a"
+            ],
+            "refinedContract": [
+                "ClimateActuation_HVAC_Climate_RightTemperature_Overheating_@5c38bf21"
+            ],
+            "refiningContract": [
+                "HVAC_Climate_Climate_RightTemperature_Overheating_@64f0bb5a"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateActuation_HVAC_Climate_RightTemperature_Overheating_@6eb36dd5",
+            "description": [
+                "HVAC_Climate_Climate_RightTemperature_Overheating of the realizing component covers ClimateActuation_HVAC_Climate_RightTemperature_Overheating."
+            ],
+            "name": "RationaleClaim_ClimateActuation_HVAC_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "ClimateActuation_Climate_LeftTemperature_Overheating_@a95bfc7e": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_ClimateActuation_HVACService_LeftTemperature_Overheating_@cc8cde78"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateActuation_Climate_LeftTemperature_Overheating_@a79e7148"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateActuation_Climate_LeftTemperature_Overheating_@a95bfc7e",
+            "description": [
+                "Derived, not in the specification: Climate actuation heats the left compartment no higher than the requested setpoint. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateActuation_Climate_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

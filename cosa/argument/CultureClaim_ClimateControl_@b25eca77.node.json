@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ClimateControl_@b25eca77": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ClimateControl_@b25eca77",
+            "description": "",
+            "name": "CultureClaim_ClimateControl",
+            "version_schema": "4.6.2"
+        }
+    }
+}

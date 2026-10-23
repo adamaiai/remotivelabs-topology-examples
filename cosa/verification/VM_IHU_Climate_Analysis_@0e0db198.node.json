@@ -1,0 +1,26 @@
+{
+    "VM_IHU_Climate_Analysis_@0e0db198": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "8de4055c6547c0c74e1a864b8b7b578361b2d4c63193dc2d79c3af8c4b59faa4",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/IHU_Climate_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "IHU_Climate_HVACService_LeftTemperature_Overheating_@450267b9",
+                "IHU_Climate_HVACService_RightTemperature_Overheating_@acedd323"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_IHU_Climate_Analysis_@0e0db198",
+            "description": [
+                "Derived, not in the specification: The Android emulator's VHAL configures HVAC_TEMPERATURE_SET with a range of 16 to 28 \u00b0C, so the UI cannot request more than 28 \u00b0C; broker_to_emulator.py forwards the VHAL value to HVACService unchanged. No test requests a setpoint above the range. Verified by analysis instead."
+            ],
+            "name": "VM_IHU_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

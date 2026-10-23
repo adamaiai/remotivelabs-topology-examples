@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ImplementedIHU_Climate_@0c71dfe4": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedIHU_Climate_@412811f8"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedIHU_Climate_@a738a701"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedIHU_Climate_@37efb274"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedIHU_Climate_@fe2e4180"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedIHU_Climate_VM_IHU_Climate_Analysis_@ba6021c6"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedIHU_Climate_@0c71dfe4",
+            "description": [
+                "Safety case fragment arguing ImplementedIHU_Climate."
+            ],
+            "name": "SafetyCaseFragment_ImplementedIHU_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

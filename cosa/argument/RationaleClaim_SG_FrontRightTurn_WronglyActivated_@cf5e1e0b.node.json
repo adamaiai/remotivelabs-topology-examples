@@ -16,7 +16,7 @@
         "metadata": {
             "uuid": "RationaleClaim_SG_FrontRightTurn_WronglyActivated_@cf5e1e0b",
             "description": [
-                "ExteriorLightingDesign refines SG_FrontRightTurn_WronglyActivated with its system contract on Lamp_FrontRightTurn."
+                "ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated refines SG_FrontRightTurn_WronglyActivated."
             ],
             "name": "RationaleClaim_SG_FrontRightTurn_WronglyActivated",
             "version_schema": "4.6.2"

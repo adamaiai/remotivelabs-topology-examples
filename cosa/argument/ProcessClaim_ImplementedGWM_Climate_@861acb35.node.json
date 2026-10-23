@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ImplementedGWM_Climate_@861acb35": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ImplementedGWM_Climate_@861acb35",
+            "description": "",
+            "name": "ProcessClaim_ImplementedGWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

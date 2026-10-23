@@ -1,0 +1,36 @@
+{
+    "SafetyCaseFragment_ClimateControl_Realization_@4cff43cb": {
+        "stereotype": "SafetyCaseFragment_TopRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ClimateControl_Realization_@de5dcf01"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ClimateControl_Realization_@0bc8ac04"
+            ],
+            "customerFunctionAbstractionRealization": [
+                "ClimateControl_Realization_@c9143524"
+            ],
+            "processClaim": [
+                "ProcessClaim_ClimateControl_Realization_@2d34f2be"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_SG_LeftCompartment_Overheating_@21c25cb3",
+                "RationaleClaim_SG_RightCompartment_Overheating_@dec93e60"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ClimateControl_Realization_VM_ClimateControl_Analysis_@990d3dc2"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ClimateControl_Realization_@4cff43cb",
+            "description": [
+                "Safety case fragment arguing ClimateControl_Realization."
+            ],
+            "name": "SafetyCaseFragment_ClimateControl_Realization",
+            "version_schema": "4.6.2"
+        }
+    }
+}

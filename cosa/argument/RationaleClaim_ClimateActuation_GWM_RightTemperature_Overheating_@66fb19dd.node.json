@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ClimateActuation_GWM_RightTemperature_Overheating_@66fb19dd": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ClimateActuation_@5c8ad27a"
+            ],
+            "refinedContract": [
+                "ClimateActuation_GWM_RightTemperature_Overheating_@a353771e"
+            ],
+            "refiningContract": [
+                "GWM_Climate_RightTemperature_Overheating_@e14f8948"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateActuation_GWM_RightTemperature_Overheating_@66fb19dd",
+            "description": [
+                "GWM_Climate_RightTemperature_Overheating of the realizing component covers ClimateActuation_GWM_RightTemperature_Overheating."
+            ],
+            "name": "RationaleClaim_ClimateActuation_GWM_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

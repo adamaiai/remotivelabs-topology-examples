@@ -1,0 +1,21 @@
+{
+    "Evidence_HARA_ClimateControl_@ebcef4b0": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/HARA_ClimateControl.md",
+            "validUntil": "",
+            "version": "08e876156546b3cac16bd7d48f26f1bf14a0186c759cc03df3d2757191dd4dda"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_HARA_ClimateControl_@ebcef4b0",
+            "description": [
+                "Hazard analysis and risk assessment: climate control."
+            ],
+            "name": "Evidence_HARA_ClimateControl",
+            "version_schema": "4.6.2"
+        }
+    }
+}

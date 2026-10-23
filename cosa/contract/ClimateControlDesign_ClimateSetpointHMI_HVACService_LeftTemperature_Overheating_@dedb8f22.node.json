@@ -1,0 +1,21 @@
+{
+    "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@dedb8f22": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateControlDesign_HVACService_LeftTemperature_Assembly_Overheating_@f4b0f3b2"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@dedb8f22",
+            "description": [
+                "Derived, not in the specification: Inside the climate design, the setpoint HMI limits the left request to the HVAC range. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

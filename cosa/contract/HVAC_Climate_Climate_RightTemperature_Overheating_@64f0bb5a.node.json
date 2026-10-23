@@ -1,0 +1,25 @@
+{
+    "HVAC_Climate_Climate_RightTemperature_Overheating_@64f0bb5a": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_HVAC_Climate_RightTemperature_Overheating_@3b189fce"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_HVAC_Climate_Climate_RightTemperature_Overheating_@fc1db7d7"
+            ]
+        },
+        "metadata": {
+            "uuid": "HVAC_Climate_Climate_RightTemperature_Overheating_@64f0bb5a",
+            "description": [
+                "Derived, not in the specification: HVAC heats the right compartment no higher than HVACControl.RightTemperature requests. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "HVAC_Climate_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

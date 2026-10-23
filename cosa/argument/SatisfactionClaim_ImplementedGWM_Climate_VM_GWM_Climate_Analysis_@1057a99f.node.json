@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedGWM_Climate_VM_GWM_Climate_Analysis_@1057a99f": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_GWM_Climate_Analysis_@6b6fc39e"
+            ],
+            "satisfyingRealization": [
+                "ImplementedGWM_Climate_@282e2aa8"
+            ],
+            "verificationCriteria": [
+                "VM_GWM_Climate_Analysis_@f32ab3b3"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedGWM_Climate_VM_GWM_Climate_Analysis_@1057a99f",
+            "description": [
+                "ImplementedGWM_Climate satisfies the contracts verified by VM_GWM_Climate_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedGWM_Climate_VM_GWM_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

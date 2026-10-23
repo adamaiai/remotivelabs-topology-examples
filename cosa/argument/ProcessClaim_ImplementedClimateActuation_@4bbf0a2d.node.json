@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ImplementedClimateActuation_@4bbf0a2d": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ImplementedClimateActuation_@4bbf0a2d",
+            "description": "",
+            "name": "ProcessClaim_ImplementedClimateActuation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

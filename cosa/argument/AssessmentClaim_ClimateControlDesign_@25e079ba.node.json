@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_ClimateControlDesign_@25e079ba": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_ClimateControlDesign_@25e079ba",
+            "description": "",
+            "name": "AssessmentClaim_ClimateControlDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

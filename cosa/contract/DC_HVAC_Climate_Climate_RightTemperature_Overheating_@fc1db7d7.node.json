@@ -1,0 +1,27 @@
+{
+    "DC_HVAC_Climate_Climate_RightTemperature_Overheating_@fc1db7d7": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Larger_than_value",
+            "subTypeCriticalMarginValue": 30.0,
+            "toleranceMargin_Time_ms": 5000.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "HVAC_Climate_Climate_RightTemperature_@8ac172de"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_HVAC_Climate_Climate_RightTemperature_Overheating_@fc1db7d7",
+            "description": [
+                "Critical: HVAC_Climate_Climate_RightTemperature is above 30 \u00b0C for longer than 5 s."
+            ],
+            "name": "DC_HVAC_Climate_Climate_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating_@802c8071": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateControlDesign_HVACService_RightTemperature_Assembly_Overheating_@ce04abe3"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating_@802c8071",
+            "description": [
+                "Derived, not in the specification: Inside the climate design, the setpoint HMI limits the right request to the HVAC range. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "DC_ClimateActuation_RightTemperature_Assembly_Overheating_@58c0c736": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Larger_than_value",
+            "subTypeCriticalMarginValue": 30.0,
+            "toleranceMargin_Time_ms": 5000.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ClimateActuation_RightTemperature_Assembly_@8d77c986"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ClimateActuation_RightTemperature_Assembly_Overheating_@58c0c736",
+            "description": [
+                "Critical: ClimateActuation_RightTemperature_Assembly is above 30 \u00b0C for longer than 5 s."
+            ],
+            "name": "DC_ClimateActuation_RightTemperature_Assembly_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

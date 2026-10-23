@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedIHU_Climate_VM_IHU_Climate_Analysis_@ba6021c6": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_IHU_Climate_Analysis_@7b7d0a77"
+            ],
+            "satisfyingRealization": [
+                "ImplementedIHU_Climate_@37efb274"
+            ],
+            "verificationCriteria": [
+                "VM_IHU_Climate_Analysis_@0e0db198"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedIHU_Climate_VM_IHU_Climate_Analysis_@ba6021c6",
+            "description": [
+                "ImplementedIHU_Climate satisfies the contracts verified by VM_IHU_Climate_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedIHU_Climate_VM_IHU_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_ClimateActuation_@b869f38c": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_ClimateActuation_@b869f38c",
+            "description": "",
+            "name": "AssessmentClaim_ClimateActuation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

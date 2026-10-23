@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_ImplementedClimateControlDesign_VM_ClimateControlDesign_Analysis_@58854fca": {
+        "stereotype": "SatisfactionClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_ClimateControlDesign_Analysis_@502af68c"
+            ],
+            "safeInputToIntegration": [
+                "ImplementedClimateActuation_@84506107",
+                "ImplementedIHU_Climate_@37efb274"
+            ],
+            "satisfyingRealization": [
+                "ImplementedClimateControlDesign_@5c2dbbad"
+            ],
+            "verificationCriteria": [
+                "VM_ClimateControlDesign_Analysis_@c015fbd8"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedClimateControlDesign_VM_ClimateControlDesign_Analysis_@58854fca",
+            "description": [
+                "ImplementedClimateControlDesign satisfies the contracts verified by VM_ClimateControlDesign_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedClimateControlDesign_VM_ClimateControlDesign_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

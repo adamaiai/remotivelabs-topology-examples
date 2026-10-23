@@ -1,0 +1,30 @@
+{
+    "SG_LeftCompartment_Overheating_@a4f0522e": {
+        "stereotype": "SafetyGoal",
+        "attributes": {},
+        "connections": {
+            "assumedPartOfHazard": [],
+            "guaranteedPartOfHazard": [
+                "DC_ClimateControl_Climate_LeftTemperature_Overheating_@2610cc5e"
+            ]
+        },
+        "metadata": {
+            "uuid": "SG_LeftCompartment_Overheating_@a4f0522e",
+            "description": [
+                "The left compartment shall not be heated above 30 \u00b0C for longer than 5 s (ASIL A): an overheated cabin causes heat stress and driver drowsiness. Made up for the remotive_car example; the specification has no climate requirements.",
+                "",
+                "Signal path the guarantee rests on:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  occ([\"Occupant_LeftTemperatureSetpoint\"]) --> ihu[\"IHU_Climate<br/>caps at 28 \u00b0C\"]",
+                "  ihu -->|\"HVACService_LeftTemperature<br/>SOME/IP\"| gwm[\"GWM_Climate<br/>forwards unchanged\"]",
+                "  gwm -->|\"HVACControl.LeftTemperature<br/>BodyCan0, 500 ms\"| hvac[\"HVAC_Climate<br/>saturates at 30 \u00b0C\"]",
+                "  hvac --> cab([\"Climate_LeftTemperature<br/>critical: > 30 \u00b0C for 5 s\"])",
+                "```"
+            ],
+            "name": "SG_LeftCompartment_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "RationaleClaim_ClimateControl_@105bf896": {
+        "stereotype": "RationaleClaim_CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_HARA_ClimateControl_@ebcef4b0"
+            ],
+            "refinedImplicitRequirements": [
+                "ClimateControl_@33e8895d"
+            ],
+            "refiningExplicitRequirement": [
+                "SG_LeftCompartment_Overheating_@a4f0522e",
+                "SG_RightCompartment_Overheating_@1a43752b"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ClimateControl_@105bf896",
+            "description": [
+                "The hazard analysis derives the safety goals of ClimateControl."
+            ],
+            "name": "RationaleClaim_ClimateControl",
+            "version_schema": "4.6.2"
+        }
+    }
+}

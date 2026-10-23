@@ -1,0 +1,23 @@
+{
+    "ClimateActuation_GWM_LeftTemperature_Overheating_@8600053f": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ClimateActuation_HVACService_LeftTemperature_Overheating_@cc8cde78"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ClimateActuation_LeftTemperature_Assembly_Overheating_@41d09fe0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ClimateActuation_GWM_LeftTemperature_Overheating_@8600053f",
+            "description": [
+                "Derived, not in the specification: Inside climate actuation, GWM forwards the left setpoint to the HVAC. Made up for the remotive_car example; the specification has no climate requirements."
+            ],
+            "name": "ClimateActuation_GWM_LeftTemperature_Overheating",
+            "version_schema": "4.6.2"
+        }
+    }
+}

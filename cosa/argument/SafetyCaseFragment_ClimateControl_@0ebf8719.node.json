@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ClimateControl_@0ebf8719": {
+        "stereotype": "SafetyCaseFragment_CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ClimateControl_@6c4bab4c"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ClimateControl_@b25eca77"
+            ],
+            "customerFunction": [
+                "ClimateControl_@33e8895d"
+            ],
+            "processClaim": [
+                "ProcessClaim_ClimateControl_@57cedf18"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ClimateControl_@105bf896"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ClimateControl_@0ebf8719",
+            "description": [
+                "Safety case fragment arguing ClimateControl."
+            ],
+            "name": "SafetyCaseFragment_ClimateControl",
+            "version_schema": "4.6.2"
+        }
+    }
+}

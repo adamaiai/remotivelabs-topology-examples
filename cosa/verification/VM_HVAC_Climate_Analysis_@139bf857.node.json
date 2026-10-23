@@ -1,0 +1,26 @@
+{
+    "VM_HVAC_Climate_Analysis_@139bf857": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "330d97ba5fcd469ecdd6f0233c4aabc05e34f277cf0542d00f0abca6fb00ab42",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/HVAC_Climate_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "HVAC_Climate_Climate_LeftTemperature_Overheating_@58320089",
+                "HVAC_Climate_Climate_RightTemperature_Overheating_@64f0bb5a"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_HVAC_Climate_Analysis_@139bf857",
+            "description": [
+                "Derived, not in the specification: HVAC is a RemotiveTopology mock of body_can.dbc; HVACControl.Left/RightTemperature have the physical range 16 to 30 \u00b0C. The real ECU is required to saturate actuation at the range maximum; the mock follows the requested value. Verified by analysis instead."
+            ],
+            "name": "VM_HVAC_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

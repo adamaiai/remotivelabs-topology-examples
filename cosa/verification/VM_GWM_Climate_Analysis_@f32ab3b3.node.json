@@ -1,0 +1,26 @@
+{
+    "VM_GWM_Climate_Analysis_@f32ab3b3": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "ed25d754f210d05abaeeb0f30f2a784cc6b9c18c32b595ce12dc1d30e280e95c",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/GWM_Climate_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "GWM_Climate_LeftTemperature_Overheating_@9d65936c",
+                "GWM_Climate_RightTemperature_Overheating_@e14f8948"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_GWM_Climate_Analysis_@f32ab3b3",
+            "description": [
+                "Derived, not in the specification: on_hvac_control copies LeftTemperature and RightTemperature from the HVACService event into HVACControl unchanged (float conversion only), so GWM never raises a setpoint. test_hvac.py covers the left side only. Side finding outside this goal: a missing parameter is sent as 0 \u00b0C (float(... or 0)), below the 16 \u00b0C DBC minimum. Verified by analysis instead."
+            ],
+            "name": "VM_GWM_Climate_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

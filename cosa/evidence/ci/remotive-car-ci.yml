@@ -42,3 +42,12 @@ jobs:
       - run: pytest getting_started/tests/test_hazard_light.py --junitxml reports/getting_started/test_hazard_light.xml
       - uses: actions/upload-artifact@v4
         with: {name: reports-getting-started, path: reports/getting_started/}
+
+  android-hvac-tests:
+    runs-on: ubuntu-latest   # needs KVM for the Android emulator
+    steps:
+      - uses: actions/checkout@v4
+      - run: remotive topology build -f remotive_car/instances/android/main.instance.yaml -f remotive_car/settings/can_over_udp.settings.instance.yaml remotive_car/build
+      - run: pytest remotive_car/tests/pytest/android/test_hvac.py --junitxml reports/android/test_hvac.xml
+      - uses: actions/upload-artifact@v4
+        with: {name: reports-android, path: reports/android/}
