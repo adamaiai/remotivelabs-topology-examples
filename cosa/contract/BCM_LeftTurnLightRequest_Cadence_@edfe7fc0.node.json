@@ -1,0 +1,27 @@
+{
+    "BCM_LeftTurnLightRequest_Cadence_@edfe7fc0": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_BCM_HazardLightButton_NotPressed_@7579e467",
+                "DC_BCM_TurnSignal_Misread_@66eaa7e3"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_BCM_LeftTurnLightRequest_Cadence_@3efa7f85"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_LeftTurnLightRequest_Cadence_@edfe7fc0",
+            "description": [
+                "COMP_REQ_BCM_TURN_BLINK (Turn Signal Blink Cadence): While a turn indicator output is commanded active, the Body Control Module shall toggle that output between the active and inactive states at a frequency of 1.5 Hz with a tolerance of plus or minus 0.5 Hz, keeping the cycle within the regulatory range of 60 to 120 cycles per minute defined by UNECE Regulation No. 48 for direction indicator lamps."
+            ],
+            "name": "BCM_LeftTurnLightRequest_Cadence",
+            "source": "remotive_car/docs/requirements/bcm_requirements.rst#COMP_REQ_BCM_TURN_BLINK",
+            "version_schema": "4.6.1"
+        }
+    }
+}

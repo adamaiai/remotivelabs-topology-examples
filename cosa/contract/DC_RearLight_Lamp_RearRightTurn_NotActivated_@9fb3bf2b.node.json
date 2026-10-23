@@ -1,0 +1,27 @@
+{
+    "DC_RearLight_Lamp_RearRightTurn_NotActivated_@9fb3bf2b": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RearLight_Lamp_RearRightTurn_@3fe88586"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RearLight_Lamp_RearRightTurn_NotActivated_@9fb3bf2b",
+            "description": [
+                "Critical: RearLight_Lamp_RearRightTurn stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_RearLight_Lamp_RearRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

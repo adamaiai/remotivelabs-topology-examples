@@ -1,0 +1,25 @@
+{
+    "RearLight_Lamp_RearLeftTurn_WronglyActivated_@3bb5e4a8": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_RearLight_LeftTurnLightRequest_WronglyActivated_@2a2346a8"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RearLight_Lamp_RearLeftTurn_WronglyActivated_@94da00b1"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_Lamp_RearLeftTurn_WronglyActivated_@3bb5e4a8",
+            "description": [
+                "Derived, not in the specification: Rear light subsystem lights the rear left turn lamp as requested on BodyCan0 (refines COMP_REQ_RLCM_CONTROL to the subsystem boundary)."
+            ],
+            "name": "RearLight_Lamp_RearLeftTurn_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

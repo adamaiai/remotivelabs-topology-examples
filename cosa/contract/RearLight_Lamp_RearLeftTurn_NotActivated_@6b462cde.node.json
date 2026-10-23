@@ -1,0 +1,25 @@
+{
+    "RearLight_Lamp_RearLeftTurn_NotActivated_@6b462cde": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_RearLight_LeftTurnLightRequest_NotActivated_@0c18fac5"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RearLight_Lamp_RearLeftTurn_NotActivated_@1eb5c409"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_Lamp_RearLeftTurn_NotActivated_@6b462cde",
+            "description": [
+                "Derived, not in the specification: Rear light subsystem lights the rear left turn lamp as requested on BodyCan0 (refines COMP_REQ_RLCM_CONTROL to the subsystem boundary)."
+            ],
+            "name": "RearLight_Lamp_RearLeftTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

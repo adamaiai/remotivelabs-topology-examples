@@ -1,0 +1,27 @@
+{
+    "DC_RearLight_RightTurnLightRequest_NotActivated_@a0cc796b": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RearLight_RightTurnLightRequest_@c084efef"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RearLight_RightTurnLightRequest_NotActivated_@a0cc796b",
+            "description": [
+                "Critical: RearLight_RightTurnLightRequest stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_RearLight_RightTurnLightRequest_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

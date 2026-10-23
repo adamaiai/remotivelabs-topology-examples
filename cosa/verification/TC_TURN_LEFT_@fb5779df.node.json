@@ -1,0 +1,27 @@
+{
+    "TC_TURN_LEFT_@fb5779df": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "797bbf5d07f3ba455b04733b550a3419a15ed4578456ce51c868f8562126bf9b",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/blink_left.feature"
+        },
+        "connections": {
+            "contractInScope": [
+                "BCM_LeftTurnLightRequest_NotActivated_@ae9ffb75",
+                "BCM_LeftTurnLightRequest_WronglyActivated_@8c671c6a"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_TURN_LEFT_@fb5779df",
+            "description": [
+                "Left Turn Signal Activation (reviewed in the specification). TurnSignalLeft = 1 on DriverCan0 shall make LeftTurnLightRequest active while RightTurnLightRequest stays inactive."
+            ],
+            "name": "TC_TURN_LEFT",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_TURN_LEFT",
+            "version_schema": "4.6.1"
+        }
+    }
+}

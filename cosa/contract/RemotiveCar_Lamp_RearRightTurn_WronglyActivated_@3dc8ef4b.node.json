@@ -1,0 +1,27 @@
+{
+    "RemotiveCar_Lamp_RearRightTurn_WronglyActivated_@3dc8ef4b": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_Driver_HazardLightButton_WronglyPressed_@5f73be74",
+                "DC_Driver_TurnSignal_Misread_@1bd21e54"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_Lamp_RearRightTurn_WronglyActivated_@89e187b7"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_Lamp_RearRightTurn_WronglyActivated_@3dc8ef4b",
+            "description": [
+                "SYSREQ_TURN_SIGNAL_SIGNALING (Turn Signal Indication): When the driver asserts a left or right turn intention, the system shall illuminate only the front and rear turn indicator lamps on the side matching the active turn input."
+            ],
+            "name": "RemotiveCar_Lamp_RearRightTurn_WronglyActivated",
+            "source": "remotive_car/docs/requirements/system_requirements.rst#SYSREQ_TURN_SIGNAL_SIGNALING",
+            "version_schema": "4.6.1"
+        }
+    }
+}

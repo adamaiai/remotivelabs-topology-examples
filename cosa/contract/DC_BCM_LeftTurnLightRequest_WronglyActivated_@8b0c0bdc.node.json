@@ -1,0 +1,27 @@
+{
+    "DC_BCM_LeftTurnLightRequest_WronglyActivated_@8b0c0bdc": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BCM_LeftTurnLightRequest_@49b1b8ec"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BCM_LeftTurnLightRequest_WronglyActivated_@8b0c0bdc",
+            "description": [
+                "Critical: BCM_LeftTurnLightRequest is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_BCM_LeftTurnLightRequest_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

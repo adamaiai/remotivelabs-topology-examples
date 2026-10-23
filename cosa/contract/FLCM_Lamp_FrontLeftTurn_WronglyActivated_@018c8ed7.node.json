@@ -1,0 +1,26 @@
+{
+    "FLCM_Lamp_FrontLeftTurn_WronglyActivated_@018c8ed7": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_FLCM_LeftTurnLightRequest_WronglyActivated_@c0090974"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_FLCM_Lamp_FrontLeftTurn_WronglyActivated_@ae752f20"
+            ]
+        },
+        "metadata": {
+            "uuid": "FLCM_Lamp_FrontLeftTurn_WronglyActivated_@018c8ed7",
+            "description": [
+                "COMP_REQ_FLCM_CONTROL (Front Turn Indicator Control): The Front Light Control Module shall activate the front turn indicator on the side corresponding to the active TurnLightControl signal received on BodyCan0 within one bus cycle of signal change."
+            ],
+            "name": "FLCM_Lamp_FrontLeftTurn_WronglyActivated",
+            "source": "remotive_car/docs/requirements/lighting_requirements.rst#COMP_REQ_FLCM_CONTROL",
+            "version_schema": "4.6.1"
+        }
+    }
+}

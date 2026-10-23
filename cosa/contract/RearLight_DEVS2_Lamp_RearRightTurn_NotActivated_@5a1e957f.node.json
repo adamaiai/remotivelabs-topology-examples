@@ -1,0 +1,23 @@
+{
+    "RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@5a1e957f": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ReqRight_NotActivated_@0c880451"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RearLight_Lamp_RearRightTurn_NotActivated_@9fb3bf2b"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@5a1e957f",
+            "description": [
+                "Derived, not in the specification: Inside RearLight, the DEVS2 placeholder lights the rear right turn lamp from ReqRight."
+            ],
+            "name": "RearLight_DEVS2_Lamp_RearRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

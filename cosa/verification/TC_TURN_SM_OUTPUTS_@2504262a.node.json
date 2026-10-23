@@ -1,0 +1,29 @@
+{
+    "TC_TURN_SM_OUTPUTS_@2504262a": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "c829bf03f08fa1ccd9fb82b02bc54f1a0bb8582f5c3e03c7df723eed581dc467",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/pytest/test_simulate_driver.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "BCM_LeftTurnLightRequest_NotActivated_@ae9ffb75",
+                "BCM_LeftTurnLightRequest_WronglyActivated_@8c671c6a",
+                "BCM_RightTurnLightRequest_NotActivated_@007a82d7",
+                "BCM_RightTurnLightRequest_WronglyActivated_@e68767c0"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_TURN_SM_OUTPUTS_@2504262a",
+            "description": [
+                "Turn Signal Hazard Priority, CAN Output Verification (draft in the specification). Left only, then both while hazard is pressed, then left only again, observed on BodyCan0. Draft in the specification: the hazard-priority scenario is not yet present in the cited test file."
+            ],
+            "name": "TC_TURN_SM_OUTPUTS",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_TURN_SM_OUTPUTS",
+            "version_schema": "4.6.1"
+        }
+    }
+}

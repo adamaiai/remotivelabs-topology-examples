@@ -1,0 +1,28 @@
+{
+    "RemotiveCar_Lamp_RearLeftTurn_NotActivated_@76049308": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_Driver_HazardLightButton_NotPressed_@611effa5",
+                "DC_Driver_TurnSignal_Misread_@1bd21e54"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_Lamp_RearLeftTurn_NotActivated_@3ef6fbf2"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_Lamp_RearLeftTurn_NotActivated_@76049308",
+            "description": [
+                "SYSREQ_TURN_SIGNAL_SIGNALING (Turn Signal Indication): When the driver asserts a left or right turn intention, the system shall illuminate only the front and rear turn indicator lamps on the side matching the active turn input.",
+                "SYSREQ_HAZARD_LIGHT_SAFETY (Hazard Light Safety): When the hazard light button is activated, the Body Control Module shall command simultaneous left and right turn indicator activation within one signal processing cycle."
+            ],
+            "name": "RemotiveCar_Lamp_RearLeftTurn_NotActivated",
+            "source": "remotive_car/docs/requirements/system_requirements.rst#SYSREQ_TURN_SIGNAL_SIGNALING; remotive_car/docs/requirements/system_requirements.rst#SYSREQ_HAZARD_LIGHT_SAFETY",
+            "version_schema": "4.6.1"
+        }
+    }
+}

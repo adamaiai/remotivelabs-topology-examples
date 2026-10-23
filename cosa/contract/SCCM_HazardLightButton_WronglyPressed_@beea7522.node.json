@@ -1,0 +1,25 @@
+{
+    "SCCM_HazardLightButton_WronglyPressed_@beea7522": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_SCCM_Driver_HazardLightButton_WronglyPressed_@6e771704"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SCCM_HazardLightButton_WronglyPressed_@179700a9"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_HazardLightButton_WronglyPressed_@beea7522",
+            "description": [
+                "Derived, not in the specification: SCCM forwards the hazard light button to DriverCan0; needed so the BCM's assumption on its HazardLightButton input is guaranteed."
+            ],
+            "name": "SCCM_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

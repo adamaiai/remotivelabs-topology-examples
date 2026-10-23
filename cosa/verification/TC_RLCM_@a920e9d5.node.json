@@ -1,0 +1,29 @@
+{
+    "TC_RLCM_@a920e9d5": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "c829bf03f08fa1ccd9fb82b02bc54f1a0bb8582f5c3e03c7df723eed581dc467",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/pytest/test_simulate_driver.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "RLCM_ReqLeft_NotActivated_@c5c5b56b",
+                "RLCM_ReqLeft_WronglyActivated_@8ad82a92",
+                "RLCM_ReqRight_NotActivated_@e6b1400c",
+                "RLCM_ReqRight_WronglyActivated_@872643ff"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_RLCM_@a920e9d5",
+            "description": [
+                "Rear Turn Indicator Verification (reviewed in the specification). A rear turn command on BodyCan0 reaches the rear light unit via RearLightLIN."
+            ],
+            "name": "TC_RLCM",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_RLCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

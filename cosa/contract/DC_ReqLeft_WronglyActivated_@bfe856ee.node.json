@@ -1,0 +1,27 @@
+{
+    "DC_ReqLeft_WronglyActivated_@bfe856ee": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "ReqLeft_@6d87a065"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ReqLeft_WronglyActivated_@bfe856ee",
+            "description": [
+                "Critical: ReqLeft is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_ReqLeft_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

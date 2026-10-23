@@ -1,0 +1,23 @@
+{
+    "RemotiveCar_SCCM_HazardLightButton_WronglyPressed_@0d5572b3": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_Driver_HazardLightButton_WronglyPressed_@5f73be74"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_HazardLightButton_WronglyPressed_@7d4cd101"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_SCCM_HazardLightButton_WronglyPressed_@0d5572b3",
+            "description": [
+                "Derived, not in the specification: Inside RemotiveCar, the SCCM placeholder puts the driver's hazard button on DriverCan0."
+            ],
+            "name": "RemotiveCar_SCCM_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

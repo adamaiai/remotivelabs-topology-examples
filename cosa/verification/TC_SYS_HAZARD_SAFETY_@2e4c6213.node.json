@@ -1,0 +1,33 @@
+{
+    "TC_SYS_HAZARD_SAFETY_@2e4c6213": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "8347aad85a81596b95c32b65ff35eea88a081028ae83195cddaf8785ffef247d",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/hazard_light.feature"
+        },
+        "connections": {
+            "contractInScope": [
+                "RemotiveCar_Lamp_FrontLeftTurn_NotActivated_@f73980ab",
+                "RemotiveCar_Lamp_FrontRightTurn_NotActivated_@12bcd57f",
+                "RemotiveCar_Lamp_RearLeftTurn_NotActivated_@76049308",
+                "RemotiveCar_Lamp_RearRightTurn_NotActivated_@52d90566",
+                "SG_FrontLeftTurn_NotActivated_@b4b74d02",
+                "SG_FrontRightTurn_NotActivated_@4f2b3c5c",
+                "SG_RearLeftTurn_NotActivated_@5f9338ae",
+                "SG_RearRightTurn_NotActivated_@ac064a8b"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_SYS_HAZARD_SAFETY_@2e4c6213",
+            "description": [
+                "System-Level Hazard Light Safety (reviewed in the specification). With SCCM, BCM, FLCM and RLCM running, a HazardLightButton press on DriverCan0 shall activate all four turn indicators within one processing cycle."
+            ],
+            "name": "TC_SYS_HAZARD_SAFETY",
+            "source": "remotive_car/docs/verification/system_tests.rst#TC_SYS_HAZARD_SAFETY",
+            "version_schema": "4.6.1"
+        }
+    }
+}

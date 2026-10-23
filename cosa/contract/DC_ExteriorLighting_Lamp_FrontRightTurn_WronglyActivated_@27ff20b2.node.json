@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLighting_Lamp_FrontRightTurn_WronglyActivated_@27ff20b2": {
+        "stereotype": "CustomerFunctionDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedFunctionalAspect": [
+                "ExteriorLighting_Lamp_FrontRightTurn_@a2d39955"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLighting_Lamp_FrontRightTurn_WronglyActivated_@27ff20b2",
+            "description": [
+                "Critical: ExteriorLighting_Lamp_FrontRightTurn is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_ExteriorLighting_Lamp_FrontRightTurn_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

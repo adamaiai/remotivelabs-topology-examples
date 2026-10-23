@@ -1,0 +1,27 @@
+{
+    "DC_BCM_HazardLightButton_WronglyPressed_@e484e8f1": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BCM_HazardLightButton_@91a6abc7"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BCM_HazardLightButton_WronglyPressed_@e484e8f1",
+            "description": [
+                "Critical: BCM_HazardLightButton reads pressed for longer than 50 ms while the button is released."
+            ],
+            "name": "DC_BCM_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "DC_SCCM_Driver_TurnSignal_Misread_@b8532152": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "GroundTruth",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [
+                "CM_SCCM_Driver_TurnSignal_@45700f2e"
+            ],
+            "constrainedDataElement": [
+                "SCCM_Driver_TurnSignal_@eec6e217"
+            ]
+        },
+        "aggregations": {
+            "CC_SCCM_Driver_TurnSignal_Left_as_Off_@948ab298": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Driver_TurnSignal_Left_as_Right_@80bf1421": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Driver_TurnSignal_Off_as_Left_@78398585": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Driver_TurnSignal_Off_as_Right_@879b4886": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Driver_TurnSignal_Right_as_Left_@d3a80059": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CC_SCCM_Driver_TurnSignal_Right_as_Off_@f960939d": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CM_SCCM_Driver_TurnSignal_@45700f2e": {
+                "stereotype": "ConfusionMatrix",
+                "attributes": {},
+                "connections": {
+                    "confusionCell": [
+                        "CC_SCCM_Driver_TurnSignal_Left_as_Off_@948ab298",
+                        "CC_SCCM_Driver_TurnSignal_Left_as_Right_@80bf1421",
+                        "CC_SCCM_Driver_TurnSignal_Off_as_Left_@78398585",
+                        "CC_SCCM_Driver_TurnSignal_Off_as_Right_@879b4886",
+                        "CC_SCCM_Driver_TurnSignal_Right_as_Left_@d3a80059",
+                        "CC_SCCM_Driver_TurnSignal_Right_as_Off_@f960939d"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DC_SCCM_Driver_TurnSignal_Misread_@b8532152",
+            "description": [
+                "Critical: SCCM_Driver_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
+            ],
+            "name": "DC_SCCM_Driver_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

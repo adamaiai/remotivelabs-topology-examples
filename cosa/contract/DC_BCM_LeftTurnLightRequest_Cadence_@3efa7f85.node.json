@@ -1,0 +1,27 @@
+{
+    "DC_BCM_LeftTurnLightRequest_Cadence_@3efa7f85": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "Toggle",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BCM_LeftTurnLightRequest_@49b1b8ec"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BCM_LeftTurnLightRequest_Cadence_@3efa7f85",
+            "description": [
+                "Critical: BCM_LeftTurnLightRequest toggles outside the blink cadence of 1.5 Hz plus or minus 0.5 Hz (60 to 120 cycles per minute, UNECE R48)."
+            ],
+            "name": "DC_BCM_LeftTurnLightRequest_Cadence",
+            "version_schema": "4.6.1"
+        }
+    }
+}

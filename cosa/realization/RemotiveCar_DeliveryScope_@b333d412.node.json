@@ -1,5 +1,5 @@
 {
-    "ClimateControl_DeliveryScope_@7af8aa22": {
+    "RemotiveCar_DeliveryScope_@b333d412": {
         "stereotype": "DeliveryScope",
         "attributes": {
             "isDeploymentCandidate": false
@@ -28,18 +28,21 @@
                 "ComputeAllocation_TCU_@2b886141"
             ],
             "realizationInScope": [
-                "ClimateControl_Realization_@c9143524"
+                "ClimateControl_Realization_@c9143524",
+                "DriverControls_Realization_@90461b28",
+                "ExteriorLighting_Realization_@3bbc7d06"
             ],
             "topAggregation": [
                 "ImplementedRemotiveCar_@29fec195"
             ]
         },
         "metadata": {
-            "uuid": "ClimateControl_DeliveryScope_@7af8aa22",
+            "uuid": "RemotiveCar_DeliveryScope_@b333d412",
             "description": [
-                "Delivery of ClimateControl by ImplementedRemotiveCar with all compute and communication allocations."
+                "Delivery of ImplementedRemotiveCar realizing ExteriorLighting, ClimateControl and DriverControls, with all compute and communication allocations.",
+                "realizationInScope holds several customer function realizations although the metamodel allows one (known metamodel bug, reported by S.1.2)."
             ],
-            "name": "ClimateControl_DeliveryScope",
+            "name": "RemotiveCar_DeliveryScope",
             "version_schema": "4.6.1"
         }
     }

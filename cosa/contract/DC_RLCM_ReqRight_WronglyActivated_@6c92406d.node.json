@@ -1,0 +1,27 @@
+{
+    "DC_RLCM_ReqRight_WronglyActivated_@6c92406d": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RLCM_ReqRight_@cd975b2b"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RLCM_ReqRight_WronglyActivated_@6c92406d",
+            "description": [
+                "Critical: RLCM_ReqRight is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_RLCM_ReqRight_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

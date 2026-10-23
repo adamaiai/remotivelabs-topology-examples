@@ -1,0 +1,27 @@
+{
+    "DC_RearLight_RightTurnLightRequest_WronglyActivated_@5da19059": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RearLight_RightTurnLightRequest_@c084efef"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RearLight_RightTurnLightRequest_WronglyActivated_@5da19059",
+            "description": [
+                "Critical: RearLight_RightTurnLightRequest is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_RearLight_RightTurnLightRequest_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "RearLight_DEVS2_Lamp_RearLeftTurn_WronglyActivated_@470581c3": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_ReqLeft_WronglyActivated_@bfe856ee"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RearLight_Lamp_RearLeftTurn_WronglyActivated_@94da00b1"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_DEVS2_Lamp_RearLeftTurn_WronglyActivated_@470581c3",
+            "description": [
+                "Derived, not in the specification: Inside RearLight, the DEVS2 placeholder lights the rear left turn lamp from ReqLeft."
+            ],
+            "name": "RearLight_DEVS2_Lamp_RearLeftTurn_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

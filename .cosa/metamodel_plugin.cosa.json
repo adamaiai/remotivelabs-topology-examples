@@ -1,30 +1,78 @@
 {
   "cosa_metamodel_plugin": "1.0",
   "description": "remotive_car extensions",
+  "add_stereotypes": [
+    {
+      "name": "TestVerificationMethod",
+      "description": "A VerificationMethod that points at the test implementing it, with a hash so validation notices when the test changes.",
+      "generalizes": [
+        "VerificationMethod",
+        "SW_Reference"
+      ],
+      "layers": [
+        "VerificationLayer"
+      ],
+      "attributes": {
+        "location": {
+          "type": "string",
+          "format": "location"
+        },
+        "hash": {
+          "type": "string"
+        }
+      }
+    }
+  ],
   "add_enums": {
     "TurnSignalEnum": {
       "type": "string",
-      "enum": ["Off", "Left", "Right"]
+      "enum": [
+        "Off",
+        "Left",
+        "Right"
+      ]
     },
     "LightModeEnum": {
       "type": "string",
-      "enum": ["Off", "DaylightRunningLight", "LowBeam"]
+      "enum": [
+        "Off",
+        "DaylightRunningLight",
+        "LowBeam"
+      ]
     },
     "GearLeverPositionEnum": {
       "type": "string",
-      "enum": ["Reverse", "Drive"]
+      "enum": [
+        "Reverse",
+        "Drive"
+      ]
     },
     "TypeReq1Enum": {
       "type": "string",
-      "enum": ["TypeReq1_mode0", "TypeReq1_mode1", "TypeReq1_mode2", "TypeReq1_mode3"]
+      "enum": [
+        "TypeReq1_mode0",
+        "TypeReq1_mode1",
+        "TypeReq1_mode2",
+        "TypeReq1_mode3"
+      ]
     },
     "TypeReq2Enum": {
       "type": "string",
-      "enum": ["TypeReq2_mode0", "TypeReq2_mode1", "TypeReq2_mode2", "TypeReq2_mode3"]
+      "enum": [
+        "TypeReq2_mode0",
+        "TypeReq2_mode1",
+        "TypeReq2_mode2",
+        "TypeReq2_mode3"
+      ]
     },
     "SomeQf1Enum": {
       "type": "string",
-      "enum": ["SomeQf1_0", "SomeQf1_1", "SomeQf1_2", "SomeQf1_3"]
+      "enum": [
+        "SomeQf1_0",
+        "SomeQf1_1",
+        "SomeQf1_2",
+        "SomeQf1_3"
+      ]
     }
   },
   "replace_enum": {

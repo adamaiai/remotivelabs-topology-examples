@@ -1,0 +1,29 @@
+{
+    "TC_FLCM_@0b9d06fd": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "84216d5ad7d939bf023019b93da52a931daf0b06cb66cd6b0766036bba61ec16",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#getting_started/tests/test_hazard_light.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "FLCM_Lamp_FrontLeftTurn_NotActivated_@29bb691d",
+                "FLCM_Lamp_FrontLeftTurn_WronglyActivated_@018c8ed7",
+                "FLCM_Lamp_FrontRightTurn_NotActivated_@0fd90f04",
+                "FLCM_Lamp_FrontRightTurn_WronglyActivated_@579537f6"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_FLCM_@0b9d06fd",
+            "description": [
+                "Front Turn Indicator Verification (reviewed in the specification). FLCM activates both front turn indicators within one bus cycle of hazard activation. Single-side stimuli are not covered by the cited test."
+            ],
+            "name": "TC_FLCM",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_FLCM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

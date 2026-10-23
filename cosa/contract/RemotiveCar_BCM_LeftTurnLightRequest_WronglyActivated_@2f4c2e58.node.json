@@ -1,0 +1,24 @@
+{
+    "RemotiveCar_BCM_LeftTurnLightRequest_WronglyActivated_@2f4c2e58": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_HazardLightButton_WronglyPressed_@7d4cd101",
+                "DC_TurnSignal_Misread_@45da7073"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_LeftTurnLightRequest_WronglyActivated_@f693798b"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_BCM_LeftTurnLightRequest_WronglyActivated_@2f4c2e58",
+            "description": [
+                "Derived, not in the specification: Inside RemotiveCar, the BCM placeholder drives LeftTurnLightRequest on BodyCan0 from the hazard button and the turn stalk."
+            ],
+            "name": "RemotiveCar_BCM_LeftTurnLightRequest_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

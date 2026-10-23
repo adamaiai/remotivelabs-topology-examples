@@ -1,0 +1,25 @@
+{
+    "SCCM_HazardLightButton_NotPressed_@4e7e0a20": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_SCCM_Driver_HazardLightButton_NotPressed_@abf646b3"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SCCM_HazardLightButton_NotPressed_@89b5fb89"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_HazardLightButton_NotPressed_@4e7e0a20",
+            "description": [
+                "Derived, not in the specification: SCCM forwards the hazard light button to DriverCan0; needed so the BCM's assumption on its HazardLightButton input is guaranteed."
+            ],
+            "name": "SCCM_HazardLightButton_NotPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "SCCM_TurnSignal_Misread_@93e6972a": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_SCCM_Driver_TurnSignal_Misread_@b8532152"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SCCM_TurnSignal_Misread_@4bb79ddb"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_TurnSignal_Misread_@93e6972a",
+            "description": [
+                "Derived, not in the specification: SCCM forwards the turn stalk to DriverCan0; needed so the BCM's assumption on its TurnSignal input is guaranteed."
+            ],
+            "name": "SCCM_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

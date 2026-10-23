@@ -1,0 +1,29 @@
+{
+    "TC_TURN_SM_@0d46561a": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "96a557f2b76ae00e44664fc1899485d1e5b806e3715f2f4f7e519075191e99e2",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/bcm/python/tests/test_turn_signals_state_machine.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "BCM_LeftTurnLightRequest_NotActivated_@ae9ffb75",
+                "BCM_LeftTurnLightRequest_WronglyActivated_@8c671c6a",
+                "BCM_RightTurnLightRequest_NotActivated_@007a82d7",
+                "BCM_RightTurnLightRequest_WronglyActivated_@e68767c0"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_TURN_SM_@0d46561a",
+            "description": [
+                "Turn Signal Hazard Priority (reviewed in the specification). The turn signal state machine transitions between off, left and hazard states; hazard takes priority over directional states."
+            ],
+            "name": "TC_TURN_SM",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_TURN_SM",
+            "version_schema": "4.6.1"
+        }
+    }
+}

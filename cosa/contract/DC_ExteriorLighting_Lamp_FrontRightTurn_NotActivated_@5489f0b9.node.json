@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLighting_Lamp_FrontRightTurn_NotActivated_@5489f0b9": {
+        "stereotype": "CustomerFunctionDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedFunctionalAspect": [
+                "ExteriorLighting_Lamp_FrontRightTurn_@a2d39955"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLighting_Lamp_FrontRightTurn_NotActivated_@5489f0b9",
+            "description": [
+                "Critical: ExteriorLighting_Lamp_FrontRightTurn stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_ExteriorLighting_Lamp_FrontRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

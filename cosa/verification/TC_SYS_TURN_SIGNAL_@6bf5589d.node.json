@@ -1,0 +1,41 @@
+{
+    "TC_SYS_TURN_SIGNAL_@6bf5589d": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "797bbf5d07f3ba455b04733b550a3419a15ed4578456ce51c868f8562126bf9b",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/blink_left.feature"
+        },
+        "connections": {
+            "contractInScope": [
+                "RemotiveCar_Lamp_FrontLeftTurn_NotActivated_@f73980ab",
+                "RemotiveCar_Lamp_FrontLeftTurn_WronglyActivated_@bb6c61fb",
+                "RemotiveCar_Lamp_FrontRightTurn_NotActivated_@12bcd57f",
+                "RemotiveCar_Lamp_FrontRightTurn_WronglyActivated_@9e9f8dfc",
+                "RemotiveCar_Lamp_RearLeftTurn_NotActivated_@76049308",
+                "RemotiveCar_Lamp_RearLeftTurn_WronglyActivated_@bccbf857",
+                "RemotiveCar_Lamp_RearRightTurn_NotActivated_@52d90566",
+                "RemotiveCar_Lamp_RearRightTurn_WronglyActivated_@3dc8ef4b",
+                "SG_FrontLeftTurn_NotActivated_@b4b74d02",
+                "SG_FrontLeftTurn_WronglyActivated_@44bff7c4",
+                "SG_FrontRightTurn_NotActivated_@4f2b3c5c",
+                "SG_FrontRightTurn_WronglyActivated_@ab51e338",
+                "SG_RearLeftTurn_NotActivated_@5f9338ae",
+                "SG_RearLeftTurn_WronglyActivated_@3ffef3a0",
+                "SG_RearRightTurn_NotActivated_@ac064a8b",
+                "SG_RearRightTurn_WronglyActivated_@7eb38a9f"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_SYS_TURN_SIGNAL_@6bf5589d",
+            "description": [
+                "System-Level Turn Signal Indication (reviewed in the specification). For turn direction left, right and none, the indicators on the matching side illuminate within one processing cycle and the opposite side stays off."
+            ],
+            "name": "TC_SYS_TURN_SIGNAL",
+            "source": "remotive_car/docs/verification/system_tests.rst#TC_SYS_TURN_SIGNAL",
+            "version_schema": "4.6.1"
+        }
+    }
+}

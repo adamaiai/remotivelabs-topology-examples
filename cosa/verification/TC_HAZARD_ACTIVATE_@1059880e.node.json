@@ -1,0 +1,27 @@
+{
+    "TC_HAZARD_ACTIVATE_@1059880e": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "8347aad85a81596b95c32b65ff35eea88a081028ae83195cddaf8785ffef247d",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/hazard_light.feature"
+        },
+        "connections": {
+            "contractInScope": [
+                "BCM_LeftTurnLightRequest_NotActivated_@ae9ffb75",
+                "BCM_RightTurnLightRequest_NotActivated_@007a82d7"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_HAZARD_ACTIVATE_@1059880e",
+            "description": [
+                "Hazard Light Activation (reviewed in the specification). HazardLightButton = 1 on DriverCan0 shall make both LeftTurnLightRequest and RightTurnLightRequest active on BodyCan0."
+            ],
+            "name": "TC_HAZARD_ACTIVATE",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_HAZARD_ACTIVATE",
+            "version_schema": "4.6.1"
+        }
+    }
+}

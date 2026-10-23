@@ -1,0 +1,27 @@
+{
+    "DC_HazardLightButton_WronglyPressed_@7d4cd101": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "HazardLightButton_@1012733a"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_HazardLightButton_WronglyPressed_@7d4cd101",
+            "description": [
+                "Critical: HazardLightButton reads pressed for longer than 50 ms while the button is released."
+            ],
+            "name": "DC_HazardLightButton_WronglyPressed",
+            "version_schema": "4.6.1"
+        }
+    }
+}

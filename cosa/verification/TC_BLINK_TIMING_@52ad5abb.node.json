@@ -1,0 +1,27 @@
+{
+    "TC_BLINK_TIMING_@52ad5abb": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "96a557f2b76ae00e44664fc1899485d1e5b806e3715f2f4f7e519075191e99e2",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/bcm/python/tests/test_turn_signals_state_machine.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "BCM_LeftTurnLightRequest_Cadence_@edfe7fc0",
+                "BCM_RightTurnLightRequest_Cadence_@5842a4ec"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_BLINK_TIMING_@52ad5abb",
+            "description": [
+                "Turn Signal Blink Cadence Measurement (draft in the specification). Measured blink frequency 1.0 to 2.0 Hz (mean 1.5 Hz plus or minus 0.5 Hz), duty cycle 40 to 60 percent, no edges after deactivation. Draft in the specification: the cited test exercises state-machine transitions only; the numerical cadence measurement still has to be added."
+            ],
+            "name": "TC_BLINK_TIMING",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_BLINK_TIMING",
+            "version_schema": "4.6.1"
+        }
+    }
+}

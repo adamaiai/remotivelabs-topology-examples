@@ -1,0 +1,93 @@
+{
+    "DC_ExteriorLighting_Driver_TurnSignal_Misread_@efeef035": {
+        "stereotype": "CustomerFunctionDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "GroundTruth",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [
+                "CM_ExteriorLighting_Driver_TurnSignal_@9d39f77f"
+            ],
+            "constrainedFunctionalAspect": [
+                "ExteriorLighting_Driver_TurnSignal_@32ae3e57"
+            ]
+        },
+        "aggregations": {
+            "CC_ExteriorLighting_Driver_TurnSignal_Left_as_Off_@d0a89541": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLighting_Driver_TurnSignal_Left_as_Right_@f76d2c9b": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Left"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLighting_Driver_TurnSignal_Off_as_Left_@2909dea5": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLighting_Driver_TurnSignal_Off_as_Right_@7b51c58c": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Right",
+                    "shouldBe": "Off"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Left_@d5be0b6a": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Left",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Off_@f2cf834d": {
+                "stereotype": "ConfusionCell",
+                "attributes": {
+                    "hasBecome": "Off",
+                    "shouldBe": "Right"
+                },
+                "connections": {}
+            },
+            "CM_ExteriorLighting_Driver_TurnSignal_@9d39f77f": {
+                "stereotype": "ConfusionMatrix",
+                "attributes": {},
+                "connections": {
+                    "confusionCell": [
+                        "CC_ExteriorLighting_Driver_TurnSignal_Left_as_Off_@d0a89541",
+                        "CC_ExteriorLighting_Driver_TurnSignal_Left_as_Right_@f76d2c9b",
+                        "CC_ExteriorLighting_Driver_TurnSignal_Off_as_Left_@2909dea5",
+                        "CC_ExteriorLighting_Driver_TurnSignal_Off_as_Right_@7b51c58c",
+                        "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Left_@d5be0b6a",
+                        "CC_ExteriorLighting_Driver_TurnSignal_Right_as_Off_@f2cf834d"
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLighting_Driver_TurnSignal_Misread_@efeef035",
+            "description": [
+                "Critical: ExteriorLighting_Driver_TurnSignal shows another turn direction than the driver selected for longer than 50 ms."
+            ],
+            "name": "DC_ExteriorLighting_Driver_TurnSignal_Misread",
+            "version_schema": "4.6.1"
+        }
+    }
+}

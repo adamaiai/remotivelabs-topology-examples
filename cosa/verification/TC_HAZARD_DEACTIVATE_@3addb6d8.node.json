@@ -1,0 +1,27 @@
+{
+    "TC_HAZARD_DEACTIVATE_@3addb6d8": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "8347aad85a81596b95c32b65ff35eea88a081028ae83195cddaf8785ffef247d",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/hazard_light.feature"
+        },
+        "connections": {
+            "contractInScope": [
+                "BCM_LeftTurnLightRequest_NotActivated_@ae9ffb75",
+                "BCM_RightTurnLightRequest_NotActivated_@007a82d7"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_HAZARD_DEACTIVATE_@3addb6d8",
+            "description": [
+                "Hazard Light Deactivation (reviewed in the specification). HazardLightButton = 0 on DriverCan0 shall make both turn light requests inactive."
+            ],
+            "name": "TC_HAZARD_DEACTIVATE",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_HAZARD_DEACTIVATE",
+            "version_schema": "4.6.1"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "DC_Lamp_FrontLeftTurn_WronglyActivated_@663ea15a": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "True",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "Lamp_FrontLeftTurn_@4efb9824"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_Lamp_FrontLeftTurn_WronglyActivated_@663ea15a",
+            "description": [
+                "Critical: Lamp_FrontLeftTurn is on for longer than 500 ms while it should be off."
+            ],
+            "name": "DC_Lamp_FrontLeftTurn_WronglyActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

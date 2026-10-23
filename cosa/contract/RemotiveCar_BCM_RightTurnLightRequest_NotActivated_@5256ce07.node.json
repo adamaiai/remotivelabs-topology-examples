@@ -1,0 +1,24 @@
+{
+    "RemotiveCar_BCM_RightTurnLightRequest_NotActivated_@5256ce07": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_HazardLightButton_NotPressed_@7a7392c6",
+                "DC_TurnSignal_Misread_@45da7073"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RightTurnLightRequest_NotActivated_@6d910995"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_BCM_RightTurnLightRequest_NotActivated_@5256ce07",
+            "description": [
+                "Derived, not in the specification: Inside RemotiveCar, the BCM placeholder drives RightTurnLightRequest on BodyCan0 from the hazard button and the turn stalk."
+            ],
+            "name": "RemotiveCar_BCM_RightTurnLightRequest_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

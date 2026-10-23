@@ -1,0 +1,25 @@
+{
+    "DEVS2_Lamp_RearLeftTurn_NotActivated_@e2f2cc6a": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [
+                "DC_DEVS2_ReqLeft_NotActivated_@fad4d8f4"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_DEVS2_Lamp_RearLeftTurn_NotActivated_@59b8fbb9"
+            ]
+        },
+        "metadata": {
+            "uuid": "DEVS2_Lamp_RearLeftTurn_NotActivated_@e2f2cc6a",
+            "description": [
+                "Derived, not in the specification: DEVS2 lights the rear left turn lamp as requested by ReqLeft on RearLightLIN."
+            ],
+            "name": "DEVS2_Lamp_RearLeftTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

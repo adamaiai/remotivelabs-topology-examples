@@ -1,0 +1,27 @@
+{
+    "DC_RLCM_ReqLeft_NotActivated_@7c0a642d": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RLCM_ReqLeft_@30bd5a61"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RLCM_ReqLeft_NotActivated_@7c0a642d",
+            "description": [
+                "Critical: RLCM_ReqLeft stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_RLCM_ReqLeft_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

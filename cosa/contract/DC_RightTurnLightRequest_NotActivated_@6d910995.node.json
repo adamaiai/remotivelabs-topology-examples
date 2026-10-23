@@ -1,0 +1,27 @@
+{
+    "DC_RightTurnLightRequest_NotActivated_@6d910995": {
+        "stereotype": "InternalDevConstr_AssemblyConn",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "RightTurnLightRequest_@76f14077"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RightTurnLightRequest_NotActivated_@6d910995",
+            "description": [
+                "Critical: RightTurnLightRequest stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_RightTurnLightRequest_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

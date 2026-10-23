@@ -1,0 +1,27 @@
+{
+    "DC_Lamp_FrontRightTurn_NotActivated_@95d91da0": {
+        "stereotype": "ExtInt_DevConstr_ComposedComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": "False",
+            "subTypeCriticalMarginType": null,
+            "subTypeCriticalMarginValue": null,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "Lamp_FrontRightTurn_@66e2f5d1"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_Lamp_FrontRightTurn_NotActivated_@95d91da0",
+            "description": [
+                "Critical: Lamp_FrontRightTurn stays off for longer than 500 ms while it should be blinking."
+            ],
+            "name": "DC_Lamp_FrontRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}

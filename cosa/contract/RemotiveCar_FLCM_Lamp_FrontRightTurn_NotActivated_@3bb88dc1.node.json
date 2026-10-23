@@ -1,0 +1,23 @@
+{
+    "RemotiveCar_FLCM_Lamp_FrontRightTurn_NotActivated_@3bb88dc1": {
+        "stereotype": "InnerSafetyContract",
+        "attributes": {},
+        "connections": {
+            "assume": [
+                "DC_RightTurnLightRequest_NotActivated_@6d910995"
+            ],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_Lamp_FrontRightTurn_NotActivated_@95d91da0"
+            ]
+        },
+        "metadata": {
+            "uuid": "RemotiveCar_FLCM_Lamp_FrontRightTurn_NotActivated_@3bb88dc1",
+            "description": [
+                "Derived, not in the specification: Inside RemotiveCar, the FLCM placeholder lights the front right turn lamp from RightTurnLightRequest."
+            ],
+            "name": "RemotiveCar_FLCM_Lamp_FrontRightTurn_NotActivated",
+            "version_schema": "4.6.1"
+        }
+    }
+}
