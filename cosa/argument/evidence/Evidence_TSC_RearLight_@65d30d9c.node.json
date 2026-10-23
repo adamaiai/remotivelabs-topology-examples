@@ -1,0 +1,21 @@
+{
+    "Evidence_TSC_RearLight_@65d30d9c": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/TSC_RearLight.md",
+            "validUntil": "",
+            "version": "7dab0032fc453bfaebbe794a404e140dca7565264dfc7ff1a8314b587996134e"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_TSC_RearLight_@65d30d9c",
+            "description": [
+                "Technical safety concept: rear light subsystem."
+            ],
+            "name": "Evidence_TSC_RearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

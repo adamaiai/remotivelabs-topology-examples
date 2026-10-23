@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_RearLight_RLCM_ReqLeft_NotActivated_@23af2a78": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_RearLight_@65d30d9c"
+            ],
+            "refinedContract": [
+                "RearLight_RLCM_ReqLeft_NotActivated_@b75011db"
+            ],
+            "refiningContract": [
+                "RLCM_Lighting_ReqLeft_NotActivated_@8e673bcd"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_RearLight_RLCM_ReqLeft_NotActivated_@23af2a78",
+            "description": [
+                "RLCM_Lighting_ReqLeft_NotActivated of the realizing component covers RearLight_RLCM_ReqLeft_NotActivated."
+            ],
+            "name": "RationaleClaim_RearLight_RLCM_ReqLeft_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

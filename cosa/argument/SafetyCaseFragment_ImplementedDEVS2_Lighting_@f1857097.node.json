@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ImplementedDEVS2_Lighting_@f1857097": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedDEVS2_Lighting_@ae91788d"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedDEVS2_Lighting_@9853d968"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedDEVS2_Lighting_@a00e84c3"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedDEVS2_Lighting_@cd5f40f9"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedDEVS2_Lighting_VM_DEVS2_Lighting_Analysis_@47646872"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedDEVS2_Lighting_@f1857097",
+            "description": [
+                "Safety case fragment arguing ImplementedDEVS2_Lighting."
+            ],
+            "name": "SafetyCaseFragment_ImplementedDEVS2_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_RearLight_Lamp_RearRightTurn_NotActivated_@66d4d666": {
+        "stereotype": "RationaleClaim_Composition",
+        "attributes": {
+            "hasRefiningRedundancy": false
+        },
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_RearLight_@65d30d9c"
+            ],
+            "refinedContract": [
+                "RearLight_Lamp_RearRightTurn_NotActivated_@b0a1e886"
+            ],
+            "refiningContract": [
+                "RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@5a1e957f",
+                "RearLight_RLCM_ReqRight_NotActivated_@b4b2cdbe"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_RearLight_Lamp_RearRightTurn_NotActivated_@66d4d666",
+            "description": [
+                "The inner contracts of RearLight together establish RearLight_Lamp_RearRightTurn_NotActivated."
+            ],
+            "name": "RationaleClaim_RearLight_Lamp_RearRightTurn_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

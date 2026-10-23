@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedDEVS2_Lighting_VM_DEVS2_Lighting_Analysis_@47646872": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_DEVS2_Lighting_Analysis_@232f9e26"
+            ],
+            "satisfyingRealization": [
+                "ImplementedDEVS2_Lighting_@a00e84c3"
+            ],
+            "verificationCriteria": [
+                "VM_DEVS2_Lighting_Analysis_@1ee4c8dc"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedDEVS2_Lighting_VM_DEVS2_Lighting_Analysis_@47646872",
+            "description": [
+                "ImplementedDEVS2_Lighting satisfies the contracts verified by VM_DEVS2_Lighting_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedDEVS2_Lighting_VM_DEVS2_Lighting_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

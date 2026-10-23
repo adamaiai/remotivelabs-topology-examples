@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_RearLight_RLCM_ReqRight_WronglyActivated_@4c2561dc": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_RearLight_@65d30d9c"
+            ],
+            "refinedContract": [
+                "RearLight_RLCM_ReqRight_WronglyActivated_@896fbb75"
+            ],
+            "refiningContract": [
+                "RLCM_Lighting_ReqRight_WronglyActivated_@dc5dcb25"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_RearLight_RLCM_ReqRight_WronglyActivated_@4c2561dc",
+            "description": [
+                "RLCM_Lighting_ReqRight_WronglyActivated of the realizing component covers RearLight_RLCM_ReqRight_WronglyActivated."
+            ],
+            "name": "RationaleClaim_RearLight_RLCM_ReqRight_WronglyActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedBCM_Lighting_@ef38fe7a": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedBCM_Lighting_@ef38fe7a",
+            "description": "",
+            "name": "CultureClaim_ImplementedBCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

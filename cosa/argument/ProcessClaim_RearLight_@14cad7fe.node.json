@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_RearLight_@14cad7fe": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_RearLight_@14cad7fe",
+            "description": "",
+            "name": "ProcessClaim_RearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

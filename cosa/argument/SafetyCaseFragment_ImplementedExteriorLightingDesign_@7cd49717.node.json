@@ -1,0 +1,50 @@
+{
+    "SafetyCaseFragment_ImplementedExteriorLightingDesign_@7cd49717": {
+        "stereotype": "SafetyCaseFragment_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedExteriorLightingDesign_@53ffa816"
+            ],
+            "composedRealization": [
+                "ImplementedExteriorLightingDesign_@ed7de822"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedExteriorLightingDesign_@955389e8"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedExteriorLightingDesign_@6d05efff"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_NotActivated_@1f556508",
+                "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_WronglyActivated_@ceb7bf7d",
+                "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_NotActivated_@9342751d",
+                "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_WronglyActivated_@ffd63a3f",
+                "RationaleClaim_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated_@9a6a5b85",
+                "RationaleClaim_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_WronglyActivated_@467ad36e",
+                "RationaleClaim_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_NotActivated_@965a9ec6",
+                "RationaleClaim_ExteriorLightingDesign_LightingControl_RightTurnLightRequest_WronglyActivated_@b2af8c08",
+                "RationaleClaim_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed_@6ae9bb48",
+                "RationaleClaim_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed_@362c6728",
+                "RationaleClaim_ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread_@ebb7f996",
+                "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated_@354b9f4d",
+                "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_WronglyActivated_@547a1f85",
+                "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_NotActivated_@f0d62441",
+                "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_WronglyActivated_@0748b943"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedExteriorLightingDesign_TC_SYS_HAZARD_SAFETY_@dbf53d66",
+                "SatisfactionClaim_ImplementedExteriorLightingDesign_TC_SYS_TURN_SIGNAL_@118c99dc"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedExteriorLightingDesign_@7cd49717",
+            "description": [
+                "Safety case fragment arguing ImplementedExteriorLightingDesign."
+            ],
+            "name": "SafetyCaseFragment_ImplementedExteriorLightingDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

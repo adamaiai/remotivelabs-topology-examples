@@ -1,0 +1,23 @@
+{
+    "CIEvidence_test_turn_signals_state_machine_@bce8d0d7": {
+        "stereotype": "CIEvidenceReference",
+        "attributes": {
+            "ciArtifact": "reports/bcm/test_turn_signals_state_machine.xml",
+            "ciJob": "bcm-unit-tests",
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/ci/remotive-car-ci.yml",
+            "validUntil": "",
+            "version": "4edc65fdae83aa7fb9d944dbc586a1c9019bc96c89f06a0287467c7aaaac89d8"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "CIEvidence_test_turn_signals_state_machine_@bce8d0d7",
+            "description": [
+                "Test report reports/bcm/test_turn_signals_state_machine.xml of CI job bcm-unit-tests, built from the commit under test. The report exists only as a CI artifact; location and version pin the pipeline that produces it."
+            ],
+            "name": "CIEvidence_test_turn_signals_state_machine",
+            "version_schema": "4.6.2"
+        }
+    }
+}

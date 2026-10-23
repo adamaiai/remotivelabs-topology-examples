@@ -1,0 +1,43 @@
+{
+    "SafetyCaseFragment_ExteriorLighting_Realization_@a471834f": {
+        "stereotype": "SafetyCaseFragment_TopRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ExteriorLighting_Realization_@84cf42ca"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ExteriorLighting_Realization_@dba136e0"
+            ],
+            "customerFunctionAbstractionRealization": [
+                "ExteriorLighting_Realization_@3bbc7d06"
+            ],
+            "processClaim": [
+                "ProcessClaim_ExteriorLighting_Realization_@2f0a6f8f"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_SG_FrontLeftTurn_NotActivated_@82c604d3",
+                "RationaleClaim_SG_FrontLeftTurn_WronglyActivated_@7e663956",
+                "RationaleClaim_SG_FrontRightTurn_NotActivated_@b566fe6c",
+                "RationaleClaim_SG_FrontRightTurn_WronglyActivated_@cf5e1e0b",
+                "RationaleClaim_SG_RearLeftTurn_NotActivated_@fb90e8c4",
+                "RationaleClaim_SG_RearLeftTurn_WronglyActivated_@e0e32945",
+                "RationaleClaim_SG_RearRightTurn_NotActivated_@fa5bd391",
+                "RationaleClaim_SG_RearRightTurn_WronglyActivated_@48f6139e"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_HAZARD_SAFETY_ExteriorLighting_@d174c682",
+                "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_TURN_SIGNAL_ExteriorLighting_@8e770352"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ExteriorLighting_Realization_@a471834f",
+            "description": [
+                "Safety case fragment arguing ExteriorLighting_Realization."
+            ],
+            "name": "SafetyCaseFragment_ExteriorLighting_Realization",
+            "version_schema": "4.6.2"
+        }
+    }
+}

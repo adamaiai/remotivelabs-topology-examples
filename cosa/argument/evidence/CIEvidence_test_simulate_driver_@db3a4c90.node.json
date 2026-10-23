@@ -1,0 +1,23 @@
+{
+    "CIEvidence_test_simulate_driver_@db3a4c90": {
+        "stereotype": "CIEvidenceReference",
+        "attributes": {
+            "ciArtifact": "reports/pytest/test_simulate_driver.xml",
+            "ciJob": "integration-tests-pytest",
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/ci/remotive-car-ci.yml",
+            "validUntil": "",
+            "version": "4edc65fdae83aa7fb9d944dbc586a1c9019bc96c89f06a0287467c7aaaac89d8"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "CIEvidence_test_simulate_driver_@db3a4c90",
+            "description": [
+                "Test report reports/pytest/test_simulate_driver.xml of CI job integration-tests-pytest, built from the commit under test. The report exists only as a CI artifact; location and version pin the pipeline that produces it."
+            ],
+            "name": "CIEvidence_test_simulate_driver",
+            "version_schema": "4.6.2"
+        }
+    }
+}

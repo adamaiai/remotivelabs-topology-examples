@@ -1,0 +1,21 @@
+{
+    "Evidence_Functional_Safety_Assessment_@77fdbc81": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/assessment/Functional_Safety_Assessment.md",
+            "validUntil": "2027-10-23",
+            "version": "41fc80c5bf051a43a1535a72431eb639b5fa7e25f7e2965a0ad01cbf2bcca068"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_Functional_Safety_Assessment_@77fdbc81",
+            "description": [
+                "Shared assessment evidence for every fragment."
+            ],
+            "name": "Evidence_Functional_Safety_Assessment",
+            "version_schema": "4.6.2"
+        }
+    }
+}

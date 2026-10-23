@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedBCM_Lighting_TC_HAZARD_ACTIVATE_@ce9bd41e": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_hazard_light_@748ec61d"
+            ],
+            "satisfyingRealization": [
+                "ImplementedBCM_Lighting_@1fe8ef8b"
+            ],
+            "verificationCriteria": [
+                "TC_HAZARD_ACTIVATE_@1059880e"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedBCM_Lighting_TC_HAZARD_ACTIVATE_@ce9bd41e",
+            "description": [
+                "ImplementedBCM_Lighting satisfies the contracts verified by TC_HAZARD_ACTIVATE."
+            ],
+            "name": "SatisfactionClaim_ImplementedBCM_Lighting_TC_HAZARD_ACTIVATE",
+            "version_schema": "4.6.2"
+        }
+    }
+}

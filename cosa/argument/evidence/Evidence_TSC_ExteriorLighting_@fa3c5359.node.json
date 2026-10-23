@@ -1,0 +1,21 @@
+{
+    "Evidence_TSC_ExteriorLighting_@fa3c5359": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/TSC_ExteriorLighting.md",
+            "validUntil": "",
+            "version": "3eb39c5d956b5aa0c0c12c3239ded7b6372d035322a52bacf9f9bde5adc85d74"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_TSC_ExteriorLighting_@fa3c5359",
+            "description": [
+                "Technical safety concept: exterior lighting."
+            ],
+            "name": "Evidence_TSC_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Evidence_SCCM_Lighting_Analysis_@19c7d7d0": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/SCCM_Lighting_Analysis.md",
+            "validUntil": "",
+            "version": "639e0283badca10c9ef5c7b84bd5dfbc7281f0963a71049863cc21817e16538a"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_SCCM_Lighting_Analysis_@19c7d7d0",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_SCCM_Lighting_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

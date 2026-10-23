@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_RearLight_@f311abe9": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_RearLight_@f311abe9",
+            "description": "",
+            "name": "AssessmentClaim_RearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

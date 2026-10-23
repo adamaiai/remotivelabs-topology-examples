@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedFLCM_Lighting_@ccc2e9e1": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedFLCM_Lighting_@ccc2e9e1",
+            "description": "",
+            "name": "CultureClaim_ImplementedFLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

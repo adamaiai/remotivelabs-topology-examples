@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ImplementedSCCM_Lighting_@c59e492e": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedSCCM_Lighting_@438ca823"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedSCCM_Lighting_@59813509"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedSCCM_Lighting_@5ba7df26"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedSCCM_Lighting_@4aed5848"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedSCCM_Lighting_VM_SCCM_Lighting_Analysis_@b2b5aa52"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedSCCM_Lighting_@c59e492e",
+            "description": [
+                "Safety case fragment arguing ImplementedSCCM_Lighting."
+            ],
+            "name": "SafetyCaseFragment_ImplementedSCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

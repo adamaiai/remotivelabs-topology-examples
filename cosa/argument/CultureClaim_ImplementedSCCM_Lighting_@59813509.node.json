@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedSCCM_Lighting_@59813509": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedSCCM_Lighting_@59813509",
+            "description": "",
+            "name": "CultureClaim_ImplementedSCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

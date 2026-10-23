@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_WronglyActivated_@0748b943": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ExteriorLighting_@fa3c5359"
+            ],
+            "refinedContract": [
+                "ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_WronglyActivated_@f74e91b3"
+            ],
+            "refiningContract": [
+                "RearLight_Lamp_RearRightTurn_WronglyActivated_@c0523623"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_WronglyActivated_@0748b943",
+            "description": [
+                "RearLight_Lamp_RearRightTurn_WronglyActivated of the realizing component covers ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_WronglyActivated."
+            ],
+            "name": "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearRightTurn_WronglyActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

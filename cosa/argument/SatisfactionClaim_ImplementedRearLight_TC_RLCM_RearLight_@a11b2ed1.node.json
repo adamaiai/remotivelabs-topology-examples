@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_ImplementedRearLight_TC_RLCM_RearLight_@a11b2ed1": {
+        "stereotype": "SatisfactionClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_test_simulate_driver_@db3a4c90"
+            ],
+            "safeInputToIntegration": [
+                "ImplementedDEVS2_Lighting_@a00e84c3",
+                "ImplementedRLCM_Lighting_@ec68984f"
+            ],
+            "satisfyingRealization": [
+                "ImplementedRearLight_@3b2f326e"
+            ],
+            "verificationCriteria": [
+                "TC_RLCM_RearLight_@ed306d9d"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedRearLight_TC_RLCM_RearLight_@a11b2ed1",
+            "description": [
+                "ImplementedRearLight satisfies the contracts verified by TC_RLCM_RearLight."
+            ],
+            "name": "SatisfactionClaim_ImplementedRearLight_TC_RLCM_RearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

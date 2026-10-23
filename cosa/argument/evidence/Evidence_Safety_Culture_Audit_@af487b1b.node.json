@@ -1,0 +1,21 @@
+{
+    "Evidence_Safety_Culture_Audit_@af487b1b": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/culture/Safety_Culture_Audit.md",
+            "validUntil": "2027-10-23",
+            "version": "c14cf473c0268c1af16ee92c2b6e4631b4f008a1b5dacbb9db4217947dae0911"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_Safety_Culture_Audit_@af487b1b",
+            "description": [
+                "Shared culture evidence for every fragment."
+            ],
+            "name": "Evidence_Safety_Culture_Audit",
+            "version_schema": "4.6.2"
+        }
+    }
+}

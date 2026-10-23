@@ -1,0 +1,42 @@
+{
+    "SafetyCaseFragment_ImplementedRearLight_@9839ec3b": {
+        "stereotype": "SafetyCaseFragment_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedRearLight_@c4880f2e"
+            ],
+            "composedRealization": [
+                "ImplementedRearLight_@3b2f326e"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedRearLight_@cfe15436"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedRearLight_@326af1f3"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_RearLight_DEVS2_Lamp_RearLeftTurn_NotActivated_@5ab0f740",
+                "RationaleClaim_RearLight_DEVS2_Lamp_RearLeftTurn_WronglyActivated_@267a52e0",
+                "RationaleClaim_RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@107796e1",
+                "RationaleClaim_RearLight_DEVS2_Lamp_RearRightTurn_WronglyActivated_@b8f9e526",
+                "RationaleClaim_RearLight_RLCM_ReqLeft_NotActivated_@23af2a78",
+                "RationaleClaim_RearLight_RLCM_ReqLeft_WronglyActivated_@dd57849d",
+                "RationaleClaim_RearLight_RLCM_ReqRight_NotActivated_@0668833e",
+                "RationaleClaim_RearLight_RLCM_ReqRight_WronglyActivated_@4c2561dc"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedRearLight_TC_RLCM_RearLight_@a11b2ed1"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedRearLight_@9839ec3b",
+            "description": [
+                "Safety case fragment arguing ImplementedRearLight."
+            ],
+            "name": "SafetyCaseFragment_ImplementedRearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

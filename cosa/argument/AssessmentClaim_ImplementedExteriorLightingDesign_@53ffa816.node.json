@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_ImplementedExteriorLightingDesign_@53ffa816": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_ImplementedExteriorLightingDesign_@53ffa816",
+            "description": "",
+            "name": "AssessmentClaim_ImplementedExteriorLightingDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

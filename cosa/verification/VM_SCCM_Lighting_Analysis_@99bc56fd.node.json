@@ -1,0 +1,27 @@
+{
+    "VM_SCCM_Lighting_Analysis_@99bc56fd": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "639e0283badca10c9ef5c7b84bd5dfbc7281f0963a71049863cc21817e16538a",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/SCCM_Lighting_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "SCCM_Lighting_HazardLightButton_NotPressed_@21a1fc79",
+                "SCCM_Lighting_HazardLightButton_WronglyPressed_@2d08978f",
+                "SCCM_Lighting_TurnSignal_Misread_@2decf1ff"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_SCCM_Lighting_Analysis_@99bc56fd",
+            "description": [
+                "Derived, not in the specification: SCCM forwards the hazard light button and the turn stalk unchanged from the steering column switches to DriverCan0 (HazardLightButton, TurnStalk frames, 50 ms cycle). No test injects at the switches: the system tests stimulate DriverCan0 directly. Verified by analysis instead."
+            ],
+            "name": "VM_SCCM_Lighting_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

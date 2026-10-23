@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedRearLight_@cfe15436": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedRearLight_@cfe15436",
+            "description": "",
+            "name": "CultureClaim_ImplementedRearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

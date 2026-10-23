@@ -1,0 +1,21 @@
+{
+    "Evidence_HARA_ExteriorLighting_@42979a80": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/HARA_ExteriorLighting.md",
+            "validUntil": "",
+            "version": "9c8a9e002931933ae7102f775aedb49ddbbc962c739650ed08e47a0ce1b36e4b"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_HARA_ExteriorLighting_@42979a80",
+            "description": [
+                "Hazard analysis and risk assessment: exterior lighting."
+            ],
+            "name": "Evidence_HARA_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

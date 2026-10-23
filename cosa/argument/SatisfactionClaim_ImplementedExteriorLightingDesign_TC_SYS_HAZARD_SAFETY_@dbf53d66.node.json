@@ -1,0 +1,31 @@
+{
+    "SatisfactionClaim_ImplementedExteriorLightingDesign_TC_SYS_HAZARD_SAFETY_@dbf53d66": {
+        "stereotype": "SatisfactionClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_hazard_light_@748ec61d"
+            ],
+            "safeInputToIntegration": [
+                "ImplementedBCM_Lighting_@1fe8ef8b",
+                "ImplementedFLCM_Lighting_@92d1fe4a",
+                "ImplementedRearLight_@3b2f326e",
+                "ImplementedSCCM_Lighting_@5ba7df26"
+            ],
+            "satisfyingRealization": [
+                "ImplementedExteriorLightingDesign_@ed7de822"
+            ],
+            "verificationCriteria": [
+                "TC_SYS_HAZARD_SAFETY_@2e4c6213"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedExteriorLightingDesign_TC_SYS_HAZARD_SAFETY_@dbf53d66",
+            "description": [
+                "ImplementedExteriorLightingDesign satisfies the contracts verified by TC_SYS_HAZARD_SAFETY."
+            ],
+            "name": "SatisfactionClaim_ImplementedExteriorLightingDesign_TC_SYS_HAZARD_SAFETY",
+            "version_schema": "4.6.2"
+        }
+    }
+}

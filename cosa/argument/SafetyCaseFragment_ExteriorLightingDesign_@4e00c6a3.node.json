@@ -1,0 +1,39 @@
+{
+    "SafetyCaseFragment_ExteriorLightingDesign_@4e00c6a3": {
+        "stereotype": "SafetyCaseFragment_ComposedComponent",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ExteriorLightingDesign_@85e71761"
+            ],
+            "composedComponent": [
+                "ExteriorLightingDesign_@b093b118"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ExteriorLightingDesign_@4599d349"
+            ],
+            "processClaim": [
+                "ProcessClaim_ExteriorLightingDesign_@16cd4dac"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ExteriorLightingDesign_Lamp_FrontLeftTurn_NotActivated_@f0c9ca5e",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_FrontLeftTurn_WronglyActivated_@76a2a3bd",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_FrontRightTurn_NotActivated_@4011888b",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated_@6d43dd7a",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated_@a3259648",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_RearLeftTurn_WronglyActivated_@6b84299e",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_RearRightTurn_NotActivated_@20f99903",
+                "RationaleClaim_ExteriorLightingDesign_Lamp_RearRightTurn_WronglyActivated_@cbcc7aaa"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ExteriorLightingDesign_@4e00c6a3",
+            "description": [
+                "Safety case fragment arguing ExteriorLightingDesign."
+            ],
+            "name": "SafetyCaseFragment_ExteriorLightingDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}

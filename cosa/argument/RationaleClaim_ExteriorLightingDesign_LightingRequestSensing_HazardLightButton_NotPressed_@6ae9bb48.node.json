@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed_@6ae9bb48": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ExteriorLighting_@fa3c5359"
+            ],
+            "refinedContract": [
+                "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed_@7720f2ac"
+            ],
+            "refiningContract": [
+                "SCCM_Lighting_HazardLightButton_NotPressed_@21a1fc79"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed_@6ae9bb48",
+            "description": [
+                "SCCM_Lighting_HazardLightButton_NotPressed of the realizing component covers ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed."
+            ],
+            "name": "RationaleClaim_ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

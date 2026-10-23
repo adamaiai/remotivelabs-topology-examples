@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated_@9a6a5b85": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ExteriorLighting_@fa3c5359"
+            ],
+            "refinedContract": [
+                "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated_@9f833924"
+            ],
+            "refiningContract": [
+                "BCM_Lighting_LeftTurnLightRequest_NotActivated_@27d349ff"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated_@9a6a5b85",
+            "description": [
+                "BCM_Lighting_LeftTurnLightRequest_NotActivated of the realizing component covers ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated."
+            ],
+            "name": "RationaleClaim_ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

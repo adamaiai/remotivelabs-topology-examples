@@ -1,0 +1,38 @@
+{
+    "SafetyCaseFragment_ImplementedBCM_Lighting_@497cd5d8": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedBCM_Lighting_@af34d1b5"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedBCM_Lighting_@ef38fe7a"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedBCM_Lighting_@1fe8ef8b"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedBCM_Lighting_@74a9a9ee"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_BLINK_TIMING_@63d6b15f",
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_HAZARD_ACTIVATE_@ce9bd41e",
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_HAZARD_DEACTIVATE_@a587678c",
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_LEFT_@1fcb2c5f",
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_RIGHT_@9a5bdb7b",
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_SM_@84aef065",
+                "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_SM_OUTPUTS_@df1eb33b"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedBCM_Lighting_@497cd5d8",
+            "description": [
+                "Safety case fragment arguing ImplementedBCM_Lighting."
+            ],
+            "name": "SafetyCaseFragment_ImplementedBCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

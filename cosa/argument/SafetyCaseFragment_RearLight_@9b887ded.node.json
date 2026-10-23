@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_RearLight_@9b887ded": {
+        "stereotype": "SafetyCaseFragment_ComposedComponent",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_RearLight_@f311abe9"
+            ],
+            "composedComponent": [
+                "RearLight_@be64e290"
+            ],
+            "cultureClaim": [
+                "CultureClaim_RearLight_@8eaefd32"
+            ],
+            "processClaim": [
+                "ProcessClaim_RearLight_@14cad7fe"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_RearLight_Lamp_RearLeftTurn_NotActivated_@b59ab9c1",
+                "RationaleClaim_RearLight_Lamp_RearLeftTurn_WronglyActivated_@6da724e1",
+                "RationaleClaim_RearLight_Lamp_RearRightTurn_NotActivated_@66d4d666",
+                "RationaleClaim_RearLight_Lamp_RearRightTurn_WronglyActivated_@42b99997"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_RearLight_@9b887ded",
+            "description": [
+                "Safety case fragment arguing RearLight."
+            ],
+            "name": "SafetyCaseFragment_RearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

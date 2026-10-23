@@ -1,0 +1,28 @@
+{
+    "VM_DEVS2_Lighting_Analysis_@1ee4c8dc": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "e48a45db64b00975c2169cd9eb35a020589e5da8deffac0c9d0e99ee96f0ffcf",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/DEVS2_Lighting_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "DEVS2_Lighting_Lamp_RearLeftTurn_NotActivated_@94f70517",
+                "DEVS2_Lighting_Lamp_RearLeftTurn_WronglyActivated_@cbb87529",
+                "DEVS2_Lighting_Lamp_RearRightTurn_NotActivated_@7938d0a0",
+                "DEVS2_Lighting_Lamp_RearRightTurn_WronglyActivated_@0a919434"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_DEVS2_Lighting_Analysis_@1ee4c8dc",
+            "description": [
+                "Derived, not in the specification: DEVS2 drives the rear turn lamps from ReqLeft/ReqRight in DEVMLIN01Fr01. No test observes the lamp: TC_RLCM stops at the LIN frame. Verified by analysis instead."
+            ],
+            "name": "VM_DEVS2_Lighting_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

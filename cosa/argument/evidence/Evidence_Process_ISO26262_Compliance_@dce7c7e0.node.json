@@ -1,0 +1,21 @@
+{
+    "Evidence_Process_ISO26262_Compliance_@dce7c7e0": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/process/ISO26262_Process_Compliance.md",
+            "validUntil": "2027-10-23",
+            "version": "eb2716aa10f62c71229d83449a6492bdd3d6986bdcb02012cdcc12c610059442"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_Process_ISO26262_Compliance_@dce7c7e0",
+            "description": [
+                "Shared process evidence for every fragment."
+            ],
+            "name": "Evidence_Process_ISO26262_Compliance",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedRLCM_Lighting_@1ba297bd": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedRLCM_Lighting_@1ba297bd",
+            "description": "",
+            "name": "CultureClaim_ImplementedRLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

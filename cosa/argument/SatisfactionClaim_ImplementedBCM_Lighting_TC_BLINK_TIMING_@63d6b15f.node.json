@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedBCM_Lighting_TC_BLINK_TIMING_@63d6b15f": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_test_turn_signals_state_machine_@bce8d0d7"
+            ],
+            "satisfyingRealization": [
+                "ImplementedBCM_Lighting_@1fe8ef8b"
+            ],
+            "verificationCriteria": [
+                "TC_BLINK_TIMING_@52ad5abb"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedBCM_Lighting_TC_BLINK_TIMING_@63d6b15f",
+            "description": [
+                "ImplementedBCM_Lighting satisfies the contracts verified by TC_BLINK_TIMING."
+            ],
+            "name": "SatisfactionClaim_ImplementedBCM_Lighting_TC_BLINK_TIMING",
+            "version_schema": "4.6.2"
+        }
+    }
+}

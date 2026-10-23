@@ -1,0 +1,23 @@
+{
+    "CIEvidence_hazard_light_@748ec61d": {
+        "stereotype": "CIEvidenceReference",
+        "attributes": {
+            "ciArtifact": "reports/behave/hazard_light.xml",
+            "ciJob": "system-tests-behave",
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/ci/remotive-car-ci.yml",
+            "validUntil": "",
+            "version": "4edc65fdae83aa7fb9d944dbc586a1c9019bc96c89f06a0287467c7aaaac89d8"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "CIEvidence_hazard_light_@748ec61d",
+            "description": [
+                "Test report reports/behave/hazard_light.xml of CI job system-tests-behave, built from the commit under test. The report exists only as a CI artifact; location and version pin the pipeline that produces it."
+            ],
+            "name": "CIEvidence_hazard_light",
+            "version_schema": "4.6.2"
+        }
+    }
+}

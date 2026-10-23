@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_SM_OUTPUTS_@df1eb33b": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_test_simulate_driver_@db3a4c90"
+            ],
+            "satisfyingRealization": [
+                "ImplementedBCM_Lighting_@1fe8ef8b"
+            ],
+            "verificationCriteria": [
+                "TC_TURN_SM_OUTPUTS_@2504262a"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_SM_OUTPUTS_@df1eb33b",
+            "description": [
+                "ImplementedBCM_Lighting satisfies the contracts verified by TC_TURN_SM_OUTPUTS."
+            ],
+            "name": "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_SM_OUTPUTS",
+            "version_schema": "4.6.2"
+        }
+    }
+}

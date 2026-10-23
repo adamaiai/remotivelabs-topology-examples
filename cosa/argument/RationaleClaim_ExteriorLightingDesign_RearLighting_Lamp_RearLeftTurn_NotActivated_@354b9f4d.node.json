@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated_@354b9f4d": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ExteriorLighting_@fa3c5359"
+            ],
+            "refinedContract": [
+                "ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated_@cb40e81d"
+            ],
+            "refiningContract": [
+                "RearLight_Lamp_RearLeftTurn_NotActivated_@6b462cde"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated_@354b9f4d",
+            "description": [
+                "RearLight_Lamp_RearLeftTurn_NotActivated of the realizing component covers ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated."
+            ],
+            "name": "RationaleClaim_ExteriorLightingDesign_RearLighting_Lamp_RearLeftTurn_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ImplementedDEVS2_Lighting_@9853d968": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ImplementedDEVS2_Lighting_@9853d968",
+            "description": "",
+            "name": "CultureClaim_ImplementedDEVS2_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

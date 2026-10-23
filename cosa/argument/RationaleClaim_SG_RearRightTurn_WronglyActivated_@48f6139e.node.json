@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_SG_RearRightTurn_WronglyActivated_@48f6139e": {
+        "stereotype": "RationaleClaim_TopRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_FSC_ExteriorLighting_@318a4521"
+            ],
+            "refinedSafetyGoal": [
+                "SG_RearRightTurn_WronglyActivated_@7eb38a9f"
+            ],
+            "refiningContract": [
+                "ExteriorLightingDesign_Lamp_RearRightTurn_WronglyActivated_@01d23ee9"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_SG_RearRightTurn_WronglyActivated_@48f6139e",
+            "description": [
+                "ExteriorLightingDesign refines SG_RearRightTurn_WronglyActivated with its system contract on Lamp_RearRightTurn."
+            ],
+            "name": "RationaleClaim_SG_RearRightTurn_WronglyActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_RIGHT_@9a5bdb7b": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_blink_left_@b6246c1e"
+            ],
+            "satisfyingRealization": [
+                "ImplementedBCM_Lighting_@1fe8ef8b"
+            ],
+            "verificationCriteria": [
+                "TC_TURN_RIGHT_@e78498b8"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_RIGHT_@9a5bdb7b",
+            "description": [
+                "ImplementedBCM_Lighting satisfies the contracts verified by TC_TURN_RIGHT."
+            ],
+            "name": "SatisfactionClaim_ImplementedBCM_Lighting_TC_TURN_RIGHT",
+            "version_schema": "4.6.2"
+        }
+    }
+}

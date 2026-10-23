@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_HAZARD_SAFETY_ExteriorLighting_@d174c682": {
+        "stereotype": "SatisfactionClaim_TopRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_hazard_light_@748ec61d"
+            ],
+            "satisfyingRealization": [
+                "ExteriorLighting_Realization_@3bbc7d06"
+            ],
+            "verificationCriteria": [
+                "TC_SYS_HAZARD_SAFETY_ExteriorLighting_@953b847f"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_HAZARD_SAFETY_ExteriorLighting_@d174c682",
+            "description": [
+                "ExteriorLighting_Realization satisfies the contracts verified by TC_SYS_HAZARD_SAFETY_ExteriorLighting."
+            ],
+            "name": "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_HAZARD_SAFETY_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

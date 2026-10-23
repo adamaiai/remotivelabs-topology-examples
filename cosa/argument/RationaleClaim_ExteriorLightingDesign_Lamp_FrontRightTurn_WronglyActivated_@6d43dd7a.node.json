@@ -1,0 +1,30 @@
+{
+    "RationaleClaim_ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated_@6d43dd7a": {
+        "stereotype": "RationaleClaim_Composition",
+        "attributes": {
+            "hasRefiningRedundancy": false
+        },
+        "connections": {
+            "evidence": [
+                "Evidence_FSC_ExteriorLighting_@318a4521"
+            ],
+            "refinedContract": [
+                "ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated_@b63df5f5"
+            ],
+            "refiningContract": [
+                "ExteriorLightingDesign_FrontLighting_Lamp_FrontRightTurn_WronglyActivated_@2c285a1e",
+                "ExteriorLightingDesign_LightingControl_RightTurnLightRequest_WronglyActivated_@380a9dc3",
+                "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed_@2af213b2",
+                "ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread_@c354cdfc"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated_@6d43dd7a",
+            "description": [
+                "The inner contracts of ExteriorLightingDesign together establish ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated."
+            ],
+            "name": "RationaleClaim_ExteriorLightingDesign_Lamp_FrontRightTurn_WronglyActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

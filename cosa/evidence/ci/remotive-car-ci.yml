@@ -1,0 +1,44 @@
+# DUMMY CI pipeline for the remotive_car COSA example (not executed).
+#
+# It defines how the CI chain produces the test reports the safety case cites:
+# every CIEvidenceReference in cosa/argument/evidence names one job and one
+# artifact below. The reports are never committed; each CI run builds them from
+# the commit under test and keeps them as build artifacts.
+
+name: remotive-car-safety-evidence
+on: [push]
+
+jobs:
+  system-tests-behave:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: remotive topology build -f remotive_car/instances/hello_world/main.instance.yaml -f remotive_car/settings/can_over_udp.settings.instance.yaml remotive_car/build
+      - run: docker compose -f remotive_car/build/remotive_car_hello_world/docker-compose.yml --profile tester up --build --exit-code-from tester
+      - run: behave remotive_car/tests/behave/features --junit --junit-directory reports/behave
+      - uses: actions/upload-artifact@v4
+        with: {name: reports-behave, path: reports/behave/}   # hazard_light.xml, blink_left.xml
+
+  integration-tests-pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pytest remotive_car/tests/pytest/test_simulate_driver.py --junitxml reports/pytest/test_simulate_driver.xml
+      - uses: actions/upload-artifact@v4
+        with: {name: reports-pytest, path: reports/pytest/}
+
+  bcm-unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cd remotive_car/models/bcm/python && uv sync && uv run pytest tests/test_turn_signals_state_machine.py --junitxml ../../../../reports/bcm/test_turn_signals_state_machine.xml
+      - uses: actions/upload-artifact@v4
+        with: {name: reports-bcm, path: reports/bcm/}
+
+  getting-started-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pytest getting_started/tests/test_hazard_light.py --junitxml reports/getting_started/test_hazard_light.xml
+      - uses: actions/upload-artifact@v4
+        with: {name: reports-getting-started, path: reports/getting_started/}

@@ -1,0 +1,33 @@
+{
+    "TC_SYS_TURN_SIGNAL_ExteriorLighting_@c3ad13cc": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "797bbf5d07f3ba455b04733b550a3419a15ed4578456ce51c868f8562126bf9b",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/blink_left.feature"
+        },
+        "connections": {
+            "contractInScope": [
+                "SG_FrontLeftTurn_NotActivated_@b4b74d02",
+                "SG_FrontLeftTurn_WronglyActivated_@44bff7c4",
+                "SG_FrontRightTurn_NotActivated_@4f2b3c5c",
+                "SG_FrontRightTurn_WronglyActivated_@ab51e338",
+                "SG_RearLeftTurn_NotActivated_@5f9338ae",
+                "SG_RearLeftTurn_WronglyActivated_@3ffef3a0",
+                "SG_RearRightTurn_NotActivated_@ac064a8b",
+                "SG_RearRightTurn_WronglyActivated_@7eb38a9f"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_SYS_TURN_SIGNAL_ExteriorLighting_@c3ad13cc",
+            "description": [
+                "System-Level Turn Signal Indication (reviewed in the specification). For turn direction left, right and none, the indicators on the matching side illuminate within one processing cycle and the opposite side stays off. This method covers the ExteriorLighting contracts TC_SYS_TURN_SIGNAL verifies; a verification method covers the contracts of one element only."
+            ],
+            "name": "TC_SYS_TURN_SIGNAL_ExteriorLighting",
+            "source": "remotive_car/docs/verification/system_tests.rst#TC_SYS_TURN_SIGNAL",
+            "version_schema": "4.6.2"
+        }
+    }
+}

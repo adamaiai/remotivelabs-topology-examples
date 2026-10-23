@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_ImplementedSCCM_Lighting_@438ca823": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_ImplementedSCCM_Lighting_@438ca823",
+            "description": "",
+            "name": "AssessmentClaim_ImplementedSCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

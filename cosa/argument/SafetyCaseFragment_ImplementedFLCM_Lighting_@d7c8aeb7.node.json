@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ImplementedFLCM_Lighting_@d7c8aeb7": {
+        "stereotype": "SafetyCaseFragment_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ImplementedFLCM_Lighting_@5177d720"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ImplementedFLCM_Lighting_@ccc2e9e1"
+            ],
+            "model2CodeAbstractionRealization": [
+                "ImplementedFLCM_Lighting_@92d1fe4a"
+            ],
+            "processClaim": [
+                "ProcessClaim_ImplementedFLCM_Lighting_@97b77012"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ImplementedFLCM_Lighting_TC_FLCM_@7edbc593"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ImplementedFLCM_Lighting_@d7c8aeb7",
+            "description": [
+                "Safety case fragment arguing ImplementedFLCM_Lighting."
+            ],
+            "name": "SafetyCaseFragment_ImplementedFLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

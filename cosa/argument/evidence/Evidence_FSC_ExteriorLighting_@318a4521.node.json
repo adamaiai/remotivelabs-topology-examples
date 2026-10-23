@@ -1,0 +1,21 @@
+{
+    "Evidence_FSC_ExteriorLighting_@318a4521": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/FSC_ExteriorLighting.md",
+            "validUntil": "",
+            "version": "24c46eaf5cd6b5e1bdf49a8d21ded35b5ffa4c116139002ebd8b2bae0364aa92"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_FSC_ExteriorLighting_@318a4521",
+            "description": [
+                "Functional safety concept: exterior lighting."
+            ],
+            "name": "Evidence_FSC_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

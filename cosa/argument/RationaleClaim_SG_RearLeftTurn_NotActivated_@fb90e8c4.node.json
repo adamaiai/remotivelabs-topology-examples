@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_SG_RearLeftTurn_NotActivated_@fb90e8c4": {
+        "stereotype": "RationaleClaim_TopRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_FSC_ExteriorLighting_@318a4521"
+            ],
+            "refinedSafetyGoal": [
+                "SG_RearLeftTurn_NotActivated_@5f9338ae"
+            ],
+            "refiningContract": [
+                "ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated_@58cc0208"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_SG_RearLeftTurn_NotActivated_@fb90e8c4",
+            "description": [
+                "ExteriorLightingDesign refines SG_RearLeftTurn_NotActivated with its system contract on Lamp_RearLeftTurn."
+            ],
+            "name": "RationaleClaim_SG_RearLeftTurn_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

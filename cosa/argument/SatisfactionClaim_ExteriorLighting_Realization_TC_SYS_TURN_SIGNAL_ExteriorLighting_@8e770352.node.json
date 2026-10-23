@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_TURN_SIGNAL_ExteriorLighting_@8e770352": {
+        "stereotype": "SatisfactionClaim_TopRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_blink_left_@b6246c1e"
+            ],
+            "satisfyingRealization": [
+                "ExteriorLighting_Realization_@3bbc7d06"
+            ],
+            "verificationCriteria": [
+                "TC_SYS_TURN_SIGNAL_ExteriorLighting_@c3ad13cc"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_TURN_SIGNAL_ExteriorLighting_@8e770352",
+            "description": [
+                "ExteriorLighting_Realization satisfies the contracts verified by TC_SYS_TURN_SIGNAL_ExteriorLighting."
+            ],
+            "name": "SatisfactionClaim_ExteriorLighting_Realization_TC_SYS_TURN_SIGNAL_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

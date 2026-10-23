@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@107796e1": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_RearLight_@65d30d9c"
+            ],
+            "refinedContract": [
+                "RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@5a1e957f"
+            ],
+            "refiningContract": [
+                "DEVS2_Lighting_Lamp_RearRightTurn_NotActivated_@7938d0a0"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_RearLight_DEVS2_Lamp_RearRightTurn_NotActivated_@107796e1",
+            "description": [
+                "DEVS2_Lighting_Lamp_RearRightTurn_NotActivated of the realizing component covers RearLight_DEVS2_Lamp_RearRightTurn_NotActivated."
+            ],
+            "name": "RationaleClaim_RearLight_DEVS2_Lamp_RearRightTurn_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

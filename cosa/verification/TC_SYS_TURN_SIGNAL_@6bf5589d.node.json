@@ -17,15 +17,7 @@
                 "ExteriorLightingDesign_Lamp_RearLeftTurn_NotActivated_@58cc0208",
                 "ExteriorLightingDesign_Lamp_RearLeftTurn_WronglyActivated_@95b78b52",
                 "ExteriorLightingDesign_Lamp_RearRightTurn_NotActivated_@4d6fb876",
-                "ExteriorLightingDesign_Lamp_RearRightTurn_WronglyActivated_@01d23ee9",
-                "SG_FrontLeftTurn_NotActivated_@b4b74d02",
-                "SG_FrontLeftTurn_WronglyActivated_@44bff7c4",
-                "SG_FrontRightTurn_NotActivated_@4f2b3c5c",
-                "SG_FrontRightTurn_WronglyActivated_@ab51e338",
-                "SG_RearLeftTurn_NotActivated_@5f9338ae",
-                "SG_RearLeftTurn_WronglyActivated_@3ffef3a0",
-                "SG_RearRightTurn_NotActivated_@ac064a8b",
-                "SG_RearRightTurn_WronglyActivated_@7eb38a9f"
+                "ExteriorLightingDesign_Lamp_RearRightTurn_WronglyActivated_@01d23ee9"
             ]
         },
         "metadata": {

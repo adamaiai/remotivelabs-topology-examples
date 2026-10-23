@@ -1,0 +1,21 @@
+{
+    "Evidence_DEVS2_Lighting_Analysis_@232f9e26": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/DEVS2_Lighting_Analysis.md",
+            "validUntil": "",
+            "version": "e48a45db64b00975c2169cd9eb35a020589e5da8deffac0c9d0e99ee96f0ffcf"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_DEVS2_Lighting_Analysis_@232f9e26",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_DEVS2_Lighting_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

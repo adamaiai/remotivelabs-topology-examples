@@ -1,0 +1,25 @@
+{
+    "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_NotActivated_@1f556508": {
+        "stereotype": "RationaleClaim_ComposedRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_ExteriorLighting_@fa3c5359"
+            ],
+            "refinedContract": [
+                "ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_NotActivated_@3118c264"
+            ],
+            "refiningContract": [
+                "FLCM_Lighting_Lamp_FrontLeftTurn_NotActivated_@171afb2a"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_NotActivated_@1f556508",
+            "description": [
+                "FLCM_Lighting_Lamp_FrontLeftTurn_NotActivated of the realizing component covers ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_NotActivated."
+            ],
+            "name": "RationaleClaim_ExteriorLightingDesign_FrontLighting_Lamp_FrontLeftTurn_NotActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

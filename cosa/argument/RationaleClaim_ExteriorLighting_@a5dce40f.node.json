@@ -1,0 +1,32 @@
+{
+    "RationaleClaim_ExteriorLighting_@a5dce40f": {
+        "stereotype": "RationaleClaim_CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_HARA_ExteriorLighting_@42979a80"
+            ],
+            "refinedImplicitRequirements": [
+                "ExteriorLighting_@bbb6ce8a"
+            ],
+            "refiningExplicitRequirement": [
+                "SG_FrontLeftTurn_NotActivated_@b4b74d02",
+                "SG_FrontLeftTurn_WronglyActivated_@44bff7c4",
+                "SG_FrontRightTurn_NotActivated_@4f2b3c5c",
+                "SG_FrontRightTurn_WronglyActivated_@ab51e338",
+                "SG_RearLeftTurn_NotActivated_@5f9338ae",
+                "SG_RearLeftTurn_WronglyActivated_@3ffef3a0",
+                "SG_RearRightTurn_NotActivated_@ac064a8b",
+                "SG_RearRightTurn_WronglyActivated_@7eb38a9f"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ExteriorLighting_@a5dce40f",
+            "description": [
+                "The hazard analysis derives the turn lamp safety goals from exterior lighting."
+            ],
+            "name": "RationaleClaim_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

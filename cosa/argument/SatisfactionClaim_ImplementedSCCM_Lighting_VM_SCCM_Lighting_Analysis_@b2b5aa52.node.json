@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedSCCM_Lighting_VM_SCCM_Lighting_Analysis_@b2b5aa52": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_SCCM_Lighting_Analysis_@19c7d7d0"
+            ],
+            "satisfyingRealization": [
+                "ImplementedSCCM_Lighting_@5ba7df26"
+            ],
+            "verificationCriteria": [
+                "VM_SCCM_Lighting_Analysis_@99bc56fd"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedSCCM_Lighting_VM_SCCM_Lighting_Analysis_@b2b5aa52",
+            "description": [
+                "ImplementedSCCM_Lighting satisfies the contracts verified by VM_SCCM_Lighting_Analysis."
+            ],
+            "name": "SatisfactionClaim_ImplementedSCCM_Lighting_VM_SCCM_Lighting_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

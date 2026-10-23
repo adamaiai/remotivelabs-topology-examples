@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_RearLight_Lamp_RearRightTurn_WronglyActivated_@42b99997": {
+        "stereotype": "RationaleClaim_Composition",
+        "attributes": {
+            "hasRefiningRedundancy": false
+        },
+        "connections": {
+            "evidence": [
+                "Evidence_TSC_RearLight_@65d30d9c"
+            ],
+            "refinedContract": [
+                "RearLight_Lamp_RearRightTurn_WronglyActivated_@c0523623"
+            ],
+            "refiningContract": [
+                "RearLight_DEVS2_Lamp_RearRightTurn_WronglyActivated_@834a08d5",
+                "RearLight_RLCM_ReqRight_WronglyActivated_@896fbb75"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_RearLight_Lamp_RearRightTurn_WronglyActivated_@42b99997",
+            "description": [
+                "The inner contracts of RearLight together establish RearLight_Lamp_RearRightTurn_WronglyActivated."
+            ],
+            "name": "RationaleClaim_RearLight_Lamp_RearRightTurn_WronglyActivated",
+            "version_schema": "4.6.2"
+        }
+    }
+}

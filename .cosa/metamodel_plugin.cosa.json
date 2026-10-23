@@ -21,6 +21,28 @@
           "type": "string"
         }
       }
+    },
+    {
+      "name": "CIEvidenceReference",
+      "description": "Evidence produced by the CI chain, never committed: location and version pin the pipeline definition that produces it, ciJob and ciArtifact name the job and the build artifact holding it for the commit under test.",
+      "generalizes": [
+        "SafetyCaseEvidenceReference"
+      ],
+      "layers": [
+        "ArgumentFragmentLayer"
+      ],
+      "attributes": {
+        "location": {
+          "type": "string",
+          "format": "location"
+        },
+        "ciJob": {
+          "type": "string"
+        },
+        "ciArtifact": {
+          "type": "string"
+        }
+      }
     }
   ],
   "add_enums": {

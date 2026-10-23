@@ -1,0 +1,29 @@
+{
+    "TC_RLCM_RearLight_@ed306d9d": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "c829bf03f08fa1ccd9fb82b02bc54f1a0bb8582f5c3e03c7df723eed581dc467",
+            "isAnalysis": false,
+            "isCI": true,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/pytest/test_simulate_driver.py"
+        },
+        "connections": {
+            "contractInScope": [
+                "RearLight_Lamp_RearLeftTurn_NotActivated_@6b462cde",
+                "RearLight_Lamp_RearLeftTurn_WronglyActivated_@3bb5e4a8",
+                "RearLight_Lamp_RearRightTurn_NotActivated_@b0a1e886",
+                "RearLight_Lamp_RearRightTurn_WronglyActivated_@c0523623"
+            ]
+        },
+        "metadata": {
+            "uuid": "TC_RLCM_RearLight_@ed306d9d",
+            "description": [
+                "Rear Turn Indicator Verification (reviewed in the specification). A rear turn command on BodyCan0 reaches the rear light unit via RearLightLIN. This method covers the RearLight contracts TC_RLCM verifies; a verification method covers the contracts of one element only."
+            ],
+            "name": "TC_RLCM_RearLight",
+            "source": "remotive_car/docs/verification/test_cases.rst#TC_RLCM",
+            "version_schema": "4.6.2"
+        }
+    }
+}

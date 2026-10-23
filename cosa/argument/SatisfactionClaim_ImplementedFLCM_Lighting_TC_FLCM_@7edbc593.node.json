@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_ImplementedFLCM_Lighting_TC_FLCM_@7edbc593": {
+        "stereotype": "SatisfactionClaim_AtomicRealization",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "CIEvidence_test_hazard_light_@30a97137"
+            ],
+            "satisfyingRealization": [
+                "ImplementedFLCM_Lighting_@92d1fe4a"
+            ],
+            "verificationCriteria": [
+                "TC_FLCM_@0b9d06fd"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ImplementedFLCM_Lighting_TC_FLCM_@7edbc593",
+            "description": [
+                "ImplementedFLCM_Lighting satisfies the contracts verified by TC_FLCM."
+            ],
+            "name": "SatisfactionClaim_ImplementedFLCM_Lighting_TC_FLCM",
+            "version_schema": "4.6.2"
+        }
+    }
+}

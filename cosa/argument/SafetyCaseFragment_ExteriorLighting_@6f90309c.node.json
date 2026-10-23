@@ -1,0 +1,32 @@
+{
+    "SafetyCaseFragment_ExteriorLighting_@6f90309c": {
+        "stereotype": "SafetyCaseFragment_CustomerFunction",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ExteriorLighting_@571e5bb2"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ExteriorLighting_@c5345772"
+            ],
+            "customerFunction": [
+                "ExteriorLighting_@bbb6ce8a"
+            ],
+            "processClaim": [
+                "ProcessClaim_ExteriorLighting_@7312da25"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ExteriorLighting_@a5dce40f"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ExteriorLighting_@6f90309c",
+            "description": [
+                "Safety case fragment arguing ExteriorLighting."
+            ],
+            "name": "SafetyCaseFragment_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

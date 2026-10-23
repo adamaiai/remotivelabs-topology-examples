@@ -2,7 +2,7 @@
     "RemotiveCar_DeliveryScope_@b333d412": {
         "stereotype": "DeliveryScope",
         "attributes": {
-            "isDeploymentCandidate": false
+            "isDeploymentCandidate": true
         },
         "connections": {
             "application2PlatformAllocation": [

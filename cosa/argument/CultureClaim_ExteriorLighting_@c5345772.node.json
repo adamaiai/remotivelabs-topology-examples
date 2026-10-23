@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ExteriorLighting_@c5345772": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ExteriorLighting_@c5345772",
+            "description": "",
+            "name": "CultureClaim_ExteriorLighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

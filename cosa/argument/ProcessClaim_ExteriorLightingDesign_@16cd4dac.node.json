@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ExteriorLightingDesign_@16cd4dac": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ExteriorLightingDesign_@16cd4dac",
+            "description": "",
+            "name": "ProcessClaim_ExteriorLightingDesign",
+            "version_schema": "4.6.2"
+        }
+    }
+}
