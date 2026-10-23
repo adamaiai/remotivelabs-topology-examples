@@ -1,0 +1,27 @@
+{
+    "DC_InformationDisplay_SpeedService_Speed_Assembly_CommNeed_@970d751b": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 8000.0,
+            "toleranceMargin_Time_ms": 100.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "InformationDisplay_SpeedService_Speed_Assembly_CommNeed_@36763676"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_InformationDisplay_SpeedService_Speed_Assembly_CommNeed_@970d751b",
+            "description": [
+                "Critical: bandwidth available to SpeedService_Speed on SOMEIP is below 8000 bit/s for longer than 100 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_InformationDisplay_SpeedService_Speed_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

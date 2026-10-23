@@ -1,0 +1,27 @@
+{
+    "DC_ABS_Info_ComputeNeed_@8e42f337": {
+        "stereotype": "ApplicationComputeDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 5.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedComputeResource": [
+                "ABS_Info_ComputeNeed_@9dcd788f"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ABS_Info_ComputeNeed_@8e42f337",
+            "description": [
+                "Critical: compute available to ABS_Info is below 5 MFLOPS for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ABS_Info_ComputeNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

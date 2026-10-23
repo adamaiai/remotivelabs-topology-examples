@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_ComputeAllocation_HVAC_Climate_@730b3054": {
+        "stereotype": "SafetyCaseFragment_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ComputeAllocation_HVAC_Climate_@00fca33a"
+            ],
+            "computeAllocationRealization": [
+                "ComputeAllocation_HVAC_Climate_@f879db13"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ComputeAllocation_HVAC_Climate_@a6b0e4de"
+            ],
+            "processClaim": [
+                "ProcessClaim_ComputeAllocation_HVAC_Climate_@21004c27"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ComputeAllocation_HVAC_Climate_@56d22fcf"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ComputeAllocation_HVAC_Climate_@5ac5ad5e"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ComputeAllocation_HVAC_Climate_@730b3054",
+            "description": [
+                "Safety case fragment arguing ComputeAllocation_HVAC_Climate."
+            ],
+            "name": "SafetyCaseFragment_ComputeAllocation_HVAC_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

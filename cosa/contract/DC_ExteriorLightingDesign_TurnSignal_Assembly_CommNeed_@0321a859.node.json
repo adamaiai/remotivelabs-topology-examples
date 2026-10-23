@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_TurnSignal_Assembly_CommNeed_@0321a859": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2700.0,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "ExteriorLightingDesign_TurnSignal_Assembly_CommNeed_@9f1363dd"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_TurnSignal_Assembly_CommNeed_@0321a859",
+            "description": [
+                "Critical: bandwidth available to TurnSignal on DriverCan0 is below 2700 bit/s for longer than 50 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ExteriorLightingDesign_TurnSignal_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

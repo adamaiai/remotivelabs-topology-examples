@@ -1,0 +1,27 @@
+{
+    "DC_VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed_@0191bb1b": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 6750.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed_@719d30d9"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed_@0191bb1b",
+            "description": [
+                "Critical: bandwidth available to BatteryCurrent on ChassisCan0 is below 6750 bit/s for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_VehicleInformationDesign_BatteryCurrent_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

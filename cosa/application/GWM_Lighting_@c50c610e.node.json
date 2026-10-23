@@ -1,0 +1,128 @@
+{
+    "GWM_Lighting_@c50c610e": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "GWM_Lighting_ComputeNeed_@708491b6"
+            ],
+            "externalInterface": [
+                "GWM_Lighting_LeftBrakeLightRequest_@ec61ac56",
+                "GWM_Lighting_LeftTurnLightRequest_@93b35ed7",
+                "GWM_Lighting_RightBrakeLightRequest_@57fbb61b",
+                "GWM_Lighting_RightTurnLightRequest_@06e53a75",
+                "GWM_Lighting_TurnlightIndicator_LeftTurnlight_@da1d57b4",
+                "GWM_Lighting_TurnlightIndicator_RightTurnlight_@01a40090"
+            ]
+        },
+        "aggregations": {
+            "GWM_Lighting_ComputeNeed_@708491b6": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource GWM_Lighting needs from the GWM ECU."
+                    ]
+                }
+            },
+            "GWM_Lighting_LeftBrakeLightRequest_@ec61ac56": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
+            },
+            "GWM_Lighting_LeftTurnLightRequest_@93b35ed7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "GWM_Lighting_RightBrakeLightRequest_@57fbb61b": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
+            },
+            "GWM_Lighting_RightTurnLightRequest_@06e53a75": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "GWM_Lighting_TurnlightIndicator_LeftTurnlight_@da1d57b4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
+                    ]
+                }
+            },
+            "GWM_Lighting_TurnlightIndicator_RightTurnlight_@01a40090": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "GWM_Lighting_@c50c610e",
+            "description": [
+                "ExteriorLighting software on the Gateway Module (GWM). Routes communication between different vehicle networks (BodyCan0, ChassisCan0, SOME/IP)."
+            ],
+            "name": "GWM_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.2"
+        }
+    }
+}

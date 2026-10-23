@@ -5,7 +5,9 @@
             "isShadowMode": false
         },
         "connections": {
-            "assume": [],
+            "assume": [
+                "DC_IHU_Climate_ComputeNeed_@98c05e35"
+            ],
             "assume_safetyContract": [],
             "guarantee": [
                 "DC_IHU_Climate_HVACService_RightTemperature_Overheating_@99f41203"

@@ -1,0 +1,21 @@
+{
+    "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ECU_Compute_Budget_Analysis.md",
+            "validUntil": "",
+            "version": "ce9bb50dd4b8ce5fa9679a0872da95eb8b1128f7ebfa56ab2763c53005266a01"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_ECU_Compute_Budget_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

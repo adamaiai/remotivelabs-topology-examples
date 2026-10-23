@@ -24,29 +24,15 @@
                         "IR_VehicleInformationDesign_InformationDisplay_BatteryCurrent_@0caeb151",
                         "IR_VehicleInformationDesign_InformationDisplay_BatteryPower_@39a3d204",
                         "IR_VehicleInformationDesign_InformationDisplay_BatteryVoltage_@27e4cfb8",
-                        "IR_VehicleInformationDesign_InformationDisplay_Cluster_LeftTurnTelltale_@f19cec5d",
                         "IR_VehicleInformationDesign_InformationDisplay_Cluster_ProximityDistance_@de3681e6",
-                        "IR_VehicleInformationDesign_InformationDisplay_Cluster_RightTurnTelltale_@89b176ae",
                         "IR_VehicleInformationDesign_InformationDisplay_Cluster_StateOfCharge_@4b93d73d",
                         "IR_VehicleInformationDesign_InformationDisplay_Heading_@532bf33e",
-                        "IR_VehicleInformationDesign_InformationDisplay_Infotainment_LeftTurnIndicator_@855deb7f",
-                        "IR_VehicleInformationDesign_InformationDisplay_Infotainment_RightTurnIndicator_@32218a7d",
                         "IR_VehicleInformationDesign_InformationDisplay_Infotainment_VehicleSpeed_@5a52bc62",
                         "IR_VehicleInformationDesign_InformationDisplay_Latitude_@aff81189",
-                        "IR_VehicleInformationDesign_InformationDisplay_LeftBrakeLightRequest_@42f4ff9e",
-                        "IR_VehicleInformationDesign_InformationDisplay_LeftDaylightRunningLightRequest_@7d67b6a1",
-                        "IR_VehicleInformationDesign_InformationDisplay_LeftHighBeamLightRequest_@1a94e0d7",
-                        "IR_VehicleInformationDesign_InformationDisplay_LeftLowBeamLightRequest_@cdd4bc5d",
-                        "IR_VehicleInformationDesign_InformationDisplay_LeftTurnLightRequest_@27361dad",
                         "IR_VehicleInformationDesign_InformationDisplay_Longitude_@07b38a17",
                         "IR_VehicleInformationDesign_InformationDisplay_MotorSpeed_@57acfac2",
                         "IR_VehicleInformationDesign_InformationDisplay_MotorTorque_@19b14d2a",
                         "IR_VehicleInformationDesign_InformationDisplay_ProximityDistance_@956f115d",
-                        "IR_VehicleInformationDesign_InformationDisplay_RightBrakeLightRequest_@e0b8d8e0",
-                        "IR_VehicleInformationDesign_InformationDisplay_RightDaylightRunningLightRequest_@593aaeca",
-                        "IR_VehicleInformationDesign_InformationDisplay_RightHighBeamLightRequest_@d7c19539",
-                        "IR_VehicleInformationDesign_InformationDisplay_RightLowBeamLightRequest_@18ab8379",
-                        "IR_VehicleInformationDesign_InformationDisplay_RightTurnLightRequest_@14a1ce9d",
                         "IR_VehicleInformationDesign_InformationDisplay_StateOfCharge_@50ae37ab",
                         "IR_VehicleInformationDesign_InformationDisplay_uispeed_@57255221"
                     ],
@@ -185,24 +171,6 @@
                     ]
                 }
             },
-            "IR_VehicleInformationDesign_InformationDisplay_Cluster_LeftTurnTelltale_@f19cec5d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation_@1cccf4d3"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_Cluster_LeftTurnTelltale_@6cc16484"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_Cluster_LeftTurnTelltale_Delegation of placeholder InformationDisplay is provided by InformationDisplay_Cluster_LeftTurnTelltale of InformationDisplay."
-                    ]
-                }
-            },
             "IR_VehicleInformationDesign_InformationDisplay_Cluster_ProximityDistance_@de3681e6": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
@@ -218,24 +186,6 @@
                 "metadata": {
                     "description": [
                         "Port VehicleInformationDesign_Cluster_ProximityDistance_Delegation of placeholder InformationDisplay is provided by InformationDisplay_Cluster_ProximityDistance of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_Cluster_RightTurnTelltale_@89b176ae": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation_@66d102e5"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_Cluster_RightTurnTelltale_@3ee31f79"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_Cluster_RightTurnTelltale_Delegation of placeholder InformationDisplay is provided by InformationDisplay_Cluster_RightTurnTelltale of InformationDisplay."
                     ]
                 }
             },
@@ -275,42 +225,6 @@
                     ]
                 }
             },
-            "IR_VehicleInformationDesign_InformationDisplay_Infotainment_LeftTurnIndicator_@855deb7f": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation_@afda08d0"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_Infotainment_LeftTurnIndicator_@2d87201f"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_Infotainment_LeftTurnIndicator_Delegation of placeholder InformationDisplay is provided by InformationDisplay_Infotainment_LeftTurnIndicator of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_Infotainment_RightTurnIndicator_@32218a7d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation_@4d274d05"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_Infotainment_RightTurnIndicator_@c025871c"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_Infotainment_RightTurnIndicator_Delegation of placeholder InformationDisplay is provided by InformationDisplay_Infotainment_RightTurnIndicator of InformationDisplay."
-                    ]
-                }
-            },
             "IR_VehicleInformationDesign_InformationDisplay_Infotainment_VehicleSpeed_@5a52bc62": {
                 "stereotype": "Interface_Realization",
                 "attributes": {},
@@ -344,96 +258,6 @@
                 "metadata": {
                     "description": [
                         "Port VehicleInformationDesign_Latitude_Assembly of placeholder InformationDisplay is provided by InformationDisplay_Latitude of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_LeftBrakeLightRequest_@42f4ff9e": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_LeftBrakeLightRequest_Delegation_@25aac606"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_LeftBrakeLightRequest_@995ae6c5"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_LeftBrakeLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_LeftBrakeLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_LeftDaylightRunningLightRequest_@7d67b6a1": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation_@6cc2f12d"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_LeftDaylightRunningLightRequest_@2b6efea1"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_LeftDaylightRunningLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_LeftDaylightRunningLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_LeftHighBeamLightRequest_@1a94e0d7": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_LeftHighBeamLightRequest_Delegation_@ba8f4fee"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_LeftHighBeamLightRequest_@def1018e"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_LeftHighBeamLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_LeftHighBeamLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_LeftLowBeamLightRequest_@cdd4bc5d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_LeftLowBeamLightRequest_Delegation_@6de4305d"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_LeftLowBeamLightRequest_@12de3053"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_LeftLowBeamLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_LeftLowBeamLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_LeftTurnLightRequest_@27361dad": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_LeftTurnLightRequest_Delegation_@86377bfd"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_LeftTurnLightRequest_@effd63a6"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_LeftTurnLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_LeftTurnLightRequest of InformationDisplay."
                     ]
                 }
             },
@@ -506,96 +330,6 @@
                 "metadata": {
                     "description": [
                         "Port VehicleInformationDesign_ProximityDistance_Assembly of placeholder InformationDisplay is provided by InformationDisplay_ProximityDistance of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_RightBrakeLightRequest_@e0b8d8e0": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_RightBrakeLightRequest_Delegation_@205ae60b"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_RightBrakeLightRequest_@00712ae3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_RightBrakeLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_RightBrakeLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_RightDaylightRunningLightRequest_@593aaeca": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation_@d0976596"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_RightDaylightRunningLightRequest_@f8e8e9e3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_RightDaylightRunningLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_RightDaylightRunningLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_RightHighBeamLightRequest_@d7c19539": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_RightHighBeamLightRequest_Delegation_@b6736d84"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_RightHighBeamLightRequest_@758c0f3c"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_RightHighBeamLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_RightHighBeamLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_RightLowBeamLightRequest_@18ab8379": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_RightLowBeamLightRequest_Delegation_@55188eb3"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_RightLowBeamLightRequest_@0913fda4"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_RightLowBeamLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_RightLowBeamLightRequest of InformationDisplay."
-                    ]
-                }
-            },
-            "IR_VehicleInformationDesign_InformationDisplay_RightTurnLightRequest_@14a1ce9d": {
-                "stereotype": "Interface_Realization",
-                "attributes": {},
-                "connections": {
-                    "realized_intf_Assembly": [],
-                    "realized_intf_Delegation": [
-                        "VehicleInformationDesign_RightTurnLightRequest_Delegation_@2e5565a7"
-                    ],
-                    "realizingInterface": [
-                        "InformationDisplay_RightTurnLightRequest_@a84b9ae5"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Port VehicleInformationDesign_RightTurnLightRequest_Delegation of placeholder InformationDisplay is provided by InformationDisplay_RightTurnLightRequest of InformationDisplay."
                     ]
                 }
             },

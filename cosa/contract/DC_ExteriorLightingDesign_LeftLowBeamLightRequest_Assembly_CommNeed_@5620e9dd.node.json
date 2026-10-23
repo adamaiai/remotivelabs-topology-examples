@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_CommNeed_@5620e9dd": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2700.0,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_CommNeed_@3db4e9b9"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_CommNeed_@5620e9dd",
+            "description": [
+                "Critical: bandwidth available to LeftLowBeamLightRequest on BodyCan0 is below 2700 bit/s for longer than 50 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

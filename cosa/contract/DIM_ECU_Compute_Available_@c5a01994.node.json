@@ -1,0 +1,23 @@
+{
+    "DIM_ECU_Compute_Available_@c5a01994": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_DIM_ECU_Compute_@f5a2c4c6"
+            ]
+        },
+        "metadata": {
+            "uuid": "DIM_ECU_Compute_Available_@c5a01994",
+            "description": [
+                "The DIM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "DIM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

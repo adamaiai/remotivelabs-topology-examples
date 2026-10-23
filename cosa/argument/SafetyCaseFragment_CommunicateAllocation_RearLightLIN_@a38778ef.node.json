@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_CommunicateAllocation_RearLightLIN_@a38778ef": {
+        "stereotype": "SafetyCaseFragment_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_CommunicateAllocation_RearLightLIN_@db2bfc9f"
+            ],
+            "communicationAllocationRealization": [
+                "CommunicateAllocation_RearLightLIN_@33489a2b"
+            ],
+            "cultureClaim": [
+                "CultureClaim_CommunicateAllocation_RearLightLIN_@213801ab"
+            ],
+            "processClaim": [
+                "ProcessClaim_CommunicateAllocation_RearLightLIN_@d43ddc2f"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_CommunicateAllocation_RearLightLIN_@752b6d11"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_CommunicateAllocation_RearLightLIN_@18521f14"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_CommunicateAllocation_RearLightLIN_@a38778ef",
+            "description": [
+                "Safety case fragment arguing CommunicateAllocation_RearLightLIN."
+            ],
+            "name": "SafetyCaseFragment_CommunicateAllocation_RearLightLIN",
+            "version_schema": "4.6.2"
+        }
+    }
+}

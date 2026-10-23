@@ -1,0 +1,44 @@
+{
+    "ComputeAllocation_IHU_Lighting_@c4f2256e": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "IHU_Lighting_@2bae594f"
+            ],
+            "allocatedOnComputePlatform": [
+                "IHU_ECU_@c5fd78f8"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_IHU_Lighting_@de941a5c"
+            ]
+        },
+        "aggregations": {
+            "CRIR_IHU_Lighting_@de941a5c": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "IHU_Lighting_ComputeNeed_@dcdcdcde"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "IHU_ECU_Compute_@e42df852"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "IHU_Lighting_ComputeNeed is served by IHU_ECU_Compute."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_IHU_Lighting_@c4f2256e",
+            "description": [
+                "IHU_Lighting runs on the IHU ECU."
+            ],
+            "name": "ComputeAllocation_IHU_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

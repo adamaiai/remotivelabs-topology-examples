@@ -1,0 +1,27 @@
+{
+    "DC_DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed_@85742978": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2700.0,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed_@5e1ff695"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed_@85742978",
+            "description": [
+                "Critical: bandwidth available to AcceleratorPedalPosition_BodyCan0 on BodyCan0 is below 2700 bit/s for longer than 50 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_DriverControlsDesign_AcceleratorPedalPosition_BodyCan0_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

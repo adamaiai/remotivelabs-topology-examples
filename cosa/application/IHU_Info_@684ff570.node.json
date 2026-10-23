@@ -7,15 +7,11 @@
                 "IHU_Info_ComputeNeed_@baee27c3"
             ],
             "externalInterface": [
-                "IHU_Info_Infotainment_LeftTurnIndicator_@74fdd455",
-                "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3",
                 "IHU_Info_Infotainment_VehicleSpeed_@2e1a2740",
                 "IHU_Info_LocationService_Heading_@c15bacb2",
                 "IHU_Info_LocationService_Latitude_@67fd8006",
                 "IHU_Info_LocationService_Longitude_@d7dcc9fc",
-                "IHU_Info_SpeedService_Speed_@6603cf7f",
-                "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7",
-                "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6"
+                "IHU_Info_SpeedService_Speed_@6603cf7f"
             ]
         },
         "aggregations": {
@@ -30,34 +26,6 @@
                 "metadata": {
                     "description": [
                         "Compute resource IHU_Info needs from the IHU ECU."
-                    ]
-                }
-            },
-            "IHU_Info_Infotainment_LeftTurnIndicator_@74fdd455": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Left turn indication shown in the infotainment unit."
-                    ]
-                }
-            },
-            "IHU_Info_Infotainment_RightTurnIndicator_@decd16a3": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Right turn indication shown in the infotainment unit."
                     ]
                 }
             },
@@ -128,34 +96,6 @@
                 "metadata": {
                     "description": [
                         "SOMEIP SpeedService.SpeedEvent (service 102, event 1002, event group 323). Sent by GWM, received by IHU."
-                    ]
-                }
-            },
-            "IHU_Info_TurnlightIndicator_LeftTurnlight_@cf1ebdb7": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
-                    ]
-                }
-            },
-            "IHU_Info_TurnlightIndicator_RightTurnlight_@6f2d43c6": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
                     ]
                 }
             }

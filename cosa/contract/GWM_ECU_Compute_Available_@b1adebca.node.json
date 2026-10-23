@@ -1,0 +1,23 @@
+{
+    "GWM_ECU_Compute_Available_@b1adebca": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_GWM_ECU_Compute_@684a0031"
+            ]
+        },
+        "metadata": {
+            "uuid": "GWM_ECU_Compute_Available_@b1adebca",
+            "description": [
+                "The GWM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "GWM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

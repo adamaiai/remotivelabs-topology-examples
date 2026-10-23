@@ -6,6 +6,7 @@
         },
         "connections": {
             "assume": [
+                "DC_BCM_Lighting_ComputeNeed_@e8924558",
                 "DC_BCM_Lighting_HazardLightButton_WronglyPressed_@637485ae",
                 "DC_BCM_Lighting_TurnSignal_Misread_@3c8b773f"
             ],

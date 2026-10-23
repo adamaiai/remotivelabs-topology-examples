@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ComputeAllocation_SCCM_Lighting_@5f9837a6": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ComputeAllocation_SCCM_Lighting_@5f9837a6",
+            "description": "",
+            "name": "ProcessClaim_ComputeAllocation_SCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

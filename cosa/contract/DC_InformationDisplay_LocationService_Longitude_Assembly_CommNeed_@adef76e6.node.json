@@ -1,0 +1,27 @@
+{
+    "DC_InformationDisplay_LocationService_Longitude_Assembly_CommNeed_@adef76e6": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 8000.0,
+            "toleranceMargin_Time_ms": 100.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "InformationDisplay_LocationService_Longitude_Assembly_CommNeed_@40694aaa"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_InformationDisplay_LocationService_Longitude_Assembly_CommNeed_@adef76e6",
+            "description": [
+                "Critical: bandwidth available to LocationService_Longitude on SOMEIP is below 8000 bit/s for longer than 100 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_InformationDisplay_LocationService_Longitude_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

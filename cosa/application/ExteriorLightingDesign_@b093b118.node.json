@@ -23,15 +23,21 @@
             "buildingBlock": [
                 "ExteriorLightingDesign_FrontLighting_@c714980c",
                 "ExteriorLightingDesign_LightingControl_@aebff50b",
+                "ExteriorLightingDesign_LightingIndication_@c646860b",
                 "ExteriorLightingDesign_LightingRequestSensing_@fd19bb51",
                 "ExteriorLightingDesign_RearLighting_@51bba31d"
             ],
             "delegationInterface": [
+                "ExteriorLightingDesign_Cluster_HighBeamTelltale_Delegation_@ddcd6484",
+                "ExteriorLightingDesign_Cluster_LeftTurnTelltale_Delegation_@401a1673",
+                "ExteriorLightingDesign_Cluster_RightTurnTelltale_Delegation_@38973656",
                 "ExteriorLightingDesign_Driver_BrakePedalPosition_Delegation_@3278d2d3",
                 "ExteriorLightingDesign_Driver_HazardLightButton_Delegation_@1bab876b",
                 "ExteriorLightingDesign_Driver_HighBeam_Delegation_@0530d122",
                 "ExteriorLightingDesign_Driver_LightMode_Delegation_@2c8374bc",
                 "ExteriorLightingDesign_Driver_TurnSignal_Delegation_@143d94e1",
+                "ExteriorLightingDesign_Infotainment_LeftTurnIndicator_Delegation_@2c98d0f4",
+                "ExteriorLightingDesign_Infotainment_RightTurnIndicator_Delegation_@752fa419",
                 "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_Delegation_@07a33f44",
                 "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_Delegation_@ead94ee2",
                 "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_Delegation_@29934ff4",
@@ -41,24 +47,19 @@
                 "ExteriorLightingDesign_Lamp_FrontRightLowBeam_Delegation_@ade13c5f",
                 "ExteriorLightingDesign_Lamp_FrontRightTurn_Delegation_@01f794a6",
                 "ExteriorLightingDesign_Lamp_RearLeftTurn_Delegation_@0eab1cc9",
-                "ExteriorLightingDesign_Lamp_RearRightTurn_Delegation_@2d9debab",
-                "ExteriorLightingDesign_LeftBrakeLightRequest_Delegation_@4a2cc4ae",
-                "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Delegation_@c258b588",
-                "ExteriorLightingDesign_LeftHighBeamLightRequest_Delegation_@cfa59f5e",
-                "ExteriorLightingDesign_LeftLowBeamLightRequest_Delegation_@b15da876",
-                "ExteriorLightingDesign_LeftTurnLightRequest_Delegation_@1b669840",
-                "ExteriorLightingDesign_RightBrakeLightRequest_Delegation_@4a9c3c1f",
-                "ExteriorLightingDesign_RightDaylightRunningLightRequest_Delegation_@5141bbcf",
-                "ExteriorLightingDesign_RightHighBeamLightRequest_Delegation_@eb74fe0d",
-                "ExteriorLightingDesign_RightLowBeamLightRequest_Delegation_@c4b29371",
-                "ExteriorLightingDesign_RightTurnLightRequest_Delegation_@ec478a98"
+                "ExteriorLightingDesign_Lamp_RearRightTurn_Delegation_@2d9debab"
             ],
             "externalInterface": [
+                "ExteriorLightingDesign_Cluster_HighBeamTelltale_@dd47d334",
+                "ExteriorLightingDesign_Cluster_LeftTurnTelltale_@c67c46e1",
+                "ExteriorLightingDesign_Cluster_RightTurnTelltale_@abf457e1",
                 "ExteriorLightingDesign_Driver_BrakePedalPosition_@7b0c9774",
                 "ExteriorLightingDesign_Driver_HazardLightButton_@0e45a209",
                 "ExteriorLightingDesign_Driver_HighBeam_@e254bc33",
                 "ExteriorLightingDesign_Driver_LightMode_@07173606",
                 "ExteriorLightingDesign_Driver_TurnSignal_@57ed074a",
+                "ExteriorLightingDesign_Infotainment_LeftTurnIndicator_@34796f9b",
+                "ExteriorLightingDesign_Infotainment_RightTurnIndicator_@94b50a67",
                 "ExteriorLightingDesign_Lamp_FrontLeftDaylightRunning_@dd464c81",
                 "ExteriorLightingDesign_Lamp_FrontLeftHighBeam_@d8127a67",
                 "ExteriorLightingDesign_Lamp_FrontLeftLowBeam_@f762e172",
@@ -68,17 +69,7 @@
                 "ExteriorLightingDesign_Lamp_FrontRightLowBeam_@af796aae",
                 "ExteriorLightingDesign_Lamp_FrontRightTurn_@f8ef29c1",
                 "ExteriorLightingDesign_Lamp_RearLeftTurn_@e8b44d4c",
-                "ExteriorLightingDesign_Lamp_RearRightTurn_@aea9f317",
-                "ExteriorLightingDesign_LeftBrakeLightRequest_@359c63ea",
-                "ExteriorLightingDesign_LeftDaylightRunningLightRequest_@264621a3",
-                "ExteriorLightingDesign_LeftHighBeamLightRequest_@4e16362c",
-                "ExteriorLightingDesign_LeftLowBeamLightRequest_@b94787ef",
-                "ExteriorLightingDesign_LeftTurnLightRequest_@732687e6",
-                "ExteriorLightingDesign_RightBrakeLightRequest_@61b4fb5d",
-                "ExteriorLightingDesign_RightDaylightRunningLightRequest_@f9b388ab",
-                "ExteriorLightingDesign_RightHighBeamLightRequest_@c3016c73",
-                "ExteriorLightingDesign_RightLowBeamLightRequest_@0efbfc31",
-                "ExteriorLightingDesign_RightTurnLightRequest_@7710fd9a"
+                "ExteriorLightingDesign_Lamp_RearRightTurn_@aea9f317"
             ]
         },
         "aggregations": {
@@ -118,6 +109,111 @@
                 "metadata": {
                     "description": [
                         "Bandwidth BrakePedalPosition needs on DriverCan0."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Cluster_HighBeamTelltale_@dd47d334": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "High beam telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Cluster_HighBeamTelltale_Delegation_@ddcd6484": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
+                    ],
+                    "outer": [
+                        "ExteriorLightingDesign_Cluster_HighBeamTelltale_@dd47d334"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_HighBeamTelltale from LightingIndication to the ExteriorLightingDesign output."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Cluster_LeftTurnTelltale_@c67c46e1": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Cluster_LeftTurnTelltale_Delegation_@401a1673": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
+                    ],
+                    "outer": [
+                        "ExteriorLightingDesign_Cluster_LeftTurnTelltale_@c67c46e1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_LeftTurnTelltale from LightingIndication to the ExteriorLightingDesign output."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Cluster_RightTurnTelltale_@abf457e1": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Cluster_RightTurnTelltale_Delegation_@38973656": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
+                    ],
+                    "outer": [
+                        "ExteriorLightingDesign_Cluster_RightTurnTelltale_@abf457e1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Cluster_RightTurnTelltale from LightingIndication to the ExteriorLightingDesign output."
                     ]
                 }
             },
@@ -381,6 +477,76 @@
                 "metadata": {
                     "description": [
                         "Bandwidth HighBeam needs on DriverCan0."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Infotainment_LeftTurnIndicator_@34796f9b": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Infotainment_LeftTurnIndicator_Delegation_@2c98d0f4": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
+                    ],
+                    "outer": [
+                        "ExteriorLightingDesign_Infotainment_LeftTurnIndicator_@34796f9b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_LeftTurnIndicator from LightingIndication to the ExteriorLightingDesign output."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Infotainment_RightTurnIndicator_@94b50a67": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "ExteriorLightingDesign_Infotainment_RightTurnIndicator_Delegation_@752fa419": {
+                "stereotype": "InternalDelegation_Intf",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {
+                    "inner": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
+                    ],
+                    "outer": [
+                        "ExteriorLightingDesign_Infotainment_RightTurnIndicator_@94b50a67"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Delegates Infotainment_RightTurnIndicator from LightingIndication to the ExteriorLightingDesign output."
                     ]
                 }
             },
@@ -734,20 +900,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_LeftBrakeLightRequest_@359c63ea": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_@125b5964": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -760,6 +912,7 @@
                         "ExteriorLightingDesign_LeftBrakeLightRequest_Assembly_CommNeed_@73bb03d5"
                     ],
                     "consumedBy": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -787,41 +940,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_LeftBrakeLightRequest_Delegation_@4a2cc4ae": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_LeftBrakeLightRequest_@359c63ea"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates LeftBrakeLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_LeftDaylightRunningLightRequest_@264621a3": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Assembly_@499a36f2": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -835,6 +953,7 @@
                     ],
                     "consumedBy": [
                         "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -862,41 +981,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_LeftDaylightRunningLightRequest_Delegation_@c258b588": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_LeftDaylightRunningLightRequest_@264621a3"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates LeftDaylightRunningLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_LeftHighBeamLightRequest_@4e16362c": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_@012110dc": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -909,7 +993,8 @@
                         "ExteriorLightingDesign_LeftHighBeamLightRequest_Assembly_CommNeed_@36574ac9"
                     ],
                     "consumedBy": [
-                        "ExteriorLightingDesign_FrontLighting_@c714980c"
+                        "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
                     ],
                     "providedBy": [
                         "ExteriorLightingDesign_LightingControl_@aebff50b"
@@ -936,41 +1021,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_LeftHighBeamLightRequest_Delegation_@cfa59f5e": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_LeftHighBeamLightRequest_@4e16362c"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates LeftHighBeamLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_LeftLowBeamLightRequest_@b94787ef": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_LeftLowBeamLightRequest_Assembly_@42908a5f": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -984,6 +1034,7 @@
                     ],
                     "consumedBy": [
                         "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -1011,41 +1062,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_LeftLowBeamLightRequest_Delegation_@b15da876": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_LeftLowBeamLightRequest_@b94787ef"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates LeftLowBeamLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_LeftTurnLightRequest_@732687e6": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_LeftTurnLightRequest_Assembly_@08847b99": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -1059,6 +1075,7 @@
                     ],
                     "consumedBy": [
                         "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -1083,27 +1100,6 @@
                 "metadata": {
                     "description": [
                         "Bandwidth LeftTurnLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_LeftTurnLightRequest_Delegation_@1b669840": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_LeftTurnLightRequest_@732687e6"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates LeftTurnLightRequest from LightingControl to the ExteriorLightingDesign output."
                     ]
                 }
             },
@@ -1156,6 +1152,16 @@
                     ]
                 }
             },
+            "ExteriorLightingDesign_LightingIndication_@c646860b": {
+                "stereotype": "InternalPlaceholderComponent",
+                "attributes": {},
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Placeholder for LightingIndication."
+                    ]
+                }
+            },
             "ExteriorLightingDesign_LightingRequestSensing_@fd19bb51": {
                 "stereotype": "InternalPlaceholderComponent",
                 "attributes": {},
@@ -1176,20 +1182,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_RightBrakeLightRequest_@61b4fb5d": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_RightBrakeLightRequest_Assembly_@0e34702f": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -1202,6 +1194,7 @@
                         "ExteriorLightingDesign_RightBrakeLightRequest_Assembly_CommNeed_@f01bb67b"
                     ],
                     "consumedBy": [
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -1229,41 +1222,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_RightBrakeLightRequest_Delegation_@4a9c3c1f": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_RightBrakeLightRequest_@61b4fb5d"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates RightBrakeLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_RightDaylightRunningLightRequest_@f9b388ab": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_@43b07626": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -1277,6 +1235,7 @@
                     ],
                     "consumedBy": [
                         "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -1304,41 +1263,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_RightDaylightRunningLightRequest_Delegation_@5141bbcf": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_RightDaylightRunningLightRequest_@f9b388ab"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates RightDaylightRunningLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_RightHighBeamLightRequest_@c3016c73": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_@4b01fb38": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -1351,7 +1275,8 @@
                         "ExteriorLightingDesign_RightHighBeamLightRequest_Assembly_CommNeed_@b3227271"
                     ],
                     "consumedBy": [
-                        "ExteriorLightingDesign_FrontLighting_@c714980c"
+                        "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b"
                     ],
                     "providedBy": [
                         "ExteriorLightingDesign_LightingControl_@aebff50b"
@@ -1378,41 +1303,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_RightHighBeamLightRequest_Delegation_@eb74fe0d": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_RightHighBeamLightRequest_@c3016c73"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates RightHighBeamLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_RightLowBeamLightRequest_@0efbfc31": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_RightLowBeamLightRequest_Assembly_@5442467d": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -1426,6 +1316,7 @@
                     ],
                     "consumedBy": [
                         "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -1453,41 +1344,6 @@
                     ]
                 }
             },
-            "ExteriorLightingDesign_RightLowBeamLightRequest_Delegation_@c4b29371": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_RightLowBeamLightRequest_@0efbfc31"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates RightLowBeamLightRequest from LightingControl to the ExteriorLightingDesign output."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_RightTurnLightRequest_@7710fd9a": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
-                    ]
-                }
-            },
             "ExteriorLightingDesign_RightTurnLightRequest_Assembly_@9c018b99": {
                 "stereotype": "Application_InternalAssembly_Intf",
                 "attributes": {
@@ -1501,6 +1357,7 @@
                     ],
                     "consumedBy": [
                         "ExteriorLightingDesign_FrontLighting_@c714980c",
+                        "ExteriorLightingDesign_LightingIndication_@c646860b",
                         "ExteriorLightingDesign_RearLighting_@51bba31d"
                     ],
                     "providedBy": [
@@ -1525,27 +1382,6 @@
                 "metadata": {
                     "description": [
                         "Bandwidth RightTurnLightRequest needs on BodyCan0."
-                    ]
-                }
-            },
-            "ExteriorLightingDesign_RightTurnLightRequest_Delegation_@ec478a98": {
-                "stereotype": "InternalDelegation_Intf",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {
-                    "inner": [
-                        "ExteriorLightingDesign_LightingControl_@aebff50b"
-                    ],
-                    "outer": [
-                        "ExteriorLightingDesign_RightTurnLightRequest_@7710fd9a"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Delegates RightTurnLightRequest from LightingControl to the ExteriorLightingDesign output."
                     ]
                 }
             },
@@ -1601,16 +1437,18 @@
                 "    n_ExteriorLightingDesign_LightingControl__aebff50b[\"LightingControl<br/>(BCM_Lighting)\"]",
                 "    n_ExteriorLightingDesign_FrontLighting__c714980c[\"FrontLighting<br/>(FLCM_Lighting)\"]",
                 "    n_ExteriorLightingDesign_RearLighting__51bba31d[\"RearLighting<br/>(RearLight)\"]",
+                "    n_ExteriorLightingDesign_LightingIndication__c646860b[\"LightingIndication\"]",
                 "  end",
                 "  n_port_in_Driver_HazardLightButton(\"Driver_BrakePedalPosition<br/>Driver_HazardLightButton<br/>Driver_HighBeam<br/>Driver_LightMode<br/>Driver_TurnSignal\")",
                 "  n_port_out_Lamp_FrontLeftDaylightRunning(\"Lamp_FrontLeftDaylightRunning<br/>Lamp_FrontLeftHighBeam<br/>Lamp_FrontLeftLowBeam<br/>Lamp_FrontLeftTurn<br/>Lamp_FrontRightDaylightRunning<br/>Lamp_FrontRightHighBeam<br/>Lamp_FrontRightLowBeam<br/>Lamp_FrontRightTurn\")",
-                "  n_port_out_LeftDaylightRunningLightRequest(\"LeftBrakeLightRequest<br/>LeftDaylightRunningLightRequest<br/>LeftHighBeamLightRequest<br/>LeftLowBeamLightRequest<br/>LeftTurnLightRequest<br/>RightBrakeLightRequest<br/>RightDaylightRunningLightRequest<br/>RightHighBeamLightRequest<br/>RightLowBeamLightRequest<br/>RightTurnLightRequest\")",
+                "  n_port_out_Cluster_LeftTurnTelltale(\"Cluster_HighBeamTelltale<br/>Cluster_LeftTurnTelltale<br/>Cluster_RightTurnTelltale<br/>Infotainment_LeftTurnIndicator<br/>Infotainment_RightTurnIndicator\")",
                 "  n_port_out_Lamp_RearLeftTurn([\"Lamp_RearLeftTurn\"])",
                 "  n_port_out_Lamp_RearRightTurn([\"Lamp_RearRightTurn\"])",
                 "  n_ExteriorLightingDesign_FrontLighting__c714980c --> n_port_out_Lamp_FrontLeftDaylightRunning",
                 "  n_ExteriorLightingDesign_LightingControl__aebff50b -->|\"LeftDaylightRunningLightRequest<br/>LeftHighBeamLightRequest<br/>LeftLowBeamLightRequest<br/>LeftTurnLightRequest<br/>RightDaylightRunningLightRequest<br/>+3 more\"| n_ExteriorLightingDesign_FrontLighting__c714980c",
+                "  n_ExteriorLightingDesign_LightingControl__aebff50b -->|\"LeftBrakeLightRequest<br/>LeftDaylightRunningLightRequest<br/>LeftHighBeamLightRequest<br/>LeftLowBeamLightRequest<br/>LeftTurnLightRequest<br/>+5 more\"| n_ExteriorLightingDesign_LightingIndication__c646860b",
                 "  n_ExteriorLightingDesign_LightingControl__aebff50b -->|\"LeftBrakeLightRequest<br/>LeftDaylightRunningLightRequest<br/>LeftLowBeamLightRequest<br/>LeftTurnLightRequest<br/>RightBrakeLightRequest<br/>+3 more\"| n_ExteriorLightingDesign_RearLighting__51bba31d",
-                "  n_ExteriorLightingDesign_LightingControl__aebff50b --> n_port_out_LeftDaylightRunningLightRequest",
+                "  n_ExteriorLightingDesign_LightingIndication__c646860b --> n_port_out_Cluster_LeftTurnTelltale",
                 "  n_ExteriorLightingDesign_LightingRequestSensing__fd19bb51 -->|\"BrakePedalPosition<br/>HazardLightButton<br/>HighBeam<br/>LightMode<br/>TurnSignal\"| n_ExteriorLightingDesign_LightingControl__aebff50b",
                 "  n_ExteriorLightingDesign_RearLighting__51bba31d --> n_port_out_Lamp_RearLeftTurn",
                 "  n_ExteriorLightingDesign_RearLighting__51bba31d --> n_port_out_Lamp_RearRightTurn",

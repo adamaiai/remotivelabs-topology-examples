@@ -1,0 +1,26 @@
+{
+    "RationaleClaim_ComputeAllocation_IHU_Climate_@bc8a371e": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "IHU_Climate_HVACService_LeftTemperature_Overheating_@450267b9",
+                "IHU_Climate_HVACService_RightTemperature_Overheating_@acedd323"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "IHU_ECU_Compute_Available_@105102f5"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_IHU_Climate_@bc8a371e",
+            "description": [
+                "IHU_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_IHU_Climate the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_IHU_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

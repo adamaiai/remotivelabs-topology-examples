@@ -4,7 +4,8 @@
         "attributes": {},
         "connections": {
             "assume": [
-                "DC_ExteriorLightingDesign_Driver_HazardLightButton_NotPressed_@83dcb9d8"
+                "DC_ExteriorLightingDesign_Driver_HazardLightButton_NotPressed_@83dcb9d8",
+                "DC_ExteriorLightingDesign_HazardLightButton_Assembly_CommNeed_@5c1f88e6"
             ],
             "assume_safetyContract": [],
             "guarantee": [

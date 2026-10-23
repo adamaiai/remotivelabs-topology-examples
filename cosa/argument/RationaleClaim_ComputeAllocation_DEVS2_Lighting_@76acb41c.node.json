@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_ComputeAllocation_DEVS2_Lighting_@76acb41c": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "DEVS2_Lighting_Lamp_RearLeftTurn_NotActivated_@94f70517",
+                "DEVS2_Lighting_Lamp_RearLeftTurn_WronglyActivated_@cbb87529",
+                "DEVS2_Lighting_Lamp_RearRightTurn_NotActivated_@7938d0a0",
+                "DEVS2_Lighting_Lamp_RearRightTurn_WronglyActivated_@0a919434"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "DEVS2_ECU_Compute_Available_@3128a69a"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_DEVS2_Lighting_@76acb41c",
+            "description": [
+                "DEVS2_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_DEVS2_Lighting the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_DEVS2_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

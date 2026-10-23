@@ -1,0 +1,30 @@
+{
+    "RationaleClaim_CommunicateAllocation_BodyCan0_@983c3d2c": {
+        "stereotype": "RationaleClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "ClimateActuation_GWM_LeftTemperature_Overheating_@8600053f",
+                "ClimateActuation_GWM_RightTemperature_Overheating_@a353771e",
+                "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_NotActivated_@9f833924",
+                "ExteriorLightingDesign_LightingControl_LeftTurnLightRequest_WronglyActivated_@88b258a4",
+                "ExteriorLightingDesign_LightingControl_RightTurnLightRequest_NotActivated_@b3edf5a4",
+                "ExteriorLightingDesign_LightingControl_RightTurnLightRequest_WronglyActivated_@380a9dc3"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformCommunicationSafetyContract": [
+                "BodyCan0_Bandwidth_Available_@1cb5e816"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_CommunicateAllocation_BodyCan0_@983c3d2c",
+            "description": [
+                "BodyCan0_Bandwidth_Available gives the contracts allocated by CommunicateAllocation_BodyCan0 the resources they assume."
+            ],
+            "name": "RationaleClaim_CommunicateAllocation_BodyCan0",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "ComputeAllocation_GWM_Lighting_@a5236326": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "GWM_Lighting_@c50c610e"
+            ],
+            "allocatedOnComputePlatform": [
+                "GWM_ECU_@2825eea1"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_GWM_Lighting_@d29e5650"
+            ]
+        },
+        "aggregations": {
+            "CRIR_GWM_Lighting_@d29e5650": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "GWM_Lighting_ComputeNeed_@708491b6"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "GWM_ECU_Compute_@05833099"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "GWM_Lighting_ComputeNeed is served by GWM_ECU_Compute."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_GWM_Lighting_@a5236326",
+            "description": [
+                "GWM_Lighting runs on the GWM ECU."
+            ],
+            "name": "ComputeAllocation_GWM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

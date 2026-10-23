@@ -1,0 +1,23 @@
+{
+    "SCCM_ECU_Compute_Available_@fcaa54d7": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SCCM_ECU_Compute_@1eaaad6b"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_ECU_Compute_Available_@fcaa54d7",
+            "description": [
+                "The SCCM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "SCCM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

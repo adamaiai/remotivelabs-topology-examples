@@ -1,0 +1,27 @@
+{
+    "DC_VehicleInformationDesign_Latitude_Assembly_CommNeed_@cd7fd943": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 675.0,
+            "toleranceMargin_Time_ms": 200.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "VehicleInformationDesign_Latitude_Assembly_CommNeed_@c635dec4"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_VehicleInformationDesign_Latitude_Assembly_CommNeed_@cd7fd943",
+            "description": [
+                "Critical: bandwidth available to Latitude on BodyCan0 is below 675 bit/s for longer than 200 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_VehicleInformationDesign_Latitude_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

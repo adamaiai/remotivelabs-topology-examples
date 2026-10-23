@@ -1,0 +1,27 @@
+{
+    "DC_DriverCan0_Bandwidth_@55d13aa3": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 250000.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "DriverCan0_Bandwidth_@1d45be5a"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DriverCan0_Bandwidth_@55d13aa3",
+            "description": [
+                "Critical: bandwidth DriverCan0 offers the application signals is below 250000 bit/s for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_DriverCan0_Bandwidth",
+            "version_schema": "4.6.2"
+        }
+    }
+}

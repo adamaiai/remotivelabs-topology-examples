@@ -1,0 +1,23 @@
+{
+    "RL_ECU_Compute_Available_@315d1989": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RL_ECU_Compute_@a40f769b"
+            ]
+        },
+        "metadata": {
+            "uuid": "RL_ECU_Compute_Available_@315d1989",
+            "description": [
+                "The RL ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "RL_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

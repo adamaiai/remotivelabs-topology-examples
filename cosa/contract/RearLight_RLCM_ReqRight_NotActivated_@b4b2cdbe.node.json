@@ -4,6 +4,7 @@
         "attributes": {},
         "connections": {
             "assume": [
+                "DC_RearLight_ReqRight_Assembly_CommNeed_@70096228",
                 "DC_RearLight_RightTurnLightRequest_NotActivated_@a0cc796b"
             ],
             "assume_safetyContract": [],

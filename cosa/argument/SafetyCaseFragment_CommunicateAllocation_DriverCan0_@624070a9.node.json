@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_CommunicateAllocation_DriverCan0_@624070a9": {
+        "stereotype": "SafetyCaseFragment_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_CommunicateAllocation_DriverCan0_@cd45ef36"
+            ],
+            "communicationAllocationRealization": [
+                "CommunicateAllocation_DriverCan0_@c1bb2ea8"
+            ],
+            "cultureClaim": [
+                "CultureClaim_CommunicateAllocation_DriverCan0_@698b306d"
+            ],
+            "processClaim": [
+                "ProcessClaim_CommunicateAllocation_DriverCan0_@6d34a6e3"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_CommunicateAllocation_DriverCan0_@47eb8ac9"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_CommunicateAllocation_DriverCan0_@22e4e8ae"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_CommunicateAllocation_DriverCan0_@624070a9",
+            "description": [
+                "Safety case fragment arguing CommunicateAllocation_DriverCan0."
+            ],
+            "name": "SafetyCaseFragment_CommunicateAllocation_DriverCan0",
+            "version_schema": "4.6.2"
+        }
+    }
+}

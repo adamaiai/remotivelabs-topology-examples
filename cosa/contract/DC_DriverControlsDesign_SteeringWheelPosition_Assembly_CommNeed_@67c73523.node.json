@@ -1,0 +1,27 @@
+{
+    "DC_DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed_@67c73523": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2700.0,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed_@058d1390"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed_@67c73523",
+            "description": [
+                "Critical: bandwidth available to SteeringWheelPosition on BodyCan0 is below 2700 bit/s for longer than 50 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_DriverControlsDesign_SteeringWheelPosition_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

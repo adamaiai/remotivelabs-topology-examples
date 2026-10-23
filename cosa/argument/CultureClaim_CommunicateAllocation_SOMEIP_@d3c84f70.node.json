@@ -1,0 +1,17 @@
+{
+    "CultureClaim_CommunicateAllocation_SOMEIP_@d3c84f70": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_CommunicateAllocation_SOMEIP_@d3c84f70",
+            "description": "",
+            "name": "CultureClaim_CommunicateAllocation_SOMEIP",
+            "version_schema": "4.6.2"
+        }
+    }
+}

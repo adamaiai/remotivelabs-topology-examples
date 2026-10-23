@@ -1,0 +1,27 @@
+{
+    "DC_PCM_Info_ComputeNeed_@972100ae": {
+        "stereotype": "ApplicationComputeDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 5.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedComputeResource": [
+                "PCM_Info_ComputeNeed_@b19089c5"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_PCM_Info_ComputeNeed_@972100ae",
+            "description": [
+                "Critical: compute available to PCM_Info is below 5 MFLOPS for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_PCM_Info_ComputeNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

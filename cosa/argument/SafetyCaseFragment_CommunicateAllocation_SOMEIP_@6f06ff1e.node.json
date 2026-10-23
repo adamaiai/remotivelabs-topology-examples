@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_CommunicateAllocation_SOMEIP_@6f06ff1e": {
+        "stereotype": "SafetyCaseFragment_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_CommunicateAllocation_SOMEIP_@2f57ea7a"
+            ],
+            "communicationAllocationRealization": [
+                "CommunicateAllocation_SOMEIP_@a220402b"
+            ],
+            "cultureClaim": [
+                "CultureClaim_CommunicateAllocation_SOMEIP_@d3c84f70"
+            ],
+            "processClaim": [
+                "ProcessClaim_CommunicateAllocation_SOMEIP_@94da95c5"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_CommunicateAllocation_SOMEIP_@82aca157"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_CommunicateAllocation_SOMEIP_@c4a0f2fa"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_CommunicateAllocation_SOMEIP_@6f06ff1e",
+            "description": [
+                "Safety case fragment arguing CommunicateAllocation_SOMEIP."
+            ],
+            "name": "SafetyCaseFragment_CommunicateAllocation_SOMEIP",
+            "version_schema": "4.6.2"
+        }
+    }
+}

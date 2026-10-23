@@ -1,0 +1,27 @@
+{
+    "DC_RearLight_counter_times_2_Assembly_CommNeed_@dd314425": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2743.0,
+            "toleranceMargin_Time_ms": 23.3
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "RearLight_counter_times_2_Assembly_CommNeed_@99c0a690"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RearLight_counter_times_2_Assembly_CommNeed_@dd314425",
+            "description": [
+                "Critical: bandwidth available to counter_times_2 on RearLightLIN is below 2743 bit/s for longer than 23.3 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_RearLight_counter_times_2_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

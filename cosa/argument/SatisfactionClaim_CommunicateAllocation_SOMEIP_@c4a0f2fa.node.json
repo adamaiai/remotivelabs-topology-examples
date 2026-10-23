@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_CommunicateAllocation_SOMEIP_@c4a0f2fa": {
+        "stereotype": "SatisfactionClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@dedb8f22",
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating_@802c8071"
+            ],
+            "evidence": [
+                "Evidence_Bus_Load_Analysis_@96dddfd9"
+            ],
+            "platformCommunicationSafetyContract": [
+                "SOMEIP_Bandwidth_Available_@eefed520"
+            ],
+            "verificationCriteria": [
+                "VM_SOMEIP_Bandwidth_Available_@27b004f2"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_CommunicateAllocation_SOMEIP_@c4a0f2fa",
+            "description": [
+                "VM_SOMEIP_Bandwidth_Available shows SOMEIP_Bandwidth_Available holds."
+            ],
+            "name": "SatisfactionClaim_CommunicateAllocation_SOMEIP",
+            "version_schema": "4.6.2"
+        }
+    }
+}

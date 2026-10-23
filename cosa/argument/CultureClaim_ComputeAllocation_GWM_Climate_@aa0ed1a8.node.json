@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ComputeAllocation_GWM_Climate_@aa0ed1a8": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ComputeAllocation_GWM_Climate_@aa0ed1a8",
+            "description": "",
+            "name": "CultureClaim_ComputeAllocation_GWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

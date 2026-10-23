@@ -1,0 +1,23 @@
+{
+    "FLCM_ECU_Compute_Available_@2d13b707": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_FLCM_ECU_Compute_@6c8d60ef"
+            ]
+        },
+        "metadata": {
+            "uuid": "FLCM_ECU_Compute_Available_@2d13b707",
+            "description": [
+                "The FLCM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "FLCM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

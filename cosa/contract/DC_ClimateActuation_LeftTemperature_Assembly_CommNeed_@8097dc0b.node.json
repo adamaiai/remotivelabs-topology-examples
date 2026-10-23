@@ -1,0 +1,27 @@
+{
+    "DC_ClimateActuation_LeftTemperature_Assembly_CommNeed_@8097dc0b": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 270.0,
+            "toleranceMargin_Time_ms": 500.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "ClimateActuation_LeftTemperature_Assembly_CommNeed_@4ffbf1be"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ClimateActuation_LeftTemperature_Assembly_CommNeed_@8097dc0b",
+            "description": [
+                "Critical: bandwidth available to LeftTemperature on BodyCan0 is below 270 bit/s for longer than 500 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ClimateActuation_LeftTemperature_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "DIM_Lighting_@825ad175": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "DIM_Lighting_ComputeNeed_@869c433a"
+            ],
+            "externalInterface": [
+                "DIM_Lighting_Cluster_HighBeamTelltale_@63136db1",
+                "DIM_Lighting_Cluster_LeftTurnTelltale_@2d5965f4",
+                "DIM_Lighting_Cluster_RightTurnTelltale_@b76769e7",
+                "DIM_Lighting_LeftBrakeLightRequest_@47f40eca",
+                "DIM_Lighting_LeftDaylightRunningLightRequest_@cb0e116c",
+                "DIM_Lighting_LeftHighBeamLightRequest_@7bc5c808",
+                "DIM_Lighting_LeftLowBeamLightRequest_@c436dda0",
+                "DIM_Lighting_LeftTurnLightRequest_@1664018b",
+                "DIM_Lighting_RightBrakeLightRequest_@33c03f19",
+                "DIM_Lighting_RightDaylightRunningLightRequest_@dcb842b7",
+                "DIM_Lighting_RightHighBeamLightRequest_@fa67b54e",
+                "DIM_Lighting_RightLowBeamLightRequest_@ec38b2fa",
+                "DIM_Lighting_RightTurnLightRequest_@57ef4304"
+            ]
+        },
+        "aggregations": {
+            "DIM_Lighting_Cluster_HighBeamTelltale_@63136db1": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "High beam telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "DIM_Lighting_Cluster_LeftTurnTelltale_@2d5965f4": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "DIM_Lighting_Cluster_RightTurnTelltale_@b76769e7": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "DIM_Lighting_ComputeNeed_@869c433a": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource DIM_Lighting needs from the DIM ECU."
+                    ]
+                }
+            },
+            "DIM_Lighting_LeftBrakeLightRequest_@47f40eca": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
+            },
+            "DIM_Lighting_LeftDaylightRunningLightRequest_@cb0e116c": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "DIM_Lighting_LeftHighBeamLightRequest_@7bc5c808": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
+            },
+            "DIM_Lighting_LeftLowBeamLightRequest_@c436dda0": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "DIM_Lighting_LeftTurnLightRequest_@1664018b": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            },
+            "DIM_Lighting_RightBrakeLightRequest_@33c03f19": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
+                    ]
+                }
+            },
+            "DIM_Lighting_RightDaylightRunningLightRequest_@dcb842b7": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 DaylightRunningLightControl (id 100, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "DIM_Lighting_RightHighBeamLightRequest_@fa67b54e": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 HighBeamLightControl (id 102, 50 ms). Sent by BCM, received by DIM, FLCM."
+                    ]
+                }
+            },
+            "DIM_Lighting_RightLowBeamLightRequest_@ec38b2fa": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 LowBeamLightControl (id 101, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM."
+                    ]
+                }
+            },
+            "DIM_Lighting_RightTurnLightRequest_@57ef4304": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "DIM_Lighting_@825ad175",
+            "description": [
+                "ExteriorLighting software on the Driver Information Module (DIM). Manages instrument cluster and driver displays."
+            ],
+            "name": "DIM_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.2"
+        }
+    }
+}

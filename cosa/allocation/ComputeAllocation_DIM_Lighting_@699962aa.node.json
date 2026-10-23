@@ -1,0 +1,44 @@
+{
+    "ComputeAllocation_DIM_Lighting_@699962aa": {
+        "stereotype": "ComputeAllocationRealization",
+        "attributes": {},
+        "connections": {
+            "allocatedApplicationComponent": [
+                "DIM_Lighting_@825ad175"
+            ],
+            "allocatedOnComputePlatform": [
+                "DIM_ECU_@8654976d"
+            ],
+            "computeAllocationRealization": [
+                "CRIR_DIM_Lighting_@1014b1a4"
+            ]
+        },
+        "aggregations": {
+            "CRIR_DIM_Lighting_@1014b1a4": {
+                "stereotype": "ComputeResourceInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "allocatedApplicationResourceNeed": [
+                        "DIM_Lighting_ComputeNeed_@869c433a"
+                    ],
+                    "allocatedOnPlatformResource": [
+                        "DIM_ECU_Compute_@5461856c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "DIM_Lighting_ComputeNeed is served by DIM_ECU_Compute."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ComputeAllocation_DIM_Lighting_@699962aa",
+            "description": [
+                "DIM_Lighting runs on the DIM ECU."
+            ],
+            "name": "ComputeAllocation_DIM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

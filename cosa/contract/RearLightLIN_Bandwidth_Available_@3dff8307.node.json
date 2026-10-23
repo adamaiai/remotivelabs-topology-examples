@@ -1,0 +1,23 @@
+{
+    "RearLightLIN_Bandwidth_Available_@3dff8307": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RearLightLIN_Bandwidth_@c0844bd5"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLightLIN_Bandwidth_Available_@3dff8307",
+            "description": [
+                "RearLightLIN always offers the application signals 9600 bit/s. Made-up budget for the remotive_car example."
+            ],
+            "name": "RearLightLIN_Bandwidth_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

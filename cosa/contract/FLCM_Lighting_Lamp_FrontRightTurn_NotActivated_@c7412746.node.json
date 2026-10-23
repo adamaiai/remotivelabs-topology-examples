@@ -6,6 +6,7 @@
         },
         "connections": {
             "assume": [
+                "DC_FLCM_Lighting_ComputeNeed_@e8dde44c",
                 "DC_FLCM_Lighting_RightTurnLightRequest_NotActivated_@eb132364"
             ],
             "assume_safetyContract": [],

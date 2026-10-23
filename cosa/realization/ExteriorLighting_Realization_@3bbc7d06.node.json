@@ -4,11 +4,16 @@
         "attributes": {},
         "connections": {
             "customerFunctionInterfaceRealization": [
+                "CFIR_ExteriorLighting_Cluster_HighBeamTelltale_@cf8f9b1a",
+                "CFIR_ExteriorLighting_Cluster_LeftTurnTelltale_@7a35d7d2",
+                "CFIR_ExteriorLighting_Cluster_RightTurnTelltale_@04e635a3",
                 "CFIR_ExteriorLighting_Driver_BrakePedalPosition_@ef76a746",
                 "CFIR_ExteriorLighting_Driver_HazardLightButton_@792e383f",
                 "CFIR_ExteriorLighting_Driver_HighBeam_@9e49891e",
                 "CFIR_ExteriorLighting_Driver_LightMode_@a8b944a5",
                 "CFIR_ExteriorLighting_Driver_TurnSignal_@4523590b",
+                "CFIR_ExteriorLighting_Infotainment_LeftTurnIndicator_@d34f2e16",
+                "CFIR_ExteriorLighting_Infotainment_RightTurnIndicator_@7cc14f2f",
                 "CFIR_ExteriorLighting_Lamp_FrontLeftDaylightRunning_@759839ef",
                 "CFIR_ExteriorLighting_Lamp_FrontLeftHighBeam_@aac17160",
                 "CFIR_ExteriorLighting_Lamp_FrontLeftLowBeam_@3e19ff02",
@@ -28,6 +33,57 @@
             ]
         },
         "aggregations": {
+            "CFIR_ExteriorLighting_Cluster_HighBeamTelltale_@cf8f9b1a": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Cluster_HighBeamTelltale_@9f9cb462"
+                    ],
+                    "realizingExternalIF": [
+                        "ExteriorLightingDesign_Cluster_HighBeamTelltale_@dd47d334"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Cluster_HighBeamTelltale is provided by the design's boundary interface ExteriorLightingDesign_Cluster_HighBeamTelltale."
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Cluster_LeftTurnTelltale_@7a35d7d2": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Cluster_LeftTurnTelltale_@583ece41"
+                    ],
+                    "realizingExternalIF": [
+                        "ExteriorLightingDesign_Cluster_LeftTurnTelltale_@c67c46e1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Cluster_LeftTurnTelltale is provided by the design's boundary interface ExteriorLightingDesign_Cluster_LeftTurnTelltale."
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Cluster_RightTurnTelltale_@04e635a3": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Cluster_RightTurnTelltale_@06aa2662"
+                    ],
+                    "realizingExternalIF": [
+                        "ExteriorLightingDesign_Cluster_RightTurnTelltale_@abf457e1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Cluster_RightTurnTelltale is provided by the design's boundary interface ExteriorLightingDesign_Cluster_RightTurnTelltale."
+                    ]
+                }
+            },
             "CFIR_ExteriorLighting_Driver_BrakePedalPosition_@ef76a746": {
                 "stereotype": "CustomerFunctionInterfaceRealization",
                 "attributes": {},
@@ -110,6 +166,40 @@
                 "metadata": {
                     "description": [
                         "Functional aspect ExteriorLighting_Driver_TurnSignal is provided by the design's boundary interface ExteriorLightingDesign_Driver_TurnSignal."
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Infotainment_LeftTurnIndicator_@d34f2e16": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Infotainment_LeftTurnIndicator_@f2626247"
+                    ],
+                    "realizingExternalIF": [
+                        "ExteriorLightingDesign_Infotainment_LeftTurnIndicator_@34796f9b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Infotainment_LeftTurnIndicator is provided by the design's boundary interface ExteriorLightingDesign_Infotainment_LeftTurnIndicator."
+                    ]
+                }
+            },
+            "CFIR_ExteriorLighting_Infotainment_RightTurnIndicator_@7cc14f2f": {
+                "stereotype": "CustomerFunctionInterfaceRealization",
+                "attributes": {},
+                "connections": {
+                    "realizedFunctionalAspect": [
+                        "ExteriorLighting_Infotainment_RightTurnIndicator_@4534ae41"
+                    ],
+                    "realizingExternalIF": [
+                        "ExteriorLightingDesign_Infotainment_RightTurnIndicator_@94b50a67"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Functional aspect ExteriorLighting_Infotainment_RightTurnIndicator is provided by the design's boundary interface ExteriorLightingDesign_Infotainment_RightTurnIndicator."
                     ]
                 }
             },

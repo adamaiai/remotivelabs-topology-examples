@@ -6,6 +6,7 @@
         },
         "connections": {
             "assume": [
+                "DC_GWM_Climate_ComputeNeed_@7c3ddfab",
                 "DC_GWM_Climate_HVACService_LeftTemperature_Overheating_@25e129a0"
             ],
             "assume_safetyContract": [],

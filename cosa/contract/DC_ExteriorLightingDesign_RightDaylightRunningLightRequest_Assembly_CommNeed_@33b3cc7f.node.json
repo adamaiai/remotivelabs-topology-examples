@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_CommNeed_@33b3cc7f": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2700.0,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_CommNeed_@c113e7e9"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_CommNeed_@33b3cc7f",
+            "description": [
+                "Critical: bandwidth available to RightDaylightRunningLightRequest on BodyCan0 is below 2700 bit/s for longer than 50 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ExteriorLightingDesign_RightDaylightRunningLightRequest_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

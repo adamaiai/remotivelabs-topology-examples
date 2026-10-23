@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_ComputeAllocation_RLCM_Lighting_@512cce67": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_ComputeAllocation_RLCM_Lighting_@512cce67",
+            "description": "",
+            "name": "AssessmentClaim_ComputeAllocation_RLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

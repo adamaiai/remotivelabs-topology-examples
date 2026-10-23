@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ComputeAllocation_GWM_Climate_@37006a87": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ComputeAllocation_GWM_Climate_@37006a87",
+            "description": "",
+            "name": "ProcessClaim_ComputeAllocation_GWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "RLCM_ECU_Compute_Available_@d09dfe8f": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_RLCM_ECU_Compute_@0a56f286"
+            ]
+        },
+        "metadata": {
+            "uuid": "RLCM_ECU_Compute_Available_@d09dfe8f",
+            "description": [
+                "The RLCM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "RLCM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

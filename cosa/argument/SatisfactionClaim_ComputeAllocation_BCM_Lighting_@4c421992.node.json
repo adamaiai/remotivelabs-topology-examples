@@ -1,0 +1,33 @@
+{
+    "SatisfactionClaim_ComputeAllocation_BCM_Lighting_@4c421992": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "BCM_Lighting_LeftTurnLightRequest_Cadence_@ce3e6268",
+                "BCM_Lighting_LeftTurnLightRequest_NotActivated_@27d349ff",
+                "BCM_Lighting_LeftTurnLightRequest_WronglyActivated_@c0cfe702",
+                "BCM_Lighting_RightTurnLightRequest_Cadence_@910ec443",
+                "BCM_Lighting_RightTurnLightRequest_NotActivated_@a716983e",
+                "BCM_Lighting_RightTurnLightRequest_WronglyActivated_@4f45412a"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "BCM_ECU_Compute_Available_@190a6743"
+            ],
+            "verificationCriteria": [
+                "VM_BCM_ECU_Compute_Available_@933d93e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_BCM_Lighting_@4c421992",
+            "description": [
+                "VM_BCM_ECU_Compute_Available shows BCM_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_BCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

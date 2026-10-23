@@ -1,0 +1,27 @@
+{
+    "DC_LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed_@894a0b53": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 8000.0,
+            "toleranceMargin_Time_ms": 100.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed_@f14e6104"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed_@894a0b53",
+            "description": [
+                "Critical: bandwidth available to TurnlightIndicator_LeftTurnlight on SOMEIP is below 8000 bit/s for longer than 100 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

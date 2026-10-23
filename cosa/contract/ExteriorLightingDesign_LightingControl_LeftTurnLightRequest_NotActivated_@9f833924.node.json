@@ -5,6 +5,7 @@
         "connections": {
             "assume": [
                 "DC_ExteriorLightingDesign_HazardLightButton_Assembly_NotPressed_@5eb62cc8",
+                "DC_ExteriorLightingDesign_LeftTurnLightRequest_Assembly_CommNeed_@f2bb9294",
                 "DC_ExteriorLightingDesign_TurnSignal_Assembly_Misread_@527618a3"
             ],
             "assume_safetyContract": [],

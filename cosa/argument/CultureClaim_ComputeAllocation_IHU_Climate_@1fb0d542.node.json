@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ComputeAllocation_IHU_Climate_@1fb0d542": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ComputeAllocation_IHU_Climate_@1fb0d542",
+            "description": "",
+            "name": "CultureClaim_ComputeAllocation_IHU_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

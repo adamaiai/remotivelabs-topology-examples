@@ -1,0 +1,27 @@
+{
+    "DC_RearLight_SomePartNrDEVS2Nr1_Assembly_CommNeed_@6c6ab6eb": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 914.0,
+            "toleranceMargin_Time_ms": 70.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "RearLight_SomePartNrDEVS2Nr1_Assembly_CommNeed_@ae245f6e"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RearLight_SomePartNrDEVS2Nr1_Assembly_CommNeed_@6c6ab6eb",
+            "description": [
+                "Critical: bandwidth available to SomePartNrDEVS2Nr1 on RearLightLIN is below 914 bit/s for longer than 70 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_RearLight_SomePartNrDEVS2Nr1_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

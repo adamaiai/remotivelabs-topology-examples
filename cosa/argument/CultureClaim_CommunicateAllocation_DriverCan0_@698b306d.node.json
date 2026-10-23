@@ -1,0 +1,17 @@
+{
+    "CultureClaim_CommunicateAllocation_DriverCan0_@698b306d": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_CommunicateAllocation_DriverCan0_@698b306d",
+            "description": "",
+            "name": "CultureClaim_CommunicateAllocation_DriverCan0",
+            "version_schema": "4.6.2"
+        }
+    }
+}

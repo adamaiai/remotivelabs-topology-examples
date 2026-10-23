@@ -1,0 +1,23 @@
+{
+    "DriverCan0_Bandwidth_Available_@96ffb7d7": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_DriverCan0_Bandwidth_@55d13aa3"
+            ]
+        },
+        "metadata": {
+            "uuid": "DriverCan0_Bandwidth_Available_@96ffb7d7",
+            "description": [
+                "DriverCan0 always offers the application signals 250000 bit/s. Made-up budget for the remotive_car example."
+            ],
+            "name": "DriverCan0_Bandwidth_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "IHU_ECU_Compute_Available_@105102f5": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_IHU_ECU_Compute_@d4267ea1"
+            ]
+        },
+        "metadata": {
+            "uuid": "IHU_ECU_Compute_Available_@105102f5",
+            "description": [
+                "The IHU ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "IHU_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

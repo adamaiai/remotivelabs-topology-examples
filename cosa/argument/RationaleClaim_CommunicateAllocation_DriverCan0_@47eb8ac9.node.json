@@ -1,0 +1,27 @@
+{
+    "RationaleClaim_CommunicateAllocation_DriverCan0_@47eb8ac9": {
+        "stereotype": "RationaleClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed_@7720f2ac",
+                "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed_@2af213b2",
+                "ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread_@c354cdfc"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformCommunicationSafetyContract": [
+                "DriverCan0_Bandwidth_Available_@96ffb7d7"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_CommunicateAllocation_DriverCan0_@47eb8ac9",
+            "description": [
+                "DriverCan0_Bandwidth_Available gives the contracts allocated by CommunicateAllocation_DriverCan0 the resources they assume."
+            ],
+            "name": "RationaleClaim_CommunicateAllocation_DriverCan0",
+            "version_schema": "4.6.2"
+        }
+    }
+}

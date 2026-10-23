@@ -1,0 +1,25 @@
+{
+    "VM_IHU_ECU_Compute_Available_@d6a0feba": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "ce9bb50dd4b8ce5fa9679a0872da95eb8b1128f7ebfa56ab2763c53005266a01",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ECU_Compute_Budget_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "IHU_ECU_Compute_Available_@105102f5"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_IHU_ECU_Compute_Available_@d6a0feba",
+            "description": [
+                "ECU compute budget analysis: for IHU, the sum of its software components' compute needs stays below the 50 MFLOPS it offers. Made-up budget for the remotive_car example."
+            ],
+            "name": "VM_IHU_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

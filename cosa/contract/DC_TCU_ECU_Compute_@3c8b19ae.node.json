@@ -1,0 +1,27 @@
+{
+    "DC_TCU_ECU_Compute_@3c8b19ae": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 50.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "TCU_ECU_Compute_@05130160"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_TCU_ECU_Compute_@3c8b19ae",
+            "description": [
+                "Critical: compute the TCU ECU offers its software components is below 50 MFLOPS for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_TCU_ECU_Compute",
+            "version_schema": "4.6.2"
+        }
+    }
+}

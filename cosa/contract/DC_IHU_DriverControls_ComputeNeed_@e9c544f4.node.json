@@ -1,0 +1,27 @@
+{
+    "DC_IHU_DriverControls_ComputeNeed_@e9c544f4": {
+        "stereotype": "ApplicationComputeDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 5.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedComputeResource": [
+                "IHU_DriverControls_ComputeNeed_@b6582630"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_IHU_DriverControls_ComputeNeed_@e9c544f4",
+            "description": [
+                "Critical: compute available to IHU_DriverControls is below 5 MFLOPS for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_IHU_DriverControls_ComputeNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

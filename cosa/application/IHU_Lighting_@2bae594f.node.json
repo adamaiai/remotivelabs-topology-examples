@@ -1,0 +1,98 @@
+{
+    "IHU_Lighting_@2bae594f": {
+        "stereotype": "AtomicApplicationComponent",
+        "attributes": {},
+        "connections": {
+            "computeResourceInterface": [
+                "IHU_Lighting_ComputeNeed_@dcdcdcde"
+            ],
+            "externalInterface": [
+                "IHU_Lighting_Infotainment_LeftTurnIndicator_@f552499d",
+                "IHU_Lighting_Infotainment_RightTurnIndicator_@70820a53",
+                "IHU_Lighting_TurnlightIndicator_LeftTurnlight_@b51f2d54",
+                "IHU_Lighting_TurnlightIndicator_RightTurnlight_@1435597d"
+            ]
+        },
+        "aggregations": {
+            "IHU_Lighting_ComputeNeed_@dcdcdcde": {
+                "stereotype": "ApplicationComputeResourceInterface",
+                "attributes": {
+                    "dataTypeCategory": "Number",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": "MFLOPS"
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Compute resource IHU_Lighting needs from the IHU ECU."
+                    ]
+                }
+            },
+            "IHU_Lighting_Infotainment_LeftTurnIndicator_@f552499d": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "IHU_Lighting_Infotainment_RightTurnIndicator_@70820a53": {
+                "stereotype": "External_Output",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "IHU_Lighting_TurnlightIndicator_LeftTurnlight_@b51f2d54": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
+                    ]
+                }
+            },
+            "IHU_Lighting_TurnlightIndicator_RightTurnlight_@1435597d": {
+                "stereotype": "External_Input",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "IHU_Lighting_@2bae594f",
+            "description": [
+                "ExteriorLighting software on the Infotainment Head Unit (IHU). Manages infotainment and user interface systems."
+            ],
+            "name": "IHU_Lighting",
+            "source": "remotive_car/platform/remotive-car.platform.yaml",
+            "version_schema": "4.6.2"
+        }
+    }
+}

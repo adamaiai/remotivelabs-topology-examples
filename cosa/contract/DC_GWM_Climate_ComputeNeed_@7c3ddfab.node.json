@@ -1,0 +1,27 @@
+{
+    "DC_GWM_Climate_ComputeNeed_@7c3ddfab": {
+        "stereotype": "ApplicationComputeDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 5.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedComputeResource": [
+                "GWM_Climate_ComputeNeed_@08899a83"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_GWM_Climate_ComputeNeed_@7c3ddfab",
+            "description": [
+                "Critical: compute available to GWM_Climate is below 5 MFLOPS for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_GWM_Climate_ComputeNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

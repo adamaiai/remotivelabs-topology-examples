@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ComputeAllocation_RLCM_Lighting_@4ccfa9cb": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ComputeAllocation_RLCM_Lighting_@4ccfa9cb",
+            "description": "",
+            "name": "CultureClaim_ComputeAllocation_RLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

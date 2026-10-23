@@ -1,0 +1,27 @@
+{
+    "DC_BodyCan0_Bandwidth_@4fe8061c": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 250000.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BodyCan0_Bandwidth_@f9ca22c4"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BodyCan0_Bandwidth_@4fe8061c",
+            "description": [
+                "Critical: bandwidth BodyCan0 offers the application signals is below 250000 bit/s for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_BodyCan0_Bandwidth",
+            "version_schema": "4.6.2"
+        }
+    }
+}

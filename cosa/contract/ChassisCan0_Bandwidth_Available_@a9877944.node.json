@@ -1,0 +1,23 @@
+{
+    "ChassisCan0_Bandwidth_Available_@a9877944": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ChassisCan0_Bandwidth_@aa12c311"
+            ]
+        },
+        "metadata": {
+            "uuid": "ChassisCan0_Bandwidth_Available_@a9877944",
+            "description": [
+                "ChassisCan0 always offers the application signals 250000 bit/s. Made-up budget for the remotive_car example."
+            ],
+            "name": "ChassisCan0_Bandwidth_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "DC_SOMEIP_Bandwidth_@ff757778": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 50000000.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "SOMEIP_Bandwidth_@e1d7374e"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_SOMEIP_Bandwidth_@ff757778",
+            "description": [
+                "Critical: bandwidth SOMEIP offers the application signals is below 5e+07 bit/s for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_SOMEIP_Bandwidth",
+            "version_schema": "4.6.2"
+        }
+    }
+}

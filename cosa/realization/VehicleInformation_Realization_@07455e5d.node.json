@@ -4,12 +4,8 @@
         "attributes": {},
         "connections": {
             "customerFunctionInterfaceRealization": [
-                "CFIR_VehicleInformation_Cluster_LeftTurnTelltale_@b6c76516",
                 "CFIR_VehicleInformation_Cluster_ProximityDistance_@8e2dadbb",
-                "CFIR_VehicleInformation_Cluster_RightTurnTelltale_@5b2198df",
                 "CFIR_VehicleInformation_Cluster_StateOfCharge_@454165f5",
-                "CFIR_VehicleInformation_Infotainment_LeftTurnIndicator_@1acb7939",
-                "CFIR_VehicleInformation_Infotainment_RightTurnIndicator_@1c96892e",
                 "CFIR_VehicleInformation_Infotainment_VehicleSpeed_@e26c437c"
             ],
             "realizedCustomerFunction": [
@@ -20,23 +16,6 @@
             ]
         },
         "aggregations": {
-            "CFIR_VehicleInformation_Cluster_LeftTurnTelltale_@b6c76516": {
-                "stereotype": "CustomerFunctionInterfaceRealization",
-                "attributes": {},
-                "connections": {
-                    "realizedFunctionalAspect": [
-                        "VehicleInformation_Cluster_LeftTurnTelltale_@ccc30c6d"
-                    ],
-                    "realizingExternalIF": [
-                        "VehicleInformationDesign_Cluster_LeftTurnTelltale_@ae84195f"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Functional aspect VehicleInformation_Cluster_LeftTurnTelltale is provided by the design's boundary interface VehicleInformationDesign_Cluster_LeftTurnTelltale."
-                    ]
-                }
-            },
             "CFIR_VehicleInformation_Cluster_ProximityDistance_@8e2dadbb": {
                 "stereotype": "CustomerFunctionInterfaceRealization",
                 "attributes": {},
@@ -54,23 +33,6 @@
                     ]
                 }
             },
-            "CFIR_VehicleInformation_Cluster_RightTurnTelltale_@5b2198df": {
-                "stereotype": "CustomerFunctionInterfaceRealization",
-                "attributes": {},
-                "connections": {
-                    "realizedFunctionalAspect": [
-                        "VehicleInformation_Cluster_RightTurnTelltale_@a0a3b898"
-                    ],
-                    "realizingExternalIF": [
-                        "VehicleInformationDesign_Cluster_RightTurnTelltale_@2f258e35"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Functional aspect VehicleInformation_Cluster_RightTurnTelltale is provided by the design's boundary interface VehicleInformationDesign_Cluster_RightTurnTelltale."
-                    ]
-                }
-            },
             "CFIR_VehicleInformation_Cluster_StateOfCharge_@454165f5": {
                 "stereotype": "CustomerFunctionInterfaceRealization",
                 "attributes": {},
@@ -85,40 +47,6 @@
                 "metadata": {
                     "description": [
                         "Functional aspect VehicleInformation_Cluster_StateOfCharge is provided by the design's boundary interface VehicleInformationDesign_Cluster_StateOfCharge."
-                    ]
-                }
-            },
-            "CFIR_VehicleInformation_Infotainment_LeftTurnIndicator_@1acb7939": {
-                "stereotype": "CustomerFunctionInterfaceRealization",
-                "attributes": {},
-                "connections": {
-                    "realizedFunctionalAspect": [
-                        "VehicleInformation_Infotainment_LeftTurnIndicator_@42165c6a"
-                    ],
-                    "realizingExternalIF": [
-                        "VehicleInformationDesign_Infotainment_LeftTurnIndicator_@9fe2c0c9"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Functional aspect VehicleInformation_Infotainment_LeftTurnIndicator is provided by the design's boundary interface VehicleInformationDesign_Infotainment_LeftTurnIndicator."
-                    ]
-                }
-            },
-            "CFIR_VehicleInformation_Infotainment_RightTurnIndicator_@1c96892e": {
-                "stereotype": "CustomerFunctionInterfaceRealization",
-                "attributes": {},
-                "connections": {
-                    "realizedFunctionalAspect": [
-                        "VehicleInformation_Infotainment_RightTurnIndicator_@47ace99d"
-                    ],
-                    "realizingExternalIF": [
-                        "VehicleInformationDesign_Infotainment_RightTurnIndicator_@8e8660c0"
-                    ]
-                },
-                "metadata": {
-                    "description": [
-                        "Functional aspect VehicleInformation_Infotainment_RightTurnIndicator is provided by the design's boundary interface VehicleInformationDesign_Infotainment_RightTurnIndicator."
                     ]
                 }
             },

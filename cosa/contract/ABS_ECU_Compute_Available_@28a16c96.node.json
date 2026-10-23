@@ -1,0 +1,23 @@
+{
+    "ABS_ECU_Compute_Available_@28a16c96": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_ABS_ECU_Compute_@d27c029d"
+            ]
+        },
+        "metadata": {
+            "uuid": "ABS_ECU_Compute_Available_@28a16c96",
+            "description": [
+                "The ABS ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "ABS_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

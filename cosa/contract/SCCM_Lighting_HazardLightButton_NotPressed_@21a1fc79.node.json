@@ -6,6 +6,7 @@
         },
         "connections": {
             "assume": [
+                "DC_SCCM_Lighting_ComputeNeed_@72821d2d",
                 "DC_SCCM_Lighting_Driver_HazardLightButton_NotPressed_@ebea80e6"
             ],
             "assume_safetyContract": [],

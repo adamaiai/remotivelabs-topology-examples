@@ -1,0 +1,526 @@
+{
+    "ImplementedLightingIndication_@716ced1d": {
+        "stereotype": "ComposedRealization",
+        "attributes": {
+            "isValid": true
+        },
+        "connections": {
+            "aggregationRealization": [
+                "Chosen_LightingIndication_DIM_@2a92c60d",
+                "Chosen_LightingIndication_GWM_@243a4302",
+                "Chosen_LightingIndication_IHU_@b31d19ff"
+            ],
+            "realizedComposition": [
+                "LightingIndication_@3d02c741"
+            ]
+        },
+        "aggregations": {
+            "Chosen_LightingIndication_DIM_@2a92c60d": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_LightingIndication_DIM_Cluster_HighBeamTelltale_@c163a754",
+                        "IR_LightingIndication_DIM_Cluster_LeftTurnTelltale_@213cc1ba",
+                        "IR_LightingIndication_DIM_Cluster_RightTurnTelltale_@76c9cf95",
+                        "IR_LightingIndication_DIM_LeftBrakeLightRequest_@971cd5cb",
+                        "IR_LightingIndication_DIM_LeftDaylightRunningLightRequest_@e24a706d",
+                        "IR_LightingIndication_DIM_LeftHighBeamLightRequest_@f8d307de",
+                        "IR_LightingIndication_DIM_LeftLowBeamLightRequest_@5c3fc461",
+                        "IR_LightingIndication_DIM_LeftTurnLightRequest_@17b5a867",
+                        "IR_LightingIndication_DIM_RightBrakeLightRequest_@aa558f92",
+                        "IR_LightingIndication_DIM_RightDaylightRunningLightRequest_@7e9d892b",
+                        "IR_LightingIndication_DIM_RightHighBeamLightRequest_@9caf0355",
+                        "IR_LightingIndication_DIM_RightLowBeamLightRequest_@d2949414",
+                        "IR_LightingIndication_DIM_RightTurnLightRequest_@2584e426"
+                    ],
+                    "realizedPlaceholder": [
+                        "LightingIndication_DIM_@9456d695"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedDIM_Lighting_@e8faebdf"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder DIM is realized by ImplementedDIM_Lighting, the realization of DIM_Lighting."
+                    ]
+                }
+            },
+            "Chosen_LightingIndication_GWM_@243a4302": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_LightingIndication_GWM_LeftBrakeLightRequest_@083b3087",
+                        "IR_LightingIndication_GWM_LeftTurnLightRequest_@83ed6250",
+                        "IR_LightingIndication_GWM_RightBrakeLightRequest_@4c9f6d8c",
+                        "IR_LightingIndication_GWM_RightTurnLightRequest_@806405ce",
+                        "IR_LightingIndication_GWM_TurnlightIndicator_LeftTurnlight_@73582556",
+                        "IR_LightingIndication_GWM_TurnlightIndicator_RightTurnlight_@8bbe7151"
+                    ],
+                    "realizedPlaceholder": [
+                        "LightingIndication_GWM_@94b06e1d"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedGWM_Lighting_@308761b7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder GWM is realized by ImplementedGWM_Lighting, the realization of GWM_Lighting."
+                    ]
+                }
+            },
+            "Chosen_LightingIndication_IHU_@b31d19ff": {
+                "stereotype": "AggregationRealization",
+                "attributes": {},
+                "connections": {
+                    "intf_realization": [
+                        "IR_LightingIndication_IHU_Infotainment_LeftTurnIndicator_@cbe5728b",
+                        "IR_LightingIndication_IHU_Infotainment_RightTurnIndicator_@8c630e92",
+                        "IR_LightingIndication_IHU_TurnlightIndicator_LeftTurnlight_@595aa165",
+                        "IR_LightingIndication_IHU_TurnlightIndicator_RightTurnlight_@e9d32898"
+                    ],
+                    "realizedPlaceholder": [
+                        "LightingIndication_IHU_@3846d472"
+                    ],
+                    "realizingIntegration": [
+                        "ImplementedIHU_Lighting_@08df86ad"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Placeholder IHU is realized by ImplementedIHU_Lighting, the realization of IHU_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_Cluster_HighBeamTelltale_@c163a754": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_Cluster_HighBeamTelltale_Delegation_@3c31d6a6"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_Cluster_HighBeamTelltale_@63136db1"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_Cluster_HighBeamTelltale_Delegation of placeholder DIM is provided by DIM_Lighting_Cluster_HighBeamTelltale of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_Cluster_LeftTurnTelltale_@213cc1ba": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_Cluster_LeftTurnTelltale_Delegation_@400c8111"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_Cluster_LeftTurnTelltale_@2d5965f4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_Cluster_LeftTurnTelltale_Delegation of placeholder DIM is provided by DIM_Lighting_Cluster_LeftTurnTelltale of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_Cluster_RightTurnTelltale_@76c9cf95": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_Cluster_RightTurnTelltale_Delegation_@4c9cdfe6"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_Cluster_RightTurnTelltale_@b76769e7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_Cluster_RightTurnTelltale_Delegation of placeholder DIM is provided by DIM_Lighting_Cluster_RightTurnTelltale of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_LeftBrakeLightRequest_@971cd5cb": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftBrakeLightRequest_Delegation_@6ecf3609"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_LeftBrakeLightRequest_@47f40eca"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftBrakeLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_LeftBrakeLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_LeftDaylightRunningLightRequest_@e24a706d": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftDaylightRunningLightRequest_Delegation_@88f75a82"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_LeftDaylightRunningLightRequest_@cb0e116c"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftDaylightRunningLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_LeftDaylightRunningLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_LeftHighBeamLightRequest_@f8d307de": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftHighBeamLightRequest_Delegation_@2ba29697"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_LeftHighBeamLightRequest_@7bc5c808"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftHighBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_LeftHighBeamLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_LeftLowBeamLightRequest_@5c3fc461": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftLowBeamLightRequest_Delegation_@f40497dd"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_LeftLowBeamLightRequest_@c436dda0"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftLowBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_LeftLowBeamLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_LeftTurnLightRequest_@17b5a867": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftTurnLightRequest_Delegation_@8becd76f"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_LeftTurnLightRequest_@1664018b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftTurnLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_LeftTurnLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_RightBrakeLightRequest_@aa558f92": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightBrakeLightRequest_Delegation_@dd16fc5d"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_RightBrakeLightRequest_@33c03f19"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightBrakeLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_RightBrakeLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_RightDaylightRunningLightRequest_@7e9d892b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightDaylightRunningLightRequest_Delegation_@1f581bd8"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_RightDaylightRunningLightRequest_@dcb842b7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightDaylightRunningLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_RightDaylightRunningLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_RightHighBeamLightRequest_@9caf0355": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightHighBeamLightRequest_Delegation_@1c5e3fd3"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_RightHighBeamLightRequest_@fa67b54e"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightHighBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_RightHighBeamLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_RightLowBeamLightRequest_@d2949414": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightLowBeamLightRequest_Delegation_@f1eedbd3"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_RightLowBeamLightRequest_@ec38b2fa"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightLowBeamLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_RightLowBeamLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_DIM_RightTurnLightRequest_@2584e426": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightTurnLightRequest_Delegation_@bd537804"
+                    ],
+                    "realizingInterface": [
+                        "DIM_Lighting_RightTurnLightRequest_@57ef4304"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightTurnLightRequest_Delegation of placeholder DIM is provided by DIM_Lighting_RightTurnLightRequest of DIM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_GWM_LeftBrakeLightRequest_@083b3087": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftBrakeLightRequest_Delegation_@6ecf3609"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Lighting_LeftBrakeLightRequest_@ec61ac56"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftBrakeLightRequest_Delegation of placeholder GWM is provided by GWM_Lighting_LeftBrakeLightRequest of GWM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_GWM_LeftTurnLightRequest_@83ed6250": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_LeftTurnLightRequest_Delegation_@8becd76f"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Lighting_LeftTurnLightRequest_@93b35ed7"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_LeftTurnLightRequest_Delegation of placeholder GWM is provided by GWM_Lighting_LeftTurnLightRequest of GWM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_GWM_RightBrakeLightRequest_@4c9f6d8c": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightBrakeLightRequest_Delegation_@dd16fc5d"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Lighting_RightBrakeLightRequest_@57fbb61b"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightBrakeLightRequest_Delegation of placeholder GWM is provided by GWM_Lighting_RightBrakeLightRequest of GWM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_GWM_RightTurnLightRequest_@806405ce": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_RightTurnLightRequest_Delegation_@bd537804"
+                    ],
+                    "realizingInterface": [
+                        "GWM_Lighting_RightTurnLightRequest_@06e53a75"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_RightTurnLightRequest_Delegation of placeholder GWM is provided by GWM_Lighting_RightTurnLightRequest of GWM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_GWM_TurnlightIndicator_LeftTurnlight_@73582556": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_@e5e22e80"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Lighting_TurnlightIndicator_LeftTurnlight_@da1d57b4"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly of placeholder GWM is provided by GWM_Lighting_TurnlightIndicator_LeftTurnlight of GWM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_GWM_TurnlightIndicator_RightTurnlight_@8bbe7151": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "LightingIndication_TurnlightIndicator_RightTurnlight_Assembly_@2e5be06d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "GWM_Lighting_TurnlightIndicator_RightTurnlight_@01a40090"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_TurnlightIndicator_RightTurnlight_Assembly of placeholder GWM is provided by GWM_Lighting_TurnlightIndicator_RightTurnlight of GWM_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_IHU_Infotainment_LeftTurnIndicator_@cbe5728b": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_Infotainment_LeftTurnIndicator_Delegation_@7d5dc286"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Lighting_Infotainment_LeftTurnIndicator_@f552499d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_Infotainment_LeftTurnIndicator_Delegation of placeholder IHU is provided by IHU_Lighting_Infotainment_LeftTurnIndicator of IHU_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_IHU_Infotainment_RightTurnIndicator_@8c630e92": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [],
+                    "realized_intf_Delegation": [
+                        "LightingIndication_Infotainment_RightTurnIndicator_Delegation_@7f0cdd63"
+                    ],
+                    "realizingInterface": [
+                        "IHU_Lighting_Infotainment_RightTurnIndicator_@70820a53"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_Infotainment_RightTurnIndicator_Delegation of placeholder IHU is provided by IHU_Lighting_Infotainment_RightTurnIndicator of IHU_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_IHU_TurnlightIndicator_LeftTurnlight_@595aa165": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_@e5e22e80"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Lighting_TurnlightIndicator_LeftTurnlight_@b51f2d54"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly of placeholder IHU is provided by IHU_Lighting_TurnlightIndicator_LeftTurnlight of IHU_Lighting."
+                    ]
+                }
+            },
+            "IR_LightingIndication_IHU_TurnlightIndicator_RightTurnlight_@e9d32898": {
+                "stereotype": "Interface_Realization",
+                "attributes": {},
+                "connections": {
+                    "realized_intf_Assembly": [
+                        "LightingIndication_TurnlightIndicator_RightTurnlight_Assembly_@2e5be06d"
+                    ],
+                    "realized_intf_Delegation": [],
+                    "realizingInterface": [
+                        "IHU_Lighting_TurnlightIndicator_RightTurnlight_@1435597d"
+                    ]
+                },
+                "metadata": {
+                    "description": [
+                        "Port LightingIndication_TurnlightIndicator_RightTurnlight_Assembly of placeholder IHU is provided by IHU_Lighting_TurnlightIndicator_RightTurnlight of IHU_Lighting."
+                    ]
+                }
+            }
+        },
+        "metadata": {
+            "uuid": "ImplementedLightingIndication_@716ced1d",
+            "description": [
+                "Realizes LightingIndication by its parts' realizations.",
+                "",
+                "- DIM \u2192 ImplementedDIM_Lighting",
+                "- GWM \u2192 ImplementedGWM_Lighting",
+                "- IHU \u2192 ImplementedIHU_Lighting"
+            ],
+            "name": "ImplementedLightingIndication",
+            "version_schema": "4.6.2"
+        }
+    }
+}

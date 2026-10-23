@@ -1,0 +1,23 @@
+{
+    "PAM_ECU_Compute_Available_@2148871e": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_PAM_ECU_Compute_@a5285201"
+            ]
+        },
+        "metadata": {
+            "uuid": "PAM_ECU_Compute_Available_@2148871e",
+            "description": [
+                "The PAM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "PAM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

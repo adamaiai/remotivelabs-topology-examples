@@ -1,0 +1,21 @@
+{
+    "Evidence_Bus_Load_Analysis_@96dddfd9": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/Bus_Load_Analysis.md",
+            "validUntil": "",
+            "version": "b777ee642a5dd447918848f1acc947aeae2ca4773b2f47ee2f41a7f9dfe496fa"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_Bus_Load_Analysis_@96dddfd9",
+            "description": [
+                "Dummy analysis report."
+            ],
+            "name": "Evidence_Bus_Load_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

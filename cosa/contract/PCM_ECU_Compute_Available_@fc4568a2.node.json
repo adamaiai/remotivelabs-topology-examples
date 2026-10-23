@@ -1,0 +1,23 @@
+{
+    "PCM_ECU_Compute_Available_@fc4568a2": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_PCM_ECU_Compute_@df81f295"
+            ]
+        },
+        "metadata": {
+            "uuid": "PCM_ECU_Compute_Available_@fc4568a2",
+            "description": [
+                "The PCM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "PCM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

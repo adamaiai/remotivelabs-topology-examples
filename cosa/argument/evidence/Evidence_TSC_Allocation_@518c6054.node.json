@@ -1,0 +1,21 @@
+{
+    "Evidence_TSC_Allocation_@518c6054": {
+        "stereotype": "SafetyCaseEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/TSC_Allocation.md",
+            "validUntil": "",
+            "version": "6fb990121dcffd9fd845cf9d1666f6a7db58b4db58eabf15ee0b98ea6fcc4a15"
+        },
+        "connections": {
+            "referencedArtifactElement": []
+        },
+        "metadata": {
+            "uuid": "Evidence_TSC_Allocation_@518c6054",
+            "description": [
+                "Technical safety concept: allocation."
+            ],
+            "name": "Evidence_TSC_Allocation",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "BodyCan0_Bandwidth_Available_@1cb5e816": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_BodyCan0_Bandwidth_@4fe8061c"
+            ]
+        },
+        "metadata": {
+            "uuid": "BodyCan0_Bandwidth_Available_@1cb5e816",
+            "description": [
+                "BodyCan0 always offers the application signals 250000 bit/s. Made-up budget for the remotive_car example."
+            ],
+            "name": "BodyCan0_Bandwidth_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

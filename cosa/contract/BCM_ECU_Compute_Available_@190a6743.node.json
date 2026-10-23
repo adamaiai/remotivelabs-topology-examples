@@ -1,0 +1,23 @@
+{
+    "BCM_ECU_Compute_Available_@190a6743": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_BCM_ECU_Compute_@01969e33"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_ECU_Compute_Available_@190a6743",
+            "description": [
+                "The BCM ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "BCM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

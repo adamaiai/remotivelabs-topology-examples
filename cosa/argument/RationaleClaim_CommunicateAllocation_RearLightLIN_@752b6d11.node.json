@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_CommunicateAllocation_RearLightLIN_@752b6d11": {
+        "stereotype": "RationaleClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "RearLight_RLCM_ReqLeft_NotActivated_@b75011db",
+                "RearLight_RLCM_ReqLeft_WronglyActivated_@c625866e",
+                "RearLight_RLCM_ReqRight_NotActivated_@b4b2cdbe",
+                "RearLight_RLCM_ReqRight_WronglyActivated_@896fbb75"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformCommunicationSafetyContract": [
+                "RearLightLIN_Bandwidth_Available_@3dff8307"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_CommunicateAllocation_RearLightLIN_@752b6d11",
+            "description": [
+                "RearLightLIN_Bandwidth_Available gives the contracts allocated by CommunicateAllocation_RearLightLIN the resources they assume."
+            ],
+            "name": "RationaleClaim_CommunicateAllocation_RearLightLIN",
+            "version_schema": "4.6.2"
+        }
+    }
+}

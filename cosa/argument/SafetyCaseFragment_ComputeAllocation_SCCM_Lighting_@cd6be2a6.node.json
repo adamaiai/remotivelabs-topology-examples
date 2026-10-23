@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_ComputeAllocation_SCCM_Lighting_@cd6be2a6": {
+        "stereotype": "SafetyCaseFragment_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ComputeAllocation_SCCM_Lighting_@b0ec56f4"
+            ],
+            "computeAllocationRealization": [
+                "ComputeAllocation_SCCM_Lighting_@705e8b9c"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ComputeAllocation_SCCM_Lighting_@4424e110"
+            ],
+            "processClaim": [
+                "ProcessClaim_ComputeAllocation_SCCM_Lighting_@5f9837a6"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ComputeAllocation_SCCM_Lighting_@35dbb76a"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ComputeAllocation_SCCM_Lighting_@a5bb8bfb"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ComputeAllocation_SCCM_Lighting_@cd6be2a6",
+            "description": [
+                "Safety case fragment arguing ComputeAllocation_SCCM_Lighting."
+            ],
+            "name": "SafetyCaseFragment_ComputeAllocation_SCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

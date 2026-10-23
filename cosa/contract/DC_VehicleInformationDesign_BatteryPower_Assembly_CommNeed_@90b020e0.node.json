@@ -1,0 +1,27 @@
+{
+    "DC_VehicleInformationDesign_BatteryPower_Assembly_CommNeed_@90b020e0": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 1350.0,
+            "toleranceMargin_Time_ms": 100.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "VehicleInformationDesign_BatteryPower_Assembly_CommNeed_@a1f4b63b"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_VehicleInformationDesign_BatteryPower_Assembly_CommNeed_@90b020e0",
+            "description": [
+                "Critical: bandwidth available to BatteryPower on ChassisCan0 is below 1350 bit/s for longer than 100 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_VehicleInformationDesign_BatteryPower_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

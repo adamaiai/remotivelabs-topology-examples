@@ -1,0 +1,23 @@
+{
+    "ImplementedIHU_Lighting_@08df86ad": {
+        "stereotype": "Model2CodeAbstractionRealization",
+        "attributes": {
+            "hash": "171f2d058c8f9007cffb38af7fa33c2f6035351a",
+            "isValid": true,
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/ihu/python/ihu"
+        },
+        "connections": {
+            "realizedModel": [
+                "IHU_Lighting_@2bae594f"
+            ]
+        },
+        "metadata": {
+            "uuid": "ImplementedIHU_Lighting_@08df86ad",
+            "description": [
+                "Implementation: Python behavioral model; the IHU implementation serves all of its software components."
+            ],
+            "name": "ImplementedIHU_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

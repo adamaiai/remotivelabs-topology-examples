@@ -1,0 +1,23 @@
+{
+    "DEVS2_ECU_Compute_Available_@3128a69a": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_DEVS2_ECU_Compute_@f89a082d"
+            ]
+        },
+        "metadata": {
+            "uuid": "DEVS2_ECU_Compute_Available_@3128a69a",
+            "description": [
+                "The DEVS2 ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "DEVS2_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

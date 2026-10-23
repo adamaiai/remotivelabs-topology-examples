@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_CommunicateAllocation_SOMEIP_@2f57ea7a": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_CommunicateAllocation_SOMEIP_@2f57ea7a",
+            "description": "",
+            "name": "AssessmentClaim_CommunicateAllocation_SOMEIP",
+            "version_schema": "4.6.2"
+        }
+    }
+}

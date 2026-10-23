@@ -1,0 +1,27 @@
+{
+    "DC_VehicleStateSensing_MotorSpeed_Assembly_CommNeed_@4a3ec8d8": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 6750.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "VehicleStateSensing_MotorSpeed_Assembly_CommNeed_@b84acce3"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_VehicleStateSensing_MotorSpeed_Assembly_CommNeed_@4a3ec8d8",
+            "description": [
+                "Critical: bandwidth available to MotorSpeed on ChassisCan0 is below 6750 bit/s for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_VehicleStateSensing_MotorSpeed_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

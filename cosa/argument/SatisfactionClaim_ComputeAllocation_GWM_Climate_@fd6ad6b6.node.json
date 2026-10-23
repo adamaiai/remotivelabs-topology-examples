@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_ComputeAllocation_GWM_Climate_@fd6ad6b6": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "GWM_Climate_LeftTemperature_Overheating_@9d65936c",
+                "GWM_Climate_RightTemperature_Overheating_@e14f8948"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "GWM_ECU_Compute_Available_@b1adebca"
+            ],
+            "verificationCriteria": [
+                "VM_GWM_ECU_Compute_Available_@0b59e408"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_GWM_Climate_@fd6ad6b6",
+            "description": [
+                "VM_GWM_ECU_Compute_Available shows GWM_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_GWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

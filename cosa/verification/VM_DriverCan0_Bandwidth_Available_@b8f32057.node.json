@@ -1,0 +1,25 @@
+{
+    "VM_DriverCan0_Bandwidth_Available_@b8f32057": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "b777ee642a5dd447918848f1acc947aeae2ca4773b2f47ee2f41a7f9dfe496fa",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/Bus_Load_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "DriverCan0_Bandwidth_Available_@96ffb7d7"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_DriverCan0_Bandwidth_Available_@b8f32057",
+            "description": [
+                "Bus load analysis: for DriverCan0, the sum of its signals' bandwidth needs stays below half its bit rate. Made-up budget for the remotive_car example."
+            ],
+            "name": "VM_DriverCan0_Bandwidth_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

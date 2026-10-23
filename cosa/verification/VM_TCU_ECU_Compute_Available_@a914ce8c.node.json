@@ -1,0 +1,25 @@
+{
+    "VM_TCU_ECU_Compute_Available_@a914ce8c": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "ce9bb50dd4b8ce5fa9679a0872da95eb8b1128f7ebfa56ab2763c53005266a01",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ECU_Compute_Budget_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "TCU_ECU_Compute_Available_@9697c35d"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_TCU_ECU_Compute_Available_@a914ce8c",
+            "description": [
+                "ECU compute budget analysis: for TCU, the sum of its software components' compute needs stays below the 50 MFLOPS it offers. Made-up budget for the remotive_car example."
+            ],
+            "name": "VM_TCU_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

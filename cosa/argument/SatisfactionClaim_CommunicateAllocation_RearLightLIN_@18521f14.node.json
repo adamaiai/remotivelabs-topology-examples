@@ -1,0 +1,31 @@
+{
+    "SatisfactionClaim_CommunicateAllocation_RearLightLIN_@18521f14": {
+        "stereotype": "SatisfactionClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "RearLight_RLCM_ReqLeft_NotActivated_@b75011db",
+                "RearLight_RLCM_ReqLeft_WronglyActivated_@c625866e",
+                "RearLight_RLCM_ReqRight_NotActivated_@b4b2cdbe",
+                "RearLight_RLCM_ReqRight_WronglyActivated_@896fbb75"
+            ],
+            "evidence": [
+                "Evidence_Bus_Load_Analysis_@96dddfd9"
+            ],
+            "platformCommunicationSafetyContract": [
+                "RearLightLIN_Bandwidth_Available_@3dff8307"
+            ],
+            "verificationCriteria": [
+                "VM_RearLightLIN_Bandwidth_Available_@c434a292"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_CommunicateAllocation_RearLightLIN_@18521f14",
+            "description": [
+                "VM_RearLightLIN_Bandwidth_Available shows RearLightLIN_Bandwidth_Available holds."
+            ],
+            "name": "SatisfactionClaim_CommunicateAllocation_RearLightLIN",
+            "version_schema": "4.6.2"
+        }
+    }
+}

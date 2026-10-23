@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_ComputeAllocation_RLCM_Lighting_@56ebfcdf": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "RLCM_Lighting_ReqLeft_NotActivated_@8e673bcd",
+                "RLCM_Lighting_ReqLeft_WronglyActivated_@4f9f9812",
+                "RLCM_Lighting_ReqRight_NotActivated_@43d84b08",
+                "RLCM_Lighting_ReqRight_WronglyActivated_@dc5dcb25"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "RLCM_ECU_Compute_Available_@d09dfe8f"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_RLCM_Lighting_@56ebfcdf",
+            "description": [
+                "RLCM_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_RLCM_Lighting the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_RLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

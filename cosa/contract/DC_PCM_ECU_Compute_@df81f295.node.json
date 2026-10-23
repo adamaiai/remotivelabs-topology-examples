@@ -1,0 +1,27 @@
+{
+    "DC_PCM_ECU_Compute_@df81f295": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 50.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "PCM_ECU_Compute_@375b1c8c"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_PCM_ECU_Compute_@df81f295",
+            "description": [
+                "Critical: compute the PCM ECU offers its software components is below 50 MFLOPS for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_PCM_ECU_Compute",
+            "version_schema": "4.6.2"
+        }
+    }
+}

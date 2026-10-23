@@ -4,7 +4,8 @@
         "attributes": {},
         "connections": {
             "assume": [
-                "DC_RearLight_LeftTurnLightRequest_NotActivated_@0c18fac5"
+                "DC_RearLight_LeftTurnLightRequest_NotActivated_@0c18fac5",
+                "DC_RearLight_ReqLeft_Assembly_CommNeed_@bc1953a9"
             ],
             "assume_safetyContract": [],
             "guarantee": [

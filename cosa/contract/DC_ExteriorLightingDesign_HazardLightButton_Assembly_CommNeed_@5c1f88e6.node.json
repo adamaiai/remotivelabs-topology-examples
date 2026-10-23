@@ -1,0 +1,27 @@
+{
+    "DC_ExteriorLightingDesign_HazardLightButton_Assembly_CommNeed_@5c1f88e6": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 2700.0,
+            "toleranceMargin_Time_ms": 50.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "ExteriorLightingDesign_HazardLightButton_Assembly_CommNeed_@aef3e28a"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ExteriorLightingDesign_HazardLightButton_Assembly_CommNeed_@5c1f88e6",
+            "description": [
+                "Critical: bandwidth available to HazardLightButton on DriverCan0 is below 2700 bit/s for longer than 50 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ExteriorLightingDesign_HazardLightButton_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

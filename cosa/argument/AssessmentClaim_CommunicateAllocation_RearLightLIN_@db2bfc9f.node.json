@@ -1,0 +1,17 @@
+{
+    "AssessmentClaim_CommunicateAllocation_RearLightLIN_@db2bfc9f": {
+        "stereotype": "AssessmentClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Functional_Safety_Assessment_@77fdbc81"
+            ]
+        },
+        "metadata": {
+            "uuid": "AssessmentClaim_CommunicateAllocation_RearLightLIN_@db2bfc9f",
+            "description": "",
+            "name": "AssessmentClaim_CommunicateAllocation_RearLightLIN",
+            "version_schema": "4.6.2"
+        }
+    }
+}

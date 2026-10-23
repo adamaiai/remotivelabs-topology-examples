@@ -1,0 +1,31 @@
+{
+    "SatisfactionClaim_ComputeAllocation_FLCM_Lighting_@5ac66593": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "FLCM_Lighting_Lamp_FrontLeftTurn_NotActivated_@171afb2a",
+                "FLCM_Lighting_Lamp_FrontLeftTurn_WronglyActivated_@f0b2c69b",
+                "FLCM_Lighting_Lamp_FrontRightTurn_NotActivated_@c7412746",
+                "FLCM_Lighting_Lamp_FrontRightTurn_WronglyActivated_@793b97eb"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "FLCM_ECU_Compute_Available_@2d13b707"
+            ],
+            "verificationCriteria": [
+                "VM_FLCM_ECU_Compute_Available_@89b51839"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_FLCM_Lighting_@5ac66593",
+            "description": [
+                "VM_FLCM_ECU_Compute_Available shows FLCM_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_FLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

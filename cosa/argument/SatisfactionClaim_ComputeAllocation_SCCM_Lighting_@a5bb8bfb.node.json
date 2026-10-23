@@ -1,0 +1,30 @@
+{
+    "SatisfactionClaim_ComputeAllocation_SCCM_Lighting_@a5bb8bfb": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "SCCM_Lighting_HazardLightButton_NotPressed_@21a1fc79",
+                "SCCM_Lighting_HazardLightButton_WronglyPressed_@2d08978f",
+                "SCCM_Lighting_TurnSignal_Misread_@2decf1ff"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "SCCM_ECU_Compute_Available_@fcaa54d7"
+            ],
+            "verificationCriteria": [
+                "VM_SCCM_ECU_Compute_Available_@dee71110"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_SCCM_Lighting_@a5bb8bfb",
+            "description": [
+                "VM_SCCM_ECU_Compute_Available shows SCCM_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_SCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "BMS_ECU_Compute_Available_@2f6d3112": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_BMS_ECU_Compute_@430b0801"
+            ]
+        },
+        "metadata": {
+            "uuid": "BMS_ECU_Compute_Available_@2f6d3112",
+            "description": [
+                "The BMS ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "BMS_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

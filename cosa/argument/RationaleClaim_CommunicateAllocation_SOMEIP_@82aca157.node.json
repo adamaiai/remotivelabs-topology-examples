@@ -1,0 +1,26 @@
+{
+    "RationaleClaim_CommunicateAllocation_SOMEIP_@82aca157": {
+        "stereotype": "RationaleClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_LeftTemperature_Overheating_@dedb8f22",
+                "ClimateControlDesign_ClimateSetpointHMI_HVACService_RightTemperature_Overheating_@802c8071"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformCommunicationSafetyContract": [
+                "SOMEIP_Bandwidth_Available_@eefed520"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_CommunicateAllocation_SOMEIP_@82aca157",
+            "description": [
+                "SOMEIP_Bandwidth_Available gives the contracts allocated by CommunicateAllocation_SOMEIP the resources they assume."
+            ],
+            "name": "RationaleClaim_CommunicateAllocation_SOMEIP",
+            "version_schema": "4.6.2"
+        }
+    }
+}

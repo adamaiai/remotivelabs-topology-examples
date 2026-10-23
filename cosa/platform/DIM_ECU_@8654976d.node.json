@@ -28,7 +28,7 @@
             "description": [
                 "Driver Information Module ECU hardware. Channels: BodyCan0, ChassisCan0.",
                 "",
-                "Runs: DIM_DriverControls, DIM_Info."
+                "Runs: DIM_Lighting, DIM_DriverControls, DIM_Info."
             ],
             "name": "DIM_ECU",
             "source": "remotive_car/platform/remotive-car.platform.yaml",

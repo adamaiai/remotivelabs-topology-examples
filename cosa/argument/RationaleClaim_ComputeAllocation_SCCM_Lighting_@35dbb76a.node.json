@@ -1,0 +1,27 @@
+{
+    "RationaleClaim_ComputeAllocation_SCCM_Lighting_@35dbb76a": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "SCCM_Lighting_HazardLightButton_NotPressed_@21a1fc79",
+                "SCCM_Lighting_HazardLightButton_WronglyPressed_@2d08978f",
+                "SCCM_Lighting_TurnSignal_Misread_@2decf1ff"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "SCCM_ECU_Compute_Available_@fcaa54d7"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_SCCM_Lighting_@35dbb76a",
+            "description": [
+                "SCCM_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_SCCM_Lighting the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_SCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

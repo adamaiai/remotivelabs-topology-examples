@@ -4,7 +4,8 @@
         "attributes": {},
         "connections": {
             "assume": [
-                "DC_ClimateActuation_HVACService_RightTemperature_Overheating_@7f343e1d"
+                "DC_ClimateActuation_HVACService_RightTemperature_Overheating_@7f343e1d",
+                "DC_ClimateActuation_RightTemperature_Assembly_CommNeed_@b1b0b13e"
             ],
             "assume_safetyContract": [],
             "guarantee": [

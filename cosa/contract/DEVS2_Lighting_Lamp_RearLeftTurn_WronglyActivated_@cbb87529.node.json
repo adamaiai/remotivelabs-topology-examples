@@ -6,6 +6,7 @@
         },
         "connections": {
             "assume": [
+                "DC_DEVS2_Lighting_ComputeNeed_@44d7131b",
                 "DC_DEVS2_Lighting_ReqLeft_WronglyActivated_@552482e1"
             ],
             "assume_safetyContract": [],

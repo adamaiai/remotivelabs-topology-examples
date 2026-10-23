@@ -1,0 +1,27 @@
+{
+    "DC_PAM_ECU_Compute_@a5285201": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 50.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "PAM_ECU_Compute_@5139a91d"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_PAM_ECU_Compute_@a5285201",
+            "description": [
+                "Critical: compute the PAM ECU offers its software components is below 50 MFLOPS for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_PAM_ECU_Compute",
+            "version_schema": "4.6.2"
+        }
+    }
+}

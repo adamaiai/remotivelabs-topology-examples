@@ -1,0 +1,26 @@
+{
+    "RationaleClaim_ComputeAllocation_GWM_Climate_@aaffc505": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "GWM_Climate_LeftTemperature_Overheating_@9d65936c",
+                "GWM_Climate_RightTemperature_Overheating_@e14f8948"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "GWM_ECU_Compute_Available_@b1adebca"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_GWM_Climate_@aaffc505",
+            "description": [
+                "GWM_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_GWM_Climate the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_GWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

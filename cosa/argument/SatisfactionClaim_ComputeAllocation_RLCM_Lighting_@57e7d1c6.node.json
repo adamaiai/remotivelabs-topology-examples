@@ -1,0 +1,31 @@
+{
+    "SatisfactionClaim_ComputeAllocation_RLCM_Lighting_@57e7d1c6": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "RLCM_Lighting_ReqLeft_NotActivated_@8e673bcd",
+                "RLCM_Lighting_ReqLeft_WronglyActivated_@4f9f9812",
+                "RLCM_Lighting_ReqRight_NotActivated_@43d84b08",
+                "RLCM_Lighting_ReqRight_WronglyActivated_@dc5dcb25"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "RLCM_ECU_Compute_Available_@d09dfe8f"
+            ],
+            "verificationCriteria": [
+                "VM_RLCM_ECU_Compute_Available_@ee36c925"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_RLCM_Lighting_@57e7d1c6",
+            "description": [
+                "VM_RLCM_ECU_Compute_Available shows RLCM_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_RLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

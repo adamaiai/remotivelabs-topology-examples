@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_ComputeAllocation_FLCM_Lighting_@ff2d9300": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "FLCM_Lighting_Lamp_FrontLeftTurn_NotActivated_@171afb2a",
+                "FLCM_Lighting_Lamp_FrontLeftTurn_WronglyActivated_@f0b2c69b",
+                "FLCM_Lighting_Lamp_FrontRightTurn_NotActivated_@c7412746",
+                "FLCM_Lighting_Lamp_FrontRightTurn_WronglyActivated_@793b97eb"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "FLCM_ECU_Compute_Available_@2d13b707"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_FLCM_Lighting_@ff2d9300",
+            "description": [
+                "FLCM_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_FLCM_Lighting the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_FLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

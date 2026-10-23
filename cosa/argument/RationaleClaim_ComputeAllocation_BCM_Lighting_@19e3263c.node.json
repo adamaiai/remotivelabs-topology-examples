@@ -1,0 +1,30 @@
+{
+    "RationaleClaim_ComputeAllocation_BCM_Lighting_@19e3263c": {
+        "stereotype": "RationaleClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "BCM_Lighting_LeftTurnLightRequest_Cadence_@ce3e6268",
+                "BCM_Lighting_LeftTurnLightRequest_NotActivated_@27d349ff",
+                "BCM_Lighting_LeftTurnLightRequest_WronglyActivated_@c0cfe702",
+                "BCM_Lighting_RightTurnLightRequest_Cadence_@910ec443",
+                "BCM_Lighting_RightTurnLightRequest_NotActivated_@a716983e",
+                "BCM_Lighting_RightTurnLightRequest_WronglyActivated_@4f45412a"
+            ],
+            "evidence": [
+                "Evidence_TSC_Allocation_@518c6054"
+            ],
+            "platformComputeSafetyContract": [
+                "BCM_ECU_Compute_Available_@190a6743"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_ComputeAllocation_BCM_Lighting_@19e3263c",
+            "description": [
+                "BCM_ECU_Compute_Available gives the contracts allocated by ComputeAllocation_BCM_Lighting the resources they assume."
+            ],
+            "name": "RationaleClaim_ComputeAllocation_BCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

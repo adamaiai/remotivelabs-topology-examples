@@ -1,0 +1,27 @@
+{
+    "DC_RL_Lighting_ComputeNeed_@6c79d6eb": {
+        "stereotype": "ApplicationComputeDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 5.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedComputeResource": [
+                "RL_Lighting_ComputeNeed_@e0a92128"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_RL_Lighting_ComputeNeed_@6c79d6eb",
+            "description": [
+                "Critical: compute available to RL_Lighting is below 5 MFLOPS for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_RL_Lighting_ComputeNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

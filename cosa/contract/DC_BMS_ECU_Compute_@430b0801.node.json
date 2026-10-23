@@ -1,0 +1,27 @@
+{
+    "DC_BMS_ECU_Compute_@430b0801": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 50.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "BMS_ECU_Compute_@ce9ba207"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_BMS_ECU_Compute_@430b0801",
+            "description": [
+                "Critical: compute the BMS ECU offers its software components is below 50 MFLOPS for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_BMS_ECU_Compute",
+            "version_schema": "4.6.2"
+        }
+    }
+}

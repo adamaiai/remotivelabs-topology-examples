@@ -1,0 +1,23 @@
+{
+    "HVAC_ECU_Compute_Available_@8c599882": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_HVAC_ECU_Compute_@7c1232f5"
+            ]
+        },
+        "metadata": {
+            "uuid": "HVAC_ECU_Compute_Available_@8c599882",
+            "description": [
+                "The HVAC ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "HVAC_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

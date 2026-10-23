@@ -1,0 +1,23 @@
+{
+    "SOMEIP_Bandwidth_Available_@eefed520": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_SOMEIP_Bandwidth_@ff757778"
+            ]
+        },
+        "metadata": {
+            "uuid": "SOMEIP_Bandwidth_Available_@eefed520",
+            "description": [
+                "SOMEIP always offers the application signals 5e+07 bit/s. Made-up budget for the remotive_car example."
+            ],
+            "name": "SOMEIP_Bandwidth_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

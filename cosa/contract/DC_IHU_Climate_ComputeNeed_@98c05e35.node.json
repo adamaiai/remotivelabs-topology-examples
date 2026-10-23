@@ -1,0 +1,27 @@
+{
+    "DC_IHU_Climate_ComputeNeed_@98c05e35": {
+        "stereotype": "ApplicationComputeDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 5.0,
+            "toleranceMargin_Time_ms": 20.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedComputeResource": [
+                "IHU_Climate_ComputeNeed_@ab846c81"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_IHU_Climate_ComputeNeed_@98c05e35",
+            "description": [
+                "Critical: compute available to IHU_Climate is below 5 MFLOPS for longer than 20 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_IHU_Climate_ComputeNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

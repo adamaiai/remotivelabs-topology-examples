@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_ComputeAllocation_IHU_Climate_@a9595f7b": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "IHU_Climate_HVACService_LeftTemperature_Overheating_@450267b9",
+                "IHU_Climate_HVACService_RightTemperature_Overheating_@acedd323"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "IHU_ECU_Compute_Available_@105102f5"
+            ],
+            "verificationCriteria": [
+                "VM_IHU_ECU_Compute_Available_@d6a0feba"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_IHU_Climate_@a9595f7b",
+            "description": [
+                "VM_IHU_ECU_Compute_Available shows IHU_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_IHU_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

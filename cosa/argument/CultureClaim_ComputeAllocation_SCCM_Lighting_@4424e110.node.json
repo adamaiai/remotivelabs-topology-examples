@@ -1,0 +1,17 @@
+{
+    "CultureClaim_ComputeAllocation_SCCM_Lighting_@4424e110": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_ComputeAllocation_SCCM_Lighting_@4424e110",
+            "description": "",
+            "name": "CultureClaim_ComputeAllocation_SCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

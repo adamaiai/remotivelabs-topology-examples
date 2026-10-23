@@ -1,0 +1,27 @@
+{
+    "DC_DriverInformation_GearService_Gear_Assembly_CommNeed_@83b1d1af": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "QM",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 8000.0,
+            "toleranceMargin_Time_ms": 100.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "DriverInformation_GearService_Gear_Assembly_CommNeed_@1047d5a4"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_DriverInformation_GearService_Gear_Assembly_CommNeed_@83b1d1af",
+            "description": [
+                "Critical: bandwidth available to GearService_Gear on SOMEIP is below 8000 bit/s for longer than 100 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_DriverInformation_GearService_Gear_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

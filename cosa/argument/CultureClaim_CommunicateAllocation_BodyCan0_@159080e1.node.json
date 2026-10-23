@@ -1,0 +1,17 @@
+{
+    "CultureClaim_CommunicateAllocation_BodyCan0_@159080e1": {
+        "stereotype": "CultureClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Safety_Culture_Audit_@af487b1b"
+            ]
+        },
+        "metadata": {
+            "uuid": "CultureClaim_CommunicateAllocation_BodyCan0_@159080e1",
+            "description": "",
+            "name": "CultureClaim_CommunicateAllocation_BodyCan0",
+            "version_schema": "4.6.2"
+        }
+    }
+}

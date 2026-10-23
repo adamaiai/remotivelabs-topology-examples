@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_CommunicateAllocation_SOMEIP_@94da95c5": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_CommunicateAllocation_SOMEIP_@94da95c5",
+            "description": "",
+            "name": "ProcessClaim_CommunicateAllocation_SOMEIP",
+            "version_schema": "4.6.2"
+        }
+    }
+}

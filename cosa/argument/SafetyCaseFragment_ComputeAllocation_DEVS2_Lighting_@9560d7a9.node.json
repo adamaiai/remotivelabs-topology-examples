@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_ComputeAllocation_DEVS2_Lighting_@9560d7a9": {
+        "stereotype": "SafetyCaseFragment_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ComputeAllocation_DEVS2_Lighting_@397ff2bf"
+            ],
+            "computeAllocationRealization": [
+                "ComputeAllocation_DEVS2_Lighting_@2c3e3ce4"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ComputeAllocation_DEVS2_Lighting_@0daf1868"
+            ],
+            "processClaim": [
+                "ProcessClaim_ComputeAllocation_DEVS2_Lighting_@0f0f3f2e"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ComputeAllocation_DEVS2_Lighting_@76acb41c"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ComputeAllocation_DEVS2_Lighting_@4a0c0614"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ComputeAllocation_DEVS2_Lighting_@9560d7a9",
+            "description": [
+                "Safety case fragment arguing ComputeAllocation_DEVS2_Lighting."
+            ],
+            "name": "SafetyCaseFragment_ComputeAllocation_DEVS2_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

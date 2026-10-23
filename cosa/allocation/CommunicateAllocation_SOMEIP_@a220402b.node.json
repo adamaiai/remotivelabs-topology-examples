@@ -11,8 +11,8 @@
                 "InformationDisplay_LocationService_Latitude_Assembly_@d1fabbeb",
                 "InformationDisplay_LocationService_Longitude_Assembly_@49c045f5",
                 "InformationDisplay_SpeedService_Speed_Assembly_@9b334f72",
-                "InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@bc5a408b",
-                "InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@b312d18d"
+                "LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_@e5e22e80",
+                "LightingIndication_TurnlightIndicator_RightTurnlight_Assembly_@2e5be06d"
             ],
             "allocatedOnCommunicationPlatform": [
                 "SOMEIP_@43d8d435"
@@ -25,8 +25,8 @@
                 "CIR_InformationDisplay_LocationService_Latitude_Assembly_@7859c9c0",
                 "CIR_InformationDisplay_LocationService_Longitude_Assembly_@8fcf7fba",
                 "CIR_InformationDisplay_SpeedService_Speed_Assembly_@58ef2fd5",
-                "CIR_InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@fefa054b",
-                "CIR_InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@461669c9"
+                "CIR_LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_@c17565a9",
+                "CIR_LightingIndication_TurnlightIndicator_RightTurnlight_Assembly_@072c1a3a"
             ]
         },
         "aggregations": {
@@ -149,12 +149,12 @@
                     ]
                 }
             },
-            "CIR_InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_@fefa054b": {
+            "CIR_LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_@c17565a9": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed_@e22b0d76"
+                        "LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly_CommNeed_@f14e6104"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
@@ -162,16 +162,16 @@
                 },
                 "metadata": {
                     "description": [
-                        "Wire InformationDisplay_TurnlightIndicator_LeftTurnlight_Assembly is carried on SOMEIP_Bandwidth."
+                        "Wire LightingIndication_TurnlightIndicator_LeftTurnlight_Assembly is carried on SOMEIP_Bandwidth."
                     ]
                 }
             },
-            "CIR_InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_@461669c9": {
+            "CIR_LightingIndication_TurnlightIndicator_RightTurnlight_Assembly_@072c1a3a": {
                 "stereotype": "CommunicateInterfaceRealization",
                 "attributes": {},
                 "connections": {
                     "applicationCommunicationResourceNeed": [
-                        "InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly_CommNeed_@3e29910e"
+                        "LightingIndication_TurnlightIndicator_RightTurnlight_Assembly_CommNeed_@45df58d1"
                     ],
                     "platformCommunicationResource": [
                         "SOMEIP_Bandwidth_@e1d7374e"
@@ -179,7 +179,7 @@
                 },
                 "metadata": {
                     "description": [
-                        "Wire InformationDisplay_TurnlightIndicator_RightTurnlight_Assembly is carried on SOMEIP_Bandwidth."
+                        "Wire LightingIndication_TurnlightIndicator_RightTurnlight_Assembly is carried on SOMEIP_Bandwidth."
                     ]
                 }
             }

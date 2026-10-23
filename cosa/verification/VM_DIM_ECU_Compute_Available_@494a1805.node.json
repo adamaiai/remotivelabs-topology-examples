@@ -1,0 +1,25 @@
+{
+    "VM_DIM_ECU_Compute_Available_@494a1805": {
+        "stereotype": "TestVerificationMethod",
+        "attributes": {
+            "hash": "ce9bb50dd4b8ce5fa9679a0872da95eb8b1128f7ebfa56ab2763c53005266a01",
+            "isAnalysis": true,
+            "isCI": false,
+            "isFieldData": false,
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/ECU_Compute_Budget_Analysis.md"
+        },
+        "connections": {
+            "contractInScope": [
+                "DIM_ECU_Compute_Available_@c5a01994"
+            ]
+        },
+        "metadata": {
+            "uuid": "VM_DIM_ECU_Compute_Available_@494a1805",
+            "description": [
+                "ECU compute budget analysis: for DIM, the sum of its software components' compute needs stays below the 50 MFLOPS it offers. Made-up budget for the remotive_car example."
+            ],
+            "name": "VM_DIM_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

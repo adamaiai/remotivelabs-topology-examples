@@ -3,7 +3,9 @@
         "stereotype": "InnerSafetyContract",
         "attributes": {},
         "connections": {
-            "assume": [],
+            "assume": [
+                "DC_ClimateControlDesign_HVACService_RightTemperature_Assembly_CommNeed_@2fb08dbb"
+            ],
             "assume_safetyContract": [],
             "guarantee": [
                 "DC_ClimateControlDesign_HVACService_RightTemperature_Assembly_Overheating_@ce04abe3"

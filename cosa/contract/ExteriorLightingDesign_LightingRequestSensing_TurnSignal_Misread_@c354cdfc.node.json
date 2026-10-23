@@ -4,7 +4,8 @@
         "attributes": {},
         "connections": {
             "assume": [
-                "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread_@0102e6d4"
+                "DC_ExteriorLightingDesign_Driver_TurnSignal_Misread_@0102e6d4",
+                "DC_ExteriorLightingDesign_TurnSignal_Assembly_CommNeed_@0321a859"
             ],
             "assume_safetyContract": [],
             "guarantee": [

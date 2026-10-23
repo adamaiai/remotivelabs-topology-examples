@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ComputeAllocation_HVAC_Climate_@21004c27": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ComputeAllocation_HVAC_Climate_@21004c27",
+            "description": "",
+            "name": "ProcessClaim_ComputeAllocation_HVAC_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

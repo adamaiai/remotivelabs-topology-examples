@@ -4,11 +4,16 @@
         "attributes": {},
         "connections": {
             "functionalAspect": [
+                "ExteriorLighting_Cluster_HighBeamTelltale_@9f9cb462",
+                "ExteriorLighting_Cluster_LeftTurnTelltale_@583ece41",
+                "ExteriorLighting_Cluster_RightTurnTelltale_@06aa2662",
                 "ExteriorLighting_Driver_BrakePedalPosition_@98e9b633",
                 "ExteriorLighting_Driver_HazardLightButton_@3b1bf564",
                 "ExteriorLighting_Driver_HighBeam_@869e8d88",
                 "ExteriorLighting_Driver_LightMode_@8fa13576",
                 "ExteriorLighting_Driver_TurnSignal_@32ae3e57",
+                "ExteriorLighting_Infotainment_LeftTurnIndicator_@f2626247",
+                "ExteriorLighting_Infotainment_RightTurnIndicator_@4534ae41",
                 "ExteriorLighting_Lamp_FrontLeftDaylightRunning_@90aa503c",
                 "ExteriorLighting_Lamp_FrontLeftHighBeam_@7e3ec5fe",
                 "ExteriorLighting_Lamp_FrontLeftLowBeam_@babf45ff",
@@ -22,6 +27,48 @@
             ]
         },
         "aggregations": {
+            "ExteriorLighting_Cluster_HighBeamTelltale_@9f9cb462": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "High beam telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "ExteriorLighting_Cluster_LeftTurnTelltale_@583ece41": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
+            "ExteriorLighting_Cluster_RightTurnTelltale_@06aa2662": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn telltale lit in the instrument cluster."
+                    ]
+                }
+            },
             "ExteriorLighting_Driver_BrakePedalPosition_@98e9b633": {
                 "stereotype": "FunctionalAspect",
                 "attributes": {
@@ -89,6 +136,34 @@
                 "metadata": {
                     "description": [
                         "Driver moves the turn stalk."
+                    ]
+                }
+            },
+            "ExteriorLighting_Infotainment_LeftTurnIndicator_@f2626247": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Left turn indication shown in the infotainment unit."
+                    ]
+                }
+            },
+            "ExteriorLighting_Infotainment_RightTurnIndicator_@4534ae41": {
+                "stereotype": "FunctionalAspect",
+                "attributes": {
+                    "dataTypeCategory": "Boolean",
+                    "subTypeEnum": null,
+                    "subTypeUnitOfMeasure": null
+                },
+                "connections": {},
+                "metadata": {
+                    "description": [
+                        "Right turn indication shown in the infotainment unit."
                     ]
                 }
             },
@@ -236,7 +311,7 @@
         "metadata": {
             "uuid": "ExteriorLighting_@bbb6ce8a",
             "description": [
-                "Driver controls the exterior lights: light mode, high beam, turn indicators, hazard lights and brake lights.",
+                "Driver controls the exterior lights: light mode, high beam, turn indicators, hazard lights and brake lights, with the matching telltales in the cluster and the infotainment unit.",
                 "",
                 "```mermaid",
                 "flowchart LR",
@@ -271,6 +346,16 @@
                 "  n_ExteriorLighting --> n_Lamp_RearLeftTurn",
                 "  n_Lamp_RearRightTurn([\"Lamp_RearRightTurn\"])",
                 "  n_ExteriorLighting --> n_Lamp_RearRightTurn",
+                "  n_Cluster_LeftTurnTelltale([\"Cluster_LeftTurnTelltale\"])",
+                "  n_ExteriorLighting --> n_Cluster_LeftTurnTelltale",
+                "  n_Cluster_RightTurnTelltale([\"Cluster_RightTurnTelltale\"])",
+                "  n_ExteriorLighting --> n_Cluster_RightTurnTelltale",
+                "  n_Cluster_HighBeamTelltale([\"Cluster_HighBeamTelltale\"])",
+                "  n_ExteriorLighting --> n_Cluster_HighBeamTelltale",
+                "  n_Infotainment_LeftTurnIndicator([\"Infotainment_LeftTurnIndicator\"])",
+                "  n_ExteriorLighting --> n_Infotainment_LeftTurnIndicator",
+                "  n_Infotainment_RightTurnIndicator([\"Infotainment_RightTurnIndicator\"])",
+                "  n_ExteriorLighting --> n_Infotainment_RightTurnIndicator",
                 "```"
             ],
             "name": "ExteriorLighting",

@@ -12,8 +12,6 @@
                 "GWM_Info_BatteryVoltage_@641b224f",
                 "GWM_Info_Heading_@31cd29a7",
                 "GWM_Info_Latitude_@153a1f93",
-                "GWM_Info_LeftBrakeLightRequest_@7f457a87",
-                "GWM_Info_LeftTurnLightRequest_@6cee7285",
                 "GWM_Info_LocationService_Heading_@dcabe277",
                 "GWM_Info_LocationService_Latitude_@b335ae86",
                 "GWM_Info_LocationService_Longitude_@8d41532a",
@@ -21,12 +19,8 @@
                 "GWM_Info_MotorSpeed_@826d618f",
                 "GWM_Info_MotorTorque_@3728b952",
                 "GWM_Info_ProximityDistance_@d9faa2f2",
-                "GWM_Info_RightBrakeLightRequest_@e6120b0c",
-                "GWM_Info_RightTurnLightRequest_@3b97972c",
                 "GWM_Info_SpeedService_Speed_@f31b7d76",
                 "GWM_Info_StateOfCharge_@a06cd53a",
-                "GWM_Info_TurnlightIndicator_LeftTurnlight_@3180f6d1",
-                "GWM_Info_TurnlightIndicator_RightTurnlight_@74cecd7d",
                 "GWM_Info_uispeed_@5611f4bc"
             ]
         },
@@ -112,34 +106,6 @@
                 "metadata": {
                     "description": [
                         "BodyCan0 LocationFrame (id 200, 200 ms). Sent by TCU, received by GWM."
-                    ]
-                }
-            },
-            "GWM_Info_LeftBrakeLightRequest_@7f457a87": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
-                    ]
-                }
-            },
-            "GWM_Info_LeftTurnLightRequest_@6cee7285": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
                     ]
                 }
             },
@@ -241,34 +207,6 @@
                     ]
                 }
             },
-            "GWM_Info_RightBrakeLightRequest_@e6120b0c": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 BrakeLightControl (id 104, 50 ms). Sent by BCM, received by DIM, RLCM, GWM."
-                    ]
-                }
-            },
-            "GWM_Info_RightTurnLightRequest_@3b97972c": {
-                "stereotype": "External_Input",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "BodyCan0 TurnLightControl (id 103, 50 ms). Sent by BCM, received by DIM, FLCM, RLCM, GWM."
-                    ]
-                }
-            },
             "GWM_Info_SpeedService_Speed_@f31b7d76": {
                 "stereotype": "External_Output",
                 "attributes": {
@@ -294,34 +232,6 @@
                 "metadata": {
                     "description": [
                         "ChassisCan0 BatteryStatus (id 141, 100 ms, raw 1022 = Error, 1023 = SNA). Sent by BMS, received by GWM, DIM."
-                    ]
-                }
-            },
-            "GWM_Info_TurnlightIndicator_LeftTurnlight_@3180f6d1": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
-                    ]
-                }
-            },
-            "GWM_Info_TurnlightIndicator_RightTurnlight_@74cecd7d": {
-                "stereotype": "External_Output",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "SOMEIP TurnlightIndicator.TurnlightControlEvent (service 100, event 1001, event group 321). Sent by GWM, received by IHU."
                     ]
                 }
             },

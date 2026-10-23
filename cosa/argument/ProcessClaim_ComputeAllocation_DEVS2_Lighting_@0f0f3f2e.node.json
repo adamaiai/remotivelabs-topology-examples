@@ -1,0 +1,17 @@
+{
+    "ProcessClaim_ComputeAllocation_DEVS2_Lighting_@0f0f3f2e": {
+        "stereotype": "ProcessClaim",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "Evidence_Process_ISO26262_Compliance_@dce7c7e0"
+            ]
+        },
+        "metadata": {
+            "uuid": "ProcessClaim_ComputeAllocation_DEVS2_Lighting_@0f0f3f2e",
+            "description": "",
+            "name": "ProcessClaim_ComputeAllocation_DEVS2_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

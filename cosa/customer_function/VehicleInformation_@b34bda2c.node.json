@@ -4,30 +4,12 @@
         "attributes": {},
         "connections": {
             "functionalAspect": [
-                "VehicleInformation_Cluster_LeftTurnTelltale_@ccc30c6d",
                 "VehicleInformation_Cluster_ProximityDistance_@0dc10ccf",
-                "VehicleInformation_Cluster_RightTurnTelltale_@a0a3b898",
                 "VehicleInformation_Cluster_StateOfCharge_@e7035e36",
-                "VehicleInformation_Infotainment_LeftTurnIndicator_@42165c6a",
-                "VehicleInformation_Infotainment_RightTurnIndicator_@47ace99d",
                 "VehicleInformation_Infotainment_VehicleSpeed_@b65e0544"
             ]
         },
         "aggregations": {
-            "VehicleInformation_Cluster_LeftTurnTelltale_@ccc30c6d": {
-                "stereotype": "FunctionalAspect",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Left turn telltale lit in the instrument cluster."
-                    ]
-                }
-            },
             "VehicleInformation_Cluster_ProximityDistance_@0dc10ccf": {
                 "stereotype": "FunctionalAspect",
                 "attributes": {
@@ -42,20 +24,6 @@
                     ]
                 }
             },
-            "VehicleInformation_Cluster_RightTurnTelltale_@a0a3b898": {
-                "stereotype": "FunctionalAspect",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Right turn telltale lit in the instrument cluster."
-                    ]
-                }
-            },
             "VehicleInformation_Cluster_StateOfCharge_@e7035e36": {
                 "stereotype": "FunctionalAspect",
                 "attributes": {
@@ -67,34 +35,6 @@
                 "metadata": {
                     "description": [
                         "Battery state of charge shown in the instrument cluster."
-                    ]
-                }
-            },
-            "VehicleInformation_Infotainment_LeftTurnIndicator_@42165c6a": {
-                "stereotype": "FunctionalAspect",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Left turn indication shown in the infotainment unit."
-                    ]
-                }
-            },
-            "VehicleInformation_Infotainment_RightTurnIndicator_@47ace99d": {
-                "stereotype": "FunctionalAspect",
-                "attributes": {
-                    "dataTypeCategory": "Boolean",
-                    "subTypeEnum": null,
-                    "subTypeUnitOfMeasure": null
-                },
-                "connections": {},
-                "metadata": {
-                    "description": [
-                        "Right turn indication shown in the infotainment unit."
                     ]
                 }
             },
@@ -116,25 +56,17 @@
         "metadata": {
             "uuid": "VehicleInformation_@b34bda2c",
             "description": [
-                "Driver is informed about vehicle speed, battery state, parking proximity and turn indication.",
+                "Driver is informed about vehicle speed, battery state and parking proximity.",
                 "",
                 "```mermaid",
                 "flowchart LR",
                 "  n_VehicleInformation{{\"VehicleInformation\"}}",
-                "  n_Cluster_LeftTurnTelltale([\"Cluster_LeftTurnTelltale\"])",
-                "  n_VehicleInformation --> n_Cluster_LeftTurnTelltale",
-                "  n_Cluster_RightTurnTelltale([\"Cluster_RightTurnTelltale\"])",
-                "  n_VehicleInformation --> n_Cluster_RightTurnTelltale",
                 "  n_Cluster_StateOfCharge([\"Cluster_StateOfCharge\"])",
                 "  n_VehicleInformation --> n_Cluster_StateOfCharge",
                 "  n_Cluster_ProximityDistance([\"Cluster_ProximityDistance\"])",
                 "  n_VehicleInformation --> n_Cluster_ProximityDistance",
                 "  n_Infotainment_VehicleSpeed([\"Infotainment_VehicleSpeed\"])",
                 "  n_VehicleInformation --> n_Infotainment_VehicleSpeed",
-                "  n_Infotainment_LeftTurnIndicator([\"Infotainment_LeftTurnIndicator\"])",
-                "  n_VehicleInformation --> n_Infotainment_LeftTurnIndicator",
-                "  n_Infotainment_RightTurnIndicator([\"Infotainment_RightTurnIndicator\"])",
-                "  n_VehicleInformation --> n_Infotainment_RightTurnIndicator",
                 "```"
             ],
             "name": "VehicleInformation",

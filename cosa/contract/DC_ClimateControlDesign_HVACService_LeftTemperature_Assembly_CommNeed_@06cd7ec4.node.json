@@ -1,0 +1,27 @@
+{
+    "DC_ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed_@06cd7ec4": {
+        "stereotype": "ApplicationCommunicateDeviationConstraint",
+        "attributes": {
+            "integrityValue_ASIL": "ASILA",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 8000.0,
+            "toleranceMargin_Time_ms": 100.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedCommunicationResource": [
+                "ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed_@ba58631c"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed_@06cd7ec4",
+            "description": [
+                "Critical: bandwidth available to HVACService_LeftTemperature on SOMEIP is below 8000 bit/s for longer than 100 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_ClimateControlDesign_HVACService_LeftTemperature_Assembly_CommNeed",
+            "version_schema": "4.6.2"
+        }
+    }
+}

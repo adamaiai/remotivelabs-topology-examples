@@ -1,0 +1,30 @@
+{
+    "SatisfactionClaim_CommunicateAllocation_DriverCan0_@22e4e8ae": {
+        "stereotype": "SatisfactionClaim_Allocation_Communicate",
+        "attributes": {},
+        "connections": {
+            "applicationCommunicationSafetyContract": [
+                "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_NotPressed_@7720f2ac",
+                "ExteriorLightingDesign_LightingRequestSensing_HazardLightButton_WronglyPressed_@2af213b2",
+                "ExteriorLightingDesign_LightingRequestSensing_TurnSignal_Misread_@c354cdfc"
+            ],
+            "evidence": [
+                "Evidence_Bus_Load_Analysis_@96dddfd9"
+            ],
+            "platformCommunicationSafetyContract": [
+                "DriverCan0_Bandwidth_Available_@96ffb7d7"
+            ],
+            "verificationCriteria": [
+                "VM_DriverCan0_Bandwidth_Available_@b8f32057"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_CommunicateAllocation_DriverCan0_@22e4e8ae",
+            "description": [
+                "VM_DriverCan0_Bandwidth_Available shows DriverCan0_Bandwidth_Available holds."
+            ],
+            "name": "SatisfactionClaim_CommunicateAllocation_DriverCan0",
+            "version_schema": "4.6.2"
+        }
+    }
+}

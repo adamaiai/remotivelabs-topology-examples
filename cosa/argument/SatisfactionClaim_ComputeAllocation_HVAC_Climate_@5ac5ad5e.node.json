@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_ComputeAllocation_HVAC_Climate_@5ac5ad5e": {
+        "stereotype": "SatisfactionClaim_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "applicationComputeSafetyContract": [
+                "HVAC_Climate_Climate_LeftTemperature_Overheating_@58320089",
+                "HVAC_Climate_Climate_RightTemperature_Overheating_@64f0bb5a"
+            ],
+            "evidence": [
+                "Evidence_ECU_Compute_Budget_Analysis_@7582dfd0"
+            ],
+            "platformComputeSafetyContract": [
+                "HVAC_ECU_Compute_Available_@8c599882"
+            ],
+            "verificationCriteria": [
+                "VM_HVAC_ECU_Compute_Available_@a4cab632"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_ComputeAllocation_HVAC_Climate_@5ac5ad5e",
+            "description": [
+                "VM_HVAC_ECU_Compute_Available shows HVAC_ECU_Compute_Available holds."
+            ],
+            "name": "SatisfactionClaim_ComputeAllocation_HVAC_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}

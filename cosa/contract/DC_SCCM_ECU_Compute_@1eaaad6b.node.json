@@ -1,0 +1,27 @@
+{
+    "DC_SCCM_ECU_Compute_@1eaaad6b": {
+        "stereotype": "ExternalDevConstr_AtomicComp",
+        "attributes": {
+            "integrityValue_ASIL": "ASILB",
+            "integrityValue_number": null,
+            "subTypeCriticalBooleanValue": null,
+            "subTypeCriticalMarginType": "Absolute_Less_than_value",
+            "subTypeCriticalMarginValue": 50.0,
+            "toleranceMargin_Time_ms": 10.0
+        },
+        "connections": {
+            "confusionMatrix": [],
+            "constrainedDataElement": [
+                "SCCM_ECU_Compute_@65692407"
+            ]
+        },
+        "metadata": {
+            "uuid": "DC_SCCM_ECU_Compute_@1eaaad6b",
+            "description": [
+                "Critical: compute the SCCM ECU offers its software components is below 50 MFLOPS for longer than 10 ms. Made-up budget for the remotive_car example."
+            ],
+            "name": "DC_SCCM_ECU_Compute",
+            "version_schema": "4.6.2"
+        }
+    }
+}

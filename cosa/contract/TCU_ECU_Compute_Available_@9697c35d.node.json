@@ -1,0 +1,23 @@
+{
+    "TCU_ECU_Compute_Available_@9697c35d": {
+        "stereotype": "OuterSafetyContract",
+        "attributes": {
+            "isShadowMode": false
+        },
+        "connections": {
+            "assume": [],
+            "assume_safetyContract": [],
+            "guarantee": [
+                "DC_TCU_ECU_Compute_@3c8b19ae"
+            ]
+        },
+        "metadata": {
+            "uuid": "TCU_ECU_Compute_Available_@9697c35d",
+            "description": [
+                "The TCU ECU always offers its software components 50 MFLOPS. Made-up budget for the remotive_car example."
+            ],
+            "name": "TCU_ECU_Compute_Available",
+            "version_schema": "4.6.2"
+        }
+    }
+}

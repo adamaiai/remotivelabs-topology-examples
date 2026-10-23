@@ -1,0 +1,35 @@
+{
+    "SafetyCaseFragment_ComputeAllocation_GWM_Climate_@141f599e": {
+        "stereotype": "SafetyCaseFragment_Allocation_Compute",
+        "attributes": {},
+        "connections": {
+            "argumentElement": [],
+            "assessmentClaim": [
+                "AssessmentClaim_ComputeAllocation_GWM_Climate_@fcf9ea70"
+            ],
+            "computeAllocationRealization": [
+                "ComputeAllocation_GWM_Climate_@fdf268d5"
+            ],
+            "cultureClaim": [
+                "CultureClaim_ComputeAllocation_GWM_Climate_@aa0ed1a8"
+            ],
+            "processClaim": [
+                "ProcessClaim_ComputeAllocation_GWM_Climate_@37006a87"
+            ],
+            "rationaleClaim": [
+                "RationaleClaim_ComputeAllocation_GWM_Climate_@aaffc505"
+            ],
+            "satisfactionClaim": [
+                "SatisfactionClaim_ComputeAllocation_GWM_Climate_@fd6ad6b6"
+            ]
+        },
+        "metadata": {
+            "uuid": "SafetyCaseFragment_ComputeAllocation_GWM_Climate_@141f599e",
+            "description": [
+                "Safety case fragment arguing ComputeAllocation_GWM_Climate."
+            ],
+            "name": "SafetyCaseFragment_ComputeAllocation_GWM_Climate",
+            "version_schema": "4.6.2"
+        }
+    }
+}
