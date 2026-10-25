@@ -1,0 +1,28 @@
+{
+    "RationaleClaim_NonSafety_LightingIndication_BeamModes_@d8825053": {
+        "stereotype": "RationaleClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "composedComponent": [
+                "LightingIndication_@3d02c741"
+            ],
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
+            ],
+            "refinedConstraint": [
+                "LightingIndication_BeamModes_@ff1c4957"
+            ],
+            "refiningConstraint": [
+                "LightingIndication_DIM_BeamModes_@0cedb170"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_NonSafety_LightingIndication_BeamModes_@d8825053",
+            "description": [
+                "EL-BEAM-1.4 on LightingIndication is implied by EL-BEAM-1.4.1 alone: the DIM receives HighBeamLightControl directly and lights Cluster_HighBeamTelltale. GWM and IHU take no part."
+            ],
+            "name": "RationaleClaim_NonSafety_LightingIndication_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

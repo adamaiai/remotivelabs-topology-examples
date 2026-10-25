@@ -1,0 +1,31 @@
+{
+    "RearLightLIN_TurnRequest_Schedule_@93511e01": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-P3 RearLightLIN slot gap**\n\nThe RearLightLIN schedule table shall let at most 30 ms pass between the starts of two consecutive DEVMLIN01Fr01 slots, with slots of at most 10 ms at 19.2 kbit/s.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "RearLightLIN_@3bfdd247"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLightLIN_TurnRequest_Schedule_@93511e01",
+            "description": [
+                "Platform part of EL-RSP-1.4 (RearLight_IndicatorResponseTime), through CommunicateAllocation_RearLightLIN, which places the ReqLeft and ReqRight assemblies of RearLight on RearLightLIN.",
+                "",
+                "DEVMLIN01Schedule01 in rearlight.ldf runs DEVMLIN01Fr01 at 0, 20 and 40 ms of a 70 ms table. The longest gap is 30 ms, from 40 ms to the next table start:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  a[\"0 ms<br/>Fr01\"] --> b[\"10<br/>S1\"] --> c[\"20 ms<br/>Fr01\"] --> d[\"30<br/>S1\"] --> e[\"40 ms<br/>Fr01\"] --> f[\"50<br/>S1\"] --> g[\"60<br/>S2Fr04\"] --> h[\"70 ms<br/>Fr01\"]",
+                "```",
+                "",
+                "Adding a frame to the 40\u201370 ms span without repeating DEVMLIN01Fr01 uses up the 25 ms margin of EL-RSP-1."
+            ],
+            "name": "RearLightLIN_TurnRequest_Schedule",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "NSEvidence_EL_Beam_Mode_Review_@eb548134": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/EL_Beam_Mode_Review.md"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_EL_Beam_Mode_Review_@eb548134",
+            "description": [
+                "Review of the light-mode input assumption EL-BEAM-1.1 against every SCCM input mapping; records the open Logitech G29 finding."
+            ],
+            "name": "NSEvidence_EL_Beam_Mode_Review",
+            "version_schema": "4.6.2"
+        }
+    }
+}

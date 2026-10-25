@@ -1,0 +1,24 @@
+{
+    "FLCM_Lighting_BeamModes_@22ff3f1d": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.3 Front beam lamps follow the requests**\n\nFLCM_Lighting shall light the daylight running, low-beam and high-beam lamps of each side from the corresponding requests in DaylightRunningLightControl, LowBeamLightControl and HighBeamLightControl.\n\nIt shall dim the daylight running lamps of a side to position-lamp level while that side's low beam is lit.",
+            "status": "accepted"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "FLCM_Lighting_@0aa1054f"
+            ]
+        },
+        "metadata": {
+            "uuid": "FLCM_Lighting_BeamModes_@22ff3f1d",
+            "description": [
+                "Obligation of FLCM_Lighting as FrontLighting in ExteriorLightingDesign (EL-BEAM-1.3).",
+                "",
+                "FLCM is a supplier lamp module; its realization ImplementedFLCM_Lighting is body_can.dbc, which lists FLCM as receiver of the three beam control frames. The dimming is a supplier commitment, status accepted."
+            ],
+            "name": "FLCM_Lighting_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

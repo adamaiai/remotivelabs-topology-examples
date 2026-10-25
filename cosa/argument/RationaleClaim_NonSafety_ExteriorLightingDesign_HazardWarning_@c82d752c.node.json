@@ -1,0 +1,44 @@
+{
+    "RationaleClaim_NonSafety_ExteriorLightingDesign_HazardWarning_@c82d752c": {
+        "stereotype": "RationaleClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "composedComponent": [
+                "ExteriorLightingDesign_@b093b118"
+            ],
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
+            ],
+            "refinedConstraint": [
+                "ExteriorLightingDesign_HazardWarning_@b479376d"
+            ],
+            "refiningConstraint": [
+                "ExteriorLightingDesign_LightingRequestSensing_HazardWarning_@eeb53a6f",
+                "ExteriorLightingDesign_LightingControl_HazardWarning_@e86bff8b",
+                "ExteriorLightingDesign_FrontLighting_HazardWarning_@1a01ebbd",
+                "ExteriorLightingDesign_RearLighting_HazardWarning_@abcd4bfb",
+                "ExteriorLightingDesign_LightingIndication_HazardWarning_@4164eabf"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_NonSafety_ExteriorLightingDesign_HazardWarning_@c82d752c",
+            "description": [
+                "EL-HAZ-1 on ExteriorLightingDesign is implied by EL-HAZ-1.1 to 1.5 on its five building blocks:",
+                "",
+                "- *Toggle on each press of at least 100 ms:* LightingRequestSensing reports the button every 50 ms (1.1), so the press reaches LightingControl, which toggles on the 0 to 1 edge (1.2).",
+                "- *All four lamps and both telltales together, whatever the stalk:* LightingControl writes both requests into the same TurnLightControl frame and ignores the stalk while hazard is on (1.2); FrontLighting, RearLighting and LightingIndication follow that frame without timing of their own (1.3, 1.4, 1.5).",
+                "- *Resume on the stalk side:* LightingControl keeps the last stalk position, which LightingRequestSensing keeps reporting during hazard (1.1, 1.2).",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  s[\"LightingRequestSensing<br/>1.1 raw input\"] -->|\"HazardLightButton<br/>TurnSignal\"| c[\"LightingControl<br/>1.2 decides\"]",
+                "  c -->|TurnLightControl| f[\"FrontLighting<br/>1.3 follows\"]",
+                "  c -->|TurnLightControl| r[\"RearLighting<br/>1.4 follows\"]",
+                "  c -->|TurnLightControl| i[\"LightingIndication<br/>1.5 follows\"]",
+                "```"
+            ],
+            "name": "RationaleClaim_NonSafety_ExteriorLightingDesign_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

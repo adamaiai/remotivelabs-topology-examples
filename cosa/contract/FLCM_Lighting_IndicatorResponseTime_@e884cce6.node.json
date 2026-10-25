@@ -1,0 +1,24 @@
+{
+    "FLCM_Lighting_IndicatorResponseTime_@e884cce6": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.3 Front lamp reaction 10 to 20 ms**\n\nFLCM_Lighting shall change Lamp_FrontLeftTurn and Lamp_FrontRightTurn no earlier than 10 ms and no later than 20 ms after receiving a TurnLightControl frame that changes the corresponding request.",
+            "status": "accepted"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "FLCM_Lighting_@0aa1054f"
+            ]
+        },
+        "metadata": {
+            "uuid": "FLCM_Lighting_IndicatorResponseTime_@e884cce6",
+            "description": [
+                "Obligation of FLCM_Lighting as FrontLighting in ExteriorLightingDesign (EL-RSP-1.3).",
+                "",
+                "Supplier commitment (lamp driver input filter plus LED rise time). Status accepted: there is no measurement in this repository; the analysis uses the committed window as an input."
+            ],
+            "name": "FLCM_Lighting_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

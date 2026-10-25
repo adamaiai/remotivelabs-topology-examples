@@ -1,0 +1,24 @@
+{
+    "GWM_Lighting_HazardWarning_@835f9e66": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.5.2 Publish the turn state to infotainment**\n\nGWM_Lighting shall notify TurnlightControlEvent of the SOME/IP service TurnlightIndicator, with LeftTurnlight and RightTurnlight equal to the received LeftTurnLightRequest and RightTurnLightRequest, for every received TurnLightControl frame.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "GWM_Lighting_@c50c610e"
+            ]
+        },
+        "metadata": {
+            "uuid": "GWM_Lighting_HazardWarning_@835f9e66",
+            "description": [
+                "Obligation of GWM_Lighting as GWM in LightingIndication (EL-HAZ-1.5.2).",
+                "",
+                "Realized by ImplementedGWM_Lighting: GWM.on_frame() notifies TurnlightControlEvent with both values for every TurnLightControl frame."
+            ],
+            "name": "GWM_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

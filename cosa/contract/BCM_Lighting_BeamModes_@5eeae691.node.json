@@ -1,0 +1,34 @@
+{
+    "BCM_Lighting_BeamModes_@5eeae691": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.2 Beam requests from the light stalk**\n\nBCM_Lighting shall set the daylight running and low-beam requests from LightStalk.LightMode, identically for both sides:\n\n| LightMode | DaylightRunningLightRequest | LowBeamLightRequest |\n|---|---|---|\n| 0 Off | 0 | 0 |\n| 1 DaylightRunningLight | 1 | 0 |\n| 2 LowBeam | 1 | 1 |\n\nIt shall set Left/RightHighBeamLightRequest to LightStalk.HighBeam.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "BCM_Lighting_@7d7ffa2c"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_Lighting_BeamModes_@5eeae691",
+            "description": [
+                "Obligation of BCM_Lighting as LightingControl in ExteriorLightingDesign (EL-BEAM-1.2).",
+                "",
+                "```mermaid",
+                "stateDiagram-v2",
+                "  [*] --> Off",
+                "  Off --> DRL: LightMode 1",
+                "  DRL --> Low: LightMode 2",
+                "  Low --> DRL: LightMode 1",
+                "  DRL --> Off: LightMode 0",
+                "  Low --> Off: LightMode 0",
+                "```",
+                "",
+                "Realized by ImplementedBCM_Lighting: BeamsStateMachine (state_machines/beams.py) and BEAMS_OUTPUT_FOR_STATE implement the table; on_high_beam() copies LightStalk.HighBeam to both sides. LightMode 2 in Off is ignored, which is correct only under EL-BEAM-1.1."
+            ],
+            "name": "BCM_Lighting_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

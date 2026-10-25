@@ -1,0 +1,24 @@
+{
+    "DEVS2_Lighting_HazardWarning_@4fd8322b": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.4.2 Rear turn lamps follow ReqLeft and ReqRight**\n\nDEVS2_Lighting shall light Lamp_RearLeftTurn while ReqLeft is 1 and Lamp_RearRightTurn while ReqRight is 1, as received in each DEVMLIN01Fr01 frame.\n\nIt shall add no flashing, filtering or timing of its own.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "DEVS2_Lighting_@15070e58"
+            ]
+        },
+        "metadata": {
+            "uuid": "DEVS2_Lighting_HazardWarning_@4fd8322b",
+            "description": [
+                "Obligation of DEVS2_Lighting as DEVS2 in RearLight (EL-HAZ-1.4.2).",
+                "",
+                "DEVS2 is a LIN slave from the lamp supplier. Its realization ImplementedDEVS2_Lighting is rearlight.ldf, which defines ReqLeft and ReqRight in DEVMLIN01Fr01 with DEVS2 as subscriber."
+            ],
+            "name": "DEVS2_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/analysis/EL_Indicator_Response_Time_Analysis.md"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
+            "description": [
+                "Worst-case response time and phase offset analysis of the direction indicators (EL-RSP-1), from the DBC and LDF timing and the model code."
+            ],
+            "name": "NSEvidence_EL_Indicator_Response_Time_Analysis",
+            "version_schema": "4.6.2"
+        }
+    }
+}

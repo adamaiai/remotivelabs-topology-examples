@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingIndication_BeamModes_@f429d176": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.4 High-beam telltale**\n\nLightingIndication shall light Cluster_HighBeamTelltale while LeftHighBeamLightRequest or RightHighBeamLightRequest is 1.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingIndication_@c646860b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingIndication_BeamModes_@f429d176",
+            "description": [
+                "Allocated to building block LightingIndication. The high-beam telltale is the driver indication part of EL-BEAM-1."
+            ],
+            "name": "ExteriorLightingDesign_LightingIndication_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingIndication_HazardWarning_@4164eabf": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.5 Indicate active direction indicators to the driver**\n\nLightingIndication shall light Cluster_LeftTurnTelltale while LeftTurnLightRequest is 1 and Cluster_RightTurnTelltale while RightTurnLightRequest is 1, as received in each TurnLightControl frame.\n\nIt shall also pass the same turn state to the infotainment domain on every TurnLightControl frame, so that the infotainment HMI can mirror it.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingIndication_@c646860b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingIndication_HazardWarning_@4164eabf",
+            "description": [
+                "Allocated to building block LightingIndication. The cluster telltales are the operating indication EL-HAZ-1 requires; following the same frame as the lamps makes them flash with the lamps. Passing the state on to infotainment keeps the infotainment HMI consistent but is not itself the driver indication."
+            ],
+            "name": "ExteriorLightingDesign_LightingIndication_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

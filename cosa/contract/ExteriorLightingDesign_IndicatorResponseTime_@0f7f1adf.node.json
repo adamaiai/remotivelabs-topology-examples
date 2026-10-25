@@ -1,0 +1,50 @@
+{
+    "ExteriorLightingDesign_IndicatorResponseTime_@0f7f1adf": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1 Direction-indicator response time and phase**\n\nWhen the turn stalk or the hazard warning button changes state, every affected direction-indicator lamp shall show the change within 200 ms.\n\nThe front and rear lamps of one side shall change state no more than 80 ms apart, so that they are seen to flash in phase.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "ExteriorLightingDesign_@b093b118"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_IndicatorResponseTime_@0f7f1adf",
+            "description": [
+                "Top-level requirement on ExteriorLightingDesign. 200 ms keeps the lamps and telltale in step with the driver's hand on the stalk; UN R48 asks for the lamps of one side to flash in phase, and its own 1 s switch-on limit is met with a wide margin.",
+                "",
+                "Refined by RationaleClaim_NonSafety_ExteriorLightingDesign_IndicatorResponseTime into a time budget along the signal path (EL_Indicator_Response_Time_Analysis.md):",
+                "",
+                "| Step | Allocated to | Budget |",
+                "|---|---|---|",
+                "| stalk or button to DriverCan0 frame | EL-RSP-1.1 SCCM_Lighting | \u2264 50 ms |",
+                "| input frame to TurnLightControl sent | EL-RSP-1.2 BCM_Lighting | \u2264 60 ms |",
+                "| TurnLightControl to front lamp | EL-RSP-1.3 FLCM_Lighting | 10\u201320 ms |",
+                "| TurnLightControl to rear lamp | EL-RSP-1.4 RearLight | 10\u201365 ms |",
+                "| **rear lamp, worst case** | | **175 ms \u2264 200 ms** |",
+                "| **front/rear offset, worst case** | | **65 \u2212 10 = 55 ms \u2264 80 ms** |",
+                "",
+                "```mermaid",
+                "sequenceDiagram",
+                "  participant D as Driver",
+                "  participant S as SCCM",
+                "  participant B as BCM",
+                "  participant F as FLCM",
+                "  participant R as RearLight",
+                "  D->>S: stalk or button",
+                "  S->>B: DriverCan0 frame, \u2264 50 ms",
+                "  B->>F: TurnLightControl, \u2264 60 ms",
+                "  B->>R: same TurnLightControl frame",
+                "  F-->>D: front lamp, 10\u201320 ms",
+                "  R-->>D: rear lamp, 10\u201365 ms",
+                "```",
+                "",
+                "The parts of these budgets the platform delivers are allocated further to DriverCan0, BodyCan0, RearLightLIN, BCM_ECU and RLCM_ECU."
+            ],
+            "name": "ExteriorLightingDesign_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "NSEvidence_EL_Requirements_Breakdown_@c3dbe624": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#cosa/evidence/rationale/EL_Requirements_Breakdown.md"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
+            "description": [
+                "Breakdown rationale for the exterior lighting informal requirements EL-HAZ-1, EL-RSP-1 and EL-BEAM-1: why the obligations allocated to the building blocks together imply each requirement."
+            ],
+            "name": "NSEvidence_EL_Requirements_Breakdown",
+            "version_schema": "4.6.2"
+        }
+    }
+}

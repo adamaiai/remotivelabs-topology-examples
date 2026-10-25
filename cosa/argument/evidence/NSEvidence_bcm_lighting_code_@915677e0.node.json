@@ -1,0 +1,17 @@
+{
+    "NSEvidence_bcm_lighting_code_@915677e0": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/bcm/python/bcm"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_bcm_lighting_code_@915677e0",
+            "description": [
+                "BCM behavioral model: input handlers, hazard edge detection, turn signal and beam state machines, restbus outputs."
+            ],
+            "name": "NSEvidence_bcm_lighting_code",
+            "version_schema": "4.6.2"
+        }
+    }
+}

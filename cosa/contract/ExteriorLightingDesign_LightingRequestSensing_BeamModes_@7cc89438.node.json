@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingRequestSensing_BeamModes_@7cc89438": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.1 Light-mode switch steps through every position**\n\nSCCM_Lighting shall report the light-mode switch on LightStalk.LightMode (0 Off, 1 DaylightRunningLight, 2 LowBeam) so that the value only changes between adjacent positions (Off, DaylightRunningLight, LowBeam), each held for at least one 50 ms cycle.\n\nIt shall report the high-beam stalk on LightStalk.HighBeam.",
+            "status": "assumed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingRequestSensing_@fd19bb51"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingRequestSensing_BeamModes_@7cc89438",
+            "description": [
+                "Allocated to building block LightingRequestSensing. This is an assumption LightingControl places on its input. BCM_Lighting's beam state machine only steps Off, DaylightRunningLight, LowBeam one position at a time, which models a rotary light switch. That is the simpler design as long as every input device behaves like one."
+            ],
+            "name": "ExteriorLightingDesign_LightingRequestSensing_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

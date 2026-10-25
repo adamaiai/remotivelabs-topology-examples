@@ -1,0 +1,24 @@
+{
+    "SCCM_Lighting_HazardWarning_@6b7fb213": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.1 Report hazard button and turn stalk as raw states**\n\nSCCM_Lighting shall send the current state of the hazard warning button (HazardLightButton: 0 released, 1 pressed) and of the turn stalk (TurnStalk.TurnSignal: 0 neutral, 1 left, 2 right) in every 50 ms cycle on DriverCan0.\n\nIt shall not latch, toggle or otherwise interpret these inputs.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "SCCM_Lighting_@de006ceb"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_Lighting_HazardWarning_@6b7fb213",
+            "description": [
+                "Obligation of SCCM_Lighting as LightingRequestSensing in ExteriorLightingDesign (EL-HAZ-1.1).",
+                "",
+                "Realized by ImplementedSCCM_Lighting: the MappingModel copies the evdev button and stalk values unchanged (lookup transforms only) to the HazardLightButton and TurnStalk restbus frames, which driver_can.dbc sends every 50 ms."
+            ],
+            "name": "SCCM_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

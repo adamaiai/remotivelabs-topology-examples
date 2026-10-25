@@ -1,0 +1,22 @@
+{
+    "RearLight_RLCM_HazardWarning_@4cb46453": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.4.1 Forward turn requests to LIN unchanged**\n\nRLCM_Lighting shall copy LeftTurnLightRequest to ReqLeft and RightTurnLightRequest to ReqRight of DEVMLIN01Fr01 for every received TurnLightControl frame, without inverting, latching or filtering them.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "RearLight_RLCM_@a2749aba"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_RLCM_HazardWarning_@4cb46453",
+            "description": [
+                "Allocated to building block RLCM in RearLight. RLCM is the gateway between BodyCan0 and RearLightLIN. A one-to-one copy keeps the flashing decided upstream intact on the LIN side."
+            ],
+            "name": "RearLight_RLCM_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

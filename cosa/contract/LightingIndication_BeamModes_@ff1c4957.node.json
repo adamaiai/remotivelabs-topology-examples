@@ -1,0 +1,24 @@
+{
+    "LightingIndication_BeamModes_@ff1c4957": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.4 High-beam telltale**\n\nLightingIndication shall light Cluster_HighBeamTelltale while LeftHighBeamLightRequest or RightHighBeamLightRequest is 1.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "LightingIndication_@3d02c741"
+            ]
+        },
+        "metadata": {
+            "uuid": "LightingIndication_BeamModes_@ff1c4957",
+            "description": [
+                "Obligation of LightingIndication as LightingIndication in ExteriorLightingDesign (EL-BEAM-1.4).",
+                "",
+                "Refined by RationaleClaim_NonSafety_LightingIndication_BeamModes onto DIM alone; GWM and IHU take no part in the high-beam telltale."
+            ],
+            "name": "LightingIndication_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

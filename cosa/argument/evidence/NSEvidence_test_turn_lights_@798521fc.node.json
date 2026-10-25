@@ -1,0 +1,17 @@
+{
+    "NSEvidence_test_turn_lights_@798521fc": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/pytest/test_turn_lights.py"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_test_turn_lights_@798521fc",
+            "description": [
+                "BCM interface tests: turn stalk left/right/released and hazard on/off, observed as TurnLightControl frames at the FLCM-BodyCan0 namespace. Run against both the python BCM and the FMU."
+            ],
+            "name": "NSEvidence_test_turn_lights",
+            "version_schema": "4.6.2"
+        }
+    }
+}

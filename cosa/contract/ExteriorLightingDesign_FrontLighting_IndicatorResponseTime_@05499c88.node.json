@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_FrontLighting_IndicatorResponseTime_@05499c88": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.3 Front lamp reaction 10 to 20 ms**\n\nFLCM_Lighting shall change Lamp_FrontLeftTurn and Lamp_FrontRightTurn no earlier than 10 ms and no later than 20 ms after receiving a TurnLightControl frame that changes the corresponding request.",
+            "status": "accepted"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_FrontLighting_@c714980c"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_FrontLighting_IndicatorResponseTime_@05499c88",
+            "description": [
+                "Allocated to building block FrontLighting. Third segment of the EL-RSP-1 budget, front path. The lower bound matters as much as the upper one: together with the upper bound of RearLighting it limits the front/rear offset."
+            ],
+            "name": "ExteriorLightingDesign_FrontLighting_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

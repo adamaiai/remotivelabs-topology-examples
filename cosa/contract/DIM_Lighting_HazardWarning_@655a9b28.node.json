@@ -1,0 +1,24 @@
+{
+    "DIM_Lighting_HazardWarning_@655a9b28": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.5.1 Cluster turn telltales follow the requests**\n\nDIM_Lighting shall light Cluster_LeftTurnTelltale while LeftTurnLightRequest is 1 and Cluster_RightTurnTelltale while RightTurnLightRequest is 1, as received in each TurnLightControl frame.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "DIM_Lighting_@825ad175"
+            ]
+        },
+        "metadata": {
+            "uuid": "DIM_Lighting_HazardWarning_@655a9b28",
+            "description": [
+                "Obligation of DIM_Lighting as DIM in LightingIndication (EL-HAZ-1.5.1).",
+                "",
+                "DIM is a supplier cluster. Its realization ImplementedDIM_Lighting is body_can.dbc, which lists DIM as receiver of TurnLightControl."
+            ],
+            "name": "DIM_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "BodyCan0_LightingControl_Cycle_@ddd18262": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-P2 BodyCan0 lighting control cycle**\n\nBodyCan0 shall carry TurnLightControl every 50 ms, as one broadcast frame received by DIM, FLCM, RLCM and GWM, and its load shall let the frame be sent within its cycle.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "BodyCan0_@752e91cf"
+            ]
+        },
+        "metadata": {
+            "uuid": "BodyCan0_LightingControl_Cycle_@ddd18262",
+            "description": [
+                "Platform part of EL-RSP-1.2 (BCM_Lighting_IndicatorResponseTime). CommunicateAllocation_BodyCan0 places the Left/RightTurnLightRequest assemblies of ExteriorLightingDesign on BodyCan0.",
+                "",
+                "The broadcast matters as much as the cycle: one transmission reaching every follower is what makes the CAN delay cancel out of the front/rear offset of EL-RSP-1, and what keeps the telltales in phase for EL-HAZ-1.",
+                "",
+                "Evidence: frame 103 TurnLightControl with receivers DIM, FLCM, RLCM, GWM and GenMsgCycleTime 50 ms in body_can.dbc."
+            ],
+            "name": "BodyCan0_LightingControl_Cycle",
+            "version_schema": "4.6.2"
+        }
+    }
+}

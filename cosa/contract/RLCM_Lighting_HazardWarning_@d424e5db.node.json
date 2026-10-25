@@ -1,0 +1,24 @@
+{
+    "RLCM_Lighting_HazardWarning_@d424e5db": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.4.1 Forward turn requests to LIN unchanged**\n\nRLCM_Lighting shall copy LeftTurnLightRequest to ReqLeft and RightTurnLightRequest to ReqRight of DEVMLIN01Fr01 for every received TurnLightControl frame, without inverting, latching or filtering them.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "RLCM_Lighting_@211c4dea"
+            ]
+        },
+        "metadata": {
+            "uuid": "RLCM_Lighting_HazardWarning_@d424e5db",
+            "description": [
+                "Obligation of RLCM_Lighting as RLCM in RearLight (EL-HAZ-1.4.1).",
+                "",
+                "Realized by ImplementedRLCM_Lighting: RLCM.on_turn_req_frame() publishes both values to the LIN namespace for every TurnLightControl frame, with no state of its own."
+            ],
+            "name": "RLCM_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

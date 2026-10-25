@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingControl_BeamModes_@b3e02dbc": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.2 Beam requests from the light stalk**\n\nBCM_Lighting shall set the daylight running and low-beam requests from LightStalk.LightMode, identically for both sides:\n\n| LightMode | DaylightRunningLightRequest | LowBeamLightRequest |\n|---|---|---|\n| 0 Off | 0 | 0 |\n| 1 DaylightRunningLight | 1 | 0 |\n| 2 LowBeam | 1 | 1 |\n\nIt shall set Left/RightHighBeamLightRequest to LightStalk.HighBeam.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingControl_@aebff50b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingControl_BeamModes_@b3e02dbc",
+            "description": [
+                "Allocated to building block LightingControl. The decision part of EL-BEAM-1. The daylight running request stays set with low beam: dimming the daylight running lamps is the lamp module's job (EL-BEAM-1.3), so the request stays a plain mode table."
+            ],
+            "name": "ExteriorLightingDesign_LightingControl_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingControl_HazardWarning_@e86bff8b": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.2 Hazard toggle, precedence and resume**\n\nBCM_Lighting shall switch hazard warning on, or off, at each change of HazardLightButton from 0 to 1.\n\nWhile hazard warning is on, it shall flash LeftTurnLightRequest and RightTurnLightRequest together, setting both to the same value in every TurnLightControl frame, and ignore the turn stalk.\n\nWhen hazard warning is switched off, it shall continue on the side given by the last TurnStalk.TurnSignal value, or set both requests to 0 when the stalk is neutral.",
+            "status": "verified"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingControl_@aebff50b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingControl_HazardWarning_@e86bff8b",
+            "description": [
+                "Allocated to building block LightingControl. This is the decision part of EL-HAZ-1. Toggling on the 0 to 1 edge, not on the level, is what makes the button push-push: a held button must not toggle again every cycle. Writing both requests into the same frame is what makes the lamps and telltales downstream flash together, since every follower consumes that one frame."
+            ],
+            "name": "ExteriorLightingDesign_LightingControl_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

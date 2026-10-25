@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_RearLighting_IndicatorResponseTime_@112e1931": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.4 Rear lamp reaction 10 to 65 ms**\n\nRearLight shall change Lamp_RearLeftTurn and Lamp_RearRightTurn no earlier than 10 ms and no later than 65 ms after receiving a TurnLightControl frame that changes the corresponding request.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_RearLighting_@51bba31d"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_RearLighting_IndicatorResponseTime_@112e1931",
+            "description": [
+                "Allocated to building block RearLighting. Third segment of the EL-RSP-1 budget, rear path. 65 ms is what the LIN hop needs (see RearLight's refinement); with FrontLighting's 10 ms lower bound it gives the 55 ms worst front/rear offset."
+            ],
+            "name": "ExteriorLightingDesign_RearLighting_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

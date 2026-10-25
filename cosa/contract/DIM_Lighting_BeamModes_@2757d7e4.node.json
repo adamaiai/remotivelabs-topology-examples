@@ -1,0 +1,24 @@
+{
+    "DIM_Lighting_BeamModes_@2757d7e4": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.4.1 Cluster high-beam telltale**\n\nDIM_Lighting shall light Cluster_HighBeamTelltale while LeftHighBeamLightRequest or RightHighBeamLightRequest is 1, as received in each HighBeamLightControl frame.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "DIM_Lighting_@825ad175"
+            ]
+        },
+        "metadata": {
+            "uuid": "DIM_Lighting_BeamModes_@2757d7e4",
+            "description": [
+                "Obligation of DIM_Lighting as DIM in LightingIndication (EL-BEAM-1.4.1).",
+                "",
+                "DIM is a supplier cluster; its realization ImplementedDIM_Lighting is body_can.dbc, which lists DIM as receiver of HighBeamLightControl."
+            ],
+            "name": "DIM_Lighting_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

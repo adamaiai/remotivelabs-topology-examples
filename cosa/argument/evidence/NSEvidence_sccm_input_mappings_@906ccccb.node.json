@@ -1,0 +1,17 @@
+{
+    "NSEvidence_sccm_input_mappings_@906ccccb": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/sccm/python/config"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_sccm_input_mappings_@906ccccb",
+            "description": [
+                "SCCM input mappings from evdev devices to the DriverCan0 restbus frames, one file per steering wheel or stalk."
+            ],
+            "name": "NSEvidence_sccm_input_mappings",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "NSEvidence_rlcm_forwarding_code_@2bfdabbd": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/models/rlcm/python/rlcm/__main__.py"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_rlcm_forwarding_code_@2bfdabbd",
+            "description": [
+                "RLCM behavioral model: copies TurnLightControl Left/RightTurnLightRequest to ReqLeft/ReqRight of DEVMLIN01Fr01 on every frame."
+            ],
+            "name": "NSEvidence_rlcm_forwarding_code",
+            "version_schema": "4.6.2"
+        }
+    }
+}

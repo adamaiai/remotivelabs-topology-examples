@@ -1,0 +1,22 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedDIM_Lighting_@d740db05": {
+        "stereotype": "SatisfactionClaim_NonSafety_Atomic",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_body_can_dbc_@b43df989"
+            ],
+            "satisfyingRealization": [
+                "ImplementedDIM_Lighting_@e8faebdf"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedDIM_Lighting_@d740db05",
+            "description": [
+                "ImplementedDIM_Lighting, the interface specification body_can.dbc handed to the cluster supplier, satisfies the interface side of EL-HAZ-1.5.1 (DIM_Lighting_HazardWarning) and EL-BEAM-1.4.1 (DIM_Lighting_BeamModes): DIM is a receiver of TurnLightControl and HighBeamLightControl."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedDIM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

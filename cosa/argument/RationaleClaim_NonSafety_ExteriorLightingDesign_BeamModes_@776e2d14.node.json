@@ -1,0 +1,38 @@
+{
+    "RationaleClaim_NonSafety_ExteriorLightingDesign_BeamModes_@776e2d14": {
+        "stereotype": "RationaleClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "composedComponent": [
+                "ExteriorLightingDesign_@b093b118"
+            ],
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
+                "NSEvidence_EL_Beam_Mode_Review_@eb548134"
+            ],
+            "refinedConstraint": [
+                "ExteriorLightingDesign_BeamModes_@f203ee81"
+            ],
+            "refiningConstraint": [
+                "ExteriorLightingDesign_LightingRequestSensing_BeamModes_@7cc89438",
+                "ExteriorLightingDesign_LightingControl_BeamModes_@b3e02dbc",
+                "ExteriorLightingDesign_FrontLighting_BeamModes_@6e72d7aa",
+                "ExteriorLightingDesign_LightingIndication_BeamModes_@f429d176"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_NonSafety_ExteriorLightingDesign_BeamModes_@776e2d14",
+            "description": [
+                "EL-BEAM-1 on ExteriorLightingDesign is implied by EL-BEAM-1.1 to 1.4:",
+                "",
+                "- *Lamps follow the light mode, both sides alike:* LightingControl maps LightMode to identical left and right requests (1.2), and FrontLighting lights the lamps from them and dims the daylight running lamps with low beam (1.3).",
+                "- *From any previous selection:* LightingControl steps one position at a time, so this holds only because LightingRequestSensing reports the switch one position at a time (1.1).",
+                "- *High beam and its telltale:* LightingControl copies the high-beam stalk to both sides (1.2), FrontLighting lights the lamps (1.3), LightingIndication lights the telltale (1.4).",
+                "",
+                "The refinement is sound, but its premise 1.1 is an assumption that one realization of LightingRequestSensing breaks; see EL_Beam_Mode_Review.md."
+            ],
+            "name": "RationaleClaim_NonSafety_ExteriorLightingDesign_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

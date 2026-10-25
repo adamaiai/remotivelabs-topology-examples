@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingRequestSensing_IndicatorResponseTime_@d2512309": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.1 Input to bus within 50 ms**\n\nSCCM_Lighting shall put a change of the turn stalk or the hazard warning button on DriverCan0 within 50 ms, in the next TurnStalk or HazardLightButton frame of the 50 ms cycle.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingRequestSensing_@fd19bb51"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingRequestSensing_IndicatorResponseTime_@d2512309",
+            "description": [
+                "Allocated to building block LightingRequestSensing. First segment of the EL-RSP-1 budget. 50 ms is one DriverCan0 cycle, the delay a cyclic restbus frame adds at most."
+            ],
+            "name": "ExteriorLightingDesign_LightingRequestSensing_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

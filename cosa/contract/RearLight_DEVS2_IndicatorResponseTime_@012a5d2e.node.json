@@ -1,0 +1,22 @@
+{
+    "RearLight_DEVS2_IndicatorResponseTime_@012a5d2e": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.4.2 Rear lamp reaction 10 to 20 ms**\n\nDEVS2_Lighting shall change the rear turn lamps no earlier than 10 ms and no later than 20 ms after receiving a DEVMLIN01Fr01 frame that changes ReqLeft or ReqRight.",
+            "status": "accepted"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "RearLight_DEVS2_@aa8e188d"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_DEVS2_IndicatorResponseTime_@012a5d2e",
+            "description": [
+                "Allocated to building block DEVS2 in RearLight. Last segment of RearLight's 65 ms, the same lamp reaction window as the front lamp module."
+            ],
+            "name": "RearLight_DEVS2_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

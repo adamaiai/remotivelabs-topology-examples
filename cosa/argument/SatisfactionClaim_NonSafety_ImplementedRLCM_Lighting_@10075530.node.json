@@ -1,0 +1,24 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedRLCM_Lighting_@10075530": {
+        "stereotype": "SatisfactionClaim_NonSafety_Atomic",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_rlcm_forwarding_code_@2bfdabbd",
+                "NSEvidence_rearlight_ldf_@99d4e251",
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+            ],
+            "satisfyingRealization": [
+                "ImplementedRLCM_Lighting_@ec68984f"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedRLCM_Lighting_@10075530",
+            "description": [
+                "ImplementedRLCM_Lighting satisfies EL-HAZ-1.4.1 (RLCM_Lighting_HazardWarning) and EL-RSP-1.4.1 (RLCM_Lighting_IndicatorResponseTime): RLCM.on_turn_req_frame() copies Left/RightTurnLightRequest to ReqLeft/ReqRight of DEVMLIN01Fr01 for every TurnLightControl frame, with no state of its own and inside the frame handler."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedRLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

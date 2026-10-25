@@ -1,0 +1,28 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedLightingIndication_@ad59bd1e": {
+        "stereotype": "SatisfactionClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
+            ],
+            "satisfyingRealization": [
+                "ImplementedLightingIndication_@716ced1d"
+            ],
+            "validInputToIntegration": [
+                "ImplementedDIM_Lighting_@e8faebdf",
+                "ImplementedGWM_Lighting_@308761b7"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedLightingIndication_@ad59bd1e",
+            "description": [
+                "ImplementedLightingIndication satisfies EL-HAZ-1.5 (LightingIndication_HazardWarning) and EL-BEAM-1.4 (LightingIndication_BeamModes): its DIM and GWM realizations satisfy the refining obligations, and the refinements hold (RationaleClaim_NonSafety_LightingIndication_HazardWarning, RationaleClaim_NonSafety_LightingIndication_BeamModes).",
+                "",
+                "ImplementedIHU_Lighting is part of the integration but is not relied on."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedLightingIndication",
+            "version_schema": "4.6.2"
+        }
+    }
+}

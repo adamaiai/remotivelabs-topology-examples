@@ -1,0 +1,23 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedGWM_Lighting_@87e66e38": {
+        "stereotype": "SatisfactionClaim_NonSafety_Atomic",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_gwm_forwarding_code_@5f86c95c",
+                "NSEvidence_body_can_dbc_@b43df989"
+            ],
+            "satisfyingRealization": [
+                "ImplementedGWM_Lighting_@308761b7"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedGWM_Lighting_@87e66e38",
+            "description": [
+                "ImplementedGWM_Lighting satisfies EL-HAZ-1.5.2 (GWM_Lighting_HazardWarning): GWM.on_frame() notifies TurnlightControlEvent of the TurnlightIndicator service with LeftTurnlight and RightTurnlight copied from every TurnLightControl frame."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedGWM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedRearLight_@229d77cd": {
+        "stereotype": "SatisfactionClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+            ],
+            "satisfyingRealization": [
+                "ImplementedRearLight_@3b2f326e"
+            ],
+            "validInputToIntegration": [
+                "ImplementedRLCM_Lighting_@ec68984f",
+                "ImplementedDEVS2_Lighting_@a00e84c3"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedRearLight_@229d77cd",
+            "description": [
+                "ImplementedRearLight satisfies EL-HAZ-1.4 (RearLight_HazardWarning) and EL-RSP-1.4 (RearLight_IndicatorResponseTime): its RLCM and DEVS2 realizations satisfy the refining obligations (SatisfactionClaim_NonSafety_ImplementedRLCM_Lighting, SatisfactionClaim_NonSafety_ImplementedDEVS2_Lighting), and the refinements hold (RationaleClaim_NonSafety_RearLight_HazardWarning, RationaleClaim_NonSafety_RearLight_IndicatorResponseTime).",
+                "",
+                "ImplementedRL_Lighting is part of the integration but carries no obligation from these requirements."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedRearLight",
+            "version_schema": "4.6.2"
+        }
+    }
+}

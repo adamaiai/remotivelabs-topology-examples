@@ -1,0 +1,26 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedFLCM_Lighting_@f8da601f": {
+        "stereotype": "SatisfactionClaim_NonSafety_Atomic",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_body_can_dbc_@b43df989",
+                "NSEvidence_test_turn_lights_@798521fc",
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+            ],
+            "satisfyingRealization": [
+                "ImplementedFLCM_Lighting_@92d1fe4a"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedFLCM_Lighting_@f8da601f",
+            "description": [
+                "ImplementedFLCM_Lighting, the interface specification body_can.dbc handed to the FLCM supplier, satisfies the interface side of EL-HAZ-1.3 (FLCM_Lighting_HazardWarning) and EL-BEAM-1.3 (FLCM_Lighting_BeamModes): FLCM is a receiver of TurnLightControl and of the three beam control frames. test_turn_lights.py observes TurnLightControl at the FLCM-BodyCan0 namespace, i.e. at the FLCM's input.",
+                "",
+                "The lamp reaction window of EL-RSP-1.3 (FLCM_Lighting_IndicatorResponseTime) and the DRL dimming are supplier commitments, used as inputs by EL_Indicator_Response_Time_Analysis.md."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedFLCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

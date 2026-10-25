@@ -1,0 +1,24 @@
+{
+    "BCM_ECU_Lighting_Reaction_@6f28fab0": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-P4 BCM_ECU lighting handler reaction**\n\nBCM_ECU shall run the BCM_Lighting input handlers within 10 ms of frame reception, also while the turn-signal blink ticker is running.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "BCM_ECU_@e08662f3"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_ECU_Lighting_Reaction_@6f28fab0",
+            "description": [
+                "Platform part of EL-RSP-1.2 (BCM_Lighting_IndicatorResponseTime), through ComputeAllocation_BCM_Lighting, which places BCM_Lighting on BCM_ECU.",
+                "",
+                "The handlers are short restbus updates, and ECU_Compute_Budget_Analysis.md keeps the compute needs on BCM_ECU below the 50 MFLOPS it offers, so the 10 ms reaction is a scheduling requirement, not a capacity one."
+            ],
+            "name": "BCM_ECU_Lighting_Reaction",
+            "version_schema": "4.6.2"
+        }
+    }
+}

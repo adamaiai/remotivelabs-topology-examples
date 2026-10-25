@@ -1,0 +1,36 @@
+{
+    "ExteriorLightingDesign_BeamModes_@f203ee81": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1 Light mode and high beam**\n\nThe front lamps shall follow the driver's light-mode selection within 200 ms, from any previous selection:\n\n| Light mode | Daylight running lamps | Low beam |\n|---|---|---|\n| Off | off | off |\n| DaylightRunningLight | on | off |\n| LowBeam | dimmed to position level | on |\n\nBoth sides shall always be lit alike.\n\nHigh beam shall be lit on both sides while the driver requests it, and the cluster high-beam telltale shall be lit whenever high beam is requested.",
+            "status": "accepted"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "ExteriorLightingDesign_@b093b118"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_BeamModes_@f203ee81",
+            "description": [
+                "Top-level requirement on ExteriorLightingDesign for the beam functions.",
+                "",
+                "Status accepted, not verified: the breakdown made an assumption on the light-mode input explicit (EL-BEAM-1.1), and checking it found that the Logitech G29 input mapping breaks it. See EL_Beam_Mode_Review.md.",
+                "",
+                "```mermaid",
+                "flowchart TD",
+                "  top[\"EL-BEAM-1<br/>ExteriorLightingDesign\"]",
+                "  top --> s[\"EL-BEAM-1.1<br/>SCCM_Lighting<br/>open finding\"]",
+                "  top --> c[\"EL-BEAM-1.2<br/>BCM_Lighting\"]",
+                "  top --> f[\"EL-BEAM-1.3<br/>FLCM_Lighting\"]",
+                "  top --> i[\"EL-BEAM-1.4<br/>LightingIndication\"]",
+                "  i --> i1[\"EL-BEAM-1.4.1<br/>DIM_Lighting\"]",
+                "  s:::open",
+                "  classDef open stroke:#c0392b,stroke-width:2px",
+                "```"
+            ],
+            "name": "ExteriorLightingDesign_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "LightingIndication_DIM_HazardWarning_@32e3551f": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.5.1 Cluster turn telltales follow the requests**\n\nDIM_Lighting shall light Cluster_LeftTurnTelltale while LeftTurnLightRequest is 1 and Cluster_RightTurnTelltale while RightTurnLightRequest is 1, as received in each TurnLightControl frame.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "LightingIndication_DIM_@9456d695"
+            ]
+        },
+        "metadata": {
+            "uuid": "LightingIndication_DIM_HazardWarning_@32e3551f",
+            "description": [
+                "Allocated to building block DIM in LightingIndication. The DIM owns the cluster telltales and receives TurnLightControl directly, the same frame the lamp modules receive."
+            ],
+            "name": "LightingIndication_DIM_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

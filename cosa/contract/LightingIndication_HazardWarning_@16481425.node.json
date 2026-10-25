@@ -1,0 +1,32 @@
+{
+    "LightingIndication_HazardWarning_@16481425": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.5 Indicate active direction indicators to the driver**\n\nLightingIndication shall light Cluster_LeftTurnTelltale while LeftTurnLightRequest is 1 and Cluster_RightTurnTelltale while RightTurnLightRequest is 1, as received in each TurnLightControl frame.\n\nIt shall also pass the same turn state to the infotainment domain on every TurnLightControl frame, so that the infotainment HMI can mirror it.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "LightingIndication_@3d02c741"
+            ]
+        },
+        "metadata": {
+            "uuid": "LightingIndication_HazardWarning_@16481425",
+            "description": [
+                "Obligation of LightingIndication as LightingIndication in ExteriorLightingDesign (EL-HAZ-1.5).",
+                "",
+                "Refined by RationaleClaim_NonSafety_LightingIndication_HazardWarning:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  can[\"BodyCan0<br/>TurnLightControl\"] --> dim[\"DIM<br/>EL-HAZ-1.5.1\"]",
+                "  can --> gwm[\"GWM<br/>EL-HAZ-1.5.2\"]",
+                "  dim --> tt[\"Cluster_LeftTurnTelltale<br/>Cluster_RightTurnTelltale\"]",
+                "  gwm -->|\"SOME/IP TurnlightIndicator\"| ihu[\"IHU<br/>no obligation\"]",
+                "```"
+            ],
+            "name": "LightingIndication_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

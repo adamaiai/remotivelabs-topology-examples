@@ -1,0 +1,24 @@
+{
+    "DriverCan0_LightingInputs_Cycle_@a88ed903": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-P1 DriverCan0 lighting input cycle**\n\nDriverCan0 shall carry HazardLightButton, TurnStalk and LightStalk every 50 ms, and its load shall let each of these frames be sent within its cycle.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "DriverCan0_@8f511c44"
+            ]
+        },
+        "metadata": {
+            "uuid": "DriverCan0_LightingInputs_Cycle_@a88ed903",
+            "description": [
+                "Platform part of EL-RSP-1.1 (SCCM_Lighting_IndicatorResponseTime). CommunicateAllocation_DriverCan0 places the TurnSignal, HazardLightButton, LightMode and HighBeam assemblies of ExteriorLightingDesign on DriverCan0, so the bus delay of EL-RSP-1.1 is this bus's to deliver.",
+                "",
+                "Evidence: GenMsgCycleTime 50 ms of frames 100, 101 and 103 in driver_can.dbc; bus load in Bus_Load_Analysis.md."
+            ],
+            "name": "DriverCan0_LightingInputs_Cycle",
+            "version_schema": "4.6.2"
+        }
+    }
+}

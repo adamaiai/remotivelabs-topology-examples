@@ -1,0 +1,17 @@
+{
+    "NSEvidence_body_can_dbc_@b43df989": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/body_can.dbc"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_body_can_dbc_@b43df989",
+            "description": [
+                "BodyCan0 database: lighting control frames sent by BCM, their receivers (DIM, FLCM, RLCM, GWM) and GenMsgCycleTime 50 ms."
+            ],
+            "name": "NSEvidence_body_can_dbc",
+            "version_schema": "4.6.2"
+        }
+    }
+}

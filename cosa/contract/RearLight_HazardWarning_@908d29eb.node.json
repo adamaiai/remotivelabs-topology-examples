@@ -1,0 +1,32 @@
+{
+    "RearLight_HazardWarning_@908d29eb": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.4 Rear turn lamps follow the requests**\n\nRearLight shall light Lamp_RearLeftTurn while LeftTurnLightRequest is 1 and Lamp_RearRightTurn while RightTurnLightRequest is 1, as received in each TurnLightControl frame.\n\nIt shall add no flashing, filtering or timing of its own.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "RearLight_@be64e290"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_HazardWarning_@908d29eb",
+            "description": [
+                "Obligation of RearLight as RearLighting in ExteriorLightingDesign (EL-HAZ-1.4).",
+                "",
+                "RearLight is itself a composition. RationaleClaim_NonSafety_RearLight_HazardWarning refines this obligation onto its parts:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  can[\"BodyCan0<br/>TurnLightControl\"] --> rlcm[\"RLCM<br/>EL-HAZ-1.4.1\"]",
+                "  rlcm -->|\"DEVMLIN01Fr01<br/>ReqLeft, ReqRight\"| devs2[\"DEVS2<br/>EL-HAZ-1.4.2\"]",
+                "  devs2 --> lamps[\"Lamp_RearLeftTurn<br/>Lamp_RearRightTurn\"]",
+                "  rl[\"RL<br/>no obligation\"]",
+                "```"
+            ],
+            "name": "RearLight_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

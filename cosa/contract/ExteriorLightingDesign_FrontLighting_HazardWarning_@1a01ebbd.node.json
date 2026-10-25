@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_FrontLighting_HazardWarning_@1a01ebbd": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.3 Front turn lamps follow the requests**\n\nFLCM_Lighting shall light Lamp_FrontLeftTurn while LeftTurnLightRequest is 1 and Lamp_FrontRightTurn while RightTurnLightRequest is 1, as received in each TurnLightControl frame.\n\nIt shall add no flashing, filtering or timing of its own.",
+            "status": "delivered"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_FrontLighting_@c714980c"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_FrontLighting_HazardWarning_@1a01ebbd",
+            "description": [
+                "Allocated to building block FrontLighting. Flashing is generated once, in LightingControl; lamp modules only follow. That is what keeps all lamps in phase without any synchronisation between the lamp modules."
+            ],
+            "name": "ExteriorLightingDesign_FrontLighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

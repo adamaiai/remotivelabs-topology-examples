@@ -1,0 +1,24 @@
+{
+    "RLCM_ECU_Lighting_Forwarding_@f138a444": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-P5 RLCM_ECU forwarding reaction**\n\nRLCM_ECU shall run the RLCM_Lighting TurnLightControl handler within 5 ms of frame reception.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "RLCM_ECU_@2e9852c4"
+            ]
+        },
+        "metadata": {
+            "uuid": "RLCM_ECU_Lighting_Forwarding_@f138a444",
+            "description": [
+                "Platform part of EL-RSP-1.4.1 (RLCM_Lighting_IndicatorResponseTime), through ComputeAllocation_RLCM_Lighting, which places RLCM_Lighting on RLCM_ECU.",
+                "",
+                "5 ms equals the LIN master time base of RLCM in rearlight.ldf (5 ms, 1 ms jitter), the period at which the master task runs anyway."
+            ],
+            "name": "RLCM_ECU_Lighting_Forwarding",
+            "version_schema": "4.6.2"
+        }
+    }
+}

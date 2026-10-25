@@ -1,0 +1,17 @@
+{
+    "NSEvidence_driver_can_dbc_@a9fde76c": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/driver_can.dbc"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_driver_can_dbc_@a9fde76c",
+            "description": [
+                "DriverCan0 database: HazardLightButton, TurnStalk and LightStalk frames sent by SCCM to BCM, GenMsgCycleTime 50 ms."
+            ],
+            "name": "NSEvidence_driver_can_dbc",
+            "version_schema": "4.6.2"
+        }
+    }
+}

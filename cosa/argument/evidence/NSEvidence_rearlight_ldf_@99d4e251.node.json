@@ -1,0 +1,17 @@
+{
+    "NSEvidence_rearlight_ldf_@99d4e251": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/platform/databases/rearlight.ldf"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_rearlight_ldf_@99d4e251",
+            "description": [
+                "RearLightLIN description: ReqLeft/ReqRight in DEVMLIN01Fr01 from RLCM to DEVS2, 19.2 kbit/s, schedule table DEVMLIN01Schedule01."
+            ],
+            "name": "NSEvidence_rearlight_ldf",
+            "version_schema": "4.6.2"
+        }
+    }
+}

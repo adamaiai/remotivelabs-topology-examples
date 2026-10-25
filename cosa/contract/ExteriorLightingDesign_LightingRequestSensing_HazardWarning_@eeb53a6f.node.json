@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingRequestSensing_HazardWarning_@eeb53a6f": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.1 Report hazard button and turn stalk as raw states**\n\nSCCM_Lighting shall send the current state of the hazard warning button (HazardLightButton: 0 released, 1 pressed) and of the turn stalk (TurnStalk.TurnSignal: 0 neutral, 1 left, 2 right) in every 50 ms cycle on DriverCan0.\n\nIt shall not latch, toggle or otherwise interpret these inputs.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingRequestSensing_@fd19bb51"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingRequestSensing_HazardWarning_@eeb53a6f",
+            "description": [
+                "Allocated to building block LightingRequestSensing. LightingRequestSensing only has to see the driver's input. Keeping it a raw-state reporter puts all toggle and precedence logic in one place, LightingControl, so that logic is specified and tested once. A press of at least 100 ms spans a whole 50 ms cycle and so reaches the bus in at least one frame."
+            ],
+            "name": "ExteriorLightingDesign_LightingRequestSensing_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

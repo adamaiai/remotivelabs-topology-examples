@@ -1,0 +1,24 @@
+{
+    "BCM_Lighting_IndicatorResponseTime_@ae37c6a0": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.2 Turn decision to bus within 60 ms**\n\nBCM_Lighting shall send the TurnLightControl frame carrying the new turn state within 60 ms of receiving the TurnStalk or HazardLightButton frame that caused it: at most 10 ms of processing plus at most one 50 ms TurnLightControl cycle.\n\nThe first on-phase shall be output when the new state is entered, not at the first blink tick.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "BCM_Lighting_@7d7ffa2c"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_Lighting_IndicatorResponseTime_@ae37c6a0",
+            "description": [
+                "Obligation of BCM_Lighting as LightingControl in ExteriorLightingDesign (EL-RSP-1.2).",
+                "",
+                "Realized by ImplementedBCM_Lighting: on_turn_stalk() and on_hazard_button() update the restbus signals in the same handler, and the entered state left_on, right_on or hazard_on already carries the on value. Processing time is allocated to BCM_ECU (BCM_ECU_Lighting_Reaction) through ComputeAllocation_BCM_Lighting; the 50 ms cycle to BodyCan0 (BodyCan0_LightingControl_Cycle) through CommunicateAllocation_BodyCan0."
+            ],
+            "name": "BCM_Lighting_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

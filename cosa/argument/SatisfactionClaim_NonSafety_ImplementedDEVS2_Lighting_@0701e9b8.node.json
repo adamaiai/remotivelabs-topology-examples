@@ -1,0 +1,25 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedDEVS2_Lighting_@0701e9b8": {
+        "stereotype": "SatisfactionClaim_NonSafety_Atomic",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_rearlight_ldf_@99d4e251",
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+            ],
+            "satisfyingRealization": [
+                "ImplementedDEVS2_Lighting_@a00e84c3"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedDEVS2_Lighting_@0701e9b8",
+            "description": [
+                "ImplementedDEVS2_Lighting, the interface specification rearlight.ldf handed to the DEVS2 supplier, satisfies the interface side of EL-HAZ-1.4.2 (DEVS2_Lighting_HazardWarning): DEVS2 subscribes to ReqLeft and ReqRight of DEVMLIN01Fr01.",
+                "",
+                "The lamp reaction window of EL-RSP-1.4.2 (DEVS2_Lighting_IndicatorResponseTime) is a supplier commitment, used as input by EL_Indicator_Response_Time_Analysis.md."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedDEVS2_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

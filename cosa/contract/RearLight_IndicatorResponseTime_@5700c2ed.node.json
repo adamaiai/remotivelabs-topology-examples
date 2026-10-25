@@ -1,0 +1,33 @@
+{
+    "RearLight_IndicatorResponseTime_@5700c2ed": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.4 Rear lamp reaction 10 to 65 ms**\n\nRearLight shall change Lamp_RearLeftTurn and Lamp_RearRightTurn no earlier than 10 ms and no later than 65 ms after receiving a TurnLightControl frame that changes the corresponding request.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "RearLight_@be64e290"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_IndicatorResponseTime_@5700c2ed",
+            "description": [
+                "Obligation of RearLight as RearLighting in ExteriorLightingDesign (EL-RSP-1.4).",
+                "",
+                "Refined by RationaleClaim_NonSafety_RearLight_IndicatorResponseTime:",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  a[\"TurnLightControl<br/>received by RLCM\"] -->|\"\u2264 5 ms<br/>EL-RSP-1.4.1 RLCM_Lighting\"| b[\"ReqLeft, ReqRight<br/>written to LIN\"]",
+                "  b -->|\"\u2264 30 ms wait + 10 ms slot<br/>RearLightLIN\"| c[\"DEVMLIN01Fr01<br/>received by DEVS2\"]",
+                "  c -->|\"10\u201320 ms<br/>EL-RSP-1.4.2 DEVS2_Lighting\"| d[\"rear turn lamp\"]",
+                "```",
+                "",
+                "Minimum 0 + 0 + 10 = 10 ms, maximum 5 + 40 + 20 = 65 ms."
+            ],
+            "name": "RearLight_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

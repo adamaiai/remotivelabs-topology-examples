@@ -1,0 +1,36 @@
+{
+    "RationaleClaim_NonSafety_RearLight_IndicatorResponseTime_@8b72df9e": {
+        "stereotype": "RationaleClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "composedComponent": [
+                "RearLight_@be64e290"
+            ],
+            "evidence": [
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+            ],
+            "refinedConstraint": [
+                "RearLight_IndicatorResponseTime_@5700c2ed"
+            ],
+            "refiningConstraint": [
+                "RearLight_RLCM_IndicatorResponseTime_@c94647c0",
+                "RearLight_DEVS2_IndicatorResponseTime_@012a5d2e"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_NonSafety_RearLight_IndicatorResponseTime_@8b72df9e",
+            "description": [
+                "EL-RSP-1.4 on RearLight is implied by EL-RSP-1.4.1 and 1.4.2 together with the RearLightLIN schedule constraint RearLightLIN_TurnRequest_Schedule, which carries the assembly between them:",
+                "",
+                "| Segment | Min | Max |",
+                "|---|---|---|",
+                "| RLCM writes ReqLeft/ReqRight (1.4.1) | 0 | 5 ms |",
+                "| wait for the DEVMLIN01Fr01 slot, slot itself (RearLightLIN) | 0 | 30 + 10 ms |",
+                "| DEVS2 lamp reaction (1.4.2) | 10 | 20 ms |",
+                "| **TurnLightControl to rear lamp** | **10** | **65 ms** |"
+            ],
+            "name": "RationaleClaim_NonSafety_RearLight_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

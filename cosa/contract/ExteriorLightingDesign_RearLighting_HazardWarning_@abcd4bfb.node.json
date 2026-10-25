@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_RearLighting_HazardWarning_@abcd4bfb": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.4 Rear turn lamps follow the requests**\n\nRearLight shall light Lamp_RearLeftTurn while LeftTurnLightRequest is 1 and Lamp_RearRightTurn while RightTurnLightRequest is 1, as received in each TurnLightControl frame.\n\nIt shall add no flashing, filtering or timing of its own.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_RearLighting_@51bba31d"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_RearLighting_HazardWarning_@abcd4bfb",
+            "description": [
+                "Allocated to building block RearLighting. Same follow obligation as FrontLighting, for the rear lamps, so that front and rear lamps flash from the same frame."
+            ],
+            "name": "ExteriorLightingDesign_RearLighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

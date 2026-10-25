@@ -1,0 +1,26 @@
+{
+    "SCCM_Lighting_BeamModes_@fc5efc12": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.1 Light-mode switch steps through every position**\n\nSCCM_Lighting shall report the light-mode switch on LightStalk.LightMode (0 Off, 1 DaylightRunningLight, 2 LowBeam) so that the value only changes between adjacent positions (Off, DaylightRunningLight, LowBeam), each held for at least one 50 ms cycle.\n\nIt shall report the high-beam stalk on LightStalk.HighBeam.",
+            "status": "assumed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "SCCM_Lighting_@de006ceb"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_Lighting_BeamModes_@fc5efc12",
+            "description": [
+                "Obligation of SCCM_Lighting as LightingRequestSensing in ExteriorLightingDesign (EL-BEAM-1.1).",
+                "",
+                "**Open finding.** The MOZA stalk mappings map the three detents to 0, 1 and 2 and meet this. The Logitech G29 mapping maps one button to 0 and 2, so LightMode jumps between Off and LowBeam: the BCM ignores the jump and the low beam never comes on. It also writes the high-beam button to LightControl.HighBeam, a frame driver_can.dbc does not define.",
+                "",
+                "ImplementedSCCM_Lighting therefore does not meet EL-BEAM-1.1 for the G29, and SatisfactionClaim_NonSafety_ImplementedSCCM_Lighting excludes it. Proposed fix (EL_Beam_Mode_Review.md, option A): map the G29 button as a cycling switch 0, 1, 2, 0 and target LightStalk.HighBeam."
+            ],
+            "name": "SCCM_Lighting_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}

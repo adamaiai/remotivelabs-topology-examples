@@ -1,0 +1,17 @@
+{
+    "NSEvidence_hazard_light_feature_@1b4ada75": {
+        "stereotype": "NonSafetyEvidenceReference",
+        "attributes": {
+            "location": "git+project://remotivelabs-topology-examples#remotive_car/tests/behave/features/hazard_light.feature"
+        },
+        "connections": {},
+        "metadata": {
+            "uuid": "NSEvidence_hazard_light_feature_@1b4ada75",
+            "description": [
+                "System scenario: hazard warning overrides the turn stalk and stays on after the stalk is reset, until the button is pressed again."
+            ],
+            "name": "NSEvidence_hazard_light_feature",
+            "version_schema": "4.6.2"
+        }
+    }
+}

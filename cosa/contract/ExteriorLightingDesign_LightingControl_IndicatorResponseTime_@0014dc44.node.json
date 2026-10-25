@@ -1,0 +1,22 @@
+{
+    "ExteriorLightingDesign_LightingControl_IndicatorResponseTime_@0014dc44": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.2 Turn decision to bus within 60 ms**\n\nBCM_Lighting shall send the TurnLightControl frame carrying the new turn state within 60 ms of receiving the TurnStalk or HazardLightButton frame that caused it: at most 10 ms of processing plus at most one 50 ms TurnLightControl cycle.\n\nThe first on-phase shall be output when the new state is entered, not at the first blink tick.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "ExteriorLightingDesign_LightingControl_@aebff50b"
+            ]
+        },
+        "metadata": {
+            "uuid": "ExteriorLightingDesign_LightingControl_IndicatorResponseTime_@0014dc44",
+            "description": [
+                "Allocated to building block LightingControl. Second segment of the EL-RSP-1 budget. Starting the on-phase on state entry matters: waiting for the first 1 s blink tick would alone exceed 200 ms."
+            ],
+            "name": "ExteriorLightingDesign_LightingControl_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

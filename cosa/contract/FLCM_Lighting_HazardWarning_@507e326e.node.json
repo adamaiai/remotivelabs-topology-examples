@@ -1,0 +1,24 @@
+{
+    "FLCM_Lighting_HazardWarning_@507e326e": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.3 Front turn lamps follow the requests**\n\nFLCM_Lighting shall light Lamp_FrontLeftTurn while LeftTurnLightRequest is 1 and Lamp_FrontRightTurn while RightTurnLightRequest is 1, as received in each TurnLightControl frame.\n\nIt shall add no flashing, filtering or timing of its own.",
+            "status": "delivered"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "FLCM_Lighting_@0aa1054f"
+            ]
+        },
+        "metadata": {
+            "uuid": "FLCM_Lighting_HazardWarning_@507e326e",
+            "description": [
+                "Obligation of FLCM_Lighting as FrontLighting in ExteriorLightingDesign (EL-HAZ-1.3).",
+                "",
+                "FLCM is a supplier lamp module. Its realization ImplementedFLCM_Lighting is the interface specification body_can.dbc, which lists FLCM as receiver of TurnLightControl; the lamp behaviour is part of the supplier delivery."
+            ],
+            "name": "FLCM_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

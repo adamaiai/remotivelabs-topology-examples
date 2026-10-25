@@ -1,0 +1,24 @@
+{
+    "SCCM_Lighting_IndicatorResponseTime_@d9dbdff3": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.1 Input to bus within 50 ms**\n\nSCCM_Lighting shall put a change of the turn stalk or the hazard warning button on DriverCan0 within 50 ms, in the next TurnStalk or HazardLightButton frame of the 50 ms cycle.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "SCCM_Lighting_@de006ceb"
+            ]
+        },
+        "metadata": {
+            "uuid": "SCCM_Lighting_IndicatorResponseTime_@d9dbdff3",
+            "description": [
+                "Obligation of SCCM_Lighting as LightingRequestSensing in ExteriorLightingDesign (EL-RSP-1.1).",
+                "",
+                "Realized by ImplementedSCCM_Lighting: the MappingModel writes the new value into the restbus frame as soon as the evdev event arrives, and the restbus sends it at the next cycle. The bus part is allocated to DriverCan0 (DriverCan0_LightingInputs_Cycle) through CommunicateAllocation_DriverCan0."
+            ],
+            "name": "SCCM_Lighting_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

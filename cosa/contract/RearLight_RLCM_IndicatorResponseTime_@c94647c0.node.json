@@ -1,0 +1,22 @@
+{
+    "RearLight_RLCM_IndicatorResponseTime_@c94647c0": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-RSP-1.4.1 Forward to LIN within 5 ms**\n\nRLCM_Lighting shall write ReqLeft and ReqRight of DEVMLIN01Fr01 within 5 ms of receiving the TurnLightControl frame, so that the next scheduled DEVMLIN01Fr01 slot carries them.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "RearLight_RLCM_@a2749aba"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_RLCM_IndicatorResponseTime_@c94647c0",
+            "description": [
+                "Allocated to building block RLCM in RearLight. First segment of RearLight's 65 ms. 5 ms is the RLCM LIN master time base in rearlight.ldf."
+            ],
+            "name": "RearLight_RLCM_IndicatorResponseTime",
+            "version_schema": "4.6.2"
+        }
+    }
+}

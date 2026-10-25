@@ -1,0 +1,22 @@
+{
+    "LightingIndication_GWM_HazardWarning_@cda71cd5": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.5.2 Publish the turn state to infotainment**\n\nGWM_Lighting shall notify TurnlightControlEvent of the SOME/IP service TurnlightIndicator, with LeftTurnlight and RightTurnlight equal to the received LeftTurnLightRequest and RightTurnLightRequest, for every received TurnLightControl frame.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "LightingIndication_GWM_@94b06e1d"
+            ]
+        },
+        "metadata": {
+            "uuid": "LightingIndication_GWM_HazardWarning_@cda71cd5",
+            "description": [
+                "Allocated to building block GWM in LightingIndication. The infotainment domain is on SOME/IP and does not see BodyCan0; the GWM is the only path from TurnLightControl to it."
+            ],
+            "name": "LightingIndication_GWM_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

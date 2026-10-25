@@ -1,0 +1,26 @@
+{
+    "SatisfactionClaim_NonSafety_ImplementedSCCM_Lighting_@a28432b0": {
+        "stereotype": "SatisfactionClaim_NonSafety_Atomic",
+        "attributes": {},
+        "connections": {
+            "evidence": [
+                "NSEvidence_sccm_input_mappings_@906ccccb",
+                "NSEvidence_driver_can_dbc_@a9fde76c",
+                "NSEvidence_EL_Beam_Mode_Review_@eb548134"
+            ],
+            "satisfyingRealization": [
+                "ImplementedSCCM_Lighting_@5ba7df26"
+            ]
+        },
+        "metadata": {
+            "uuid": "SatisfactionClaim_NonSafety_ImplementedSCCM_Lighting_@a28432b0",
+            "description": [
+                "ImplementedSCCM_Lighting satisfies EL-HAZ-1.1 (SCCM_Lighting_HazardWarning) and EL-RSP-1.1 (SCCM_Lighting_IndicatorResponseTime): the input mappings copy the evdev button and stalk values to the HazardLightButton and TurnStalk restbus frames through lookup transforms only, and driver_can.dbc sends those frames every 50 ms.",
+                "",
+                "**Not claimed:** EL-BEAM-1.1 (SCCM_Lighting_BeamModes). The MOZA mappings meet it, the Logitech G29 mapping does not (EL_Beam_Mode_Review.md)."
+            ],
+            "name": "SatisfactionClaim_NonSafety_ImplementedSCCM_Lighting",
+            "version_schema": "4.6.2"
+        }
+    }
+}

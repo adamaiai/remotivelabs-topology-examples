@@ -1,0 +1,22 @@
+{
+    "RearLight_DEVS2_HazardWarning_@85b1dbda": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.4.2 Rear turn lamps follow ReqLeft and ReqRight**\n\nDEVS2_Lighting shall light Lamp_RearLeftTurn while ReqLeft is 1 and Lamp_RearRightTurn while ReqRight is 1, as received in each DEVMLIN01Fr01 frame.\n\nIt shall add no flashing, filtering or timing of its own.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "RearLight_DEVS2_@aa8e188d"
+            ]
+        },
+        "metadata": {
+            "uuid": "RearLight_DEVS2_HazardWarning_@85b1dbda",
+            "description": [
+                "Allocated to building block DEVS2 in RearLight. DEVS2 drives the rear turn lamps. Following ReqLeft/ReqRight as written by RLCM closes the chain from TurnLightControl to the rear lamps."
+            ],
+            "name": "RearLight_DEVS2_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "RationaleClaim_NonSafety_LightingIndication_HazardWarning_@db5ba348": {
+        "stereotype": "RationaleClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "composedComponent": [
+                "LightingIndication_@3d02c741"
+            ],
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
+            ],
+            "refinedConstraint": [
+                "LightingIndication_HazardWarning_@16481425"
+            ],
+            "refiningConstraint": [
+                "LightingIndication_DIM_HazardWarning_@32e3551f",
+                "LightingIndication_GWM_HazardWarning_@cda71cd5"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_NonSafety_LightingIndication_HazardWarning_@db5ba348",
+            "description": [
+                "EL-HAZ-1.5 on LightingIndication is implied by EL-HAZ-1.5.1 and 1.5.2: the DIM lights the cluster turn telltales from TurnLightControl, and the GWM passes the same values on to the TurnlightIndicator SOME/IP service for the infotainment domain.",
+                "",
+                "IHU takes no part in EL-HAZ-1: the telltale is the operating indication, the infotainment mirror a convenience. The IHU_Lighting TurnlightControlEvent handler is a stub today, which this argument does not rely on.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  in[\"TurnLightControl\"] --> dim[\"DIM<br/>1.5.1 telltales\"]",
+                "  in --> gwm[\"GWM<br/>1.5.2 publish\"]",
+                "  gwm -->|\"TurnlightControlEvent\"| ihu[\"IHU<br/>not relied on\"]",
+                "```"
+            ],
+            "name": "RationaleClaim_NonSafety_LightingIndication_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

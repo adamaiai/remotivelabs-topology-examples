@@ -1,0 +1,38 @@
+{
+    "RationaleClaim_NonSafety_RearLight_HazardWarning_@ab3e0733": {
+        "stereotype": "RationaleClaim_NonSafety_Composition",
+        "attributes": {},
+        "connections": {
+            "composedComponent": [
+                "RearLight_@be64e290"
+            ],
+            "evidence": [
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
+            ],
+            "refinedConstraint": [
+                "RearLight_HazardWarning_@908d29eb"
+            ],
+            "refiningConstraint": [
+                "RearLight_RLCM_HazardWarning_@4cb46453",
+                "RearLight_DEVS2_HazardWarning_@85b1dbda"
+            ]
+        },
+        "metadata": {
+            "uuid": "RationaleClaim_NonSafety_RearLight_HazardWarning_@ab3e0733",
+            "description": [
+                "EL-HAZ-1.4 on RearLight is implied by EL-HAZ-1.4.1 and 1.4.2: RLCM copies Left/RightTurnLightRequest one to one to ReqLeft/ReqRight on RearLightLIN, and DEVS2 lights the rear turn lamps from ReqLeft/ReqRight. Neither adds timing or state, so the rear lamps follow TurnLightControl.",
+                "",
+                "RL takes no part: it answers only RLCM's diagnostic counter (SomeReq1, counter_times_2) and drives no turn lamp.",
+                "",
+                "```mermaid",
+                "flowchart LR",
+                "  in[\"TurnLightControl\"] --> rlcm[\"RLCM<br/>1.4.1 copy\"]",
+                "  rlcm -->|\"ReqLeft, ReqRight\"| devs2[\"DEVS2<br/>1.4.2 follow\"]",
+                "  devs2 --> out[\"Lamp_RearLeftTurn<br/>Lamp_RearRightTurn\"]",
+                "```"
+            ],
+            "name": "RationaleClaim_NonSafety_RearLight_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

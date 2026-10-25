@@ -1,0 +1,39 @@
+{
+    "BCM_Lighting_HazardWarning_@a01e7a8d": {
+        "stereotype": "OuterInformalConstraint",
+        "attributes": {
+            "content": "**EL-HAZ-1.2 Hazard toggle, precedence and resume**\n\nBCM_Lighting shall switch hazard warning on, or off, at each change of HazardLightButton from 0 to 1.\n\nWhile hazard warning is on, it shall flash LeftTurnLightRequest and RightTurnLightRequest together, setting both to the same value in every TurnLightControl frame, and ignore the turn stalk.\n\nWhen hazard warning is switched off, it shall continue on the side given by the last TurnStalk.TurnSignal value, or set both requests to 0 when the stalk is neutral.",
+            "status": "verified"
+        },
+        "connections": {
+            "ConstrainedComponent": [
+                "BCM_Lighting_@7d7ffa2c"
+            ]
+        },
+        "metadata": {
+            "uuid": "BCM_Lighting_HazardWarning_@a01e7a8d",
+            "description": [
+                "Obligation of BCM_Lighting as LightingControl in ExteriorLightingDesign (EL-HAZ-1.2).",
+                "",
+                "```mermaid",
+                "stateDiagram-v2",
+                "  [*] --> Off",
+                "  Off --> Hazard: button 0 to 1",
+                "  Left --> Hazard: button 0 to 1",
+                "  Right --> Hazard: button 0 to 1",
+                "  Hazard --> Left: button 0 to 1, stalk left",
+                "  Hazard --> Right: button 0 to 1, stalk right",
+                "  Hazard --> Off: button 0 to 1, stalk neutral",
+                "  Off --> Left: stalk left",
+                "  Off --> Right: stalk right",
+                "  Left --> Off: stalk neutral",
+                "  Right --> Off: stalk neutral",
+                "```",
+                "",
+                "Realized by ImplementedBCM_Lighting: on_hazard_button() detects the 0 to 1 edge, and TurnSignalsStateMachine (state_machines/turn_signals.py) leaves hazard for left, right or off by the last stalk position. hazard_on/hazard_off set left and right in the same restbus update."
+            ],
+            "name": "BCM_Lighting_HazardWarning",
+            "version_schema": "4.6.2"
+        }
+    }
+}

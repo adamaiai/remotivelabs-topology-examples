@@ -1,0 +1,411 @@
+{
+  "claims": {
+    "ac0afa40-27b8-45ba-b265-c29dcfbf5d63": {
+      "claim_id": "ac0afa40-27b8-45ba-b265-c29dcfbf5d63",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedSCCM_Lighting_@5ba7df26",
+      "text": "EL-HAZ-1.1 covers the input side of EL-HAZ-1: SCCM reports the hazard button and the turn stalk as raw states every 50 ms on DriverCan0. A press of at least 100 ms spans a whole cycle, so it reaches LightingControl in at least one frame, and the stalk keeps being reported while hazard is on, so LightingControl always knows the side to resume. SCCM interprets nothing, which keeps all toggle and precedence logic in one place.",
+      "outer_ref_ids": [
+        "cosa::b479376d"
+      ],
+      "inner_ref_ids": [
+        "cosa::eeb53a6f",
+        "cosa::6b7fb213"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709913+00:00",
+      "updated_at": "2026-10-24T06:58:28.709913+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "77117f0d-0d31-4b53-b466-fef0f09b934c": {
+      "claim_id": "77117f0d-0d31-4b53-b466-fef0f09b934c",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedBCM_Lighting_@1fe8ef8b",
+      "text": "EL-HAZ-1.2 is the decision part of EL-HAZ-1. BCM toggles on the 0 to 1 edge of HazardLightButton, so each press toggles exactly once however long it is held. While hazard is on it writes both turn requests with the same value into the same TurnLightControl frame and ignores the stalk; when hazard goes off it resumes the side of the last stalk position, or stops. This gives the push-push behaviour, the precedence over the stalk and the resume rule of EL-HAZ-1.",
+      "outer_ref_ids": [
+        "cosa::b479376d"
+      ],
+      "inner_ref_ids": [
+        "cosa::e86bff8b",
+        "cosa::a01e7a8d"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709937+00:00",
+      "updated_at": "2026-10-24T06:58:28.709937+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "0f3ef1b0-0dc2-4209-a1b0-6cb46012b278": {
+      "claim_id": "0f3ef1b0-0dc2-4209-a1b0-6cb46012b278",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedFLCM_Lighting_@92d1fe4a",
+      "text": "EL-HAZ-1.3 makes the front turn lamps follow the left and right requests of TurnLightControl with no flashing or timing of their own. Since LightingControl writes both requests into one frame, the front lamps flash together during hazard, and in phase with every other follower of that frame.",
+      "outer_ref_ids": [
+        "cosa::b479376d"
+      ],
+      "inner_ref_ids": [
+        "cosa::1a01ebbd",
+        "cosa::507e326e"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709947+00:00",
+      "updated_at": "2026-10-24T06:58:28.709947+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "a7c4dd87-7557-4f1c-847e-46200dac759b": {
+      "claim_id": "a7c4dd87-7557-4f1c-847e-46200dac759b",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedRearLight_@3b2f326e",
+      "text": "EL-HAZ-1.4 makes the rear turn lamps follow the same TurnLightControl frame as the front lamps, with no timing of their own. Together with EL-HAZ-1.3 this lights all four direction indicators together during hazard. RearLight argues the obligation further onto RLCM and DEVS2.",
+      "outer_ref_ids": [
+        "cosa::b479376d"
+      ],
+      "inner_ref_ids": [
+        "cosa::abcd4bfb",
+        "cosa::908d29eb"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709954+00:00",
+      "updated_at": "2026-10-24T06:58:28.709954+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "1e8aef75-deb1-4b81-93c3-15c40cff3bee": {
+      "claim_id": "1e8aef75-deb1-4b81-93c3-15c40cff3bee",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedLightingIndication_@716ced1d",
+      "text": "EL-HAZ-1.5 gives the driver indication EL-HAZ-1 requires: the cluster turn telltales follow the same TurnLightControl frame as the lamps, so both telltales flash with the lamps during hazard. Passing the state on to infotainment keeps the infotainment HMI consistent but is not relied on for the indication.",
+      "outer_ref_ids": [
+        "cosa::b479376d"
+      ],
+      "inner_ref_ids": [
+        "cosa::4164eabf",
+        "cosa::16481425"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709961+00:00",
+      "updated_at": "2026-10-24T06:58:28.709961+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "92ebe590-59ee-47a4-b5e4-0dbca6e035ee": {
+      "claim_id": "92ebe590-59ee-47a4-b5e4-0dbca6e035ee",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedSCCM_Lighting_@5ba7df26",
+      "text": "EL-RSP-1.1 is the first segment of the 200 ms budget: at most 50 ms, one DriverCan0 cycle, from the stalk or button change to the frame carrying it. The bus part is allocated to DriverCan0 (DriverCan0_LightingInputs_Cycle).",
+      "outer_ref_ids": [
+        "cosa::0f7f1adf"
+      ],
+      "inner_ref_ids": [
+        "cosa::d2512309",
+        "cosa::d9dbdff3"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709967+00:00",
+      "updated_at": "2026-10-24T06:58:28.709967+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "04f3c1d7-7944-4e79-b7a9-ce26ed8d2625": {
+      "claim_id": "04f3c1d7-7944-4e79-b7a9-ce26ed8d2625",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedBCM_Lighting_@1fe8ef8b",
+      "text": "EL-RSP-1.2 is the second segment: at most 60 ms from the input frame to the TurnLightControl frame with the new state, 10 ms processing plus one 50 ms BodyCan0 cycle. Starting the on-phase on state entry, not at the first 1 s blink tick, is what makes this segment possible at all. Processing is allocated to BCM_ECU, the cycle to BodyCan0.",
+      "outer_ref_ids": [
+        "cosa::0f7f1adf"
+      ],
+      "inner_ref_ids": [
+        "cosa::0014dc44",
+        "cosa::ae37c6a0"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709974+00:00",
+      "updated_at": "2026-10-24T06:58:28.709974+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "b17d553f-8c00-4cdb-83f3-423e11ec93d3": {
+      "claim_id": "b17d553f-8c00-4cdb-83f3-423e11ec93d3",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedFLCM_Lighting_@92d1fe4a",
+      "text": "EL-RSP-1.3 closes the front path: 10 to 20 ms from TurnLightControl to the front lamp, so the front lamp changes at most 50 + 60 + 20 = 130 ms after the input. Its 10 ms lower bound also limits how much later the rear lamp can be: 65 - 10 = 55 ms, within the 80 ms phase limit.",
+      "outer_ref_ids": [
+        "cosa::0f7f1adf"
+      ],
+      "inner_ref_ids": [
+        "cosa::05499c88",
+        "cosa::e884cce6"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.709979+00:00",
+      "updated_at": "2026-10-24T06:58:28.709979+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "3009f8f5-ca71-4849-a75d-4435d2c2a417": {
+      "claim_id": "3009f8f5-ca71-4849-a75d-4435d2c2a417",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedRearLight_@3b2f326e",
+      "text": "EL-RSP-1.4 closes the rear path: 10 to 65 ms from TurnLightControl to the rear lamp, so the rear lamp changes at most 50 + 60 + 65 = 175 ms after the input, within 200 ms. Front and rear lamps are driven by the same TurnLightControl transmission, so only the lamp paths differ: rear later by at most 55 ms, front later by at most 10 ms, both within 80 ms. See EL_Indicator_Response_Time_Analysis.md.",
+      "outer_ref_ids": [
+        "cosa::0f7f1adf"
+      ],
+      "inner_ref_ids": [
+        "cosa::112e1931",
+        "cosa::5700c2ed"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710141+00:00",
+      "updated_at": "2026-10-24T06:58:28.710141+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "5135037f-8b99-4199-be17-14fbcae83039": {
+      "claim_id": "5135037f-8b99-4199-be17-14fbcae83039",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedSCCM_Lighting_@5ba7df26",
+      "text": "EL-BEAM-1.1 is the assumption LightingControl places on its input: the light-mode value only steps between adjacent positions, each held at least one 50 ms cycle, and high beam arrives on LightStalk.HighBeam. It is what makes 'from any previous selection' hold with a step-by-step state machine in the BCM. Open finding: the Logitech G29 mapping jumps Off to LowBeam and writes high beam to a frame the DBC does not define, so this premise fails for the G29 (EL_Beam_Mode_Review.md).",
+      "outer_ref_ids": [
+        "cosa::f203ee81"
+      ],
+      "inner_ref_ids": [
+        "cosa::7cc89438",
+        "cosa::fc5efc12"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710148+00:00",
+      "updated_at": "2026-10-24T06:58:28.710148+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "cadc33f9-0813-4221-8de9-4847deb0f3b8": {
+      "claim_id": "cadc33f9-0813-4221-8de9-4847deb0f3b8",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedBCM_Lighting_@1fe8ef8b",
+      "text": "EL-BEAM-1.2 is the decision part of EL-BEAM-1: the BCM maps the light mode to identical left and right daylight running and low-beam requests (Off 0/0, DRL 1/0, LowBeam 1/1) and copies the high-beam stalk to both sides. Identical requests per side give 'both sides lit alike'; the DRL request stays set with low beam because dimming is the lamp module's job.",
+      "outer_ref_ids": [
+        "cosa::f203ee81"
+      ],
+      "inner_ref_ids": [
+        "cosa::b3e02dbc",
+        "cosa::5eeae691"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710155+00:00",
+      "updated_at": "2026-10-24T06:58:28.710155+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "e8b3f0b3-dc32-44e3-8862-cd742557815f": {
+      "claim_id": "e8b3f0b3-dc32-44e3-8862-cd742557815f",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedFLCM_Lighting_@92d1fe4a",
+      "text": "EL-BEAM-1.3 lights the front daylight running, low-beam and high-beam lamps from the requests, and dims the daylight running lamps to position level while low beam is on. With EL-BEAM-1.2 this yields the lamp table of EL-BEAM-1 and high beam on both sides.",
+      "outer_ref_ids": [
+        "cosa::f203ee81"
+      ],
+      "inner_ref_ids": [
+        "cosa::6e72d7aa",
+        "cosa::22ff3f1d"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710161+00:00",
+      "updated_at": "2026-10-24T06:58:28.710161+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "c9c602bb-9b1c-4c7e-8457-cc046866fa52": {
+      "claim_id": "c9c602bb-9b1c-4c7e-8457-cc046866fa52",
+      "parent_cr_id": "ImplementedExteriorLightingDesign_@ed7de822",
+      "child_cr_id": "ImplementedLightingIndication_@716ced1d",
+      "text": "EL-BEAM-1.4 lights the cluster high-beam telltale while either high-beam request is set, which is the telltale part of EL-BEAM-1.",
+      "outer_ref_ids": [
+        "cosa::f203ee81"
+      ],
+      "inner_ref_ids": [
+        "cosa::f429d176",
+        "cosa::ff1c4957"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710167+00:00",
+      "updated_at": "2026-10-24T06:58:28.710167+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "484b0970-c4eb-49d2-9146-6266413d3929": {
+      "claim_id": "484b0970-c4eb-49d2-9146-6266413d3929",
+      "parent_cr_id": "ImplementedRearLight_@3b2f326e",
+      "child_cr_id": "ImplementedRLCM_Lighting_@ec68984f",
+      "text": "EL-HAZ-1.4.1: RLCM copies LeftTurnLightRequest and RightTurnLightRequest one to one to ReqLeft and ReqRight of DEVMLIN01Fr01 for every TurnLightControl frame, without latching or filtering. The flashing decided by LightingControl therefore arrives unchanged on RearLightLIN. RL takes no part: it only answers RLCM's diagnostic counter.",
+      "outer_ref_ids": [
+        "cosa::abcd4bfb",
+        "cosa::908d29eb"
+      ],
+      "inner_ref_ids": [
+        "cosa::4cb46453",
+        "cosa::d424e5db"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710173+00:00",
+      "updated_at": "2026-10-24T06:58:28.710173+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "c5316eb5-b5c0-469b-b578-0c8a60c460ee": {
+      "claim_id": "c5316eb5-b5c0-469b-b578-0c8a60c460ee",
+      "parent_cr_id": "ImplementedRearLight_@3b2f326e",
+      "child_cr_id": "ImplementedDEVS2_Lighting_@a00e84c3",
+      "text": "EL-HAZ-1.4.2: DEVS2 lights Lamp_RearLeftTurn and Lamp_RearRightTurn from ReqLeft and ReqRight with no timing of its own. With RLCM's one-to-one copy, the rear turn lamps follow TurnLightControl, which is EL-HAZ-1.4.",
+      "outer_ref_ids": [
+        "cosa::abcd4bfb",
+        "cosa::908d29eb"
+      ],
+      "inner_ref_ids": [
+        "cosa::85b1dbda",
+        "cosa::4fd8322b"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710180+00:00",
+      "updated_at": "2026-10-24T06:58:28.710180+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "8835934c-6b7b-490d-a4d8-9b6114202894": {
+      "claim_id": "8835934c-6b7b-490d-a4d8-9b6114202894",
+      "parent_cr_id": "ImplementedRearLight_@3b2f326e",
+      "child_cr_id": "ImplementedRLCM_Lighting_@ec68984f",
+      "text": "EL-RSP-1.4.1: RLCM writes ReqLeft and ReqRight within 5 ms (its LIN master time base). The value then waits at most 30 ms for the next DEVMLIN01Fr01 slot and is on the bus at the end of the 10 ms slot, which RearLightLIN_TurnRequest_Schedule constrains. RLCM plus LIN: 0 to 45 ms of RearLight's 10 to 65 ms.",
+      "outer_ref_ids": [
+        "cosa::112e1931",
+        "cosa::5700c2ed"
+      ],
+      "inner_ref_ids": [
+        "cosa::c94647c0",
+        "cosa::fc4a3579"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710186+00:00",
+      "updated_at": "2026-10-24T06:58:28.710186+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "bdac7821-dc93-4561-a492-b3d33cbe9822": {
+      "claim_id": "bdac7821-dc93-4561-a492-b3d33cbe9822",
+      "parent_cr_id": "ImplementedRearLight_@3b2f326e",
+      "child_cr_id": "ImplementedDEVS2_Lighting_@a00e84c3",
+      "text": "EL-RSP-1.4.2: DEVS2 reacts 10 to 20 ms after DEVMLIN01Fr01. Added to RLCM plus LIN (0 to 45 ms) this gives 10 to 65 ms from TurnLightControl to the rear lamp, which is EL-RSP-1.4.",
+      "outer_ref_ids": [
+        "cosa::112e1931",
+        "cosa::5700c2ed"
+      ],
+      "inner_ref_ids": [
+        "cosa::012a5d2e",
+        "cosa::d77805ce"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710192+00:00",
+      "updated_at": "2026-10-24T06:58:28.710192+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "f0f50345-530e-4fde-a96e-cdcb889b89e4": {
+      "claim_id": "f0f50345-530e-4fde-a96e-cdcb889b89e4",
+      "parent_cr_id": "ImplementedLightingIndication_@716ced1d",
+      "child_cr_id": "ImplementedDIM_Lighting_@e8faebdf",
+      "text": "EL-HAZ-1.5.1: the DIM receives TurnLightControl directly, the same frame the lamp modules receive, and lights the left and right cluster turn telltales from it. That is the telltale part of EL-HAZ-1.5.",
+      "outer_ref_ids": [
+        "cosa::4164eabf",
+        "cosa::16481425"
+      ],
+      "inner_ref_ids": [
+        "cosa::32e3551f",
+        "cosa::655a9b28"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710199+00:00",
+      "updated_at": "2026-10-24T06:58:28.710199+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "40dd55b2-d02d-4787-903c-43918a493e2a": {
+      "claim_id": "40dd55b2-d02d-4787-903c-43918a493e2a",
+      "parent_cr_id": "ImplementedLightingIndication_@716ced1d",
+      "child_cr_id": "ImplementedGWM_Lighting_@308761b7",
+      "text": "EL-HAZ-1.5.2: the GWM notifies TurnlightControlEvent of the TurnlightIndicator SOME/IP service with the received left and right requests for every TurnLightControl frame. That is the 'pass the state to infotainment' part of EL-HAZ-1.5. IHU takes no part: the infotainment display is a convenience, and its handler is a stub today.",
+      "outer_ref_ids": [
+        "cosa::4164eabf",
+        "cosa::16481425"
+      ],
+      "inner_ref_ids": [
+        "cosa::cda71cd5",
+        "cosa::835f9e66"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710205+00:00",
+      "updated_at": "2026-10-24T06:58:28.710205+00:00",
+      "created_by": "henrik@gudab.se"
+    },
+    "af6bff86-a2d3-4c0b-a623-4af07400ca10": {
+      "claim_id": "af6bff86-a2d3-4c0b-a623-4af07400ca10",
+      "parent_cr_id": "ImplementedLightingIndication_@716ced1d",
+      "child_cr_id": "ImplementedDIM_Lighting_@e8faebdf",
+      "text": "EL-BEAM-1.4.1: the DIM receives HighBeamLightControl directly and lights Cluster_HighBeamTelltale while either high-beam request is set. GWM and IHU take no part in the high-beam telltale.",
+      "outer_ref_ids": [
+        "cosa::f429d176",
+        "cosa::ff1c4957"
+      ],
+      "inner_ref_ids": [
+        "cosa::0cedb170",
+        "cosa::2757d7e4"
+      ],
+      "kind": "justified",
+      "source_claim_id": null,
+      "source_parent_cr_id": null,
+      "source_child_cr_id": null,
+      "created_at": "2026-10-24T06:58:28.710212+00:00",
+      "updated_at": "2026-10-24T06:58:28.710212+00:00",
+      "created_by": "henrik@gudab.se"
+    }
+  }
+}

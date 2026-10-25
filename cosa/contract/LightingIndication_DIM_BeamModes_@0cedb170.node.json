@@ -1,0 +1,22 @@
+{
+    "LightingIndication_DIM_BeamModes_@0cedb170": {
+        "stereotype": "InnerInformalConstraint",
+        "attributes": {
+            "content": "**EL-BEAM-1.4.1 Cluster high-beam telltale**\n\nDIM_Lighting shall light Cluster_HighBeamTelltale while LeftHighBeamLightRequest or RightHighBeamLightRequest is 1, as received in each HighBeamLightControl frame.",
+            "status": "reviewed"
+        },
+        "connections": {
+            "Constrained_Placeholder": [
+                "LightingIndication_DIM_@9456d695"
+            ]
+        },
+        "metadata": {
+            "uuid": "LightingIndication_DIM_BeamModes_@0cedb170",
+            "description": [
+                "Allocated to building block DIM in LightingIndication. The DIM owns the cluster telltales and receives HighBeamLightControl directly."
+            ],
+            "name": "LightingIndication_DIM_BeamModes",
+            "version_schema": "4.6.2"
+        }
+    }
+}
