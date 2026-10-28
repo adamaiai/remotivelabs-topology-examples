@@ -4,20 +4,20 @@
         "attributes": {},
         "connections": {
             "evidence": [
-                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
                 "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
-                "NSEvidence_test_turn_lights_@798521fc",
-                "NSEvidence_hazard_light_feature_@1b4ada75"
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
+                "NSEvidence_hazard_light_feature_@1b4ada75",
+                "NSEvidence_test_turn_lights_@798521fc"
             ],
             "satisfyingRealization": [
                 "ImplementedExteriorLightingDesign_@ed7de822"
             ],
             "validInputToIntegration": [
-                "ImplementedSCCM_Lighting_@5ba7df26",
                 "ImplementedBCM_Lighting_@1fe8ef8b",
                 "ImplementedFLCM_Lighting_@92d1fe4a",
+                "ImplementedLightingIndication_@716ced1d",
                 "ImplementedRearLight_@3b2f326e",
-                "ImplementedLightingIndication_@716ced1d"
+                "ImplementedSCCM_Lighting_@5ba7df26"
             ]
         },
         "metadata": {

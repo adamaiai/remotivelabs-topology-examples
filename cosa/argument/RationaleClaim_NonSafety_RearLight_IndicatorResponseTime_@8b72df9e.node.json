@@ -13,8 +13,8 @@
                 "RearLight_IndicatorResponseTime_@5700c2ed"
             ],
             "refiningConstraint": [
-                "RearLight_RLCM_IndicatorResponseTime_@c94647c0",
-                "RearLight_DEVS2_IndicatorResponseTime_@012a5d2e"
+                "RearLight_DEVS2_IndicatorResponseTime_@012a5d2e",
+                "RearLight_RLCM_IndicatorResponseTime_@c94647c0"
             ]
         },
         "metadata": {

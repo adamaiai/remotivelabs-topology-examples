@@ -4,8 +4,8 @@
         "attributes": {},
         "connections": {
             "evidence": [
-                "NSEvidence_rearlight_ldf_@99d4e251",
-                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
+                "NSEvidence_rearlight_ldf_@99d4e251"
             ],
             "satisfyingRealization": [
                 "ImplementedDEVS2_Lighting_@a00e84c3"

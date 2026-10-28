@@ -4,8 +4,8 @@
         "attributes": {},
         "connections": {
             "evidence": [
-                "NSEvidence_gwm_forwarding_code_@5f86c95c",
-                "NSEvidence_body_can_dbc_@b43df989"
+                "NSEvidence_body_can_dbc_@b43df989",
+                "NSEvidence_gwm_forwarding_code_@5f86c95c"
             ],
             "satisfyingRealization": [
                 "ImplementedGWM_Lighting_@308761b7"

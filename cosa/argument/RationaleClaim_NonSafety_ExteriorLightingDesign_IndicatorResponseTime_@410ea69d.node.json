@@ -7,16 +7,16 @@
                 "ExteriorLightingDesign_@b093b118"
             ],
             "evidence": [
-                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
-                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
             ],
             "refinedConstraint": [
                 "ExteriorLightingDesign_IndicatorResponseTime_@0f7f1adf"
             ],
             "refiningConstraint": [
-                "ExteriorLightingDesign_LightingRequestSensing_IndicatorResponseTime_@d2512309",
-                "ExteriorLightingDesign_LightingControl_IndicatorResponseTime_@0014dc44",
                 "ExteriorLightingDesign_FrontLighting_IndicatorResponseTime_@05499c88",
+                "ExteriorLightingDesign_LightingControl_IndicatorResponseTime_@0014dc44",
+                "ExteriorLightingDesign_LightingRequestSensing_IndicatorResponseTime_@d2512309",
                 "ExteriorLightingDesign_RearLighting_IndicatorResponseTime_@112e1931"
             ]
         },

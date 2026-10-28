@@ -4,10 +4,10 @@
         "attributes": {},
         "connections": {
             "evidence": [
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
                 "NSEvidence_bcm_lighting_code_@915677e0",
-                "NSEvidence_test_turn_lights_@798521fc",
                 "NSEvidence_hazard_light_feature_@1b4ada75",
-                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+                "NSEvidence_test_turn_lights_@798521fc"
             ],
             "satisfyingRealization": [
                 "ImplementedBCM_Lighting_@1fe8ef8b"

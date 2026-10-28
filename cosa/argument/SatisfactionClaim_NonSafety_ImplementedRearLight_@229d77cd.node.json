@@ -4,15 +4,15 @@
         "attributes": {},
         "connections": {
             "evidence": [
-                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
-                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
             ],
             "satisfyingRealization": [
                 "ImplementedRearLight_@3b2f326e"
             ],
             "validInputToIntegration": [
-                "ImplementedRLCM_Lighting_@ec68984f",
-                "ImplementedDEVS2_Lighting_@a00e84c3"
+                "ImplementedDEVS2_Lighting_@a00e84c3",
+                "ImplementedRLCM_Lighting_@ec68984f"
             ]
         },
         "metadata": {

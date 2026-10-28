@@ -4,9 +4,9 @@
         "attributes": {},
         "connections": {
             "evidence": [
-                "NSEvidence_sccm_input_mappings_@906ccccb",
+                "NSEvidence_EL_Beam_Mode_Review_@eb548134",
                 "NSEvidence_driver_can_dbc_@a9fde76c",
-                "NSEvidence_EL_Beam_Mode_Review_@eb548134"
+                "NSEvidence_sccm_input_mappings_@906ccccb"
             ],
             "satisfyingRealization": [
                 "ImplementedSCCM_Lighting_@5ba7df26"

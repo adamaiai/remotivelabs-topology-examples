@@ -7,17 +7,17 @@
                 "ExteriorLightingDesign_@b093b118"
             ],
             "evidence": [
-                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624",
-                "NSEvidence_EL_Beam_Mode_Review_@eb548134"
+                "NSEvidence_EL_Beam_Mode_Review_@eb548134",
+                "NSEvidence_EL_Requirements_Breakdown_@c3dbe624"
             ],
             "refinedConstraint": [
                 "ExteriorLightingDesign_BeamModes_@f203ee81"
             ],
             "refiningConstraint": [
-                "ExteriorLightingDesign_LightingRequestSensing_BeamModes_@7cc89438",
-                "ExteriorLightingDesign_LightingControl_BeamModes_@b3e02dbc",
                 "ExteriorLightingDesign_FrontLighting_BeamModes_@6e72d7aa",
-                "ExteriorLightingDesign_LightingIndication_BeamModes_@f429d176"
+                "ExteriorLightingDesign_LightingControl_BeamModes_@b3e02dbc",
+                "ExteriorLightingDesign_LightingIndication_BeamModes_@f429d176",
+                "ExteriorLightingDesign_LightingRequestSensing_BeamModes_@7cc89438"
             ]
         },
         "metadata": {

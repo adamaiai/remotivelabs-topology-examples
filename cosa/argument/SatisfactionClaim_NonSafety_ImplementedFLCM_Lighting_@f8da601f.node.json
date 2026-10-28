@@ -4,9 +4,9 @@
         "attributes": {},
         "connections": {
             "evidence": [
+                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d",
                 "NSEvidence_body_can_dbc_@b43df989",
-                "NSEvidence_test_turn_lights_@798521fc",
-                "NSEvidence_EL_Indicator_Response_Time_Analysis_@1cc6cd2d"
+                "NSEvidence_test_turn_lights_@798521fc"
             ],
             "satisfyingRealization": [
                 "ImplementedFLCM_Lighting_@92d1fe4a"

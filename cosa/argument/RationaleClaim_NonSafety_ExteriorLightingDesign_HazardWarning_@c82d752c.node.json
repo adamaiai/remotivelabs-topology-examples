@@ -13,11 +13,11 @@
                 "ExteriorLightingDesign_HazardWarning_@b479376d"
             ],
             "refiningConstraint": [
-                "ExteriorLightingDesign_LightingRequestSensing_HazardWarning_@eeb53a6f",
-                "ExteriorLightingDesign_LightingControl_HazardWarning_@e86bff8b",
                 "ExteriorLightingDesign_FrontLighting_HazardWarning_@1a01ebbd",
-                "ExteriorLightingDesign_RearLighting_HazardWarning_@abcd4bfb",
-                "ExteriorLightingDesign_LightingIndication_HazardWarning_@4164eabf"
+                "ExteriorLightingDesign_LightingControl_HazardWarning_@e86bff8b",
+                "ExteriorLightingDesign_LightingIndication_HazardWarning_@4164eabf",
+                "ExteriorLightingDesign_LightingRequestSensing_HazardWarning_@eeb53a6f",
+                "ExteriorLightingDesign_RearLighting_HazardWarning_@abcd4bfb"
             ]
         },
         "metadata": {
